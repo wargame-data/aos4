@@ -94,5 +94,8 @@
       "color": "Green",
       "abilityCategory": "Offensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Stormcast Eternals"
+  }
 }

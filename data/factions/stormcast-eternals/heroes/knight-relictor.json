@@ -52,6 +52,9 @@
       "abilityCategory": "Offensive"
     }
   ],
+  "publication": {
+    "name": "Battletome: Stormcast Eternals"
+  },
   "isWizard": null,
   "isPriest": 1,
   "isUnique": false,

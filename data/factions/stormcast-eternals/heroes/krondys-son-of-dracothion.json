@@ -108,6 +108,9 @@
       "abilityCategory": "Special"
     }
   ],
+  "publication": {
+    "name": "Battletome: Stormcast Eternals"
+  },
   "isWizard": 2,
   "isPriest": null,
   "isUnique": true,

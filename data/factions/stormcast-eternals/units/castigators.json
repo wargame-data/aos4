@@ -79,5 +79,8 @@
       "color": "Blue",
       "abilityCategory": "Shooting"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome Supplement: Stormcast Eternals"
+  }
 }

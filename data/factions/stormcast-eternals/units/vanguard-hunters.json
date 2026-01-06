@@ -79,5 +79,8 @@
       "color": "Yellow",
       "abilityCategory": "Special"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Stormcast Eternals"
+  }
 }

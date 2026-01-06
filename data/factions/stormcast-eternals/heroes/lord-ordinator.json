@@ -55,6 +55,9 @@
       "abilityCategory": "Shooting"
     }
   ],
+  "publication": {
+    "name": "Battletome Supplement: Stormcast Eternals"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": false,

@@ -16,6 +16,7 @@ import {
   getAllProfiles,
   getCategoryLinks,
   getPointsCost,
+  getAllCosts,
   getConstraint,
   hasCategory,
 } from "../xml/traverser.js";
@@ -41,6 +42,14 @@ import {
 } from "./ability.mapper.js";
 
 /**
+ * Non-ability rule attached to a unit (e.g., base size, restrictions)
+ */
+export interface Rule {
+  name: string;
+  description: string;
+}
+
+/**
  * aos-data Unit type
  */
 export interface Unit {
@@ -58,6 +67,18 @@ export interface Unit {
   maxSize?: number;
   canReinforce?: boolean;
   reinforcementCost?: number;
+  isCollective?: boolean;
+  costs?: {
+    destinyPoints?: number;
+    ptgCategory?: number;
+    ghbCategory?: number;
+  };
+  rules?: Rule[];
+  publication?: {
+    name: string;
+    shortName?: string;
+    page?: string;
+  };
   weapons: Weapon[];
   abilities?: Ability[];
   notes?: string;
@@ -155,6 +176,32 @@ export class UnitMapper extends BaseMapper<UnitMapperInput, Unit | Hero> {
 
     if (abilities.length > 0) {
       unit.abilities = abilities;
+    }
+
+    // Check if this is a collective/swarm unit
+    if (this.isCollectiveUnit(entry)) {
+      unit.isCollective = true;
+    }
+
+    // Extract alternative costs (destiny points, PTG/GHB categories)
+    const allCosts = getAllCosts(entry);
+    if (allCosts.destinyPoints || allCosts.ptgCategory || allCosts.ghbCategory) {
+      unit.costs = {};
+      if (allCosts.destinyPoints) unit.costs.destinyPoints = allCosts.destinyPoints;
+      if (allCosts.ptgCategory) unit.costs.ptgCategory = allCosts.ptgCategory;
+      if (allCosts.ghbCategory) unit.costs.ghbCategory = allCosts.ghbCategory;
+    }
+
+    // Extract non-ability rules
+    const rules = this.extractRules(entry);
+    if (rules.length > 0) {
+      unit.rules = rules;
+    }
+
+    // Extract publication reference
+    const publication = this.extractPublication(entry);
+    if (publication) {
+      unit.publication = publication;
     }
 
     // If hero, add hero-specific fields
@@ -414,6 +461,78 @@ export class UnitMapper extends BaseMapper<UnitMapperInput, Unit | Hero> {
     }
 
     return [];
+  }
+
+  /**
+   * Check if a unit is a collective/swarm unit.
+   * Collective units track casualties collectively rather than individually.
+   */
+  private isCollectiveUnit(entry: BSSelectionEntry): boolean {
+    // Check if the entry itself is marked collective
+    if (entry.$.collective === "true") {
+      return true;
+    }
+
+    // Check child model entries for collective flag
+    if (entry.selectionEntries) {
+      for (const child of entry.selectionEntries) {
+        if (child.$.type === "model" && child.$.collective === "true") {
+          return true;
+        }
+      }
+    }
+
+    return false;
+  }
+
+  /**
+   * Extract non-ability rules from the entry.
+   * These include base size info, restrictions, and other special rules.
+   */
+  private extractRules(entry: BSSelectionEntry): Rule[] {
+    if (!entry.rules) {
+      return [];
+    }
+
+    return entry.rules
+      .filter((rule) => rule.$.hidden !== "true")
+      .map((rule) => ({
+        name: rule.$.name,
+        description: rule.description?.[0] || "",
+      }))
+      .filter((rule) => rule.description.length > 0);
+  }
+
+  /**
+   * Extract publication reference from the entry.
+   * Uses the publication resolver if available, otherwise returns raw data.
+   */
+  private extractPublication(
+    entry: BSSelectionEntry
+  ): { name: string; shortName?: string; page?: string } | undefined {
+    const publicationId = entry.$.publicationId;
+    const page = entry.$.page;
+
+    if (!publicationId) {
+      return undefined;
+    }
+
+    // If we have a resolver, use it to get the full publication name
+    if (this.options.publicationResolver) {
+      const resolved = this.options.publicationResolver.resolve(publicationId, page);
+      if (resolved) {
+        return resolved;
+      }
+    }
+
+    // Fallback: return the publication ID as the name if no resolver
+    const result: { name: string; shortName?: string; page?: string } = {
+      name: publicationId,
+    };
+    if (page) {
+      result.page = page;
+    }
+    return result;
   }
 }
 

@@ -253,6 +253,56 @@ export function getPointsCost(entry: BSSelectionEntry): number {
 }
 
 /**
+ * All cost types available in BSData
+ */
+export interface AllCosts {
+  pts: number;
+  destinyPoints?: number;
+  ptgCategory?: number;
+  ghbCategory?: number;
+}
+
+/**
+ * Get all cost types for an entry (points, destiny points, PTG/GHB categories)
+ */
+export function getAllCosts(entry: BSSelectionEntry): AllCosts {
+  const costs: AllCosts = { pts: 0 };
+
+  if (!entry.costs) {
+    return costs;
+  }
+
+  for (const cost of entry.costs) {
+    if (!cost || !cost.$) continue;
+
+    const name = cost.$.name?.toLowerCase();
+    const typeId = cost.$.typeId;
+    const value = cost.$.value ? parseInt(cost.$.value, 10) : 0;
+
+    if (isNaN(value)) continue;
+
+    // Points cost
+    if (name === "pts" || name === "points") {
+      costs.pts = value;
+    }
+    // Destiny Points (typeId: bc33-05f5-8d3f-af43)
+    else if (typeId === "bc33-05f5-8d3f-af43" || name === "destiny points") {
+      costs.destinyPoints = value;
+    }
+    // PTG Category (typeId: e63c-79ff-93ba-c5eb)
+    else if (typeId === "e63c-79ff-93ba-c5eb") {
+      costs.ptgCategory = value;
+    }
+    // GHB Category (typeId: de92-2099-fbf7-a156)
+    else if (typeId === "de92-2099-fbf7-a156") {
+      costs.ghbCategory = value;
+    }
+  }
+
+  return costs;
+}
+
+/**
  * Get a specific cost by name
  */
 export function getCost(entry: BSSelectionEntry, costName: string): number {

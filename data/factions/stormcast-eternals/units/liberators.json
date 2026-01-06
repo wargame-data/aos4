@@ -63,5 +63,8 @@
       "color": "Purple",
       "abilityCategory": "Control"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Stormcast Eternals"
+  }
 }

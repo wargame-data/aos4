@@ -78,5 +78,8 @@
       "color": "Blue",
       "abilityCategory": "Special"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome Supplement: Stormcast Eternals"
+  }
 }

@@ -8,6 +8,7 @@ import { existsSync, mkdirSync, writeFileSync, readFileSync } from "fs";
 import { join, dirname } from "path";
 import type { Unit, Hero } from "../mappers/unit.mapper.js";
 import type { Lore } from "../mappers/lore.mapper.js";
+import type { Manifestation } from "../mappers/manifestation.mapper.js";
 import { FACTIONS_DIR, DATA_DIR } from "../config.js";
 
 /**
@@ -145,6 +146,7 @@ export function ensureFactionStructure(
 
   ensureDir(join(factionDir, "heroes"));
   ensureDir(join(factionDir, "units"));
+  ensureDir(join(factionDir, "manifestations"));
   ensureDir(join(factionDir, "battle-formations"));
   ensureDir(join(factionDir, "lores"));
 }
@@ -340,4 +342,38 @@ export function writeRegimentsOfRenown<T extends { id: string }>(
   baseDir?: string
 ): WriteResult[] {
   return regiments.map((regiment) => writeRegimentOfRenown(regiment, options, baseDir));
+}
+
+/**
+ * Determine output path for a manifestation
+ */
+export function getManifestationOutputPath(
+  manifestation: Manifestation,
+  baseDir?: string
+): string {
+  const dir = baseDir || FACTIONS_DIR;
+  return join(dir, manifestation.faction, "manifestations", `${manifestation.id}.json`);
+}
+
+/**
+ * Write a manifestation to its appropriate location
+ */
+export function writeManifestation(
+  manifestation: Manifestation,
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult {
+  const path = getManifestationOutputPath(manifestation, baseDir);
+  return writeJson(path, manifestation, options);
+}
+
+/**
+ * Write multiple manifestations
+ */
+export function writeManifestations(
+  manifestations: Manifestation[],
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult[] {
+  return manifestations.map((manifestation) => writeManifestation(manifestation, options, baseDir));
 }

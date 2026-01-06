@@ -74,6 +74,9 @@
       "abilityCategory": "Movement"
     }
   ],
+  "publication": {
+    "name": "Battletome: Stormcast Eternals"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": true,

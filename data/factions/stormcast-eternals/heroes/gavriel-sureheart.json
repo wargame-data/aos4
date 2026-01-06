@@ -63,6 +63,9 @@
       "abilityCategory": "Rallying"
     }
   ],
+  "publication": {
+    "name": "Battletome Supplement: Stormcast Eternals"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": true,

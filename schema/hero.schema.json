@@ -100,6 +100,71 @@
       "type": "boolean",
       "description": "Whether the unit can be reinforced"
     },
+    "isCollective": {
+      "type": "boolean",
+      "description": "Whether the unit is a collective/swarm unit (tracks casualties collectively)"
+    },
+    "costs": {
+      "type": "object",
+      "description": "Alternative cost types for different game formats",
+      "properties": {
+        "destinyPoints": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Destiny Points cost"
+        },
+        "ptgCategory": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Path to Glory category value"
+        },
+        "ghbCategory": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "General's Handbook category value"
+        }
+      },
+      "additionalProperties": false
+    },
+    "rules": {
+      "type": "array",
+      "description": "Non-ability rules attached to the hero (e.g., base size, restrictions)",
+      "items": {
+        "type": "object",
+        "required": ["name", "description"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Rule name"
+          },
+          "description": {
+            "type": "string",
+            "description": "Rule description/text"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "publication": {
+      "type": "object",
+      "description": "Source publication reference",
+      "required": ["name"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Publication name"
+        },
+        "shortName": {
+          "type": "string",
+          "description": "Short/abbreviated publication name"
+        },
+        "page": {
+          "type": "string",
+          "description": "Page number reference"
+        }
+      },
+      "additionalProperties": false
+    },
     "weapons": {
       "type": "array",
       "items": { "$ref": "weapon.schema.json" },

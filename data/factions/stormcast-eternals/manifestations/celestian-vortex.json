@@ -1,0 +1,53 @@
+{
+  "$schema": "https://aos-data.org/schema/manifestation.schema.json",
+  "id": "celestian-vortex",
+  "name": "Celestian Vortex",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 7,
+    "save": "6+",
+    "banishment": 7
+  },
+  "keywords": [
+    "ENDLESS SPELL",
+    "FLY",
+    "MANIFESTATION",
+    "ORDER",
+    "STORMCAST ETERNALS",
+    "WARD (6+)"
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "publication": {
+    "name": "Battletome: Stormcast Eternals"
+  },
+  "baseSize": "60mm",
+  "weapons": [
+    {
+      "name": "Storm of Vengeance",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Tornado of Magic",
+      "type": "passive",
+      "effect": "Subtract 1 from hit rolls for shooting attacks made by enemy units while they are within 12\" of this **^^Manifestation^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ]
+}

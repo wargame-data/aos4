@@ -4,6 +4,8 @@
  * Abstract base class for all mappers with strict mode support.
  */
 
+import type { PublicationResolver } from "../xml/publications.js";
+
 export interface StrictModeError {
   type: string;
   message: string;
@@ -22,6 +24,7 @@ export interface MapperOptions {
   factionId: string;
   grandAlliance?: string;
   catalogueName?: string;
+  publicationResolver?: PublicationResolver;
 }
 
 export abstract class BaseMapper<TInput, TOutput> {

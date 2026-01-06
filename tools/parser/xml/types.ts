@@ -27,6 +27,7 @@ export interface BSGameSystem {
   sharedRules?: BSRule[];
   selectionEntries?: BSSelectionEntry[];
   entryLinks?: BSEntryLink[];
+  publications?: BSPublication[];
 }
 
 // Catalogue (.cat) root element

@@ -17,8 +17,10 @@ import {
 } from "./github/clone.js";
 import { getRepoCachePath, isCacheValid, getCacheAge } from "./github/cache.js";
 import { parseCat, parseGst } from "./xml/reader.js";
-import { findUnits, getFactionId, isLibrary, extractPointsFromEntryLinks } from "./xml/traverser.js";
+import { findUnits, findManifestations, getFactionId, isLibrary, extractPointsFromEntryLinks } from "./xml/traverser.js";
+import { PublicationResolver } from "./xml/publications.js";
 import { UnitMapper, type Unit, type Hero } from "./mappers/unit.mapper.js";
+import { ManifestationMapper, type Manifestation } from "./mappers/manifestation.mapper.js";
 import { mapBattleFormations, type BattleFormation } from "./mappers/battle-formation.mapper.js";
 import { mapHeroicTraits, mapArtefactsOfPower, type EnhancementCollection } from "./mappers/enhancement.mapper.js";
 import { mapRegimentsOfRenown, type RegimentOfRenown } from "./mappers/regiment-of-renown.mapper.js";
@@ -34,6 +36,7 @@ import {
   ensureEnhancementsDir,
   ensureRegimentsOfRenownDir,
   writeRegimentsOfRenown,
+  writeManifestations,
 } from "./output/writer.js";
 import { mapLores, type Lore } from "./mappers/lore.mapper.js";
 import {
@@ -74,6 +77,7 @@ interface FactionParseResult {
   factionId: string;
   factionName: string;
   units: (Unit | Hero)[];
+  manifestations: Manifestation[];
   battleFormations: BattleFormation[];
   heroicTraits: EnhancementCollection | null;
   artefacts: EnhancementCollection | null;
@@ -157,8 +161,11 @@ async function syncCommand(options: CLIOptions): Promise<void> {
   const catalogueFiles = await findCatalogueFiles(bsdataPath);
   log.info(`Found ${catalogueFiles.length} catalogue files\n`);
 
+  // Load publication resolver from game system
+  const publicationResolver = await loadPublicationResolver(bsdataPath, log);
+
   // Parse all factions
-  const results = await parseAllFactions(catalogueFiles, options, log);
+  const results = await parseAllFactions(catalogueFiles, options, log, publicationResolver);
 
   // Parse lores from Lores.cat
   const lores = await parseLores(bsdataPath, options, log);
@@ -238,7 +245,10 @@ async function parseCommand(options: CLIOptions): Promise<void> {
     process.exit(4);
   }
 
-  const results = await parseAllFactions([matchingFile], options, log);
+  // Load publication resolver from game system
+  const publicationResolver = await loadPublicationResolver(bsdataPath, log);
+
+  const results = await parseAllFactions([matchingFile], options, log, publicationResolver);
 
   if (!options.skipValidate) {
     const valid = await validateResults(results, log);
@@ -429,12 +439,36 @@ function findLoresFile(bsdataPath: string): string | null {
 }
 
 /**
+ * Load publication resolver from game system
+ */
+async function loadPublicationResolver(
+  bsdataPath: string,
+  log: Logger
+): Promise<PublicationResolver> {
+  const resolver = new PublicationResolver();
+  const gameSystemFile = join(bsdataPath, "Age of Sigmar 4.0.gst");
+
+  if (existsSync(gameSystemFile)) {
+    try {
+      const gameSystem = await parseGst(gameSystemFile);
+      resolver.loadFromGameSystem(gameSystem);
+      log.verbose(`Loaded ${resolver.size} publications from game system`);
+    } catch (error) {
+      log.warn(`Failed to load publications from game system: ${error}`);
+    }
+  }
+
+  return resolver;
+}
+
+/**
  * Parse all factions from catalogue files
  */
 async function parseAllFactions(
   files: string[],
   options: CLIOptions,
-  log: Logger
+  log: Logger,
+  publicationResolver?: PublicationResolver
 ): Promise<FactionParseResult[]> {
   const results: FactionParseResult[] = [];
 
@@ -454,11 +488,17 @@ async function parseAllFactions(
       const pointsMap = await loadPointsForFaction(file, log);
       log.verbose(`  Loaded ${pointsMap.size} point costs`);
 
+      // Load publications from this catalogue too (may have additional ones)
+      if (publicationResolver) {
+        publicationResolver.loadFromCatalogue(catalogue);
+      }
+
       const mapperOptions: MapperOptions = {
         strict: options.strict,
         factionId,
         grandAlliance,
         catalogueName: catalogue.$.name,
+        publicationResolver,
       };
 
       const unitEntries = findUnits(catalogue);
@@ -493,6 +533,31 @@ async function parseAllFactions(
         }
       }
 
+      // Extract manifestations (endless spells)
+      const manifestationEntries = findManifestations(catalogue);
+      log.verbose(`  Found ${manifestationEntries.length} manifestations`);
+
+      const manifestationMapper = new ManifestationMapper(mapperOptions);
+      const manifestations: Manifestation[] = [];
+
+      for (const entry of manifestationEntries) {
+        try {
+          const manifestation = manifestationMapper.map({ entry, catalogue });
+          // Apply points from the non-library catalogue
+          const entryId = entry.$.id;
+          if (pointsMap.has(entryId)) {
+            manifestation.points = pointsMap.get(entryId)!;
+          }
+          manifestations.push(manifestation);
+        } catch (error) {
+          const msg = `Failed to map manifestation ${entry.$.name}: ${error}`;
+          errors.push(msg);
+          if (options.strict) {
+            throw error;
+          }
+        }
+      }
+
       // Load battle formations and enhancements from non-library catalogue
       const { battleFormations, heroicTraits, artefacts } = await loadFormationsAndEnhancements(file, mapperOptions, log);
 
@@ -500,6 +565,7 @@ async function parseAllFactions(
         factionId,
         factionName: catalogue.$.name,
         units,
+        manifestations,
         battleFormations,
         heroicTraits,
         artefacts,
@@ -507,7 +573,7 @@ async function parseAllFactions(
       });
 
       const enhancementCount = (heroicTraits?.enhancements.length || 0) + (artefacts?.enhancements.length || 0);
-      log.info(`  ${factionId}: ${units.length} units, ${battleFormations.length} formations, ${enhancementCount} enhancements`);
+      log.info(`  ${factionId}: ${units.length} units, ${manifestations.length} manifestations, ${battleFormations.length} formations, ${enhancementCount} enhancements`);
     } catch (error) {
       log.error(`Failed to parse ${file}: ${error}`);
       if (options.strict) {
@@ -748,6 +814,12 @@ async function writeResults(
       );
     }
 
+    // Write manifestations
+    if (result.manifestations.length > 0) {
+      const manifestationResults = writeManifestations(result.manifestations, { dryRun: false }, outputDir);
+      log.verbose(`  Wrote ${manifestationResults.length} manifestations`);
+    }
+
     // Write battle formations
     if (result.battleFormations.length > 0) {
       const formationResults = writeBattleFormations(result.battleFormations, { dryRun: false }, outputDir);
@@ -771,7 +843,7 @@ async function writeResults(
 
     const formationCount = result.battleFormations.length;
     const enhancementCount = (result.heroicTraits?.enhancements.length || 0) + (result.artefacts?.enhancements.length || 0);
-    log.info(`  ${result.factionId}: ${result.units.length} units, ${formationCount} formations, ${enhancementCount} enhancements written`);
+    log.info(`  ${result.factionId}: ${result.units.length} units, ${result.manifestations.length} manifestations, ${formationCount} formations, ${enhancementCount} enhancements written`);
   }
 }
 
@@ -784,12 +856,14 @@ function printSummary(results: FactionParseResult[], loresCount: number, regimen
   log.info("=".repeat(40));
 
   let totalUnits = 0;
+  let totalManifestations = 0;
   let totalFormations = 0;
   let totalEnhancements = 0;
   let totalErrors = 0;
 
   for (const result of results) {
     totalUnits += result.units.length;
+    totalManifestations += result.manifestations.length;
     totalFormations += result.battleFormations.length;
     totalEnhancements += (result.heroicTraits?.enhancements.length || 0) + (result.artefacts?.enhancements.length || 0);
     totalErrors += result.errors.length;
@@ -797,6 +871,7 @@ function printSummary(results: FactionParseResult[], loresCount: number, regimen
 
   log.info(`Factions: ${results.length}`);
   log.info(`Units: ${totalUnits}`);
+  log.info(`Manifestations: ${totalManifestations}`);
   log.info(`Battle Formations: ${totalFormations}`);
   log.info(`Enhancements: ${totalEnhancements}`);
   log.info(`Lores: ${loresCount}`);
