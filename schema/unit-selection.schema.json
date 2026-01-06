@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://aos-data.org/schema/unit-selection.schema.json",
+  "title": "Unit Selection",
+  "description": "A unit or hero selection in an army list with count information",
+  "type": "object",
+  "properties": {
+    "unitId": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "reinforced": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "unitId",
+    "count"
+  ],
+  "additionalProperties": false
+}

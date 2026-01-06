@@ -4,86 +4,272 @@
   "title": "Faction",
   "description": "Faction metadata for Age of Sigmar 4th Edition",
   "type": "object",
-  "required": ["id", "name", "grandAlliance"],
   "properties": {
     "$schema": {
-      "type": "string",
-      "description": "Reference to this schema"
+      "type": "string"
     },
     "id": {
       "type": "string",
-      "pattern": "^[a-z0-9-]+$",
-      "description": "Unique identifier (kebab-case)"
+      "pattern": "^[a-z0-9-]+$"
     },
     "name": {
-      "type": "string",
-      "description": "Display name of the faction"
+      "type": "string"
     },
     "grandAlliance": {
       "type": "string",
-      "enum": ["order", "chaos", "death", "destruction"],
-      "description": "Grand Alliance this faction belongs to"
+      "enum": [
+        "order",
+        "chaos",
+        "death",
+        "destruction"
+      ]
     },
     "armyKeywords": {
       "type": "array",
-      "items": { "type": "string" },
-      "description": "Keywords that apply to the army (e.g., 'STORMCAST ETERNALS')"
+      "items": {
+        "type": "string"
+      }
     },
     "armyAbilities": {
       "type": "array",
-      "items": { "$ref": "ability.schema.json" },
-      "description": "Faction-wide battle traits"
-    },
-    "lores": {
-      "type": "array",
       "items": {
         "type": "object",
-        "required": ["name", "type"],
         "properties": {
           "name": {
             "type": "string"
           },
           "type": {
             "type": "string",
-            "enum": ["spell", "prayer", "manifestation"]
+            "enum": [
+              "passive",
+              "reaction",
+              "once-per-turn",
+              "once-per-battle",
+              "spell",
+              "prayer",
+              "command"
+            ]
           },
-          "file": {
+          "phase": {
             "type": "string",
-            "description": "Reference to the lore file"
+            "enum": [
+              "any",
+              "hero",
+              "movement",
+              "shooting",
+              "charge",
+              "combat",
+              "end"
+            ]
+          },
+          "castingValue": {
+            "type": "integer",
+            "minimum": 2,
+            "maximum": 12
+          },
+          "chantingValue": {
+            "type": "integer",
+            "minimum": 2,
+            "maximum": 6
+          },
+          "declare": {
+            "type": "string"
+          },
+          "effect": {
+            "type": "string"
+          },
+          "keywords": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "color": {
+            "type": "string",
+            "enum": [
+              "Black",
+              "Blue",
+              "Gray",
+              "Green",
+              "Orange",
+              "Purple",
+              "Red",
+              "Yellow"
+            ]
+          },
+          "abilityCategory": {
+            "type": "string",
+            "enum": [
+              "Offensive",
+              "Defensive",
+              "Movement",
+              "Control",
+              "Special",
+              "Rallying",
+              "Shooting"
+            ]
+          },
+          "modifiers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "set",
+                    "increment",
+                    "decrement",
+                    "append",
+                    "add",
+                    "remove"
+                  ]
+                },
+                "field": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                },
+                "conditions": {
+                  "type": "object",
+                  "properties": {
+                    "logic": {
+                      "type": "string",
+                      "enum": [
+                        "and",
+                        "or"
+                      ]
+                    },
+                    "conditions": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "enum": [
+                              "equalTo",
+                              "notEqualTo",
+                              "lessThan",
+                              "greaterThan",
+                              "atLeast",
+                              "atMost",
+                              "instanceOf"
+                            ]
+                          },
+                          "value": {
+                            "type": "string"
+                          },
+                          "field": {
+                            "type": "string"
+                          },
+                          "scope": {
+                            "type": "string"
+                          },
+                          "childId": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "value",
+                          "field"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "groups": {
+                      "type": "array",
+                      "items": {}
+                    }
+                  },
+                  "required": [
+                    "logic"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "type",
+                "field",
+                "value"
+              ],
+              "additionalProperties": false
+            }
           }
         },
+        "required": [
+          "name",
+          "type",
+          "effect"
+        ],
         "additionalProperties": false
-      },
-      "description": "Available spell/prayer lores"
+      }
+    },
+    "lores": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "spell",
+              "prayer",
+              "manifestation"
+            ]
+          },
+          "file": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "type"
+        ],
+        "additionalProperties": false
+      }
     },
     "battleFormations": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["name", "file"],
         "properties": {
-          "name": { "type": "string" },
-          "file": { "type": "string" }
+          "name": {
+            "type": "string"
+          },
+          "file": {
+            "type": "string"
+          }
         },
+        "required": [
+          "name",
+          "file"
+        ],
         "additionalProperties": false
-      },
-      "description": "References to battle formation files"
+      }
     },
     "_meta": {
       "type": "object",
       "properties": {
         "lastUpdated": {
-          "type": "string",
-          "format": "date",
-          "description": "Date of last update (YYYY-MM-DD)"
+          "type": "string"
         },
         "source": {
-          "type": "string",
-          "description": "Official source document"
+          "type": "string"
         }
       },
       "additionalProperties": false
     }
   },
+  "required": [
+    "id",
+    "name",
+    "grandAlliance"
+  ],
   "additionalProperties": false
 }

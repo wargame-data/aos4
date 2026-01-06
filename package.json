@@ -17,7 +17,9 @@
     "parser:sync": "npm run build && node dist/tools/parser/index.js sync",
     "parser:diff": "npm run build && node dist/tools/parser/index.js diff",
     "parser:list": "npm run build && node dist/tools/parser/index.js list",
-    "test": "npm run build && npm run validate",
+    "schema:generate": "node dist/tools/schemas/generate.js",
+    "schema:build": "npm run build && npm run schema:generate",
+    "test": "npm run build && npm run schema:generate && npm run validate",
     "prepublishOnly": "npm run test"
   },
   "bin": {
@@ -36,6 +38,9 @@
     "type": "git",
     "url": "https://github.com/aos-data/aos-data.git"
   },
+  "dependencies": {
+    "zod": "^3.24.1"
+  },
   "devDependencies": {
     "@types/diff": "^7.0.2",
     "@types/node": "^25.0.3",
@@ -49,6 +54,7 @@
     "ora": "^9.0.0",
     "simple-git": "^3.30.0",
     "typescript": "^5.9.3",
-    "xml2js": "^0.6.2"
+    "xml2js": "^0.6.2",
+    "zod-to-json-schema": "^3.24.1"
   }
 }

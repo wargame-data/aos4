@@ -4,6 +4,371 @@
   "title": "Manifestation",
   "description": "A manifestation (endless spell) warscroll for Age of Sigmar 4th Edition",
   "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "faction": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "grandAlliance": {
+      "type": "string",
+      "enum": [
+        "order",
+        "chaos",
+        "death",
+        "destruction"
+      ]
+    },
+    "points": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "move": {
+          "type": "string",
+          "pattern": "^(\\d+|D6|D6\\+\\d+)\"$"
+        },
+        "health": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "save": {
+          "type": "string"
+        },
+        "banishment": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "move",
+        "health",
+        "save",
+        "banishment"
+      ],
+      "additionalProperties": false
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "baseSize": {
+      "type": "string"
+    },
+    "costs": {
+      "type": "object",
+      "properties": {
+        "destinyPoints": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "ptgCategory": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "ghbCategory": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "publication": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "shortName": {
+          "type": "string"
+        },
+        "page": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "additionalProperties": false
+    },
+    "weapons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "melee",
+              "ranged"
+            ]
+          },
+          "range": {
+            "type": "string",
+            "pattern": "^\\d+\"$"
+          },
+          "attacks": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 1
+              },
+              {
+                "type": "string",
+                "pattern": "^\\d?[dD]\\d+.*$"
+              }
+            ]
+          },
+          "hit": {
+            "type": "string",
+            "pattern": "^\\d\\+$"
+          },
+          "wound": {
+            "type": "string",
+            "pattern": "^\\d\\+$"
+          },
+          "rend": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4
+          },
+          "damage": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 1
+              },
+              {
+                "type": "string",
+                "pattern": "^\\d?[dD]\\d+.*$"
+              }
+            ]
+          },
+          "abilities": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "name",
+          "type",
+          "attacks",
+          "hit",
+          "wound",
+          "rend",
+          "damage"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "abilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "passive",
+              "reaction",
+              "once-per-turn",
+              "once-per-battle",
+              "spell",
+              "prayer",
+              "command"
+            ]
+          },
+          "phase": {
+            "type": "string",
+            "enum": [
+              "any",
+              "hero",
+              "movement",
+              "shooting",
+              "charge",
+              "combat",
+              "end"
+            ]
+          },
+          "castingValue": {
+            "type": "integer",
+            "minimum": 2,
+            "maximum": 12
+          },
+          "chantingValue": {
+            "type": "integer",
+            "minimum": 2,
+            "maximum": 6
+          },
+          "declare": {
+            "type": "string"
+          },
+          "effect": {
+            "type": "string"
+          },
+          "keywords": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "color": {
+            "type": "string",
+            "enum": [
+              "Black",
+              "Blue",
+              "Gray",
+              "Green",
+              "Orange",
+              "Purple",
+              "Red",
+              "Yellow"
+            ]
+          },
+          "abilityCategory": {
+            "type": "string",
+            "enum": [
+              "Offensive",
+              "Defensive",
+              "Movement",
+              "Control",
+              "Special",
+              "Rallying",
+              "Shooting"
+            ]
+          },
+          "modifiers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "set",
+                    "increment",
+                    "decrement",
+                    "append",
+                    "add",
+                    "remove"
+                  ]
+                },
+                "field": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                },
+                "conditions": {
+                  "type": "object",
+                  "properties": {
+                    "logic": {
+                      "type": "string",
+                      "enum": [
+                        "and",
+                        "or"
+                      ]
+                    },
+                    "conditions": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "enum": [
+                              "equalTo",
+                              "notEqualTo",
+                              "lessThan",
+                              "greaterThan",
+                              "atLeast",
+                              "atMost",
+                              "instanceOf"
+                            ]
+                          },
+                          "value": {
+                            "type": "string"
+                          },
+                          "field": {
+                            "type": "string"
+                          },
+                          "scope": {
+                            "type": "string"
+                          },
+                          "childId": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "value",
+                          "field"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "groups": {
+                      "type": "array",
+                      "items": {}
+                    }
+                  },
+                  "required": [
+                    "logic"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "type",
+                "field",
+                "value"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "name",
+          "type",
+          "effect"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "_meta": {
+      "type": "object",
+      "properties": {
+        "lastUpdated": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
   "required": [
     "id",
     "name",
@@ -12,137 +377,5 @@
     "stats",
     "keywords"
   ],
-  "properties": {
-    "$schema": {
-      "type": "string",
-      "description": "Reference to this schema"
-    },
-    "id": {
-      "type": "string",
-      "pattern": "^[a-z0-9-]+$",
-      "description": "Unique identifier (kebab-case)"
-    },
-    "name": {
-      "type": "string",
-      "description": "Display name of the manifestation"
-    },
-    "faction": {
-      "type": "string",
-      "pattern": "^[a-z0-9-]+$",
-      "description": "Faction identifier (kebab-case)"
-    },
-    "grandAlliance": {
-      "type": "string",
-      "enum": ["order", "chaos", "death", "destruction"],
-      "description": "Grand Alliance this manifestation belongs to"
-    },
-    "points": {
-      "type": "integer",
-      "minimum": 0,
-      "description": "Points cost for the manifestation"
-    },
-    "stats": {
-      "type": "object",
-      "required": ["move", "health", "save", "banishment"],
-      "properties": {
-        "move": {
-          "type": "string",
-          "pattern": "^(\\d+|D6|D6\\+\\d+)\"$",
-          "description": "Movement characteristic (e.g., '8\"')"
-        },
-        "health": {
-          "type": "integer",
-          "minimum": 1,
-          "description": "Health/wounds characteristic"
-        },
-        "save": {
-          "type": "string",
-          "description": "Save characteristic (e.g., '6+' or '-')"
-        },
-        "banishment": {
-          "type": "integer",
-          "minimum": 1,
-          "description": "Banishment characteristic"
-        }
-      },
-      "additionalProperties": false
-    },
-    "keywords": {
-      "type": "array",
-      "items": { "type": "string" },
-      "description": "All keywords for the manifestation"
-    },
-    "baseSize": {
-      "type": "string",
-      "description": "Base size description"
-    },
-    "costs": {
-      "type": "object",
-      "description": "Alternative cost types for different game formats",
-      "properties": {
-        "destinyPoints": {
-          "type": "integer",
-          "minimum": 0,
-          "description": "Destiny Points cost"
-        },
-        "ptgCategory": {
-          "type": "integer",
-          "minimum": 0,
-          "description": "Path to Glory category value"
-        },
-        "ghbCategory": {
-          "type": "integer",
-          "minimum": 0,
-          "description": "General's Handbook category value"
-        }
-      },
-      "additionalProperties": false
-    },
-    "publication": {
-      "type": "object",
-      "description": "Source publication reference",
-      "required": ["name"],
-      "properties": {
-        "name": {
-          "type": "string",
-          "description": "Publication name"
-        },
-        "shortName": {
-          "type": "string",
-          "description": "Short/abbreviated publication name"
-        },
-        "page": {
-          "type": "string",
-          "description": "Page number reference"
-        }
-      },
-      "additionalProperties": false
-    },
-    "weapons": {
-      "type": "array",
-      "items": { "$ref": "weapon.schema.json" },
-      "description": "Weapon profiles for the manifestation"
-    },
-    "abilities": {
-      "type": "array",
-      "items": { "$ref": "ability.schema.json" },
-      "description": "Manifestation abilities"
-    },
-    "_meta": {
-      "type": "object",
-      "properties": {
-        "lastUpdated": {
-          "type": "string",
-          "format": "date",
-          "description": "Date of last update (YYYY-MM-DD)"
-        },
-        "source": {
-          "type": "string",
-          "description": "Official source document"
-        }
-      },
-      "additionalProperties": false
-    }
-  },
   "additionalProperties": false
 }

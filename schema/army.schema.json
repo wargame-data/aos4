@@ -1,0 +1,184 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://aos-data.org/schema/army.schema.json",
+  "title": "Army",
+  "description": "A complete army list for Age of Sigmar 4th Edition",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "faction": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "grandAlliance": {
+      "type": "string",
+      "enum": [
+        "order",
+        "chaos",
+        "death",
+        "destruction"
+      ]
+    },
+    "battleFormation": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "regiments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "leader": {
+            "type": "object",
+            "properties": {
+              "unitId": {
+                "type": "string",
+                "pattern": "^[a-z0-9-]+$"
+              },
+              "count": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "reinforced": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "unitId",
+              "count"
+            ],
+            "additionalProperties": false
+          },
+          "units": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "unitId": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9-]+$"
+                },
+                "count": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "reinforced": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "unitId",
+                "count"
+              ],
+              "additionalProperties": false
+            },
+            "maxItems": 4
+          },
+          "regimentOfRenownId": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          }
+        },
+        "required": [
+          "leader"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "maxItems": 5
+    },
+    "auxiliary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "unitId": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "reinforced": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "unitId",
+          "count"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "enhancements": {
+      "type": "object",
+      "properties": {
+        "heroicTraits": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "heroId": {
+                "type": "string",
+                "pattern": "^[a-z0-9-]+$"
+              },
+              "enhancementId": {
+                "type": "string",
+                "pattern": "^[a-z0-9-]+$"
+              }
+            },
+            "required": [
+              "heroId",
+              "enhancementId"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "artefacts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "heroId": {
+                "type": "string",
+                "pattern": "^[a-z0-9-]+$"
+              },
+              "enhancementId": {
+                "type": "string",
+                "pattern": "^[a-z0-9-]+$"
+              }
+            },
+            "required": [
+              "heroId",
+              "enhancementId"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "factionTerrain": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "gameFormat": {
+      "type": "string",
+      "enum": [
+        "1000",
+        "2000",
+        "2500",
+        "path-to-glory"
+      ]
+    }
+  },
+  "required": [
+    "faction",
+    "grandAlliance",
+    "regiments"
+  ],
+  "additionalProperties": false
+}
