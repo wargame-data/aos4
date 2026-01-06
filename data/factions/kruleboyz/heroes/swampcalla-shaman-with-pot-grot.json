@@ -56,7 +56,7 @@
       "declare": "Pick a friendly **^^Kruleboyz Infantry^^** unit wholly within 12\" of this unit to be the target."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

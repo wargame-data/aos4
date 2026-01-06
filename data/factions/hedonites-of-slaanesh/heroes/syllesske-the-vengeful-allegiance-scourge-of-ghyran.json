@@ -79,7 +79,7 @@
       "effect": "When players are alternating picking units to use a **^^Fight^^** ability, when it is your turn to pick a unit, instead of picking 1 unit, you can pick a friendly non-**^^Hero Hedonites of Slaanesh Daemon^^** unit wholly within 18\" of this unit and a friendly non-**^^Hero Sybarite^^** unit wholly within 18\" of this unit. Resolve the second **^^Fight^^** ability immediately after the first."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": true,
   "canJoinRegiment": null

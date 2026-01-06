@@ -59,7 +59,7 @@
       "effect": "Add 1 to this unit’s power level while there are any friendly **^^Ironjawz^^** units that have 10 or more models wholly within 12\" of it."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

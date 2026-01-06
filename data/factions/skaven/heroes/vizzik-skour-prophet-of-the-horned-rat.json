@@ -99,7 +99,7 @@
     }
   ],
   "isWizard": null,
-  "isPriest": null,
+  "isPriest": 2,
   "isUnique": true,
   "canJoinRegiment": null,
   "regimentAllows": [

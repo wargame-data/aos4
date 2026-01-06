@@ -98,7 +98,7 @@
       "effect": "Apply the effect below that corresponds with the number of **daemonic power points** this unit has:\n**1** This unit has **^^Ward (6+)^^**.\n**2** This unit has **^^Ward (5+)^^**.\n**3** This unit has **^^Ward (4+)^^** against damage inflicted by **^^Spells^^**, **^^Prayers^^**, and abilites used by **^^Manifestations^^**. Otherwise, it has **^^Ward (5+)^^**."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

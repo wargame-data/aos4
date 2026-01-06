@@ -71,7 +71,7 @@
       "declare": "If this unit is in combat, pick this unit and up to 1 other visible friendly **^^Sacrosanct Chamber Cavalry^^** unit within its combat range to be the targets."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null,

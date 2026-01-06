@@ -57,7 +57,7 @@
       "effect": "Add 1 to the Attacks characteristic of this unit’s **Ravaging Claws** for the rest of the turn if this unit charged in the same turn."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

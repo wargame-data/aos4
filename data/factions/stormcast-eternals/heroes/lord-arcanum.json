@@ -57,7 +57,7 @@
       "effect": "Add 1 to casting rolls for this unit when it uses a SUMMON ability."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null,

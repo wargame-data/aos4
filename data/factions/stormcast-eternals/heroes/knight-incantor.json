@@ -58,7 +58,7 @@
       "effect": "While they are within 30\" of this unit, subtract 1 from casting rolls for enemy units when they use **^^Summon^^** abilities."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null,

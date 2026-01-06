@@ -80,7 +80,7 @@
       "effect": "Re-roll 1 of the dice in the casting roll."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": true,
   "canJoinRegiment": null

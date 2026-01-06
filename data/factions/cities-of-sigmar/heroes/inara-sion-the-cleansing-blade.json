@@ -77,7 +77,7 @@
       "declare": "Pick a visible friendly unit within 3\" of this unit to be the target."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": true,
   "canJoinRegiment": null

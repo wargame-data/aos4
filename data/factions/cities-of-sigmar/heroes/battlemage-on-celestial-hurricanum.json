@@ -69,7 +69,7 @@
       "declare": "Pick up to D3 visible friendly **^^Cities of Sigmar Human^^** units wholly within 12\" of this unit to be the targets."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

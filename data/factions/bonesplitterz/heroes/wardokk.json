@@ -54,7 +54,7 @@
       "declare": "Pick an enemy **^^Wizard^^** within 24\" of this unit to be the target."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

@@ -74,7 +74,7 @@
       "declare": "Pick up to 3 friendly **^^Vampire^^** units wholly within 12\" of this unit to be the targets."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

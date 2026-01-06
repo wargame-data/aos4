@@ -75,7 +75,7 @@
       "effect": "Friendly **^^Cities of Sigmar^^** units have **^^Ward (6+)^^** while they are wholly within 12\" of this unit."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

@@ -88,7 +88,7 @@
       "declare": "Pick a visible friendly **Awakened Wyldwood** wholly within 18\" of this unit to be the target."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

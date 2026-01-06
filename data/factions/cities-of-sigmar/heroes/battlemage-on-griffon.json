@@ -84,7 +84,7 @@
       "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Griffon’s Razor Claws and Twin Beaks** is 4."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

@@ -61,7 +61,7 @@
       "effect": "Add 1 to the Damage characteristic of this unit’s **Fire Breath** for attacks that target **^^Infantry^^**."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

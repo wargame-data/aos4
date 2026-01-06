@@ -104,7 +104,7 @@
       "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Colossal Blight Weapons** is 3."
     }
   ],
-  "isWizard": null,
+  "isWizard": 2,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

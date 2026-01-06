@@ -72,7 +72,7 @@
       "effect": "You can re-roll the charge roll for that **^^Charge^^** ability. Then, before the charge move is made, you can pick a friendly **Blood Knights** unit that is not in combat, is wholly within 12\" of this unit and has not used a **^^Charge^^** ability this turn to be the target. If this unit charges, then, immediately after the **^^Charge^^** ability used by this unit has been resolved, the target can immediately use the ‘Charge’ ability even if it is not your charge phase. In addition, you can re-roll charge rolls for the target this phase."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

@@ -50,7 +50,7 @@
       "declare": "Pick a friendly **^^Warriors of Chaos^^** unit wholly within 12\" of this unit to be the target and roll a dice."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

@@ -98,7 +98,7 @@
       "declare": "Pick a friendly **^^Sylvaneth^^** unit that has been destroyed to be the target. This unit can use this ability if it has been destroyed, but if it does, this unit must be the target."
     }
   ],
-  "isWizard": null,
+  "isWizard": 3,
   "isPriest": null,
   "isUnique": true,
   "canJoinRegiment": null

@@ -95,7 +95,7 @@
       "effect": "While a friendly **Dexcessa** is on the battlefield, add 1 to this unit’s power level."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": true,
   "canJoinRegiment": null

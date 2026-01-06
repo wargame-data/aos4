@@ -80,7 +80,7 @@
       "declare": "Pick a friendly non-**^^Hero Sybarite^^** unit and a friendly non-**^^Hero Hedonites of Slaanesh Daemon^^** unit to be the targets. Both units must be wholly within 12\" of this unit."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": true,
   "canJoinRegiment": null

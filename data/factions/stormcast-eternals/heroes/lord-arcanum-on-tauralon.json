@@ -81,7 +81,7 @@
       "declare": "Pick a visible enemy **^^Wizard^^** that used a **^^Spell^^** ability this phase and is within 30\" of this unit to be the target."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null,

@@ -50,7 +50,7 @@
       "declare": "Pick a visible friendly **^^Seraphon^^** unit wholly within 18\" of this unit to be the target."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

@@ -110,7 +110,7 @@
       "declare": "Pick up to 3 friendly **^^Deathrattle Infantry^^** or **^^Deadwalkers Infantry^^** units to be the targets."
     }
   ],
-  "isWizard": null,
+  "isWizard": 2,
   "isPriest": null,
   "isUnique": true,
   "canJoinRegiment": null

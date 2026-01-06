@@ -96,7 +96,7 @@
       "effect": "The unit using the ‘Redeploy’ command can move into combat when using that ability"
     }
   ],
-  "isWizard": null,
+  "isWizard": 2,
   "isPriest": null,
   "isUnique": true,
   "canJoinRegiment": null

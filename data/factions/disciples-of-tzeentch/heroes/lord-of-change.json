@@ -110,7 +110,7 @@
       "effect": "Subtract 1 from hit rolls for combat attacks that target friendly **^^Disciples of Tzeentch Daemon^^** units while they are wholly within 12\" of this unit."
     }
   ],
-  "isWizard": null,
+  "isWizard": 2,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

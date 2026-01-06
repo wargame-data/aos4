@@ -57,7 +57,7 @@
       "effect": "While this unit is within the combat range of a friendly **^^Knights^^** unit and has charged this turn, this unit has **^^Ward (5+)^^** and its **Gory Talons and Fangs** have **Charge (+1 Damage)**."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

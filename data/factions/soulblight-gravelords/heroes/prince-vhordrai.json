@@ -122,7 +122,7 @@
       "declare": "Pick a friendly non-**^^Monster Vampire^^** unit that destroyed a unit this turn using a **^^Fight^^** ability and is wholly within 12\" of this unit to be the target."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": true,
   "canJoinRegiment": null

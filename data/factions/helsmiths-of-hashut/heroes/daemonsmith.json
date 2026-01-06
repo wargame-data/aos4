@@ -64,7 +64,7 @@
       "declare": "Pick a friendly **^^Helsmiths of Hashut War Machine^^** wholly within 6\" of this unit to be the target. Add 6\" to the range of this ability for each **daemonic power point** this unit has."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

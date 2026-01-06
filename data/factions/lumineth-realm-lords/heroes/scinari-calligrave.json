@@ -50,7 +50,7 @@
       "effect": "Change the casting roll for that spell to a value of 8 that cannot be modified."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

@@ -91,7 +91,7 @@
       "effect": "When this unit moves, it can pass through models in enemy **^^Infantry^^** units and can pass through the combat ranges of enemy **^^Infantry^^** units, but it cannot end a move in combat unless specified in the ability used."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

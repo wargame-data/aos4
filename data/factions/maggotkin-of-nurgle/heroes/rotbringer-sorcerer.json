@@ -52,7 +52,7 @@
       "declare": "Pick an enemy unit that was picked to be the target of a spell that was successfully cast by this unit this phase to be the target."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

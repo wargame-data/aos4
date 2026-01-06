@@ -57,7 +57,7 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

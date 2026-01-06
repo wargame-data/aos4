@@ -84,7 +84,7 @@
       "effect": "Subtract 2 from the Attacks characteristic of enemy **^^Monsters^^’ melee weapons while they are in combat with this unit."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": true,
   "canJoinRegiment": null

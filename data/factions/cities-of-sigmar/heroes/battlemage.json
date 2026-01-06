@@ -48,7 +48,7 @@
       "effect": "Pick a **^^Spell^^** ability that this unit can use. For the rest of the battle, add 1 to casting rolls for this unit when it uses that **^^Spell^^** ability."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

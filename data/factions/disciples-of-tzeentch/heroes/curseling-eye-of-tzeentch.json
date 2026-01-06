@@ -72,7 +72,7 @@
       "effect": "Each time this unit unbinds a spell, roll a dice. On a 4+, subtract 1 from the power level of the enemy **^^Wizard^^** that used that **^^Spell^^** ability, to a minimum of 0, until the start of your next turn."
     }
   ],
-  "isWizard": null,
+  "isWizard": 2,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

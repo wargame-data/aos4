@@ -68,7 +68,7 @@
       "effect": "Add 1 to hit rolls for combat attacks made by friendly units that target a **^^Burning^^** enemy unit within 12\" of this unit."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

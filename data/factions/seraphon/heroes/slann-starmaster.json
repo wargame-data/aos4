@@ -80,7 +80,7 @@
       "declare": "Pick a friendly **^^Skink Wizard^^** wholly within 18\" of this unit to be the target."
     }
   ],
-  "isWizard": null,
+  "isWizard": 3,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

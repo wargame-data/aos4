@@ -83,7 +83,7 @@
       "effect": "If this unit charged this turn, for the rest of the turn, add 1 to wound rolls for combat attacks made by friendly **^^Deathrattle^^** and **^^Deadwalkers^^** units while they are wholly within 12\" of this unit."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": true,
   "canJoinRegiment": null

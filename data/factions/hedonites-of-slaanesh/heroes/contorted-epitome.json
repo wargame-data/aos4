@@ -55,7 +55,7 @@
       "effect": "If you make a successful ward roll for this unit, add 1 to this unit’s power level until the end of your next turn."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

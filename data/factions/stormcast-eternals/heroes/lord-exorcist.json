@@ -57,7 +57,7 @@
       "effect": "Models cannot be returned to enemy units within 12\" of this unit."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null,

@@ -78,7 +78,7 @@
       "phase": "shooting"
     }
   ],
-  "isWizard": null,
+  "isWizard": 2,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

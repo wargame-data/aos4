@@ -86,7 +86,7 @@
       "effect": "Each time this unit attacks with its **Bloodwrack Stare**, if the attack scores a hit, roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on that unit. You cannot pick the same enemy unit to be targeted by attacks made with a **Bloodwrack Stare** more than once per phase."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

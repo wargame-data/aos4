@@ -51,7 +51,7 @@
       "effect": "Add 1 to casting rolls for this unit when it uses a **^^Summon^^** ability and add 1 to banishment rolls for this unit.\nEnemy **^^Manifestations^^** cannot pass through or end any move within this unit’s combat range unless they started that move within this unit’s combat range.\nThis unit has **^^Ward (4+)^^** against mortal damage inflicted by **^^Manifestations^^**."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null,

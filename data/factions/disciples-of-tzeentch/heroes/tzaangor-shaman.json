@@ -75,7 +75,7 @@
       "declare": "Pick a friendly **^^Warflock^^** unit that does not have **^^Fly^^** and is wholly within 12\" of this unit to be the target."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

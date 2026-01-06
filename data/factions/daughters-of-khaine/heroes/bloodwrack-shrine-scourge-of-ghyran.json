@@ -74,7 +74,7 @@
       "castingValue": 5
     }
   ],
-  "isWizard": null,
+  "isWizard": 2,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

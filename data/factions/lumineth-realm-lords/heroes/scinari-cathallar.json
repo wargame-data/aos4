@@ -57,7 +57,7 @@
       "effect": "Ignore negative modifiers to the control scores of friendly **^^Lumineth Realm-lords^^** units while they are wholly within 12\" of this unit."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

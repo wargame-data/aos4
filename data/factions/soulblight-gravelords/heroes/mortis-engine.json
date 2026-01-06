@@ -74,7 +74,7 @@
       "effect": "When this unit is set up for the first time, place a **stored energy dice** beside it with the ‘1’ facing up. Each time a friendly **^^Soulblight Gravelords Wizards^^** successfully casts a spell while it is within 12\" of this unit, increase the value of the **stored energy dice** beside this unit by 1 (to a maximum of 6)."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

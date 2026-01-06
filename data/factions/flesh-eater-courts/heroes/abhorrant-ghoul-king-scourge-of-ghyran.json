@@ -60,7 +60,7 @@
       "effect": "Add 1 to the Attacks characteristic of melee weapons used by other friendly non-**^^Monster Flesh-eater Courts Heroes^^** while they are wholly within 12\" of this unit. In addition, add 1 to the Attacks characteristic of this unit’s melee weapons for each other friendly non-**^^Monster Flesh-eater Courts Hero^^** wholly within 12\" of this unit, to a maximum of +3."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

@@ -101,7 +101,7 @@
       "declare": "Pick a friendly unit **in a Silver Tower** to be the target."
     }
   ],
-  "isWizard": null,
+  "isWizard": 2,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

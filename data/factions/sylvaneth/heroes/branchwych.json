@@ -62,7 +62,7 @@
       "declare": "If this unit is wholly within 6\" of any friendly **Awakened Wyldwoods**, pick a friendly **^^Sylvaneth^^** unit wholly within 12\" of this unit to be the target."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

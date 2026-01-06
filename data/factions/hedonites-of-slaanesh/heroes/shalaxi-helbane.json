@@ -95,7 +95,7 @@
       "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Soulpiercer** is 4."
     }
   ],
-  "isWizard": null,
+  "isWizard": 2,
   "isPriest": null,
   "isUnique": true,
   "canJoinRegiment": null

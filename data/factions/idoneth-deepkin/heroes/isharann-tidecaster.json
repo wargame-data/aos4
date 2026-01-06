@@ -51,7 +51,7 @@
       "declare": "Make an Isharann ritual roll of D6."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

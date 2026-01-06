@@ -70,7 +70,7 @@
       "effect": "Add 1 to hit rolls and wound rolls for this unit’s combat attacks while it is damaged."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

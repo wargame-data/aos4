@@ -134,16 +134,18 @@ export function isUnique(keywords: string[]): boolean {
 
 /**
  * Check if keywords indicate a wizard
+ * Handles "WIZARD", "WIZARD (1)", "WIZARD (2)", etc.
  */
 export function isWizard(keywords: string[]): boolean {
-  return keywords.some((k) => k.toUpperCase() === "WIZARD");
+  return keywords.some((k) => /^WIZARD(\s*\(\d+\))?$/i.test(k));
 }
 
 /**
  * Check if keywords indicate a priest
+ * Handles "PRIEST", "PRIEST (1)", "PRIEST (2)", etc.
  */
 export function isPriest(keywords: string[]): boolean {
-  return keywords.some((k) => k.toUpperCase() === "PRIEST");
+  return keywords.some((k) => /^PRIEST(\s*\(\d+\))?$/i.test(k));
 }
 
 /**

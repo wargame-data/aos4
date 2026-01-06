@@ -68,7 +68,7 @@
       "effect": "Each time a friendly **^^Moonclan^^** unit wholly within 12\" of this unit uses the ‘Redeploy’ command, no command points are spent."
     }
   ],
-  "isWizard": null,
+  "isWizard": 2,
   "isPriest": null,
   "isUnique": true,
   "canJoinRegiment": null,

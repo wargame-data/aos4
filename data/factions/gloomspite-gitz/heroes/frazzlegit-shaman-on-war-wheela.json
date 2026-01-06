@@ -67,7 +67,7 @@
       "declare": "Pick up to 3 visible enemy units within 9\" of this unit to be the targets."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

@@ -70,7 +70,7 @@
       "effect": "If a friendly **^^Skryre^^** unit wholly within 13\" of this unit uses the 'Covering Fire' command, no command points are spent."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

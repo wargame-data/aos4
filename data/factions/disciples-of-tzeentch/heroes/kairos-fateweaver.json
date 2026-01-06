@@ -93,7 +93,7 @@
       "effect": "Add 1 to casting rolls and unbinding rolls for friendly **^^Disciples of Tzeentch Wizards^^** while they are wholly within 12\" of this unit."
     }
   ],
-  "isWizard": null,
+  "isWizard": 3,
   "isPriest": null,
   "isUnique": true,
   "canJoinRegiment": null

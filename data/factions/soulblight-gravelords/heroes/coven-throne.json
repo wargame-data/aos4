@@ -88,7 +88,7 @@
       "effect": "Friendly **^^Deathrattle^^** and **^^Deadwalkers^^** units have **^^Ward (5+)^^** while they are wholly within 6\" of this unit."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

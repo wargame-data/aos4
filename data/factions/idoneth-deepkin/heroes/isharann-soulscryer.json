@@ -50,7 +50,7 @@
       "effect": "Instead of setting up the targets as described in the ability used, set them up on the battlefield wholly within 12\" of this unit and more than 7\" from all enemy units."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

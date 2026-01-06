@@ -66,7 +66,7 @@
       "effect": "Friendly **^^Sylvaneth^^** units have **^^Ward (6+)^^** while they are wholly within 12\" of this unit. Subtract 1 from ward rolls for enemy units while they are within 12\" of this unit."
     }
   ],
-  "isWizard": null,
+  "isWizard": 2,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null

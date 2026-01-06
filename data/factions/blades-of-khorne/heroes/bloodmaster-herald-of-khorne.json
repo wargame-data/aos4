@@ -55,7 +55,7 @@
     }
   ],
   "isWizard": null,
-  "isPriest": null,
+  "isPriest": 1,
   "isUnique": false,
   "canJoinRegiment": null
 }

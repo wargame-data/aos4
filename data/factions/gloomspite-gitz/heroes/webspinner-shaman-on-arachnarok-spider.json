@@ -117,7 +117,7 @@
       "effect": "This unit can pass across terrain features as if it had **^^Fly^^**."
     }
   ],
-  "isWizard": null,
+  "isWizard": 1,
   "isPriest": null,
   "isUnique": false,
   "canJoinRegiment": null
