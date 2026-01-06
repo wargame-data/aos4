@@ -59,6 +59,9 @@
       "abilityCategory": "Special"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Fyreslayers"
+  },
   "isWizard": null,
   "isPriest": 2,
   "isUnique": false,

@@ -63,5 +63,8 @@
       "color": "Blue",
       "abilityCategory": "Shooting"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Warhammer Legends"
+  }
 }

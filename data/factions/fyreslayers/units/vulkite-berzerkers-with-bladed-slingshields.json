@@ -52,5 +52,8 @@
       "color": "Red",
       "abilityCategory": "Offensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Fyreslayers"
+  }
 }

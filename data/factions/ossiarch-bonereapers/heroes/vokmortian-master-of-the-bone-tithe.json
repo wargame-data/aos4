@@ -79,6 +79,9 @@
       "abilityCategory": "Offensive"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Ossiarch Bonereapers"
+  },
   "isWizard": 2,
   "isPriest": null,
   "isUnique": true,

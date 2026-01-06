@@ -58,5 +58,8 @@
       "color": "Orange",
       "abilityCategory": "Offensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Ogor Mawtribes"
+  }
 }

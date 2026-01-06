@@ -5,7 +5,7 @@
   "faction": "stormcast-eternals",
   "points": 0,
   "stats": {
-    "move": "-\"",
+    "move": "-",
     "health": 5,
     "save": "4+",
     "banishment": 6

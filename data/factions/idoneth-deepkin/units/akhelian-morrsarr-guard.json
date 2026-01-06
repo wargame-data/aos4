@@ -74,5 +74,8 @@
       "color": "Orange",
       "abilityCategory": "Offensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Idoneth Deepkin"
+  }
 }

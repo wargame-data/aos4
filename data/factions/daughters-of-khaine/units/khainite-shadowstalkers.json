@@ -64,5 +64,8 @@
       "color": "Gray",
       "abilityCategory": "Movement"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Daughters of Khaine"
+  }
 }

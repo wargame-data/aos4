@@ -82,6 +82,9 @@
       "abilityCategory": "Shooting"
     }
   ],
+  "publication": {
+    "name": "Battletome Supplement: Bonesplitterz"
+  },
   "isWizard": 2,
   "isPriest": null,
   "isUnique": false,

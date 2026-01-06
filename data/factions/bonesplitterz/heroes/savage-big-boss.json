@@ -55,6 +55,9 @@
       "abilityCategory": "Offensive"
     }
   ],
+  "publication": {
+    "name": "Battletome Supplement: Bonesplitterz"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": false,

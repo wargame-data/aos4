@@ -104,6 +104,9 @@
       "abilityCategory": "Defensive"
     }
   ],
+  "publication": {
+    "name": "Battletome: Skaven"
+  },
   "isWizard": null,
   "isPriest": 1,
   "isUnique": false,

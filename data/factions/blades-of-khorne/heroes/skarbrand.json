@@ -87,6 +87,9 @@
       "abilityCategory": "Movement"
     }
   ],
+  "publication": {
+    "name": "Battletome: Blades of Khorne"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": true,

@@ -72,5 +72,8 @@
       "color": "Red",
       "abilityCategory": "Special"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Soulblight Gravelords"
+  }
 }

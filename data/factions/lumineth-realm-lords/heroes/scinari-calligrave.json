@@ -52,6 +52,9 @@
       "abilityCategory": "Special"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Lumineth Realmlords"
+  },
   "isWizard": 1,
   "isPriest": null,
   "isUnique": false,

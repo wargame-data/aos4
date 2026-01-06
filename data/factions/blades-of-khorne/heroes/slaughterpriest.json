@@ -62,6 +62,9 @@
       "abilityCategory": "Special"
     }
   ],
+  "publication": {
+    "name": "Battletome: Blades of Khorne"
+  },
   "isWizard": null,
   "isPriest": 1,
   "isUnique": false,

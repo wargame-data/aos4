@@ -50,5 +50,8 @@
       "color": "Orange",
       "abilityCategory": "Movement"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome Supplement: Beasts of Chaos"
+  }
 }

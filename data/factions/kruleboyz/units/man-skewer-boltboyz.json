@@ -83,5 +83,8 @@
       "color": "Blue",
       "abilityCategory": "Shooting"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Orruk Warclans"
+  }
 }

@@ -69,5 +69,8 @@
       "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Butchering Blades** is 4.",
       "color": "Black"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome Supplement: Beasts of Chaos"
+  }
 }

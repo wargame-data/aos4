@@ -64,6 +64,9 @@
       "abilityCategory": "Offensive"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Sylvaneth"
+  },
   "isWizard": 1,
   "isPriest": null,
   "isUnique": false,

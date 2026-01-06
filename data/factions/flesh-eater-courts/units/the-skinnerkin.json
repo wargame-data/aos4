@@ -65,5 +65,8 @@
       "color": "Purple",
       "abilityCategory": "Defensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Warhammer Legends"
+  }
 }

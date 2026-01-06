@@ -102,6 +102,9 @@
       "abilityCategory": "Special"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Disciples of Tzeentch"
+  },
   "isWizard": 3,
   "isPriest": null,
   "isUnique": true,

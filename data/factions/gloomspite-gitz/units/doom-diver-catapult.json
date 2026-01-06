@@ -69,5 +69,8 @@
       "color": "Blue",
       "abilityCategory": "Shooting"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Gloomspite Gitz"
+  }
 }

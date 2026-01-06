@@ -54,5 +54,8 @@
       "color": "Yellow",
       "abilityCategory": "Offensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Warhammer Legends"
+  }
 }

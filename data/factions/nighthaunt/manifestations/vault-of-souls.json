@@ -1,0 +1,45 @@
+{
+  "$schema": "https://aos-data.org/schema/manifestation.schema.json",
+  "id": "vault-of-souls",
+  "name": "Vault of Souls",
+  "faction": "nighthaunt",
+  "points": 0,
+  "stats": {
+    "move": "-",
+    "health": 6,
+    "save": "4+",
+    "banishment": 8
+  },
+  "keywords": [
+    "DEATH",
+    "ENDLESS SPELL",
+    "FLY",
+    "MANIFESTATION",
+    "NIGHTHAUNT",
+    "WARD (6+)"
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "baseSize": "50mm",
+  "abilities": [
+    {
+      "name": "Siphon Souls",
+      "type": "passive",
+      "effect": "Each time a model from a friendly or enemy unit is slain within 12\" of this **^^Manifestation^^**, give this **^^Manifestation^^** a **soul point**, to a maximum of 6.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Soul Eruption",
+      "type": "passive",
+      "effect": "Roll 6 dice for each target. For each 4+, inflict 1 mortal damage on the target. Then, reset this **^^Manifestation^^**’s **soul points** to 0.",
+      "phase": "any",
+      "declare": "If this **^^Manifestation^^** has 6 **soul points**, pick any number of enemy units within 6\" of this unit to be the targets.",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
+    }
+  ]
+}

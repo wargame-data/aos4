@@ -66,6 +66,9 @@
       "abilityCategory": "Offensive"
     }
   ],
+  "publication": {
+    "name": "Grotmas Darkwater Heroes"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": true,

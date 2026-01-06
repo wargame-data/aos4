@@ -85,6 +85,9 @@
       "abilityCategory": "Offensive"
     }
   ],
+  "publication": {
+    "name": "Scourge of Ghyran"
+  },
   "isWizard": 1,
   "isPriest": null,
   "isUnique": true,

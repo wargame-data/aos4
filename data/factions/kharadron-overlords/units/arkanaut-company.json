@@ -87,5 +87,8 @@
       "color": "Red",
       "abilityCategory": "Shooting"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Kharadron Overlords"
+  }
 }

@@ -49,6 +49,9 @@
       "abilityCategory": "Offensive"
     }
   ],
+  "publication": {
+    "name": "Battletome: Slaves to Darkness"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": false,

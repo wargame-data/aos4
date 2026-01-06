@@ -58,6 +58,9 @@
       "abilityCategory": "Defensive"
     }
   ],
+  "publication": {
+    "name": "Battletome Supplement: Soulblight Gravelords"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": true,

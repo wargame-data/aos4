@@ -115,6 +115,9 @@
       "abilityCategory": "Defensive"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Seraphon"
+  },
   "isWizard": 1,
   "isPriest": null,
   "isUnique": false,

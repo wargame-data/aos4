@@ -76,5 +76,8 @@
       "color": "Purple",
       "abilityCategory": "Special"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Slaves to Darkness"
+  }
 }

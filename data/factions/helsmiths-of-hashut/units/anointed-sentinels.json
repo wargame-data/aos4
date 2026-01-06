@@ -59,5 +59,8 @@
       "color": "Orange",
       "abilityCategory": "Movement"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Helsmiths of Hashut"
+  }
 }

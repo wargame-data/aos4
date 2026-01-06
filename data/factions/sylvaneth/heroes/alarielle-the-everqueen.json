@@ -107,6 +107,9 @@
       "abilityCategory": "Rallying"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Sylvaneth"
+  },
   "isWizard": 3,
   "isPriest": null,
   "isUnique": true,

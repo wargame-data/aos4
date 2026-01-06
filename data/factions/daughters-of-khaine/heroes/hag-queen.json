@@ -57,6 +57,9 @@
       "abilityCategory": "Defensive"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Daughters of Khaine"
+  },
   "isWizard": null,
   "isPriest": 1,
   "isUnique": false,

@@ -122,6 +122,9 @@
       "abilityCategory": "Offensive"
     }
   ],
+  "publication": {
+    "name": "Battletome: Orruk Warclans"
+  },
   "isWizard": 2,
   "isPriest": null,
   "isUnique": true,

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://aos-data.org/schema/manifestation.schema.json",
+  "id": "scrapskuttles-arachnacauldron",
+  "name": "Scrapskuttle's Arachnacauldron",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 6,
+    "save": "5+",
+    "banishment": 7
+  },
+  "keywords": [
+    "DESTRUCTION",
+    "ENDLESS SPELL",
+    "GLOOMSPITE GITZ",
+    "MANIFESTATION",
+    "WARD (6+)"
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "publication": {
+    "name": "Battletome: Gloomspite Gitz"
+  },
+  "baseSize": "75x42mm",
+  "weapons": [
+    {
+      "name": "Spider Legs",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Blessings of the Cauldron",
+      "type": "passive",
+      "effect": "Add 1 to the target’s power level until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Gloomspite Gitz Wizard^^** within 1\" of this **^^Manifestation^^** to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ]
+}

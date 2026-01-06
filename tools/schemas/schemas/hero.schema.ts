@@ -11,6 +11,7 @@ import {
   publicationSchema,
   ruleSchema,
   costsSchema,
+  constraintModifierSchema,
 } from "../base.js";
 
 // Hero stats (same as unit)
@@ -54,6 +55,7 @@ export const heroSchema = z
     baseSize: z.number().int().min(1),
     maxSize: z.number().int().min(1).optional(),
     canReinforce: z.boolean().optional(),
+    constraintModifiers: z.array(constraintModifierSchema).optional(),
     isCollective: z.boolean().optional(),
     costs: costsSchema.optional(),
     rules: z.array(ruleSchema).optional(),

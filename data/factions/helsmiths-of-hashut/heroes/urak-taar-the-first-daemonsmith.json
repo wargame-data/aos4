@@ -121,6 +121,9 @@
       "abilityCategory": "Special"
     }
   ],
+  "publication": {
+    "name": "Battletome: Helsmiths of Hashut"
+  },
   "isWizard": 2,
   "isPriest": null,
   "isUnique": true,

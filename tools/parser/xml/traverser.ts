@@ -15,6 +15,8 @@ import type {
   BSCost,
   BSConstraint,
   BSInfoLink,
+  BSModifier,
+  BSRepeat,
 } from "./types.js";
 
 /**
@@ -614,4 +616,212 @@ export function getEntriesFromGroup(group: BSSelectionEntryGroup): BSSelectionEn
   }
 
   return entries;
+}
+
+/**
+ * Extracted repeat information for constraint modifiers
+ */
+export interface ExtractedRepeat {
+  value: string;
+  repeats: string;
+  field: string;
+  scope: string;
+  childId?: string;
+  shared?: boolean;
+  roundUp?: boolean;
+  includeChildSelections?: boolean;
+  includeChildForces?: boolean;
+  percentValue?: boolean;
+}
+
+/**
+ * Extracted constraint modifier with repeat rules
+ */
+export interface ExtractedConstraintModifier {
+  constraintId: string;
+  type: "set" | "increment" | "decrement";
+  value: string;
+  repeats?: ExtractedRepeat[];
+}
+
+/**
+ * Extract constraint modifiers with repeat rules from a selection entry.
+ * These are modifiers that target constraint IDs with repeat logic for dynamic scaling.
+ */
+export function extractConstraintModifiers(entry: BSSelectionEntry): ExtractedConstraintModifier[] {
+  const modifiers: ExtractedConstraintModifier[] = [];
+
+  if (!entry.modifiers || !entry.constraints) {
+    return modifiers;
+  }
+
+  // Build a set of constraint IDs for this entry
+  const constraintIds = new Set<string>();
+  for (const constraint of entry.constraints) {
+    if (constraint.$ && constraint.$.id) {
+      constraintIds.add(constraint.$.id);
+    }
+  }
+
+  // Find modifiers that target constraint fields with repeat rules
+  for (const mod of entry.modifiers) {
+    if (!mod.$ || !mod.$.field) continue;
+
+    // Check if this modifier targets a constraint ID
+    if (!constraintIds.has(mod.$.field)) continue;
+
+    // Only handle set/increment/decrement types
+    const modType = mod.$.type;
+    if (modType !== "set" && modType !== "increment" && modType !== "decrement") continue;
+
+    const constraintMod: ExtractedConstraintModifier = {
+      constraintId: mod.$.field,
+      type: modType,
+      value: mod.$.value,
+    };
+
+    // Extract repeats if present
+    if (mod.repeats && mod.repeats.length > 0) {
+      constraintMod.repeats = mod.repeats.map((r) => {
+        const repeat: ExtractedRepeat = {
+          value: r.$.value,
+          repeats: r.$.repeats,
+          field: r.$.field,
+          scope: r.$.scope,
+        };
+        if (r.$.childId) repeat.childId = r.$.childId;
+        if (r.$.shared === "true") repeat.shared = true;
+        if (r.$.roundUp === "true") repeat.roundUp = true;
+        if (r.$.includeChildSelections === "true") repeat.includeChildSelections = true;
+        if (r.$.includeChildForces === "true") repeat.includeChildForces = true;
+        if (r.$.percentValue === "true") repeat.percentValue = true;
+        return repeat;
+      });
+    }
+
+    modifiers.push(constraintMod);
+  }
+
+  return modifiers;
+}
+
+/**
+ * Find Blood Tithe ability profiles in a catalogue.
+ * These are profiles with typeName "Ability (Blood Tithe)" found in Blades of Khorne.
+ */
+export function findBloodTitheAbilities(catalogue: BSCatalogue): BSProfile[] {
+  const profiles: BSProfile[] = [];
+
+  // Check Battle Traits selection entries
+  const battleTraitsGroups = findSelectionEntryGroups(catalogue, /^Battle Traits:/i);
+
+  for (const group of battleTraitsGroups) {
+    const entries = getEntriesFromGroup(group);
+    for (const entry of entries) {
+      if (entry.profiles) {
+        for (const profile of entry.profiles) {
+          if (profile.$ && profile.$.typeName === "Ability (Blood Tithe)") {
+            profiles.push(profile);
+          }
+        }
+      }
+    }
+  }
+
+  // Also check direct selection entries (some catalogues structure differently)
+  if (catalogue.selectionEntries) {
+    for (const entry of catalogue.selectionEntries) {
+      if (entry.profiles) {
+        for (const profile of entry.profiles) {
+          if (profile.$ && profile.$.typeName === "Ability (Blood Tithe)") {
+            profiles.push(profile);
+          }
+        }
+      }
+    }
+  }
+
+  // Check shared selection entries (where Battle Traits are located)
+  if (catalogue.sharedSelectionEntries) {
+    for (const entry of catalogue.sharedSelectionEntries) {
+      if (entry.profiles) {
+        for (const profile of entry.profiles) {
+          if (profile.$ && profile.$.typeName === "Ability (Blood Tithe)") {
+            profiles.push(profile);
+          }
+        }
+      }
+    }
+  }
+
+  // Check shared profiles
+  if (catalogue.sharedProfiles) {
+    for (const profile of catalogue.sharedProfiles) {
+      if (profile.$ && profile.$.typeName === "Ability (Blood Tithe)") {
+        profiles.push(profile);
+      }
+    }
+  }
+
+  return profiles;
+}
+
+/**
+ * Find Battle Tactic Card profiles in a game system.
+ * These are profiles with typeName "Battle Tactic Card" from the core game system.
+ */
+export function findBattleTacticCards(gameSystem: BSGameSystem): BSProfile[] {
+  const profiles: BSProfile[] = [];
+
+  // Check shared profiles
+  if (gameSystem.sharedProfiles) {
+    for (const profile of gameSystem.sharedProfiles) {
+      if (profile.$ && profile.$.typeName === "Battle Tactic Card") {
+        profiles.push(profile);
+      }
+    }
+  }
+
+  // Check selection entries
+  if (gameSystem.selectionEntries) {
+    for (const entry of gameSystem.selectionEntries) {
+      if (entry.profiles) {
+        for (const profile of entry.profiles) {
+          if (profile.$ && profile.$.typeName === "Battle Tactic Card") {
+            profiles.push(profile);
+          }
+        }
+      }
+      // Check nested selection entry groups
+      if (entry.selectionEntryGroups) {
+        for (const group of entry.selectionEntryGroups) {
+          const nestedEntries = getEntriesFromGroup(group);
+          for (const nestedEntry of nestedEntries) {
+            if (nestedEntry.profiles) {
+              for (const profile of nestedEntry.profiles) {
+                if (profile.$ && profile.$.typeName === "Battle Tactic Card") {
+                  profiles.push(profile);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Check shared selection entries
+  if (gameSystem.sharedSelectionEntries) {
+    for (const entry of gameSystem.sharedSelectionEntries) {
+      if (entry.profiles) {
+        for (const profile of entry.profiles) {
+          if (profile.$ && profile.$.typeName === "Battle Tactic Card") {
+            profiles.push(profile);
+          }
+        }
+      }
+    }
+  }
+
+  return profiles;
 }

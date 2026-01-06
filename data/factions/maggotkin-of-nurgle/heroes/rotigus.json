@@ -107,6 +107,9 @@
       "abilityCategory": "Special"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Maggotkin of Nurgle"
+  },
   "isWizard": 2,
   "isPriest": null,
   "isUnique": true,

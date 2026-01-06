@@ -65,5 +65,8 @@
       "color": "Purple",
       "abilityCategory": "Special"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Orruk Warclans"
+  }
 }

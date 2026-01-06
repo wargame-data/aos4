@@ -98,5 +98,8 @@
       "color": "Blue",
       "abilityCategory": "Movement"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Idoneth Deepkin"
+  }
 }

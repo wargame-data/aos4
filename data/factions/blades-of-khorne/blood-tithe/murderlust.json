@@ -1,0 +1,18 @@
+{
+  "$schema": "https://aos-data.org/schema/blood-tithe-ability.schema.json",
+  "id": "murderlust",
+  "name": "Murderlust",
+  "faction": "blades-of-khorne",
+  "bloodTithePoints": 0,
+  "effect": "Roll a dice. You can replace one of the dice in the charge roll with that value. If you do so, inflict D3 mortal damage on the unit using that Charge ability after that ability is resolved.",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "timing": "Once Per Turn (Army), Reaction: You declared a Charge ability.",
+  "keywords": [
+    "BLOOD TITHE"
+  ],
+  "color": "Orange",
+  "abilityCategory": "Movement"
+}

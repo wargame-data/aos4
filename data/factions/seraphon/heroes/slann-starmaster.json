@@ -88,6 +88,9 @@
       "abilityCategory": "Special"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Seraphon"
+  },
   "isWizard": 3,
   "isPriest": null,
   "isUnique": false,

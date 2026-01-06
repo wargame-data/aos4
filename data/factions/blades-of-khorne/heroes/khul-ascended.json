@@ -78,6 +78,9 @@
       "abilityCategory": "Offensive"
     }
   ],
+  "publication": {
+    "name": "White Dwarf Issue 513"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": true,

@@ -68,5 +68,8 @@
       "color": "Red",
       "abilityCategory": "Defensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Fyreslayers"
+  }
 }

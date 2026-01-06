@@ -1,0 +1,65 @@
+{
+  "$schema": "https://aos-data.org/schema/manifestation.schema.json",
+  "id": "molten-infernoth",
+  "name": "Molten Infernoth",
+  "faction": "fyreslayers",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 10,
+    "save": "5+",
+    "banishment": 7
+  },
+  "keywords": [
+    "FLY",
+    "FYRESLAYERS",
+    "INVOCATION",
+    "MANIFESTATION",
+    "ORDER",
+    "WARD (6+)"
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "baseSize": "120x92mm",
+  "weapons": [
+    {
+      "name": "Raging Torrents of Lava",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Molten Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Flamescarred",
+      "type": "passive",
+      "effect": "Subtract 1 from wound rolls for the target’s combat attacks until the end of your next turn.",
+      "phase": "any",
+      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by this **^^Manifestation^^**’s attacks to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
+    }
+  ]
+}

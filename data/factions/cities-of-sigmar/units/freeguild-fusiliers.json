@@ -91,5 +91,8 @@
       "color": "Gray",
       "abilityCategory": "Defensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Cities of Sigmar"
+  }
 }

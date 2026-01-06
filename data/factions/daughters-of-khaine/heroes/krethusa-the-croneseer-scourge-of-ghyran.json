@@ -81,6 +81,9 @@
       "abilityCategory": "Special"
     }
   ],
+  "publication": {
+    "name": "Scourge of Ghyran"
+  },
   "isWizard": null,
   "isPriest": 2,
   "isUnique": true,

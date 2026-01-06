@@ -54,5 +54,8 @@
       "color": "Orange",
       "abilityCategory": "Movement"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Soulblight Gravelords"
+  }
 }

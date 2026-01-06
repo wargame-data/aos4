@@ -57,5 +57,8 @@
       "color": "Green",
       "abilityCategory": "Defensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Maggotkin of Nurgle"
+  }
 }

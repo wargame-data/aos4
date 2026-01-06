@@ -87,6 +87,9 @@
       "abilityCategory": "Special"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Cities of Sigmar"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": false,

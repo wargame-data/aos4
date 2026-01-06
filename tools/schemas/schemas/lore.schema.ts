@@ -25,7 +25,7 @@ const spellSchema = z
 const prayerSchema = z
   .object({
     name: z.string(),
-    chantingValue: z.number().int().min(2).max(6),
+    chantingValue: z.number().int().min(2).max(12),
     timing: z.string().optional(),
     declare: z.string().optional(),
     effect: z.string(),

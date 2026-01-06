@@ -59,6 +59,9 @@
       "abilityCategory": "Offensive"
     }
   ],
+  "publication": {
+    "name": "eb12-18be-ab22-c391"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": false,

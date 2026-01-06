@@ -104,6 +104,9 @@
       "abilityCategory": "Movement"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Sons of Behemat"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": false,

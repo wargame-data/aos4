@@ -36,5 +36,8 @@
       "color": "Purple",
       "abilityCategory": "Rallying"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Gloomspite Gitz"
+  }
 }

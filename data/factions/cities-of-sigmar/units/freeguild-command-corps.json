@@ -97,5 +97,8 @@
       "color": "Black",
       "abilityCategory": "Special"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Cities of Sigmar"
+  }
 }

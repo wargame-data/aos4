@@ -57,6 +57,9 @@
       "abilityCategory": "Defensive"
     }
   ],
+  "publication": {
+    "name": "Battletome: Helsmiths of Hashut"
+  },
   "isWizard": null,
   "isPriest": 1,
   "isUnique": false,

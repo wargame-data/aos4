@@ -122,6 +122,9 @@
       "abilityCategory": "Defensive"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Ogor Mawtribes"
+  },
   "isWizard": null,
   "isPriest": 1,
   "isUnique": false,

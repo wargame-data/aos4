@@ -83,5 +83,8 @@
       "color": "Red",
       "abilityCategory": "Special"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Lumineth Realmlords"
+  }
 }

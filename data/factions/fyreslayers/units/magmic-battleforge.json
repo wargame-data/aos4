@@ -46,5 +46,8 @@
       "color": "Black",
       "abilityCategory": "Offensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Blades of Khorne"
+  }
 }

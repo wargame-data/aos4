@@ -85,5 +85,8 @@
       "color": "Blue",
       "abilityCategory": "Shooting"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Blades of Khorne"
+  }
 }

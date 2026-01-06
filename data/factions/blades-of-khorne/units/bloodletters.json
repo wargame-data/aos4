@@ -59,5 +59,8 @@
       "color": "Red",
       "abilityCategory": "Movement"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Blades of Khorne"
+  }
 }

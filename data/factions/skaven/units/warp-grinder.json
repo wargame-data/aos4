@@ -68,5 +68,8 @@
       "color": "Gray",
       "abilityCategory": "Movement"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Skaven"
+  }
 }

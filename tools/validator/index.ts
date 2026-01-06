@@ -50,6 +50,24 @@ function determineSchemaForFile(filePath: string): string | null {
   if (relativePath.includes("/battle-formations/")) {
     return "https://aos-data.org/schema/battle-formation.schema.json";
   }
+  if (relativePath.includes("/manifestations/")) {
+    return "https://aos-data.org/schema/manifestation.schema.json";
+  }
+  if (relativePath.includes("/enhancements/")) {
+    return "https://aos-data.org/schema/enhancement.schema.json";
+  }
+  if (relativePath.includes("/lores/")) {
+    return "https://aos-data.org/schema/lore.schema.json";
+  }
+  if (relativePath.includes("/regiments-of-renown/")) {
+    return "https://aos-data.org/schema/regiment-of-renown.schema.json";
+  }
+  if (relativePath.includes("/battle-tactics/")) {
+    return "https://aos-data.org/schema/battle-tactic-card.schema.json";
+  }
+  if (relativePath.includes("/blood-tithe/")) {
+    return "https://aos-data.org/schema/blood-tithe-ability.schema.json";
+  }
   if (basename(filePath) === "_index.json") {
     return "https://aos-data.org/schema/faction.schema.json";
   }

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://aos-data.org/schema/manifestation.schema.json",
+  "id": "vengeful-skullroot",
+  "name": "Vengeful Skullroot",
+  "faction": "sylvaneth",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 8,
+    "save": "4+",
+    "banishment": 7
+  },
+  "keywords": [
+    "ENDLESS SPELL",
+    "FLY",
+    "MANIFESTATION",
+    "ORDER",
+    "SYLVANETH",
+    "WARD (6+)"
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "publication": {
+    "name": "Faction Pack: Sylvaneth"
+  },
+  "baseSize": "105x70mm",
+  "weapons": [
+    {
+      "name": "Lumbering Bulk",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Vengeful Terrors",
+      "type": "passive",
+      "effect": "For the rest of the turn, subtract an amount from the target’s control score equal to the number of friendly units that have been destroyed this battle (not including **^^Manifestations^^** or **^^Faction Terrain^^**).’",
+      "phase": "any",
+      "declare": "Pick an enemy unit within 3\" of this **^^Manifestation^^** to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    },
+    {
+      "name": "Creeping Willow",
+      "type": "passive",
+      "effect": "This **^^Manifestation^^** counts as an **Awakened Wyldwood** for the purposes of the ‘Endless Growth’, ‘Walk the Hidden Paths’ and ‘Strike and Fade’ abilities.’",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ]
+}

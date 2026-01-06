@@ -74,6 +74,9 @@
       "abilityCategory": "Movement"
     }
   ],
+  "publication": {
+    "name": "Battletome: Gloomspite Gitz"
+  },
   "isWizard": 2,
   "isPriest": null,
   "isUnique": true,

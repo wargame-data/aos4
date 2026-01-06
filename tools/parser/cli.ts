@@ -17,13 +17,15 @@ import {
 } from "./github/clone.js";
 import { getRepoCachePath, isCacheValid, getCacheAge } from "./github/cache.js";
 import { parseCat, parseGst } from "./xml/reader.js";
-import { findUnits, findManifestations, getFactionId, isLibrary, extractPointsFromEntryLinks } from "./xml/traverser.js";
+import { findUnits, findManifestations, getFactionId, isLibrary, extractPointsFromEntryLinks, findBattleTacticCards, findBloodTitheAbilities } from "./xml/traverser.js";
 import { PublicationResolver } from "./xml/publications.js";
 import { UnitMapper, type Unit, type Hero } from "./mappers/unit.mapper.js";
 import { ManifestationMapper, type Manifestation } from "./mappers/manifestation.mapper.js";
 import { mapBattleFormations, type BattleFormation } from "./mappers/battle-formation.mapper.js";
 import { mapHeroicTraits, mapArtefactsOfPower, type EnhancementCollection } from "./mappers/enhancement.mapper.js";
 import { mapRegimentsOfRenown, type RegimentOfRenown } from "./mappers/regiment-of-renown.mapper.js";
+import { mapBattleTacticCards, type BattleTacticCard } from "./mappers/battle-tactic.mapper.js";
+import { mapBloodTitheAbilities, type BloodTitheAbility, clearBloodTitheMapping } from "./mappers/blood-tithe.mapper.js";
 import type { MapperOptions } from "./mappers/base.js";
 import {
   writeUnit,
@@ -37,6 +39,10 @@ import {
   ensureRegimentsOfRenownDir,
   writeRegimentsOfRenown,
   writeManifestations,
+  ensureBattleTacticsDir,
+  writeBattleTacticCards,
+  ensureBloodTitheDir,
+  writeBloodTitheAbilities,
 } from "./output/writer.js";
 import { mapLores, type Lore } from "./mappers/lore.mapper.js";
 import {
@@ -81,6 +87,7 @@ interface FactionParseResult {
   battleFormations: BattleFormation[];
   heroicTraits: EnhancementCollection | null;
   artefacts: EnhancementCollection | null;
+  bloodTitheAbilities: BloodTitheAbility[];
   errors: string[];
 }
 
@@ -173,6 +180,9 @@ async function syncCommand(options: CLIOptions): Promise<void> {
   // Parse regiments of renown
   const regiments = await parseRegimentsOfRenown(bsdataPath, catalogueFiles, options, log);
 
+  // Parse battle tactic cards from game system
+  const battleTactics = await parseBattleTactics(bsdataPath, options, log);
+
   // Validate if not skipped
   if (!options.skipValidate) {
     log.info("\nValidating parsed data...");
@@ -202,12 +212,20 @@ async function syncCommand(options: CLIOptions): Promise<void> {
       const regimentResults = writeRegimentsOfRenown(regiments, { dryRun: false }, join(outputDir, ".."));
       log.info(`  regiments of renown: ${regimentResults.length} files written`);
     }
+
+    // Write battle tactic cards
+    if (battleTactics.length > 0) {
+      const outputDir = options.output || FACTIONS_DIR;
+      ensureBattleTacticsDir(join(outputDir, ".."));
+      const battleTacticResults = writeBattleTacticCards(battleTactics, { dryRun: false }, join(outputDir, ".."));
+      log.info(`  battle tactics: ${battleTacticResults.length} files written`);
+    }
   } else {
     log.info("\nDry run - no files written");
   }
 
   // Summary
-  printSummary(results, lores.length, regiments.length, log);
+  printSummary(results, lores.length, regiments.length, battleTactics.length, log);
 }
 
 /**
@@ -261,7 +279,7 @@ async function parseCommand(options: CLIOptions): Promise<void> {
     await writeResults(results, options, log);
   }
 
-  printSummary(results, 0, 0, log);
+  printSummary(results, 0, 0, 0, log);
 }
 
 /**
@@ -558,8 +576,8 @@ async function parseAllFactions(
         }
       }
 
-      // Load battle formations and enhancements from non-library catalogue
-      const { battleFormations, heroicTraits, artefacts } = await loadFormationsAndEnhancements(file, mapperOptions, log);
+      // Load battle formations, enhancements, and blood tithe abilities from non-library catalogue
+      const { battleFormations, heroicTraits, artefacts, bloodTitheAbilities } = await loadFormationsAndEnhancements(file, mapperOptions, log);
 
       results.push({
         factionId,
@@ -569,11 +587,13 @@ async function parseAllFactions(
         battleFormations,
         heroicTraits,
         artefacts,
+        bloodTitheAbilities,
         errors,
       });
 
       const enhancementCount = (heroicTraits?.enhancements.length || 0) + (artefacts?.enhancements.length || 0);
-      log.info(`  ${factionId}: ${units.length} units, ${manifestations.length} manifestations, ${battleFormations.length} formations, ${enhancementCount} enhancements`);
+      const bloodTitheStr = bloodTitheAbilities.length > 0 ? `, ${bloodTitheAbilities.length} blood tithe` : "";
+      log.info(`  ${factionId}: ${units.length} units, ${manifestations.length} manifestations, ${battleFormations.length} formations, ${enhancementCount} enhancements${bloodTitheStr}`);
     } catch (error) {
       log.error(`Failed to parse ${file}: ${error}`);
       if (options.strict) {
@@ -690,6 +710,47 @@ async function parseRegimentsOfRenown(
 }
 
 /**
+ * Parse battle tactic cards from the game system
+ */
+async function parseBattleTactics(
+  bsdataPath: string,
+  options: CLIOptions,
+  log: Logger
+): Promise<BattleTacticCard[]> {
+  const gameSystemFile = join(bsdataPath, "Age of Sigmar 4.0.gst");
+
+  if (!existsSync(gameSystemFile)) {
+    log.verbose("No game system file found for battle tactics");
+    return [];
+  }
+
+  log.info("Parsing battle tactic cards from game system...");
+
+  try {
+    const gameSystem = await parseGst(gameSystemFile);
+    const profiles = findBattleTacticCards(gameSystem);
+
+    const mapperOptions: MapperOptions = {
+      strict: options.strict,
+      factionId: "shared",
+      grandAlliance: undefined,
+      catalogueName: "Age of Sigmar 4.0",
+    };
+
+    const cards = mapBattleTacticCards(profiles, mapperOptions);
+    log.info(`  Found ${cards.length} battle tactic cards`);
+
+    return cards;
+  } catch (error) {
+    log.error(`Failed to parse battle tactics: ${error}`);
+    if (options.strict) {
+      throw error;
+    }
+    return [];
+  }
+}
+
+/**
  * Load points from the non-library catalogue corresponding to a library file
  */
 async function loadPointsForFaction(
@@ -720,7 +781,7 @@ async function loadPointsForFaction(
 }
 
 /**
- * Load battle formations and enhancements from the non-library catalogue
+ * Load battle formations, enhancements, and blood tithe abilities from the non-library catalogue
  */
 async function loadFormationsAndEnhancements(
   libraryFile: string,
@@ -730,13 +791,14 @@ async function loadFormationsAndEnhancements(
   battleFormations: BattleFormation[];
   heroicTraits: EnhancementCollection | null;
   artefacts: EnhancementCollection | null;
+  bloodTitheAbilities: BloodTitheAbility[];
 }> {
   // Library file: "Stormcast Eternals - Library.cat"
   // Non-library file: "Stormcast Eternals.cat"
   const nonLibraryFile = libraryFile.replace(/ - Library\.cat$/i, ".cat");
 
   if (nonLibraryFile === libraryFile || !existsSync(nonLibraryFile)) {
-    return { battleFormations: [], heroicTraits: null, artefacts: null };
+    return { battleFormations: [], heroicTraits: null, artefacts: null, bloodTitheAbilities: [] };
   }
 
   try {
@@ -758,10 +820,21 @@ async function loadFormationsAndEnhancements(
       log.verbose(`  Found ${artefacts.enhancements.length} artefacts`);
     }
 
-    return { battleFormations, heroicTraits, artefacts };
+    // Extract blood tithe abilities (only for Blades of Khorne)
+    let bloodTitheAbilities: BloodTitheAbility[] = [];
+    if (mapperOptions.factionId === "blades-of-khorne") {
+      clearBloodTitheMapping(); // Clear any previous mapping
+      const bloodTitheProfiles = findBloodTitheAbilities(catalogue);
+      if (bloodTitheProfiles.length > 0) {
+        bloodTitheAbilities = mapBloodTitheAbilities(bloodTitheProfiles, mapperOptions);
+        log.verbose(`  Found ${bloodTitheAbilities.length} blood tithe abilities`);
+      }
+    }
+
+    return { battleFormations, heroicTraits, artefacts, bloodTitheAbilities };
   } catch (error) {
     log.verbose(`  Failed to load formations/enhancements from ${basename(nonLibraryFile)}: ${error}`);
-    return { battleFormations: [], heroicTraits: null, artefacts: null };
+    return { battleFormations: [], heroicTraits: null, artefacts: null, bloodTitheAbilities: [] };
   }
 }
 
@@ -841,16 +914,24 @@ async function writeResults(
       }
     }
 
+    // Write blood tithe abilities (Blades of Khorne only)
+    if (result.bloodTitheAbilities.length > 0) {
+      ensureBloodTitheDir(outputDir);
+      const bloodTitheResults = writeBloodTitheAbilities(result.bloodTitheAbilities, { dryRun: false }, outputDir);
+      log.verbose(`  Wrote ${bloodTitheResults.length} blood tithe abilities`);
+    }
+
     const formationCount = result.battleFormations.length;
     const enhancementCount = (result.heroicTraits?.enhancements.length || 0) + (result.artefacts?.enhancements.length || 0);
-    log.info(`  ${result.factionId}: ${result.units.length} units, ${result.manifestations.length} manifestations, ${formationCount} formations, ${enhancementCount} enhancements written`);
+    const bloodTitheStr = result.bloodTitheAbilities.length > 0 ? `, ${result.bloodTitheAbilities.length} blood tithe` : "";
+    log.info(`  ${result.factionId}: ${result.units.length} units, ${result.manifestations.length} manifestations, ${formationCount} formations, ${enhancementCount} enhancements${bloodTitheStr} written`);
   }
 }
 
 /**
  * Print summary
  */
-function printSummary(results: FactionParseResult[], loresCount: number, regimentsCount: number, log: Logger): void {
+function printSummary(results: FactionParseResult[], loresCount: number, regimentsCount: number, battleTacticsCount: number, log: Logger): void {
   log.info("\n" + "=".repeat(40));
   log.info("Summary");
   log.info("=".repeat(40));
@@ -859,6 +940,7 @@ function printSummary(results: FactionParseResult[], loresCount: number, regimen
   let totalManifestations = 0;
   let totalFormations = 0;
   let totalEnhancements = 0;
+  let totalBloodTithe = 0;
   let totalErrors = 0;
 
   for (const result of results) {
@@ -866,6 +948,7 @@ function printSummary(results: FactionParseResult[], loresCount: number, regimen
     totalManifestations += result.manifestations.length;
     totalFormations += result.battleFormations.length;
     totalEnhancements += (result.heroicTraits?.enhancements.length || 0) + (result.artefacts?.enhancements.length || 0);
+    totalBloodTithe += result.bloodTitheAbilities.length;
     totalErrors += result.errors.length;
   }
 
@@ -874,8 +957,10 @@ function printSummary(results: FactionParseResult[], loresCount: number, regimen
   log.info(`Manifestations: ${totalManifestations}`);
   log.info(`Battle Formations: ${totalFormations}`);
   log.info(`Enhancements: ${totalEnhancements}`);
+  log.info(`Blood Tithe Abilities: ${totalBloodTithe}`);
   log.info(`Lores: ${loresCount}`);
   log.info(`Regiments of Renown: ${regimentsCount}`);
+  log.info(`Battle Tactic Cards: ${battleTacticsCount}`);
   log.info(`Errors: ${totalErrors}`);
 }
 

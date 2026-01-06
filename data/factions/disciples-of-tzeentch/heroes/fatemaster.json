@@ -75,6 +75,9 @@
       "abilityCategory": "Offensive"
     }
   ],
+  "publication": {
+    "name": "Warhammer Legends"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": true,

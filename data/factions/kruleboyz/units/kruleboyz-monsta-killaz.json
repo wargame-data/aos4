@@ -68,5 +68,8 @@
       "color": "Green",
       "abilityCategory": "Defensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Orruk Warclans"
+  }
 }

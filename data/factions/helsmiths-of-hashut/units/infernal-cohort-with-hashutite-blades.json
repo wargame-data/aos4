@@ -69,5 +69,8 @@
       "color": "Yellow",
       "abilityCategory": "Rallying"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Helsmiths of Hashut"
+  }
 }

@@ -69,5 +69,8 @@
       "color": "Purple",
       "abilityCategory": "Offensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Seraphon"
+  }
 }

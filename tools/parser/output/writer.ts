@@ -377,3 +377,99 @@ export function writeManifestations(
 ): WriteResult[] {
   return manifestations.map((manifestation) => writeManifestation(manifestation, options, baseDir));
 }
+
+/**
+ * Get battle tactics directory path
+ */
+export function getBattleTacticsDir(baseDir?: string): string {
+  const dir = baseDir || DATA_DIR;
+  return join(dir, "_shared", "battle-tactics");
+}
+
+/**
+ * Ensure battle tactics directory exists
+ */
+export function ensureBattleTacticsDir(baseDir?: string): void {
+  ensureDir(getBattleTacticsDir(baseDir));
+}
+
+/**
+ * Determine output path for a battle tactic card
+ */
+export function getBattleTacticOutputPath(
+  card: { id: string },
+  baseDir?: string
+): string {
+  return join(getBattleTacticsDir(baseDir), `${card.id}.json`);
+}
+
+/**
+ * Write a battle tactic card
+ */
+export function writeBattleTacticCard<T extends { id: string }>(
+  card: T,
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult {
+  const path = getBattleTacticOutputPath(card, baseDir);
+  return writeJson(path, card, options);
+}
+
+/**
+ * Write multiple battle tactic cards
+ */
+export function writeBattleTacticCards<T extends { id: string }>(
+  cards: T[],
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult[] {
+  return cards.map((card) => writeBattleTacticCard(card, options, baseDir));
+}
+
+/**
+ * Get blood tithe directory path
+ */
+export function getBloodTitheDir(baseDir?: string): string {
+  const dir = baseDir || FACTIONS_DIR;
+  return join(dir, "blades-of-khorne", "blood-tithe");
+}
+
+/**
+ * Ensure blood tithe directory exists
+ */
+export function ensureBloodTitheDir(baseDir?: string): void {
+  ensureDir(getBloodTitheDir(baseDir));
+}
+
+/**
+ * Determine output path for a blood tithe ability
+ */
+export function getBloodTitheOutputPath(
+  ability: { id: string },
+  baseDir?: string
+): string {
+  return join(getBloodTitheDir(baseDir), `${ability.id}.json`);
+}
+
+/**
+ * Write a blood tithe ability
+ */
+export function writeBloodTitheAbility<T extends { id: string }>(
+  ability: T,
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult {
+  const path = getBloodTitheOutputPath(ability, baseDir);
+  return writeJson(path, ability, options);
+}
+
+/**
+ * Write multiple blood tithe abilities
+ */
+export function writeBloodTitheAbilities<T extends { id: string }>(
+  abilities: T[],
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult[] {
+  return abilities.map((ability) => writeBloodTitheAbility(ability, options, baseDir));
+}

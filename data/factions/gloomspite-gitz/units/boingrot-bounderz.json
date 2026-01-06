@@ -69,5 +69,8 @@
       "color": "Orange",
       "abilityCategory": "Offensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Gloomspite Gitz"
+  }
 }

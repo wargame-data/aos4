@@ -72,6 +72,9 @@
       "abilityCategory": "Special"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Ogor Mawtribes"
+  },
   "isWizard": 1,
   "isPriest": null,
   "isUnique": false,

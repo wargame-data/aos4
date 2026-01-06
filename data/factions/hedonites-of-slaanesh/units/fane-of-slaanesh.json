@@ -39,5 +39,8 @@
       "color": "Yellow",
       "abilityCategory": "Special"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Hedonites of Slaanesh"
+  }
 }

@@ -53,5 +53,8 @@
       "color": "Black",
       "abilityCategory": "Special"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Gloomspite Gitz"
+  }
 }

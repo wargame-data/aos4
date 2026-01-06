@@ -83,5 +83,8 @@
       "color": "Orange",
       "abilityCategory": "Movement"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Sons of Behemat"
+  }
 }

@@ -77,5 +77,8 @@
       "color": "Purple",
       "abilityCategory": "Rallying"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Warhammer Legends"
+  }
 }

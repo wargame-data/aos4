@@ -84,6 +84,9 @@
       "abilityCategory": "Movement"
     }
   ],
+  "publication": {
+    "name": "Battletome: Kharadron Overlords"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": true,

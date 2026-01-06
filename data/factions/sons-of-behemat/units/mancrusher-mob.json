@@ -90,5 +90,8 @@
       "color": "Orange",
       "abilityCategory": "Offensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Sons of Behemat"
+  }
 }

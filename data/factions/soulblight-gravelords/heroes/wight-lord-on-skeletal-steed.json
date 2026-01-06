@@ -73,6 +73,9 @@
       "abilityCategory": "Movement"
     }
   ],
+  "publication": {
+    "name": "Battletome: Soulblight Gravelords"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": false,

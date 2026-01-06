@@ -110,6 +110,9 @@
       "color": "Black"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Hedonites of Slaanesh"
+  },
   "isWizard": 2,
   "isPriest": null,
   "isUnique": true,

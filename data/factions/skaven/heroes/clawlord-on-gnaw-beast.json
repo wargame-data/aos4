@@ -83,6 +83,9 @@
       "abilityCategory": "Control"
     }
   ],
+  "publication": {
+    "name": "Battletome: Skaven"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": false,

@@ -60,6 +60,9 @@
       "abilityCategory": "Control"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Fyreslayers"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": false,

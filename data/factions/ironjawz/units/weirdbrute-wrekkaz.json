@@ -51,5 +51,8 @@
       "color": "Gray",
       "abilityCategory": "Movement"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Orruk Warclans"
+  }
 }

@@ -54,5 +54,8 @@
       "color": "Purple",
       "abilityCategory": "Control"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Blades of Khorne"
+  }
 }

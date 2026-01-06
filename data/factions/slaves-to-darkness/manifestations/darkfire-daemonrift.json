@@ -1,0 +1,63 @@
+{
+  "$schema": "https://aos-data.org/schema/manifestation.schema.json",
+  "id": "darkfire-daemonrift",
+  "name": "Darkfire Daemonrift",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "9\"",
+    "health": 6,
+    "save": "6+",
+    "banishment": 7
+  },
+  "keywords": [
+    "CHAOS",
+    "ENDLESS SPELL",
+    "FLY",
+    "MANIFESTATION",
+    "SLAVES TO DARKNESS",
+    "WARD (6+)"
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "publication": {
+    "name": "Battletome: Slaves to Darkness"
+  },
+  "baseSize": "90x52mm",
+  "weapons": [
+    {
+      "name": "Darkfire Torrent",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Daemonrift Maw",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Fuelled by Sorcery",
+      "type": "passive",
+      "effect": "Each time a spell is successfully cast by a unit within 12\" of this **^^Manifestation^^**, give this **^^Manifestation^^** 1 **ruinous energy point**, to a maximum of 6.\nEach time this **^^Manifestation^^** uses a **^^Shoot^^** ability, add 1 to the Attacks characteristic of its **Darkfire Torrent** for each ruinous energy point it has.\nIf this **^^Manifestation^^** is removed from play, all of its ruinous energy points are lost.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ]
+}

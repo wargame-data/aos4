@@ -74,6 +74,9 @@
       "abilityCategory": "Movement"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Daughters of Khaine"
+  },
   "isWizard": 3,
   "isPriest": null,
   "isUnique": true,

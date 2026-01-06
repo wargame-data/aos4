@@ -63,5 +63,8 @@
       "color": "Purple",
       "abilityCategory": "Control"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Cities of Sigmar"
+  }
 }

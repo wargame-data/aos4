@@ -82,5 +82,8 @@
       "color": "Blue",
       "abilityCategory": "Shooting"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Ogor Mawtribes"
+  }
 }

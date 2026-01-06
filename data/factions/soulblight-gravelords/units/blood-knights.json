@@ -77,5 +77,8 @@
       "color": "Orange",
       "abilityCategory": "Offensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Soulblight Gravelords"
+  }
 }

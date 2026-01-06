@@ -1,0 +1,51 @@
+{
+  "$schema": "https://aos-data.org/schema/manifestation.schema.json",
+  "id": "nightmare-predator",
+  "name": "Nightmare Predator",
+  "faction": "ossiarch-bonereapers",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 7,
+    "save": "5+",
+    "banishment": 7
+  },
+  "keywords": [
+    "DEATH",
+    "ENDLESS SPELL",
+    "FLY",
+    "MANIFESTATION",
+    "OSSIARCH BONEREAPERS",
+    "WARD (6+)"
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "publication": {
+    "name": "Faction Pack: Ossiarch Bonereapers"
+  },
+  "baseSize": "60mm",
+  "weapons": [
+    {
+      "name": "Lacerating Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Death Incarnate",
+      "type": "passive",
+      "effect": "If this ^^**Manifestation^^** was destroyed or banished this turn and the unit that summoned it is on the battlefield, roll a dice. On a 4+, set up this **^^Manifestation^^** again, wholly within 12\" of the unit that summoned it and more than 9\" from all enemy units",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
+    }
+  ]
+}

@@ -64,6 +64,9 @@
       "abilityCategory": "Defensive"
     }
   ],
+  "publication": {
+    "name": "Miscellaneous Download"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": false,

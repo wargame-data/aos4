@@ -1,0 +1,52 @@
+{
+  "$schema": "https://aos-data.org/schema/manifestation.schema.json",
+  "id": "wheels-of-excruciation",
+  "name": "Wheels of Excruciation",
+  "faction": "hedonites-of-slaanesh",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 6,
+    "save": "5+",
+    "banishment": 7
+  },
+  "keywords": [
+    "CHAOS",
+    "ENDLESS SPELL",
+    "FLY",
+    "HEDONITES OF SLAANESH",
+    "MANIFESTATION",
+    "WARD (6+)"
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "publication": {
+    "name": "Faction Pack: Hedonites of Slaanesh"
+  },
+  "baseSize": "90x52mm",
+  "weapons": [
+    {
+      "name": "Rending Wheels",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Exquisite Agony",
+      "type": "passive",
+      "effect": "Roll 6 dice for each target. For each roll that is less than the target’s Save characteristic, inflict 1 mortal damage on the target.",
+      "phase": "movement",
+      "declare": "Pick up to 3 enemy units that this **^^Manifestation^^** passed across this turn to be the targets.",
+      "color": "Gray",
+      "abilityCategory": "Offensive"
+    }
+  ]
+}

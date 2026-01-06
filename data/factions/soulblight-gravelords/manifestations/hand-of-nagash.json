@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/manifestation.schema.json",
+  "id": "hand-of-nagash",
+  "name": "Hand of Nagash",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 10,
+    "save": "5+",
+    "banishment": 8
+  },
+  "keywords": [
+    "DEATH",
+    "ENDLESS SPELL",
+    "FLY",
+    "MANIFESTATION",
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)"
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "publication": {
+    "name": "Battletome: Soulblight Gravelords"
+  },
+  "baseSize": "120x92mm",
+  "weapons": [
+    {
+      "name": "Grasping Talon",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Chill Grasp",
+      "type": "passive",
+      "effect": "Roll a dice. On a 4+, the following effects apply until the start of your next turn:\n• While the target is within 3\" of this **^^Manifestation^^**, the target has a maximum control score of 1 that cannot be modified.\n• While the target is within 3\" of this **^^Manifestation^^**, the target cannot use **^^Move^^** abilities.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this **^^Manifestation^^** to be the target.",
+      "color": "Red",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Inescapable Reach",
+      "type": "passive",
+      "effect": "Remove this **^^Manifestation^^** from the battlefield and set it up anywhere on the battlefield more than 9\" from all enemy units. Then, roll a D3. On a 2+, this **^^Manifestation^^** can move a number of inches equal to the roll.",
+      "phase": "movement",
+      "declare": "This **^^Manifestation^^** can only use this ability if it has not been set up this turn.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ]
+}

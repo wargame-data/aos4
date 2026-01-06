@@ -92,6 +92,9 @@
       "abilityCategory": "Special"
     }
   ],
+  "publication": {
+    "name": "Battletome: Gloomspite Gitz"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": false,

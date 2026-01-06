@@ -60,5 +60,8 @@
       "color": "Purple",
       "abilityCategory": "Control"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Orruk Warclans"
+  }
 }

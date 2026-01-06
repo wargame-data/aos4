@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-tactic-card.schema.json",
+  "id": "restless-energy",
+  "name": "Restless Energy",
+  "affray": {
+    "name": "Water With Blood",
+    "description": "You complete this battle tactic at the end of your turn if you control an objective that was controlled by your opponent at the start of the turn."
+  },
+  "strike": {
+    "name": "Invasive Species",
+    "description": "You complete this battle tactic at the end of your turn if you control every objective that can be controlled within enemy territory. If there are no objectives within enemy territory, you complete this battle tactic at the end of your turn if you control every objective that was controlled by your opponent at the start of your turn."
+  },
+  "domination": {
+    "name": "All Roots Entwined",
+    "description": "You complete this battle tactic at the end of your turn if you control every objective on the battlefield that can be controlled."
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

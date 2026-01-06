@@ -58,5 +58,8 @@
       "color": "Green",
       "abilityCategory": "Defensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Hedonites of Slaanesh"
+  }
 }

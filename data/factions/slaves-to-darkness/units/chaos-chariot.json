@@ -78,5 +78,8 @@
       "color": "Orange",
       "abilityCategory": "Offensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Slaves to Darkness"
+  }
 }

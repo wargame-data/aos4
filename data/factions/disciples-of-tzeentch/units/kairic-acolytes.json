@@ -78,5 +78,8 @@
       "color": "Blue",
       "abilityCategory": "Shooting"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Disciples of Tzeentch"
+  }
 }

@@ -56,5 +56,8 @@
       "color": "Purple",
       "abilityCategory": "Defensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome Supplement: Bonesplitterz"
+  }
 }

@@ -57,5 +57,8 @@
       "color": "Green",
       "abilityCategory": "Offensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Daughters of Khaine"
+  }
 }

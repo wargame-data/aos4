@@ -1,0 +1,57 @@
+{
+  "$schema": "https://aos-data.org/schema/manifestation.schema.json",
+  "id": "corpsemare-stampede",
+  "name": "Corpsemare Stampede",
+  "faction": "flesh-eater-courts",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 10,
+    "save": "5+",
+    "banishment": 7
+  },
+  "keywords": [
+    "DEATH",
+    "ENDLESS SPELL",
+    "FLESH-EATER COURTS",
+    "FLY",
+    "MANIFESTATION",
+    "WARD (6+)"
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "baseSize": "120x92mm",
+  "weapons": [
+    {
+      "name": "Corpsemare Trample",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Trampled Underfoot",
+      "type": "passive",
+      "effect": "This **^^Manifestation^^** can move a distance up to the value of the stampede roll in a straight line directly towards the target. It can move through the combat ranges of enemy units. It cannot end that move in combat unless it ends that move within 1/2\" of a visible enemy unit. If it does so, this **^^Manifestation^^** has charged.\nRoll a D3 for each enemy unit that this **^^Manifestation^^** passed across during that move. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.\nIn addition, if this **^^Manifestation^^** charged this turn, add the value of the stampede roll to the Attacks characteristic of this **^^Manifestation^^**'s **Corpsemare Trample** for the rest of the turn.",
+      "phase": "charge",
+      "declare": "This **^^Manifestation^^** can use this ability even if it is in combat.\nPick a point on a battlefield edge to be the target. Then, make a stampede roll of 2D6. Add 1D6 to the roll for each battle round that this **^^Manifestation^^** has been on the battlefield and has not been banished. For example, the stampede roll would be 2D6 in the turn it which it was summoned, 3D6 in your next turn, and so on.",
+      "keywords": [
+        "**^^CORE^^**",
+        "**^^MOVE^^**",
+        "**^^CHARGE^^**"
+      ],
+      "color": "Orange",
+      "abilityCategory": "Special"
+    }
+  ]
+}

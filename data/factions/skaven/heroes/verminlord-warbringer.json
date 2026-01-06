@@ -71,6 +71,9 @@
       "abilityCategory": "Offensive"
     }
   ],
+  "publication": {
+    "name": "Battletome: Skaven"
+  },
   "isWizard": 1,
   "isPriest": null,
   "isUnique": false,

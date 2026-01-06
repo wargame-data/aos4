@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/blood-tithe-ability.schema.json",
+  "id": "murder-the-mystic",
+  "name": "Murder the Mystic",
+  "faction": "blades-of-khorne",
+  "bloodTithePoints": 2,
+  "effect": "Make a **banishment roll** of 2D6 for each target. If the banishment roll equals or exceeds the banishment value listed on that Manifestation's warscroll, inflict D3 mortal damage on each enemy unit within 3\" of it and then it is **banished** and removed from play.",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "unlockCondition": "You can only unlock this ability if you have unlocked 'Divine Scorn'.",
+  "parentAbilityId": "divine-scorn",
+  "timing": "Once Per Turn (Army),Your Hero Phase",
+  "declare": "Pick up to 4 enemy Manifestations to be the target(s).",
+  "keywords": [
+    "BLOOD TITHE"
+  ],
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

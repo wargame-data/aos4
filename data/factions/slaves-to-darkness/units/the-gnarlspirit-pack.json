@@ -61,5 +61,8 @@
       "color": "Yellow",
       "abilityCategory": "Special"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Warhammer Legends"
+  }
 }

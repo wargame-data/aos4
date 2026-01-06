@@ -14,6 +14,8 @@ import { battleFormationSchema } from "./schemas/battle-formation.schema.js";
 import { enhancementCollectionSchema } from "./schemas/enhancement.schema.js";
 import { regimentOfRenownSchema } from "./schemas/regiment-of-renown.schema.js";
 import { factionSchema } from "./schemas/faction.schema.js";
+import { battleTacticCardSchema } from "./schemas/battle-tactic-card.schema.js";
+import { bloodTitheAbilitySchema } from "./schemas/blood-tithe-ability.schema.js";
 // Army composition schemas
 import { unitSelectionSchema } from "./schemas/unit-selection.schema.js";
 import { regimentSchema } from "./schemas/regiment.schema.js";
@@ -90,6 +92,18 @@ const schemas: SchemaConfig[] = [
     filename: "faction.schema.json",
     title: "Faction",
     description: "Faction metadata for Age of Sigmar 4th Edition",
+  },
+  {
+    schema: battleTacticCardSchema,
+    filename: "battle-tactic-card.schema.json",
+    title: "Battle Tactic Card",
+    description: "A battle tactic card with tiered objectives for Age of Sigmar 4th Edition",
+  },
+  {
+    schema: bloodTitheAbilitySchema,
+    filename: "blood-tithe-ability.schema.json",
+    title: "Blood Tithe Ability",
+    description: "A Blood Tithe ability for Blades of Khorne faction",
   },
   // Army composition schemas
   {

@@ -70,8 +70,8 @@ export const loreTypeSchema = z.enum(["spell", "prayer", "manifestation"]);
 // Dice expression pattern (e.g., "D6", "2D6+1")
 export const diceExpressionSchema = z.string().regex(/^\d?[dD]\d+.*$/);
 
-// Movement pattern (e.g., '5"', 'D6+8"')
-export const moveSchema = z.string().regex(/^(\d+|D6|D6\+\d+)"$/);
+// Movement pattern (e.g., '5"', 'D6+8"', '3D6"', '-' for immobile)
+export const moveSchema = z.string().regex(/^(-|(\d*D6(\+\d+)?|\d+)")$/);
 
 // Save pattern (e.g., "4+")
 export const saveSchema = z.string().regex(/^\d\+$/);
@@ -175,6 +175,32 @@ export const modifierSchema = z
   })
   .strict();
 
+// Repeat (for constraint modifiers with scaling)
+export const repeatSchema = z
+  .object({
+    value: z.string(),
+    repeats: z.string(),
+    field: z.string(),
+    scope: z.string(),
+    childId: z.string().optional(),
+    shared: z.boolean().optional(),
+    roundUp: z.boolean().optional(),
+    includeChildSelections: z.boolean().optional(),
+    includeChildForces: z.boolean().optional(),
+    percentValue: z.boolean().optional(),
+  })
+  .strict();
+
+// Constraint modifier (for dynamic min/max scaling)
+export const constraintModifierSchema = z
+  .object({
+    constraintId: z.string(),
+    type: z.enum(["set", "increment", "decrement"]),
+    value: z.string(),
+    repeats: z.array(repeatSchema).optional(),
+  })
+  .strict();
+
 // Export types derived from schemas
 export type GrandAlliance = z.infer<typeof grandAllianceSchema>;
 export type Phase = z.infer<typeof phaseSchema>;
@@ -189,3 +215,5 @@ export type Rule = z.infer<typeof ruleSchema>;
 export type Costs = z.infer<typeof costsSchema>;
 export type Condition = z.infer<typeof conditionSchema>;
 export type Modifier = z.infer<typeof modifierSchema>;
+export type Repeat = z.infer<typeof repeatSchema>;
+export type ConstraintModifier = z.infer<typeof constraintModifierSchema>;

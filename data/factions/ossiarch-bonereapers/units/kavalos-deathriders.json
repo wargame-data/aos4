@@ -75,5 +75,8 @@
       "color": "Orange",
       "abilityCategory": "Offensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Ossiarch Bonereapers"
+  }
 }

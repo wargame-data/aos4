@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-tactic-card.schema.json",
+  "id": "master-the-paths",
+  "name": "Master the Paths",
+  "affray": {
+    "name": "Cut Off The Head",
+    "description": "You complete this battle tactic at the end of your turn if an enemy Hero has been destroyed this battle."
+  },
+  "strike": {
+    "name": "Seize the Paths",
+    "description": "You complete this battle tactic at the end of your turn if there are more friendly units in neutral territory than enemy units. If there is no neutral territory in the battleplan you are playing, you complete this tactic at the end of your turn if there are no enemy units within friendly territory."
+  },
+  "domination": {
+    "name": "Envelop and Strangle",
+    "description": "You complete this battle tactic at the end of your turn if at least three different friendly units are each wholly within 9\" of a different corner of the battlefield and only 1 of those corners is wholly within friendly territory. No more than 1 of those units can have been set up this turn."
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

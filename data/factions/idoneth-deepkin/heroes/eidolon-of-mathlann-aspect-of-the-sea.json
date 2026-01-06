@@ -98,6 +98,9 @@
       "abilityCategory": "Offensive"
     }
   ],
+  "publication": {
+    "name": "Battletome: Idoneth Deepkin"
+  },
   "isWizard": 2,
   "isPriest": null,
   "isUnique": false,

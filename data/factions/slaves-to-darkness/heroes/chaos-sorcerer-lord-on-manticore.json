@@ -81,6 +81,9 @@
       "abilityCategory": "Defensive"
     }
   ],
+  "publication": {
+    "name": "Warhammer Legends"
+  },
   "isWizard": 1,
   "isPriest": null,
   "isUnique": false,

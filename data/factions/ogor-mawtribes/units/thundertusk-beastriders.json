@@ -118,5 +118,8 @@
       "color": "Purple",
       "abilityCategory": "Control"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Ogor Mawtribes"
+  }
 }

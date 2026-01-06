@@ -89,5 +89,8 @@
       "color": "Purple",
       "abilityCategory": "Rallying"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Ossiarch Bonereapers"
+  }
 }

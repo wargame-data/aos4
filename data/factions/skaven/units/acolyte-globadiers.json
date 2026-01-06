@@ -69,5 +69,8 @@
       "color": "Green",
       "abilityCategory": "Defensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Skaven"
+  }
 }

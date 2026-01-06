@@ -61,5 +61,8 @@
       "color": "Gray",
       "abilityCategory": "Movement"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Lumineth Realmlords"
+  }
 }

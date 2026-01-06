@@ -94,6 +94,9 @@
       "abilityCategory": "Movement"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Sylvaneth"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": false,

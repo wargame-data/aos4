@@ -57,5 +57,8 @@
       "color": "Gray",
       "abilityCategory": "Offensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Disciples of Tzeentch"
+  }
 }

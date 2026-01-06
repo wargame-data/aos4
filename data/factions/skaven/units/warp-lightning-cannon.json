@@ -64,5 +64,8 @@
       "color": "Blue",
       "abilityCategory": "Shooting"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Skaven"
+  }
 }

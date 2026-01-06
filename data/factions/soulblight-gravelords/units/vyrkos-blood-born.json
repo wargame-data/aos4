@@ -58,5 +58,8 @@
       "color": "Green",
       "abilityCategory": "Defensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome Supplement: Soulblight Gravelords"
+  }
 }

@@ -117,6 +117,9 @@
       "abilityCategory": "Defensive"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Disciples of Tzeentch"
+  },
   "isWizard": 2,
   "isPriest": null,
   "isUnique": false,

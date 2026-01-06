@@ -74,6 +74,9 @@
       "abilityCategory": "Special"
     }
   ],
+  "publication": {
+    "name": "Warhammer Legends"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": false,

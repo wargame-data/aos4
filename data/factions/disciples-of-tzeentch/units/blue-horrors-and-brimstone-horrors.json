@@ -70,5 +70,8 @@
       "color": "Black",
       "abilityCategory": "Rallying"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Disciples of Tzeentch"
+  }
 }

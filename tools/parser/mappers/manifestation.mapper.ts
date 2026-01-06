@@ -195,13 +195,22 @@ export class ManifestationMapper extends BaseMapper<ManifestationMapperInput, Ma
       };
     }
 
-    const move = findCharacteristic(profile, "Move") || '8"';
+    const rawMove = findCharacteristic(profile, "Move") || '8"';
     const health = parseInt(findCharacteristic(profile, "Health") || "5", 10);
     const save = findCharacteristic(profile, "Save") || "-";
     const banishment = parseInt(findCharacteristic(profile, "Banishment") || "7", 10);
 
+    // Normalize move value: "-" means immobile, otherwise ensure it ends with "
+    let move: string;
+    const cleanMove = rawMove.replace(/"/g, "").trim();
+    if (cleanMove === "-" || cleanMove === "") {
+      move = "-";
+    } else {
+      move = `${cleanMove}"`;
+    }
+
     return {
-      move: move.includes('"') ? move : `${move}"`,
+      move,
       health: isNaN(health) ? 5 : health,
       save,
       banishment: isNaN(banishment) ? 7 : banishment,

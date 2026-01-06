@@ -57,5 +57,8 @@
       "color": "Black",
       "abilityCategory": "Special"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Helsmiths of Hashut"
+  }
 }

@@ -84,6 +84,9 @@
       "abilityCategory": "Movement"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Ogor Mawtribes"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": false,

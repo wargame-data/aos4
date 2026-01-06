@@ -102,6 +102,9 @@
       "abilityCategory": "Special"
     }
   ],
+  "publication": {
+    "name": "Battletome: Soulblight Gravelords"
+  },
   "isWizard": 9,
   "isPriest": null,
   "isUnique": true,

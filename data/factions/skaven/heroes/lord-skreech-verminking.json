@@ -95,6 +95,9 @@
       "abilityCategory": "Special"
     }
   ],
+  "publication": {
+    "name": "Battletome: Skaven"
+  },
   "isWizard": 2,
   "isPriest": null,
   "isUnique": true,

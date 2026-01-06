@@ -55,5 +55,8 @@
       "color": "Yellow",
       "abilityCategory": "Rallying"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Kharadron Overlords"
+  }
 }

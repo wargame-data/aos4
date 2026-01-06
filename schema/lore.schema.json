@@ -96,7 +96,7 @@
           "chantingValue": {
             "type": "integer",
             "minimum": 2,
-            "maximum": 6
+            "maximum": 12
           },
           "timing": {
             "type": "string"

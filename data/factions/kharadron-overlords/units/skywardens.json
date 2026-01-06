@@ -105,5 +105,8 @@
       "color": "Purple",
       "abilityCategory": "Special"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Kharadron Overlords"
+  }
 }

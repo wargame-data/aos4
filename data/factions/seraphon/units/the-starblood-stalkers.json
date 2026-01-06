@@ -78,5 +78,8 @@
       "color": "Blue",
       "abilityCategory": "Control"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Warhammer Legends"
+  }
 }

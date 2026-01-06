@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aos-data.org/schema/blood-tithe-ability.schema.json",
+  "id": "cleave-wide-the-grin-of-khorne",
+  "name": "Cleave Wide the Grin of Khorne",
+  "faction": "blades-of-khorne",
+  "bloodTithePoints": 4,
+  "effect": "Add 1 to hit rolls for combat attacks made by friendly Blades of Khorne units.",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "parentAbilityId": "2b69-3316-d2c2-1441-83d6-6dad-ffeb-c430",
+  "timing": "Passive",
+  "keywords": [
+    "BLOOD TITHE"
+  ],
+  "color": "Red",
+  "abilityCategory": "Special"
+}

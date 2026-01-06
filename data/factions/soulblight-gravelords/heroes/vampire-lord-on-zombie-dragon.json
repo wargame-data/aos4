@@ -113,6 +113,9 @@
       "abilityCategory": "Control"
     }
   ],
+  "publication": {
+    "name": "Battletome Supplement: Soulblight Gravelords"
+  },
   "isWizard": 1,
   "isPriest": null,
   "isUnique": false,

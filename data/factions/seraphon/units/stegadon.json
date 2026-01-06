@@ -101,5 +101,8 @@
       "color": "Orange",
       "abilityCategory": "Special"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Seraphon"
+  }
 }

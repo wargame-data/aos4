@@ -58,6 +58,9 @@
       "abilityCategory": "Control"
     }
   ],
+  "publication": {
+    "name": "Battletome: Helsmiths of Hashut"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": false,

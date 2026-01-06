@@ -50,5 +50,8 @@
       "color": "Red",
       "abilityCategory": "Special"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Ossiarch Bonereapers"
+  }
 }

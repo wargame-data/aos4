@@ -92,6 +92,9 @@
       "abilityCategory": "Shooting"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Daughters of Khaine"
+  },
   "isWizard": 1,
   "isPriest": null,
   "isUnique": false,

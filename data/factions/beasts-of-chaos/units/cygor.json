@@ -80,5 +80,8 @@
       "color": "Yellow",
       "abilityCategory": "Special"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome Supplement: Beasts of Chaos"
+  }
 }

@@ -19,6 +19,8 @@ import {
   getAllCosts,
   getConstraint,
   hasCategory,
+  extractConstraintModifiers,
+  type ExtractedConstraintModifier,
 } from "../xml/traverser.js";
 import { transformStats, type TransformedStats } from "../transformers/stats.js";
 import { toKebabCase } from "../transformers/id.js";
@@ -67,6 +69,7 @@ export interface Unit {
   maxSize?: number;
   canReinforce?: boolean;
   reinforcementCost?: number;
+  constraintModifiers?: ExtractedConstraintModifier[];
   isCollective?: boolean;
   costs?: {
     destinyPoints?: number;
@@ -172,6 +175,12 @@ export class UnitMapper extends BaseMapper<UnitMapperInput, Unit | Hero> {
     if (maxSize && maxSize > unit.baseSize) {
       unit.maxSize = maxSize;
       unit.canReinforce = true;
+    }
+
+    // Extract constraint modifiers with repeat rules (for dynamic scaling)
+    const constraintMods = extractConstraintModifiers(entry);
+    if (constraintMods.length > 0) {
+      unit.constraintModifiers = constraintMods;
     }
 
     if (abilities.length > 0) {

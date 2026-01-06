@@ -53,5 +53,8 @@
       "type": "passive",
       "effect": "Add 1 to the Attacks characteristic of this unit’s melee weapons while it is contesting an objective you do not control."
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Cities of Sigmar"
+  }
 }

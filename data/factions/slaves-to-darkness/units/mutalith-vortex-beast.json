@@ -83,5 +83,8 @@
       "color": "Yellow",
       "abilityCategory": "Defensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Slaves to Darkness"
+  }
 }

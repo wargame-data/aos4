@@ -33,6 +33,15 @@ export {
   type LoreReference,
   type BattleFormationReference,
 } from "./schemas/faction.schema.js";
+export {
+  battleTacticCardSchema,
+  type BattleTacticCard,
+  type Tactic,
+} from "./schemas/battle-tactic-card.schema.js";
+export {
+  bloodTitheAbilitySchema,
+  type BloodTitheAbility,
+} from "./schemas/blood-tithe-ability.schema.js";
 
 // Army composition schemas
 export {
@@ -92,6 +101,8 @@ export {
   conditionSchema,
   conditionGroupSchema,
   modifierSchema,
+  repeatSchema,
+  constraintModifierSchema,
   type GrandAlliance,
   type Phase,
   type AbilityType,
@@ -106,4 +117,6 @@ export {
   type Condition,
   type ConditionGroup,
   type Modifier,
+  type Repeat,
+  type ConstraintModifier,
 } from "./base.js";

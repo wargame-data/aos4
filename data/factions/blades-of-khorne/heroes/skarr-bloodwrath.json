@@ -67,6 +67,9 @@
       "abilityCategory": "Offensive"
     }
   ],
+  "publication": {
+    "name": "Battletome Supplement: Blades of Khorne"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": true,

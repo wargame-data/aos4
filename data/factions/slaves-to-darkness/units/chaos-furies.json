@@ -51,5 +51,8 @@
       "color": "Red",
       "abilityCategory": "Movement"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Slaves to Darkness"
+  }
 }

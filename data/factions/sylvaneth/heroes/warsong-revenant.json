@@ -72,6 +72,9 @@
       "abilityCategory": "Defensive"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Sylvaneth"
+  },
   "isWizard": 2,
   "isPriest": null,
   "isUnique": false,

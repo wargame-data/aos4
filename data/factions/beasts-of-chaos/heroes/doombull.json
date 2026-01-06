@@ -73,6 +73,9 @@
       "abilityCategory": "Offensive"
     }
   ],
+  "publication": {
+    "name": "Battletome Supplement: Beasts of Chaos"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": false,

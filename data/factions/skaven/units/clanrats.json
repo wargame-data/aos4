@@ -56,5 +56,8 @@
       "color": "Purple",
       "abilityCategory": "Rallying"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Battletome: Skaven"
+  }
 }

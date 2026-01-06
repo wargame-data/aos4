@@ -82,6 +82,9 @@
       "abilityCategory": "Movement"
     }
   ],
+  "publication": {
+    "name": "Battletome: Skaven"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": true,

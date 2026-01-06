@@ -79,6 +79,9 @@
       "abilityCategory": "Defensive"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Cities of Sigmar"
+  },
   "isWizard": 1,
   "isPriest": null,
   "isUnique": false,

@@ -119,6 +119,9 @@
       "color": "Black"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Fyreslayers"
+  },
   "isWizard": null,
   "isPriest": 1,
   "isUnique": false,

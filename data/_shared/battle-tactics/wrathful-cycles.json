@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-tactic-card.schema.json",
+  "id": "wrathful-cycles",
+  "name": "Wrathful Cycles",
+  "affray": {
+    "name": "Defiant Surge",
+    "description": "You complete this battle tactic at the end of your turn if you control more objectives than your opponent."
+  },
+  "strike": {
+    "name": "Daring Resurgence",
+    "description": "You complete this battle tactic at the end of your turn if you are the underdog this battle round, there is at least 1 friendly unit on the battlefield, and at least half of the friendly units on the battlefield (rounding up) used a Fight ability this turn."
+  },
+  "domination": {
+    "name": "Master of Strategy",
+    "description": "You complete this battle tactic at the end of your turn if there is a different friendly unit wholly within each large quarter of the battlefield, you control more objectives than your opponent, and there are no enemy units contesting any objectives that you control."
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

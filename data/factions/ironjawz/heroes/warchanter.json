@@ -49,6 +49,9 @@
       "abilityCategory": "Special"
     }
   ],
+  "publication": {
+    "name": "Battletome: Orruk Warclans"
+  },
   "isWizard": null,
   "isPriest": 1,
   "isUnique": false,

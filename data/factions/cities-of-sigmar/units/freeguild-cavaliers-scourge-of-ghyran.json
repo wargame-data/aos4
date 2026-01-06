@@ -67,5 +67,8 @@
       "color": "Orange",
       "abilityCategory": "Movement"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Scourge of Ghyran"
+  }
 }

@@ -67,5 +67,8 @@
       "color": "Black",
       "abilityCategory": "Special"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Disciples of Tzeentch"
+  }
 }

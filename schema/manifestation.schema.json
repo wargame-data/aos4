@@ -37,7 +37,7 @@
       "properties": {
         "move": {
           "type": "string",
-          "pattern": "^(\\d+|D6|D6\\+\\d+)\"$"
+          "pattern": "^(-|(\\d*D6(\\+\\d+)?|\\d+)\")$"
         },
         "health": {
           "type": "integer",

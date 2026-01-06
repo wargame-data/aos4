@@ -70,5 +70,8 @@
       "color": "Orange",
       "abilityCategory": "Offensive"
     }
-  ]
+  ],
+  "publication": {
+    "name": "Faction Pack: Lumineth Realmlords"
+  }
 }

@@ -81,6 +81,9 @@
       "abilityCategory": "Special"
     }
   ],
+  "publication": {
+    "name": "Battletome Supplement: Beasts of Chaos"
+  },
   "isWizard": 1,
   "isPriest": null,
   "isUnique": false,

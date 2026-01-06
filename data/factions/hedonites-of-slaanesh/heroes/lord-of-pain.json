@@ -57,6 +57,9 @@
       "abilityCategory": "Offensive"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Hedonites of Slaanesh"
+  },
   "isWizard": null,
   "isPriest": null,
   "isUnique": false,

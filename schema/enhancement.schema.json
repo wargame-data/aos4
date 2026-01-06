@@ -19,7 +19,7 @@
       "type": "string",
       "pattern": "^[a-z0-9-]+$"
     },
-    "enhancementType": {
+    "type": {
       "type": "string",
       "enum": [
         "heroic-trait",
@@ -239,7 +239,7 @@
     "id",
     "name",
     "faction",
-    "enhancementType",
+    "type",
     "enhancements"
   ],
   "additionalProperties": false

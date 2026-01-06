@@ -78,6 +78,9 @@
       "abilityCategory": "Defensive"
     }
   ],
+  "publication": {
+    "name": "Faction Pack: Lumineth Realmlords"
+  },
   "isWizard": 2,
   "isPriest": null,
   "isUnique": false,
