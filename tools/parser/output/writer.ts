@@ -9,6 +9,7 @@ import { join, dirname } from "path";
 import type { Unit, Hero } from "../mappers/unit.mapper.js";
 import type { Lore } from "../mappers/lore.mapper.js";
 import type { Manifestation } from "../mappers/manifestation.mapper.js";
+import type { FactionTerrain } from "../mappers/terrain.mapper.js";
 import { FACTIONS_DIR, DATA_DIR } from "../config.js";
 
 /**
@@ -149,6 +150,7 @@ export function ensureFactionStructure(
   ensureDir(join(factionDir, "manifestations"));
   ensureDir(join(factionDir, "battle-formations"));
   ensureDir(join(factionDir, "lores"));
+  ensureDir(join(factionDir, "terrain"));
 }
 
 /**
@@ -472,4 +474,38 @@ export function writeBloodTitheAbilities<T extends { id: string }>(
   baseDir?: string
 ): WriteResult[] {
   return abilities.map((ability) => writeBloodTitheAbility(ability, options, baseDir));
+}
+
+/**
+ * Determine output path for faction terrain
+ */
+export function getTerrainOutputPath(
+  terrain: FactionTerrain,
+  baseDir?: string
+): string {
+  const dir = baseDir || FACTIONS_DIR;
+  return join(dir, terrain.faction, "terrain", `${terrain.id}.json`);
+}
+
+/**
+ * Write a terrain piece to its appropriate location
+ */
+export function writeTerrain(
+  terrain: FactionTerrain,
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult {
+  const path = getTerrainOutputPath(terrain, baseDir);
+  return writeJson(path, terrain, options);
+}
+
+/**
+ * Write multiple terrain pieces
+ */
+export function writeTerrains(
+  terrains: FactionTerrain[],
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult[] {
+  return terrains.map((terrain) => writeTerrain(terrain, options, baseDir));
 }

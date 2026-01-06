@@ -825,3 +825,17 @@ export function findBattleTacticCards(gameSystem: BSGameSystem): BSProfile[] {
 
   return profiles;
 }
+
+/**
+ * Find faction terrain entries in a catalogue.
+ * These are selection entries with the FACTION TERRAIN category.
+ */
+export function findFactionTerrain(catalogue: BSCatalogue): BSSelectionEntry[] {
+  const allEntries = findSelectionEntries(catalogue);
+  return allEntries.filter((e) => {
+    if (!e || !e.$ || isHidden(e)) {
+      return false;
+    }
+    return hasCategory(e, "FACTION TERRAIN");
+  });
+}

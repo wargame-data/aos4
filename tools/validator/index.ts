@@ -68,6 +68,9 @@ function determineSchemaForFile(filePath: string): string | null {
   if (relativePath.includes("/blood-tithe/")) {
     return "https://aos-data.org/schema/blood-tithe-ability.schema.json";
   }
+  if (relativePath.includes("/terrain/")) {
+    return "https://aos-data.org/schema/terrain.schema.json";
+  }
   if (basename(filePath) === "_index.json") {
     return "https://aos-data.org/schema/faction.schema.json";
   }

@@ -42,6 +42,10 @@ export {
   bloodTitheAbilitySchema,
   type BloodTitheAbility,
 } from "./schemas/blood-tithe-ability.schema.js";
+export {
+  terrainSchema,
+  type FactionTerrain,
+} from "./schemas/terrain.schema.js";
 
 // Army composition schemas
 export {

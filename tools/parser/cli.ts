@@ -17,10 +17,11 @@ import {
 } from "./github/clone.js";
 import { getRepoCachePath, isCacheValid, getCacheAge } from "./github/cache.js";
 import { parseCat, parseGst } from "./xml/reader.js";
-import { findUnits, findManifestations, getFactionId, isLibrary, extractPointsFromEntryLinks, findBattleTacticCards, findBloodTitheAbilities } from "./xml/traverser.js";
+import { findUnits, findManifestations, findFactionTerrain, getFactionId, isLibrary, extractPointsFromEntryLinks, findBattleTacticCards, findBloodTitheAbilities } from "./xml/traverser.js";
 import { PublicationResolver } from "./xml/publications.js";
 import { UnitMapper, type Unit, type Hero } from "./mappers/unit.mapper.js";
 import { ManifestationMapper, type Manifestation } from "./mappers/manifestation.mapper.js";
+import { TerrainMapper, type FactionTerrain } from "./mappers/terrain.mapper.js";
 import { mapBattleFormations, type BattleFormation } from "./mappers/battle-formation.mapper.js";
 import { mapHeroicTraits, mapArtefactsOfPower, type EnhancementCollection } from "./mappers/enhancement.mapper.js";
 import { mapRegimentsOfRenown, type RegimentOfRenown } from "./mappers/regiment-of-renown.mapper.js";
@@ -39,6 +40,7 @@ import {
   ensureRegimentsOfRenownDir,
   writeRegimentsOfRenown,
   writeManifestations,
+  writeTerrains,
   ensureBattleTacticsDir,
   writeBattleTacticCards,
   ensureBloodTitheDir,
@@ -84,6 +86,7 @@ interface FactionParseResult {
   factionName: string;
   units: (Unit | Hero)[];
   manifestations: Manifestation[];
+  terrain: FactionTerrain[];
   battleFormations: BattleFormation[];
   heroicTraits: EnhancementCollection | null;
   artefacts: EnhancementCollection | null;
@@ -576,6 +579,31 @@ async function parseAllFactions(
         }
       }
 
+      // Extract faction terrain
+      const terrainEntries = findFactionTerrain(catalogue);
+      log.verbose(`  Found ${terrainEntries.length} faction terrain`);
+
+      const terrainMapper = new TerrainMapper(mapperOptions);
+      const terrain: FactionTerrain[] = [];
+
+      for (const entry of terrainEntries) {
+        try {
+          const terrainPiece = terrainMapper.map({ entry, catalogue });
+          // Apply points from the non-library catalogue if present
+          const entryId = entry.$.id;
+          if (pointsMap.has(entryId)) {
+            terrainPiece.points = pointsMap.get(entryId)!;
+          }
+          terrain.push(terrainPiece);
+        } catch (error) {
+          const msg = `Failed to map terrain ${entry.$.name}: ${error}`;
+          errors.push(msg);
+          if (options.strict) {
+            throw error;
+          }
+        }
+      }
+
       // Load battle formations, enhancements, and blood tithe abilities from non-library catalogue
       const { battleFormations, heroicTraits, artefacts, bloodTitheAbilities } = await loadFormationsAndEnhancements(file, mapperOptions, log);
 
@@ -584,6 +612,7 @@ async function parseAllFactions(
         factionName: catalogue.$.name,
         units,
         manifestations,
+        terrain,
         battleFormations,
         heroicTraits,
         artefacts,
@@ -593,7 +622,8 @@ async function parseAllFactions(
 
       const enhancementCount = (heroicTraits?.enhancements.length || 0) + (artefacts?.enhancements.length || 0);
       const bloodTitheStr = bloodTitheAbilities.length > 0 ? `, ${bloodTitheAbilities.length} blood tithe` : "";
-      log.info(`  ${factionId}: ${units.length} units, ${manifestations.length} manifestations, ${battleFormations.length} formations, ${enhancementCount} enhancements${bloodTitheStr}`);
+      const terrainStr = terrain.length > 0 ? `, ${terrain.length} terrain` : "";
+      log.info(`  ${factionId}: ${units.length} units, ${manifestations.length} manifestations${terrainStr}, ${battleFormations.length} formations, ${enhancementCount} enhancements${bloodTitheStr}`);
     } catch (error) {
       log.error(`Failed to parse ${file}: ${error}`);
       if (options.strict) {
@@ -893,6 +923,12 @@ async function writeResults(
       log.verbose(`  Wrote ${manifestationResults.length} manifestations`);
     }
 
+    // Write faction terrain
+    if (result.terrain.length > 0) {
+      const terrainResults = writeTerrains(result.terrain, { dryRun: false }, outputDir);
+      log.verbose(`  Wrote ${terrainResults.length} terrain pieces`);
+    }
+
     // Write battle formations
     if (result.battleFormations.length > 0) {
       const formationResults = writeBattleFormations(result.battleFormations, { dryRun: false }, outputDir);
@@ -924,7 +960,8 @@ async function writeResults(
     const formationCount = result.battleFormations.length;
     const enhancementCount = (result.heroicTraits?.enhancements.length || 0) + (result.artefacts?.enhancements.length || 0);
     const bloodTitheStr = result.bloodTitheAbilities.length > 0 ? `, ${result.bloodTitheAbilities.length} blood tithe` : "";
-    log.info(`  ${result.factionId}: ${result.units.length} units, ${result.manifestations.length} manifestations, ${formationCount} formations, ${enhancementCount} enhancements${bloodTitheStr} written`);
+    const terrainStr = result.terrain.length > 0 ? `, ${result.terrain.length} terrain` : "";
+    log.info(`  ${result.factionId}: ${result.units.length} units, ${result.manifestations.length} manifestations${terrainStr}, ${formationCount} formations, ${enhancementCount} enhancements${bloodTitheStr} written`);
   }
 }
 
@@ -938,6 +975,7 @@ function printSummary(results: FactionParseResult[], loresCount: number, regimen
 
   let totalUnits = 0;
   let totalManifestations = 0;
+  let totalTerrain = 0;
   let totalFormations = 0;
   let totalEnhancements = 0;
   let totalBloodTithe = 0;
@@ -946,6 +984,7 @@ function printSummary(results: FactionParseResult[], loresCount: number, regimen
   for (const result of results) {
     totalUnits += result.units.length;
     totalManifestations += result.manifestations.length;
+    totalTerrain += result.terrain.length;
     totalFormations += result.battleFormations.length;
     totalEnhancements += (result.heroicTraits?.enhancements.length || 0) + (result.artefacts?.enhancements.length || 0);
     totalBloodTithe += result.bloodTitheAbilities.length;
@@ -955,6 +994,7 @@ function printSummary(results: FactionParseResult[], loresCount: number, regimen
   log.info(`Factions: ${results.length}`);
   log.info(`Units: ${totalUnits}`);
   log.info(`Manifestations: ${totalManifestations}`);
+  log.info(`Faction Terrain: ${totalTerrain}`);
   log.info(`Battle Formations: ${totalFormations}`);
   log.info(`Enhancements: ${totalEnhancements}`);
   log.info(`Blood Tithe Abilities: ${totalBloodTithe}`);
