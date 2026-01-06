@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "bacchanal-of-blood",
+  "name": "Bacchanal of Blood",
+  "faction": "soulblight-gravelords",
+  "abilities": [
+    {
+      "name": "Aristocracy of the Night",
+      "type": "passive",
+      "effect": "Add 1 to casting rolls for friendly **^^Vampire^^** units that are not in combat and add 1 to wound rolls for combat attacks made by friendly VAMPIRE units that charged in the same turn.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

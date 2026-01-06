@@ -1,0 +1,80 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "heroic-traits",
+  "name": "Heroic Traits",
+  "faction": "cities-of-sigmar",
+  "type": "heroic-trait",
+  "enhancements": [
+    {
+      "name": "Master of Ballistics",
+      "ability": {
+        "name": "Master of Ballistics",
+        "type": "passive",
+        "effect": "If a friendly **^^Cities of Sigmar^^** unit uses the ‘All-out Attack’ command in the shooting phase while it is within this unit’s combat range, add 1 to wound rolls for that unit’s shooting attacks in that phase. This effect is in addition to the effect of ‘All-out Attack’.",
+        "color": "Blue",
+        "abilityCategory": "Shooting"
+      }
+    },
+    {
+      "name": "Fiery Temper",
+      "ability": {
+        "name": "Fiery Temper",
+        "type": "passive",
+        "effect": "If this unit charged this turn, you can re-roll charge rolls for friendly **^^Cities of Sigmar^^** units while they are wholly within 18\" of this unit.",
+        "color": "Orange",
+        "abilityCategory": "Movement"
+      }
+    },
+    {
+      "name": "Grizzled Veteran",
+      "ability": {
+        "name": "Grizzled Veteran",
+        "type": "passive",
+        "effect": "If the unmodified wound roll for an attack that targets this unit is a 1-3, the attack fails and the attack sequence ends.",
+        "color": "Green",
+        "abilityCategory": "Defensive"
+      }
+    },
+    {
+      "name": "Cosmopolitan Leader",
+      "ability": {
+        "name": "Cosmopolitan Leader",
+        "type": "passive",
+        "effect": "Roll a dice. On a 3+, until the start of your next turn:\n• If the target is **^^Human^^**, add 1 to wound rolls for the target’s combat attacks.\n• If the target is **^^Duardin^^**, add 1 to charge rolls for the target.\n• If the target is **^^Aelf^^**, add 3 to the target’s control score.",
+        "phase": "hero",
+        "declare": "Pick a friendly **^^Cities of Sigmar Infantry^^** or **^^Cavalry^^** unit wholly within 12\" of this unit to be the target. If this unit is **^^Human^^**, pick up to 3 eligible units to be the targets instead.",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      },
+      "points": 20
+    },
+    {
+      "name": "Draw Steel!",
+      "ability": {
+        "name": "Draw Steel!",
+        "type": "passive",
+        "effect": "Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+        "phase": "combat",
+        "declare": "If this unit charged this turn, pick a friendly **^^Cities of Sigmar Human^^** unit that charged this turn and is wholly within 12\" of this unit to be the target.",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Astute Tactician",
+      "ability": {
+        "name": "Astute Tactician",
+        "type": "passive",
+        "effect": "For the rest of the turn, add 1 to charge rolls for the target and add 2 to run rolls for the target.",
+        "phase": "hero",
+        "declare": "Pick a friendly **^^Cities of Sigmar^^** unit wholly within 12\" of this unit to be the target.",
+        "color": "Yellow",
+        "abilityCategory": "Movement"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

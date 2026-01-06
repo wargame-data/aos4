@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "heroic-traits",
+  "name": "Heroic Traits",
+  "faction": "maggotkin-of-nurgle",
+  "type": "heroic-trait",
+  "enhancements": [
+    {
+      "name": "Gift of Febrile Frenzy",
+      "ability": {
+        "name": "Gift of Febrile Frenzy",
+        "type": "passive",
+        "effect": "Add 1\" to the Move characteristic of friendly **^^Maggotkin of Nurgle^^** units that do not have **^^Fly^^** if they are wholly within 12\" of this unit at the start of the move.",
+        "color": "Gray",
+        "abilityCategory": "Movement"
+      }
+    },
+    {
+      "name": "Grandfather's Blessing",
+      "ability": {
+        "name": "Grandfather's Blessing",
+        "type": "passive",
+        "effect": "If this unit is in combat with a **^^Diseased^^** enemy unit, **Heal (D6)** this unit.",
+        "phase": "any",
+        "color": "Purple",
+        "abilityCategory": "Defensive"
+      }
+    },
+    {
+      "name": "Overpowering Stench",
+      "ability": {
+        "name": "Overpowering Stench",
+        "type": "reaction",
+        "effect": "Roll a dice. On a 5+, that command has no effect. The command still counts as having been used and the command points spent to use the command are still lost.",
+        "color": "Black",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Living Plague",
+      "ability": {
+        "name": "Living Plague",
+        "type": "once-per-battle",
+        "effect": "The target has the **^^Diseased^^** keyword.",
+        "phase": "combat",
+        "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
+        "color": "Red",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Corpulent Avalanche",
+      "ability": {
+        "name": "Corpulent Avalanche",
+        "type": "passive",
+        "effect": "Roll a number of dice equal to this unit’s Move characteristic. For each 3+, inflict 1 mortal damage on the target.\nIf any damage points were allocated to the target by this ability, this unit can move 2D3\". It can move through the combat ranges of enemy units but must end that move in combat with the unit it was already in combat with at the start of\nthe move.",
+        "phase": "charge",
+        "declare": "If this unit charged this turn, pick a visible enemy unit within 1\" of it to be the target.",
+        "color": "Orange",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Unctuous Preacher",
+      "ability": {
+        "name": "Unctuous Preacher",
+        "type": "passive",
+        "effect": "If this unit is not a **^^Priest^^**, it has **^^Priest (1)^^**. If this unit is already a **^^Priest^^**, add 1 to chanting rolls for this unit.",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

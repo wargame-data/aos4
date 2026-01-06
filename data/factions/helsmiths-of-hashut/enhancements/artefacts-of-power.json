@@ -1,0 +1,48 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "artefacts-of-power",
+  "name": "Artefacts of Power",
+  "faction": "helsmiths-of-hashut",
+  "type": "artefact",
+  "enhancements": [
+    {
+      "name": "Scroll of Petrification",
+      "ability": {
+        "name": "Scroll of Petrification",
+        "type": "once-per-battle",
+        "effect": "For the rest of the turn:\n• The target has **^^Ward (2+)^^**.\n• The target cannot use non-passive abilities or be picked to be the target of friendly abilities.\n• Enemy units can ignore the target’s combat range for the purposes of movement and charging.\n• Enemy units can ignore the target for the purposes of setting up on the battlefield but cannot be set up on the target.",
+        "phase": "any",
+        "declare": "Pick a friendly **^^Helsmiths of Hashut^^** unit wholly within 12\" of this unit to be the target.",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Crucible of Spite",
+      "ability": {
+        "name": "Crucible of Spite",
+        "type": "once-per-battle",
+        "effect": "Give up to 3 **daemonic power points** to this unit. However, you cannot allocate or give any more **daemonic power points** to this unit for the rest of the battle.",
+        "phase": "hero",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Gauntlets of Punishment",
+      "ability": {
+        "name": "Gauntlets of Punishment",
+        "type": "passive",
+        "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+        "phase": "shooting",
+        "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
+        "color": "Blue",
+        "abilityCategory": "Shooting"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

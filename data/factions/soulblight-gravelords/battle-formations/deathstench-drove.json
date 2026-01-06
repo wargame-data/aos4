@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "deathstench-drove",
+  "name": "Deathstench Drove",
+  "faction": "soulblight-gravelords",
+  "abilities": [
+    {
+      "name": "Dragged Down and Torn Apart",
+      "type": "once-per-turn",
+      "effect": "For each target:\n• Make a pile-in move.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
+      "phase": "any",
+      "declare": "Pick up to 3 friendly **^^Deadwalkers^^** units in combat to be the targets.",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

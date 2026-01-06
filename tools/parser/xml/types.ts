@@ -114,12 +114,14 @@ export interface BSSelectionEntryGroup {
     hidden?: string;
     collective?: string;
     defaultSelectionEntryId?: string;
+    flatten?: string;
   };
   constraints?: BSConstraint[];
   modifiers?: BSModifier[];
   entryLinks?: BSEntryLink[];
   selectionEntries?: BSSelectionEntry[];
   selectionEntryGroups?: BSSelectionEntryGroup[];
+  rules?: BSRule[];
 }
 
 // Attribute on a profile (Color, Type, etc.)

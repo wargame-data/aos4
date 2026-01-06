@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "royal-procession",
+  "name": "Royal Procession",
+  "faction": "nighthaunt",
+  "abilities": [
+    {
+      "name": "Lethal Rancour",
+      "type": "once-per-turn",
+      "effect": "The targets' melee weapons have **Anti-charge (+1 Rend)** for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick up to 2 friendly **^^Nighthaunt^^** units to be the targets,",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

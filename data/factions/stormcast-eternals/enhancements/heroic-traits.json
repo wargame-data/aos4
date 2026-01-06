@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "heroic-traits",
+  "name": "Heroic Traits",
+  "faction": "stormcast-eternals",
+  "type": "heroic-trait",
+  "enhancements": [
+    {
+      "name": "Staunch Defender",
+      "ability": {
+        "name": "Staunch Defender",
+        "type": "passive",
+        "effect": "While this unit is contesting an objective in friendly territory, add 3 to the control scores of friendly **^^Stormcast Eternals^^** units contesting that objective.",
+        "color": "Purple",
+        "abilityCategory": "Control"
+      }
+    },
+    {
+      "name": "Envoy of the Heavens",
+      "ability": {
+        "name": "Envoy of the Heavens",
+        "type": "passive",
+        "effect": "The target has **^^Ward (5+)^^** until the start of your next turn.",
+        "phase": "hero",
+        "declare": "If a friendly **^^Stormcast Eternals^^** unit was destroyed in the previous turn, pick a visible friendly **^^Stormcast Eternals^^** unit wholly within 12\" of this unit to be the target.",
+        "color": "Yellow",
+        "abilityCategory": "Defensive"
+      },
+      "points": 20
+    },
+    {
+      "name": "Shock and Awe",
+      "ability": {
+        "name": "Shock and Awe",
+        "type": "passive",
+        "effect": "Each time this unit is set up using the ’Scions of the Storm’ ability, subtract 1 from hit rolls for attacks that target this unit for the rest of the battle round.\nIn addition, each time a friendly **^^Stormcast Eternals^^** unit is set up wholly within 12\" of this unit using the ‘Scions of the Storm’ ability, subtract 1 from hit rolls for attacks that target that unit for the rest of the battle round.",
+        "color": "Green",
+        "abilityCategory": "Defensive"
+      }
+    },
+    {
+      "name": "Intense Piety",
+      "ability": {
+        "name": "Intense Piety",
+        "type": "passive",
+        "effect": "Roll a dice. On a 3+, subtract 1 from casting rolls and chanting rolls for the target until the start of your next turn.",
+        "phase": "hero",
+        "declare": "Pick a visible enemy **^^Priest^^** or **^^Wizard^^** within 18\" of this unit to be the target.",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Legendary Tenacity",
+      "ability": {
+        "name": "Legendary Tenacity",
+        "type": "passive",
+        "effect": "The first time this unit would be destroyed, before removing it from play, roll a dice. On a 3+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (D3)** this unit.",
+        "color": "Green",
+        "abilityCategory": "Defensive"
+      }
+    },
+    {
+      "name": "Hour of Glory",
+      "ability": {
+        "name": "Hour of Glory",
+        "type": "passive",
+        "effect": "This unit can be picked to use the ‘Their Finest Hour’ ability even if it has already used it this battle. In addition, when this unit is picked to use the ‘Their Finest Hour’ ability, add 5 to its control score for the rest of the turn.",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

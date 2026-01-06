@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "blackpowder-fanatics",
+  "name": "Blackpowder Fanatics",
+  "faction": "ogor-mawtribes",
+  "abilities": [
+    {
+      "name": "Feed Yer Cannons!",
+      "type": "passive",
+      "effect": "Ranged weapons used by friendly **Leadbelchers** and **Ironblaster** units have **Shoot in Combat** while they are within the combat range of a friendly **^^Ogor Mawtribes Hero^^**.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "artefacts-of-power",
+  "name": "Artefacts of Power",
+  "faction": "ossiarch-bonereapers",
+  "type": "artefact",
+  "enhancements": [
+    {
+      "name": "Helm of Tyranny",
+      "ability": {
+        "name": "Helm of Tyranny",
+        "type": "passive",
+        "effect": "Subtract 2 from the control scores of enemy units while they are within 12\" of this unit.",
+        "color": "Purple",
+        "abilityCategory": "Control"
+      }
+    },
+    {
+      "name": "Marrowpact",
+      "ability": {
+        "name": "Marrowpact",
+        "type": "once-per-battle",
+        "effect": "For the rest of the turn, if the unmodified hit roll for a combat attack that targets this unit is 1-2, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+        "phase": "combat",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Lode of Saturation",
+      "ability": {
+        "name": "Lode of Saturation",
+        "type": "passive",
+        "effect": "This unit has **^^Ward (5+)^^**.",
+        "color": "Green",
+        "abilityCategory": "Defensive"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

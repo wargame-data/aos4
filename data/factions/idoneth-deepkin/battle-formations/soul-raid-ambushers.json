@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "soul-raid-ambushers",
+  "name": "Soul-raid Ambushers",
+  "faction": "idoneth-deepkin",
+  "abilities": [
+    {
+      "name": "Fade Like Mist",
+      "type": "passive",
+      "effect": "When using the 'Unpredictable Tide' ability, you can pick up to 2 eligible targets instead of 1.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

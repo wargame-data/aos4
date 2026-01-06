@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "pioneers-and-scavengers",
+  "name": "Pioneers and Scavengers",
+  "faction": "kharadron-overlords",
+  "abilities": [
+    {
+      "name": "Gritty Fortune-Hunters",
+      "type": "passive",
+      "effect": "Friendly **Vongrim Harpoon Crew** and **Vongrim Salvagers** units have **^^Ward (6+)^^** while they are contesting an objective.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

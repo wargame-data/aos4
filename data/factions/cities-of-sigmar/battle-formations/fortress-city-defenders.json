@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "fortress-city-defenders",
+  "name": "Fortress-city Defenders",
+  "faction": "cities-of-sigmar",
+  "abilities": [
+    {
+      "name": "Bulwark Zone",
+      "type": "passive",
+      "effect": "Friendly **^^Cities of Sigmar^^** units that have the ‘Fortify Position’ ability start the first battle round in a fortified position.\nIn addition, in the first battle round, subtract 1 from wound rolls for attacks that target friendly **^^Cities of Sigmar^^** units while they are wholly within friendly territory",
+      "color": "Green",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

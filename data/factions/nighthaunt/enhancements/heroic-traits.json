@@ -1,0 +1,48 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "heroic-traits",
+  "name": "Heroic Traits",
+  "faction": "nighthaunt",
+  "type": "heroic-trait",
+  "enhancements": [
+    {
+      "name": "Deathly Possessor",
+      "ability": {
+        "name": "Deathly Possessor",
+        "type": "passive",
+        "effect": "Roll a dice. On a 3+, pick 1 of the target's melee weapons. Immediately resolve combat attacks for the target with that weapon against the victim.",
+        "phase": "combat",
+        "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target, then pick another enemy unit within the target's combat range to be the victim.",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Ruler of the Spectral Hosts",
+      "ability": {
+        "name": "Ruler of the Spectral Hosts",
+        "type": "once-per-turn",
+        "effect": "Roll a D3 for each target. On a 2+:\n• If the target is damaged, **Heal (X)** the target, where **X** is an amount equal to the roll.\n• If the target is not damaged, return a number of slain models to it with a combined Health characteristic of up to X, where X is an amount equal to the roll.",
+        "phase": "hero",
+        "declare": "Pick up to 3 friendly non-**^^Hero Nighthaunt^^** units wholly within 12\" of this unit to be the targets.",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      },
+      "points": 20
+    },
+    {
+      "name": "Shadowy Aura",
+      "ability": {
+        "name": "Shadowy Aura",
+        "type": "reaction",
+        "effect": "For the rest of the turn, subtract 1 from hit rolls for attacks that target this unit.",
+        "color": "Gray",
+        "abilityCategory": "Movement"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

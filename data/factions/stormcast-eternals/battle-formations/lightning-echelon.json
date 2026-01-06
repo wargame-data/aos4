@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "lightning-echelon",
+  "name": "Lightning Echelon",
+  "faction": "stormcast-eternals",
+  "abilities": [
+    {
+      "name": "Oncoming Storm",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, that unit has **^^Strike-first^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick a friendly **^^Extremis Chamber^^** unit that charged this turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

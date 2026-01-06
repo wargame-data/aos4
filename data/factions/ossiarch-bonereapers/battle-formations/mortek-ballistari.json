@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "mortek-ballistari",
+  "name": "Mortek Ballistari",
+  "faction": "ossiarch-bonereapers",
+  "abilities": [
+    {
+      "name": "Crawling Barrage",
+      "type": "passive",
+      "effect": "Add 1 to hit rolls for each target’s shooting attacks for the rest of the turn.",
+      "phase": "shooting",
+      "declare": "Pick up to 3 friendly **Mortek Crawler** units that are wholly within friendly territory and that have not used a **^^Move^^** ability this turn to be the targets",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

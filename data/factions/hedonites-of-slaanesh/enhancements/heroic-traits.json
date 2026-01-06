@@ -1,0 +1,77 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "heroic-traits",
+  "name": "Heroic Traits",
+  "faction": "hedonites-of-slaanesh",
+  "type": "heroic-trait",
+  "enhancements": [
+    {
+      "name": "Strongest Alone",
+      "ability": {
+        "name": "Strongest Alone",
+        "type": "passive",
+        "effect": "Add 1 to hit rolls and wound rolls for this unit’s attacks while it is more than 6\" from all other friendly units.",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Glory Hog",
+      "ability": {
+        "name": "Glory Hog",
+        "type": "passive",
+        "effect": "If an enemy **^^Hero^^** is destroyed by this unit, this unit has the **^^Euphoric^^** keyword for the rest of the battle.",
+        "color": "Black",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Into the Fray",
+      "ability": {
+        "name": "Into the Fray",
+        "type": "passive",
+        "effect": "If this unit charged this turn and the unmodified charge roll was 8+, this unit has Strike-first for the rest of the turn.",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Master of Temptation",
+      "ability": {
+        "name": "Master of Temptation",
+        "type": "passive",
+        "effect": "For the rest of the turn, while your opponent has not used any of their temptation dice to replace a roll for the target this turn, the target can only use **^^Core^^** abilities.",
+        "phase": "hero",
+        "declare": "You can only use this ability if your opponent has any temptation dice. Pick a visible enemy unit within 18\" of this unit to be the target.",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Celebrity Warlord",
+      "ability": {
+        "name": "Celebrity Warlord",
+        "type": "command",
+        "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.",
+        "phase": "movement",
+        "declare": "Pick a friendly non-**^^Hero Sybarite^^** unit that has been destroyed to be the target.",
+        "color": "Gray",
+        "abilityCategory": "Rallying"
+      }
+    },
+    {
+      "name": "The Need For Perfection",
+      "ability": {
+        "name": "The Need For Perfection",
+        "type": "passive",
+        "effect": "The first time each turn that an unmodified charge roll, casting roll, unbinding roll or banishment roll for a friendly non-**^^Euphoric^^** unit wholly within 12\" of this unit is 5 or less, that unit has the **^^Euphoric^^** keyword for the rest of the turn.",
+        "color": "Black",
+        "abilityCategory": "Special"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

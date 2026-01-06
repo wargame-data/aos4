@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "seeker-cavalcade",
+  "name": "Seeker Cavalcade",
+  "faction": "hedonites-of-slaanesh",
+  "abilities": [
+    {
+      "name": "Reckless Haste",
+      "type": "passive",
+      "effect": "Friendly **^^Hedonites of Slaanesh Cavalry^^** units can use a **^^Retreat^^** ability and still use **^^Charge^^** abilities later in the turn. In addition, no mortal damage is inflicted on **^^Hedonites of Slaanesh Cavalry^^** units by **^^Retreat^^** abilities.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

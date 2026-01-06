@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "epicurean-revellers",
+  "name": "Epicurean Revellers",
+  "faction": "hedonites-of-slaanesh",
+  "abilities": [
+    {
+      "name": "Exquisite Palate",
+      "type": "passive",
+      "effect": "Each time a friendly non-**^^Hero Hedonites of Slaanesh Daemon^^** uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

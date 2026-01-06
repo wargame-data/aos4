@@ -1,0 +1,80 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "artefacts-of-power",
+  "name": "Artefacts of Power",
+  "faction": "stormcast-eternals",
+  "type": "artefact",
+  "enhancements": [
+    {
+      "name": "Null Pendant",
+      "ability": {
+        "name": "Null Pendant",
+        "type": "once-per-battle",
+        "effect": "Subtract 5 from the target’s control score for the rest of the turn.",
+        "phase": "any",
+        "declare": "Pick an enemy unit in combat with this unit to be the target.",
+        "color": "Purple",
+        "abilityCategory": "Control"
+      }
+    },
+    {
+      "name": "Quicksilver Draught",
+      "ability": {
+        "name": "Quicksilver Draught",
+        "type": "once-per-battle",
+        "effect": "This unit has **^^Strike-first^^** for the rest of the turn.",
+        "phase": "combat",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Mirrorshield",
+      "ability": {
+        "name": "Mirrorshield",
+        "type": "passive",
+        "effect": "This unit cannot be targeted by shooting attacks unless the attacking model is within 9\" of it.",
+        "color": "Green",
+        "abilityCategory": "Defensive"
+      }
+    },
+    {
+      "name": "Beacon of Azyr",
+      "ability": {
+        "name": "Beacon of Azyr",
+        "type": "once-per-battle",
+        "effect": "The next time this turn that the target uses a **^^Prayer^^** or **^^Spell^^** ability, instead of making a casting roll or chanting roll for them, you can use a value of 7 for the roll that cannot be modified. After that ability is resolved, if the target has any ritual points, reset their ritual points total to 0.\n**Designer’s Note:** *Ritual points apply modifiers so cannot be used with this ability to increase the chanting roll to more than 7.*",
+        "phase": "hero",
+        "declare": "Pick a visible friendly **^^Stormcast Eternals Wizard^^** or **^^Priest^^** wholly within 12\" of this unit to be the target.",
+        "color": "Yellow",
+        "abilityCategory": "Defensive"
+      }
+    },
+    {
+      "name": "Sigil of Morrda",
+      "ability": {
+        "name": "Sigil of Morrda",
+        "type": "reaction",
+        "effect": "Roll a dice. On a 3+, that command or **^^Rampage^^** ability has no effect, it still counts as having been used and any command points spent to use that ability are still lost.",
+        "color": "Gray",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Banner of Sigmar",
+      "ability": {
+        "name": "Banner of Sigmar",
+        "type": "once-per-battle",
+        "effect": "Until the start of your next turn, your opponent cannot control the target objective while they have no units contesting it.",
+        "phase": "hero",
+        "declare": "Pick an objective within 18\" of this unit to be the target.",
+        "color": "Yellow",
+        "abilityCategory": "Defensive"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

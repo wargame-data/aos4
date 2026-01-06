@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "hurakan-temple",
+  "name": "Hurakan Temple",
+  "faction": "lumineth-realm-lords",
+  "abilities": [
+    {
+      "name": "Grace of the Hurakan",
+      "type": "passive",
+      "effect": "You can use the ‘Move Like the Wind’ ability in addition to the other **^^Facet of War^^** ability used during the battle round.",
+      "color": "Blue",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

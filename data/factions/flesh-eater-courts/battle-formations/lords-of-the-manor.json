@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "lords-of-the-manor",
+  "name": "Lords of the Manor",
+  "faction": "flesh-eater-courts",
+  "abilities": [
+    {
+      "name": "Raise the Banners",
+      "type": "passive",
+      "effect": "Each time another ability returns at least 1 slain model to a friendly unit that is not in combat, after that ability has been resolved, if that unit is a **^^Serfs^^** unit, you can return 1 additional slain model to it, and if it is a **^^Knights^^** unit, roll a dice. On a 4+, you can return 1 additional slain model to it.",
+      "color": "Black",
+      "abilityCategory": "Rallying"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

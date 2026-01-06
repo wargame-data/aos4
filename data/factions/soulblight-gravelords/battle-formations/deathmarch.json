@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "deathmarch",
+  "name": "Deathmarch",
+  "faction": "soulblight-gravelords",
+  "abilities": [
+    {
+      "name": "Tide of Bones and Blades",
+      "type": "passive",
+      "effect": "Add 1 to the Rend characteristic of melee weapons used by friendly **^^Deathrattle^^** units that charged in the same turn for attacks that target a unit that has fewer models than the attacking unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

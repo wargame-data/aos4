@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "namarti-corps",
+  "name": "Namarti Corps",
+  "faction": "idoneth-deepkin",
+  "abilities": [
+    {
+      "name": "Surge Forward",
+      "type": "passive",
+      "effect": "You can re-roll run rolls and charge rolls for friendly **^^Namarti^^** units while they are wholly within 12\" of a friendly **^^Akhelian^^** unit.",
+      "color": "Black",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

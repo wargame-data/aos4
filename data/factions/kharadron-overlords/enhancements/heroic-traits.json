@@ -1,0 +1,46 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "heroic-traits",
+  "name": "Heroic Traits",
+  "faction": "kharadron-overlords",
+  "type": "heroic-trait",
+  "enhancements": [
+    {
+      "name": "Bold as Brass",
+      "ability": {
+        "name": "Bold as Brass",
+        "type": "passive",
+        "effect": "Add 5 to this unit's control score.",
+        "color": "Purple",
+        "abilityCategory": "Control"
+      }
+    },
+    {
+      "name": "Combat Grafter",
+      "ability": {
+        "name": "Combat Grafter",
+        "type": "once-per-battle",
+        "effect": "This unit can use 2 **^^Fight^^** abilities this phase. After the first is used, however, this unit has **^^Strike-last^^** for the rest of the phase.",
+        "phase": "combat",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Shrewd Opportunist",
+      "ability": {
+        "name": "Shrewd Opportunist",
+        "type": "passive",
+        "effect": "Each target can immediately use the 'Normal Move' ability as if it were your movement phase.",
+        "declare": "Pick this unit and up to 2 other friendly **^^Kharadron Overlords^^** non-**^^Hero Infantry^^** units to be the targets.",
+        "color": "Black",
+        "abilityCategory": "Movement"
+      },
+      "points": 10
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

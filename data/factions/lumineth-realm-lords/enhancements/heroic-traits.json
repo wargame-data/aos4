@@ -1,0 +1,82 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "heroic-traits",
+  "name": "Heroic Traits",
+  "faction": "lumineth-realm-lords",
+  "type": "heroic-trait",
+  "enhancements": [
+    {
+      "name": "Paragon of Hysh",
+      "ability": {
+        "name": "Paragon of Hysh",
+        "type": "reaction",
+        "effect": "You can re-roll the charge roll or casting roll for that ability.",
+        "color": "Black",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Masterful Tactician",
+      "ability": {
+        "name": "Masterful Tactician",
+        "type": "reaction",
+        "effect": "If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.",
+        "color": "Gray",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Perfect Strike",
+      "ability": {
+        "name": "Perfect Strike",
+        "type": "once-per-battle",
+        "effect": "Inflict D3+3 mortal damage on the target.",
+        "phase": "combat",
+        "declare": "Pick an enemy unit in combat with this unit to be the target.",
+        "keywords": [
+          "**^^CORE^^**",
+          "**^^ATTACK^^**",
+          "**^^FIGHT^^**"
+        ],
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Aetherquartz Requisitioner",
+      "ability": {
+        "name": "Aetherquartz Requisitioner",
+        "type": "reaction",
+        "effect": "Add 3 to the casting roll for that spell.",
+        "color": "Yellow",
+        "abilityCategory": "Defensive"
+      }
+    },
+    {
+      "name": "Martial Perfectionist",
+      "ability": {
+        "name": "Martial Perfectionist",
+        "type": "passive",
+        "effect": "Roll a dice. On a 3+, add 1 to wound rolls for combat attacks made by friendly **^^Lumineth Realm-lords Infantry^^** units that target that enemy unit for the rest of the turn.",
+        "phase": "combat",
+        "declare": "Pick a visible enemy unit within 12\" of this unit that is damaged or that had any models slain this turn to be the target.",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Flawless Commander",
+      "ability": {
+        "name": "Flawless Commander",
+        "type": "passive",
+        "effect": "Add 2\" to the Move characteristic of friendly **^^Lumineth Realm-lords Infantry^^** units while they are wholly within 12\" of this unit.",
+        "color": "Gray",
+        "abilityCategory": "Movement"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "castigation-battery",
+  "name": "Castigation Battery",
+  "faction": "helsmiths-of-hashut",
+  "abilities": [
+    {
+      "name": "Experimental Munitions",
+      "type": "passive",
+      "effect": "Add 1 to the Attacks characteristic of ranged weapons used by friendly **^^Helsmiths of Hashut War Machines^^** while they have 3 **daemonic power points**.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

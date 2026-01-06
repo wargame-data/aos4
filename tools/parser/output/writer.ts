@@ -228,3 +228,68 @@ export function writeLores(
 ): WriteResult[] {
   return lores.map((lore) => writeLore(lore, options, factionId, baseDir));
 }
+
+/**
+ * Determine output path for a battle formation
+ */
+export function getBattleFormationOutputPath(
+  formation: { id: string; faction: string },
+  baseDir?: string
+): string {
+  const dir = baseDir || FACTIONS_DIR;
+  return join(dir, formation.faction, "battle-formations", `${formation.id}.json`);
+}
+
+/**
+ * Write a battle formation
+ */
+export function writeBattleFormation<T extends { id: string; faction: string }>(
+  formation: T,
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult {
+  const path = getBattleFormationOutputPath(formation, baseDir);
+  return writeJson(path, formation, options);
+}
+
+/**
+ * Write multiple battle formations
+ */
+export function writeBattleFormations<T extends { id: string; faction: string }>(
+  formations: T[],
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult[] {
+  return formations.map((formation) => writeBattleFormation(formation, options, baseDir));
+}
+
+/**
+ * Determine output path for an enhancement collection
+ */
+export function getEnhancementOutputPath(
+  enhancement: { id: string; faction: string },
+  baseDir?: string
+): string {
+  const dir = baseDir || FACTIONS_DIR;
+  return join(dir, enhancement.faction, "enhancements", `${enhancement.id}.json`);
+}
+
+/**
+ * Write an enhancement collection
+ */
+export function writeEnhancement<T extends { id: string; faction: string }>(
+  enhancement: T,
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult {
+  const path = getEnhancementOutputPath(enhancement, baseDir);
+  return writeJson(path, enhancement, options);
+}
+
+/**
+ * Ensure enhancements directory exists
+ */
+export function ensureEnhancementsDir(factionId: string, baseDir?: string): void {
+  const factionDir = getFactionDir(factionId, baseDir);
+  ensureDir(join(factionDir, "enhancements"));
+}

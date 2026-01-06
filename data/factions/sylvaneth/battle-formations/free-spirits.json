@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "free-spirits",
+  "name": "Free Spirits",
+  "faction": "sylvaneth",
+  "abilities": [
+    {
+      "name": "Fleet and Swift",
+      "type": "once-per-turn",
+      "effect": "This unit can use **^^Charge^^** abilities even if it used a **^^Run^^** ability this turn.",
+      "phase": "charge",
+      "declare": "Pick a friendly **^^Sylvaneth Cavalry^^** unit to use this ability",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

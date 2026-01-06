@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "snaga-rukk",
+  "name": "Snaga Rukk",
+  "faction": "bonesplitterz",
+  "abilities": [
+    {
+      "name": "We'z da Beastiest",
+      "type": "passive",
+      "effect": "Friendly **^^Bonesplitterz Cavalry^^** units have **Anti-charge (+1 Rend)**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

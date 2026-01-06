@@ -1,0 +1,43 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "heroic-traits",
+  "name": "Heroic Traits",
+  "faction": "ossiarch-bonereapers",
+  "type": "heroic-trait",
+  "enhancements": [
+    {
+      "name": "Mighty Archaeossian",
+      "ability": {
+        "name": "Mighty Archaeossian",
+        "type": "passive",
+        "effect": "If the unmodified hit roll for an attack that targets this unit is 1-3, the attack fails and the attack sequence ends.",
+        "color": "Green",
+        "abilityCategory": "Defensive"
+      }
+    },
+    {
+      "name": "Aura of Sterility",
+      "ability": {
+        "name": "Aura of Sterility",
+        "type": "passive",
+        "effect": "Subtract 1 from wound rolls for shooting attacks that target friendly **^^Ossiarch Bonereapers^^** units while they are wholly within 12\" of this unit.",
+        "color": "Green",
+        "abilityCategory": "Defensive"
+      }
+    },
+    {
+      "name": "Diversionary Tactics",
+      "ability": {
+        "name": "Diversionary Tactics",
+        "type": "passive",
+        "effect": "Subtract 2 from charge rolls for enemy units while they are within 12\" of this unit.",
+        "color": "Orange",
+        "abilityCategory": "Movement"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

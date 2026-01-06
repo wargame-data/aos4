@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "breaker-tribe",
+  "name": "Breaker Tribe",
+  "faction": "sons-of-behemat",
+  "abilities": [
+    {
+      "name": "Besieging Bulk",
+      "type": "passive",
+      "effect": "Friendly **^^Mega-Gargants^^** have **^^Ward (6+)^^** while they are within the combat ranges of any other friendly **^^Mega-Gargants^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

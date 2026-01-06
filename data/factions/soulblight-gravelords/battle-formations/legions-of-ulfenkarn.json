@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "legions-of-ulfenkarn",
+  "name": "Legions of Ulfenkarn",
+  "faction": "soulblight-gravelords",
+  "abilities": [
+    {
+      "name": "Wardens of the Wolf",
+      "type": "passive",
+      "effect": "Each time 1 or more slain models are returned to a friendly **^^Soulblight Gravelords Infantry^^** or **^^Beast^^** unit wholly within 12\" of a friendly **Belladamma Volga**, **Radukar the Wolf**, **Radukar the Beast**, **Ivya Volga**, **Lady Annika**, **Kritza**, **Torgillius the Chamberlain**, **Gorslav the Gravekeeper** or **Watch Captain Halgrim**, add 1 to the number of slain models returned to that unit.",
+      "color": "Black",
+      "abilityCategory": "Rallying"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

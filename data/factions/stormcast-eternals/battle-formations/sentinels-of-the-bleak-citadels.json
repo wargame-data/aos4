@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "sentinels-of-the-bleak-citadels",
+  "name": "Sentinels of the Bleak Citadels",
+  "faction": "stormcast-eternals",
+  "abilities": [
+    {
+      "name": "Ancient Aura",
+      "type": "once-per-turn",
+      "effect": "That unit has **^^Ward (5+)^^** for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Ruination Chamber^^** unit.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

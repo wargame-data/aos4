@@ -1,0 +1,20 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "kavalos-lance",
+  "name": "Kavalos Lance",
+  "faction": "ossiarch-bonereapers",
+  "abilities": [
+    {
+      "name": "Swift as Death",
+      "type": "once-per-battle",
+      "effect": "Each target can move 6\" but cannot end that move in combat.",
+      "declare": "Pick up to 3 friendly **^^Ossiarch Bonereapers Cavalry^^** units to be the targets.",
+      "color": "Black",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

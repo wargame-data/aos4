@@ -1,0 +1,81 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "artefacts-of-power",
+  "name": "Artefacts of Power",
+  "faction": "sylvaneth",
+  "type": "artefact",
+  "enhancements": [
+    {
+      "name": "Seed of Rebirth",
+      "ability": {
+        "name": "Seed of Rebirth",
+        "type": "passive",
+        "effect": "If this unit would be destroyed, before removing it from play, roll a dice. On a 3+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (1)** this unit. This unit cannot use this ability again for the rest of the battle.",
+        "color": "Green",
+        "abilityCategory": "Defensive"
+      }
+    },
+    {
+      "name": "Crown of Fell Bowers",
+      "ability": {
+        "name": "Crown of Fell Bowers",
+        "type": "passive",
+        "effect": "Roll a dice. On 3+, add 1 to wound rolls for combat attacks made by friendly **^^Sylvaneth^^** units that target that enemy unit this phase.",
+        "phase": "combat",
+        "declare": "Pick an enemy unit in combat with this unit to be the target.",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Greenwood Gladius",
+      "ability": {
+        "name": "Greenwood Gladius",
+        "type": "passive",
+        "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+        "phase": "combat",
+        "declare": "Pick an enemy unit in combat with this unit to be the target.",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Acorn of the Ages",
+      "ability": {
+        "name": "Acorn of the Ages",
+        "type": "once-per-battle",
+        "effect": "If there are fewer than 3 friendly **Awakened Wyldwoods** on the battlefield, set up an **Awakened Wyldwood** wholly within 12\" of this unit, more than 3\" from all objectives and more than 1\" from all enemy units and other terrain features.",
+        "phase": "hero",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Ranu's Lamentiri",
+      "ability": {
+        "name": "Ranu's Lamentiri",
+        "type": "reaction",
+        "effect": "Make an unbinding roll of 2D6. If the roll exceeds the casting roll for the spell, the spell is unbound and its effect is not resolved. Then, inflict an amount of mortal damage on the caster equal to the difference between the casting roll and the unbinding roll, to a maximum of 6.",
+        "keywords": [
+          "**^^UNBIND^^**"
+        ],
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Glamourweave",
+      "ability": {
+        "name": "Glamourweave",
+        "type": "passive",
+        "effect": "Each phase, you can re-roll 1 hit roll, 1 wound roll and 1 save roll for this unit.",
+        "color": "Black",
+        "abilityCategory": "Special"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

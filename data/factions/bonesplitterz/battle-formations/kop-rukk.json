@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "id": "kop-rukk",
+  "name": "Kop Rukk",
+  "faction": "bonesplitterz",
+  "abilities": [
+    {
+      "name": "Realm-chompers",
+      "type": "passive",
+      "effect": "Ward rolls cannot be made for enemy units while they are within the combat range of any friendly **^^Bonesplitterz Heroes^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

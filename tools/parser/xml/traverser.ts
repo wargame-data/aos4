@@ -490,3 +490,78 @@ export function findLoreGroups(catalogue: BSCatalogue): BSSelectionEntryGroup[] 
 
   return lores;
 }
+
+/**
+ * Find selection entry groups by name pattern.
+ * Searches in both shared and direct selection entry groups.
+ */
+export function findSelectionEntryGroups(
+  catalogue: BSCatalogue,
+  namePattern: string | RegExp
+): BSSelectionEntryGroup[] {
+  const groups: BSSelectionEntryGroup[] = [];
+  const pattern = typeof namePattern === "string" ? new RegExp(namePattern, "i") : namePattern;
+
+  // Check shared selection entry groups
+  if (catalogue.sharedSelectionEntryGroups) {
+    for (const group of catalogue.sharedSelectionEntryGroups) {
+      if (group.$ && group.$.name && pattern.test(group.$.name)) {
+        groups.push(group);
+      }
+    }
+  }
+
+  // Check direct selection entry groups
+  if (catalogue.selectionEntryGroups) {
+    for (const group of catalogue.selectionEntryGroups) {
+      if (group.$ && group.$.name && pattern.test(group.$.name)) {
+        groups.push(group);
+      }
+    }
+  }
+
+  return groups;
+}
+
+/**
+ * Find battle formation groups in a catalogue.
+ * Battle formations are selection entry groups with names like "Battle Formations: <Faction>"
+ */
+export function findBattleFormationGroups(catalogue: BSCatalogue): BSSelectionEntryGroup[] {
+  return findSelectionEntryGroups(catalogue, /^Battle Formations:/i);
+}
+
+/**
+ * Find heroic trait groups in a catalogue.
+ */
+export function findHeroicTraitGroups(catalogue: BSCatalogue): BSSelectionEntryGroup[] {
+  return findSelectionEntryGroups(catalogue, /^Heroic Traits$/i);
+}
+
+/**
+ * Find artefact of power groups in a catalogue.
+ */
+export function findArtefactGroups(catalogue: BSCatalogue): BSSelectionEntryGroup[] {
+  return findSelectionEntryGroups(catalogue, /^Artefacts of Power$/i);
+}
+
+/**
+ * Get all selection entries from a selection entry group (including nested groups)
+ */
+export function getEntriesFromGroup(group: BSSelectionEntryGroup): BSSelectionEntry[] {
+  const entries: BSSelectionEntry[] = [];
+
+  // Direct selection entries
+  if (group.selectionEntries) {
+    entries.push(...group.selectionEntries);
+  }
+
+  // Nested selection entry groups
+  if (group.selectionEntryGroups) {
+    for (const nestedGroup of group.selectionEntryGroups) {
+      entries.push(...getEntriesFromGroup(nestedGroup));
+    }
+  }
+
+  return entries;
+}
