@@ -3,7 +3,7 @@
   "id": "deathrattle-skeletons",
   "name": "Deathrattle Skeletons",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "4\"",
     "health": 1,

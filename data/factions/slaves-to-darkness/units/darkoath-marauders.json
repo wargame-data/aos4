@@ -3,7 +3,7 @@
   "id": "darkoath-marauders",
   "name": "Darkoath Marauders",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 80,
   "stats": {
     "move": "5\"",
     "health": 1,

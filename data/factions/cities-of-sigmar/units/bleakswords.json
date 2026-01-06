@@ -3,7 +3,7 @@
   "id": "bleakswords",
   "name": "Bleakswords",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "6\"",
     "health": 1,

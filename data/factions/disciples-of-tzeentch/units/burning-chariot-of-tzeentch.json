@@ -3,7 +3,7 @@
   "id": "burning-chariot-of-tzeentch",
   "name": "Burning Chariot of Tzeentch",
   "faction": "disciples-of-tzeentch",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "12\"",
     "health": 6,

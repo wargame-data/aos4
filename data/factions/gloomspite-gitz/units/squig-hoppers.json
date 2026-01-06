@@ -3,7 +3,7 @@
   "id": "squig-hoppers",
   "name": "Squig Hoppers",
   "faction": "gloomspite-gitz",
-  "points": 0,
+  "points": 160,
   "stats": {
     "move": "D6+8\"",
     "health": 2,

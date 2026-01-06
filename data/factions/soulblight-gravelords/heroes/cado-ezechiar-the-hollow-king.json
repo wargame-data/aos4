@@ -3,7 +3,7 @@
   "id": "cado-ezechiar-the-hollow-king",
   "name": "Cado Ezechiar, the Hollow King",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "6\"",
     "health": 6,

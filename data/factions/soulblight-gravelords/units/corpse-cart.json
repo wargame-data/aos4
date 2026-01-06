@@ -3,7 +3,7 @@
   "id": "corpse-cart",
   "name": "Corpse Cart",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 70,
   "stats": {
     "move": "4\"",
     "health": 7,

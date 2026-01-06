@@ -3,7 +3,7 @@
   "id": "cockatrice",
   "name": "Cockatrice",
   "faction": "beasts-of-chaos",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "12\"",
     "health": 8,

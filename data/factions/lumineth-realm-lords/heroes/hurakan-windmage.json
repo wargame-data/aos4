@@ -3,7 +3,7 @@
   "id": "hurakan-windmage",
   "name": "Hurakan Windmage",
   "faction": "lumineth-realm-lords",
-  "points": 0,
+  "points": 140,
   "stats": {
     "move": "12\"",
     "health": 5,

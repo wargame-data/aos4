@@ -3,7 +3,7 @@
   "id": "darkshards",
   "name": "Darkshards",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "6\"",
     "health": 1,

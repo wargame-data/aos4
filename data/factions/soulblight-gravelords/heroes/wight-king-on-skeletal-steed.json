@@ -3,7 +3,7 @@
   "id": "wight-king-on-skeletal-steed",
   "name": "Wight King on Skeletal Steed",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 200,
   "stats": {
     "move": "10\"",
     "health": 8,

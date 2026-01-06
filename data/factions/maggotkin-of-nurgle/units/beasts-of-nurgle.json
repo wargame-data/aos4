@@ -3,7 +3,7 @@
   "id": "beasts-of-nurgle",
   "name": "Beasts of Nurgle",
   "faction": "maggotkin-of-nurgle",
-  "points": 0,
+  "points": 120,
   "stats": {
     "move": "7\"",
     "health": 8,

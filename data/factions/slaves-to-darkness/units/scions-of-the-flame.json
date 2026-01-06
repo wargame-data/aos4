@@ -3,7 +3,7 @@
   "id": "scions-of-the-flame",
   "name": "Scions of the Flame",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 120,
   "stats": {
     "move": "5\"",
     "health": 1,

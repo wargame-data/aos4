@@ -3,7 +3,7 @@
   "id": "huskard-on-thundertusk",
   "name": "Huskard on Thundertusk",
   "faction": "ogor-mawtribes",
-  "points": 0,
+  "points": 250,
   "stats": {
     "move": "10\"",
     "health": 14,

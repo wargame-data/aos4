@@ -3,7 +3,7 @@
   "id": "freeguild-cavalier-marshal",
   "name": "Freeguild Cavalier-Marshal",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "10\"",
     "health": 7,

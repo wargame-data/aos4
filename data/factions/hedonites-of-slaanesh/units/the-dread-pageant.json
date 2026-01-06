@@ -3,7 +3,7 @@
   "id": "the-dread-pageant",
   "name": "The Dread Pageant",
   "faction": "hedonites-of-slaanesh",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "6\"",
     "health": 3,

@@ -3,7 +3,7 @@
   "id": "deathbringer",
   "name": "Deathbringer",
   "faction": "blades-of-khorne",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "5\"",
     "health": 6,

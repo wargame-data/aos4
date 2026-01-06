@@ -3,7 +3,7 @@
   "id": "marrowscroll-herald",
   "name": "Marrowscroll Herald",
   "faction": "flesh-eater-courts",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "6\"",
     "health": 5,

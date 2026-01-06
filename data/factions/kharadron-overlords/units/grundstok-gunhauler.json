@@ -3,7 +3,7 @@
   "id": "grundstok-gunhauler",
   "name": "Grundstok Gunhauler",
   "faction": "kharadron-overlords",
-  "points": 0,
+  "points": 160,
   "stats": {
     "move": "14\"",
     "health": 10,

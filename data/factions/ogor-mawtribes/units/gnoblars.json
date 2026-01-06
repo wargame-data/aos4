@@ -3,7 +3,7 @@
   "id": "gnoblars",
   "name": "Gnoblars",
   "faction": "ogor-mawtribes",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "5\"",
     "health": 1,

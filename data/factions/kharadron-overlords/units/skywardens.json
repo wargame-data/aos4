@@ -3,7 +3,7 @@
   "id": "skywardens",
   "name": "Skywardens",
   "faction": "kharadron-overlords",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "12\"",
     "health": 2,

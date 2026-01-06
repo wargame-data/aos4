@@ -3,7 +3,7 @@
   "id": "sunblood-pack",
   "name": "Sunblood Pack",
   "faction": "seraphon",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "5\"",
     "health": 3,

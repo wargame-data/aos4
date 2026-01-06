@@ -3,7 +3,7 @@
   "id": "vanari-auralan-sentinels",
   "name": "Vanari Auralan Sentinels",
   "faction": "lumineth-realm-lords",
-  "points": 0,
+  "points": 160,
   "stats": {
     "move": "6\"",
     "health": 1,

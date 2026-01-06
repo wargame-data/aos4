@@ -3,7 +3,7 @@
   "id": "gothizzar-harvester",
   "name": "Gothizzar Harvester",
   "faction": "ossiarch-bonereapers",
-  "points": 0,
+  "points": 140,
   "stats": {
     "move": "6\"",
     "health": 10,

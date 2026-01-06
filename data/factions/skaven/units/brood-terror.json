@@ -3,7 +3,7 @@
   "id": "brood-terror",
   "name": "Brood Terror",
   "faction": "skaven",
-  "points": 0,
+  "points": 230,
   "stats": {
     "move": "6\"",
     "health": 12,

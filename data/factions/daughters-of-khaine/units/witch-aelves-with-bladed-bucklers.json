@@ -3,7 +3,7 @@
   "id": "witch-aelves-with-bladed-bucklers",
   "name": "Witch Aelves with Bladed Bucklers",
   "faction": "daughters-of-khaine",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "6\"",
     "health": 1,

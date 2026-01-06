@@ -3,7 +3,7 @@
   "id": "grimwrath-berzerker",
   "name": "Grimwrath Berzerker",
   "faction": "fyreslayers",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "4\"",
     "health": 5,

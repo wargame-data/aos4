@@ -3,7 +3,7 @@
   "id": "high-gladiatrix",
   "name": "High Gladiatrix",
   "faction": "daughters-of-khaine",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "6\"",
     "health": 5,

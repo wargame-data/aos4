@@ -3,7 +3,7 @@
   "id": "seekers",
   "name": "Seekers",
   "faction": "hedonites-of-slaanesh",
-  "points": 0,
+  "points": 140,
   "stats": {
     "move": "12\"",
     "health": 3,

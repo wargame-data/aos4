@@ -3,7 +3,7 @@
   "id": "freeguild-marshal-and-relic-envoy",
   "name": "Freeguild Marshal and Relic Envoy",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "5\"",
     "health": 5,

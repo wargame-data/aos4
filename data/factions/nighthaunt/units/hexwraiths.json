@@ -3,7 +3,7 @@
   "id": "hexwraiths",
   "name": "Hexwraiths",
   "faction": "nighthaunt",
-  "points": 0,
+  "points": 160,
   "stats": {
     "move": "12\"",
     "health": 3,

@@ -3,7 +3,7 @@
   "id": "changecaster-herald-of-tzeentch",
   "name": "Changecaster, Herald of Tzeentch",
   "faction": "disciples-of-tzeentch",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "5\"",
     "health": 5,

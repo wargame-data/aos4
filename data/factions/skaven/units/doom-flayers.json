@@ -3,7 +3,7 @@
   "id": "doom-flayers",
   "name": "Doom-flayers",
   "faction": "skaven",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "2\"",
     "health": 4,

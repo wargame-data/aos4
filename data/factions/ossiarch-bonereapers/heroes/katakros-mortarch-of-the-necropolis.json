@@ -3,7 +3,7 @@
   "id": "katakros-mortarch-of-the-necropolis",
   "name": "Katakros, Mortarch of the Necropolis",
   "faction": "ossiarch-bonereapers",
-  "points": 0,
+  "points": 520,
   "stats": {
     "move": "4\"",
     "health": 20,

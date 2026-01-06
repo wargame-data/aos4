@@ -3,7 +3,7 @@
   "id": "shrine-luminor",
   "name": "Shrine Luminor",
   "faction": "lumineth-realm-lords",
-  "points": 0,
+  "points": 20,
   "stats": {
     "move": "0\"",
     "health": 12,

@@ -3,7 +3,7 @@
   "id": "callis-and-toll",
   "name": "Callis and Toll",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 240,
   "stats": {
     "move": "5\"",
     "health": 5,

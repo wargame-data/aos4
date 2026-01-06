@@ -3,7 +3,7 @@
   "id": "lord-of-khorne-on-juggernaut",
   "name": "Lord of Khorne on Juggernaut",
   "faction": "blades-of-khorne",
-  "points": 0,
+  "points": 200,
   "stats": {
     "move": "8\"",
     "health": 8,

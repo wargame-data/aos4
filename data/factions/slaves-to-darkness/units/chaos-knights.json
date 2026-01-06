@@ -3,7 +3,7 @@
   "id": "chaos-knights",
   "name": "Chaos Knights",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 250,
   "stats": {
     "move": "10\"",
     "health": 4,

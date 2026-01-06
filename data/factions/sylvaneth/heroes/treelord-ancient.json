@@ -3,7 +3,7 @@
   "id": "treelord-ancient",
   "name": "Treelord Ancient",
   "faction": "sylvaneth",
-  "points": 0,
+  "points": 230,
   "stats": {
     "move": "5\"",
     "health": 14,

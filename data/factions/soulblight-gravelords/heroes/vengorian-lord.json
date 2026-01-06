@@ -3,7 +3,7 @@
   "id": "vengorian-lord",
   "name": "Vengorian Lord",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 220,
   "stats": {
     "move": "10\"",
     "health": 11,

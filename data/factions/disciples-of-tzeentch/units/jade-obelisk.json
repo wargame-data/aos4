@@ -3,7 +3,7 @@
   "id": "jade-obelisk",
   "name": "Jade Obelisk",
   "faction": "disciples-of-tzeentch",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "5\"",
     "health": 1,

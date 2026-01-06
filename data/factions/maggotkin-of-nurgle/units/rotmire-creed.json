@@ -3,7 +3,7 @@
   "id": "rotmire-creed",
   "name": "Rotmire Creed",
   "faction": "maggotkin-of-nurgle",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "5\"",
     "health": 1,

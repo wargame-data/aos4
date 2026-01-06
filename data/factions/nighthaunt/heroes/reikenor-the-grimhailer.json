@@ -3,7 +3,7 @@
   "id": "reikenor-the-grimhailer",
   "name": "Reikenor the Grimhailer",
   "faction": "nighthaunt",
-  "points": 0,
+  "points": 220,
   "stats": {
     "move": "12\"",
     "health": 7,

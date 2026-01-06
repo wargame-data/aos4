@@ -3,7 +3,7 @@
   "id": "varanguard",
   "name": "Varanguard",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 320,
   "stats": {
     "move": "10\"",
     "health": 5,

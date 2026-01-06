@@ -3,7 +3,7 @@
   "id": "garreks-reavers",
   "name": "Garrek's Reavers",
   "faction": "blades-of-khorne",
-  "points": 0,
+  "points": 70,
   "stats": {
     "move": "5\"",
     "health": 2,

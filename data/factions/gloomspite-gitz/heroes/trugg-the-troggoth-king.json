@@ -3,7 +3,7 @@
   "id": "trugg-the-troggoth-king",
   "name": "Trugg, the Troggoth King",
   "faction": "gloomspite-gitz",
-  "points": 0,
+  "points": 360,
   "stats": {
     "move": "6\"",
     "health": 16,

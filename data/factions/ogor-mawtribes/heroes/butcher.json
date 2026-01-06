@@ -3,7 +3,7 @@
   "id": "butcher",
   "name": "Butcher",
   "faction": "ogor-mawtribes",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "6\"",
     "health": 7,

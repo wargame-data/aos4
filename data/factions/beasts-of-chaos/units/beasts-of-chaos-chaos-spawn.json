@@ -3,7 +3,7 @@
   "id": "beasts-of-chaos-chaos-spawn",
   "name": "Beasts of Chaos Chaos Spawn",
   "faction": "beasts-of-chaos",
-  "points": 0,
+  "points": 70,
   "stats": {
     "move": "2\"",
     "health": 5,

@@ -3,7 +3,7 @@
   "id": "vanari-starshard-ballista",
   "name": "Vanari Starshard Ballista",
   "faction": "lumineth-realm-lords",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "6\"",
     "health": 5,

@@ -3,7 +3,7 @@
   "id": "ellania-and-ellathor-eclipsian-warsages",
   "name": "Ellania and Ellathor, Eclipsian Warsages",
   "faction": "lumineth-realm-lords",
-  "points": 0,
+  "points": 300,
   "stats": {
     "move": "6\"",
     "health": 8,

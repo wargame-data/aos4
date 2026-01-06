@@ -3,7 +3,7 @@
   "id": "nurglings",
   "name": "Nurglings",
   "faction": "maggotkin-of-nurgle",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "4\"",
     "health": 4,

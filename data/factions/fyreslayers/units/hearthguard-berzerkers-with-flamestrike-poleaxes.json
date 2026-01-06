@@ -3,7 +3,7 @@
   "id": "hearthguard-berzerkers-with-flamestrike-poleaxes",
   "name": "Hearthguard Berzerkers with Flamestrike Poleaxes",
   "faction": "fyreslayers",
-  "points": 0,
+  "points": 120,
   "stats": {
     "move": "4\"",
     "health": 2,

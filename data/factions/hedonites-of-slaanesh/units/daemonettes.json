@@ -3,7 +3,7 @@
   "id": "daemonettes",
   "name": "Daemonettes",
   "faction": "hedonites-of-slaanesh",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "6\"",
     "health": 1,

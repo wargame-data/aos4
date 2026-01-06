@@ -3,7 +3,7 @@
   "id": "bull-centaurs",
   "name": "Bull Centaurs",
   "faction": "helsmiths-of-hashut",
-  "points": 0,
+  "points": 190,
   "stats": {
     "move": "10\"",
     "health": 4,

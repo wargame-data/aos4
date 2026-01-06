@@ -3,7 +3,7 @@
   "id": "hobgrot-slittaz",
   "name": "Hobgrot Slittaz",
   "faction": "kruleboyz",
-  "points": 0,
+  "points": 80,
   "stats": {
     "move": "5\"",
     "health": 1,

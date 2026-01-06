@@ -3,7 +3,7 @@
   "id": "pink-horrors",
   "name": "Pink Horrors",
   "faction": "disciples-of-tzeentch",
-  "points": 0,
+  "points": 160,
   "stats": {
     "move": "6\"",
     "health": 2,

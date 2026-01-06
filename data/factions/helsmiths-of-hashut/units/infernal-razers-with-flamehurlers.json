@@ -3,7 +3,7 @@
   "id": "infernal-razers-with-flamehurlers",
   "name": "Infernal Razers with Flamehurlers",
   "faction": "helsmiths-of-hashut",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "4\"",
     "health": 1,

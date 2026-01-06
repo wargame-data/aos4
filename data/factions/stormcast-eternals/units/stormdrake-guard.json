@@ -3,7 +3,7 @@
   "id": "stormdrake-guard",
   "name": "Stormdrake Guard",
   "faction": "stormcast-eternals",
-  "points": 0,
+  "points": 160,
   "stats": {
     "move": "12\"",
     "health": 9,

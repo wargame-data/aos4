@@ -3,7 +3,7 @@
   "id": "gryph-hounds",
   "name": "Gryph-hounds",
   "faction": "stormcast-eternals",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "9\"",
     "health": 2,

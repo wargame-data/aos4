@@ -3,7 +3,7 @@
   "id": "black-ark-fleetmaster",
   "name": "Black Ark Fleetmaster",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "6\"",
     "health": 5,

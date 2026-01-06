@@ -3,7 +3,7 @@
   "id": "dracothian-guard-tempestors",
   "name": "Dracothian Guard Tempestors",
   "faction": "stormcast-eternals",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "10\"",
     "health": 5,

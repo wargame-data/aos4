@@ -3,7 +3,7 @@
   "id": "blood-sisters",
   "name": "Blood Sisters",
   "faction": "daughters-of-khaine",
-  "points": 0,
+  "points": 140,
   "stats": {
     "move": "8\"",
     "health": 2,

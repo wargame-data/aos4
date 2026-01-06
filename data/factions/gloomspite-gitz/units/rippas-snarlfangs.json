@@ -3,7 +3,7 @@
   "id": "rippas-snarlfangs",
   "name": "Rippa's Snarlfangs",
   "faction": "gloomspite-gitz",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "12\"",
     "health": 3,

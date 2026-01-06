@@ -3,7 +3,7 @@
   "id": "madcap-shaman",
   "name": "Madcap Shaman",
   "faction": "gloomspite-gitz",
-  "points": 0,
+  "points": 80,
   "stats": {
     "move": "5\"",
     "health": 4,

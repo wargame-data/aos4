@@ -3,7 +3,7 @@
   "id": "saurus-oldblood",
   "name": "Saurus Oldblood",
   "faction": "seraphon",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "5\"",
     "health": 7,

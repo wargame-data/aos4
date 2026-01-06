@@ -3,7 +3,7 @@
   "id": "untamed-beasts",
   "name": "Untamed Beasts",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "6\"",
     "health": 1,

@@ -3,7 +3,7 @@
   "id": "vizzik-skour-prophet-of-the-horned-rat",
   "name": "Vizzik Skour, Prophet of the Horned Rat",
   "faction": "skaven",
-  "points": 0,
+  "points": 360,
   "stats": {
     "move": "10\"",
     "health": 15,

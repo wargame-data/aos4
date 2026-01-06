@@ -3,7 +3,7 @@
   "id": "lord-executioner",
   "name": "Lord Executioner",
   "faction": "nighthaunt",
-  "points": 0,
+  "points": 170,
   "stats": {
     "move": "8\"",
     "health": 5,

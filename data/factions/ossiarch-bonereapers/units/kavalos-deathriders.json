@@ -3,7 +3,7 @@
   "id": "kavalos-deathriders",
   "name": "Kavalos Deathriders",
   "faction": "ossiarch-bonereapers",
-  "points": 0,
+  "points": 200,
   "stats": {
     "move": "10\"",
     "health": 3,

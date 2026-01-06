@@ -3,7 +3,7 @@
   "id": "stormreach-portal",
   "name": "Stormreach Portal",
   "faction": "stormcast-eternals",
-  "points": 0,
+  "points": 20,
   "stats": {
     "move": "0\"",
     "health": 12,

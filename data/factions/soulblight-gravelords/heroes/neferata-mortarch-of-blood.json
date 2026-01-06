@@ -3,7 +3,7 @@
   "id": "neferata-mortarch-of-blood",
   "name": "Neferata, Mortarch of Blood",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 450,
   "stats": {
     "move": "12\"",
     "health": 14,

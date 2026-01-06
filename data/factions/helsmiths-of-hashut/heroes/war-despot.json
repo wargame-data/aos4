@@ -3,7 +3,7 @@
   "id": "war-despot",
   "name": "War Despot",
   "faction": "helsmiths-of-hashut",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "4\"",
     "health": 6,

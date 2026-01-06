@@ -3,7 +3,7 @@
   "id": "spider-riders",
   "name": "Spider Riders",
   "faction": "gloomspite-gitz",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "10\"",
     "health": 2,

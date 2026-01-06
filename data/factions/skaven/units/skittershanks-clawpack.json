@@ -3,7 +3,7 @@
   "id": "skittershanks-clawpack",
   "name": "Skittershank's Clawpack",
   "faction": "skaven",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "7\"",
     "health": 2,

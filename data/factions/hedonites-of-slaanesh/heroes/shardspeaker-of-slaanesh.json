@@ -3,7 +3,7 @@
   "id": "shardspeaker-of-slaanesh",
   "name": "Shardspeaker of Slaanesh",
   "faction": "hedonites-of-slaanesh",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "6\"",
     "health": 5,

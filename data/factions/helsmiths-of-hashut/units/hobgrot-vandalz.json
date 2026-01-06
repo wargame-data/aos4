@@ -3,7 +3,7 @@
   "id": "hobgrot-vandalz",
   "name": "Hobgrot Vandalz",
   "faction": "helsmiths-of-hashut",
-  "points": 0,
+  "points": 70,
   "stats": {
     "move": "5\"",
     "health": 1,

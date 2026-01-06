@@ -3,7 +3,7 @@
   "id": "gorebeast-chariot",
   "name": "Gorebeast Chariot",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "9\"",
     "health": 8,

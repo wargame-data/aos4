@@ -3,7 +3,7 @@
   "id": "ratling-guns",
   "name": "Ratling Guns",
   "faction": "skaven",
-  "points": 0,
+  "points": 170,
   "stats": {
     "move": "6\"",
     "health": 3,

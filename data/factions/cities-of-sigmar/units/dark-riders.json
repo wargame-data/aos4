@@ -3,7 +3,7 @@
   "id": "dark-riders",
   "name": "Dark Riders",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 170,
   "stats": {
     "move": "12\"",
     "health": 3,

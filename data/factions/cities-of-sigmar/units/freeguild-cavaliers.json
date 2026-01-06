@@ -3,7 +3,7 @@
   "id": "freeguild-cavaliers",
   "name": "Freeguild Cavaliers",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "10\"",
     "health": 3,

@@ -3,7 +3,7 @@
   "id": "khinerai-heartrenders",
   "name": "Khinerai Heartrenders",
   "faction": "daughters-of-khaine",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "12\"",
     "health": 2,

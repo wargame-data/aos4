@@ -3,7 +3,7 @@
   "id": "gutrot-spume",
   "name": "Gutrot Spume",
   "faction": "maggotkin-of-nurgle",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "4\"",
     "health": 7,

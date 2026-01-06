@@ -3,7 +3,7 @@
   "id": "urak-taar-the-first-daemonsmith",
   "name": "Urak Taar, the First Daemonsmith",
   "faction": "helsmiths-of-hashut",
-  "points": 0,
+  "points": 350,
   "stats": {
     "move": "10\"",
     "health": 16,

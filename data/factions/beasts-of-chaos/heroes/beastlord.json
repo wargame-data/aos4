@@ -3,7 +3,7 @@
   "id": "beastlord",
   "name": "Beastlord",
   "faction": "beasts-of-chaos",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "6\"",
     "health": 6,

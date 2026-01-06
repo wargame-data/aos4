@@ -3,7 +3,7 @@
   "id": "darkoath-chieftain",
   "name": "Darkoath Chieftain",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 80,
   "stats": {
     "move": "5\"",
     "health": 5,

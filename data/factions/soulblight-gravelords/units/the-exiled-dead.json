@@ -3,7 +3,7 @@
   "id": "the-exiled-dead",
   "name": "The Exiled Dead",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 140,
   "stats": {
     "move": "4\"",
     "health": 2,

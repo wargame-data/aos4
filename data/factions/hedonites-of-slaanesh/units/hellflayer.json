@@ -3,7 +3,7 @@
   "id": "hellflayer",
   "name": "Hellflayer",
   "faction": "hedonites-of-slaanesh",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "10\"",
     "health": 7,

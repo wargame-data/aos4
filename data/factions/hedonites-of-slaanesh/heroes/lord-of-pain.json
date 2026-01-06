@@ -3,7 +3,7 @@
   "id": "lord-of-pain",
   "name": "Lord of Pain",
   "faction": "hedonites-of-slaanesh",
-  "points": 0,
+  "points": 120,
   "stats": {
     "move": "6\"",
     "health": 5,

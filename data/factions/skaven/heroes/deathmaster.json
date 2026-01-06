@@ -3,7 +3,7 @@
   "id": "deathmaster",
   "name": "Deathmaster",
   "faction": "skaven",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "7\"",
     "health": 5,

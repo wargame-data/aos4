@@ -3,7 +3,7 @@
   "id": "the-chosen-axes",
   "name": "The Chosen Axes",
   "faction": "fyreslayers",
-  "points": 0,
+  "points": 120,
   "stats": {
     "move": "4\"",
     "health": 3,

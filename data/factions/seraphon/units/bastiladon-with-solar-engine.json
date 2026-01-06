@@ -3,7 +3,7 @@
   "id": "bastiladon-with-solar-engine",
   "name": "Bastiladon with Solar Engine",
   "faction": "seraphon",
-  "points": 0,
+  "points": 220,
   "stats": {
     "move": "5\"",
     "health": 12,

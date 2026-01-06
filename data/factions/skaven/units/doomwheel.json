@@ -3,7 +3,7 @@
   "id": "doomwheel",
   "name": "Doomwheel",
   "faction": "skaven",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "2\"",
     "health": 8,

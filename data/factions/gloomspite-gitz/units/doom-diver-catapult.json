@@ -3,7 +3,7 @@
   "id": "doom-diver-catapult",
   "name": "Doom Diver Catapult",
   "faction": "gloomspite-gitz",
-  "points": 0,
+  "points": 170,
   "stats": {
     "move": "5\"",
     "health": 12,

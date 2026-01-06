@@ -3,7 +3,7 @@
   "id": "chaos-chosen",
   "name": "Chaos Chosen",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 280,
   "stats": {
     "move": "5\"",
     "health": 3,

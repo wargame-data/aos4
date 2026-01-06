@@ -3,7 +3,7 @@
   "id": "wrath-of-khorne-bloodthirster",
   "name": "Wrath of Khorne Bloodthirster",
   "faction": "blades-of-khorne",
-  "points": 0,
+  "points": 400,
   "stats": {
     "move": "12\"",
     "health": 16,

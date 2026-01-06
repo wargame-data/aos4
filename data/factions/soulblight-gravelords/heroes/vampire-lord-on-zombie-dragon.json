@@ -3,7 +3,7 @@
   "id": "vampire-lord-on-zombie-dragon",
   "name": "Vampire Lord on Zombie Dragon",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 400,
   "stats": {
     "move": "12\"",
     "health": 16,

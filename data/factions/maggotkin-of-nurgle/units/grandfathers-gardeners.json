@@ -3,7 +3,7 @@
   "id": "grandfathers-gardeners",
   "name": "Grandfather's Gardeners",
   "faction": "maggotkin-of-nurgle",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "4\"",
     "health": 3,

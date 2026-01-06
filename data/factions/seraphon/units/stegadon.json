@@ -3,7 +3,7 @@
   "id": "stegadon",
   "name": "Stegadon",
   "faction": "seraphon",
-  "points": 0,
+  "points": 170,
   "stats": {
     "move": "8\"",
     "health": 14,

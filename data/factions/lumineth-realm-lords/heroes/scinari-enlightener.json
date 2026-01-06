@@ -3,7 +3,7 @@
   "id": "scinari-enlightener",
   "name": "Scinari Enlightener",
   "faction": "lumineth-realm-lords",
-  "points": 0,
+  "points": 180,
   "stats": {
     "move": "6\"",
     "health": 5,

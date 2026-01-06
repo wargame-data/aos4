@@ -3,7 +3,7 @@
   "id": "freeguild-cavaliers-scourge-of-ghyran",
   "name": "Freeguild Cavaliers (Scourge of Ghyran)",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 160,
   "stats": {
     "move": "10\"",
     "health": 3,

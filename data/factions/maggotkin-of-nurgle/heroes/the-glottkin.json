@@ -3,7 +3,7 @@
   "id": "the-glottkin",
   "name": "The Glottkin",
   "faction": "maggotkin-of-nurgle",
-  "points": 0,
+  "points": 500,
   "stats": {
     "move": "6\"",
     "health": 24,

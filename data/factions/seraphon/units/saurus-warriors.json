@@ -3,7 +3,7 @@
   "id": "saurus-warriors",
   "name": "Saurus Warriors",
   "faction": "seraphon",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "5\"",
     "health": 2,

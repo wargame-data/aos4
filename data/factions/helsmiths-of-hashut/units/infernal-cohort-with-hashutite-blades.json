@@ -3,7 +3,7 @@
   "id": "infernal-cohort-with-hashutite-blades",
   "name": "Infernal Cohort with Hashutite Blades",
   "faction": "helsmiths-of-hashut",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "4\"",
     "health": 1,

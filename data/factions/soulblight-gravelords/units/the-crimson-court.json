@@ -3,7 +3,7 @@
   "id": "the-crimson-court",
   "name": "The Crimson Court",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 210,
   "stats": {
     "move": "6\"",
     "health": 3,

@@ -3,7 +3,7 @@
   "id": "squig-herd",
   "name": "Squig Herd",
   "faction": "gloomspite-gitz",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "D6+3\"",
     "health": 1,

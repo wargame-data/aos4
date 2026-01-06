@@ -3,7 +3,7 @@
   "id": "bloodpelt-hunter",
   "name": "Bloodpelt Hunter",
   "faction": "ogor-mawtribes",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "6\"",
     "health": 8,

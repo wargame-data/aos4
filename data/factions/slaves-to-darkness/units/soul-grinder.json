@@ -3,7 +3,7 @@
   "id": "soul-grinder",
   "name": "Soul Grinder",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 330,
   "stats": {
     "move": "10\"",
     "health": 16,

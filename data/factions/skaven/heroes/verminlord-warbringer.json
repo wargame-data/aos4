@@ -3,7 +3,7 @@
   "id": "verminlord-warbringer",
   "name": "Verminlord Warbringer",
   "faction": "skaven",
-  "points": 0,
+  "points": 300,
   "stats": {
     "move": "10\"",
     "health": 13,

@@ -3,7 +3,7 @@
   "id": "decimators",
   "name": "Decimators",
   "faction": "stormcast-eternals",
-  "points": 0,
+  "points": 240,
   "stats": {
     "move": "4\"",
     "health": 3,

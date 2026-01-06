@@ -3,7 +3,7 @@
   "id": "clawlord",
   "name": "Clawlord",
   "faction": "skaven",
-  "points": 0,
+  "points": 70,
   "stats": {
     "move": "6\"",
     "health": 5,

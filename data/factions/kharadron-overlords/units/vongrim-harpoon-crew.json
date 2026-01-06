@@ -3,7 +3,7 @@
   "id": "vongrim-harpoon-crew",
   "name": "Vongrim Harpoon Crew",
   "faction": "kharadron-overlords",
-  "points": 0,
+  "points": 120,
   "stats": {
     "move": "12\"",
     "health": 2,

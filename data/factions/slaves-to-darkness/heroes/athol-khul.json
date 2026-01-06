@@ -3,7 +3,7 @@
   "id": "athol-khul",
   "name": "Athol Khul",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "5\"",
     "health": 6,

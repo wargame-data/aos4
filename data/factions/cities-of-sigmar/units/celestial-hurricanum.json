@@ -3,7 +3,7 @@
   "id": "celestial-hurricanum",
   "name": "Celestial Hurricanum",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 180,
   "stats": {
     "move": "8\"",
     "health": 10,

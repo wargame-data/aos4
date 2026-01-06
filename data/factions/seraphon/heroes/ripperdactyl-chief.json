@@ -3,7 +3,7 @@
   "id": "ripperdactyl-chief",
   "name": "Ripperdactyl Chief",
   "faction": "seraphon",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "14\"",
     "health": 5,

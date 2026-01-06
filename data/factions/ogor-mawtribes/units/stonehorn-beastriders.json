@@ -3,7 +3,7 @@
   "id": "stonehorn-beastriders",
   "name": "Stonehorn Beastriders",
   "faction": "ogor-mawtribes",
-  "points": 0,
+  "points": 270,
   "stats": {
     "move": "10\"",
     "health": 14,

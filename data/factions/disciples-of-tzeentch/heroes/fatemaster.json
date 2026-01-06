@@ -3,7 +3,7 @@
   "id": "fatemaster",
   "name": "Fatemaster",
   "faction": "disciples-of-tzeentch",
-  "points": 0,
+  "points": 160,
   "stats": {
     "move": "14\"",
     "health": 5,

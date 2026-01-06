@@ -3,7 +3,7 @@
   "id": "fiends",
   "name": "Fiends",
   "faction": "hedonites-of-slaanesh",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "10\"",
     "health": 4,

@@ -3,7 +3,7 @@
   "id": "kairic-acolytes",
   "name": "Kairic Acolytes",
   "faction": "disciples-of-tzeentch",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "5\"",
     "health": 1,

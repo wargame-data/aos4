@@ -3,7 +3,7 @@
   "id": "plague-censer-bearers",
   "name": "Plague Censer Bearers",
   "faction": "skaven",
-  "points": 0,
+  "points": 160,
   "stats": {
     "move": "6\"",
     "health": 2,

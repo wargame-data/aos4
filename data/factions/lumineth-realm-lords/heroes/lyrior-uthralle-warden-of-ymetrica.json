@@ -3,7 +3,7 @@
   "id": "lyrior-uthralle-warden-of-ymetrica",
   "name": "Lyrior Uthralle, Warden of Ymetrica",
   "faction": "lumineth-realm-lords",
-  "points": 0,
+  "points": 200,
   "stats": {
     "move": "14\"",
     "health": 7,

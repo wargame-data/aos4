@@ -3,7 +3,7 @@
   "id": "elathains-soulraid",
   "name": "Elathain's Soulraid",
   "faction": "idoneth-deepkin",
-  "points": 0,
+  "points": 80,
   "stats": {
     "move": "6\"",
     "health": 2,

@@ -3,7 +3,7 @@
   "id": "claws-of-karanak",
   "name": "Claws of Karanak",
   "faction": "blades-of-khorne",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "6\"",
     "health": 1,

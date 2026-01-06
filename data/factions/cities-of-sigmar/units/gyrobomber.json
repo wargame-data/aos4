@@ -3,7 +3,7 @@
   "id": "gyrobomber",
   "name": "Gyrobomber",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 120,
   "stats": {
     "move": "12\"",
     "health": 6,

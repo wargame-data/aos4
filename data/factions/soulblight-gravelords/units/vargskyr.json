@@ -3,7 +3,7 @@
   "id": "vargskyr",
   "name": "Vargskyr",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 160,
   "stats": {
     "move": "8\"",
     "health": 8,

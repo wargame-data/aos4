@@ -3,7 +3,7 @@
   "id": "raptoryx",
   "name": "Raptoryx",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "10\"",
     "health": 2,

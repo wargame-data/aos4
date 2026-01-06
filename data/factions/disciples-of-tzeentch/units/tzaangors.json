@@ -3,7 +3,7 @@
   "id": "tzaangors",
   "name": "Tzaangors",
   "faction": "disciples-of-tzeentch",
-  "points": 0,
+  "points": 160,
   "stats": {
     "move": "6\"",
     "health": 2,

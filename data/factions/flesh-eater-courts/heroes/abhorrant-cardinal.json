@@ -3,7 +3,7 @@
   "id": "abhorrant-cardinal",
   "name": "Abhorrant Cardinal",
   "faction": "flesh-eater-courts",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "6\"",
     "health": 5,

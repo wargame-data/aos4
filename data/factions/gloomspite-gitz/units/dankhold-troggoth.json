@@ -3,7 +3,7 @@
   "id": "dankhold-troggoth",
   "name": "Dankhold Troggoth",
   "faction": "gloomspite-gitz",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "6\"",
     "health": 10,

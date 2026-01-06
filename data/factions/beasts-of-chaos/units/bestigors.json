@@ -3,7 +3,7 @@
   "id": "bestigors",
   "name": "Bestigors",
   "faction": "beasts-of-chaos",
-  "points": 0,
+  "points": 220,
   "stats": {
     "move": "6\"",
     "health": 2,

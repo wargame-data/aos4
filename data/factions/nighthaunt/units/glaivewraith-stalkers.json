@@ -3,7 +3,7 @@
   "id": "glaivewraith-stalkers",
   "name": "Glaivewraith Stalkers",
   "faction": "nighthaunt",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "8\"",
     "health": 2,

@@ -3,7 +3,7 @@
   "id": "awlrach-the-drowner",
   "name": "Awlrach the Drowner",
   "faction": "nighthaunt",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "10\"",
     "health": 7,

@@ -3,7 +3,7 @@
   "id": "dexcessa-the-talon-of-slaanesh",
   "name": "Dexcessa, the Talon of Slaanesh",
   "faction": "hedonites-of-slaanesh",
-  "points": 0,
+  "points": 160,
   "stats": {
     "move": "12\"",
     "health": 10,

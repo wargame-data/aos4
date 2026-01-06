@@ -3,7 +3,7 @@
   "id": "rockgut-troggoths",
   "name": "Rockgut Troggoths",
   "faction": "gloomspite-gitz",
-  "points": 0,
+  "points": 180,
   "stats": {
     "move": "6\"",
     "health": 5,

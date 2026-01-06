@@ -3,7 +3,7 @@
   "id": "skull-cannon",
   "name": "Skull Cannon",
   "faction": "blades-of-khorne",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "8\"",
     "health": 8,

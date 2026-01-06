@@ -3,7 +3,7 @@
   "id": "terradon-chief",
   "name": "Terradon Chief",
   "faction": "seraphon",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "14\"",
     "health": 5,

@@ -3,7 +3,7 @@
   "id": "gutter-runners",
   "name": "Gutter Runners",
   "faction": "skaven",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "7\"",
     "health": 1,

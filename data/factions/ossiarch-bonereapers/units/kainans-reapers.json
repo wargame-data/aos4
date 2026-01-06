@@ -3,7 +3,7 @@
   "id": "kainans-reapers",
   "name": "Kainan's Reapers",
   "faction": "ossiarch-bonereapers",
-  "points": 0,
+  "points": 140,
   "stats": {
     "move": "8\"",
     "health": 2,

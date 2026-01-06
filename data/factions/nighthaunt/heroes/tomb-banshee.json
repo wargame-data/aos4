@@ -3,7 +3,7 @@
   "id": "tomb-banshee",
   "name": "Tomb Banshee",
   "faction": "nighthaunt",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "8\"",
     "health": 5,

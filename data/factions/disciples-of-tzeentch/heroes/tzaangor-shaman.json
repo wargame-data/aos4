@@ -3,7 +3,7 @@
   "id": "tzaangor-shaman",
   "name": "Tzaangor Shaman",
   "faction": "disciples-of-tzeentch",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "14\"",
     "health": 6,

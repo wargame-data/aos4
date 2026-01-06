@@ -3,7 +3,7 @@
   "id": "mangler-squigs",
   "name": "Mangler Squigs",
   "faction": "gloomspite-gitz",
-  "points": 0,
+  "points": 140,
   "stats": {
     "move": "D6+8\"",
     "health": 14,

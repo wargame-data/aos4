@@ -3,7 +3,7 @@
   "id": "killaboss-with-stab-grot",
   "name": "Killaboss with Stab-grot",
   "faction": "kruleboyz",
-  "points": 0,
+  "points": 80,
   "stats": {
     "move": "5\"",
     "health": 6,

@@ -3,7 +3,7 @@
   "id": "necropolis-stalkers",
   "name": "Necropolis Stalkers",
   "faction": "ossiarch-bonereapers",
-  "points": 0,
+  "points": 140,
   "stats": {
     "move": "6\"",
     "health": 4,

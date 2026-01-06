@@ -3,7 +3,7 @@
   "id": "vanari-lord-regent",
   "name": "Vanari Lord Regent",
   "faction": "lumineth-realm-lords",
-  "points": 0,
+  "points": 200,
   "stats": {
     "move": "14\"",
     "health": 7,

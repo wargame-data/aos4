@@ -3,7 +3,7 @@
   "id": "vanguard-palladors-with-starstrike-javelins",
   "name": "Vanguard-Palladors with Starstrike Javelins",
   "faction": "stormcast-eternals",
-  "points": 0,
+  "points": 250,
   "stats": {
     "move": "14\"",
     "health": 5,

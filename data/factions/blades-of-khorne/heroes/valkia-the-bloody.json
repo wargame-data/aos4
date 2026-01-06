@@ -3,7 +3,7 @@
   "id": "valkia-the-bloody",
   "name": "Valkia the Bloody",
   "faction": "blades-of-khorne",
-  "points": 0,
+  "points": 180,
   "stats": {
     "move": "12\"",
     "health": 6,

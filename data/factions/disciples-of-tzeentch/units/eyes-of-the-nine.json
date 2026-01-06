@@ -3,7 +3,7 @@
   "id": "eyes-of-the-nine",
   "name": "Eyes of the Nine",
   "faction": "disciples-of-tzeentch",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "6\"",
     "health": 2,

@@ -3,7 +3,7 @@
   "id": "aleguzzler-gargant",
   "name": "Aleguzzler Gargant",
   "faction": "gloomspite-gitz",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "8\"",
     "health": 12,

@@ -3,7 +3,7 @@
   "id": "war-hydra",
   "name": "War Hydra",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 160,
   "stats": {
     "move": "8\"",
     "health": 12,

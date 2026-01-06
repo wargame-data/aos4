@@ -3,7 +3,7 @@
   "id": "mindstealer-sphiranx",
   "name": "Mindstealer Sphiranx",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "10\"",
     "health": 10,

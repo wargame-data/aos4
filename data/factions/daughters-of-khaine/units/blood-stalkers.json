@@ -3,7 +3,7 @@
   "id": "blood-stalkers",
   "name": "Blood Stalkers",
   "faction": "daughters-of-khaine",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "8\"",
     "health": 2,

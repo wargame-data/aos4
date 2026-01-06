@@ -3,7 +3,7 @@
   "id": "belakor-the-dark-master",
   "name": "Be'lakor, the Dark Master",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 450,
   "stats": {
     "move": "14\"",
     "health": 14,

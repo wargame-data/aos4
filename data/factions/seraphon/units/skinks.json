@@ -3,7 +3,7 @@
   "id": "skinks",
   "name": "Skinks",
   "faction": "seraphon",
-  "points": 0,
+  "points": 80,
   "stats": {
     "move": "8\"",
     "health": 1,

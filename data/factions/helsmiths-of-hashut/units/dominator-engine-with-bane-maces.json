@@ -3,7 +3,7 @@
   "id": "dominator-engine-with-bane-maces",
   "name": "Dominator Engine with Bane Maces",
   "faction": "helsmiths-of-hashut",
-  "points": 0,
+  "points": 160,
   "stats": {
     "move": "6\"",
     "health": 10,

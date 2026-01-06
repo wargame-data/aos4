@@ -3,7 +3,7 @@
   "id": "festus-the-leechlord",
   "name": "Festus the Leechlord",
   "faction": "maggotkin-of-nurgle",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "4\"",
     "health": 6,

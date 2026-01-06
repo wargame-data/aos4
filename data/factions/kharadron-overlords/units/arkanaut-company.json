@@ -3,7 +3,7 @@
   "id": "arkanaut-company",
   "name": "Arkanaut Company",
   "faction": "kharadron-overlords",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "4\"",
     "health": 1,

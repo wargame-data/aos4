@@ -3,7 +3,7 @@
   "id": "charnel-throne",
   "name": "Charnel Throne",
   "faction": "flesh-eater-courts",
-  "points": 0,
+  "points": 10,
   "stats": {
     "move": "0\"",
     "health": 10,

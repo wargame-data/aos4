@@ -3,7 +3,7 @@
   "id": "epidemius-tallyman-of-nurgle",
   "name": "Epidemius, Tallyman of Nurgle",
   "faction": "maggotkin-of-nurgle",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "4\"",
     "health": 7,

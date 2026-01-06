@@ -3,7 +3,7 @@
   "id": "guardian-of-souls",
   "name": "Guardian of Souls",
   "faction": "nighthaunt",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "8\"",
     "health": 5,

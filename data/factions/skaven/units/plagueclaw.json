@@ -3,7 +3,7 @@
   "id": "plagueclaw",
   "name": "Plagueclaw",
   "faction": "skaven",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "3\"",
     "health": 8,

@@ -3,7 +3,7 @@
   "id": "steam-tank",
   "name": "Steam Tank",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 240,
   "stats": {
     "move": "8\"",
     "health": 12,

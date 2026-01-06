@@ -3,7 +3,7 @@
   "id": "loonboss-on-giant-cave-squig",
   "name": "Loonboss on Giant Cave Squig",
   "faction": "gloomspite-gitz",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "D6+6\"",
     "health": 6,

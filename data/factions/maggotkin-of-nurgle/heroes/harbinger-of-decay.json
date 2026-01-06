@@ -3,7 +3,7 @@
   "id": "harbinger-of-decay",
   "name": "Harbinger of Decay",
   "faction": "maggotkin-of-nurgle",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "8\"",
     "health": 7,

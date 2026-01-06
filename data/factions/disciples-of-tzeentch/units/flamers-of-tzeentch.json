@@ -3,7 +3,7 @@
   "id": "flamers-of-tzeentch",
   "name": "Flamers of Tzeentch",
   "faction": "disciples-of-tzeentch",
-  "points": 0,
+  "points": 120,
   "stats": {
     "move": "9\"",
     "health": 2,

@@ -3,7 +3,7 @@
   "id": "eidolon-of-mathlann-aspect-of-the-storm",
   "name": "Eidolon of Mathlann, Aspect of the Storm",
   "faction": "idoneth-deepkin",
-  "points": 0,
+  "points": 300,
   "stats": {
     "move": "10\"",
     "health": 12,

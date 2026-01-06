@@ -3,7 +3,7 @@
   "id": "dreadspears",
   "name": "Dreadspears",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "6\"",
     "health": 1,

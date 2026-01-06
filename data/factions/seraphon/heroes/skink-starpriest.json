@@ -3,7 +3,7 @@
   "id": "skink-starpriest",
   "name": "Skink Starpriest",
   "faction": "seraphon",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "8\"",
     "health": 5,

@@ -3,7 +3,7 @@
   "id": "lord-of-change",
   "name": "Lord of Change",
   "faction": "disciples-of-tzeentch",
-  "points": 0,
+  "points": 360,
   "stats": {
     "move": "12\"",
     "health": 14,

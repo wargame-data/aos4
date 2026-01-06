@@ -3,7 +3,7 @@
   "id": "stegadon-chief",
   "name": "Stegadon Chief",
   "faction": "seraphon",
-  "points": 0,
+  "points": 180,
   "stats": {
     "move": "8\"",
     "health": 14,

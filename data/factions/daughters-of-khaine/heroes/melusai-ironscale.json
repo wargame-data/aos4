@@ -3,7 +3,7 @@
   "id": "melusai-ironscale",
   "name": "Melusai Ironscale",
   "faction": "daughters-of-khaine",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "8\"",
     "health": 6,

@@ -3,7 +3,7 @@
   "id": "auric-flamekeeper",
   "name": "Auric Flamekeeper",
   "faction": "fyreslayers",
-  "points": 0,
+  "points": 80,
   "stats": {
     "move": "4\"",
     "health": 5,

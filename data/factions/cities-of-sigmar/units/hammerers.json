@@ -3,7 +3,7 @@
   "id": "hammerers",
   "name": "Hammerers",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 180,
   "stats": {
     "move": "4\"",
     "health": 1,

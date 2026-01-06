@@ -3,7 +3,7 @@
   "id": "chaos-warriors",
   "name": "Chaos Warriors",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 190,
   "stats": {
     "move": "5\"",
     "health": 2,

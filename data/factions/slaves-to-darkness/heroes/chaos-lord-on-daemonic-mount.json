@@ -3,7 +3,7 @@
   "id": "chaos-lord-on-daemonic-mount",
   "name": "Chaos Lord on Daemonic Mount",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 140,
   "stats": {
     "move": "10\"",
     "health": 8,

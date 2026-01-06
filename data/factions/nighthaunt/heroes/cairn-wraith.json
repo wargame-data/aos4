@@ -3,7 +3,7 @@
   "id": "cairn-wraith",
   "name": "Cairn Wraith",
   "faction": "nighthaunt",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "8\"",
     "health": 5,

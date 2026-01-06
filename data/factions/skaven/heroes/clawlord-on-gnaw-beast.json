@@ -3,7 +3,7 @@
   "id": "clawlord-on-gnaw-beast",
   "name": "Clawlord on Gnaw-beast",
   "faction": "skaven",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "9\"",
     "health": 7,

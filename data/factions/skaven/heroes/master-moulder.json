@@ -3,7 +3,7 @@
   "id": "master-moulder",
   "name": "Master Moulder",
   "faction": "skaven",
-  "points": 0,
+  "points": 80,
   "stats": {
     "move": "6\"",
     "health": 5,

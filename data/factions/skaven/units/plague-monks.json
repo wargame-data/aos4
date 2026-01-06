@@ -3,7 +3,7 @@
   "id": "plague-monks",
   "name": "Plague Monks",
   "faction": "skaven",
-  "points": 0,
+  "points": 140,
   "stats": {
     "move": "6\"",
     "health": 1,

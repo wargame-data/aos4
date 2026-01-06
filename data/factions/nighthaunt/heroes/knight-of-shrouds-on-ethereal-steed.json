@@ -3,7 +3,7 @@
   "id": "knight-of-shrouds-on-ethereal-steed",
   "name": "Knight of Shrouds on Ethereal Steed",
   "faction": "nighthaunt",
-  "points": 0,
+  "points": 160,
   "stats": {
     "move": "12\"",
     "health": 7,

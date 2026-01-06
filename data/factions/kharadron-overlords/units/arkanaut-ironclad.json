@@ -3,7 +3,7 @@
   "id": "arkanaut-ironclad",
   "name": "Arkanaut Ironclad",
   "faction": "kharadron-overlords",
-  "points": 0,
+  "points": 460,
   "stats": {
     "move": "10\"",
     "health": 18,

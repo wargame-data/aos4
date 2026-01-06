@@ -3,7 +3,7 @@
   "id": "chainrasps",
   "name": "Chainrasps",
   "faction": "nighthaunt",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "8\"",
     "health": 1,

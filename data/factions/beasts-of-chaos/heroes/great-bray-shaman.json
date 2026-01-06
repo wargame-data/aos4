@@ -3,7 +3,7 @@
   "id": "great-bray-shaman",
   "name": "Great Bray-Shaman",
   "faction": "beasts-of-chaos",
-  "points": 0,
+  "points": 140,
   "stats": {
     "move": "6\"",
     "health": 5,

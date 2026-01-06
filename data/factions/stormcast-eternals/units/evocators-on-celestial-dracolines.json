@@ -3,7 +3,7 @@
   "id": "evocators-on-celestial-dracolines",
   "name": "Evocators on Celestial Dracolines",
   "faction": "stormcast-eternals",
-  "points": 0,
+  "points": 240,
   "stats": {
     "move": "10\"",
     "health": 5,

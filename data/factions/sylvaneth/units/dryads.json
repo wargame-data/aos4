@@ -3,7 +3,7 @@
   "id": "dryads",
   "name": "Dryads",
   "faction": "sylvaneth",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "6\"",
     "health": 1,

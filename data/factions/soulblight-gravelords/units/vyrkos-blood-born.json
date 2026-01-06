@@ -3,7 +3,7 @@
   "id": "vyrkos-blood-born",
   "name": "Vyrkos Blood-born",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "8\"",
     "health": 3,

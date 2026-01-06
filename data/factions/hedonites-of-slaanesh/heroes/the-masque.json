@@ -3,7 +3,7 @@
   "id": "the-masque",
   "name": "The Masque",
   "faction": "hedonites-of-slaanesh",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "8\"",
     "health": 5,

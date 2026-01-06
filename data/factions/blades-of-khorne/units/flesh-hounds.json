@@ -3,7 +3,7 @@
   "id": "flesh-hounds",
   "name": "Flesh Hounds",
   "faction": "blades-of-khorne",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "8\"",
     "health": 2,

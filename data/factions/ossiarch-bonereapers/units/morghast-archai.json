@@ -3,7 +3,7 @@
   "id": "morghast-archai",
   "name": "Morghast Archai",
   "faction": "ossiarch-bonereapers",
-  "points": 0,
+  "points": 260,
   "stats": {
     "move": "10\"",
     "health": 6,

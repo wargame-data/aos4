@@ -3,7 +3,7 @@
   "id": "grashraks-despoilers",
   "name": "Grashrak's Despoilers",
   "faction": "beasts-of-chaos",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "8\"",
     "health": 2,

@@ -3,7 +3,7 @@
   "id": "zikkits-tunnelpack",
   "name": "Zikkit's Tunnelpack",
   "faction": "skaven",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "6\"",
     "health": 2,

@@ -3,7 +3,7 @@
   "id": "frost-sabres",
   "name": "Frost Sabres",
   "faction": "ogor-mawtribes",
-  "points": 0,
+  "points": 70,
   "stats": {
     "move": "9\"",
     "health": 3,

@@ -3,7 +3,7 @@
   "id": "brethren-of-the-bolt",
   "name": "Brethren of the Bolt",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "5\"",
     "health": 2,

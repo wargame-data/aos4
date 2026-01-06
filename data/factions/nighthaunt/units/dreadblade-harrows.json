@@ -3,7 +3,7 @@
   "id": "dreadblade-harrows",
   "name": "Dreadblade Harrows",
   "faction": "nighthaunt",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "12\"",
     "health": 3,

@@ -3,7 +3,7 @@
   "id": "astreia-solbright",
   "name": "Astreia Solbright",
   "faction": "stormcast-eternals",
-  "points": 0,
+  "points": 220,
   "stats": {
     "move": "10\"",
     "health": 8,

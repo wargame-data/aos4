@@ -3,7 +3,7 @@
   "id": "warplock-jezzails",
   "name": "Warplock Jezzails",
   "faction": "skaven",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "6\"",
     "health": 2,

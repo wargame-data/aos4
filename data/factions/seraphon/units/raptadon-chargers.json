@@ -3,7 +3,7 @@
   "id": "raptadon-chargers",
   "name": "Raptadon Chargers",
   "faction": "seraphon",
-  "points": 0,
+  "points": 140,
   "stats": {
     "move": "12\"",
     "health": 3,

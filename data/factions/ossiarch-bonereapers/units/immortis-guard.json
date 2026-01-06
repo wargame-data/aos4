@@ -3,7 +3,7 @@
   "id": "immortis-guard",
   "name": "Immortis Guard",
   "faction": "ossiarch-bonereapers",
-  "points": 0,
+  "points": 170,
   "stats": {
     "move": "5\"",
     "health": 4,

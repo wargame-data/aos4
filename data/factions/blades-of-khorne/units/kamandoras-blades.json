@@ -3,7 +3,7 @@
   "id": "kamandoras-blades",
   "name": "Kamandora's Blades",
   "faction": "blades-of-khorne",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "6\"",
     "health": 2,

@@ -3,7 +3,7 @@
   "id": "teratic-cohort",
   "name": "Teratic Cohort",
   "faction": "ossiarch-bonereapers",
-  "points": 0,
+  "points": 140,
   "stats": {
     "move": "7\"",
     "health": 2,

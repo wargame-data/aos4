@@ -3,7 +3,7 @@
   "id": "darkoath-savagers",
   "name": "Darkoath Savagers",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "5\"",
     "health": 1,

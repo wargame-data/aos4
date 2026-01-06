@@ -3,7 +3,7 @@
   "id": "stormstrike-palladors",
   "name": "Stormstrike Palladors",
   "faction": "stormcast-eternals",
-  "points": 0,
+  "points": 190,
   "stats": {
     "move": "12\"",
     "health": 5,

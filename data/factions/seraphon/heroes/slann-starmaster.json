@@ -3,7 +3,7 @@
   "id": "slann-starmaster",
   "name": "Slann Starmaster",
   "faction": "seraphon",
-  "points": 0,
+  "points": 260,
   "stats": {
     "move": "5\"",
     "health": 9,

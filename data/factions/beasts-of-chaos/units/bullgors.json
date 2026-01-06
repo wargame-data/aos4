@@ -3,7 +3,7 @@
   "id": "bullgors",
   "name": "Bullgors",
   "faction": "beasts-of-chaos",
-  "points": 0,
+  "points": 170,
   "stats": {
     "move": "6\"",
     "health": 4,

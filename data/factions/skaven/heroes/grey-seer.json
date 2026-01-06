@@ -3,7 +3,7 @@
   "id": "grey-seer",
   "name": "Grey Seer",
   "faction": "skaven",
-  "points": 0,
+  "points": 120,
   "stats": {
     "move": "6\"",
     "health": 5,

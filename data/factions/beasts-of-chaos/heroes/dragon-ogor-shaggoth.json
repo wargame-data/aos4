@@ -3,7 +3,7 @@
   "id": "dragon-ogor-shaggoth",
   "name": "Dragon Ogor Shaggoth",
   "faction": "beasts-of-chaos",
-  "points": 0,
+  "points": 220,
   "stats": {
     "move": "8\"",
     "health": 10,

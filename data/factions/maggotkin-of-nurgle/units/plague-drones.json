@@ -3,7 +3,7 @@
   "id": "plague-drones",
   "name": "Plague Drones",
   "faction": "maggotkin-of-nurgle",
-  "points": 0,
+  "points": 170,
   "stats": {
     "move": "8\"",
     "health": 5,

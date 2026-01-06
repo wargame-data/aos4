@@ -3,7 +3,7 @@
   "id": "kosargi-nightguard",
   "name": "Kosargi Nightguard",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "6\"",
     "health": 4,

@@ -3,7 +3,7 @@
   "id": "crypt-flayers",
   "name": "Crypt Flayers",
   "faction": "flesh-eater-courts",
-  "points": 0,
+  "points": 160,
   "stats": {
     "move": "12\"",
     "health": 4,

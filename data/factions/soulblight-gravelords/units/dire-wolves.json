@@ -3,7 +3,7 @@
   "id": "dire-wolves",
   "name": "Dire Wolves",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "10\"",
     "health": 2,

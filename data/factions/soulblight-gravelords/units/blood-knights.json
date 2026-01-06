@@ -3,7 +3,7 @@
   "id": "blood-knights",
   "name": "Blood Knights",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 220,
   "stats": {
     "move": "12\"",
     "health": 3,

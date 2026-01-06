@@ -3,7 +3,7 @@
   "id": "kurnoths-heralds",
   "name": "Kurnoth's Heralds",
   "faction": "sylvaneth",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "12\"",
     "health": 3,

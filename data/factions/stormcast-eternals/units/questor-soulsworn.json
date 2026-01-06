@@ -3,7 +3,7 @@
   "id": "questor-soulsworn",
   "name": "Questor Soulsworn",
   "faction": "stormcast-eternals",
-  "points": 0,
+  "points": 200,
   "stats": {
     "move": "5\"",
     "health": 3,

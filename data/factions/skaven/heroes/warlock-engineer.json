@@ -3,7 +3,7 @@
   "id": "warlock-engineer",
   "name": "Warlock Engineer",
   "faction": "skaven",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "6\"",
     "health": 5,

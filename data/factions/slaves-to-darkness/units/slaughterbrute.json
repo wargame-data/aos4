@@ -3,7 +3,7 @@
   "id": "slaughterbrute",
   "name": "Slaughterbrute",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 200,
   "stats": {
     "move": "10\"",
     "health": 14,

@@ -3,7 +3,7 @@
   "id": "the-blood-of-the-bull",
   "name": "The Blood of the Bull",
   "faction": "helsmiths-of-hashut",
-  "points": 0,
+  "points": 120,
   "stats": {
     "move": "4\"",
     "health": 2,

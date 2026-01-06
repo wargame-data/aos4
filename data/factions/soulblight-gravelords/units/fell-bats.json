@@ -3,7 +3,7 @@
   "id": "fell-bats",
   "name": "Fell Bats",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "12\"",
     "health": 3,

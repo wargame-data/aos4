@@ -3,7 +3,7 @@
   "id": "thundertusk-beastriders",
   "name": "Thundertusk Beastriders",
   "faction": "ogor-mawtribes",
-  "points": 0,
+  "points": 200,
   "stats": {
     "move": "10\"",
     "health": 14,

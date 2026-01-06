@@ -3,7 +3,7 @@
   "id": "mancrusher-mob",
   "name": "Mancrusher Mob",
   "faction": "sons-of-behemat",
-  "points": 0,
+  "points": 370,
   "stats": {
     "move": "8\"",
     "health": 12,

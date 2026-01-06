@@ -3,7 +3,7 @@
   "id": "anointed-sentinels",
   "name": "Anointed Sentinels",
   "faction": "helsmiths-of-hashut",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "10\"",
     "health": 4,

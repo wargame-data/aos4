@@ -3,7 +3,7 @@
   "id": "curseling-eye-of-tzeentch",
   "name": "Curseling, Eye of Tzeentch",
   "faction": "disciples-of-tzeentch",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "5\"",
     "health": 6,

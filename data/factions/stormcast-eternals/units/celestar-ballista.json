@@ -3,7 +3,7 @@
   "id": "celestar-ballista",
   "name": "Celestar Ballista",
   "faction": "stormcast-eternals",
-  "points": 0,
+  "points": 120,
   "stats": {
     "move": "3\"",
     "health": 6,

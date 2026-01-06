@@ -3,7 +3,7 @@
   "id": "skink-starseer",
   "name": "Skink Starseer",
   "faction": "seraphon",
-  "points": 0,
+  "points": 170,
   "stats": {
     "move": "5\"",
     "health": 6,

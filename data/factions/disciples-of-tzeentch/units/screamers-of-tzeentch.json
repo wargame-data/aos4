@@ -3,7 +3,7 @@
   "id": "screamers-of-tzeentch",
   "name": "Screamers of Tzeentch",
   "faction": "disciples-of-tzeentch",
-  "points": 0,
+  "points": 80,
   "stats": {
     "move": "14\"",
     "health": 3,

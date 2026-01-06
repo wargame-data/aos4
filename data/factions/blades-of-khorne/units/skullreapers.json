@@ -3,7 +3,7 @@
   "id": "skullreapers",
   "name": "Skullreapers",
   "faction": "blades-of-khorne",
-  "points": 0,
+  "points": 180,
   "stats": {
     "move": "5\"",
     "health": 3,

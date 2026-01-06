@@ -3,7 +3,7 @@
   "id": "myrmourn-banshees",
   "name": "Myrmourn Banshees",
   "faction": "nighthaunt",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "8\"",
     "health": 2,

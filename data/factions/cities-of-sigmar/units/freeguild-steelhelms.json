@@ -3,7 +3,7 @@
   "id": "freeguild-steelhelms",
   "name": "Freeguild Steelhelms",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "5\"",
     "health": 1,

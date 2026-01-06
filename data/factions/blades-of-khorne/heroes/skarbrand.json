@@ -3,7 +3,7 @@
   "id": "skarbrand",
   "name": "Skarbrand",
   "faction": "blades-of-khorne",
-  "points": 0,
+  "points": 410,
   "stats": {
     "move": "8\"",
     "health": 16,

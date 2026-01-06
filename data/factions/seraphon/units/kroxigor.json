@@ -3,7 +3,7 @@
   "id": "kroxigor",
   "name": "Kroxigor",
   "faction": "seraphon",
-  "points": 0,
+  "points": 200,
   "stats": {
     "move": "5\"",
     "health": 6,

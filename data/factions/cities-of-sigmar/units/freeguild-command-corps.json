@@ -3,7 +3,7 @@
   "id": "freeguild-command-corps",
   "name": "Freeguild Command Corps",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 180,
   "stats": {
     "move": "5\"",
     "health": 3,

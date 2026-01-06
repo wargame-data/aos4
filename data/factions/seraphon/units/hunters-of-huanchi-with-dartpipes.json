@@ -3,7 +3,7 @@
   "id": "hunters-of-huanchi-with-dartpipes",
   "name": "Hunters of Huanchi with Dartpipes",
   "faction": "seraphon",
-  "points": 0,
+  "points": 80,
   "stats": {
     "move": "8\"",
     "health": 1,

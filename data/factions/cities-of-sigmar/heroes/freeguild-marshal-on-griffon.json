@@ -3,7 +3,7 @@
   "id": "freeguild-marshal-on-griffon",
   "name": "Freeguild Marshal on Griffon",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 230,
   "stats": {
     "move": "12\"",
     "health": 15,

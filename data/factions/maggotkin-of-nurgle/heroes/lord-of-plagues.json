@@ -3,7 +3,7 @@
   "id": "lord-of-plagues",
   "name": "Lord of Plagues",
   "faction": "maggotkin-of-nurgle",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "4\"",
     "health": 7,

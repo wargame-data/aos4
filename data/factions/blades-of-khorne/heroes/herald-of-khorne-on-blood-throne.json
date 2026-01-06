@@ -3,7 +3,7 @@
   "id": "herald-of-khorne-on-blood-throne",
   "name": "Herald of Khorne on Blood Throne",
   "faction": "blades-of-khorne",
-  "points": 0,
+  "points": 160,
   "stats": {
     "move": "8\"",
     "health": 10,

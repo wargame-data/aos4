@@ -3,7 +3,7 @@
   "id": "steam-tank-commander",
   "name": "Steam Tank Commander",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 250,
   "stats": {
     "move": "8\"",
     "health": 12,

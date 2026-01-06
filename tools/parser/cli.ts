@@ -17,7 +17,7 @@ import {
 } from "./github/clone.js";
 import { getRepoCachePath, isCacheValid, getCacheAge } from "./github/cache.js";
 import { parseCat } from "./xml/reader.js";
-import { findUnits, getFactionId, isLibrary } from "./xml/traverser.js";
+import { findUnits, getFactionId, isLibrary, extractPointsFromEntryLinks } from "./xml/traverser.js";
 import { UnitMapper, type Unit, type Hero } from "./mappers/unit.mapper.js";
 import type { MapperOptions } from "./mappers/base.js";
 import {
@@ -403,6 +403,10 @@ async function parseAllFactions(
       const factionId = getFactionId(catalogue);
       const grandAlliance = getGrandAlliance(factionId);
 
+      // Try to load points from the corresponding non-library catalogue
+      const pointsMap = await loadPointsForFaction(file, log);
+      log.verbose(`  Loaded ${pointsMap.size} point costs`);
+
       const mapperOptions: MapperOptions = {
         strict: options.strict,
         factionId,
@@ -420,6 +424,11 @@ async function parseAllFactions(
       for (const entry of unitEntries) {
         try {
           const unit = mapper.map({ entry, catalogue });
+          // Apply points from the non-library catalogue
+          const entryId = entry.$.id;
+          if (pointsMap.has(entryId)) {
+            unit.points = pointsMap.get(entryId)!;
+          }
           units.push(unit);
         } catch (error) {
           const msg = `Failed to map ${entry.$.name}: ${error}`;
@@ -454,6 +463,36 @@ async function parseAllFactions(
   }
 
   return results;
+}
+
+/**
+ * Load points from the non-library catalogue corresponding to a library file
+ */
+async function loadPointsForFaction(
+  libraryFile: string,
+  log: Logger
+): Promise<Map<string, number>> {
+  // Library file: "Stormcast Eternals - Library.cat"
+  // Non-library file: "Stormcast Eternals.cat"
+  const nonLibraryFile = libraryFile.replace(/ - Library\.cat$/i, ".cat");
+
+  if (nonLibraryFile === libraryFile) {
+    // Not a library file pattern
+    return new Map();
+  }
+
+  if (!existsSync(nonLibraryFile)) {
+    log.verbose(`  No non-library catalogue found: ${basename(nonLibraryFile)}`);
+    return new Map();
+  }
+
+  try {
+    const catalogue = await parseCat(nonLibraryFile);
+    return extractPointsFromEntryLinks(catalogue);
+  } catch (error) {
+    log.verbose(`  Failed to load points from ${basename(nonLibraryFile)}: ${error}`);
+    return new Map();
+  }
 }
 
 /**

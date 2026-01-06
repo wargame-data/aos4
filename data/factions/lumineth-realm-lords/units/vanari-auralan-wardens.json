@@ -3,7 +3,7 @@
   "id": "vanari-auralan-wardens",
   "name": "Vanari Auralan Wardens",
   "faction": "lumineth-realm-lords",
-  "points": 0,
+  "points": 140,
   "stats": {
     "move": "6\"",
     "health": 1,

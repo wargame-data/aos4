@@ -3,7 +3,7 @@
   "id": "akhelian-thrallmaster",
   "name": "Akhelian Thrallmaster",
   "faction": "idoneth-deepkin",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "6\"",
     "health": 5,

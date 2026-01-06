@@ -3,7 +3,7 @@
   "id": "mutalith-vortex-beast",
   "name": "Mutalith Vortex Beast",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 170,
   "stats": {
     "move": "10\"",
     "health": 14,

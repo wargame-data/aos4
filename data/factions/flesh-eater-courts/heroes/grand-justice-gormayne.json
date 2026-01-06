@@ -3,7 +3,7 @@
   "id": "grand-justice-gormayne",
   "name": "Grand Justice Gormayne",
   "faction": "flesh-eater-courts",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "6\"",
     "health": 5,

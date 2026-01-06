@@ -3,7 +3,7 @@
   "id": "mortisan-soulreaper",
   "name": "Mortisan Soulreaper",
   "faction": "ossiarch-bonereapers",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "5\"",
     "health": 5,

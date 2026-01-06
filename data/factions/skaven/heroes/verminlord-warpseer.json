@@ -3,7 +3,7 @@
   "id": "verminlord-warpseer",
   "name": "Verminlord Warpseer",
   "faction": "skaven",
-  "points": 0,
+  "points": 320,
   "stats": {
     "move": "10\"",
     "health": 13,

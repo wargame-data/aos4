@@ -3,7 +3,7 @@
   "id": "fateskimmer-herald-of-tzeentch-on-burning-chariot",
   "name": "Fateskimmer, Herald of Tzeentch on Burning Chariot",
   "faction": "disciples-of-tzeentch",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "12\"",
     "health": 8,

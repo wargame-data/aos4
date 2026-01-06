@@ -3,7 +3,7 @@
   "id": "barrow-knights",
   "name": "Barrow Knights",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 210,
   "stats": {
     "move": "10\"",
     "health": 3,

@@ -3,7 +3,7 @@
   "id": "skullmaster-herald-of-khorne",
   "name": "Skullmaster, Herald of Khorne",
   "faction": "blades-of-khorne",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "8\"",
     "health": 7,

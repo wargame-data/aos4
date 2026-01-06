@@ -3,7 +3,7 @@
   "id": "dragon-ogors",
   "name": "Dragon Ogors",
   "faction": "beasts-of-chaos",
-  "points": 0,
+  "points": 200,
   "stats": {
     "move": "8\"",
     "health": 5,

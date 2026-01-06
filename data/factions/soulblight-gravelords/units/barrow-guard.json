@@ -3,7 +3,7 @@
   "id": "barrow-guard",
   "name": "Barrow Guard",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "4\"",
     "health": 1,

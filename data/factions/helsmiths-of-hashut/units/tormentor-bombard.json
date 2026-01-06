@@ -3,7 +3,7 @@
   "id": "tormentor-bombard",
   "name": "Tormentor Bombard",
   "faction": "helsmiths-of-hashut",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "4\"",
     "health": 8,

@@ -3,7 +3,7 @@
   "id": "spoilpox-scrivener-herald-of-nurgle",
   "name": "Spoilpox Scrivener, Herald of Nurgle",
   "faction": "maggotkin-of-nurgle",
-  "points": 0,
+  "points": 80,
   "stats": {
     "move": "4\"",
     "health": 5,

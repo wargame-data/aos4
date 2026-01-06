@@ -3,7 +3,7 @@
   "id": "webspinner-shaman-on-arachnarok-spider",
   "name": "Webspinner Shaman on Arachnarok Spider",
   "faction": "gloomspite-gitz",
-  "points": 0,
+  "points": 250,
   "stats": {
     "move": "10\"",
     "health": 16,

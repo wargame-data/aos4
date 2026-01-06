@@ -3,7 +3,7 @@
   "id": "the-sons-of-velmorn",
   "name": "The Sons of Velmorn",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "4\"",
     "health": 2,

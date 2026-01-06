@@ -3,7 +3,7 @@
   "id": "gatebreaker-mega-gargant",
   "name": "Gatebreaker Mega-Gargant",
   "faction": "sons-of-behemat",
-  "points": 0,
+  "points": 500,
   "stats": {
     "move": "10\"",
     "health": 35,

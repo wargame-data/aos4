@@ -3,7 +3,7 @@
   "id": "dracothian-guard-fulminators",
   "name": "Dracothian Guard Fulminators",
   "faction": "stormcast-eternals",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "10\"",
     "health": 5,

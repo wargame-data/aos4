@@ -3,7 +3,7 @@
   "id": "torgillius-the-chamberlain",
   "name": "Torgillius the Chamberlain",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 180,
   "stats": {
     "move": "5\"",
     "health": 5,

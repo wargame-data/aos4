@@ -3,7 +3,7 @@
   "id": "the-starblood-stalkers",
   "name": "The Starblood Stalkers",
   "faction": "seraphon",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "8\"",
     "health": 2,

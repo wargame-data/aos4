@@ -3,7 +3,7 @@
   "id": "engine-of-the-gods",
   "name": "Engine of the Gods",
   "faction": "seraphon",
-  "points": 0,
+  "points": 170,
   "stats": {
     "move": "8\"",
     "health": 14,

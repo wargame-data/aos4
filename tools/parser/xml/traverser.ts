@@ -415,3 +415,38 @@ export function getFactionId(catalogue: BSCatalogue): string {
 export function isLibrary(catalogue: BSCatalogue): boolean {
   return catalogue && catalogue.$ && catalogue.$.library === "true";
 }
+
+/**
+ * Extract points costs from entry links in a non-library catalogue.
+ * Returns a map of targetId -> points cost.
+ */
+export function extractPointsFromEntryLinks(
+  catalogue: BSCatalogue
+): Map<string, number> {
+  const pointsMap = new Map<string, number>();
+
+  if (!catalogue.entryLinks) {
+    return pointsMap;
+  }
+
+  for (const link of catalogue.entryLinks) {
+    if (!link || !link.$ || !link.$.targetId) {
+      continue;
+    }
+
+    const targetId = link.$.targetId;
+    const costs = link.costs || [];
+    const ptsCost = costs.find(
+      (c) => c && c.$ && c.$.name && c.$.name.toLowerCase() === "pts"
+    );
+
+    if (ptsCost && ptsCost.$ && ptsCost.$.value) {
+      const points = parseInt(ptsCost.$.value, 10);
+      if (!isNaN(points)) {
+        pointsMap.set(targetId, points);
+      }
+    }
+  }
+
+  return pointsMap;
+}

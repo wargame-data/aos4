@@ -3,7 +3,7 @@
   "id": "vulkite-berzerkers-with-bladed-slingshields",
   "name": "Vulkite Berzerkers with Bladed Slingshields",
   "faction": "fyreslayers",
-  "points": 0,
+  "points": 140,
   "stats": {
     "move": "4\"",
     "health": 2,

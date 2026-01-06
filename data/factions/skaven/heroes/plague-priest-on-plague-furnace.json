@@ -3,7 +3,7 @@
   "id": "plague-priest-on-plague-furnace",
   "name": "Plague Priest on Plague Furnace",
   "faction": "skaven",
-  "points": 0,
+  "points": 340,
   "stats": {
     "move": "6\"",
     "health": 15,

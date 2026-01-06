@@ -3,7 +3,7 @@
   "id": "drakesworn-templar",
   "name": "Drakesworn Templar",
   "faction": "stormcast-eternals",
-  "points": 0,
+  "points": 420,
   "stats": {
     "move": "12\"",
     "health": 18,

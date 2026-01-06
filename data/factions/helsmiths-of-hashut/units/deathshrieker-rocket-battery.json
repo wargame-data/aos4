@@ -3,7 +3,7 @@
   "id": "deathshrieker-rocket-battery",
   "name": "Deathshrieker Rocket Battery",
   "faction": "helsmiths-of-hashut",
-  "points": 0,
+  "points": 140,
   "stats": {
     "move": "4\"",
     "health": 8,

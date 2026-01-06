@@ -3,7 +3,7 @@
   "id": "boingrot-bounderz",
   "name": "Boingrot Bounderz",
   "faction": "gloomspite-gitz",
-  "points": 0,
+  "points": 120,
   "stats": {
     "move": "D6+6\"",
     "health": 2,

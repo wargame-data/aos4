@@ -3,7 +3,7 @@
   "id": "man-skewer-boltboyz",
   "name": "Man-skewer Boltboyz",
   "faction": "kruleboyz",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "5\"",
     "health": 2,

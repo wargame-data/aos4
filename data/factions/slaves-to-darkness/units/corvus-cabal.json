@@ -3,7 +3,7 @@
   "id": "corvus-cabal",
   "name": "Corvus Cabal",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "6\"",
     "health": 1,

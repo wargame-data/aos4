@@ -3,7 +3,7 @@
   "id": "chainghasts",
   "name": "Chainghasts",
   "faction": "nighthaunt",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "8\"",
     "health": 3,

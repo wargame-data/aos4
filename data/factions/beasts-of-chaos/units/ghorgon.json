@@ -3,7 +3,7 @@
   "id": "ghorgon",
   "name": "Ghorgon",
   "faction": "beasts-of-chaos",
-  "points": 0,
+  "points": 180,
   "stats": {
     "move": "8\"",
     "health": 15,

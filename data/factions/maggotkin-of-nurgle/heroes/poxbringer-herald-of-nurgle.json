@@ -3,7 +3,7 @@
   "id": "poxbringer-herald-of-nurgle",
   "name": "Poxbringer, Herald of Nurgle",
   "faction": "maggotkin-of-nurgle",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "4\"",
     "health": 5,

@@ -3,7 +3,7 @@
   "id": "crypt-ghast-courtier",
   "name": "Crypt Ghast Courtier",
   "faction": "flesh-eater-courts",
-  "points": 0,
+  "points": 80,
   "stats": {
     "move": "6\"",
     "health": 4,

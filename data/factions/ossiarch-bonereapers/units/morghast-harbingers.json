@@ -3,7 +3,7 @@
   "id": "morghast-harbingers",
   "name": "Morghast Harbingers",
   "faction": "ossiarch-bonereapers",
-  "points": 0,
+  "points": 250,
   "stats": {
     "move": "10\"",
     "health": 6,

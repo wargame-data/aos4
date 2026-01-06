@@ -3,7 +3,7 @@
   "id": "spawn-of-chotec",
   "name": "Spawn of Chotec",
   "faction": "seraphon",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "5\"",
     "health": 8,

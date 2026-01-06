@@ -3,7 +3,7 @@
   "id": "nagash-supreme-lord-of-the-undead",
   "name": "Nagash, Supreme Lord of the Undead",
   "faction": "nighthaunt",
-  "points": 0,
+  "points": 840,
   "stats": {
     "move": "10\"",
     "health": 18,

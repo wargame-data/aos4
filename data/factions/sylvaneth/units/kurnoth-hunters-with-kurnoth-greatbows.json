@@ -3,7 +3,7 @@
   "id": "kurnoth-hunters-with-kurnoth-greatbows",
   "name": "Kurnoth Hunters with Kurnoth Greatbows",
   "faction": "sylvaneth",
-  "points": 0,
+  "points": 200,
   "stats": {
     "move": "5\"",
     "health": 5,

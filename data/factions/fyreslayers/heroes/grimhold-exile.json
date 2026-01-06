@@ -3,7 +3,7 @@
   "id": "grimhold-exile",
   "name": "Grimhold Exile",
   "faction": "fyreslayers",
-  "points": 0,
+  "points": 100,
   "stats": {
     "move": "4\"",
     "health": 6,

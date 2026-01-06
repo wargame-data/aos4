@@ -3,7 +3,7 @@
   "id": "bloab-rotspawned",
   "name": "Bloab Rotspawned",
   "faction": "maggotkin-of-nurgle",
-  "points": 0,
+  "points": 300,
   "stats": {
     "move": "8\"",
     "health": 14,

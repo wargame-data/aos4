@@ -3,7 +3,7 @@
   "id": "doomfire-warlocks",
   "name": "Doomfire Warlocks",
   "faction": "daughters-of-khaine",
-  "points": 0,
+  "points": 150,
   "stats": {
     "move": "14\"",
     "health": 3,

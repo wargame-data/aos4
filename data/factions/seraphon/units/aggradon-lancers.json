@@ -3,7 +3,7 @@
   "id": "aggradon-lancers",
   "name": "Aggradon Lancers",
   "faction": "seraphon",
-  "points": 0,
+  "points": 210,
   "stats": {
     "move": "10\"",
     "health": 5,

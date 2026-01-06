@@ -3,7 +3,7 @@
   "id": "exalted-chariot",
   "name": "Exalted Chariot",
   "faction": "hedonites-of-slaanesh",
-  "points": 0,
+  "points": 120,
   "stats": {
     "move": "10\"",
     "health": 9,

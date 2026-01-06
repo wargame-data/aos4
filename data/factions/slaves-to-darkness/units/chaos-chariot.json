@@ -3,7 +3,7 @@
   "id": "chaos-chariot",
   "name": "Chaos Chariot",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "10\"",
     "health": 7,

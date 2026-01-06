@@ -3,7 +3,7 @@
   "id": "spire-tyrants",
   "name": "Spire Tyrants",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "5\"",
     "health": 1,

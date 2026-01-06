@@ -3,7 +3,7 @@
   "id": "royal-decapitator",
   "name": "Royal Decapitator",
   "faction": "flesh-eater-courts",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "6\"",
     "health": 5,

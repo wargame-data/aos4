@@ -3,7 +3,7 @@
   "id": "myaris-purifiers",
   "name": "Myari's Purifiers",
   "faction": "lumineth-realm-lords",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "6\"",
     "health": 3,

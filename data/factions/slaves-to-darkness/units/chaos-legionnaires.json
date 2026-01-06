@@ -3,7 +3,7 @@
   "id": "chaos-legionnaires",
   "name": "Chaos Legionnaires",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 80,
   "stats": {
     "move": "5\"",
     "health": 1,

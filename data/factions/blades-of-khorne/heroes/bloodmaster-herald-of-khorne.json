@@ -3,7 +3,7 @@
   "id": "bloodmaster-herald-of-khorne",
   "name": "Bloodmaster, Herald of Khorne",
   "faction": "blades-of-khorne",
-  "points": 0,
+  "points": 120,
   "stats": {
     "move": "5\"",
     "health": 6,

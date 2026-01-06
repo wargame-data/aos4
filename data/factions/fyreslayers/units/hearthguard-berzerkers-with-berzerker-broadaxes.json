@@ -3,7 +3,7 @@
   "id": "hearthguard-berzerkers-with-berzerker-broadaxes",
   "name": "Hearthguard Berzerkers with Berzerker Broadaxes",
   "faction": "fyreslayers",
-  "points": 0,
+  "points": 120,
   "stats": {
     "move": "4\"",
     "health": 2,

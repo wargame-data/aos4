@@ -3,7 +3,7 @@
   "id": "doomseeker",
   "name": "Doomseeker",
   "faction": "fyreslayers",
-  "points": 0,
+  "points": 80,
   "stats": {
     "move": "4\"",
     "health": 5,

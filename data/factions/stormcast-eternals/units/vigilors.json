@@ -3,7 +3,7 @@
   "id": "vigilors",
   "name": "Vigilors",
   "faction": "stormcast-eternals",
-  "points": 0,
+  "points": 140,
   "stats": {
     "move": "6\"",
     "health": 2,

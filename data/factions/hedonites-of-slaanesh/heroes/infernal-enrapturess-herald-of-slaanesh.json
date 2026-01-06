@@ -3,7 +3,7 @@
   "id": "infernal-enrapturess-herald-of-slaanesh",
   "name": "Infernal Enrapturess, Herald of Slaanesh",
   "faction": "hedonites-of-slaanesh",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "6\"",
     "health": 5,

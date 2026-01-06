@@ -3,7 +3,7 @@
   "id": "spite-revenants",
   "name": "Spite-Revenants",
   "faction": "sylvaneth",
-  "points": 0,
+  "points": 80,
   "stats": {
     "move": "5\"",
     "health": 2,

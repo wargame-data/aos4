@@ -3,7 +3,7 @@
   "id": "the-blue-scribes",
   "name": "The Blue Scribes",
   "faction": "disciples-of-tzeentch",
-  "points": 0,
+  "points": 180,
   "stats": {
     "move": "14\"",
     "health": 5,

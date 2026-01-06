@@ -3,7 +3,7 @@
   "id": "skaregob-totem",
   "name": "Skaregob Totem",
   "faction": "kruleboyz",
-  "points": 0,
+  "points": 20,
   "stats": {
     "move": "0\"",
     "health": 12,

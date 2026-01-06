@@ -3,7 +3,7 @@
   "id": "zontari-endrin-dock",
   "name": "Zontari Endrin Dock",
   "faction": "kharadron-overlords",
-  "points": 0,
+  "points": 20,
   "stats": {
     "move": "0\"",
     "health": 10,

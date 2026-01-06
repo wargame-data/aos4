@@ -3,7 +3,7 @@
   "id": "arkanaut-frigate",
   "name": "Arkanaut Frigate",
   "faction": "kharadron-overlords",
-  "points": 0,
+  "points": 300,
   "stats": {
     "move": "10\"",
     "health": 14,

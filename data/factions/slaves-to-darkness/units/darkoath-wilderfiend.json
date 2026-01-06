@@ -3,7 +3,7 @@
   "id": "darkoath-wilderfiend",
   "name": "Darkoath Wilderfiend",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "8\"",
     "health": 9,

@@ -3,7 +3,7 @@
   "id": "runelord",
   "name": "Runelord",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "4\"",
     "health": 5,

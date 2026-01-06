@@ -3,7 +3,7 @@
   "id": "radukar-the-beast",
   "name": "Radukar the Beast",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 250,
   "stats": {
     "move": "8\"",
     "health": 12,

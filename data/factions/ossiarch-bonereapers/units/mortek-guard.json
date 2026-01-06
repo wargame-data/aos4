@@ -3,7 +3,7 @@
   "id": "mortek-guard",
   "name": "Mortek Guard",
   "faction": "ossiarch-bonereapers",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "4\"",
     "health": 1,

@@ -3,7 +3,7 @@
   "id": "chaos-spawn",
   "name": "Chaos Spawn",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 60,
   "stats": {
     "move": "2\"",
     "health": 5,

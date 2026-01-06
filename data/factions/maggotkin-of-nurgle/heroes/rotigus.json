@@ -3,7 +3,7 @@
   "id": "rotigus",
   "name": "Rotigus",
   "faction": "maggotkin-of-nurgle",
-  "points": 0,
+  "points": 430,
   "stats": {
     "move": "6\"",
     "health": 22,

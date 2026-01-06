@@ -3,7 +3,7 @@
   "id": "varghulf-courtier",
   "name": "Varghulf Courtier",
   "faction": "flesh-eater-courts",
-  "points": 0,
+  "points": 120,
   "stats": {
     "move": "10\"",
     "health": 8,

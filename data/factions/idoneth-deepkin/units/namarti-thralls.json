@@ -3,7 +3,7 @@
   "id": "namarti-thralls",
   "name": "Namarti Thralls",
   "faction": "idoneth-deepkin",
-  "points": 0,
+  "points": 90,
   "stats": {
     "move": "6\"",
     "health": 1,

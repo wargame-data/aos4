@@ -3,7 +3,7 @@
   "id": "annihilators",
   "name": "Annihilators",
   "faction": "stormcast-eternals",
-  "points": 0,
+  "points": 130,
   "stats": {
     "move": "4\"",
     "health": 3,

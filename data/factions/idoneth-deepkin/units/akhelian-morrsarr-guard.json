@@ -3,7 +3,7 @@
   "id": "akhelian-morrsarr-guard",
   "name": "Akhelian Morrsarr Guard",
   "faction": "idoneth-deepkin",
-  "points": 0,
+  "points": 170,
   "stats": {
     "move": "14\"",
     "health": 4,

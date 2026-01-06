@@ -3,7 +3,7 @@
   "id": "viceleader-herald-of-slaanesh",
   "name": "Viceleader, Herald of Slaanesh",
   "faction": "hedonites-of-slaanesh",
-  "points": 0,
+  "points": 140,
   "stats": {
     "move": "6\"",
     "health": 5,

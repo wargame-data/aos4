@@ -3,7 +3,7 @@
   "id": "longbeards",
   "name": "Longbeards",
   "faction": "cities-of-sigmar",
-  "points": 0,
+  "points": 110,
   "stats": {
     "move": "4\"",
     "health": 1,

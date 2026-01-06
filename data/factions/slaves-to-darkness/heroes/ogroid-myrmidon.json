@@ -3,7 +3,7 @@
   "id": "ogroid-myrmidon",
   "name": "Ogroid Myrmidon",
   "faction": "slaves-to-darkness",
-  "points": 0,
+  "points": 120,
   "stats": {
     "move": "6\"",
     "health": 8,

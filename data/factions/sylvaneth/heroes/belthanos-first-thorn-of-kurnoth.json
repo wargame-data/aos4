@@ -3,7 +3,7 @@
   "id": "belthanos-first-thorn-of-kurnoth",
   "name": "Belthanos, First Thorn of Kurnoth",
   "faction": "sylvaneth",
-  "points": 0,
+  "points": 350,
   "stats": {
     "move": "12\"",
     "health": 14,

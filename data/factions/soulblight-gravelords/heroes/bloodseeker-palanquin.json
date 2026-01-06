@@ -3,7 +3,7 @@
   "id": "bloodseeker-palanquin",
   "name": "Bloodseeker Palanquin",
   "faction": "soulblight-gravelords",
-  "points": 0,
+  "points": 230,
   "stats": {
     "move": "10\"",
     "health": 12,
