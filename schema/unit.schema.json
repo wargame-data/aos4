@@ -1,0 +1,143 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://aos-data.org/schema/unit.schema.json",
+  "title": "Unit",
+  "description": "A unit warscroll for Age of Sigmar 4th Edition",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "faction",
+    "points",
+    "stats",
+    "role",
+    "keywords",
+    "baseSize",
+    "weapons"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Reference to this schema"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier (kebab-case)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name of the unit"
+    },
+    "faction": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Faction identifier (kebab-case)"
+    },
+    "grandAlliance": {
+      "type": "string",
+      "enum": ["order", "chaos", "death", "destruction"],
+      "description": "Grand Alliance this unit belongs to"
+    },
+    "points": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Points cost for the unit"
+    },
+    "stats": {
+      "type": "object",
+      "required": ["move", "health", "save", "control"],
+      "properties": {
+        "move": {
+          "type": "string",
+          "pattern": "^\\d+\"$",
+          "description": "Movement characteristic (e.g., '5\"')"
+        },
+        "health": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Health/wounds characteristic"
+        },
+        "save": {
+          "type": "string",
+          "pattern": "^\\d\\+$",
+          "description": "Save characteristic (e.g., '4+')"
+        },
+        "control": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Control characteristic"
+        },
+        "banishment": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Banishment characteristic (for manifestations)"
+        }
+      },
+      "additionalProperties": false
+    },
+    "role": {
+      "type": "string",
+      "enum": ["battleline", "other", "artillery", "behemoth"],
+      "description": "Battlefield role"
+    },
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "All keywords for the unit"
+    },
+    "regimentKeywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Keywords used for regiment building"
+    },
+    "baseSize": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Minimum unit size"
+    },
+    "maxSize": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Maximum unit size (if different from baseSize)"
+    },
+    "canReinforce": {
+      "type": "boolean",
+      "description": "Whether the unit can be reinforced"
+    },
+    "reinforcementCost": {
+      "type": "integer",
+      "description": "Points cost for reinforcement (if different from base points)"
+    },
+    "weapons": {
+      "type": "array",
+      "items": { "$ref": "weapon.schema.json" },
+      "description": "Weapon profiles for the unit"
+    },
+    "abilities": {
+      "type": "array",
+      "items": { "$ref": "ability.schema.json" },
+      "description": "Unit abilities"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes or clarifications"
+    },
+    "_meta": {
+      "type": "object",
+      "properties": {
+        "lastUpdated": {
+          "type": "string",
+          "format": "date",
+          "description": "Date of last update (YYYY-MM-DD)"
+        },
+        "source": {
+          "type": "string",
+          "description": "Official source document"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

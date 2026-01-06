@@ -1,0 +1,69 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "knight-incantor",
+  "name": "Knight-Incantor",
+  "faction": "stormcast-eternals",
+  "grandAlliance": "order",
+  "points": 130,
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "ORDER",
+    "STORMCAST ETERNALS",
+    "SACROSANCT CHAMBER",
+    "HERO",
+    "WIZARD",
+    "INFANTRY"
+  ],
+  "regimentKeywords": ["SACROSANCT CHAMBER"],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Incantor's Staff",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Spirit Storm",
+      "type": "spell",
+      "phase": "hero",
+      "castingValue": 7,
+      "declare": "Pick a visible enemy unit within 18\" to be the target.",
+      "effect": "Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.",
+      "keywords": ["SPELL"]
+    },
+    {
+      "name": "Voidstorm Scroll",
+      "type": "once-per-battle",
+      "phase": "hero",
+      "declare": "Pick an enemy WIZARD within 18\" to be the target.",
+      "effect": "Until the start of your next turn, subtract 2 from casting rolls for the target."
+    }
+  ],
+  "isWizard": 1,
+  "isPriest": null,
+  "isUnique": false,
+  "regimentAllows": [
+    {
+      "keywords": ["SACROSANCT CHAMBER"],
+      "description": "Any SACROSANCT CHAMBER units"
+    }
+  ],
+  "canJoinRegiment": null,
+  "_meta": {
+    "lastUpdated": "2025-01-06",
+    "source": "Stormcast Eternals Faction Pack"
+  }
+}

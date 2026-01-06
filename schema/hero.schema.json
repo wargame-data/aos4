@@ -1,0 +1,190 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://aos-data.org/schema/hero.schema.json",
+  "title": "Hero",
+  "description": "A hero warscroll for Age of Sigmar 4th Edition",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "faction",
+    "points",
+    "stats",
+    "role",
+    "keywords",
+    "baseSize",
+    "weapons"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Reference to this schema"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier (kebab-case)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name of the hero"
+    },
+    "faction": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Faction identifier (kebab-case)"
+    },
+    "grandAlliance": {
+      "type": "string",
+      "enum": ["order", "chaos", "death", "destruction"],
+      "description": "Grand Alliance this hero belongs to"
+    },
+    "points": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Points cost for the hero"
+    },
+    "stats": {
+      "type": "object",
+      "required": ["move", "health", "save", "control"],
+      "properties": {
+        "move": {
+          "type": "string",
+          "pattern": "^\\d+\"$",
+          "description": "Movement characteristic (e.g., '5\"')"
+        },
+        "health": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Health/wounds characteristic"
+        },
+        "save": {
+          "type": "string",
+          "pattern": "^\\d\\+$",
+          "description": "Save characteristic (e.g., '4+')"
+        },
+        "control": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Control characteristic"
+        }
+      },
+      "additionalProperties": false
+    },
+    "role": {
+      "type": "string",
+      "enum": ["battleline", "other", "artillery", "behemoth"],
+      "description": "Battlefield role"
+    },
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "All keywords for the hero"
+    },
+    "regimentKeywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Keywords used for regiment building"
+    },
+    "baseSize": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Model count (usually 1 for heroes)"
+    },
+    "maxSize": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Maximum model count"
+    },
+    "canReinforce": {
+      "type": "boolean",
+      "description": "Whether the unit can be reinforced"
+    },
+    "weapons": {
+      "type": "array",
+      "items": { "$ref": "weapon.schema.json" },
+      "description": "Weapon profiles for the hero"
+    },
+    "abilities": {
+      "type": "array",
+      "items": { "$ref": "ability.schema.json" },
+      "description": "Hero abilities"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes or clarifications"
+    },
+    "isWizard": {
+      "oneOf": [
+        { "type": "integer", "minimum": 1 },
+        { "type": "null" }
+      ],
+      "description": "Wizard level (number of spells that can be cast/unbound per phase)"
+    },
+    "isPriest": {
+      "oneOf": [
+        { "type": "integer", "minimum": 1 },
+        { "type": "null" }
+      ],
+      "description": "Priest level (number of prayers that can be chanted per phase)"
+    },
+    "isUnique": {
+      "type": "boolean",
+      "description": "Whether this is a unique/named character"
+    },
+    "regimentAllows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["keywords", "description"],
+        "properties": {
+          "keywords": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "description": "What units this hero can lead in a regiment"
+    },
+    "canJoinRegiment": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["keywords"],
+          "properties": {
+            "keywords": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "description": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        { "type": "null" }
+      ],
+      "description": "If this hero can join another hero's regiment (e.g., totems)"
+    },
+    "_meta": {
+      "type": "object",
+      "properties": {
+        "lastUpdated": {
+          "type": "string",
+          "format": "date",
+          "description": "Date of last update (YYYY-MM-DD)"
+        },
+        "source": {
+          "type": "string",
+          "description": "Official source document"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

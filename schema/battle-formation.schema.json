@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://aos-data.org/schema/battle-formation.schema.json",
+  "title": "Battle Formation",
+  "description": "A battle formation (subfaction) for Age of Sigmar 4th Edition",
+  "type": "object",
+  "required": ["id", "name", "faction", "abilities"],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Reference to this schema"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier (kebab-case)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name of the battle formation"
+    },
+    "faction": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Parent faction identifier"
+    },
+    "description": {
+      "type": "string",
+      "description": "Flavour text or description"
+    },
+    "abilities": {
+      "type": "array",
+      "items": { "$ref": "ability.schema.json" },
+      "description": "Battle formation abilities"
+    },
+    "restrictions": {
+      "type": "string",
+      "description": "Any army composition restrictions"
+    },
+    "_meta": {
+      "type": "object",
+      "properties": {
+        "lastUpdated": {
+          "type": "string",
+          "format": "date"
+        },
+        "source": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

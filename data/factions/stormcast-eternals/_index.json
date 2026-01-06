@@ -1,0 +1,38 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "stormcast-eternals",
+  "name": "Stormcast Eternals",
+  "grandAlliance": "order",
+  "armyKeywords": ["STORMCAST ETERNALS"],
+  "armyAbilities": [
+    {
+      "name": "Heavens-sent",
+      "type": "once-per-battle",
+      "phase": "movement",
+      "declare": "Pick a friendly STORMCAST ETERNALS unit that has not been deployed.",
+      "effect": "Set up that unit anywhere on the battlefield more than 9\" from all enemy units."
+    },
+    {
+      "name": "Stormcast Eternal",
+      "type": "passive",
+      "effect": "Each STORMCAST ETERNALS HERO has the STORMCAST ETERNAL keyword."
+    }
+  ],
+  "lores": [
+    {
+      "name": "Lore of the Storm",
+      "type": "spell",
+      "file": "lores/spell-lore.json"
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Scions of the Storm",
+      "file": "battle-formations/scions-of-the-storm.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2025-01-06",
+    "source": "Stormcast Eternals Faction Pack"
+  }
+}

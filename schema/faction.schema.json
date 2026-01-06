@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://aos-data.org/schema/faction.schema.json",
+  "title": "Faction",
+  "description": "Faction metadata for Age of Sigmar 4th Edition",
+  "type": "object",
+  "required": ["id", "name", "grandAlliance"],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Reference to this schema"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier (kebab-case)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name of the faction"
+    },
+    "grandAlliance": {
+      "type": "string",
+      "enum": ["order", "chaos", "death", "destruction"],
+      "description": "Grand Alliance this faction belongs to"
+    },
+    "armyKeywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Keywords that apply to the army (e.g., 'STORMCAST ETERNALS')"
+    },
+    "armyAbilities": {
+      "type": "array",
+      "items": { "$ref": "ability.schema.json" },
+      "description": "Faction-wide battle traits"
+    },
+    "lores": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "type"],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["spell", "prayer", "manifestation"]
+          },
+          "file": {
+            "type": "string",
+            "description": "Reference to the lore file"
+          }
+        },
+        "additionalProperties": false
+      },
+      "description": "Available spell/prayer lores"
+    },
+    "battleFormations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "file"],
+        "properties": {
+          "name": { "type": "string" },
+          "file": { "type": "string" }
+        },
+        "additionalProperties": false
+      },
+      "description": "References to battle formation files"
+    },
+    "_meta": {
+      "type": "object",
+      "properties": {
+        "lastUpdated": {
+          "type": "string",
+          "format": "date",
+          "description": "Date of last update (YYYY-MM-DD)"
+        },
+        "source": {
+          "type": "string",
+          "description": "Official source document"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://aos-data.org/schema/weapon.schema.json",
+  "title": "Weapon",
+  "description": "A weapon profile for an Age of Sigmar unit",
+  "type": "object",
+  "required": ["name", "type", "attacks", "hit", "wound", "rend", "damage"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The weapon's name"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["melee", "ranged"],
+      "description": "Whether the weapon is melee or ranged"
+    },
+    "range": {
+      "type": "string",
+      "pattern": "^\\d+\"$",
+      "description": "Range of a ranged weapon (e.g., '12\"')"
+    },
+    "attacks": {
+      "oneOf": [
+        { "type": "integer", "minimum": 1 },
+        { "type": "string", "pattern": "^\\d?[dD]\\d+.*$" }
+      ],
+      "description": "Number of attacks (integer or dice expression like 'D6' or '2D6')"
+    },
+    "hit": {
+      "type": "string",
+      "pattern": "^\\d\\+$",
+      "description": "Hit roll required (e.g., '3+')"
+    },
+    "wound": {
+      "type": "string",
+      "pattern": "^\\d\\+$",
+      "description": "Wound roll required (e.g., '4+')"
+    },
+    "rend": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 4,
+      "description": "Rend characteristic (0-4)"
+    },
+    "damage": {
+      "oneOf": [
+        { "type": "integer", "minimum": 1 },
+        { "type": "string", "pattern": "^\\d?[dD]\\d+.*$" }
+      ],
+      "description": "Damage per successful wound (integer or dice expression)"
+    },
+    "abilities": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Weapon abilities (e.g., 'Crit (Mortal)', 'Anti-INFANTRY (+1 Rend)')"
+    }
+  },
+  "if": {
+    "properties": { "type": { "const": "ranged" } }
+  },
+  "then": {
+    "required": ["range"]
+  }
+}
