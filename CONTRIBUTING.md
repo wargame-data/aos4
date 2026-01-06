@@ -1,6 +1,6 @@
-# Contributing to aos-data
+# Contributing to aos4
 
-Thank you for your interest in contributing to aos-data! This document provides guidelines for contributing to the project.
+Thank you for your interest in contributing to aos4! This document provides guidelines for contributing to the project.
 
 ## Ways to Contribute
 
@@ -21,8 +21,8 @@ Thank you for your interest in contributing to aos-data! This document provides 
 
 ```bash
 # Clone your fork
-git clone https://github.com/YOUR_USERNAME/aos-data.git
-cd aos-data
+git clone https://github.com/YOUR_USERNAME/aos4.git
+cd aos4
 
 # Install dependencies
 npm install
@@ -184,7 +184,7 @@ Examples:
 
 ## Questions?
 
-- Open an [issue](https://github.com/aos-data/aos-data/issues) for questions
+- Open an [issue](https://github.com/wargame-data/aos4/issues) for questions
 - Check existing issues before creating new ones
 
 ## Code of Conduct

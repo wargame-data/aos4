@@ -1,10 +1,10 @@
-# aos-data
+# aos4
 
 Community-maintained Age of Sigmar 4th Edition game data in JSON format.
 
 ## Overview
 
-**aos-data** provides clean, structured, and version-controlled game data for Age of Sigmar 4th Edition. It's designed to help developers build army list builders, stat trackers, and other hobby tools.
+**aos4** provides clean, structured, and version-controlled game data for Age of Sigmar 4th Edition. It's designed to help developers build army list builders, stat trackers, and other hobby tools.
 
 ### Features
 
@@ -17,28 +17,28 @@ Community-maintained Age of Sigmar 4th Edition game data in JSON format.
 ## Installation
 
 ```bash
-npm install @aos-data/core
+npm install @wargame-data/aos4
 ```
 
 Or use directly from GitHub:
 
 ```bash
-npm install github:aos-data/aos-data
+npm install github:wargame-data/aos4
 ```
 
 ## Usage
 
 ```typescript
-import factions from "@aos-data/core/data/factions";
+import factions from "@wargame-data/aos4/data/factions";
 
 // Or import specific data
-import liberators from "@aos-data/core/data/factions/stormcast-eternals/units/liberators.json";
+import liberators from "@wargame-data/aos4/data/factions/stormcast-eternals/units/liberators.json";
 ```
 
 ## Data Structure
 
 ```
-aos-data/
+aos4/
 ├── schema/                    # JSON Schema definitions
 │   ├── faction.schema.json
 │   ├── unit.schema.json
@@ -118,6 +118,6 @@ This is a fan-made resource for the hobby community. All game data is derived fr
 
 ## Links
 
-- [GitHub Repository](https://github.com/aos-data/aos-data)
-- [Issue Tracker](https://github.com/aos-data/aos-data/issues)
+- [GitHub Repository](https://github.com/wargame-data/aos4)
+- [Issue Tracker](https://github.com/wargame-data/aos4/issues)
 - [BSData AoS 4th](https://github.com/BSData/age-of-sigmar-4th) - Source reference

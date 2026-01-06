@@ -1,5 +1,5 @@
 {
-  "name": "@aos-data/core",
+  "name": "@wargame-data/aos4",
   "version": "0.1.0",
   "description": "Community-maintained Age of Sigmar 4th Edition game data in JSON format",
   "main": "dist/index.js",
@@ -23,7 +23,7 @@
     "prepublishOnly": "npm run test"
   },
   "bin": {
-    "aos-parser": "dist/tools/parser/index.js"
+    "aos4-parser": "dist/tools/parser/index.js"
   },
   "keywords": [
     "age-of-sigmar",
@@ -32,11 +32,11 @@
     "game-data",
     "json"
   ],
-  "author": "aos-data community",
+  "author": "wargame-data community",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aos-data/aos-data.git"
+    "url": "https://github.com/wargame-data/aos4.git"
   },
   "dependencies": {
     "zod": "^3.24.1"
