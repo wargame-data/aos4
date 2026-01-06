@@ -1,0 +1,53 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "weirdbrute-wrekkaz",
+  "name": "Weirdbrute Wrekkaz",
+  "faction": "ironjawz",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "BRUTE",
+    "DESTRUCTION",
+    "INFANTRY",
+    "IRONJAWZ",
+    "WARD (5+)"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Chain-smasha",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BRUTE",
+    "IRONJAWZ",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Berserkers",
+      "type": "passive",
+      "effect": "This unit can use a **^^Run^^** ability and still use **^^Charge^^** abilities later in the turn."
+    }
+  ]
+}

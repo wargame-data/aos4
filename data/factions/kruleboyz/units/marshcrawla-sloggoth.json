@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "marshcrawla-sloggoth",
+  "name": "Marshcrawla Sloggoth",
+  "faction": "kruleboyz",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 10,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "KRULEBOYZ",
+    "WAR MACHINE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Nets and Snatcha‑stikks",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Sloggoth’s Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "KRULEBOYZ"
+  ],
+  "abilities": [
+    {
+      "name": "On da March",
+      "type": "passive",
+      "effect": "While they are wholly within 12\" of this unit, friendly **^^Kruleboyz Infantry^^** units can use **^^Charge^^** abilities even if they used a **^^Run^^** ability in the same turn."
+    },
+    {
+      "name": "Regeneration",
+      "type": "passive",
+      "effect": "**Heal (D3)** this unit.",
+      "phase": "any"
+    }
+  ]
+}

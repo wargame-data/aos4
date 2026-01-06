@@ -1,0 +1,63 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "swampcalla-shaman-with-pot-grot",
+  "name": "Swampcalla Shaman with Pot-grot",
+  "faction": "kruleboyz",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "HERO",
+    "INFANTRY",
+    "KRULEBOYZ",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Bogbark Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "KRULEBOYZ",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Pot-grot",
+      "type": "passive",
+      "effect": "This unit’s **Pot-grot** is a token. Add 1 to casting rolls for this unit while its **Pot-grot** is on the battlefield. If you make an unmodified casting roll of 4 or less for this unit, remove its **Pot-grot** from the battlefield."
+    },
+    {
+      "name": "Foul Elixirs",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 2+, add 1 to save rolls for the target for the rest of the turn. On a 1, inflict D3 mortal damage on the target.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Kruleboyz Infantry^^** unit wholly within 12\" of this unit to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

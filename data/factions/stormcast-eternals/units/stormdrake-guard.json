@@ -1,0 +1,103 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "stormdrake-guard",
+  "name": "Stormdrake Guard",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 9,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "EXTREMIS CHAMBER",
+    "FLY",
+    "MONSTER",
+    "ORDER",
+    "STORMCAST ETERNALS"
+  ],
+  "baseSize": 2,
+  "weapons": [
+    {
+      "name": "Draconith’s Fangs and Talons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Draconic Flamestream",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Drakerider’s Lance",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Anti‑**^^Infantry^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Drakerider’s Warblade",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "EXTREMIS CHAMBER",
+    "FLY",
+    "STORMCAST ETERNALS"
+  ],
+  "abilities": [
+    {
+      "name": "Dispersed Formation",
+      "type": "passive",
+      "effect": "This unit has a coherency range of 2\"."
+    },
+    {
+      "name": "Draconic Onslaught",
+      "type": "once-per-turn",
+      "effect": "If this unit charged this turn, roll a dice. On a 3+, this unit can move 2D6\". It can pass through the combat ranges of enemy units and can end that move in combat. Then, pick an enemy unit that this unit passed across during that move. Inflict D3 mortal damage on that enemy unit.",
+      "phase": "combat",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Extremis Chamber",
+      "type": "passive",
+      "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+    }
+  ]
+}

@@ -25,3 +25,4 @@ npm-debug.log*
 # Generated files (not tracked, regenerated on build)
 generated/all-factions.json
 generated/typescript/
+.cache/

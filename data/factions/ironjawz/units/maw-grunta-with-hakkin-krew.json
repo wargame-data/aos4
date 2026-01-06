@@ -1,0 +1,92 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "maw-grunta-with-hakkin-krew",
+  "name": "Maw-grunta with Hakkin' Krew",
+  "faction": "ironjawz",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 12,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "IRONJAWZ",
+    "MAW-GRUNTA",
+    "MONSTER"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Choppas",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Maw-grunta’s Tusks",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Maw-grunta’s Trotters",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Kill-choppas",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "IRONJAWZ",
+    "MAW-GRUNTA"
+  ],
+  "abilities": [
+    {
+      "name": "Carve a Path",
+      "type": "once-per-turn",
+      "effect": "If this unit is in combat, it can move a distance up to its Move characteristic. It can pass through models and the combat ranges of enemy units, but it cannot end that move in combat.\nThen, pick each enemy unit that this unit passed across during that move to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, this unit gains 2 **momentum points**.",
+      "phase": "movement",
+      "keywords": [
+        "**^^CORE^^**",
+        "**^^MOVE^^**",
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Unstoppable Momentum",
+      "type": "passive",
+      "effect": "Each time this unit has charged as a result of using a **^^Charge^^** ability, it gains 1 **momentum point**. Each time it uses a **^^Run^^** ability, it gains 2 **momentum points**. It can have a maximum of 3 **momentum points** at once.\nAdd the number of **momentum points** this unit has to the Damage characteristic of its **^^Maw-grunta’s Tusks^^**. At the end of each battle round, subtract 1 from its **momentum points**, to a minimum of 0."
+    }
+  ]
+}

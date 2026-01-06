@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "warlock-bombardier",
+  "name": "Warlock Bombardier",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "HERO",
+    "INFANTRY",
+    "SKAVEN",
+    "SKRYRE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Doomrocket",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Firing Pole",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SKAVEN",
+    "SKRYRE"
+  ],
+  "abilities": [
+    {
+      "name": "More-more Doom!",
+      "type": "reaction",
+      "effect": "Roll a dice. On a 2+, set the Damage characteristic of its **Doomrocket** to D3+3 for the rest of the turn. On a 1, inflict D3 mortal damage on this unit."
+    },
+    {
+      "name": "Explosive Payload",
+      "type": "passive",
+      "effect": "Add 1 to hit rolls for this unit’s shooting attacks that target an enemy unit that has 10 or more models."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

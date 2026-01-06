@@ -1,0 +1,57 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "vanquishers",
+  "name": "Vanquishers",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "INFANTRY",
+    "MUSICIAN (1/5)",
+    "ORDER",
+    "STANDARD BEARER (1/5)",
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Celestial Greatsword",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "MUSICIAN (1/5)",
+    "STANDARD BEARER (1/5)",
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Lightning Strikes",
+      "type": "passive",
+      "effect": "Add 1 to the Damage characteristic of this unit’s **Celestial Greatswords** for attacks that target an enemy unit that has 5 or more models."
+    }
+  ]
+}

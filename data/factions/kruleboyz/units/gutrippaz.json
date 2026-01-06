@@ -1,0 +1,56 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "gutrippaz",
+  "name": "Gutrippaz",
+  "faction": "kruleboyz",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DESTRUCTION",
+    "INFANTRY",
+    "KRULEBOYZ",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)"
+  ],
+  "baseSize": 10,
+  "weapons": [
+    {
+      "name": "Stikka or Hacka",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "KRULEBOYZ",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)"
+  ],
+  "abilities": [
+    {
+      "name": "Scare Taktikz",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, subtract 1 from hit rolls for attacks made by non-**^^Hero^^** units that target this unit for the rest of the turn.",
+      "phase": "combat"
+    }
+  ]
+}

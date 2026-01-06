@@ -1,0 +1,82 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "zoggrok-anvilsmasha",
+  "name": "Zoggrok Anvilsmasha",
+  "faction": "ironjawz",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 7,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "HERO",
+    "INFANTRY",
+    "IRONJAWZ",
+    "UNIQUE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Skull-crushing Basha",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Ward-smashing Choppa",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Grunta-tongs",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "IRONJAWZ"
+  ],
+  "abilities": [
+    {
+      "name": "Klonk",
+      "type": "passive",
+      "effect": "**Klonk** is a token. You can re-roll forgin’ rolls for this unit while this unit’s **Klonk** is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove this unit’s **Klonk** from the battlefield after the **^^Attack^^** ability has been resolved (the damage point is still inflicted)."
+    },
+    {
+      "name": "Power of da Great Green God",
+      "type": "passive",
+      "effect": "Make a forgin’ roll of D6. Add 1 to the roll if this unit is armed with **Grunta-tongs**. On a 4+, the target’s melee weapons have **Crit (Mortal)** until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick a visible friendly **^^Ironjawz Infantry^^** unit wholly within 12\" of this unit to be the target."
+    },
+    {
+      "name": "Ward-smashing Choppa",
+      "type": "passive",
+      "effect": "If an attack made with this unit’s **^^Ward-smashing Choppa^^** scores a hit, the target has the **^^Ward‑smashed^^** keyword for the rest of the battle. Ward rolls cannot be made for a **^^Ward‑smashed^^** unit even if this unit has been destroyed."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

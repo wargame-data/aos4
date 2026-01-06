@@ -1,0 +1,66 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "runelord",
+  "name": "Runelord",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 5,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CITIES OF SIGMAR",
+    "DUARDIN",
+    "HERO",
+    "INFANTRY",
+    "ORDER",
+    "PRIEST (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Rune Staff and Forgehammer",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "DUARDIN",
+    "PRIEST (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Runes of Spellbreaking",
+      "type": "passive",
+      "effect": "This unit can use the ‘Unbind’ ability as if it had **^^Wizard (1)^^**."
+    },
+    {
+      "name": "Forgefire",
+      "type": "prayer",
+      "effect": "Until the start of your next turn, add 1 to the Rend characteristic of the target’s melee weapons. In addition, if the chanting roll was 10+, pick another friendly **^^Cities of Sigmar Duardin^^** unit wholly within 12\" of this unit. Add 1 to the Rend characteristic of that unit’s melee weapons until the start of your next turn as well.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Cities of Sigmar Duardin^^** unit wholly within 12\" of this unit to be the target, then make a chanting roll of D6.",
+      "chantingValue": 5,
+      "keywords": [
+        "**^^PRAYER^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

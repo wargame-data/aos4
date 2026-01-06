@@ -1,0 +1,84 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "vengorian-lord",
+  "name": "Vengorian Lord",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 11,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "FLY",
+    "HERO",
+    "MONSTER",
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Gore-drenched Talons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Nightmare Sabre",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Festering Feast",
+      "type": "once-per-turn",
+      "effect": "If any damage points were allocated to enemy units by this unit's attacks this turn, **Heal (D3)** this unit and each other friendly **^^Soulblight Gravelords Monster^^** wholly within 12\" of this unit.",
+      "phase": "any"
+    },
+    {
+      "name": "Scything Talons",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.",
+      "phase": "combat",
+      "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Nightmare's Miasma",
+      "type": "passive",
+      "effect": "Subtract 1 from the Rend characteristic of melee weapons used by enemy units while they are in combat with this unit."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

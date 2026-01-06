@@ -1,0 +1,54 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "warchanter",
+  "name": "Warchanter",
+  "faction": "ironjawz",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "HERO",
+    "INFANTRY",
+    "IRONJAWZ",
+    "PRIEST (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Gorkstikk and Morkstikk",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "IRONJAWZ",
+    "PRIEST (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Rhythm of Destruction",
+      "type": "passive",
+      "effect": "If any enemy models were slain this turn by this unit’s combat attacks, give this unit D3 ritual points.",
+      "phase": "any"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

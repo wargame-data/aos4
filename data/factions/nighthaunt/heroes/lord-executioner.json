@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "lord-executioner",
+  "name": "Lord Executioner",
+  "faction": "nighthaunt",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "FLY",
+    "HERO",
+    "INFANTRY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Decapitating Greataxe",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)",
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Ghastly Descent",
+      "type": "passive",
+      "effect": "Roll a dice. Add 1 to the roll if the target is a **^^Sentenced^^** unit. On a 5+, the target is automatically destroyed.",
+      "phase": "any",
+      "declare": "Pick an enemy **^^Infantry^^** or ^^**Cavalry Hero^^** that had any damage points allocated to it this turn by this unit's attacks to be the target."
+    },
+    {
+      "name": "Staring Death in the Face",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 2+, subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn. In addition, if the target is a **^^Hero^^**, subtract 5 from the target’s control score for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "chaos-warriors",
+  "name": "Chaos Warriors",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "CHAOS",
+    "INFANTRY",
+    "MUSICIAN (1/10)",
+    "SLAVES TO DARKNESS",
+    "STANDARD BEARER (1/10)",
+    "WARRIORS OF CHAOS"
+  ],
+  "baseSize": 10,
+  "weapons": [
+    {
+      "name": "Rune-etched Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "MUSICIAN (1/10)",
+    "SLAVES TO DARKNESS",
+    "STANDARD BEARER (1/10)",
+    "WARRIORS OF CHAOS"
+  ],
+  "abilities": [
+    {
+      "name": "Bringers of Desolation",
+      "type": "passive",
+      "effect": "Add 1 to the Attacks characteristic of this unit’s Rune-etched Weapons while it is contesting an objective you control."
+    }
+  ]
+}

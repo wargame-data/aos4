@@ -1,0 +1,58 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "saurus-astrolith-bearer",
+  "name": "Saurus Astrolith Bearer",
+  "faction": "seraphon",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "HERO",
+    "INFANTRY",
+    "ORDER",
+    "SAURUS",
+    "SERAPHON"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Celestite Warclub",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "SAURUS",
+    "SERAPHON"
+  ],
+  "abilities": [
+    {
+      "name": "Celestial Conduit",
+      "type": "reaction",
+      "effect": "If that spell is successfully cast, for the rest of the turn, add 3 to the control scores of friendly **^^Seraphon^^** units while they are wholly within 12\" of this unit."
+    },
+    {
+      "name": "Revivifying Energies",
+      "type": "passive",
+      "effect": "Friendly **^^Seraphon Infantry^^** units have Ward (6+) while they are wholly within 12\" of this unit. If a unit already has **^^Ward (6+)^^**, it has **^^Ward (5+)^^** instead."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

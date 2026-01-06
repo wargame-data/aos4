@@ -1,0 +1,57 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "glaivewraith-stalkers",
+  "name": "Glaivewraith Stalkers",
+  "faction": "nighthaunt",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "FLY",
+    "INFANTRY",
+    "MUSICIAN (1/4)",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "baseSize": 4,
+  "weapons": [
+    {
+      "name": "Hunter’s Glaive",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "MUSICIAN (1/4)",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Unerring Hunters",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn, each time this unit makes a pile-in move, add 3\" to the distance it can move.",
+      "phase": "combat"
+    }
+  ]
+}

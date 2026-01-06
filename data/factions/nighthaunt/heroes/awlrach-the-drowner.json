@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "awlrach-the-drowner",
+  "name": "Awlrach the Drowner",
+  "faction": "nighthaunt",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 7,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "FLY",
+    "HERO",
+    "NIGHTHAUNT",
+    "UNIQUE",
+    "WAR MACHINE",
+    "WARD (5+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Deathwood Oar",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Drifting on Spectral Tides",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, this unit can immediately use the 'Normal Move' or the 'Retreat' ability as if it were your movement phase.",
+      "phase": "any"
+    },
+    {
+      "name": "Passage Through the Underworlds",
+      "type": "once-per-battle",
+      "effect": "Remove this unit and the target from the battlefield, then set them up again on the battlefield wholly within 6\" of each other and more than 7\" from all enemy units.",
+      "phase": "movement",
+      "declare": "If this unit is not in combat, pick a friendly non-**^^Hero Nighthaunt^^** unit that is not in combat and is wholly within 12\" of this unit to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

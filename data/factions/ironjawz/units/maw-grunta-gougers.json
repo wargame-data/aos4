@@ -1,0 +1,82 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "maw-grunta-gougers",
+  "name": "Maw-grunta Gougers",
+  "faction": "ironjawz",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 12,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "IRONJAWZ",
+    "MAW-GRUNTA",
+    "MONSTER"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Choppas",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Maw-grunta’s Tusks",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Maw-grunta’s Trotters",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "IRONJAWZ",
+    "MAW-GRUNTA"
+  ],
+  "abilities": [
+    {
+      "name": "Flattened into the Mud",
+      "type": "once-per-turn",
+      "effect": "Roll a dice and add the number of **momentum points** this unit has to the roll. On a 5+, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "If this unit charged this turn, pick an enemy unit within 1\" of it to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Unstoppable Momentum",
+      "type": "passive",
+      "effect": "Each time this unit has charged as a result of using a **^^Charge^^** ability, it gains 1 **momentum point**. Each time it uses a **^^Run^^** ability, it gains 2 **momentum points**. It can have a maximum of 3 **momentum points** at once.\nAdd the number of **momentum points** this unit has to the Damage characteristic of its **^^Maw-grunta’s Tusks^^**. At the end of each battle round, subtract 1 from its **momentum points**, to a minimum of 0."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "karanak",
+  "name": "Karanak",
+  "faction": "blades-of-khorne",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 7,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "BEAST",
+    "BLADES OF KHORNE",
+    "CHAOS",
+    "DAEMON",
+    "HERO",
+    "UNIQUE",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Savage Maws and Goreslick Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)",
+        "Blood-hungry"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEAST",
+    "BLADES OF KHORNE",
+    "DAEMON",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Prey of the Blood God",
+      "type": "once-per-turn",
+      "effect": "Pick an enemy **^^Hero^^** to be this unit’s quarry. You can pick a **^^Hero^^** in reserve.",
+      "phase": "movement"
+    },
+    {
+      "name": "Stalk the Prey",
+      "type": "passive",
+      "effect": "Remove the targets from the battlefield and set them up again on the battlefield more than 6\" from this unit's quarry and more than 9\" from all other enemy units. If picked to be a target, the unit of **Flesh Hounds** must also be set up wholly within 12\" of this unit.",
+      "phase": "movement",
+      "declare": "If this unit's quarry is on the battlefield, pick this unit and up to 1 friendly **Flesh hounds** unit to be the targets.",
+      "keywords": [
+        "**^^CORE^^**"
+      ]
+    },
+    {
+      "name": "First of the Pack",
+      "type": "passive",
+      "effect": "While this unit is wholly within 12\" of a friendly **Flesh Hounds** unit, add 2 to charge rolls for this unit. In addition, while any friendly **Flesh Hounds** units are wholly within 12\" of this unit, they can ignore the effect of the ‘Beast’ ability"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

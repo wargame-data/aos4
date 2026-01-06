@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "cypher-lords",
+  "name": "Cypher Lords",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION (1/8)",
+    "CHAOS",
+    "INFANTRY",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "UNDIVIDED"
+  ],
+  "baseSize": 8,
+  "weapons": [
+    {
+      "name": "Throwing Stars and Chakrams",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Exotic Blades",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION (1/8)",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "UNDIVIDED"
+  ],
+  "abilities": [
+    {
+      "name": "Acrobatic Leaps",
+      "type": "passive",
+      "effect": "This unit has **^^Strike-first^^** if it charged in the same turn."
+    },
+    {
+      "name": "Shattered Gloom Globes",
+      "type": "once-per-battle",
+      "effect": "This unit cannot be targeted by shooting attacks for the rest of the turn.",
+      "phase": "hero"
+    }
+  ]
+}

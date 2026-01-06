@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "bloodmaster-herald-of-khorne",
+  "name": "Bloodmaster, Herald of Khorne",
+  "faction": "blades-of-khorne",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "BLADES OF KHORNE",
+    "CHAOS",
+    "DAEMON",
+    "HERO",
+    "INFANTRY",
+    "PRIEST (1)",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Blade of Blood",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Blood-hungry",
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "DAEMON",
+    "PRIEST (1)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "The Blood Must Flow",
+      "type": "reaction",
+      "effect": "Pick a friendly **Bloodletters** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. For the rest of the turn, add 1 to hit rolls for combat attacks made by this unit and that friendly **Bloodletters** unit."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

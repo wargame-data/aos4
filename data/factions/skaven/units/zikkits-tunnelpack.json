@@ -1,0 +1,102 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "zikkits-tunnelpack",
+  "name": "Zikkit's Tunnelpack",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "INFANTRY",
+    "LEGENDS",
+    "SKAVEN",
+    "SKRYRE",
+    "UNIQUE"
+  ],
+  "baseSize": 4,
+  "weapons": [
+    {
+      "name": "Warp Drill",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Tunneling Gear",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Skryre Bombs",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Mangy Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "LEGENDS",
+    "SKAVEN",
+    "SKRYRE"
+  ],
+  "abilities": [
+    {
+      "name": "Ka-boom!",
+      "type": "once-per-battle",
+      "effect": "This unit’s **Tik Tik** is a token. If this unit’s Tik Tik is on the battlefield, remove it from the battlefield and roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll and the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target."
+    },
+    {
+      "name": "Tunneling Team",
+      "type": "passive",
+      "effect": "Set up this unit in reserve **drilling beneath the surface**. It has now been deployed.",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ]
+    },
+    {
+      "name": "Tunnelpack Ambush",
+      "type": "passive",
+      "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Pick this unit if it is **drilling beneath the surface**."
+    }
+  ]
+}

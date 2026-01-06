@@ -1,0 +1,113 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "arachnarok-spider-with-flinger",
+  "name": "Arachnarok Spider with Flinger",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 14,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "ARACHNAROK",
+    "DESTRUCTION",
+    "GLOOMSPITE GITZ",
+    "MONSTER",
+    "SPIDERFANG"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Monstrous Spider Fangs",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Chitinous Legs",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Crooked Spears",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Spider-bows",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Flinger",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "ARACHNAROK",
+    "GLOOMSPITE GITZ",
+    "SPIDERFANG"
+  ],
+  "abilities": [
+    {
+      "name": "Flinger",
+      "type": "passive",
+      "effect": "If any attacks made with this unit’s **Flinger** score a hit, after the **^^Shoot^^** ability has been resolved, roll a dice. On a 2+, the target unit is **entangled** until the start of your next turn. Halve the Move characteristic of a unit while it is **entangled**."
+    },
+    {
+      "name": "Beast-binding Webbing",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target’s **Companion** weapons for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Wall Crawler",
+      "type": "passive",
+      "effect": "This unit can pass across terrain features as if it had **^^Fly^^**."
+    }
+  ]
+}

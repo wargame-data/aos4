@@ -1,0 +1,83 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "ripperdactyl-chief",
+  "name": "Ripperdactyl Chief",
+  "faction": "seraphon",
+  "points": 0,
+  "stats": {
+    "move": "14\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "FLY",
+    "HERO",
+    "ORDER",
+    "SERAPHON",
+    "SKINK"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Skyblade",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Ripperdactyl’s Tearing Jaws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FLY",
+    "SERAPHON",
+    "SKINK"
+  ],
+  "abilities": [
+    {
+      "name": "Blot Toad",
+      "type": "once-per-battle",
+      "effect": "Place a **Blot Toad** next to each target.",
+      "declare": "You receive 1 **Blot Toad** token for each **Ripperdactyl Chief** or **Ripperdactyl Riders** unit in your army, to a maximum of 3 tokens. Pick a number of enemy units equal to the number of **Blot Toads** you have to be the targets."
+    },
+    {
+      "name": "Toad Rage",
+      "type": "passive",
+      "effect": "Add 1 to the Attacks characteristic of this unit’s **Ripperdactyl’s Tearing Jaws** while it is in combat with any units that have a Blot Toad."
+    },
+    {
+      "name": "Ripperdactyl Assault",
+      "type": "once-per-battle",
+      "effect": "Add 1 to the Attacks characteristic of **Moonstone Warspears** used by friendly **Ripperdactyl Riders** units wholly within 12\" of this unit for the rest of the turn.",
+      "phase": "combat"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

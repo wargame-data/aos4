@@ -1,0 +1,59 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "rotbringer-sorcerer",
+  "name": "Rotbringer Sorcerer",
+  "faction": "maggotkin-of-nurgle",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "HERO",
+    "INFANTRY",
+    "MAGGOTKIN OF NURGLE",
+    "ROTBRINGERS",
+    "WARD (5+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Rotwood Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "MAGGOTKIN OF NURGLE",
+    "ROTBRINGERS",
+    "WARD (5+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Tainted Sorceries",
+      "type": "passive",
+      "effect": "Roll a dice. On a 2+, subtract 1 from ward rolls for the target for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick an enemy unit that was picked to be the target of a spell that was successfully cast by this unit this phase to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

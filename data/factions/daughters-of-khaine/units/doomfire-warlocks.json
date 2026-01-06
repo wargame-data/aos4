@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "doomfire-warlocks",
+  "name": "Doomfire Warlocks",
+  "faction": "daughters-of-khaine",
+  "points": 0,
+  "stats": {
+    "move": "14\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "CAVALRY",
+    "CHAMPION",
+    "DAUGHTERS OF KHAINE",
+    "ORDER",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Doomfire Crossbow",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Dark Steed’s Vicious Bite",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Cursed Scimitar",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CHAMPION",
+    "DAUGHTERS OF KHAINE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Outmanoeuvre",
+      "type": "passive",
+      "effect": "When this unit uses the ‘Redeploy’ command, if you roll a 1-3 when determining the distance this unit can move, you can use a value of 4 instead."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "the-shadow-queen",
+  "name": "The Shadow Queen",
+  "faction": "daughters-of-khaine",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 12,
+    "save": "4+",
+    "control": 10
+  },
+  "role": "other",
+  "keywords": [
+    "DAUGHTERS OF KHAINE",
+    "FLY",
+    "HERO",
+    "MONSTER",
+    "ORDER",
+    "UNIQUE",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Gaze of the Shadow Queen",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Heartrender",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Crown of Serpents",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Envenomed Tail",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "DAUGHTERS OF KHAINE",
+    "FLY",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Iron Heart of Khaine",
+      "type": "passive",
+      "effect": "You cannot allocate more than 3 damage points to this unit each turn. Once 3 points have been allocated to this unit in a turn, any further damage points that would be allocated to it are ignored.\nDamage points allocated to this unit cannot be healed.\nIf this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 3 damage points to it (ward rolls cannot be made for those damage points)."
+    },
+    {
+      "name": "Fury of the Shadow Queen",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any models are slain by this ability, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **Khinerai** and **Melusai** units while they are wholly within 12\" of this unit.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

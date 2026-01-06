@@ -1,0 +1,56 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "freeguild-steelhelms",
+  "name": "Freeguild Steelhelms",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 1,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "INFANTRY",
+    "MUSICIAN (1/10)",
+    "ORDER",
+    "STANDARD BEARER (1/10)"
+  ],
+  "baseSize": 10,
+  "weapons": [
+    {
+      "name": "Freeguild Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)"
+  ],
+  "abilities": [
+    {
+      "name": "Consecrate the Land",
+      "type": "once-per-turn",
+      "effect": "On a 3+, that objective is considered by you to be consecrated. While each model in a friendly **^^Cities of Sigmar Human^^** unit is contesting a consecrated objective, that unit has **^^Ward (5+)^^**. If your opponent gains control of a consecrated objective, it is no longer consecrated.",
+      "phase": "movement",
+      "declare": "If this unit is contesting an objective you control that is not contested by any enemy models, roll a dice."
+    }
+  ]
+}

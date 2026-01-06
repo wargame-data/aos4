@@ -1,0 +1,66 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "kurdoss-valentian-the-craven-king",
+  "name": "Kurdoss Valentian, the Craven King",
+  "faction": "nighthaunt",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 7,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "FLY",
+    "HERO",
+    "INFANTRY",
+    "NIGHTHAUNT",
+    "UNIQUE",
+    "WARD (5+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Sepulchral Sceptre",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Hail Kurdoss! King of Nothing!",
+      "type": "passive",
+      "effect": "The target can immediately use a **^^Shoot^^** ability as if it were your shooting phase, but all of its attacks must target an enemy unit in combat with this unit. The target cannot use **^^Charge^^** abilities for the rest of the turn.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick a friendly **Craventhrone Guard** unit that is not in combat to be the target."
+    },
+    {
+      "name": "If I Cannot Rule, None Shall Rule!",
+      "type": "reaction",
+      "effect": "Roll a dice. On a 3+, unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

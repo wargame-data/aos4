@@ -1,0 +1,120 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "stormfiends",
+  "name": "Stormfiends",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "INFANTRY",
+    "MOULDER",
+    "SKAVEN",
+    "SKRYRE"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Ratling Cannons",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Clubbing Blows",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Grinderfists",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Warpfire Projectors",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Windlaunchers",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Doomflayer Gauntlets",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Shock Gauntlets",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "MOULDER",
+    "SKAVEN",
+    "SKRYRE"
+  ],
+  "abilities": [
+    {
+      "name": "Grinderfist Tunnellers",
+      "type": "once-per-turn",
+      "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Pick this unit if it is **in the tunnels below** and includes any models armed with **Grinderfists**."
+    },
+    {
+      "name": "Shock Gauntlets",
+      "type": "passive",
+      "effect": "Each time an attack made with this unit’s **Shock Gauntlets** scores a critical hit, that attack scores D6 hits on the target unit instead of 1. Make a wound roll for each hit."
+    }
+  ]
+}

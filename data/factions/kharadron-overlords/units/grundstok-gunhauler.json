@@ -1,0 +1,81 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "grundstok-gunhauler",
+  "name": "Grundstok Gunhauler",
+  "faction": "kharadron-overlords",
+  "points": 0,
+  "stats": {
+    "move": "14\"",
+    "health": 10,
+    "save": "2+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DUARDIN",
+    "FLY",
+    "KHARADRON OVERLORDS",
+    "ORDER",
+    "SKYVESSEL",
+    "WAR MACHINE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Sky Ordnance",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Boarding Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "DUARDIN",
+    "FLY",
+    "KHARADRON OVERLORDS",
+    "SKYVESSEL"
+  ],
+  "abilities": [
+    {
+      "name": "Long-line Slings",
+      "type": "passive",
+      "effect": "When you use the 'Transport Skyfarers' ability for this unit, you can pick units in combat to be targets."
+    },
+    {
+      "name": "Light Bomb Racks",
+      "type": "passive",
+      "effect": "Roll 4 dice. For each 4+, inflict 1 mortal damage on the target.",
+      "phase": "movement",
+      "declare": "Pick an enemy unit that does not have **^^Fly^^** and that this unit passed across this phase to be the target."
+    },
+    {
+      "name": "Transport Capacity",
+      "type": "passive",
+      "effect": "This unit can transport 1 friendly **^^Kharadron Overlords Infantry^^** units with a model count of up to 5 (see Battle Traits)."
+    },
+    {
+      "name": "Aethershot Overwatch",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target."
+    }
+  ]
+}

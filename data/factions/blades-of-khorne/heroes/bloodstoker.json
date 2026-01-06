@@ -1,0 +1,58 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "bloodstoker",
+  "name": "Bloodstoker",
+  "faction": "blades-of-khorne",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "BLADES OF KHORNE",
+    "BLOODBOUND",
+    "CHAOS",
+    "HERO",
+    "INFANTRY"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Torture Blade and Blood Whip",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Blood-hungry"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "BLOODBOUND"
+  ],
+  "abilities": [
+    {
+      "name": "Whipped to Fury",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn, the target can use **^^Charge^^** abilities even if it used a **^^Run^^** ability in the same turn.",
+      "phase": "movement",
+      "declare": "Pick a friendly non-**^^Hero Bloodbound^^** unit within this unit’s combat range to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

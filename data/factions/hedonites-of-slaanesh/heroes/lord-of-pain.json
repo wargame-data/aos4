@@ -1,0 +1,60 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "lord-of-pain",
+  "name": "Lord of Pain",
+  "faction": "hedonites-of-slaanesh",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "HEDONITES OF SLAANESH",
+    "HERO",
+    "INFANTRY",
+    "SYBARITE",
+    "WARD (5+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Soulpiercer Mace",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "HEDONITES OF SLAANESH",
+    "SYBARITE",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Share the Pain",
+      "type": "passive",
+      "effect": "Each time you make a successful ward roll for this unit for a damage point inflicted by a combat attack, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+    },
+    {
+      "name": "Disciples in Torment",
+      "type": "passive",
+      "effect": "While this unit is contesting an objective, add 1 to wound rolls for combat attacks made by friendly **^^Sybarite^^** units wholly within 12\" of this unit."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

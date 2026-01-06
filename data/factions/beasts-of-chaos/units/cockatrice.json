@@ -1,0 +1,54 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "cockatrice",
+  "name": "Cockatrice",
+  "faction": "beasts-of-chaos",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 8,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "BEAST",
+    "BEASTS OF CHAOS",
+    "CHAOS",
+    "LEGENDS"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Stabbing Beak and Talons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEAST",
+    "BEASTS OF CHAOS",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Petrifying Gaze",
+      "type": "once-per-turn",
+      "effect": "Roll a dice for each model in the target unit. For each 6, inflict 1 mortal damage on the target. If any damage points are allocated to the target by this ability, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "shooting",
+      "declare": "Pick a visible enemy unit within 12\" of this unit to be the target."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "prosecutors",
+  "name": "Prosecutors",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 2,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "FLY",
+    "INFANTRY",
+    "ORDER",
+    "RUINATION CHAMBER",
+    "STORMCAST ETERNALS"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Stormcall Javelin",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLY",
+    "RUINATION CHAMBER",
+    "STORMCAST ETERNALS"
+  ],
+  "abilities": [
+    {
+      "name": "Dispersed Formation",
+      "type": "passive",
+      "effect": "This unit has a coherency range of 2\"."
+    },
+    {
+      "name": "Heralds of Righteousness",
+      "type": "passive",
+      "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3."
+    },
+    {
+      "name": "Ruination Chamber",
+      "type": "reaction",
+      "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+    }
+  ]
+}

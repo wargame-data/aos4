@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "gors",
+  "name": "Gors",
+  "faction": "beasts-of-chaos",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "BEASTS OF CHAOS",
+    "BRAYHERD",
+    "CHAMPION",
+    "CHAOS",
+    "INFANTRY",
+    "LEGENDS",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)"
+  ],
+  "baseSize": 10,
+  "weapons": [
+    {
+      "name": "Hacking Blades",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEASTS OF CHAOS",
+    "BRAYHERD",
+    "CHAMPION",
+    "LEGENDS",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)"
+  ],
+  "abilities": [
+    {
+      "name": "Gor Stampede",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, the target has **^^Strike-last^^** for the rest of the turn",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy non-**^^Hero Infantry^^** unit that has fewer models than this unit and is within 1\" of it to be the target."
+    }
+  ]
+}

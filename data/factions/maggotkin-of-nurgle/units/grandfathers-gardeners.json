@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "grandfathers-gardeners",
+  "name": "Grandfather's Gardeners",
+  "faction": "maggotkin-of-nurgle",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 3,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "CHAOS",
+    "DAEMON",
+    "INFANTRY",
+    "LEGENDS",
+    "MAGGOTKIN OF NURGLE",
+    "STANDARD BEARER",
+    "UNIQUE",
+    "WARD (5+)"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Gardening Tools",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DAEMON",
+    "LEGENDS",
+    "MAGGOTKIN OF NURGLE",
+    "STANDARD BEARER",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Seeds of Rot",
+      "type": "passive",
+      "effect": "When using the 'Blessed by the Plaguefater' ability, if you choose to infect an enemy unit, you can pick an enemy unit that is contesting an objective that is **seeded with rot**."
+    },
+    {
+      "name": "Blooming Plague",
+      "type": "passive",
+      "effect": "The target is **seeded with rot** for the rest of the battle.",
+      "phase": "any",
+      "declare": "Pick an objective that is contested by this unit to be the target."
+    }
+  ]
+}

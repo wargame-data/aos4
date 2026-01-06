@@ -1,0 +1,57 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "auric-flamekeeper",
+  "name": "Auric Flamekeeper",
+  "faction": "fyreslayers",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DUARDIN",
+    "FYRESLAYERS",
+    "HERO",
+    "INFANTRY",
+    "ORDER",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Brazier Axe",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "DUARDIN",
+    "FYRESLAYERS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Masterflame Rune",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. If the roll is equal to or less than the number of **^^Fyreslayers^^** units that have been destroyed during the battle, pick 1 of the following effects to apply until the start of your next turn:\n***Grimnir’s Grit:*** The target has **^^Ward (5+)^^**.\n***Grimnir’s Resolve:*** Add 2 to charge rolls for the target.\n***Grimnir’s Vengeance:*** Add 1 to the Damage characteristic of the target’s melee weapons.",
+      "phase": "hero",
+      "declare": "If any friendly units have been destroyed during the battle, pick a friendly **^^Fyreslayers Infantry^^** unit wholly within 12\" of this unit to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

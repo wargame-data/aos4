@@ -50,8 +50,8 @@
       "properties": {
         "move": {
           "type": "string",
-          "pattern": "^\\d+\"$",
-          "description": "Movement characteristic (e.g., '5\"')"
+          "pattern": "^(\\d+|D6|D6\\+\\d+)\"$",
+          "description": "Movement characteristic (e.g., '5\"' or 'D6+8\"')"
         },
         "health": {
           "type": "integer",

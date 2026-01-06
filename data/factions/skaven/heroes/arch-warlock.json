@@ -1,0 +1,77 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "arch-warlock",
+  "name": "Arch-Warlock",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "HERO",
+    "INFANTRY",
+    "SKAVEN",
+    "SKRYRE",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Warpfire Gauntlet",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Stormcage Halberd",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Crushing Piston-claw",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SKAVEN",
+    "SKRYRE",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Overseers of the Enginecovens",
+      "type": "passive",
+      "effect": "If a friendly **^^Skryre^^** unit wholly within 13\" of this unit uses the 'Covering Fire' command, no command points are spent."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

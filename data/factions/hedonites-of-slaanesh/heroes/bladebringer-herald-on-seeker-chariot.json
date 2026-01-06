@@ -1,0 +1,80 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "bladebringer-herald-on-seeker-chariot",
+  "name": "Bladebringer, Herald on Seeker Chariot",
+  "faction": "hedonites-of-slaanesh",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 8,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "DAEMON",
+    "HEDONITES OF SLAANESH",
+    "HERO",
+    "LEGENDS",
+    "WAR MACHINE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Flensing Whips and Piercing Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Steeds’ Poisoned Tongues",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "HEDONITES OF SLAANESH",
+    "LEGENDS",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Thrillseeking Cavalcade",
+      "type": "passive",
+      "effect": "Add 1 to charge rolls for this unit and the targets for the rest of the turn. In addition, for the rest of the turn, when this unit and the targets use the ‘Mutilating Blades’ ability, add 1 to the amount of mortal damage inflicted (if any).",
+      "phase": "charge",
+      "declare": "Pick up to 3 friendly **Seeker Chariot** units wholly within 12\" of this unit to be the targets."
+    },
+    {
+      "name": "Mutilating Blades",
+      "type": "passive",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

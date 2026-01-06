@@ -1,0 +1,77 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "ironweld-great-cannon",
+  "name": "Ironweld Great Cannon",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "3\"",
+    "health": 8,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "ORDER",
+    "WAR MACHINE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Great Cannon: Cannonball",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Great Cannon: Grapeshot",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Crew’s Tools and Sidearms",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN"
+  ],
+  "abilities": [
+    {
+      "name": "Shot and Shell",
+      "type": "passive",
+      "effect": "Each time this unit uses a **^^Shoot^^** ability, if it is in a fortified position, pick either the **Cannonball** or **Grapeshot** weapon characteristics for all the attacks it makes with its **Great Cannon**. If it is not in a fortified position, use the **Grapeshot** weapon characteristics."
+    },
+    {
+      "name": "Fortify Position",
+      "type": "passive",
+      "effect": "This unit establishes a fortified position and remains in a fortified position until it either uses a **^^Move^^** ability or is removed from the battlefield. While this unit is in a fortified position, subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.",
+      "phase": "movement",
+      "keywords": [
+        "**^^CORE^^**"
+      ]
+    }
+  ]
+}

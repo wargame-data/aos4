@@ -1,0 +1,86 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "vanguard-palladors-with-starstrike-javelins",
+  "name": "Vanguard-Palladors with Starstrike Javelins",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "14\"",
+    "health": 5,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAMPION",
+    "ORDER",
+    "STORMCAST ETERNALS",
+    "VANGUARD CHAMBER",
+    "VANGUARD-PALLADORS"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Starstrike Javelin",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Boltstorm Pistol",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Gryph-charger’s Razor Beak",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "STORMCAST ETERNALS",
+    "VANGUARD CHAMBER",
+    "VANGUARD-PALLADORS"
+  ],
+  "abilities": [
+    {
+      "name": "Charging Volley",
+      "type": "passive",
+      "effect": "This unit can immediately use a **^^Shoot^^** ability as if it were your shooting phase, but all of its attacks must target that enemy unit. In addition, unit’s **Starstrike Javelins** have **Shoot in Combat** this phase.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy unit in combat with it to be the target."
+    },
+    {
+      "name": "Vanguard Chamber",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn, this unit can use **^^Shoot^^** and/or **^^Charge^^** abilities even if it used a **^^Run^^** or **^^Retreat^^** ability in the same turn.",
+      "phase": "hero"
+    }
+  ]
+}

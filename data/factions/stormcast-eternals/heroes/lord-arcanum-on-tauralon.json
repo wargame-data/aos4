@@ -1,0 +1,96 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "lord-arcanum-on-tauralon",
+  "name": "Lord-Arcanum on Tauralon",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "14\"",
+    "health": 12,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "FLY",
+    "HERO",
+    "LEGENDS",
+    "MONSTER",
+    "ORDER",
+    "SACROSANCT CHAMBER",
+    "STORMCAST ETERNALS",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Tauralon’s Hooves",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Aetherstave",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FLY",
+    "LEGENDS",
+    "SACROSANCT CHAMBER",
+    "STORMCAST ETERNALS",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Trails of Astral Light",
+      "type": "passive",
+      "effect": "Add 1 to casting rolls for friendly **^^Stormcast Eternals Wizards^^** while they are wholly within 12\" of this unit."
+    },
+    {
+      "name": "Starlight Mantle",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn, the targets have **^^Ward (5+)^^** and this unit has **^^Strike-last^^**.",
+      "phase": "combat",
+      "declare": "If this unit is in combat, pick each visible friendly **^^Stormcast Eternals^^** unit within its combat range to be the targets.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Aetheric Deflection",
+      "type": "once-per-turn",
+      "effect": "Roll **X**+1 dice, where **X** is an amount equal to the target’s power level. For each 2+, inflict 1 mortal damage on the target.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy **^^Wizard^^** that used a **^^Spell^^** ability this phase and is within 30\" of this unit to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "SACROSANCT CHAMBER"
+      ],
+      "description": "Units with SACROSANCT CHAMBER keyword"
+    }
+  ]
+}

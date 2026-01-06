@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "knight-of-shrouds-on-ethereal-steed",
+  "name": "Knight of Shrouds on Ethereal Steed",
+  "faction": "nighthaunt",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 7,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "DEATH",
+    "FLY",
+    "HERO",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Ethereal Steed’s Ghostly Hooves and Teeth",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Sword of Stolen Hours",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Stolen Hours",
+      "type": "passive",
+      "effect": "Each time this unit uses a **^^Fight^^** ability, after that **^^Fight^^** ability has been resolved, **Heal (X)** this unit, where X is the number of damage points allocated to enemy units by combat attacks made as part of that **^^Fight^^** ability."
+    },
+    {
+      "name": "Cavalry Overseer",
+      "type": "reaction",
+      "effect": "Pick a friendly non**^^-Hero Nighthaunt Cavalry^^** or **^^War Machine^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

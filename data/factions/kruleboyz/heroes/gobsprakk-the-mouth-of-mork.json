@@ -1,0 +1,120 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "gobsprakk-the-mouth-of-mork",
+  "name": "Gobsprakk, the Mouth of Mork",
+  "faction": "kruleboyz",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 14,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "FLY",
+    "HERO",
+    "KRULEBOYZ",
+    "MONSTER",
+    "UNIQUE",
+    "WARD (6+)",
+    "WARMASTER",
+    "WIZARD (2)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Bogbark Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Wizard^^** (+1 Rend)",
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Killabeak’s Stinger",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Killabeak’s Talons and Beak",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Wizard^^** (+1 Rend)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "FLY",
+    "KRULEBOYZ",
+    "WARD (6+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Killabeak’s Talons and Beak** is 5."
+    },
+    {
+      "name": "Screamin' Mandrakk",
+      "type": "reaction",
+      "effect": "This unit uses the ‘Unbind’ ability but the unbinding roll is 3D6 instead of 2D6."
+    },
+    {
+      "name": "Crush to Death",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. If the roll exceeds the target’s Health characteristic, 1 model in the target unit is slain.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Mork Sez No!",
+      "type": "passive",
+      "effect": "Each time this unit unbinds a spell, inflict D3 mortal damage on the caster. If the unbinding roll was 10+, inflict D6 mortal damage on the caster instead."
+    },
+    {
+      "name": "Strangle Hex",
+      "type": "spell",
+      "effect": "Roll a number of dice equal to the target’s Health characteristic, to a maximum of 10. For each 4+, inflict 1 mortal damage on the target.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

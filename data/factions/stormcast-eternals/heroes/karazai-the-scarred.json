@@ -1,0 +1,97 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "karazai-the-scarred",
+  "name": "Karazai the Scarred",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 20,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "FLY",
+    "HERO",
+    "MONSTER",
+    "ORDER",
+    "STORMCAST ETERNALS",
+    "UNIQUE",
+    "WARMASTER"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Blazing Tempest",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Annihilating Jaws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Drake-lord’s Talons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FLY",
+    "STORMCAST ETERNALS"
+  ],
+  "abilities": [
+    {
+      "name": "Calamitous Tail Sweep",
+      "type": "once-per-turn",
+      "effect": "Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Fires of Retribution",
+      "type": "passive",
+      "effect": "While this unit has 5-9 damage points, add 1 to the Attacks characteristic of its melee weapons.\nWhile this unit has 10 or more damage points, add 2 to the Attacks characteristic of its melee weapons instead."
+    },
+    {
+      "name": "Ancient Master of War",
+      "type": "passive",
+      "effect": "Subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit within this unit’s combat range to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

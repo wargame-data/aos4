@@ -1,0 +1,79 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "curseling-eye-of-tzeentch",
+  "name": "Curseling, Eye of Tzeentch",
+  "faction": "disciples-of-tzeentch",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "ARCANITE",
+    "CHAOS",
+    "DISCIPLES OF TZEENTCH",
+    "HERO",
+    "INFANTRY",
+    "WIZARD (2)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Hurled Arcane Energy",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Wyrdflame"
+      ]
+    },
+    {
+      "name": "Staff of Tzeentch and Blazing Sword",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "ARCANITE",
+    "DISCIPLES OF TZEENTCH",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Infusion Arcanum",
+      "type": "spell",
+      "effect": "Until the start of your next turn, add 1 to the Rend and Damage characteristics of this unit’s **Staff of Tzeentch** and **Blazing Sword**.",
+      "phase": "hero",
+      "declare": "Make a casting roll of 2D6.",
+      "castingValue": 5,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    },
+    {
+      "name": "Disrupter of the Arcane",
+      "type": "passive",
+      "effect": "Each time this unit unbinds a spell, roll a dice. On a 4+, subtract 1 from the power level of the enemy **^^Wizard^^** that used that **^^Spell^^** ability, to a minimum of 0, until the start of your next turn."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

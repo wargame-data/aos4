@@ -1,0 +1,62 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "hag-queen",
+  "name": "Hag Queen",
+  "faction": "daughters-of-khaine",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "DAUGHTERS OF KHAINE",
+    "HERO",
+    "INFANTRY",
+    "ORDER",
+    "PRIEST (1)",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Blade of Khaine",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "DAUGHTERS OF KHAINE",
+    "PRIEST (1)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Witchbrew",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, the target has **^^Ward (5+)^^** for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Daughters of Khaine^^** unit wholly within 12\" of this unit to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

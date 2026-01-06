@@ -1,0 +1,74 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "darkoath-chieftain-on-warsteed",
+  "name": "Darkoath Chieftain on Warsteed",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 7,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAOS",
+    "DARKOATH",
+    "HERO",
+    "SLAVES TO DARKNESS"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Darkoath Cursed Weapon",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Warsteed’s Hooves",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DARKOATH",
+    "SLAVES TO DARKNESS"
+  ],
+  "abilities": [
+    {
+      "name": "Cavalry Warleader",
+      "type": "passive",
+      "effect": "You can re-roll charge rolls for friendly **^^Darkoath Cavalry^^** units while they are wholly within 12\" of this unit."
+    },
+    {
+      "name": "Oath of Murder",
+      "type": "once-per-battle",
+      "effect": "If this unit destroyed an enemy **^^Hero^^** or **^^Monster^^** this turn, this unit has **^^Strike-first^^** for the rest of the battle.",
+      "phase": "any"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

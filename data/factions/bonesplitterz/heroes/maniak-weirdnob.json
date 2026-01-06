@@ -1,0 +1,73 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "maniak-weirdnob",
+  "name": "Maniak Weirdnob",
+  "faction": "bonesplitterz",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "BONESPLITTERZ",
+    "CAVALRY",
+    "DESTRUCTION",
+    "HERO",
+    "LEGENDS",
+    "ORRUK",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Bonebeast Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "War Boar’s Tusks and Hooves",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BONESPLITTERZ",
+    "LEGENDS",
+    "ORRUK",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Bone Spirit",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, add 1 to wound rolls for the target’s combat attacks for the rest of the turn. This ability also affects **Companion** weapons.",
+      "phase": "combat",
+      "declare": "Pick a friendly **^^Bonesplitterz Cavalry^^** unit within this unit’s combat range to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

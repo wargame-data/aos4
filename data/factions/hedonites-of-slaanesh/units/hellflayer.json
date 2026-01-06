@@ -1,0 +1,82 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "hellflayer",
+  "name": "Hellflayer",
+  "faction": "hedonites-of-slaanesh",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 7,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "DAEMON",
+    "HEDONITES OF SLAANESH",
+    "WAR MACHINE",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Axle Blades",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Steeds’ Poisoned Tongues",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Flensing Whips and Piercing Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "HEDONITES OF SLAANESH",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Soulscent",
+      "type": "passive",
+      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any models are slain by this ability, this unit has **^^Ward (5+)^^** for the rest of the turn.",
+      "phase": "movement",
+      "declare": "Pick up to 3 enemy units that this unit passed across this phase to be the targets."
+    },
+    {
+      "name": "Threshing Doom",
+      "type": "passive",
+      "effect": "When this unit moves, it can pass through models in enemy **^^Infantry^^** units and can pass through the combat ranges of enemy **^^Infantry^^** units, but it cannot end a move in combat unless specified in the ability used."
+    }
+  ]
+}

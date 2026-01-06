@@ -1,0 +1,69 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "freeguild-cavaliers-scourge-of-ghyran",
+  "name": "Freeguild Cavaliers (Scourge of Ghyran)",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 3,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAMPION",
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "ORDER",
+    "STANDARD BEARER (1/5)"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Warhorse’s Steel‑shod Hooves",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Cavalier Weapon",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "STANDARD BEARER (1/5)"
+  ],
+  "abilities": [
+    {
+      "name": "The Red Work",
+      "type": "passive",
+      "effect": "Roll a dice. Add 1 to the roll if there are fewer models in this unit than the total number of enemy models in units that are in combat with this unit. On a 4+, for the rest of the turn, the targets count as having charged.",
+      "phase": "charge",
+      "declare": "If this unit is in combat and has not charged this turn, pick this unit and up to 1 friendly **Freeguild Cavalier-Marshal** or **Freeguild Marshal on Griffon** within this unit’s combat range to be the targets."
+    }
+  ]
+}

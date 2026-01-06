@@ -1,0 +1,102 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "synessa-the-voice-of-slaanesh",
+  "name": "Synessa, the Voice of Slaanesh",
+  "faction": "hedonites-of-slaanesh",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 10,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "DAEMON",
+    "FLY",
+    "HEDONITES OF SLAANESH",
+    "HERO",
+    "MONSTER",
+    "UNIQUE",
+    "WARD (5+)",
+    "WARMASTER",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Unraveller’s Talons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Staff of Slaanesh",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "FLY",
+    "HEDONITES OF SLAANESH",
+    "WARD (5+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Voice of Slaanesh",
+      "type": "passive",
+      "effect": "If the target is a friendly unit, add 5 to the target’s control score for the rest of the turn. If the target is an enemy unit, subtract 5 from the target’s control score for the rest of the turn.",
+      "phase": "any",
+      "declare": "Pick a visible unit within 18\" of this unit to be the target."
+    },
+    {
+      "name": "Enthralling Splendour",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, subtract 1 from wound rolls for the target’s attacks for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Whispers of Doubt",
+      "type": "spell",
+      "effect": "Add 1 to hit rolls and wound rolls for combat attacks that target that enemy unit for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy **^^Hero^^** within 18\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    },
+    {
+      "name": "Progeny of Slaanesh",
+      "type": "passive",
+      "effect": "While a friendly **Dexcessa** is on the battlefield, add 1 to this unit’s power level."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

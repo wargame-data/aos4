@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "wight-lord-on-skeletal-steed",
+  "name": "Wight Lord on Skeletal Steed",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 7,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "DEATH",
+    "DEATHRATTLE",
+    "HERO",
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Lord's Tomb Blade",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Skeletal Steed’s Hooves and Teeth",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "DEATHRATTLE",
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Royal Companions",
+      "type": "reaction",
+      "effect": "Pick a friendly non-**^^Hero Deathrattle Cavalry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved."
+    },
+    {
+      "name": "Lord of Trampling Bones",
+      "type": "passive",
+      "effect": "Add 1 to charge rolls for friendly **^^Deathrattle Cavalry^^** units while they are wholly within 12\" of this unit."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "plague-priest",
+  "name": "Plague Priest",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "HERO",
+    "INFANTRY",
+    "LEGENDS",
+    "PESTILENS",
+    "PRIEST (1)",
+    "SKAVEN"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Warpstone-tipped Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "LEGENDS",
+    "PESTILENS",
+    "PRIEST (1)",
+    "SKAVEN"
+  ],
+  "abilities": [
+    {
+      "name": "Feed on Pestilence",
+      "type": "reaction",
+      "effect": "Give this unit 1 ritual point."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

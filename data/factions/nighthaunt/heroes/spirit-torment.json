@@ -1,0 +1,58 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "spirit-torment",
+  "name": "Spirit Torment",
+  "faction": "nighthaunt",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "FLY",
+    "HERO",
+    "INFANTRY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Shacklegheist Chains",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Captured Soul Energy",
+      "type": "passive",
+      "effect": "Each time a friendly **^^Nighthaunt^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

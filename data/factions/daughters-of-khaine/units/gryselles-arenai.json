@@ -1,0 +1,60 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "gryselles-arenai",
+  "name": "Gryselle's Arenai",
+  "faction": "daughters-of-khaine",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "CHAMPION",
+    "DAUGHTERS OF KHAINE",
+    "INFANTRY",
+    "LEGENDS",
+    "ORDER",
+    "UNIQUE",
+    "WARD (6+)"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Gladiatorial Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CHAMPION",
+    "DAUGHTERS OF KHAINE",
+    "LEGENDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Acrobatic Bloodshed",
+      "type": "passive",
+      "effect": "For the rest of the turn, while this unit is in combat with the target, its combat attacks must target that enemy unit. In addition, if any of this unit’s attacks score a critical hit on the target this phase, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target."
+    }
+  ]
+}

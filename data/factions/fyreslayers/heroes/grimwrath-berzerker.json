@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "grimwrath-berzerker",
+  "name": "Grimwrath Berzerker",
+  "faction": "fyreslayers",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DUARDIN",
+    "FYRESLAYERS",
+    "HERO",
+    "INFANTRY",
+    "ORDER",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Fyrestorm Greataxe",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "DUARDIN",
+    "FYRESLAYERS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Grimwrath Oaths",
+      "type": "passive",
+      "effect": "Pick 1 of the following oaths for this unit to swear:\n***‘I will guard them with my life!’:*** While this unit is wholly within 6\" of another friendly **^^Fyreslayers Hero^^**:\n• Add 1 to hit rolls for this unit’s attacks.\n• Add 1 to ward rolls for this unit.\nIf a friendly **^^Fyreslayers Hero^^** wholly within 6\" of this unit is destroyed, this effect no longer applies.\n***‘I will not be stopped!’:*** Add 1 to charge rolls for this unit, and add 1 to save rolls for this unit while it is in combat. If this unit uses the ‘Retreat’ or ‘Rally’ abilities, this effect no longer applies."
+    },
+    {
+      "name": "Battle-fury",
+      "type": "once-per-battle",
+      "effect": "If this unit is in combat, it can use 2 **^^Fight^^** abilities this phase. After the first is used, however, this unit has **^^Strike-last^^** for the rest of the phase.",
+      "phase": "combat"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

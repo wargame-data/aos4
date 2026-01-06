@@ -1,0 +1,105 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "sorceress-on-black-dragon",
+  "name": "Sorceress on Black Dragon",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 14,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "CITIES OF SIGMAR",
+    "FLY",
+    "HERO",
+    "MONSTER",
+    "ORDER",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Cruel Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Black Dragon’s Noxious Breath",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Black Dragon’s Fearsome Jaws and Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CITIES OF SIGMAR",
+    "FLY",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Black Dragon’s Fearsome Jaws and Claws** is 4."
+    },
+    {
+      "name": "Command Underlings",
+      "type": "passive",
+      "effect": "Add 3\" to the Move characteristic of each target for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick up to 3 friendly **^^Cities of Sigmar Aelf Infantry^^** units wholly within 12\" of this unit to be targets."
+    },
+    {
+      "name": "Feed on Life Force",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any enemy models are slain by this ability, place a **dark sorcery token** next to this unit for the rest of the battle, to a maximum of 3 tokens.",
+      "phase": "any",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Dark Sorcery",
+      "type": "passive",
+      "effect": "Add 1 to casting rolls for this unit for each **dark sorcery token** it has."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

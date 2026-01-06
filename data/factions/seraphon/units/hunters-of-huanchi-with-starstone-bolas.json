@@ -1,0 +1,91 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "hunters-of-huanchi-with-starstone-bolas",
+  "name": "Hunters of Huanchi with Starstone Bolas",
+  "faction": "seraphon",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION (1/5)",
+    "INFANTRY",
+    "MUSICIAN (1/5)",
+    "ORDER",
+    "SERAPHON",
+    "SKINK",
+    "WARD (5+)"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Hunter Javelin",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Starstone Bolas",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Moonstone Club",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION (1/5)",
+    "MUSICIAN (1/5)",
+    "SERAPHON",
+    "SKINK",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Starstone Bolas",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.",
+      "phase": "shooting",
+      "declare": "Pick an enemy unit that was targeted by this unit’s **Starstone Bolas** this turn to be the target."
+    },
+    {
+      "name": "Hidden Hunters",
+      "type": "passive",
+      "effect": "Set up this unit in reserve **in ambush**. It has now been deployed.",
+      "declare": "Pick this unit if it has not been deployed.",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ]
+    },
+    {
+      "name": "Chameleon Ambush",
+      "type": "passive",
+      "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Pick this unit if it is **in ambush**."
+    }
+  ]
+}

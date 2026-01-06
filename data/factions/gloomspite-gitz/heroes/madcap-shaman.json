@@ -1,0 +1,66 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "madcap-shaman",
+  "name": "Madcap Shaman",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 4,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "GLOOMSPITE GITZ",
+    "HERO",
+    "INFANTRY",
+    "LEGENDS",
+    "MOONCLAN",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Moon Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "LEGENDS",
+    "MOONCLAN",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Madcap Mushroom",
+      "type": "once-per-battle",
+      "effect": "For the rest of the turn:\n• Add 1 to this unit’s power level.\n• If 2 or more dice in a casting roll for this unit have the same value, inflict D3 mortal damage on this unit after the **^^Spell^^** ability has been resolved.",
+      "phase": "hero"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "MOONCLAN"
+      ],
+      "description": "Units with MOONCLAN keyword"
+    }
+  ]
+}

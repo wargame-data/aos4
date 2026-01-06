@@ -1,0 +1,60 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "poxbringer-herald-of-nurgle",
+  "name": "Poxbringer, Herald of Nurgle",
+  "faction": "maggotkin-of-nurgle",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "DAEMON",
+    "HERO",
+    "INFANTRY",
+    "MAGGOTKIN OF NURGLE",
+    "WARD (5+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Balesword",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "MAGGOTKIN OF NURGLE",
+    "WARD (5+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Captain of the Plague Legions",
+      "type": "reaction",
+      "effect": "Pick a friendly **Plaguebearers** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

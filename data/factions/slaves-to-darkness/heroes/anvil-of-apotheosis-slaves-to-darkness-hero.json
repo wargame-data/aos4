@@ -1,0 +1,182 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "anvil-of-apotheosis-slaves-to-darkness-hero",
+  "name": "Anvil of Apotheosis: Slaves to Darkness Hero",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "HERO",
+    "INFANTRY",
+    "SLAVES TO DARKNESS"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Chaos Blade",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Daemonic Steed's Mighty Hooves",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Chaos Steeds' Trampling Hooves",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Mighty Chaotic Beast's Talons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Gorebeast's Crushing Fists",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SLAVES TO DARKNESS"
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Supremacy",
+      "type": "once-per-battle",
+      "effect": "If this unit is wholly within enemy territory and charged this phase, for the rest of the battle, add 1 to hit rolls for combat attacks made by friendly **^^Darkoath^^** units while they are wholly within 12\" of this unit.",
+      "phase": "charge"
+    },
+    {
+      "name": "Myrmidon Rage",
+      "type": "passive",
+      "effect": "While this unit is damaged, add 2 to the Attacks characteristic of its melee weapons."
+    },
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Mighty Chaotic Beast's Talons** is 4."
+    },
+    {
+      "name": "The Bringer of Fire",
+      "type": "passive",
+      "effect": "That terrain feature is now set ablaze. Add 1 to this unit's control score for the rest of the battle (this effect is cumulative). In addition, for the rest of the battle, each time a unit (friend or enemy) ends a move within 3\" of a terrain feature that has been set ablaze, roll a D3. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+      "phase": "movement",
+      "declare": "Pick a terrain feature that has not yet been set ablaze within this **^^Hero's^^** combat range to be the target."
+    },
+    {
+      "name": "Victor of 100 Duels",
+      "type": "passive",
+      "effect": "Your opponent must decide whether the target will accept or refuse this unit's challenge:\n***Accept:*** For the rest of the phase, when this unit and the target are picked to use a **^^Fight^^** ability, all of their attacks must target the other unit. In addition, for the rest of the phase, you can re-roll hit rolls for this unit's combat attacks.\n***Refuse:*** The target cannot use **^^Fight^^** abilities for the rest of the phase. In addition, you gain 1 command point.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target."
+    },
+    {
+      "name": "Betrayed by the False God",
+      "type": "passive",
+      "effect": "You can re-roll hit rolls for this unit's combat attacks that target enemy **^^Order^^** units."
+    },
+    {
+      "name": "Rampant Mutation",
+      "type": "passive",
+      "effect": "This unit must use this ability in each of your hero phases. Roll a dice and apply the corresponding effect until the start of your next turn:\n**1 *Rotting Skin:*** Inflict 1 mortal damage on this unit. Subtract 1 from the control scores of enemy units while they are within 12\" of this unit.\n**2 *Brittle Scales:*** Add 1 to the Rend characteristic of combat attacks that target this unit.\n**3 *Bestial Tongue:*** You lose 1 command point. This unit cannot use commands.\n**4 *Sprouting Tentacles:*** This unit's Move characteristic is 2D6\".\n**5 *Extra Eyeball:*** Add 1 to hit rolls for this unit's combat attacks.\n**6 *Erupting Spikes:*** Each time this unit finishes a pile-in move, pick an enemy unit within 1\" of this unit to be the target. Inflict D3 mortal damage on the target.",
+      "phase": "hero"
+    },
+    {
+      "name": "Reckless Arrogance",
+      "type": "passive",
+      "effect": "This unit cannot use the 'All-out Defence' command."
+    },
+    {
+      "name": "Spurned by the Gods",
+      "type": "passive",
+      "effect": "This unit cannot be picked as a target for the 'Eye of the Gods' ability."
+    },
+    {
+      "name": "Blood of Molten Varanite",
+      "type": "passive",
+      "effect": "Roll a dice each time a damage point inflicted by a combat attack is allocated to this unit. On a 4+, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+    },
+    {
+      "name": "Carve a Bloody Path",
+      "type": "once-per-turn",
+      "effect": "When this unit uses the 'Power Through' command, inflict an additional D3+ 1 mortal damage on the target and add 3\" to the distance this unit can move as part of that ability.",
+      "phase": "any",
+      "declare": "Pick a terrain feature that has not yet been set ablaze within this **^^Hero's^^** combat range to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Blood-fuelled Menace",
+      "type": "once-per-battle",
+      "effect": "This unit can use 2 **^^Fight^^** abilities this phase. After the first is used, however, this unit has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat"
+    },
+    {
+      "name": "Glimpse the Future",
+      "type": "passive",
+      "effect": "Roll a dice. On a 1-4, the result corresponds to the battle round in which this unit will be inspired. On a 5+, pick a number. The number you picked corresponds to the battle round in which this unit will be inspired. While this unit is inspired, it has **^^Strike-first^^**."
+    },
+    {
+      "name": "The Grandfather's Blessing",
+      "type": "passive",
+      "effect": "Heal (D3) this unit.",
+      "phase": "any"
+    },
+    {
+      "name": "The Thrill of Battle",
+      "type": "passive",
+      "effect": "Each time you make a charge roll for this unit, for each dice that was an unmodified 6, add 1 to the Attacks characteristic of this unit's melee weapons for the rest of the battle. Units can be affected by this ability multiple times and the effects are cumulative."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

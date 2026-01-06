@@ -1,0 +1,57 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "hearthguard-berzerkers-with-berzerker-broadaxes",
+  "name": "Hearthguard Berzerkers with Berzerker Broadaxes",
+  "faction": "fyreslayers",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DUARDIN",
+    "FYRESLAYERS",
+    "INFANTRY",
+    "ORDER",
+    "WARD (6+)"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Berzerker Broadaxe",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DUARDIN",
+    "FYRESLAYERS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Duty Unto Death",
+      "type": "passive",
+      "effect": "While any friendly **^^Fyreslayers Infantry Heroes^^** are wholly within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**."
+    },
+    {
+      "name": "Fires of Vengeance",
+      "type": "passive",
+      "effect": "While this unit is within the combat ranges of any damaged friendly **^^Fyreslayers Heroes^^**, add 1 to the Attacks characteristic of this unit’s melee weapons."
+    }
+  ]
+}

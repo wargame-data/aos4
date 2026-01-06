@@ -1,0 +1,91 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "ivya-volga-the-outcast",
+  "name": "Ivya Volga, the Outcast",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "HERO",
+    "INFANTRY",
+    "SOULBLIGHT GRAVELORDS",
+    "UNIQUE",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Heirloom Axe",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Monster^^**(+1 Rend)"
+      ]
+    },
+    {
+      "name": "Bat Swarm's Needling Fangs",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Total Dominance",
+      "type": "spell",
+      "effect": "For the rest of the turn, subtract 5 from the control scores of enemy **^^Monsters^^** while they are within 12\" of this unit.",
+      "phase": "hero",
+      "declare": "Make a casting roll of 2D6.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    },
+    {
+      "name": "Shrieking Swarm",
+      "type": "passive",
+      "effect": "Subtract 1 from hit rolls for attacks that target this unit."
+    },
+    {
+      "name": "Behemoth's Bane",
+      "type": "passive",
+      "effect": "Subtract 2 from the Attacks characteristic of enemy **^^Monsters^^’ melee weapons while they are in combat with this unit."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

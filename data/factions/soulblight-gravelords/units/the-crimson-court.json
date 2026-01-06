@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "the-crimson-court",
+  "name": "The Crimson Court",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 3,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DEATH",
+    "INFANTRY",
+    "LEGENDS",
+    "SOULBLIGHT GRAVELORDS",
+    "UNIQUE",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 4,
+  "weapons": [
+    {
+      "name": "Courtly Weapon",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "LEGENDS",
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Come Then, Amuse Us",
+      "type": "passive",
+      "effect": "If this unit is in combat with any enemy **^^Heroes^^**, roll a D3 and then pick a number of effects from the list below equal to the roll:\n• Add 1 to save rolls for this unit for the rest of the turn.\n• Add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.\n• Add 1 to the Rend characteristic of this unit’s melee weapons for the rest of the turn.",
+      "phase": "combat"
+    }
+  ]
+}

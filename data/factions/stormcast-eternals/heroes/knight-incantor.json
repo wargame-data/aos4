@@ -3,8 +3,7 @@
   "id": "knight-incantor",
   "name": "Knight-Incantor",
   "faction": "stormcast-eternals",
-  "grandAlliance": "order",
-  "points": 130,
+  "points": 0,
   "stats": {
     "move": "5\"",
     "health": 6,
@@ -13,57 +12,62 @@
   },
   "role": "other",
   "keywords": [
-    "ORDER",
-    "STORMCAST ETERNALS",
-    "SACROSANCT CHAMBER",
     "HERO",
-    "WIZARD",
-    "INFANTRY"
+    "INFANTRY",
+    "LEGENDS",
+    "ORDER",
+    "SACROSANCT CHAMBER",
+    "STORMCAST ETERNALS",
+    "WIZARD (1)"
   ],
-  "regimentKeywords": ["SACROSANCT CHAMBER"],
   "baseSize": 1,
   "weapons": [
     {
-      "name": "Incantor's Staff",
+      "name": "Incantor’s Staff",
       "type": "melee",
-      "attacks": 3,
+      "attacks": 1,
       "hit": "3+",
-      "wound": "3+",
-      "rend": 1,
-      "damage": "D3",
-      "abilities": []
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
     }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "LEGENDS",
+    "SACROSANCT CHAMBER",
+    "STORMCAST ETERNALS",
+    "WIZARD (1)"
   ],
   "abilities": [
     {
-      "name": "Spirit Storm",
-      "type": "spell",
-      "phase": "hero",
-      "castingValue": 7,
-      "declare": "Pick a visible enemy unit within 18\" to be the target.",
-      "effect": "Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.",
-      "keywords": ["SPELL"]
+      "name": "Voidstorm Scroll",
+      "type": "reaction",
+      "effect": "The spell is unbound and its effect is not resolved.",
+      "keywords": [
+        "**^^UNBIND^^**"
+      ]
     },
     {
-      "name": "Voidstorm Scroll",
-      "type": "once-per-battle",
-      "phase": "hero",
-      "declare": "Pick an enemy WIZARD within 18\" to be the target.",
-      "effect": "Until the start of your next turn, subtract 2 from casting rolls for the target."
+      "name": "Aetheric Destabilisation",
+      "type": "passive",
+      "effect": "While they are within 30\" of this unit, subtract 1 from casting rolls for enemy units when they use **^^Summon^^** abilities."
     }
   ],
-  "isWizard": 1,
+  "isWizard": null,
   "isPriest": null,
   "isUnique": false,
+  "canJoinRegiment": null,
   "regimentAllows": [
     {
-      "keywords": ["SACROSANCT CHAMBER"],
-      "description": "Any SACROSANCT CHAMBER units"
+      "keywords": [
+        "SACROSANCT CHAMBER"
+      ],
+      "description": "Units with SACROSANCT CHAMBER keyword"
     }
-  ],
-  "canJoinRegiment": null,
-  "_meta": {
-    "lastUpdated": "2025-01-06",
-    "source": "Stormcast Eternals Faction Pack"
-  }
+  ]
 }

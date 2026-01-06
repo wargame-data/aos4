@@ -1,0 +1,63 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "melusai-ironscale",
+  "name": "Melusai Ironscale",
+  "faction": "daughters-of-khaine",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DAUGHTERS OF KHAINE",
+    "HERO",
+    "INFANTRY",
+    "MELUSAI",
+    "ORDER",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Keldrisaíth",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "DAUGHTERS OF KHAINE",
+    "MELUSAI",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Gory Offering",
+      "type": "reaction",
+      "effect": "Pick a friendly non-**^^Hero Melusai^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn."
+    },
+    {
+      "name": "Wrath of the Scáthborn",
+      "type": "passive",
+      "effect": "You can re-roll charge rolls for friendly **^^Melusai^^** units while they are wholly within 12\" of this unit."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

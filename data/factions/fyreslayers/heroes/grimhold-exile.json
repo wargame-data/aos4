@@ -1,0 +1,69 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "grimhold-exile",
+  "name": "Grimhold Exile",
+  "faction": "fyreslayers",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DUARDIN",
+    "FYRESLAYERS",
+    "HERO",
+    "INFANTRY",
+    "ORDER",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Fyre-rune Hammers",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "DUARDIN",
+    "FYRESLAYERS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Honour to Grimnir!",
+      "type": "once-per-battle",
+      "effect": "You can re-roll charge rolls for the targets for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick up to 3 friendly **^^Fyreslayers Infantry^^** units wholly within 12\" of this unit to be the targets."
+    },
+    {
+      "name": "Last of the Lodge-fire",
+      "type": "once-per-battle",
+      "effect": "Roll a number of dice equal to the target’s Health characteristic. For each 4+, inflict 1 mortal damage on the target.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^CORE^^**",
+        "**^^ATTACK^^**",
+        "**^^FIGHT^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

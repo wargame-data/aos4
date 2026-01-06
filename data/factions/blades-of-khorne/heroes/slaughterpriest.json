@@ -1,0 +1,65 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "slaughterpriest",
+  "name": "Slaughterpriest",
+  "faction": "blades-of-khorne",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "BLADES OF KHORNE",
+    "BLOODBOUND",
+    "CHAOS",
+    "HERO",
+    "INFANTRY",
+    "PRIEST (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Bloodbathed Weapon",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Blood-hungry"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "BLOODBOUND",
+    "PRIEST (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Scorn of Sorcery",
+      "type": "passive",
+      "effect": "This unit can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**."
+    },
+    {
+      "name": "Blood Sacrifice",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+:\n• Inflict an amount of mortal damage on the target equal to the roll.\n• This unit gains 1 ritual point.",
+      "phase": "hero",
+      "declare": "Pick a unit (friendly or enemy) within this unit’s combat range to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

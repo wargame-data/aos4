@@ -1,0 +1,59 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "annihilators-with-meteoric-grandhammers",
+  "name": "Annihilators with Meteoric Grandhammers",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 3,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "INFANTRY",
+    "ORDER",
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Meteoric Grandhammer",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Force of a Falling Star",
+      "type": "passive",
+      "effect": "The target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase and the unmodified charge roll was 8+, pick an enemy unit within 1\" of it to be the target."
+    },
+    {
+      "name": "Blazing Impact",
+      "type": "passive",
+      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "movement",
+      "declare": "If this unit was set up this turn using the ‘Scions of the Storm’ ability, pick up to 3 enemy units within 10\" of it to be the targets."
+    }
+  ]
+}

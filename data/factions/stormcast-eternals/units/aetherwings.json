@@ -1,0 +1,54 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "aetherwings",
+  "name": "Aetherwings",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "BEAST",
+    "FLY",
+    "ORDER",
+    "STORMCAST ETERNALS",
+    "VANGUARD CHAMBER"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Beak and Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "BEAST",
+    "FLY",
+    "STORMCAST ETERNALS",
+    "VANGUARD CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Marked for Destruction",
+      "type": "passive",
+      "effect": "Add 1 to hit rolls for shooting attacks made by friendly **^^Vanguard Chamber^^** units if the target is within 9\" of this unit."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "bloodpelt-hunter",
+  "name": "Bloodpelt Hunter",
+  "faction": "ogor-mawtribes",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 8,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "GUTBUSTERS",
+    "HERO",
+    "INFANTRY",
+    "OGOR",
+    "OGOR MAWTRIBES"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Skullshatter Crossbow",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Hacker-axe and Meatblade",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Impaling Spear",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GUTBUSTERS",
+    "OGOR",
+    "OGOR MAWTRIBES"
+  ],
+  "abilities": [
+    {
+      "name": "Beast-breaker",
+      "type": "passive",
+      "effect": "If the target is a **^^Monster^^**, the Damage characteristic of this unit’s **Skullshatter Crossbow** is 3 and the Damage characteristic of its **Impaling Spear** is 6."
+    },
+    {
+      "name": "Unrelenting Hunter",
+      "type": "once-per-turn",
+      "effect": "If this unit is more than 9\" from all enemy units, it can use the ‘Normal Move’ ability as if it were your movement phase.",
+      "phase": "movement"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

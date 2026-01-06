@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "hobgrot-slittaz",
+  "name": "Hobgrot Slittaz",
+  "faction": "kruleboyz",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DESTRUCTION",
+    "INFANTRY",
+    "KRULEBOYZ",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)"
+  ],
+  "baseSize": 10,
+  "weapons": [
+    {
+      "name": "Scrap-grenades",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Slitta-knives",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "KRULEBOYZ",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)"
+  ],
+  "abilities": [
+    {
+      "name": "Scrap-bang",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+:\n• Inflict 1 mortal damage on the target.\n• This unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.",
+      "phase": "any",
+      "declare": "Pick an enemy unit in combat with this unit to be the target."
+    }
+  ]
+}

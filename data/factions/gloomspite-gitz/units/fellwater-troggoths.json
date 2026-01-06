@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "fellwater-troggoths",
+  "name": "Fellwater Troggoths",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "GLOOMSPITE GITZ",
+    "INFANTRY",
+    "TROGGOTH"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Noxious Vomit",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Spiked Club",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "TROGGOTH"
+  ],
+  "abilities": [
+    {
+      "name": "Noxious Vomit",
+      "type": "passive",
+      "effect": "If any damage points are allocated to an enemy unit by attacks made with this unit’s **Noxious Vomit**, that unit is **drenched in vomit** until the start of your next turn.\nWhile a unit is **drenched in vomit**:\n• Subtract 1 from save rolls for that unit.\n• Ignore positive modifiers to save rolls for that unit."
+    },
+    {
+      "name": "Regeneration",
+      "type": "passive",
+      "effect": "**Heal (D3)** this unit.",
+      "phase": "any"
+    }
+  ]
+}

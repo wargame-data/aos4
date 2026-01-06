@@ -1,0 +1,80 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "vanari-lord-regent",
+  "name": "Vanari Lord Regent",
+  "faction": "lumineth-realm-lords",
+  "points": 0,
+  "stats": {
+    "move": "14\"",
+    "health": 7,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "CAVALRY",
+    "HERO",
+    "LUMINETH REALM-LORDS",
+    "ORDER",
+    "VANARI",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Regent’s Sword",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Lightcourser’s Horns and Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "LUMINETH REALM-LORDS",
+    "VANARI",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Charge of the Lumineth",
+      "type": "once-per-battle",
+      "effect": "You can re-roll charge rolls for the targets for the rest of the turn. In addition, if a target charges this phase, add 1 to the Attacks characteristic of that target’s weapons for the rest of the turn.",
+      "phase": "charge",
+      "declare": "Pick this unit and up to 2 friendly **Vanari Dawnriders** units within this unit’s combat range to be the targets."
+    },
+    {
+      "name": "Purest Aetherquartz",
+      "type": "once-per-battle",
+      "effect": "For the rest of the turn, add 1 to casting rolls for this unit and subtract 1 from hit rolls for attacks that target this unit.",
+      "phase": "hero"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

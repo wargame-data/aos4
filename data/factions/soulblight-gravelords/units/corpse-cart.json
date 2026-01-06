@@ -1,0 +1,62 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "corpse-cart",
+  "name": "Corpse Cart",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 7,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DEADWALKERS",
+    "DEATH",
+    "SOULBLIGHT GRAVELORDS",
+    "WAR MACHINE",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Corpsemaster’s Weapon",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Zombies’ Rusty Blades",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "DEADWALKERS",
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Locus of Undeath",
+      "type": "passive",
+      "effect": "Melee weapons used by other friendly **^^Deadwalkers^^** units have **Crit (Auto-wound)** while they are wholly within 12\" of this unit."
+    }
+  ]
+}

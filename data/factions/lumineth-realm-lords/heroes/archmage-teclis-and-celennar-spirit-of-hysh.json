@@ -1,0 +1,114 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "archmage-teclis-and-celennar-spirit-of-hysh",
+  "name": "Archmage Teclis and Celennar, Spirit of Hysh",
+  "faction": "lumineth-realm-lords",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 16,
+    "save": "5+",
+    "control": 10
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "FLY",
+    "HERO",
+    "LUMINETH REALM-LORDS",
+    "MONSTER",
+    "ORDER",
+    "UNIQUE",
+    "WARD (5+)",
+    "WARMASTER",
+    "WIZARD (4)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Celennar’s Moonbright Talons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Sword of Teclis",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Lunar Staff",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "FLY",
+    "LUMINETH REALM-LORDS",
+    "WARD (5+)",
+    "WIZARD (4)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Celennar’s Moonbright Talons** is 3."
+    },
+    {
+      "name": "Aura of Celennar",
+      "type": "passive",
+      "effect": "Add 1 to casting rolls for other friendly **^^Lumineth Realm‑lords Wizards^^** while they are wholly within 12\" of this unit."
+    },
+    {
+      "name": "Archmage",
+      "type": "passive",
+      "effect": "Instead of making a casting roll for this unit, you can use a value of 10 for the roll that cannot be modified. In addition, instead of making an unbinding roll or banishment roll for this unit, you can use a value of 8 for the roll that cannot be modified."
+    },
+    {
+      "name": "Spirit of the Moon",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Storm of Searing White Light",
+      "type": "spell",
+      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "hero",
+      "declare": "Pick any number of different visible enemy units within 18\" of this unit to be the targets, then make a casting roll of 2D6 (see the ‘Archmage’ ability).",
+      "castingValue": 10,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

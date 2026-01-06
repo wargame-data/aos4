@@ -1,0 +1,84 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "loonboss-with-giant-cave-squig",
+  "name": "Loonboss with Giant Cave Squig",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "GLOOMSPITE GITZ",
+    "HERO",
+    "INFANTRY",
+    "LEGENDS",
+    "MOONCLAN",
+    "SQUIG"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Moon-prodder",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Massive Fang-filled Gob",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "LEGENDS",
+    "MOONCLAN",
+    "SQUIG"
+  ],
+  "abilities": [
+    {
+      "name": "Gobbled Up",
+      "type": "passive",
+      "effect": "Roll a dice. If the roll equals or exceeds the target’s Health characteristic, 1 model in the target unit is slain.",
+      "phase": "any",
+      "declare": "Pick an enemy unit within 1\" of this unit to be the target."
+    },
+    {
+      "name": "Goin' Somewhere?",
+      "type": "passive",
+      "effect": "If a friendly **^^Moonclan Infantry^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6. However, friendly **^^Moonclan Infantry^^** units cannot use **^^Retreat^^** abilities while they are within 12\" of this unit."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "MOONCLAN"
+      ],
+      "description": "Units with MOONCLAN keyword"
+    }
+  ]
+}

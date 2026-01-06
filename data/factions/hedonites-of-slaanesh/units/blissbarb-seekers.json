@@ -1,0 +1,72 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "blissbarb-seekers",
+  "name": "Blissbarb Seekers",
+  "faction": "hedonites-of-slaanesh",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 4,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAMPION",
+    "CHAOS",
+    "HEDONITES OF SLAANESH",
+    "SYBARITE"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Seeker Bow",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Exalted Steed’s Poisoned Tongue",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Sybarite Blade",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "HEDONITES OF SLAANESH",
+    "SYBARITE"
+  ],
+  "abilities": [
+    {
+      "name": "Glory Shots",
+      "type": "passive",
+      "effect": "Add 1 to the Rend characteristic of this unit’s ranged weapons for attacks that target units contesting an objective you do not control."
+    }
+  ]
+}

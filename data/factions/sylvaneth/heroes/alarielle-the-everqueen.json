@@ -1,0 +1,105 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "alarielle-the-everqueen",
+  "name": "Alarielle the Everqueen",
+  "faction": "sylvaneth",
+  "points": 0,
+  "stats": {
+    "move": "14\"",
+    "health": 16,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "FLY",
+    "HERO",
+    "MONSTER",
+    "ORDER",
+    "SYLVANETH",
+    "UNIQUE",
+    "WARD (6+)",
+    "WARMASTER",
+    "WIZARD (3)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Spear of Kurnoth",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Wardroth’s Great Antlers",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FLY",
+    "SYLVANETH",
+    "WARD (6+)",
+    "WIZARD (3)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Wardroth’s Great Antlers** is 4."
+    },
+    {
+      "name": "Metamorphosis",
+      "type": "spell",
+      "effect": "Inflict 2D3 mortal damage on the target. If the target is destroyed by this spell, you can immediately resolve the effect of the ‘Treesong’ spell as if this unit had successfully cast it.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 12\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    },
+    {
+      "name": "Lifebloom",
+      "type": "passive",
+      "effect": "Pick 1 of the following effects:\n• Add 1 to casting rolls for this unit for the rest of the turn.\n• **Heal (2D3)** this unit.",
+      "phase": "hero"
+    },
+    {
+      "name": "Living Battering Ram",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "charge",
+      "declare": "If this unit charged this turn, pick an enemy **^^Infantry^^** unit within 1\" of it to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Rite of Life",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 4+, set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 9\" of a friendly **Awakened Wyldwood** and more than 9\" from all enemy units. If the target was a **^^Monster^^**, allocate 6 damage points to the replacement unit (ward rolls cannot be made for those damage points).",
+      "phase": "movement",
+      "declare": "Pick a friendly **^^Sylvaneth^^** unit that has been destroyed to be the target. This unit can use this ability if it has been destroyed, but if it does, this unit must be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

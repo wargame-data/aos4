@@ -1,0 +1,82 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "battlemage-on-luminark-of-hysh",
+  "name": "Battlemage on Luminark of Hysh",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 12,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "CITIES OF SIGMAR",
+    "HERO",
+    "HUMAN",
+    "ORDER",
+    "WAR MACHINE",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Searing Beam of Light",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Warhorses' Steel-shod Hooves",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Wizard’s Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Searing Beam of Light",
+      "type": "passive",
+      "effect": "Each time this unit attacks with its **Searing Beam of Light**, pick a point on the battlefield within range to be the target. If the attack scores a hit, draw a straight line between that point and the closest point on this unit’s base. Inflict D3 mortal damage on each visible unit (friendly and enemy) that the line passes across."
+    },
+    {
+      "name": "Aura of Protection",
+      "type": "passive",
+      "effect": "Friendly **^^Cities of Sigmar^^** units have **^^Ward (6+)^^** while they are wholly within 12\" of this unit."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

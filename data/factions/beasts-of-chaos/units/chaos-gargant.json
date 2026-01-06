@@ -1,0 +1,85 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "chaos-gargant",
+  "name": "Chaos Gargant",
+  "faction": "beasts-of-chaos",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 12,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "BEASTS OF CHAOS",
+    "CHAOS",
+    "LEGENDS",
+    "MONSTER"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Throwin’ Rocks",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "’Eadbutt",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Massive Club",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Mighty Kick",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEASTS OF CHAOS",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Whipped Into a Frenzy",
+      "type": "once-per-turn",
+      "effect": "If this unit is within 6\" of any friendly **^^Beasts of Chaos Heroes^^**, add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.",
+      "phase": "combat",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Timberrrrr!",
+      "type": "passive",
+      "effect": "When this unit is destroyed, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of this unit. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than this unit."
+    }
+  ]
+}

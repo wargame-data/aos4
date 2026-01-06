@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "pontifex-zenestra-matriarch-of-the-great-wheel-scourge-of-ghyran",
+  "name": "Pontifex Zenestra, Matriarch of the Great Wheel (Scourge of Ghyran)",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 9,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CITIES OF SIGMAR",
+    "HERO",
+    "HUMAN",
+    "INFANTRY",
+    "ORDER",
+    "PRIEST (2)",
+    "UNIQUE",
+    "WARD (4+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Sceptre of the Wheel and Acolytes' Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "PRIEST (2)",
+    "WARD (4+)"
+  ],
+  "abilities": [
+    {
+      "name": "Word of the God-King",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+:\n• If the target is a **^^Manifestation^^**, it is banished and removed from the battlefield.. • If the target is a **^^Wizard^^** or **^^Priest^^**, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy **^^Wizard^^**, **^^Priest^^** or **^^Manifestation^^** within 18\" of this unit to be the target."
+    },
+    {
+      "name": "Sigmar's Will",
+      "type": "prayer",
+      "effect": "Pick 1 of the following effects. Pick up to 2 different effects instead if the chanting roll was 10+.\n***Hallowed Ground:*** Until the start of your next turn, enemy units using the ‘Normal Move’ ability cannot end that move within 5\" of a friendly **^^Cities of Sigmar Human^^** unit while it is wholly within 12\" of this unit.\n***Fervent Prayers:*** Until the start of your next turn, each time a friendly **^^Cities of Sigmar Human^^** model is slain by a combat attack while it is wholly within 12\" of this unit and that model was in combat with the attacking unit, roll a dice. On a 6, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.\n***Salvation:*** Pick 1 friendly **^^Cities of Sigmar Human^^** unit that is more than 12\" from this unit and not in combat to be the target. Remove the target from the battlefield and set it up again wholly within 12\" of this unit and more than 9\" from all enemy units. That unit cannot use **^^Charge^^** abilities for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Make a chanting roll of D6. If the roll is an unmodified 1, you can re-roll the dice.",
+      "chantingValue": 4,
+      "keywords": [
+        "**^^PRAYER^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

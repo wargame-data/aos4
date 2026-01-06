@@ -1,0 +1,83 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "aleguzzler-gargant",
+  "name": "Aleguzzler Gargant",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 12,
+    "save": "5+",
+    "control": 10
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "GLOOMSPITE GITZ",
+    "LEGENDS",
+    "MONSTER"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "’Eadbutt",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Massive Club",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Mighty Kick",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Throwin’ Rocks",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Timberrrrr!",
+      "type": "passive",
+      "effect": "When this unit is destroyed, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of this unit. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than this unit."
+    },
+    {
+      "name": "Stuff 'Em in Me Bag",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. If the roll is at least double the target’s Health characteristic, 1 model in the target unit is slain.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target."
+    }
+  ]
+}

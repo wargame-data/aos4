@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "seekers",
+  "name": "Seekers",
+  "faction": "hedonites-of-slaanesh",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAMPION",
+    "CHAOS",
+    "DAEMON",
+    "HEDONITES OF SLAANESH",
+    "MUSICIAN (1/5)",
+    "STANDARD BEARER (1/5)",
+    "WARD (6+)"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Agonising Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Cavalry^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Steed’s Poisoned Tongue",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DAEMON",
+    "HEDONITES OF SLAANESH",
+    "MUSICIAN (1/5)",
+    "STANDARD BEARER (1/5)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Quicksilver Speed",
+      "type": "passive",
+      "effect": "When making run rolls for this unit, if you roll a 1-3, you can use a value of 4 instead."
+    }
+  ]
+}

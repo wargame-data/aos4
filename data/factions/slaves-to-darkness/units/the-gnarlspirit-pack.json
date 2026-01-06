@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "the-gnarlspirit-pack",
+  "name": "The Gnarlspirit Pack",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "CHAOS",
+    "DARKOATH",
+    "INFANTRY",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "UNDIVIDED",
+    "UNIQUE"
+  ],
+  "baseSize": 4,
+  "weapons": [
+    {
+      "name": "Gnarlspirit Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DARKOATH",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "UNDIVIDED"
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Dark Sacrifice",
+      "type": "once-per-battle",
+      "effect": "If an unmodified casting roll for this unit this phase was 8+, this unit has **^^Ward (5+)^^** for the rest of the battle.",
+      "phase": "hero"
+    },
+    {
+      "name": "Sarrakkar Blackwing",
+      "type": "passive",
+      "effect": "While this unit’s **Sarrakkar Blackwing** is on the battlefield, it has **^^Wizard (1)^^**."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "bren-tylis-the-renegade-saint",
+  "name": "Bren Tylis, the Renegade Saint",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CITIES OF SIGMAR",
+    "HERO",
+    "HUMAN",
+    "INFANTRY",
+    "LEGENDS",
+    "ORDER",
+    "UNIQUE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Hand-and-a-half Sword",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Well Travelled",
+      "type": "once-per-battle",
+      "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 3\" from all enemy units."
+    },
+    {
+      "name": "Yondara's Guidance",
+      "type": "passive",
+      "effect": "The first time this unit would be destroyed, before removing it from the battlefield, roll a dice. On a 3+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (5)** this unit."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

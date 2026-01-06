@@ -1,0 +1,73 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "the-shadeborn",
+  "name": "The Shadeborn",
+  "faction": "daughters-of-khaine",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "CHAMPION",
+    "DAUGHTERS OF KHAINE",
+    "INFANTRY",
+    "LEGENDS",
+    "ORDER",
+    "UNIQUE",
+    "WARD (6+)"
+  ],
+  "baseSize": 4,
+  "weapons": [
+    {
+      "name": "Shadowstalker Blades",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Cursed Missiles",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CHAMPION",
+    "DAUGHTERS OF KHAINE",
+    "LEGENDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Mask of Shadowed Mirrors",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target."
+    },
+    {
+      "name": "Shadow Leap",
+      "type": "passive",
+      "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement"
+    }
+  ]
+}

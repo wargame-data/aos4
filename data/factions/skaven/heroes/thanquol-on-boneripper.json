@@ -1,0 +1,124 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "thanquol-on-boneripper",
+  "name": "Thanquol on Boneripper",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 14,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "HERO",
+    "MASTERCLAN",
+    "MONSTER",
+    "SKAVEN",
+    "UNIQUE",
+    "WARD (5+)",
+    "WARMASTER",
+    "WIZARD (2)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Warpfire Braziers",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Staff of the Horned Rat",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Custom Warpfire Projectors",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "MASTERCLAN",
+    "SKAVEN",
+    "WARD (5+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Warpfire Braziers** is 4."
+    },
+    {
+      "name": "Staff of the Horned Rat",
+      "type": "passive",
+      "effect": "Add 1 to casting rolls for this unit."
+    },
+    {
+      "name": "Warp-amulet",
+      "type": "passive",
+      "effect": "**Heal (D3)** this unit.",
+      "phase": "any"
+    },
+    {
+      "name": "Boneripper Rampage",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3-5, inflict D3 mortal damage on the target. On a 6, inflict 2D3 mortal damage on the target.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Terrible Madness",
+      "type": "spell",
+      "effect": "The target cannot use commands until the start of your next turn. In addition, roll a number of dice equal to the number of models in the target unit. For each 6, inflict 1 mortal damage on the target.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 13\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "MASTERCLAN"
+      ],
+      "description": "Units with MASTERCLAN keyword"
+    }
+  ]
+}

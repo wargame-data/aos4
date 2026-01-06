@@ -1,0 +1,69 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "daemon-prince",
+  "name": "Daemon Prince",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 10,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "DAEMON",
+    "HERO",
+    "INFANTRY",
+    "SLAVES TO DARKNESS",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Hellforged Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "SLAVES TO DARKNESS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Immortal Champion",
+      "type": "passive",
+      "effect": "Roll a dice. On a 4+, this unit has **^^Strike-first^^** for the rest of the turn.",
+      "phase": "combat"
+    },
+    {
+      "name": "Airborne Horror",
+      "type": "passive",
+      "effect": "If this unit has **Wings**, it has a Move characteristic of 10\" and has **^^Fly^^**."
+    },
+    {
+      "name": "The Mounted Skulls of the Fallen",
+      "type": "passive",
+      "effect": "If this unit has a **Trophy Rack**, its **Hellforged Weapons** also have Anti-**^^Hero^^ (+1 Rend)**."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

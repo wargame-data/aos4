@@ -1,0 +1,72 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "vanari-starshard-ballista",
+  "name": "Vanari Starshard Ballista",
+  "faction": "lumineth-realm-lords",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "LUMINETH REALM-LORDS",
+    "ORDER",
+    "VANARI",
+    "WAR MACHINE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Starshard Bolts",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (2 Hits)",
+        "Anti-**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Crew’s Arming Swords",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "LUMINETH REALM-LORDS",
+    "VANARI"
+  ],
+  "abilities": [
+    {
+      "name": "Blinding Bolts",
+      "type": "once-per-battle",
+      "effect": "If all of this unit’s shooting attacks this turn target the same enemy unit, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.",
+      "phase": "shooting"
+    },
+    {
+      "name": "Scryhawks",
+      "type": "passive",
+      "effect": "For the rest of the turn, add 6\" to the Range characteristic of this unit’s **Starshard Bolts** while it is wholly within 12\" of any friendly **Vanari Auralan Sentinels** units.",
+      "phase": "shooting"
+    }
+  ]
+}

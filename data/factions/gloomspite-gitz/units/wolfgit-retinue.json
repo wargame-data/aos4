@@ -1,0 +1,70 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "wolfgit-retinue",
+  "name": "Wolfgit Retinue",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "DESTRUCTION",
+    "GITMOB",
+    "GLOOMSPITE GITZ"
+  ],
+  "baseSize": 2,
+  "weapons": [
+    {
+      "name": "Grot Bow",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Snarlfang’s Slavering Jaws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Stabbin’ Stikka",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GITMOB",
+    "GLOOMSPITE GITZ"
+  ],
+  "abilities": [
+    {
+      "name": "I Got Dis, Boss!",
+      "type": "passive",
+      "effect": "While a friendly **Snarlboss** is within this unit's combat range, both this unit and that **Snarlboss** have **^^Ward (5+)^^**."
+    }
+  ]
+}

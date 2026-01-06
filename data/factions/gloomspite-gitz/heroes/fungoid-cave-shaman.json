@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "fungoid-cave-shaman",
+  "name": "Fungoid Cave-Shaman",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "GLOOMSPITE GITZ",
+    "HERO",
+    "INFANTRY",
+    "MOONCLAN",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Spore Squig’s Vicious Teeth",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Moon-sickle",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "MOONCLAN",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Deffcap Mushroom",
+      "type": "once-per-battle",
+      "effect": "Add 1 to this unit’s power level for the rest of the turn.",
+      "phase": "hero"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "MOONCLAN"
+      ],
+      "description": "Units with MOONCLAN keyword"
+    }
+  ]
+}

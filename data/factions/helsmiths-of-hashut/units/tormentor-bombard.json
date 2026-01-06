@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "tormentor-bombard",
+  "name": "Tormentor Bombard",
+  "faction": "helsmiths-of-hashut",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 8,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "HELSMITHS OF HASHUT",
+    "WAR MACHINE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Torrent of Ruinous Energy",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Cavalry^^** (+1 Rend)",
+        "Anti-**^^Infantry^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Artillerist Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "HELSMITHS OF HASHUT"
+  ],
+  "abilities": [
+    {
+      "name": "Ruinous Bombardment",
+      "type": "once-per-turn",
+      "effect": "Roll a dice for each target. On a 3+, that unit cannot use commands until the start of your next turn.",
+      "phase": "shooting",
+      "declare": "If this unit used a **^^Shoot^^** ability this turn and all of its attacks targeted the same enemy unit, that enemy unit is the target. Then, you can pick a number of enemy units within 6\" of the target equal to the number of **daemonic power points** this unit has to be additional targets."
+    },
+    {
+      "name": "Calculated Trajectory",
+      "type": "passive",
+      "effect": "Add 1 to hit rolls for this unit's shooting attacks that target an enemy unit with 5 or more models that is more than 12\" from this unit."
+    }
+  ]
+}

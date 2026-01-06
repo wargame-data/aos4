@@ -1,0 +1,109 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "soul-grinder",
+  "name": "Soul Grinder",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 16,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "DAEMON",
+    "LEGENDS",
+    "MONSTER",
+    "SLAVES TO DARKNESS",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Harvester Cannon",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Piston-driven Legs and Daemonic Blade or Claw",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Hellforged Claw",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Phlegm Bombardment",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Piston-driven Legs and Daemonic Blade or Claw** is 6."
+    },
+    {
+      "name": "Piston-driven Carnage",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, this unit can move 6\". During that move, it can pass through models in the target unit but must end that move in combat.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Infantry^^** unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Implacable Advance",
+      "type": "passive",
+      "effect": "This unit can use **^^Charge^^** abilities even if it used a **^^Run^^** ability in the same turn."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "saurus-scar-veteran-on-carnosaur",
+  "name": "Saurus Scar-Veteran on Carnosaur",
+  "faction": "seraphon",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 14,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "HERO",
+    "MONSTER",
+    "ORDER",
+    "SAURUS",
+    "SERAPHON"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Relic Celestite Weapon",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Carnosaur’s Massive Jaws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Carnosaur’s Clawed Forelimbs",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "SAURUS",
+    "SERAPHON"
+  ],
+  "abilities": [
+    {
+      "name": "Terror",
+      "type": "passive",
+      "effect": "Subtract 2 from the control scores of enemy units while they are in combat with this unit."
+    },
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Carnosaur’s Massive Jaws** is 2."
+    },
+    {
+      "name": "Maim and Tear",
+      "type": "once-per-turn",
+      "effect": "Roll a number of dice equal to the number of damage points the target has. For each 5+, inflict 1 mortal damage on the target.",
+      "phase": "any",
+      "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

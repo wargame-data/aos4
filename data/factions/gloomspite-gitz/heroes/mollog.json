@@ -1,0 +1,85 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "mollog",
+  "name": "Mollog",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 8,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "GLOOMSPITE GITZ",
+    "HERO",
+    "INFANTRY",
+    "LEGENDS",
+    "TROGGOTH"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Jabbertoad",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Puff-fungus Club",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "LEGENDS",
+    "TROGGOTH"
+  ],
+  "abilities": [
+    {
+      "name": "Regeneration",
+      "type": "passive",
+      "effect": "**Heal (D3)** this unit.",
+      "phase": "any"
+    },
+    {
+      "name": "Mollog's Mob",
+      "type": "passive",
+      "effect": "This unit’s **Bat Squig**, **Spiteshroom** and **Stalagsquig** are tokens. After setting up this unit on the battlefield for the first time, place its tokens next to it."
+    },
+    {
+      "name": "Unleash the Critters!",
+      "type": "passive",
+      "effect": "Pick 1 of the following effects:\n**Spore Cloud:** Remove this unit’s **Spiteshroom**. For the rest of the turn, subtract 1 from hit rolls for attacks made by enemy units while they\nare in combat with this unit.\n**Bat Squig Attack!:** Remove this unit’s **Bat Squig**. Pick an enemy unit in combat with this unit to be the target and roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n**Rock-hard Skin:** Remove this unit’s **Stalagsquig**. Ignore all modifiers to save rolls for this unit (positive and negative) for the rest of the turn.",
+      "phase": "combat"
+    },
+    {
+      "name": "Bitey Distractions",
+      "type": "passive",
+      "effect": "This unit has **^^Ward (5+)^^** while any of its tokens are on the battlefield."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "spider-riders",
+  "name": "Spider Riders",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 2,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAMPION",
+    "DESTRUCTION",
+    "GLOOMSPITE GITZ",
+    "MUSICIAN (1/5)",
+    "SPIDERFANG",
+    "STANDARD BEARER (1/5)"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Spider-bow",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Spider Fangs",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Crooked Spear",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "GLOOMSPITE GITZ",
+    "MUSICIAN (1/5)",
+    "SPIDERFANG",
+    "STANDARD BEARER (1/5)"
+  ],
+  "abilities": [
+    {
+      "name": "Wall Crawler",
+      "type": "passive",
+      "effect": "This unit can pass across terrain features as if it had **^^Fly^^**."
+    }
+  ]
+}

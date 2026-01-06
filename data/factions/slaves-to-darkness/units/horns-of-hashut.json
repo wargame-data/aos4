@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "horns-of-hashut",
+  "name": "Horns of Hashut",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION (1/10)",
+    "CHAOS",
+    "INFANTRY",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "UNDIVIDED"
+  ],
+  "baseSize": 10,
+  "weapons": [
+    {
+      "name": "Forge Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Flamehurler",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION (1/10)",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "UNDIVIDED"
+  ],
+  "abilities": [
+    {
+      "name": "Stampede of Iron",
+      "type": "passive",
+      "effect": "Roll a dice for each model in this unit that is within the target’s combat range. For each 5+, inflict 1 mortal damage on the target. If 3 or more mortal damage is inflicted on the target by this ability, subtract 1 from hit rolls for the target’s combat attacks for the rest of the turn.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target."
+    }
+  ]
+}

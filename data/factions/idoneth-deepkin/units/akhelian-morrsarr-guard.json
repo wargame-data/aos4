@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "akhelian-morrsarr-guard",
+  "name": "Akhelian Morrsarr Guard",
+  "faction": "idoneth-deepkin",
+  "points": 0,
+  "stats": {
+    "move": "14\"",
+    "health": 4,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "AKHELIAN",
+    "CAVALRY",
+    "CHAMPION",
+    "FLY",
+    "IDONETH DEEPKIN",
+    "MUSICIAN (1/3)",
+    "ORDER",
+    "STANDARD BEARER (1/3)"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Voltspear",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Anti‑**^^Cavalry^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Fangmora’s Fangs and Lashing Tail",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "AKHELIAN",
+    "CHAMPION",
+    "FLY",
+    "IDONETH DEEPKIN",
+    "MUSICIAN (1/3)",
+    "STANDARD BEARER (1/3)"
+  ],
+  "abilities": [
+    {
+      "name": "Biovoltaic Blast",
+      "type": "passive",
+      "effect": "Roll a number of dice equal to the number of models in this unit. Add 1 to each roll if there are more models in the target unit than this unit. For each 3+, inflict 1 mortal damage on the target.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "abhorrant-gorewarden-scourge-of-ghyran",
+  "name": "Abhorrant Gorewarden (Scourge of Ghyran)",
+  "faction": "flesh-eater-courts",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 7,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "ABHORRENT",
+    "DEATH",
+    "FLESH-EATER COURTS",
+    "FLY",
+    "HERO",
+    "INFANTRY",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Gory Talons and Fangs",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "ABHORRENT",
+    "FLESH-EATER COURTS",
+    "FLY",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Swooping Descent",
+      "type": "once-per-turn",
+      "effect": "Remove this unit from the battlefield, then set it up again more than 9\" from all enemy units and either:\n• Wholly within 6\" of the edge of the battlefield, or\n• Within 3\" of an objective you do not control."
+    },
+    {
+      "name": "Glorious Charge",
+      "type": "passive",
+      "effect": "While this unit is within the combat range of a friendly **^^Knights^^** unit and has charged this turn, this unit has **^^Ward (5+)^^** and its **Gory Talons and Fangs** have **Charge (+1 Damage)**."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

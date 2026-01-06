@@ -1,0 +1,93 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "hexbanes-hunters",
+  "name": "Hexbane's Hunters",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "INFANTRY",
+    "LEGENDS",
+    "ORDER",
+    "UNIQUE",
+    "WARD (5+)"
+  ],
+  "baseSize": 6,
+  "weapons": [
+    {
+      "name": "Blackpowder Pistols",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat",
+        "Anti-**^^Wizard^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Witch Hunter Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Wizard^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Crossbow Launcher",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Wizard^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "LEGENDS",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Flamewood Stakes",
+      "type": "passive",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Add 1 to the damage inflicted (if any) on the target if it has the **^^Death^^**, **^^Daemon^^** or **^^Wizard^^** keyword.",
+      "phase": "any",
+      "declare": "Pick an enemy unit in combat with this unit to be the target."
+    },
+    {
+      "name": "Hunt with Conviction",
+      "type": "passive",
+      "effect": "Add 1 to the damage inflicted by this unit’s attacks that target the unit picked to be **hunted by the Order**.\n*Designer’s Note: You can pick an enemy unit that is in reserve.*",
+      "declare": "Pick an enemy **^^Hero^^** or **^^Wizard^^** to be **hunted by the Order**. You must pick a **^^Wizard Hero^^** if there is one in your opponent’s army."
+    }
+  ]
+}

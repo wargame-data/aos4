@@ -1,0 +1,59 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "the-sepulchral-guard",
+  "name": "The Sepulchral Guard",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DEATH",
+    "DEATHRATTLE",
+    "INFANTRY",
+    "LEGENDS",
+    "SOULBLIGHT GRAVELORDS",
+    "UNIQUE",
+    "WARD (6+)"
+  ],
+  "baseSize": 7,
+  "weapons": [
+    {
+      "name": "Ancient Weapon",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DEATHRATTLE",
+    "LEGENDS",
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Restless Dead",
+      "type": "passive",
+      "effect": "You can return D3 slain models to this unit.",
+      "phase": "any"
+    }
+  ]
+}

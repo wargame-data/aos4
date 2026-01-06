@@ -1,0 +1,57 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "megaboss",
+  "name": "Megaboss",
+  "faction": "ironjawz",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 8,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "HERO",
+    "INFANTRY",
+    "IRONJAWZ"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Boss-choppa",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "IRONJAWZ"
+  ],
+  "abilities": [
+    {
+      "name": "Lead da Brutes",
+      "type": "reaction",
+      "effect": "Pick a friendly **^^Brute^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit's combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of that unit's melee weapons for the rest of the turn."
+    },
+    {
+      "name": "Strength From Victory",
+      "type": "passive",
+      "effect": "If any damage points were allocated to an enemy unit by this unit’s combat attacks this turn and that enemy unit has been destroyed, give this unit a **Waaagh! token**, to a maximum of 3.\nUntil the end of the next turn, add 1 to the Attacks characteristic of this unit’s weapons for each **Waaagh! token** it has.",
+      "phase": "any"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

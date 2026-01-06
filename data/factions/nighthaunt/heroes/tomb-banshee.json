@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "tomb-banshee",
+  "name": "Tomb Banshee",
+  "faction": "nighthaunt",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "FLY",
+    "HERO",
+    "INFANTRY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Piercing Scream",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Ancient Chill Dagger",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Cacophony of Sorrow",
+      "type": "passive",
+      "effect": "While there are any friendly **Myrmourn Banshees** units wholly within 12\" of this unit, ignore positive modifiers to the control scores of enemy units within 12\" of this unit."
+    },
+    {
+      "name": "Ghostly Howl",
+      "type": "once-per-battle",
+      "effect": "Inflict D3 mortal damage on the target. If any models in the target unit are slain by this ability, the target cannot use commands for the rest of the turn.",
+      "phase": "shooting",
+      "declare": "Pick an enemy unit in combat with this unit to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

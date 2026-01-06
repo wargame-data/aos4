@@ -1,0 +1,126 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "huskard-on-thundertusk",
+  "name": "Huskard on Thundertusk",
+  "faction": "ogor-mawtribes",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 14,
+    "save": "4+",
+    "control": 10
+  },
+  "role": "other",
+  "keywords": [
+    "BEASTCLAW RAIDERS",
+    "DESTRUCTION",
+    "HERO",
+    "MONSTER",
+    "OGOR",
+    "OGOR MAWTRIBES",
+    "PRIEST (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Ice Blast",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Thundertusk’s Colossal Tusks",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Punches and Kicks",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Harpoon Launcher",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Chaintrap",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti‑**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Blood Vulture",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BEASTCLAW RAIDERS",
+    "OGOR",
+    "OGOR MAWTRIBES",
+    "PRIEST (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Thundertusk’s Colossal Tusks** is 2."
+    },
+    {
+      "name": "Freezing Aura",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. Add 1 to the roll if the target had **^^Strike-last^^** as a result of this ability in the previous turn. On a 4+, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Infantry^^** unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

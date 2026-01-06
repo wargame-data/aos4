@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "frost-sabres",
+  "name": "Frost Sabres",
+  "faction": "ogor-mawtribes",
+  "points": 0,
+  "stats": {
+    "move": "9\"",
+    "health": 3,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "BEAST",
+    "BEASTCLAW RAIDERS",
+    "DESTRUCTION",
+    "OGOR MAWTRIBES"
+  ],
+  "baseSize": 2,
+  "weapons": [
+    {
+      "name": "Tusks and Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BEAST",
+    "BEASTCLAW RAIDERS",
+    "OGOR MAWTRIBES"
+  ],
+  "abilities": [
+    {
+      "name": "Hunters of the Frozen Wilds",
+      "type": "passive",
+      "effect": "This unit is not visible to enemy units while it is within 3\" of a terrain feature and more than 9\" from all enemy units."
+    }
+  ]
+}

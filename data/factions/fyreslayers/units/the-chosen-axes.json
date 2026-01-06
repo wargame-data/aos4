@@ -1,0 +1,69 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "the-chosen-axes",
+  "name": "The Chosen Axes",
+  "faction": "fyreslayers",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DUARDIN",
+    "FYRESLAYERS",
+    "INFANTRY",
+    "LEGENDS",
+    "ORDER",
+    "UNIQUE",
+    "WARD (6+)"
+  ],
+  "baseSize": 4,
+  "weapons": [
+    {
+      "name": "Fyresteel Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Latchkey Grandaxe",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DUARDIN",
+    "FYRESLAYERS",
+    "LEGENDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Berserk Fury",
+      "type": "passive",
+      "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+    },
+    {
+      "name": "Fjul's Retinue",
+      "type": "passive",
+      "effect": "While this unit’s **Fjul-Grimnir** is on the battlefield, ignore the first damage point that would be allocated to this unit each phase."
+    }
+  ]
+}

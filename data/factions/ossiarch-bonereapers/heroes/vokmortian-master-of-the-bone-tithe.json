@@ -1,0 +1,82 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "vokmortian-master-of-the-bone-tithe",
+  "name": "Vokmortian, Master of the Bone-tithe",
+  "faction": "ossiarch-bonereapers",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "HERO",
+    "INFANTRY",
+    "OSSIARCH BONEREAPERS",
+    "UNIQUE",
+    "WARD (6+)",
+    "WIZARD (2)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Staff of Retribution",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    },
+    {
+      "name": "Gaze of Death",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "OSSIARCH BONEREAPERS",
+    "WARD (6+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Voice of Nagash",
+      "type": "once-per-battle",
+      "effect": "For the rest of the turn, non-**^^Fight Core^^** abilities cost 1 command point for the target to use. Those abilities do not count as commands.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 12\" of this unit to be the target."
+    },
+    {
+      "name": "Mortal Contract",
+      "type": "spell",
+      "effect": "Until the start of your next turn, each time the bound friendly unit is picked to the target of an ability used by the bound enemy unit, roll a D3. On a 2+, inflict an amount of mortal damage on the bound enemy unit equal to the roll as a reaction. If the bound enemy unit is destroyed by this ability, do not resolve the effect of the enemy ability.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 18\" of this unit to be bound, pick a visible friendly **^^Ossiarch Bonereapers^^** unit wholly within 18\" of this unit to be bound, then make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

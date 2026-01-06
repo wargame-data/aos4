@@ -1,0 +1,80 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "jacobus-vyne-the-jade-wizard",
+  "name": "Jacobus Vyne, the Jade Wizard",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CITIES OF SIGMAR",
+    "HERO",
+    "HUMAN",
+    "INFANTRY",
+    "LEGENDS",
+    "ORDER",
+    "UNIQUE",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Vineroot Staff",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Faction Terrain^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Enchanted Sickle",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "LEGENDS",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Verdant Growth",
+      "type": "spell",
+      "effect": "For the rest of the battle, subtract 1 from hit rolls for shooting attacks that target friendly **^^Infantry^^** or **^^Cavalry^^** units while they are wholly within 3\" of the target.",
+      "phase": "hero",
+      "declare": "Pick an objective or visible non-**^^Faction Terrain^^** terrain feature within 12\" of this unit to be the target. Then, make a casting roll of 2D6.",
+      "castingValue": 6
+    },
+    {
+      "name": "Summon Wisper",
+      "type": "passive",
+      "effect": "If there is not a friendly **Wisper** on the battlefield, set up a friendly **Wisper** wholly within 12\" of this unit, visible to it and more than 9\" from all enemy units. This unit has summoned that **^^Manifestation^^**.",
+      "phase": "movement"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

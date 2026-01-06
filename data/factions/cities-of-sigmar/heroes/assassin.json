@@ -1,0 +1,62 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "assassin",
+  "name": "Assassin",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "CITIES OF SIGMAR",
+    "HERO",
+    "INFANTRY",
+    "ORDER"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Poison-coated Blades",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)",
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CITIES OF SIGMAR"
+  ],
+  "abilities": [
+    {
+      "name": "Hidden Murderer",
+      "type": "passive",
+      "effect": "While this unit is within the combat range of a friendly **^^Infantry^^** unit that has 5 or more models and there are no enemy units within this unit's combat range, this unit is not visible to enemy units."
+    },
+    {
+      "name": "In for the Kill",
+      "type": "passive",
+      "effect": "This unit has **^^Strike-first^^** if it charged in the same turn."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

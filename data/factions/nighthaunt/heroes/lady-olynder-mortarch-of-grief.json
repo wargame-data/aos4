@@ -1,0 +1,94 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "lady-olynder-mortarch-of-grief",
+  "name": "Lady Olynder, Mortarch of Grief",
+  "faction": "nighthaunt",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 7,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "FLY",
+    "HERO",
+    "INFANTRY",
+    "NIGHTHAUNT",
+    "UNIQUE",
+    "WARD (5+)",
+    "WARMASTER",
+    "WIZARD (2)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Staff of Midnight",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Horrifying Visage",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "No Rest for the Wicked",
+      "type": "once-per-battle",
+      "effect": "For each target, you can return a number of slain models to that unit with a combined Health characteristic of up to D3+3.",
+      "phase": "hero",
+      "declare": "Pick any number of friendly **^^Nighthaunt^^** units on the battlefield to be the targets."
+    },
+    {
+      "name": "Mortarch of Grief",
+      "type": "passive",
+      "effect": "If the unmodified hit roll or unmodified wound roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends."
+    },
+    {
+      "name": "Grief-stricken",
+      "type": "spell",
+      "effect": "Ignore positive modifiers to the target's control score and to hit rolls, wound rolls and save rolls for the target for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

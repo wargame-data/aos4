@@ -1,0 +1,87 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "the-light-of-eltharion",
+  "name": "The Light of Eltharion",
+  "faction": "lumineth-realm-lords",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "HERO",
+    "INFANTRY",
+    "LUMINETH REALM-LORDS",
+    "ORDER",
+    "UNIQUE",
+    "WARD (5+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Celennari Blade",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)",
+        "Anti-**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Fangsword of Eltharion",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    },
+    {
+      "name": "Searing Darts of Light",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "LUMINETH REALM-LORDS",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Supreme Swordmaster",
+      "type": "passive",
+      "effect": "Ignore negative modifiers to hit rolls and wound rolls for this unit’s attacks. In addition, ignore negative modifiers to the characteristics of this unit’s melee weapons."
+    },
+    {
+      "name": "Spirit Armour",
+      "type": "passive",
+      "effect": "Ignore all modifiers to save rolls for this unit (positive and negative)."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

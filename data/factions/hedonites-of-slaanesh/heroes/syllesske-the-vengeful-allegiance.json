@@ -1,0 +1,87 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "syllesske-the-vengeful-allegiance",
+  "name": "Syll'Esske, the Vengeful Allegiance",
+  "faction": "hedonites-of-slaanesh",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 9,
+    "save": "4+",
+    "control": 4
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "DAEMON",
+    "HEDONITES OF SLAANESH",
+    "HERO",
+    "INFANTRY",
+    "SYBARITE",
+    "UNIQUE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Axe of Dominion",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Scourging Whip",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "HEDONITES OF SLAANESH",
+    "SYBARITE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "The Vengeful Allegiance",
+      "type": "passive",
+      "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+    },
+    {
+      "name": "Subvert",
+      "type": "spell",
+      "effect": "The target cannot use commands for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 12\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    },
+    {
+      "name": "Deadly Symbiosis",
+      "type": "passive",
+      "effect": "For the rest of the turn, if either target uses the ‘All-out Attack’ or ‘All-out Defence’ command, the other target can also use the same command in the same phase and no command points are spent to use the command a second time.",
+      "phase": "combat",
+      "declare": "Pick a friendly non-**^^Hero Sybarite^^** unit and a friendly non-**^^Hero Hedonites of Slaanesh Daemon^^** unit to be the targets. Both units must be wholly within 12\" of this unit."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

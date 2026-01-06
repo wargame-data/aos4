@@ -1,0 +1,107 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "skywardens",
+  "name": "Skywardens",
+  "faction": "kharadron-overlords",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 2,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DUARDIN",
+    "FLY",
+    "INFANTRY",
+    "KHARADRON OVERLORDS",
+    "ORDER",
+    "SKYFARER"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Skyrigger Heavy Weapon",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Gun Butt",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Vulcaniser Pistol",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Skywarden's Skypike",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Aethermatic Volley Gun",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DUARDIN",
+    "FLY",
+    "KHARADRON OVERLORDS",
+    "SKYFARER"
+  ],
+  "abilities": [
+    {
+      "name": "Timed Charges",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+:\n• Inflict an amount of mortal damage on the target equal to the roll.\n• This unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.",
+      "phase": "any",
+      "declare": "Pick an enemy unit in combat with this unit to be the target."
+    }
+  ]
+}

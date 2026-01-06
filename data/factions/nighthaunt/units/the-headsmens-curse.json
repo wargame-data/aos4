@@ -1,0 +1,69 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "the-headsmens-curse",
+  "name": "The Headsmen's Curse",
+  "faction": "nighthaunt",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 3,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DEATH",
+    "FLY",
+    "INFANTRY",
+    "LEGENDS",
+    "NIGHTHAUNT",
+    "UNIQUE",
+    "WARD (6+)"
+  ],
+  "baseSize": 4,
+  "weapons": [
+    {
+      "name": "Terminus",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Tool of Judgement",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLY",
+    "LEGENDS",
+    "NIGHTHAUNT",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Furious Indictment",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, the target is **condemned** until the start of your next turn.\nWhile a unit is **condemned**:\n• Halve that unit’s Move characteristic.\n• That unit cannot use **^^Retreat^^** abilities.\n• Subtract 1 from the number of dice rolled when making charge rolls for that unit, to a minimum of 1.",
+      "phase": "hero",
+      "declare": "Pick an enemy unit within 12\" of this unit to be the target."
+    }
+  ]
+}

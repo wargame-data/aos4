@@ -1,0 +1,69 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "acolyte-globadiers",
+  "name": "Acolyte Globadiers",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "INFANTRY",
+    "SKAVEN",
+    "SKRYRE",
+    "WEAPON TEAM"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Rusty Knife",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Poisoned Wind Globe",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti‑**^^Infantry^^** (+1 Rend)",
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SKAVEN",
+    "SKRYRE",
+    "WEAPON TEAM"
+  ],
+  "abilities": [
+    {
+      "name": "Gas Clouds",
+      "type": "passive",
+      "effect": "Add 1 to the Damage characteristic of this unit’s **Poisoned Wind Globes** for attacks that target an enemy unit that has 10 or more models."
+    },
+    {
+      "name": "Hidden Weapon Team",
+      "type": "passive",
+      "effect": "While this unit is within the combat range of a friendly **Clanrats** unit that has 5 or more models, and there are no other friendly **^^Weapon Team^^** units within that unit’s combat range, this unit is not visible to enemy units more than 13\" away."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "lord-veritant",
+  "name": "Lord-Veritant",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "HERO",
+    "INFANTRY",
+    "ORDER",
+    "PRIEST (1)",
+    "RUINATION CHAMBER",
+    "STORMCAST ETERNALS"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Staff of Abjuration",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Judgement Blade",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Priest^^** (+1 Rend)",
+        "Anti-**^^Wizard^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "PRIEST (1)",
+    "RUINATION CHAMBER",
+    "STORMCAST ETERNALS"
+  ],
+  "abilities": [
+    {
+      "name": "Sense Unholy Sorcery",
+      "type": "passive",
+      "effect": "This unit’s **Gryph-crow** is a token. Subtract 1 from casting rolls and chanting rolls for enemy units within 12\" of this unit while its **Gryph-crow** is on the battlefield.\nIf you make an unmodified save roll of 1 for this unit, remove its **Gryph-crow** from the battlefield after the **^^Attack^^** ability has been resolved (the damage point is still inflicted)."
+    },
+    {
+      "name": "Staff of Abjuration",
+      "type": "passive",
+      "effect": "This unit can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**."
+    },
+    {
+      "name": "Ruination Chamber",
+      "type": "reaction",
+      "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "RUINATION CHAMBER"
+      ],
+      "description": "Units with RUINATION CHAMBER keyword"
+    }
+  ]
+}

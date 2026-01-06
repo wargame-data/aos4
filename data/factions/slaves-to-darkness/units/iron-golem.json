@@ -1,0 +1,72 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "iron-golem",
+  "name": "Iron Golem",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 1,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION (1/8)",
+    "CHAOS",
+    "INFANTRY",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "STANDARD BEARER (1/8)",
+    "UNDIVIDED"
+  ],
+  "baseSize": 8,
+  "weapons": [
+    {
+      "name": "Legion Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Bolas",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION (1/8)",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "STANDARD BEARER (1/8)",
+    "UNDIVIDED"
+  ],
+  "abilities": [
+    {
+      "name": "Ogor Breacher",
+      "type": "passive",
+      "effect": "While this unit includes an **Ogor Breacher**, ignore the first damage point that would be allocated to this unit in each phase."
+    },
+    {
+      "name": "Iron Resilience",
+      "type": "passive",
+      "effect": "Add 1 to save rolls for this unit if it has not used a **^^Move^^** ability in the same turn."
+    }
+  ]
+}

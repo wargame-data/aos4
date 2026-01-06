@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "the-starblood-stalkers",
+  "name": "The Starblood Stalkers",
+  "faction": "seraphon",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "INFANTRY",
+    "LEGENDS",
+    "ORDER",
+    "SAURUS",
+    "SERAPHON",
+    "SKINK",
+    "UNIQUE"
+  ],
+  "baseSize": 6,
+  "weapons": [
+    {
+      "name": "Relic Celestite Weapon",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Starblood Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "LEGENDS",
+    "SAURUS",
+    "SERAPHON",
+    "SKINK"
+  ],
+  "abilities": [
+    {
+      "name": "Klaq-Trok",
+      "type": "passive",
+      "effect": "While this unit’s **Klaq-Trok** is on the battlefield, ignore the first damage point that would be allocated to this unit each phase."
+    },
+    {
+      "name": "Kixi-Taka, the Diviner",
+      "type": "passive",
+      "effect": "While this unit’s **Kixi-Taka, the Diviner** is on the battlefield, it has **^^Wizard (1)^^**."
+    },
+    {
+      "name": "Otapatl's Dartpipe",
+      "type": "passive",
+      "effect": "Roll a dice. On a 4+, inflict 1 mortal damage on the target.",
+      "phase": "shooting",
+      "declare": "If this unit’s **Otapatl** is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target."
+    }
+  ]
+}

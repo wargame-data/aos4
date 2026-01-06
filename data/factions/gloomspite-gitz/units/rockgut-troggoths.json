@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "rockgut-troggoths",
+  "name": "Rockgut Troggoths",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "GLOOMSPITE GITZ",
+    "INFANTRY",
+    "TROGGOTH",
+    "WARD (5+)"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Throwin’ Boulders",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Stone Maul or Craggy Hands",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "TROGGOTH",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Regeneration",
+      "type": "passive",
+      "effect": "**Heal (D3)** this unit.",
+      "phase": "any"
+    }
+  ]
+}

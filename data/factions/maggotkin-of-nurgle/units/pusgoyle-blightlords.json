@@ -1,0 +1,72 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "pusgoyle-blightlords",
+  "name": "Pusgoyle Blightlords",
+  "faction": "maggotkin-of-nurgle",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 8,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAOS",
+    "FLY",
+    "MAGGOTKIN OF NURGLE",
+    "ROTBRINGERS",
+    "WARD (5+)"
+  ],
+  "baseSize": 2,
+  "weapons": [
+    {
+      "name": "Flyrider’s Arsenal",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Rot Fly’s Mouthparts and Sting",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "FLY",
+    "MAGGOTKIN OF NURGLE",
+    "ROTBRINGERS",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Relentless Attackers",
+      "type": "passive",
+      "effect": "Add 1 to the Rend characteristic of this unit’s **Flyrider’s Arsenal** for attacks that target units contesting an objective you do not control."
+    },
+    {
+      "name": "Dispersed Formation",
+      "type": "passive",
+      "effect": "This unit has a coherency range of 2\"."
+    }
+  ]
+}

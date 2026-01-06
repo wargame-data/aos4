@@ -1,0 +1,70 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "loonboss",
+  "name": "Loonboss",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "GLOOMSPITE GITZ",
+    "HERO",
+    "INFANTRY",
+    "MOONCLAN",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Moon-slicer",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "MOONCLAN",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "I'm da Boss",
+      "type": "passive",
+      "effect": "Roll a dice. On a 2+, pick 1 of the following effects:\n***Get Back ’Ere!:*** If the target is not in combat, you can return D6 slain models to it.\n***Stab ’Em Good!:*** Add 1 to wound rolls for the target’s attacks until the start of your next turn",
+      "phase": "hero",
+      "declare": "Pick a visible friendly **Moonclan Stabbas** unit wholly within 12\" of this unit to be the target."
+    },
+    {
+      "name": "Let's Get Stabbin'!",
+      "type": "reaction",
+      "effect": "Pick a friendly non-**^^Hero Moonclan Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "MOONCLAN"
+      ],
+      "description": "Units with MOONCLAN keyword"
+    }
+  ]
+}

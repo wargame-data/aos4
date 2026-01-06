@@ -1,0 +1,72 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "blue-horrors-and-brimstone-horrors",
+  "name": "Blue Horrors and Brimstone Horrors",
+  "faction": "disciples-of-tzeentch",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "DAEMON",
+    "DISCIPLES OF TZEENTCH",
+    "INFANTRY",
+    "WARD (6+)"
+  ],
+  "baseSize": 10,
+  "weapons": [
+    {
+      "name": "Arcane Flames",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Wyrdflame"
+      ]
+    },
+    {
+      "name": "Spiteful Talons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Impish Talons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "DISCIPLES OF TZEENTCH",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Split Again",
+      "type": "passive",
+      "effect": "Each time a **Blue Horror** model in this unit is slain, before removing the model from play, roll a dice. On a 3+, you can add 1 **Brimstone Horrors** model to this unit.\n**Designer’s Note:** *You cannot have more than 10 Blue Horror models and 10 Brimstone Horrors models in a non-reinforced unit. You cannot have more than 20 Blue Horror models and 20 Brimstone Horrors models in a reinforced unit.*"
+    }
+  ]
+}

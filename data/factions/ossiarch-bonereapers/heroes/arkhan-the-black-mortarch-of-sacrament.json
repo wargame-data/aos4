@@ -1,0 +1,105 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "arkhan-the-black-mortarch-of-sacrament",
+  "name": "Arkhan the Black, Mortarch of Sacrament",
+  "faction": "ossiarch-bonereapers",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 14,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "FLY",
+    "HERO",
+    "MONSTER",
+    "OSSIARCH BONEREAPERS",
+    "UNIQUE",
+    "WARD (6+)",
+    "WARMASTER",
+    "WIZARD (3)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Razarak's Ebon Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Zefet-kar and Khenash-an",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "OSSIARCH BONEREAPERS",
+    "WARD (6+)",
+    "WIZARD (3)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Razarak's Ebon Claws** is 4."
+    },
+    {
+      "name": "The Staff of Spirits",
+      "type": "passive",
+      "effect": "Add 1 to casting rolls for this unit. Each time this unit successfully casts a spell, **Heal (1)** this unit."
+    },
+    {
+      "name": "The Doom of Traitors",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If the target is a **^^Hero^^**, double the amount of mortal damage inflicted.",
+      "phase": "combat",
+      "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Mortarch of Sacrament",
+      "type": "reaction",
+      "effect": "If a friendly **^^Ossiarch Bonereapers^^** unit wholly within 18\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on that unit. This unit can use this ability more than once per phase but only once per **^^Spell^^** ability."
+    },
+    {
+      "name": "Curse of Years",
+      "type": "spell",
+      "effect": "Roll 10 dice. For each 6:\n• Inflict 1 mortal damage on the target.\n• Roll an extra dice.\nFor each 5+ on those extra dice, repeat the above bullet points. Then, do the same for each 4+, then each 3+, then each 2+.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

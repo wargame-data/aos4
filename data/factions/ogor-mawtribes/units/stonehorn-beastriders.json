@@ -1,0 +1,122 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "stonehorn-beastriders",
+  "name": "Stonehorn Beastriders",
+  "faction": "ogor-mawtribes",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 14,
+    "save": "4+",
+    "control": 10
+  },
+  "role": "other",
+  "keywords": [
+    "BEASTCLAW RAIDERS",
+    "DESTRUCTION",
+    "MONSTER",
+    "OGOR",
+    "OGOR MAWTRIBES"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Stonehorn’s Hooves",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Punches and Kicks",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Stonehorn’s Rock-hard Horns",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Harpoon Launcher",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Chaintrap",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti‑**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Blood Vulture",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BEASTCLAW RAIDERS",
+    "OGOR",
+    "OGOR MAWTRIBES"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Stonehorn’s Rock-hard Horns** is 4."
+    },
+    {
+      "name": "Stone Skeleton",
+      "type": "passive",
+      "effect": "Ignore the first damage point that would be allocated to this unit in each phase."
+    },
+    {
+      "name": "Stonehorn Avalanche",
+      "type": "once-per-turn",
+      "effect": "If this unit charged this turn, roll a dice. On a 3+, when this unit makes a pile-in move this phase, add D6\" to the distance it can move.",
+      "phase": "combat",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    }
+  ]
+}

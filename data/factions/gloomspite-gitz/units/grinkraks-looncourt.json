@@ -1,0 +1,82 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "grinkraks-looncourt",
+  "name": "Grinkrak's Looncourt",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DESTRUCTION",
+    "GLOOMSPITE GITZ",
+    "INFANTRY",
+    "LEGENDS",
+    "MOONCLAN",
+    "UNIQUE"
+  ],
+  "baseSize": 7,
+  "weapons": [
+    {
+      "name": "Moon-slicer",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Looncourt Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Squigapult",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "GLOOMSPITE GITZ",
+    "LEGENDS",
+    "MOONCLAN"
+  ],
+  "abilities": [
+    {
+      "name": "Quest's End",
+      "type": "passive",
+      "effect": "For the rest of the battle, this unit has **^^Strike-first^^** and **^^Ward (4+)^^**.",
+      "phase": "any",
+      "declare": "This unit can only use this ability if you control the object of this unit’s quest and this unit is contesting it."
+    },
+    {
+      "name": "The Looncourt's Quest",
+      "type": "passive",
+      "effect": "Pick an objective or terrain feature within enemy territory to be the **object of this unit’s quest**."
+    }
+  ]
+}

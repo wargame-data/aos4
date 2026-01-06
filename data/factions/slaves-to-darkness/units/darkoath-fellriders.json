@@ -1,0 +1,85 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "darkoath-fellriders",
+  "name": "Darkoath Fellriders",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAMPION",
+    "CHAOS",
+    "DARKOATH",
+    "MUSICIAN (1/5)",
+    "SLAVES TO DARKNESS",
+    "STANDARD BEARER (1/5)"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Warsteed’s Hooves",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Broadsword",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Marauder Javelin",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DARKOATH",
+    "MUSICIAN (1/5)",
+    "SLAVES TO DARKNESS",
+    "STANDARD BEARER (1/5)"
+  ],
+  "abilities": [
+    {
+      "name": "Swift Attackers",
+      "type": "passive",
+      "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit."
+    },
+    {
+      "name": "Oath of the Raider",
+      "type": "once-per-battle",
+      "effect": "If this unit charged this phase and is only in combat with 1 enemy unit, and that enemy unit is only in combat with this unit, add 1 to the Rend characteristic of this unit’s weapons for the rest of the battle.",
+      "phase": "charge"
+    }
+  ]
+}

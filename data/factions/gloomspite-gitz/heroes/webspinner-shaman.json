@@ -1,0 +1,73 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "webspinner-shaman",
+  "name": "Webspinner Shaman",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 4,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "GLOOMSPITE GITZ",
+    "HERO",
+    "INFANTRY",
+    "SPIDERFANG",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Spider God Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "SPIDERFANG",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Web Slingshot",
+      "type": "passive",
+      "effect": "Roll a dice. On a 2+, remove this unit from the battlefield and set it up again wholly within 3\" of the target and more than 9\" from all enemy units.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Spiderfang^^** unit or terrain feature within 18\" of this unit to be the target."
+    },
+    {
+      "name": "Speed of the Spider God",
+      "type": "spell",
+      "effect": "The target can use a **^^Run^^** ability this turn and still use **^^Shoot^^** and/or **^^Charge^^** abilities later in the turn.",
+      "phase": "hero",
+      "declare": "Pick a visible friendly **^^Spiderfang^^** unit wholly within 12\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

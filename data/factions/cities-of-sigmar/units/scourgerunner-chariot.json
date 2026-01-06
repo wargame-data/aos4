@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "scourgerunner-chariot",
+  "name": "Scourgerunner Chariot",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 8,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "CITIES OF SIGMAR",
+    "ORDER",
+    "WAR MACHINE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Ravager Harpoon",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti‑**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Dark Steeds’ Vicious Bites",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Hook Spear",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti‑**^^Monster^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CITIES OF SIGMAR"
+  ],
+  "abilities": [
+    {
+      "name": "Lay the Beast Low",
+      "type": "passive",
+      "effect": "Add 1 to hit rolls and wound rolls for this unit’s shooting attacks that target enemy **^^Monsters^^**."
+    }
+  ]
+}

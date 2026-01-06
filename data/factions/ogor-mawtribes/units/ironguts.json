@@ -1,0 +1,62 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "ironguts",
+  "name": "Ironguts",
+  "faction": "ogor-mawtribes",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 4,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DESTRUCTION",
+    "GUTBUSTERS",
+    "INFANTRY",
+    "MUSICIAN (1/4)",
+    "OGOR",
+    "OGOR MAWTRIBES",
+    "STANDARD BEARER (1/4)"
+  ],
+  "baseSize": 4,
+  "weapons": [
+    {
+      "name": "Irongut Weapon",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "GUTBUSTERS",
+    "MUSICIAN (1/4)",
+    "OGOR",
+    "OGOR MAWTRIBES",
+    "STANDARD BEARER (1/4)"
+  ],
+  "abilities": [
+    {
+      "name": "Down to the Ironguts",
+      "type": "once-per-battle",
+      "effect": "This unit can use 2 **^^Fight^^** abilities this phase. After the first is used, however, this unit has Strike-last for the rest of the turn.",
+      "phase": "combat"
+    },
+    {
+      "name": "Protect the Tyrant",
+      "type": "passive",
+      "effect": "While this unit is within the combat ranges of any friendly Tyrants, both this unit and those Tyrants have Ward (6+)."
+    }
+  ]
+}

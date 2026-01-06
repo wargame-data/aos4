@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "aetheric-navigator",
+  "name": "Aetheric Navigator",
+  "faction": "kharadron-overlords",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 5,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DUARDIN",
+    "HERO",
+    "INFANTRY",
+    "KHARADRON OVERLORDS",
+    "ORDER",
+    "SKYFARER"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Ranging Pistol",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Zephyrscope",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "DUARDIN",
+    "KHARADRON OVERLORDS",
+    "SKYFARER"
+  ],
+  "abilities": [
+    {
+      "name": "Read the Winds",
+      "type": "once-per-turn",
+      "effect": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units. Then, if the target is a **^^Skyvessel^^**, you can remove this unit from the battlefield and set it up again on the battlefield wholly within 6\" of the target and more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Pick a friendly **^^Skyvessel^^** or **^^Auto-Endrin^^** within this unit's combat range and that is not in combat to be the target."
+    },
+    {
+      "name": "Aethersight",
+      "type": "passive",
+      "effect": "This unit can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

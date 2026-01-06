@@ -1,0 +1,57 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "scinari-calligrave",
+  "name": "Scinari Calligrave",
+  "faction": "lumineth-realm-lords",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "HERO",
+    "INFANTRY",
+    "LUMINETH REALM-LORDS",
+    "ORDER",
+    "SCINARI",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Calligrave Blade",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "LUMINETH REALM-LORDS",
+    "SCINARI",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Realmscribe",
+      "type": "reaction",
+      "effect": "Change the casting roll for that spell to a value of 8 that cannot be modified."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "changecaster-herald-of-tzeentch",
+  "name": "Changecaster, Herald of Tzeentch",
+  "faction": "disciples-of-tzeentch",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "DAEMON",
+    "DISCIPLES OF TZEENTCH",
+    "HERO",
+    "INFANTRY",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Iridescent Flames",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Wyrdflame"
+      ]
+    },
+    {
+      "name": "Staff of Change and Ritual Dagger",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "DISCIPLES OF TZEENTCH",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Daemonic Locus",
+      "type": "passive",
+      "effect": "Each time a friendly **^^Disciples of Tzeentch Daemon^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
+    },
+    {
+      "name": "Lurid Flames",
+      "type": "passive",
+      "effect": "Add 1 to hit rolls for combat attacks made by friendly units that target a **^^Burning^^** enemy unit within 12\" of this unit."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

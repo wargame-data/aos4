@@ -1,0 +1,69 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "squig-herd",
+  "name": "Squig Herd",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "D6+3\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "BEAST",
+    "DESTRUCTION",
+    "GLOOMSPITE GITZ",
+    "MOONCLAN",
+    "SQUIG"
+  ],
+  "baseSize": 12,
+  "weapons": [
+    {
+      "name": "Fang-filled Gob",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Squig Prodder",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BEAST",
+    "GLOOMSPITE GITZ",
+    "MOONCLAN",
+    "SQUIG"
+  ],
+  "abilities": [
+    {
+      "name": "Squigs Gone Wild",
+      "type": "passive",
+      "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+    },
+    {
+      "name": "Herding Squigs",
+      "type": "passive",
+      "effect": "Roll a dice for each **Squig Herder** in this unit. For each 2+, you can return D3 slain **Cave Squigs** to this unit. For each 1, 1 **Squig Herder** in this unit is slain.",
+      "phase": "hero"
+    }
+  ]
+}

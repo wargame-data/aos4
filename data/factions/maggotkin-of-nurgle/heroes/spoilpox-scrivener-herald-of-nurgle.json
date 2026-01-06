@@ -1,0 +1,70 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "spoilpox-scrivener-herald-of-nurgle",
+  "name": "Spoilpox Scrivener, Herald of Nurgle",
+  "faction": "maggotkin-of-nurgle",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "DAEMON",
+    "HERO",
+    "INFANTRY",
+    "MAGGOTKIN OF NURGLE",
+    "WARD (5+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Disgusting Sneezes",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Distended Maw",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "MAGGOTKIN OF NURGLE",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Keep Counting, I'm Watching You",
+      "type": "once-per-turn",
+      "effect": "Roll a D6. On a 2+, pick 1 of the following effects to apply until the start of your next turn:\n***Tally of Blows:*** Add 1 to the Attacks characteristic of the target’s melee weapons.\n***Recorded Stamina:*** Add 1 to save rolls for the target.",
+      "phase": "hero",
+      "declare": "Pick a friendly **Plaguebearers** unit wholly within 12\" of this unit to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

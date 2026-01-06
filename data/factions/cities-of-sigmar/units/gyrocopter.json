@@ -1,0 +1,62 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "gyrocopter",
+  "name": "Gyrocopter",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 5,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CITIES OF SIGMAR",
+    "DUARDIN",
+    "FLY",
+    "ORDER",
+    "WAR MACHINE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Gyrocopter Guns",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Rotor Blades",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "DUARDIN",
+    "FLY"
+  ],
+  "abilities": [
+    {
+      "name": "Guild Bombs",
+      "type": "once-per-battle",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "movement",
+      "declare": "If this unit used a **^^Move^^** ability this phase, pick an enemy unit that does not have **^^Fly^^** and that this unit passed across this turn to be the target."
+    }
+  ]
+}

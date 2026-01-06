@@ -1,0 +1,81 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "mortis-engine",
+  "name": "Mortis Engine",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 12,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "FLY",
+    "HERO",
+    "SOULBLIGHT GRAVELORDS",
+    "WAR MACHINE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Corpsemaster's Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Spectral Host's Blades",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Nexus of Death Energy",
+      "type": "passive",
+      "effect": "When a friendly **^^Deathrattle^^** or **^^Deadwalkers^^** unit wholly within 12\" of this unit is picked to be the target of the ‘Deathly Invocation’ ability, add D3 to the number of damage points that can be healed or the combined Health characteristic of models that can be returned."
+    },
+    {
+      "name": "Wave of Power",
+      "type": "once-per-turn",
+      "effect": "Roll a dice for each target. On a 3+, inflict an amount of mortal damage on the target equal to the value of this unit’s **stored energy dice**. Then, change the value of the **stored energy dice** back to 1.",
+      "phase": "shooting",
+      "declare": "Pick up to 3 enemy units within 10\" of this unit to be the targets."
+    },
+    {
+      "name": "The Reliquary",
+      "type": "passive",
+      "effect": "When this unit is set up for the first time, place a **stored energy dice** beside it with the ‘1’ facing up. Each time a friendly **^^Soulblight Gravelords Wizards^^** successfully casts a spell while it is within 12\" of this unit, increase the value of the **stored energy dice** beside this unit by 1 (to a maximum of 6)."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

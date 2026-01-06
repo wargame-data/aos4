@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "cyrenis-razors",
+  "name": "Cyreni's Razors",
+  "faction": "idoneth-deepkin",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "AKHELIAN",
+    "CHAMPION",
+    "IDONETH DEEPKIN",
+    "INFANTRY",
+    "LEGENDS",
+    "NAMARTI",
+    "ORDER",
+    "UNIQUE"
+  ],
+  "baseSize": 4,
+  "weapons": [
+    {
+      "name": "Lanmari Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Cephanyr’s Tentacles",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "AKHELIAN",
+    "CHAMPION",
+    "IDONETH DEEPKIN",
+    "LEGENDS",
+    "NAMARTI"
+  ],
+  "abilities": [
+    {
+      "name": "Phase Ink",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "If this unit’s **Cephanyr** is on the battlefield, pick an enemy unit in combat with this unit to be the target."
+    },
+    {
+      "name": "Cyreni of the Abyss",
+      "type": "passive",
+      "effect": "While this unit’s **Cyreni of the Abyss** is on the battlefield, it has **^^Wizard (1)."
+    }
+  ]
+}

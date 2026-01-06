@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "grey-seer",
+  "name": "Grey Seer",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "HERO",
+    "INFANTRY",
+    "MASTERCLAN",
+    "SKAVEN",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Warpstone Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "MASTERCLAN",
+    "SKAVEN",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Warpstone Shards",
+      "type": "passive",
+      "effect": "The next time you make a casting roll for this unit this phase, roll 3D6 instead of 2D6. This roll cannot be rerolled or modified.\nIf the casting roll is 13, the spell is successfully cast and cannot be unbound. After the effect of that spell has been resolved, inflict D3 mortal damage on this unit.\nIf the casting roll is not 13, remove 1 dice of your choice from the casting roll and use the remaining 2D6 as the casting roll.",
+      "phase": "hero"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "MASTERCLAN"
+      ],
+      "description": "Units with MASTERCLAN keyword"
+    }
+  ]
+}

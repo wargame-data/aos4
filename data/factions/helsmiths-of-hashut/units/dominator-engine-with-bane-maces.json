@@ -1,0 +1,57 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "dominator-engine-with-bane-maces",
+  "name": "Dominator Engine with Bane Maces",
+  "faction": "helsmiths-of-hashut",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 10,
+    "save": "2+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "AUTOMATON",
+    "CHAOS",
+    "HELSMITHS OF HASHUT",
+    "WAR MACHINE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Bane Maces",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "AUTOMATON",
+    "HELSMITHS OF HASHUT"
+  ],
+  "abilities": [
+    {
+      "name": "Engine of Domination",
+      "type": "once-per-turn",
+      "effect": "If this unit is in combat with any enemy **^^Heroes^^**, it can use 2 **^^Fight^^** abilities this phase. After the first is used, however, this unit has **^^Strike-last^^** for the rest of the phase and can only be picked to use a second **^^Fight^^** ability if it is still in combat with any enemy **^^Heroes^^**.",
+      "phase": "combat"
+    },
+    {
+      "name": "Daemonic Strength",
+      "type": "passive",
+      "effect": "For each **daemonic power point** this unit has:\n• Add 1\" to its Move characteristic\n• Add 1 to the Attacks characteristic of its weapons."
+    }
+  ]
+}

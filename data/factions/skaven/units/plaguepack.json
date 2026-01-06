@@ -1,0 +1,72 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "plaguepack",
+  "name": "Plaguepack",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION (1/5)",
+    "CHAOS",
+    "INFANTRY",
+    "PESTILENS",
+    "PRIEST (1)",
+    "SKAVEN"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Plague Censer",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Weapons of Corruption",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION (1/5)",
+    "PESTILENS",
+    "PRIEST (1)",
+    "SKAVEN"
+  ],
+  "abilities": [
+    {
+      "name": "Plague Rat",
+      "type": "passive",
+      "effect": "This unit’s **Plague rat** is a token. If you make an unmodified chanting roll of 1 for this unit while its **Plague rat** is on the battlefield, you can remove its **Plague rat** from the battlefield and then re-roll that chanting roll."
+    },
+    {
+      "name": "Enshrouding Fumes",
+      "type": "passive",
+      "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit."
+    }
+  ]
+}

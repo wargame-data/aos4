@@ -1,0 +1,66 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "grand-justice-gormayne",
+  "name": "Grand Justice Gormayne",
+  "faction": "flesh-eater-courts",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "ABHORRENT",
+    "DEATH",
+    "FLESH-EATER COURTS",
+    "HERO",
+    "INFANTRY",
+    "UNIQUE",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Gore-streaked Gavel",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "ABHORRENT",
+    "FLESH-EATER COURTS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Arrest those Miscreants",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, until the start of your next turn, the target has **^^Strike-last^^** while it is combat with any friendly **^^Flesh-eater Courts Heroes^^** and any friendly **^^Serfs^^** or **^^Knights^^** units.",
+      "phase": "charge",
+      "declare": "Pick a visible enemy unit within 18\" of this unit to be the target."
+    },
+    {
+      "name": "Accusations of Regicide",
+      "type": "passive",
+      "effect": "While you believe this **^^Delusion^^**, add 1 to the Damage characteristic of melee weapons used by friendly **^^Serfs^^** and **^^Knights^^** units while they ae wholly within 12\" of any friendly **^^Flesh-eater Courts Heroes^^** that had any damage points allocated to them in the same turn.",
+      "keywords": [
+        "**^^DELUSION^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

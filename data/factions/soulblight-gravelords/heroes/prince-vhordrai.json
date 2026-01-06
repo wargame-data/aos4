@@ -1,0 +1,129 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "prince-vhordrai",
+  "name": "Prince Vhordrai",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 18,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "FLY",
+    "HERO",
+    "MONSTER",
+    "SOULBLIGHT GRAVELORDS",
+    "UNIQUE",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Shordmaire's Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Shordmaire's Maw",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "The Bloodlance",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Shordemaire's Miasma",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Shordmaire's Claws** is 5."
+    },
+    {
+      "name": "Trail of Crimson",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 4+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "combat",
+      "declare": "This unit can make a pile-in move (even if it is not in combat). Then, if this unit is in combat, pick an enemy unit in combat with it to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Quickblood",
+      "type": "spell",
+      "effect": "This unit has **^^Strike-First^^** until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    },
+    {
+      "name": "Saint of Slaughter",
+      "type": "passive",
+      "effect": "Pick 1 of the following effects to apply for the rest of the battle:\n• Add 2\" to the target’s Move characteristic.\n• Add 1 to the Attacks characteristic of the target’s melee weapons.\n• Add 1 to the Damage characteristic of the target’s melee weapons.\nMore than 1 effect can apply to a unit at the same time; however, each effect can only be applied to a unit once.",
+      "phase": "any",
+      "declare": "Pick a friendly non-**^^Monster Vampire^^** unit that destroyed a unit this turn using a **^^Fight^^** ability and is wholly within 12\" of this unit to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

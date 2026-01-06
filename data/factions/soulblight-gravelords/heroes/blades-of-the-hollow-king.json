@@ -1,0 +1,105 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "blades-of-the-hollow-king",
+  "name": "Blades of the Hollow King",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "HERO",
+    "INFANTRY",
+    "SOULBLIGHT GRAVELORDS",
+    "UNIQUE",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Kennistrix's Fangs",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Ezechiarian Greatsword",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Sissendra's Twin Blades",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Solia, the Tutor",
+      "type": "passive",
+      "effect": "Pick 1 of the following to apply for the rest of the turn:\n• This unit has **^^Ward (5+)^^**\n• This unit's **Ezechiarian Greatsword** has **Crit (Mortal)**",
+      "phase": "combat",
+      "declare": "This unit can use this ability while its **Cado Ezechiar** is on the battlefield."
+    },
+    {
+      "name": "Aurelias",
+      "type": "passive",
+      "effect": "Pick 1 of the following to apply for the rest of the turn:\n• Add 1 to this unit's power level.\n• Each time a casting roll is made for this unit, you can re-roll 1 of the dice.",
+      "phase": "hero",
+      "declare": "This unit can use this ability while its **Aurelias** is on the battlefield."
+    },
+    {
+      "name": "Retribution or Salvation",
+      "type": "spell",
+      "effect": "If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly **Deathrattle** or **Deadwalkers** unit, subtract 1 from wound rolls for combat attacks that target that unit for the rest of the turn.",
+      "phase": "hero",
+      "declare": "This unit can cast this spell while its **Cado Ezechiar** is on the battlefield. Pick a visible unit within 12\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "eidolon-of-mathlann-aspect-of-the-storm",
+  "name": "Eidolon of Mathlann, Aspect of the Storm",
+  "faction": "idoneth-deepkin",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 12,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "EIDOLON",
+    "FLY",
+    "HERO",
+    "IDONETH DEEPKIN",
+    "MONSTER",
+    "ORDER",
+    "WARD (5+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Spear of Repressed Fury and Crulhook",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "EIDOLON",
+    "FLY",
+    "IDONETH DEEPKIN",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Drench With Hate",
+      "type": "passive",
+      "effect": "Add 1 to wound rolls for combat attacks made by friendly **^^Idoneth Deepkin^^** units while they are wholly within 12\" of this unit."
+    },
+    {
+      "name": "Crashing Upon the Foe",
+      "type": "passive",
+      "effect": "This unit can use **^^Charge^^** abilities even if it used a **^^Retreat^^** ability in the same turn. In addition, no mortal damage is inflicted on this unit by **^^Retreat^^** abilities."
+    },
+    {
+      "name": "Pulled Into the Depths",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "charge",
+      "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

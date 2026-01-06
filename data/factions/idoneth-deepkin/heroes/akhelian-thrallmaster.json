@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "akhelian-thrallmaster",
+  "name": "Akhelian Thrallmaster",
+  "faction": "idoneth-deepkin",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "AKHELIAN",
+    "HERO",
+    "IDONETH DEEPKIN",
+    "INFANTRY",
+    "ORDER"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Esoteric Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "AKHELIAN",
+    "IDONETH DEEPKIN"
+  ],
+  "abilities": [
+    {
+      "name": "Thrallmaster",
+      "type": "reaction",
+      "effect": "Pick a friendly **Namarti Thralls** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved."
+    },
+    {
+      "name": "Akhelian Insights",
+      "type": "passive",
+      "effect": "Melee weapons used by friendly **^^Namarti^^** units have **Crit (2 Hits)** while they are wholly within 12\" of this unit.",
+      "phase": "combat"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

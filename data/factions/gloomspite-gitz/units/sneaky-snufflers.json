@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "sneaky-snufflers",
+  "name": "Sneaky Snufflers",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "GLOOMSPITE GITZ",
+    "INFANTRY",
+    "MOONCLAN",
+    "WARD (5+)"
+  ],
+  "baseSize": 6,
+  "weapons": [
+    {
+      "name": "Loonfungus Sickle",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Snufflesquig’s Gnashers",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "MOONCLAN",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Looncap Mushrooms",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. Add 1 to the roll if the face of the Bad Moon is **Cacklin'** this turn. On a 3+, the target has **^^Ward (5+)^^** until the start of your next turn. On a 6+, also add 1 to the Attacks characteristic of the target’s melee weapons until the start of your next turn.",
+      "phase": "hero",
+      "declare": "If this unit is not in combat, pick a friendly **^^Moonclan^^** unit wholly within 12\" of it to be the target."
+    }
+  ]
+}

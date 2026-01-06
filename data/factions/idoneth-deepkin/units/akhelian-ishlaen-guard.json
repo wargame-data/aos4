@@ -1,0 +1,77 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "akhelian-ishlaen-guard",
+  "name": "Akhelian Ishlaen Guard",
+  "faction": "idoneth-deepkin",
+  "points": 0,
+  "stats": {
+    "move": "14\"",
+    "health": 4,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "AKHELIAN",
+    "CAVALRY",
+    "CHAMPION",
+    "FLY",
+    "IDONETH DEEPKIN",
+    "MUSICIAN (1/3)",
+    "ORDER",
+    "STANDARD BEARER (1/3)"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Helsabre",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Fangmora’s Fangs and Lashing Tail",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "AKHELIAN",
+    "CHAMPION",
+    "FLY",
+    "IDONETH DEEPKIN",
+    "MUSICIAN (1/3)",
+    "STANDARD BEARER (1/3)"
+  ],
+  "abilities": [
+    {
+      "name": "Biovoltaic Barrier",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target unit’s weapons for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target."
+    },
+    {
+      "name": "Galv-shields",
+      "type": "passive",
+      "effect": "This unit has **^^Ward (5+)^^** if it charged in the same turn."
+    }
+  ]
+}

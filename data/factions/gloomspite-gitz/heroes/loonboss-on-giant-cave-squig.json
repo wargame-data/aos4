@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "loonboss-on-giant-cave-squig",
+  "name": "Loonboss on Giant Cave Squig",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "D6+6\"",
+    "health": 6,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "DESTRUCTION",
+    "GLOOMSPITE GITZ",
+    "HERO",
+    "MOONCLAN",
+    "SQUIG"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Massive Fang-filled Gob",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Moon-cutta or Loonboss Stabba",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "MOONCLAN",
+    "SQUIG"
+  ],
+  "abilities": [
+    {
+      "name": "Let's Get Bouncin'!",
+      "type": "reaction",
+      "effect": "Pick a friendly non-**^^Hero Moonclan Cavalry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target\ncan be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "MOONCLAN"
+      ],
+      "description": "Units with MOONCLAN keyword"
+    }
+  ]
+}

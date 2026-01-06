@@ -1,0 +1,77 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "terradon-chief",
+  "name": "Terradon Chief",
+  "faction": "seraphon",
+  "points": 0,
+  "stats": {
+    "move": "14\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "FLY",
+    "HERO",
+    "ORDER",
+    "SERAPHON",
+    "SKINK"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Skyblade",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Terradon’s Razor-sharp Jaws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FLY",
+    "SERAPHON",
+    "SKINK"
+  ],
+  "abilities": [
+    {
+      "name": "Chief's Deadly Cargo",
+      "type": "passive",
+      "effect": "Roll a dice and add 2 to the roll if this unit is within the combat ranges of any friendly **Terradon Riders** units.\nOn a 5+:\n• Inflict D3 mortal damage on the target.\n• If any damage points are allocated by this ability and the target does not have **^^Fly^^**, the target cannot use **^^Run^^** abilities until the start of your next turn.",
+      "phase": "movement",
+      "declare": "Pick an enemy unit that this unit passed across this phase to be the target."
+    },
+    {
+      "name": "Attack from On High",
+      "type": "passive",
+      "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

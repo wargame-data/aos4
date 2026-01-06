@@ -1,0 +1,54 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "ogroid-theridons",
+  "name": "Ogroid Theridons",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "INFANTRY",
+    "MUSICIAN (1/3)",
+    "SLAVES TO DARKNESS",
+    "STANDARD BEARER (1/3)"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Goroan Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-Infantry (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "MUSICIAN (1/3)",
+    "SLAVES TO DARKNESS",
+    "STANDARD BEARER (1/3)"
+  ],
+  "abilities": [
+    {
+      "name": "Unleashed Savagery",
+      "type": "once-per-battle",
+      "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons for the rest of the turn.",
+      "phase": "combat"
+    }
+  ]
+}

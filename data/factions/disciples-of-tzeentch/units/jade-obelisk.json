@@ -1,0 +1,89 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "jade-obelisk",
+  "name": "Jade Obelisk",
+  "faction": "disciples-of-tzeentch",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 1,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "ARCANITE",
+    "CHAMPION (1/10)",
+    "CHAOS",
+    "DISCIPLES OF TZEENTCH",
+    "INFANTRY"
+  ],
+  "baseSize": 10,
+  "weapons": [
+    {
+      "name": "Stone-like Beak",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Mason’s Tools",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Faction Terrain^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Antithete Bow",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Jade Dagger",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "ARCANITE",
+    "CHAMPION (1/10)",
+    "DISCIPLES OF TZEENTCH"
+  ],
+  "abilities": [
+    {
+      "name": "Stone-cursed Resolve",
+      "type": "passive",
+      "effect": "Ignore all modifiers to save rolls for this unit (positive and negative)."
+    },
+    {
+      "name": "Cast Down the Idol",
+      "type": "passive",
+      "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons for attacks that target **^^Faction Terrain^^**."
+    }
+  ]
+}

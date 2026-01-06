@@ -1,0 +1,52 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "chaos-warhounds",
+  "name": "Chaos Warhounds",
+  "faction": "beasts-of-chaos",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "BEAST",
+    "BEASTS OF CHAOS",
+    "CHAOS",
+    "LEGENDS"
+  ],
+  "baseSize": 10,
+  "weapons": [
+    {
+      "name": "Canine Jaws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEAST",
+    "BEASTS OF CHAOS",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Outrunners of Chaos",
+      "type": "reaction",
+      "effect": "Change one of the dice in the charge roll to a 4."
+    }
+  ]
+}

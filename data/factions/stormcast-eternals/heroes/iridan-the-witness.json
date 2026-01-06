@@ -1,0 +1,103 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "iridan-the-witness",
+  "name": "Iridan the Witness",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 12,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "FLY",
+    "HERO",
+    "MONSTER",
+    "ORDER",
+    "PRIEST (1)",
+    "RUINATION CHAMBER",
+    "STORMCAST ETERNALS",
+    "UNIQUE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Axe of the Final Threshold",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Ariax's Talons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FLY",
+    "PRIEST (1)",
+    "RUINATION CHAMBER",
+    "STORMCAST ETERNALS"
+  ],
+  "abilities": [
+    {
+      "name": "Prayer of the Witness",
+      "type": "prayer",
+      "effect": "For the rest of the turn, each time a friendly **^^Ruination Chamber^^** unit uses a **^^Fight^^** ability while it is wholly within 18\" of this unit, after that ability has been resolved:\n• **Heal (D3)** that unit. If the chanting roll was 8+, **Heal (3)** that unit instead.\n• That unit has **^^Ward (6+)^^** for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Make a chanting roll of D6.",
+      "chantingValue": 4,
+      "keywords": [
+        "**^^PRAYER^^**"
+      ]
+    },
+    {
+      "name": "Dark Flight",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. If the roll exceeds the target’s Health characteristic:\n• 1 model in the target unit is slain.\n• This unit can immediately use the ‘Retreat’ ability without any mortal damage being inflicted upon it.",
+      "phase": "any",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Ruination Chamber",
+      "type": "reaction",
+      "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "RUINATION CHAMBER"
+      ],
+      "description": "Units with RUINATION CHAMBER keyword"
+    }
+  ]
+}

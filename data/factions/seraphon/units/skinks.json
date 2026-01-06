@@ -1,0 +1,63 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "skinks",
+  "name": "Skinks",
+  "faction": "seraphon",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "INFANTRY",
+    "ORDER",
+    "SERAPHON",
+    "SKINK"
+  ],
+  "baseSize": 10,
+  "weapons": [
+    {
+      "name": "Javelins and Boltspitters",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Celestite Daggers and Moonstone Clubs",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "SERAPHON",
+    "SKINK"
+  ],
+  "abilities": [
+    {
+      "name": "Swift and Nimble",
+      "type": "passive",
+      "effect": "When this unit uses the ‘Redeploy’ command, when determining the distance this unit can move, you can roll 2 dice instead of 1 and pick either result."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "myrmourn-banshees",
+  "name": "Myrmourn Banshees",
+  "faction": "nighthaunt",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "FLY",
+    "INFANTRY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "baseSize": 4,
+  "weapons": [
+    {
+      "name": "Chill Dagger",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Wizard^^** (+1 Rend)",
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Spell-eaters",
+      "type": "reaction",
+      "effect": "If a friendly **^^Nighthaunt^^** unit wholly within 12\" of this unit was picked to be the target of that spell, this unit can use the ‘Unbind’ ability as if it had **^^Wizard (1)^^**. Add 1 to the unbinding roll for that ability. If the spell is unbound, inflict D3 mortal damage on the caster"
+    }
+  ]
+}

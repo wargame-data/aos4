@@ -1,0 +1,115 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "vampire-lord-on-zombie-dragon",
+  "name": "Vampire Lord on Zombie Dragon",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 16,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "FLY",
+    "HERO",
+    "MONSTER",
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Pestilential Breath",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Dynastic Weapon",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Draconic Maw",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Draconic Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Draconic Claws is 5."
+    },
+    {
+      "name": "Bloodthirsty Dominance",
+      "type": "once-per-turn",
+      "effect": "Roll a number of dice equal to the target’s Health characteristic. For each 6, inflict 1 mortal damage on the target.",
+      "phase": "any",
+      "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "That Which Should Not Be",
+      "type": "passive",
+      "effect": "If this unit charged this turn, for the rest of the turn, subtract 5 from the control scores of enemy units while they are in combat with this unit."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

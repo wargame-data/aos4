@@ -1,0 +1,81 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "scinari-loreseeker",
+  "name": "Scinari Loreseeker",
+  "faction": "lumineth-realm-lords",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "HERO",
+    "INFANTRY",
+    "LUMINETH REALM-LORDS",
+    "ORDER",
+    "SCINARI",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Eclipsian Staff",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Loreseeker Blade",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "LUMINETH REALM-LORDS",
+    "SCINARI",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Lone Agent",
+      "type": "passive",
+      "effect": "Add 5 to this unit’s control score while it is more than 9\" from all other friendly units."
+    },
+    {
+      "name": "Independent Operative",
+      "type": "passive",
+      "effect": "If this unit has not been deployed, set it up anywhere on the battlefield not in combat with any enemy units. This unit has now been deployed.\n**Designer’s Note:** *Enemy units that deploy after this unit can deploy in combat with it.*",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

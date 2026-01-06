@@ -1,0 +1,65 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "scriptor-mortis",
+  "name": "Scriptor Mortis",
+  "faction": "nighthaunt",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "FLY",
+    "HERO",
+    "INFANTRY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Malicious Quill",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Sentenced to Eternal Torment",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, inflict 1 mortal damage on the target and the target has the **^^Sentenced^^** keyword until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 18\" of this unit to be the target."
+    },
+    {
+      "name": "Judge, Jury and Executioner",
+      "type": "passive",
+      "effect": "Each time a friendly **^^Nighthaunt Infantry^^** unit uses a **^^Fight^^** ability, if all of its attacks target the same **^^Sentenced^^** enemy unit, that friendly unit's melee weapons have **Crit (Mortal)** for that **^^Fight^^** ability."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

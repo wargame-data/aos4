@@ -1,0 +1,53 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "sporesplatta-fanatics",
+  "name": "Sporesplatta Fanatics",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "2\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "GLOOMSPITE GITZ",
+    "INFANTRY",
+    "MOONCLAN"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Spore-ball and Chain",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "MOONCLAN"
+  ],
+  "abilities": [
+    {
+      "name": "Puffshroom Frenzy",
+      "type": "passive",
+      "effect": "Add 1 to the Attacks characteristic of melee weapons used by other friendly **^^Moonclan^^** units while they are wholly within 12\" of this unit. Subtract 1 from the Attacks characteristic of melee weapons used by enemy units while they are in combat with this unit."
+    },
+    {
+      "name": "A Prod in the Right Direction",
+      "type": "passive",
+      "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase."
+    }
+  ]
+}

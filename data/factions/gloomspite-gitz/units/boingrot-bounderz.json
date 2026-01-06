@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "boingrot-bounderz",
+  "name": "Boingrot Bounderz",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "D6+6\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAMPION",
+    "DESTRUCTION",
+    "FLY",
+    "GLOOMSPITE GITZ",
+    "MOONCLAN",
+    "SQUIG"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Fang-filled Gob",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Pokin’ Lance",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLY",
+    "GLOOMSPITE GITZ",
+    "MOONCLAN",
+    "SQUIG"
+  ],
+  "abilities": [
+    {
+      "name": "Boing! Smash!",
+      "type": "passive",
+      "effect": "Roll a dice for each model in this unit. For each 4+, inflict 1 mortal damage on the target.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target."
+    }
+  ]
+}

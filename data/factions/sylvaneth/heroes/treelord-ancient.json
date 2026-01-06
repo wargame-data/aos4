@@ -1,0 +1,95 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "treelord-ancient",
+  "name": "Treelord Ancient",
+  "faction": "sylvaneth",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 14,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "HERO",
+    "MONSTER",
+    "ORDER",
+    "SYLVANETH",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Doom Tendril Staff",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Sweeping Blows",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-charge (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Massive Impaling Talons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "SYLVANETH",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Groundshaker",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 4+, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Sweeping Blows** is 3."
+    },
+    {
+      "name": "Awakening the Wood",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage equal to the roll on each enemy unit within the target’s combat range.",
+      "phase": "hero",
+      "declare": "Pick a visible friendly **Awakened Wyldwood** wholly within 18\" of this unit to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

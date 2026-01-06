@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "the-jaws-of-itzl",
+  "name": "The Jaws of Itzl",
+  "faction": "seraphon",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 3,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "INFANTRY",
+    "LEGENDS",
+    "ORDER",
+    "SAURUS",
+    "SERAPHON",
+    "UNIQUE"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Celestite Weapon",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Relic Celestite Warmace",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "LEGENDS",
+    "SAURUS",
+    "SERAPHON"
+  ],
+  "abilities": [
+    {
+      "name": "Scaled Protectors",
+      "type": "passive",
+      "effect": "While this unit’s **Kro-Jax** is on the battlefield, ignore the first damage point that would be allocated to this unit in each phase."
+    },
+    {
+      "name": "Venomite Swarm",
+      "type": "passive",
+      "effect": "This unit’s **Sotek’s Venomites** is a token. If this unit’s **Sotek’s Venomites** is on the battlefield, roll a D3. On a 1, remove this unit’s **Sotek’s Venomites** from the battlefield. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target."
+    }
+  ]
+}

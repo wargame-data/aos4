@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "pyregheists",
+  "name": "Pyregheists",
+  "faction": "nighthaunt",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION (1/8)",
+    "DEATH",
+    "FLY",
+    "INFANTRY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "baseSize": 8,
+  "weapons": [
+    {
+      "name": "Flaming Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Gout of Balefire",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION (1/8)",
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Light a Pyre",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+:\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Add a number equal to the roll to this unit’s control score for the rest of the turn.",
+      "phase": "any",
+      "declare": "If this unit is contesting an\nobjective, pick a visible enemy unit within\n6\" of this unit to be the target."
+    }
+  ]
+}

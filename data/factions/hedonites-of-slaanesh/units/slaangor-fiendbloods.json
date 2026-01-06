@@ -1,0 +1,51 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "slaangor-fiendbloods",
+  "name": "Slaangor Fiendbloods",
+  "faction": "hedonites-of-slaanesh",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "CHAOS",
+    "HEDONITES OF SLAANESH",
+    "INFANTRY",
+    "SYBARITE"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Razor-sharp Claws and Gilded Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "HEDONITES OF SLAANESH",
+    "SYBARITE"
+  ],
+  "abilities": [
+    {
+      "name": "Slaughter at Any Cost",
+      "type": "passive",
+      "effect": "If any damage points were allocated to this unit this turn, this unit can use the ‘Normal Move’ ability as if it were your movement phase.",
+      "phase": "shooting"
+    }
+  ]
+}

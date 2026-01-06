@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "killaboss-with-stab-grot",
+  "name": "Killaboss with Stab-grot",
+  "faction": "kruleboyz",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "HERO",
+    "INFANTRY",
+    "KRULEBOYZ"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Boss-hacka",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Stab-grot’s Shiv",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "KRULEBOYZ"
+  ],
+  "abilities": [
+    {
+      "name": "Keep 'Em in Line",
+      "type": "reaction",
+      "effect": "If this unit is wholly within 12\" of the unit using the ‘All-out Attack’ command, add 1 to wound rolls for combat attacks made by that unit for the rest of the phase."
+    },
+    {
+      "name": "Unleash the Stab-grot!",
+      "type": "once-per-battle",
+      "effect": "Pick 1 of the following effects:\n• Pick an enemy unit in combat with this unit to be the target. Inflict D3 mortal damage on the target.\n• This unit has **^^Ward (5+)^^** for the rest of the turn.\nAfter resolving either effect, remove this unit’s **Stab-grot** from the battlefield.",
+      "phase": "combat"
+    },
+    {
+      "name": "Stab-grot",
+      "type": "passive",
+      "effect": "This unit’s **Stab-grot** is a token. If this unit’s **Stab grot** has been removed, it can no longer attack with its **Stab-grot’s Shiv** and it cannot use the ‘Unleash the Stab-grot!’ ability."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

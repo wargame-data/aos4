@@ -1,0 +1,65 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "cogsmith",
+  "name": "Cogsmith",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 5,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CITIES OF SIGMAR",
+    "DUARDIN",
+    "HERO",
+    "INFANTRY",
+    "ORDER"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Cogsmith’s Firearms",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Gun Butt and Cog Axe",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "DUARDIN"
+  ],
+  "abilities": [
+    {
+      "name": "Direct the Gyrocorps",
+      "type": "once-per-turn",
+      "effect": "Roll a dice for each target. On a 3+, add 1 to hit rolls for the target’s attacks until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick up to 3 visible friendly **Gyrocopter** or **Gyrobomber** units wholly within 18\" of this unit to be the targets."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

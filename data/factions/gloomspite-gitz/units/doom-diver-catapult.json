@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "doom-diver-catapult",
+  "name": "Doom Diver Catapult",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 12,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "GITMOB",
+    "GLOOMSPITE GITZ",
+    "WAR MACHINE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Slicers and Krag-smasha's Paws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Doom Diver",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Catapult Crew Tools",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GITMOB",
+    "GLOOMSPITE GITZ"
+  ],
+  "abilities": [
+    {
+      "name": "Shoddy Wing-like Gizmos",
+      "type": "once-per-turn",
+      "effect": "You can re-roll hit rolls for this unit's shooting attacks this turn, but for each hit roll that is re-rolled, subtract 1 from the Rend characteristic of this unit's **Doom Diver** for the rest of the turn.",
+      "phase": "shooting"
+    }
+  ]
+}

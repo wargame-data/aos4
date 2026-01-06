@@ -1,0 +1,80 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "judicators-with-skybolt-bows",
+  "name": "Judicators with Skybolt Bows",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "INFANTRY",
+    "LEGENDS",
+    "ORDER",
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Storm Gladius",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Shockbolt Bow",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Skybolt Bow",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "LEGENDS",
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Subduing Shots",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, the target cannot use **^^Rampage^^** abilities until the start of your next turn.",
+      "phase": "shooting",
+      "declare": "Pick a visible enemy **^^Monster^^** that had any damage points allocated to it this phase by this unit’s shooting attacks to be the target."
+    }
+  ]
+}

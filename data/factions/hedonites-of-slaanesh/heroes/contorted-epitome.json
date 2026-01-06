@@ -1,0 +1,62 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "contorted-epitome",
+  "name": "Contorted Epitome",
+  "faction": "hedonites-of-slaanesh",
+  "points": 0,
+  "stats": {
+    "move": "9\"",
+    "health": 7,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "DAEMON",
+    "HEDONITES OF SLAANESH",
+    "HERO",
+    "INFANTRY",
+    "WARD (4+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Piercing Claws and Coiled Tentacles",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "HEDONITES OF SLAANESH",
+    "WARD (4+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Horrible Fascination",
+      "type": "reaction",
+      "effect": "Inflict D3 mortal damage on that enemy unit."
+    },
+    {
+      "name": "Swallow Energy",
+      "type": "passive",
+      "effect": "If you make a successful ward roll for this unit, add 1 to this unit’s power level until the end of your next turn."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

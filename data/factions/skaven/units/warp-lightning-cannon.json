@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "warp-lightning-cannon",
+  "name": "Warp Lightning Cannon",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "3\"",
+    "health": 8,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "SKAVEN",
+    "SKRYRE",
+    "WAR MACHINE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Warp Lightning Blast",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Crew’s Teeth and Knives",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SKAVEN",
+    "SKRYRE"
+  ],
+  "abilities": [
+    {
+      "name": "More-more Warp Lightning!",
+      "type": "once-per-turn",
+      "effect": "If this unit is within the combat range of a friendly **^^Skryre Hero^^**, add 6 to the Attacks characteristic of this unit’s **Warp Lightning Blast** for the rest of the turn.\nHowever, for each unmodified hit roll of 1 for an attack made with this unit’s **Warp Lightning Blast**, inflict D3 mortal damage on this unit after the **^^Shoot^^** ability has been resolved.",
+      "phase": "shooting"
+    },
+    {
+      "name": "Warp Lightning Blast",
+      "type": "passive",
+      "effect": "Each attack made with this weapon in a single phase must target the same enemy unit. Each hit inflicts 1 mortal damage on the target and the attack sequence ends."
+    }
+  ]
+}

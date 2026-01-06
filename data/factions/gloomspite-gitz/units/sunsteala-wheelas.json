@@ -1,0 +1,77 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "sunsteala-wheelas",
+  "name": "Sunsteala Wheelas",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DESTRUCTION",
+    "GITMOB",
+    "GLOOMSPITE GITZ",
+    "WAR MACHINE"
+  ],
+  "baseSize": 2,
+  "weapons": [
+    {
+      "name": "Grot Bow",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Wheela Slicers and Stabbin’ Stikka",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Snarlfangs' Frothing Jaws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "GITMOB",
+    "GLOOMSPITE GITZ"
+  ],
+  "abilities": [
+    {
+      "name": "Careening Destruction",
+      "type": "once-per-turn",
+      "effect": "If this unit is in combat, it can move a distance up to its Move characteristic. It can pass through other models and the combat ranges of enemy units, but it cannot end that move in combat. Then, pick up to 1 enemy **^^Infantry^^** or **^^Cavalry^^** unit that this unit passed across during that move to be the target. Inflict D3 mortal damage on the target. Add 1 to the amount of mortal damage inflicted for each model in this unit.\n**Designer's Note:** *This unit can use this ability even if it is in combat.*",
+      "phase": "movement",
+      "keywords": [
+        "**^^CORE^^**",
+        "**^^MOVE^^**"
+      ]
+    }
+  ]
+}

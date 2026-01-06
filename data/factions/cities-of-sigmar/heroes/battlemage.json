@@ -1,0 +1,55 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "battlemage",
+  "name": "Battlemage",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CITIES OF SIGMAR",
+    "HERO",
+    "HUMAN",
+    "INFANTRY",
+    "ORDER",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Wizard’s Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Magic of the Realms",
+      "type": "passive",
+      "effect": "Pick a **^^Spell^^** ability that this unit can use. For the rest of the battle, add 1 to casting rolls for this unit when it uses that **^^Spell^^** ability."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

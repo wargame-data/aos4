@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "the-exiled-dead",
+  "name": "The Exiled Dead",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DEADWALKERS",
+    "DEATH",
+    "INFANTRY",
+    "LEGENDS",
+    "SOULBLIGHT GRAVELORDS",
+    "UNIQUE",
+    "WARD (6+)"
+  ],
+  "baseSize": 7,
+  "weapons": [
+    {
+      "name": "Arco-electric Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DEADWALKERS",
+    "LEGENDS",
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Unfeeling Fortitude",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, this unit has **^^Ward (5+)^^** until the start of your next turn.",
+      "phase": "hero"
+    },
+    {
+      "name": "Deintalos the Exile",
+      "type": "passive",
+      "effect": "While this unit’s **Deintalos the Exile** is on the battlefield, it has **^^Wizard (1)^^**. While this unit’s **Prentice Marcov** is on the battlefield, add 1 to casting rolls for this unit."
+    }
+  ]
+}

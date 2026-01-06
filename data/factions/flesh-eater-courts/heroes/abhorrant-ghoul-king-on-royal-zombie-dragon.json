@@ -1,0 +1,122 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "abhorrant-ghoul-king-on-royal-zombie-dragon",
+  "name": "Abhorrant Ghoul King on Royal Zombie Dragon",
+  "faction": "flesh-eater-courts",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 16,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "ABHORRENT",
+    "DEATH",
+    "FLESH-EATER COURTS",
+    "FLY",
+    "HERO",
+    "MONSTER",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Gory Talons and Fangs",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Draconic Jaws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Draconic Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Baneful Breath",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "ABHORRENT",
+    "FLESH-EATER COURTS",
+    "FLY",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Necromantic Limits",
+      "type": "passive",
+      "effect": "This unit's **Draconic Claws** have a maximum Attacks characteristic of 10.\nWhile this unit has 10 or more damage points, the Attacks characteristic of its **Draconic Claws** is 5."
+    },
+    {
+      "name": "Monstrous Hunger",
+      "type": "passive",
+      "effect": "While they are wholly within 12\" of this unit, friendly non-**^^Hero Flesh-eater Courts Monsters^^** can use **^^Charge^^** abilities even if they used a Run ability in the same turn."
+    },
+    {
+      "name": "Draconic Terror",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. If the roll exceeds the target’s Control characteristic, the target cannot use commands for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "For the Kingdom!",
+      "type": "passive",
+      "effect": "While you believe this **^^Delusion^^**, add 1 to charge rolls for friendly **^^Knights^^** units and friendly **^^Flesh-eater Courts Monsters^^** while they are wholly within 12\" of any friendly **^^Flesh-eater Courts Heroes^^**.\nAdd 2 to charge rolls for friendly **^^Knights^^** units and friendly **^^Flesh-eater Courts Monsters^^** instead while they are wholly within 12\" of any friendly **Abhorrant Ghoul Kings on Royal Zombie Dragons**.",
+      "keywords": [
+        "**^^DELUSION^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

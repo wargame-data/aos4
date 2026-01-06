@@ -1,0 +1,110 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "archaon-the-everchosen",
+  "name": "Archaon, the Everchosen",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "14\"",
+    "health": 25,
+    "save": "3+",
+    "control": 10
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "DAEMON",
+    "FLY",
+    "HERO",
+    "MONSTER",
+    "SLAVES TO DARKNESS",
+    "UNIQUE",
+    "WARD (5+)",
+    "WARMASTER",
+    "WARRIORS OF CHAOS",
+    "WIZARD (2)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "The Slayer of Kings",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Dorghar’s Heads",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Dorghar’s Claws and Tails",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "FLY",
+    "SLAVES TO DARKNESS",
+    "WARD (5+)",
+    "WARRIORS OF CHAOS",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Dorghar’s Claws and Tails** is 4."
+    },
+    {
+      "name": "The Slayer of Kings",
+      "type": "passive",
+      "effect": "Each time this unit uses a **^^Fight^^** ability, if the unmodified wound roll for 2 or more attacks made with **The Slayer of Kings** that target the same **^^Hero^^** is 6, that **^^Hero^^** is automatically destroyed."
+    },
+    {
+      "name": "The Eye of Sheerian",
+      "type": "once-per-battle",
+      "effect": "Roll a dice. This roll replaces the priority roll of the next battle round. On a 1-3, your opponent must take the first turn of that battle round. On a 4-6, you must take the first turn of that battle round. This ability cannot be used if there is an enemy **Archaon** on the battlefield.",
+      "phase": "hero"
+    },
+    {
+      "name": "Three-headed Titan",
+      "type": "once-per-turn",
+      "effect": "Pick 1 of the following effects:\n***Filth-spewer:*** Pick an enemy unit within 6\" of this unit and roll a number of dice equal to the number of models in that unit, to a maximum of 7. For each 3+, inflict 1 mortal damage on that unit.\n***Skull-gorger:*** Pick an enemy unit in combat with this unit and roll a dice. If the roll exceeds that unit’s Health characteristic, 1 model in that unit is slain and you can **Heal (X)** this unit, where **X** is that unit’s Health characteristic.\n***Spell-eater:*** Pick a **^^Manifestation^^** within 12\" of this unit and roll a dice. On a 2+, it is banished and removed from play. In addition, inflict D3 mortal damage on the unit that summoned it.",
+      "phase": "combat",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

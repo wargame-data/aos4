@@ -1,0 +1,66 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "weirdnob-shaman",
+  "name": "Weirdnob Shaman",
+  "faction": "ironjawz",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 6,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "HERO",
+    "INFANTRY",
+    "IRONJAWZ",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Green Puke",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Waaagh! Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "IRONJAWZ",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Brutal Power",
+      "type": "passive",
+      "effect": "Add 1 to this unit’s power level while there are any friendly **^^Ironjawz^^** units that have 10 or more models wholly within 12\" of it."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

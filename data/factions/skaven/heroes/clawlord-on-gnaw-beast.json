@@ -1,0 +1,86 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "clawlord-on-gnaw-beast",
+  "name": "Clawlord on Gnaw-beast",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "9\"",
+    "health": 7,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAOS",
+    "HERO",
+    "SKAVEN",
+    "VERMINUS"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Warpforged Halberd",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Ratling Pistol",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Gnaw-beast’s Chisel Fangs",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SKAVEN",
+    "VERMINUS"
+  ],
+  "abilities": [
+    {
+      "name": "Cornered Rat",
+      "type": "passive",
+      "effect": "While this unit is damaged, add 3 to the Attacks characteristic of its **Warpforged Halberd**."
+    },
+    {
+      "name": "Cruel Commander",
+      "type": "passive",
+      "effect": "Inflict 1 mortal damage on the target. Then, add 5 to the target’s control score until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick a friendly non-**^^Hero Verminus Infantry^^** unit wholly within 13\" of this unit to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

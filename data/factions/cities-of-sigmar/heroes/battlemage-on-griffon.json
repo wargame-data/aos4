@@ -1,0 +1,91 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "battlemage-on-griffon",
+  "name": "Battlemage on Griffon",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 15,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "CITIES OF SIGMAR",
+    "FLY",
+    "HERO",
+    "HUMAN",
+    "MONSTER",
+    "ORDER",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Amber Spear",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti‑**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Beaststaff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Griffon’s Razor Claws and Twin Beaks",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "FLY",
+    "HUMAN",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Ghurish Ferocity",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 2+, add 1 to the Damage characteristic of this unit’s **Griffon’s Razor Claws and Twin Beaks** for attacks that target enemy **^^Monsters^^** for the rest of the turn.",
+      "phase": "combat",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Griffon’s Razor Claws and Twin Beaks** is 4."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

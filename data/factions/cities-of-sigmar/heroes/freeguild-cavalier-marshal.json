@@ -1,0 +1,85 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "freeguild-cavalier-marshal",
+  "name": "Freeguild Cavalier-Marshal",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 7,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CITIES OF SIGMAR",
+    "HERO",
+    "HUMAN",
+    "ORDER"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Dragoon Pistol",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Master-forged Cavalier Sword",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Warhorse’s Steel-shod Hooves",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN"
+  ],
+  "abilities": [
+    {
+      "name": "'For Sigmar, Charge!'",
+      "type": "passive",
+      "effect": "Add 1 to charge rolls for this unit and for friendly **Freeguild Cavaliers** units while they are wholly within 12\" of this unit."
+    },
+    {
+      "name": "Run Down the Foe",
+      "type": "once-per-battle",
+      "effect": "This unit and the target have **^^Strike-first^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "If this unit charged this turn, pick a friendly **^^Cities of Sigmar Human Cavalry^^** unit that charged this turn and is wholly within 12\" of this unit to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

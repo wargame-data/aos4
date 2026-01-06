@@ -1,0 +1,54 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "nurglings",
+  "name": "Nurglings",
+  "faction": "maggotkin-of-nurgle",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 4,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "DAEMON",
+    "INFANTRY",
+    "MAGGOTKIN OF NURGLE",
+    "WARD (5+)"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Tiny Razor-sharp Teeth",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "MAGGOTKIN OF NURGLE",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Endless Swarm",
+      "type": "passive",
+      "effect": "**Heal (3)** this unit.",
+      "phase": "any"
+    }
+  ]
+}

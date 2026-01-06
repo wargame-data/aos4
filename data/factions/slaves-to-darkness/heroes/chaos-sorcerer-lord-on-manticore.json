@@ -1,0 +1,84 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "chaos-sorcerer-lord-on-manticore",
+  "name": "Chaos Sorcerer Lord on Manticore",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 12,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "FLY",
+    "HERO",
+    "LEGENDS",
+    "MONSTER",
+    "SLAVES TO DARKNESS",
+    "WARRIORS OF CHAOS",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Sorcerous Reaping Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Manticore’s Claws and Fangs",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "FLY",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "WARRIORS OF CHAOS",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Oracular Visions",
+      "type": "once-per-turn",
+      "effect": "On a 3+, the target has **^^Ward (5+)^^** until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Warriors of Chaos^^** unit wholly within 12\" of this unit to be the target and roll a dice."
+    },
+    {
+      "name": "Venomous Tail Strike",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, the target has **^^Strike-last^^**^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Monster^^** in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

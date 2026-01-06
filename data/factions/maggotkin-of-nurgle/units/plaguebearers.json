@@ -1,0 +1,59 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "plaguebearers",
+  "name": "Plaguebearers",
+  "faction": "maggotkin-of-nurgle",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "CHAOS",
+    "DAEMON",
+    "INFANTRY",
+    "MAGGOTKIN OF NURGLE",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)",
+    "WARD (5+)"
+  ],
+  "baseSize": 10,
+  "weapons": [
+    {
+      "name": "Plaguesword",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DAEMON",
+    "MAGGOTKIN OF NURGLE",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Cloud of Flies",
+      "type": "passive",
+      "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit."
+    }
+  ]
+}

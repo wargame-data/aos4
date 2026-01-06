@@ -1,0 +1,88 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "thorns-of-the-briar-queen",
+  "name": "Thorns of the Briar Queen",
+  "faction": "nighthaunt",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "FLY",
+    "INFANTRY",
+    "LEGENDS",
+    "NIGHTHAUNT",
+    "UNIQUE",
+    "WARD (6+)"
+  ],
+  "baseSize": 7,
+  "weapons": [
+    {
+      "name": "Malignant Weapon",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Piercing Scream",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Ancient Chill Dagger",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "LEGENDS",
+    "NIGHTHAUNT",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Ghostly Howl",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 2+, the target cannot use commands until the start of your next turn.",
+      "phase": "shooting",
+      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Piercing Scream** to be the target."
+    },
+    {
+      "name": "The Briar Queen",
+      "type": "passive",
+      "effect": "While this unit’s **Briar Queen** is on the battlefield, it has **^^Wizard (1)^^**."
+    }
+  ]
+}

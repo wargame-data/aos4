@@ -1,0 +1,72 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "dominator-engine-with-immolation-cannons",
+  "name": "Dominator Engine with Immolation Cannons",
+  "faction": "helsmiths-of-hashut",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 10,
+    "save": "2+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "AUTOMATON",
+    "CHAOS",
+    "HELSMITHS OF HASHUT",
+    "WAR MACHINE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Immolation Cannons",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Cavalry^^** (+1 Rend)",
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Horns and Pummelling Strikes",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "AUTOMATON",
+    "HELSMITHS OF HASHUT"
+  ],
+  "abilities": [
+    {
+      "name": "All Must Burn",
+      "type": "passive",
+      "effect": "For the rest of the turn, add 2 to the Attacks characteristic of this unit’s **Immolation Cannons** for each unit picked to be the target of this ability, but each time this unit uses a **^^Shoot^^** ability, it must target each of those units with at least 3 of its attacks.",
+      "phase": "shooting",
+      "declare": "Pick any number of visible enemy units within 8\" of this unit to be the targets."
+    },
+    {
+      "name": "Daemonic Strength",
+      "type": "passive",
+      "effect": "For each **daemonic power point** this unit has:\n• Add 1\" to its Move characteristic\n• Add 1 to the Attacks characteristic of its weapons."
+    }
+  ]
+}

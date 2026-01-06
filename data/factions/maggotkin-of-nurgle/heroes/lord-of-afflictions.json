@@ -1,0 +1,81 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "lord-of-afflictions",
+  "name": "Lord of Afflictions",
+  "faction": "maggotkin-of-nurgle",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 8,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAOS",
+    "FLY",
+    "HERO",
+    "MAGGOTKIN OF NURGLE",
+    "ROTBRINGERS",
+    "WARD (5+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Festerspike",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Rot Fly’s Mouthparts and Sting",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "FLY",
+    "MAGGOTKIN OF NURGLE",
+    "ROTBRINGERS",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Master of Rot Flies",
+      "type": "passive",
+      "effect": "Add 1 to the Rend characteristic of the targets’ **Companion** melee weapons for the rest of the turn.",
+      "phase": "combat",
+      "declare": "If this unit charged this turn, pick this unit and up to 2 friendly **Pusgoyle Blightlords** units wholly within 12\" of this unit to be the targets."
+    },
+    {
+      "name": "Vectors of Foulest Contagion",
+      "type": "once-per-turn",
+      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "combat",
+      "declare": "Pick up to 3 enemy units in combat with this unit to be the targets."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

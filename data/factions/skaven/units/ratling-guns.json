@@ -1,0 +1,63 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "ratling-guns",
+  "name": "Ratling Guns",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 3,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "INFANTRY",
+    "SKAVEN",
+    "SKRYRE",
+    "WEAPON TEAM"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Rusty Knives",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Ratling Gun",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SKAVEN",
+    "SKRYRE",
+    "WEAPON TEAM"
+  ],
+  "abilities": [
+    {
+      "name": "Hidden Weapon Team",
+      "type": "passive",
+      "effect": "While this unit is within the combat range of a friendly **Clanrats** unit that has 5 or more models, and there are no other friendly **^^Weapon Team^^** units within that unit’s combat range, this unit is not visible to enemy units more than 13\" away."
+    }
+  ]
+}

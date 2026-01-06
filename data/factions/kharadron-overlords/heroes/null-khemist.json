@@ -1,0 +1,73 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "null-khemist",
+  "name": "Null-Khemist",
+  "faction": "kharadron-overlords",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 8,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DUARDIN",
+    "HERO",
+    "INFANTRY",
+    "KHARADRON OVERLORDS",
+    "ORDER",
+    "SKYFARER"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Prospecting Clamp",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Null-gas Extinguisher",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "DUARDIN",
+    "KHARADRON OVERLORDS",
+    "SKYFARER"
+  ],
+  "abilities": [
+    {
+      "name": "Protection of the Void",
+      "type": "passive",
+      "effect": "While they are wholly within 12\" of this unit, friendlt **^^Skyfarer^^** units have **^^Ward (5+)^^** against mortal damage inflicted by **^^Spell^^** abilities, **^^Prayer^^** abilities and abilities used by **^^Manifestations^^**."
+    },
+    {
+      "name": "Nullsuit",
+      "type": "passive",
+      "effect": "Double the Damage characteristic of this unit's weapons for attacks that target **^^Priests^^**, **^^Wizards^^**, or **^^Manifestations^^**."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,89 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "freeguild-fusiliers",
+  "name": "Freeguild Fusiliers",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 1,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "INFANTRY",
+    "ORDER",
+    "STANDARD BEARER (1/10)"
+  ],
+  "baseSize": 10,
+  "weapons": [
+    {
+      "name": "Fusil-cannon: Fortified Position",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Fusil-cannon: Mobile",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Bayonet",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "STANDARD BEARER (1/10)"
+  ],
+  "abilities": [
+    {
+      "name": "Fusiliers, Fire!",
+      "type": "passive",
+      "effect": "Each time this unit uses a **^^Shoot^^** ability, if it is in a fortified position, it can pick either of the ranged weapon profiles for all the attacks it makes with its **Fusil-cannons**. If it is not in a fortified position, use the **Mobile** weapon characteristics."
+    },
+    {
+      "name": "Blackpowder Squire",
+      "type": "passive",
+      "effect": "This unit has a **Blackpowder Squire** token. Each time this unit uses a **^^Shoot^^** ability, if this unit’s **Blackpowder Squire** is on the battlefield, you can re-roll 1 hit roll. If a hit roll re-rolled in this manner is 1, remove this unit’s **Blackpowder Squire** from the battlefield."
+    },
+    {
+      "name": "Fortify Position",
+      "type": "passive",
+      "effect": "This unit establishes a fortified position and remains in a fortified position until it either uses a **^^Move^^** ability or is removed from the battlefield. While this unit is in a fortified position, subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.",
+      "phase": "movement",
+      "keywords": [
+        "**^^CORE^^**"
+      ]
+    }
+  ]
+}

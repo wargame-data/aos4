@@ -1,0 +1,46 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "beasts-of-chaos-chaos-spawn",
+  "name": "Beasts of Chaos Chaos Spawn",
+  "faction": "beasts-of-chaos",
+  "points": 0,
+  "stats": {
+    "move": "2\"",
+    "health": 5,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "BEAST",
+    "BEASTS OF CHAOS",
+    "CHAOS",
+    "LEGENDS"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Freakish Mutations",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEAST",
+    "BEASTS OF CHAOS",
+    "LEGENDS"
+  ]
+}

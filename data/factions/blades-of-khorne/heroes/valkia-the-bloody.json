@@ -1,0 +1,77 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "valkia-the-bloody",
+  "name": "Valkia the Bloody",
+  "faction": "blades-of-khorne",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "BLADES OF KHORNE",
+    "BLOODBOUND",
+    "CHAOS",
+    "FLY",
+    "HERO",
+    "INFANTRY",
+    "LEGENDS",
+    "UNIQUE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Slaupnir",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "BLOODBOUND",
+    "FLY",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Borne on Wings of Blood",
+      "type": "passive",
+      "effect": "Set up this unit in reserve **soaring above the battlefield**. It has now been deployed.",
+      "declare": "Pick this unit if it has not been deployed.",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ]
+    },
+    {
+      "name": "The Red Angel of Slaughter",
+      "type": "passive",
+      "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units. Then, pick a visible enemy unit within 10\" of this unit and roll a dice. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+      "phase": "movement",
+      "declare": "Pick this unit if it is **soaring above the battlefield**."
+    },
+    {
+      "name": "The Gaze of Khorne",
+      "type": "passive",
+      "effect": "If a friendly **^^Bloodbound^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6. However, friendly **^^Bloodbound^^** units cannot use **^^Retreat^^** abilities while they are within 12\" of this unit."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

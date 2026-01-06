@@ -1,0 +1,90 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "lauka-vai-mother-of-nightmares",
+  "name": "Lauka Vai, Mother of Nightmares",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 11,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "FLY",
+    "HERO",
+    "MONSTER",
+    "SOULBLIGHT GRAVELORDS",
+    "UNIQUE",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Askurga Rapier",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Gore-drenched Talons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "The Queen's Dictat",
+      "type": "spell",
+      "effect": "Pick 1 of the target’s melee weapons. If the target has any **Companion** melee weapons, you must pick 1 of those. Add D3 to the Attacks characteristic of that weapon for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick a visible friendly non-**^^Unique Soulblight Gravelords Monster^^** wholly within 12\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    },
+    {
+      "name": "Nightmare's Miasma",
+      "type": "passive",
+      "effect": "Subtract 1 from the Rend characteristic of melee weapons used by enemy units while they are in combat with this unit."
+    },
+    {
+      "name": "Impaling Talons",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. If the roll is equal to or less than the target’s Health characteristic, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "combat",
+      "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

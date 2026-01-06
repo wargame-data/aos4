@@ -1,0 +1,85 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "skittershanks-clawpack",
+  "name": "Skittershank's Clawpack",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "7\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "ESHIN",
+    "INFANTRY",
+    "LEGENDS",
+    "SKAVEN",
+    "UNIQUE"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Poisoned Stars",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Weeping Blade",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Poisoned Blades",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "ESHIN",
+    "LEGENDS",
+    "SKAVEN"
+  ],
+  "abilities": [
+    {
+      "name": "Sneaky Infiltrators",
+      "type": "passive",
+      "effect": "While each model in this unit is within 1\" of a terrain feature, this unit cannot be targeted by shooting attacks unless the attacking model is within 9\" of it."
+    },
+    {
+      "name": "Shadowy Killers",
+      "type": "passive",
+      "effect": "If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends."
+    }
+  ]
+}

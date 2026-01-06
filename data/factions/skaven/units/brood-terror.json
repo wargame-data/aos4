@@ -1,0 +1,84 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "brood-terror",
+  "name": "Brood Terror",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 12,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "MONSTER",
+    "MOULDER",
+    "SKAVEN"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Warpflame Scourger",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Chain-flail",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Bladed Limbs",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "MOULDER",
+    "SKAVEN"
+  ],
+  "abilities": [
+    {
+      "name": "Warpstone Fumes",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 2+, for the rest of the turn, subtract 1 from hit rolls for attacks made by enemy units while they are within 6\" of this unit.",
+      "phase": "combat",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Regenerating Terror",
+      "type": "passive",
+      "effect": "**Heal (D6)** this unit.",
+      "phase": "any"
+    }
+  ]
+}

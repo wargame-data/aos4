@@ -1,0 +1,59 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "the-sons-of-velmorn",
+  "name": "The Sons of Velmorn",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 2,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DEATH",
+    "DEATHRATTLE",
+    "INFANTRY",
+    "LEGENDS",
+    "SOULBLIGHT GRAVELORDS",
+    "UNIQUE",
+    "WARD (6+)"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Royal Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DEATHRATTLE",
+    "LEGENDS",
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Rise Again",
+      "type": "passive",
+      "effect": "If this unit’s **King Morlak Velmorn** is on the battlefield, roll a dice for each slain model from this unit. On a 4+, you can return 1 slain model to this unit.",
+      "phase": "combat"
+    }
+  ]
+}

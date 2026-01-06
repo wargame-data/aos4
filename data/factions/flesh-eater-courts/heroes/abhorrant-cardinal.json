@@ -1,0 +1,65 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "abhorrant-cardinal",
+  "name": "Abhorrant Cardinal",
+  "faction": "flesh-eater-courts",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "ABHORRENT",
+    "DEATH",
+    "FLESH-EATER COURTS",
+    "HERO",
+    "INFANTRY",
+    "PRIEST (1)",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Cursed Crosier",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "ABHORRENT",
+    "FLESH-EATER COURTS",
+    "PRIEST (1)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Insular Contemplations",
+      "type": "passive",
+      "effect": "While this unit is more than 6\" from all enemy units, add 1 to chanting rolls for this unit."
+    },
+    {
+      "name": "Banishing Liturgy",
+      "type": "passive",
+      "effect": "While you believe this **^^Delusion^^**:\n• Add 2 to banishment rolls for friendly **^^Flesh-eater Courts^^** units.\n• Friendly **^^Flesh-eater Courts^^** units have **^^Ward (4+)^^** against damage points inflicted by **^^Spell^^** abilities, **^^Prayer^^** abilities, and abilities used by **^^Manifestations^^**.",
+      "keywords": [
+        "**^^DELUSION^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "singri-brand",
+  "name": "Singri Brand",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 4,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAOS",
+    "DARKOATH",
+    "GUNNAR'S OATHSWORN",
+    "HERO",
+    "SLAVES TO DARKNESS",
+    "UNIQUE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Singri’s Warbow",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Warsteed’s Hooves",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Brand Ancestral Knife",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DARKOATH",
+    "GUNNAR'S OATHSWORN",
+    "SLAVES TO DARKNESS"
+  ],
+  "abilities": [
+    {
+      "name": "Swift as the Wind",
+      "type": "passive",
+      "effect": "Only critical hits score successful hits for shooting attacks that target this unit."
+    },
+    {
+      "name": "Uncanny Shot",
+      "type": "passive",
+      "effect": "Add 1 to the Rend characteristic of this unit’s **Singri’s Warbow** for attacks that target enemy units that are within 6\" of a friendly **Gunnar Brand**."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

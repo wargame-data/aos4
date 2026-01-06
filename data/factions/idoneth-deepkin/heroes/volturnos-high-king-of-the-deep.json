@@ -1,0 +1,86 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "volturnos-high-king-of-the-deep",
+  "name": "Volturnos, High King of the Deep",
+  "faction": "idoneth-deepkin",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 8,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "AKHELIAN",
+    "CAVALRY",
+    "FLY",
+    "HERO",
+    "IDONETH DEEPKIN",
+    "ORDER",
+    "UNIQUE",
+    "WARMASTER"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "The Astra Solus",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Uasall’s Fangs, Talons and Lashing Tails",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "AKHELIAN",
+    "FLY",
+    "IDONETH DEEPKIN"
+  ],
+  "abilities": [
+    {
+      "name": "First Among Akhelians",
+      "type": "passive",
+      "effect": "Add 1 to hit rolls for combat attacks made by other friendly **^^Akhelian^^** units while they are wholly within 12\" of this unit."
+    },
+    {
+      "name": "Cealith, the High King's Shield",
+      "type": "passive",
+      "effect": "This unit has **^^Ward (3+)^^** against mortal damage inflicted by **^^Spell^^** abilities, **^^Prayer^^** abilities or abilities used by **^^Manifestations^^**."
+    },
+    {
+      "name": "Supreme Lord of Tides",
+      "type": "once-per-battle",
+      "effect": "Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick up to 3 other friendly **^^Idoneth Deepkin^^** units wholly within 12\" of this unit to be the targets."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "dreadscythe-harridans",
+  "name": "Dreadscythe Harridans",
+  "faction": "nighthaunt",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DEATH",
+    "FLY",
+    "INFANTRY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "baseSize": 10,
+  "weapons": [
+    {
+      "name": "Scythed Limbs",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Harrowing Shrieks",
+      "type": "passive",
+      "effect": "Enemy units cannot be healed or have slain models returned to them while they are in combat with this unit."
+    }
+  ]
+}

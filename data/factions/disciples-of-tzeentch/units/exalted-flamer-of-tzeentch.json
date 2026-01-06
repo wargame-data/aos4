@@ -1,0 +1,73 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "exalted-flamer-of-tzeentch",
+  "name": "Exalted Flamer of Tzeentch",
+  "faction": "disciples-of-tzeentch",
+  "points": 0,
+  "stats": {
+    "move": "9\"",
+    "health": 4,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "DAEMON",
+    "DISCIPLES OF TZEENTCH",
+    "FLY",
+    "INFANTRY",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Wyrdflame Blast",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Wyrdflame"
+      ]
+    },
+    {
+      "name": "Flaming Maws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "DISCIPLES OF TZEENTCH",
+    "FLY",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Capricious Wyrdflame",
+      "type": "passive",
+      "effect": "Add 1 to wound rolls for this unit’s shooting attacks that target a **^^Burning^^** enemy unit."
+    },
+    {
+      "name": "Transmogrifying Beacon",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, the target’s ranged weapons have **Crit (2 Hits)** for the rest of the turn.",
+      "phase": "shooting",
+      "declare": "Pick another friendly **Exalted Flamer of Tzeentch** or **Flamers of Tzeentch** unit within this unit’s combat range to be the target."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "herald-of-khorne-on-blood-throne",
+  "name": "Herald of Khorne on Blood Throne",
+  "faction": "blades-of-khorne",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 10,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "BLADES OF KHORNE",
+    "CHAOS",
+    "DAEMON",
+    "HERO",
+    "PRIEST (1)",
+    "WAR MACHINE",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Blade of Blood and Hellblades",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Blood-hungry",
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "DAEMON",
+    "PRIEST (1)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Blood Marked",
+      "type": "passive",
+      "effect": "This unit has **^^Ward (4+)^^** against damage inflicted by **^^Spell^^** abilities and abilities used by **^^Manifestations^^**."
+    },
+    {
+      "name": "Offering of Blood",
+      "type": "once-per-turn",
+      "effect": "Allocate 3 damage points to the target (ward rolls cannot be made for those damage points). For the rest of the turn, add 1 to this unit's power level, to a maximum of 2.",
+      "phase": "hero",
+      "declare": "Pick a friendly unit within 3\" of this unit to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

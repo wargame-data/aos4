@@ -1,0 +1,57 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "shrine-luminor",
+  "name": "Shrine Luminor",
+  "faction": "lumineth-realm-lords",
+  "points": 0,
+  "stats": {
+    "move": "0\"",
+    "health": 12,
+    "save": "3+",
+    "control": 0
+  },
+  "role": "other",
+  "keywords": [
+    "FACTION TERRAIN",
+    "FLY",
+    "LUMINETH REALM-LORDS",
+    "ORDER"
+  ],
+  "baseSize": 1,
+  "weapons": [],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FACTION TERRAIN",
+    "FLY",
+    "LUMINETH REALM-LORDS"
+  ],
+  "abilities": [
+    {
+      "name": "Shrine Guardian",
+      "type": "passive",
+      "effect": "While this terrain feature has a Shrine Guardian:\n• This terrain feature has a Move characteristic of 6\" and can use non-command non-**^^Charge^^** **^^Move^^** abilities as if it were a unit.\n• The Shrine Guardian cannot use **^^Move^^** abilities and remains on this terrain feature each time it moves.\n• Instead of measuring range or visibility to the Shrine Guardian, measure to this terrain feature instead.\n• All attacks that would target the Shrine Guardian target this terrain feature instead.\n• If this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Shrine Guardian. Then, set up the Shrine Guardian on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer a Shrine Guardian. If it is not possible to set up the Shrine Guardian, it is slain."
+    },
+    {
+      "name": "Enter the Shrine",
+      "type": "passive",
+      "effect": "Place the target on this terrain feature. The target is now a Shrine Guardian (see ‘Shrine Guardian’).",
+      "phase": "hero",
+      "declare": "If this terrain feature does not have a Shrine Guardian, pick a friendly **^^Lumineth Realm‑lords Infantry Hero^^** within 3\" of it and not in combat to be the target."
+    },
+    {
+      "name": "Cleansing Rituals",
+      "type": "reaction",
+      "effect": "While this terrain feature has a Shrine Guardian, you can re-roll the casting roll for that spell."
+    },
+    {
+      "name": "Exit the Shrine",
+      "type": "passive",
+      "effect": "If this terrain feature has a Shrine Guardian that was not placed on it this turn, set up the Shrine Guardian on the battlefield wholly within 6\" of this terrain feature and not in combat. That unit is no longer a Shrine Guardian.",
+      "phase": "movement"
+    }
+  ]
+}

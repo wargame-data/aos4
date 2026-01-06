@@ -1,0 +1,54 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "saurus-guard",
+  "name": "Saurus Guard",
+  "faction": "seraphon",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "INFANTRY",
+    "MUSICIAN (1/5)",
+    "ORDER",
+    "SAURUS",
+    "SERAPHON",
+    "STANDARD BEARER (1/5)"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Celestite Polearm",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "MUSICIAN (1/5)",
+    "SAURUS",
+    "SERAPHON",
+    "STANDARD BEARER (1/5)"
+  ],
+  "abilities": [
+    {
+      "name": "Selfless Protectors",
+      "type": "passive",
+      "effect": "While any friendly **^^Slann^^** units are within this unit’s combat range, both this unit and those **^^Slann^^** units have Ward (5+)."
+    }
+  ]
+}

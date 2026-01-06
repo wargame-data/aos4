@@ -1,0 +1,93 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "bloodwrack-shrine",
+  "name": "Bloodwrack Shrine",
+  "faction": "daughters-of-khaine",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 12,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "DAUGHTERS OF KHAINE",
+    "HERO",
+    "MELUSAI",
+    "ORDER",
+    "WAR MACHINE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Bloodwrack Stare",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Bloodwrack Spear and Whisperclaw",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Shrinekeepers’ Goadstaves",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "DAUGHTERS OF KHAINE",
+    "MELUSAI",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Aura of Agony",
+      "type": "passive",
+      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "hero",
+      "declare": "Pick up to 3 different enemy units within 9\" of this unit to be the targets."
+    },
+    {
+      "name": "Bladed Impact",
+      "type": "passive",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target."
+    },
+    {
+      "name": "Bloodwrack Stare",
+      "type": "passive",
+      "effect": "Each time this unit attacks with its **Bloodwrack Stare**, if the attack scores a hit, roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on that unit. You cannot pick the same enemy unit to be targeted by attacks made with a **Bloodwrack Stare** more than once per phase."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

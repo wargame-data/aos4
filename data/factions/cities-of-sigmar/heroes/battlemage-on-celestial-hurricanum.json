@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "battlemage-on-celestial-hurricanum",
+  "name": "Battlemage on Celestial Hurricanum",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 12,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "CITIES OF SIGMAR",
+    "HERO",
+    "HUMAN",
+    "ORDER",
+    "WAR MACHINE",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Wizard’s Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Warhorses' Steel-shod Hooves",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Storm of Shemtek",
+      "type": "once-per-turn",
+      "effect": "Make a number of D3 rolls equal to the current battle round number. For each 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "shooting",
+      "declare": "Pick a visible enemy unit within 12\" of this unit to be the target."
+    },
+    {
+      "name": "Portents of Battle",
+      "type": "once-per-turn",
+      "effect": "Add 1 to hit rolls for the targets’ combat attacks until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick up to D3 visible friendly **^^Cities of Sigmar Human^^** units wholly within 12\" of this unit to be the targets."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

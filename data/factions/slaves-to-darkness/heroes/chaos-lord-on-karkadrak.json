@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "chaos-lord-on-karkadrak",
+  "name": "Chaos Lord on Karkadrak",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "9\"",
+    "health": 10,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAOS",
+    "HERO",
+    "SLAVES TO DARKNESS",
+    "WARRIORS OF CHAOS"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Hexed Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Karkadrak’s Claws and Horn",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SLAVES TO DARKNESS",
+    "WARRIORS OF CHAOS"
+  ],
+  "abilities": [
+    {
+      "name": "Drive the Legions Forward",
+      "type": "once-per-battle",
+      "effect": "Add 2 to charge rolls for the targets for the rest of the turn.",
+      "phase": "charge",
+      "declare": "Pick this unit and up to 2 friendly non-**^^Hero^^** non-**^^Cavalry Warriors of Chaos^^** units wholly within 12\" of this unit to be the targets."
+    },
+    {
+      "name": "Brutish Rampage",
+      "type": "passive",
+      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick up to 3 enemy units within 1\" of it to be the targets."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

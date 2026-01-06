@@ -1,0 +1,65 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "slickblade-seekers",
+  "name": "Slickblade Seekers",
+  "faction": "hedonites-of-slaanesh",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 4,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAMPION",
+    "CHAOS",
+    "HEDONITES OF SLAANESH",
+    "SYBARITE"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Slickblade Glaive",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Exalted Steed’s Poisoned Tongue",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "HEDONITES OF SLAANESH",
+    "SYBARITE"
+  ],
+  "abilities": [
+    {
+      "name": "Unrivalled Velocity",
+      "type": "passive",
+      "effect": "You can re-roll charge rolls for this unit."
+    }
+  ]
+}

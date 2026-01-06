@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "slaughtermaster",
+  "name": "Slaughtermaster",
+  "faction": "ogor-mawtribes",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 8,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "GUTBUSTERS",
+    "HERO",
+    "INFANTRY",
+    "OGOR",
+    "OGOR MAWTRIBES",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Gnoblars’ Implements",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Stump Blades",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GUTBUSTERS",
+    "OGOR",
+    "OGOR MAWTRIBES",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Fill the Pot",
+      "type": "passive",
+      "effect": "Each time an enemy unit is destroyed by a combat attack made by a friendly **^^Ogor Mawtribes^^** unit wholly within 18\" of this unit, give this unit a **grisly remains point**, to a maximum of 3."
+    },
+    {
+      "name": "Great Cauldron",
+      "type": "passive",
+      "effect": "You can spend 1 or more of this unit’s **grisly remains points**. For each point spent, pick a friendly **^^Gutbusters^^** unit wholly within 12\" of this unit to be the target, then pick 1 of the following effects: ***Bloodgruel:*** The target has **^^Ward (5+)^^** for the rest of the turn.\n***Spinemarrow:*** Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+      "phase": "hero"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

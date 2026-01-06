@@ -1,0 +1,74 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "the-oathsworn-kin",
+  "name": "The Oathsworn Kin",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "DARKOATH",
+    "GUNNAR'S OATHSWORN",
+    "INFANTRY",
+    "SLAVES TO DARKNESS",
+    "UNIQUE"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Heavy Darkoath Weapon",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Gnarled Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DARKOATH",
+    "GUNNAR'S OATHSWORN",
+    "SLAVES TO DARKNESS"
+  ],
+  "abilities": [
+    {
+      "name": "Broken Nadja",
+      "type": "passive",
+      "effect": "While this unit’s **Broken Nadja** is on the battlefield, it has **^^Wizard (1)^^**."
+    },
+    {
+      "name": "Withering Death",
+      "type": "spell",
+      "effect": "Inflict 1 mortal damage on the target and subtract 1 from the Attacks characteristic of the target’s melee weapons until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy **^^Hero^^** within 18\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 5,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    }
+  ]
+}

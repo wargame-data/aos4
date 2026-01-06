@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "chaos-lord-on-daemonic-mount",
+  "name": "Chaos Lord on Daemonic Mount",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 8,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAOS",
+    "HERO",
+    "SLAVES TO DARKNESS",
+    "WARRIORS OF CHAOS"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Cursed Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Daemonic Mount’s Mighty Hooves",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SLAVES TO DARKNESS",
+    "WARRIORS OF CHAOS"
+  ],
+  "abilities": [
+    {
+      "name": "The Knights of Chaos",
+      "type": "passive",
+      "effect": "Pick a friendly non-**^^Hero Warriors of Chaos Cavalry^^** unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to wound rolls for the target’s attacks for the rest of the turn."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

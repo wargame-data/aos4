@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "bull-centaurs",
+  "name": "Bull Centaurs",
+  "faction": "helsmiths-of-hashut",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 4,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAMPION",
+    "CHAOS",
+    "DUARDIN",
+    "HELSMITHS OF HASHUT"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Brazen Mauls",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DUARDIN",
+    "HELSMITHS OF HASHUT"
+  ],
+  "abilities": [
+    {
+      "name": "Bull Charge",
+      "type": "passive",
+      "effect": "Roll a dice for each model in this unit. Add the number of **daemonic power points** this unit has. For each 6+, inflict 1 mortal damage on the target.",
+      "phase": "charge",
+      "declare": "If this unit charged this turn, pick a visible enemy unit within 1\" of it to be the target."
+    },
+    {
+      "name": "Crush the Unworthy",
+      "type": "passive",
+      "effect": "Add 1 to charge rolls for each **daemonic power point** it has."
+    }
+  ]
+}

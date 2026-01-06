@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "ungor-raiders",
+  "name": "Ungor Raiders",
+  "faction": "beasts-of-chaos",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "BEASTS OF CHAOS",
+    "BRAYHERD",
+    "CHAMPION",
+    "CHAOS",
+    "INFANTRY",
+    "LEGENDS",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)"
+  ],
+  "baseSize": 10,
+  "weapons": [
+    {
+      "name": "Raider Bow",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Jagged Shank",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEASTS OF CHAOS",
+    "BRAYHERD",
+    "CHAMPION",
+    "LEGENDS",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)"
+  ],
+  "abilities": [
+    {
+      "name": "Hidden Volley",
+      "type": "once-per-turn",
+      "effect": "Roll a number of dice equal to the number of models in this unit. For each 6, inflict 1 mortal damage on the target. Then, in your next movement phase, set up this unit on the battlefield using the 'Beastherd Ambush' ability. If it is not possible to do so, it is destroyed.",
+      "phase": "hero",
+      "declare": "If this unit is in reserve in ambush, pick a non-**^^Hero^^** enemy unit within 12\" of a battlefield edge to be the target."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "kruleboyz-monsta-killaz",
+  "name": "Kruleboyz Monsta-killaz",
+  "faction": "kruleboyz",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION (1/7)",
+    "DESTRUCTION",
+    "INFANTRY",
+    "KRULEBOYZ",
+    "MUSICIAN (1/7)"
+  ],
+  "baseSize": 7,
+  "weapons": [
+    {
+      "name": "Monsta-killa Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)",
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION (1/7)",
+    "KRULEBOYZ",
+    "MUSICIAN (1/7)"
+  ],
+  "abilities": [
+    {
+      "name": "Klutcha-grot",
+      "type": "passive",
+      "effect": "This unit’s **Klutcha-grot** is a token. If it is removed from the battlefield, this unit cannot use the ‘A Tough Grot to Swallow’ ability."
+    },
+    {
+      "name": "Bait and Trap",
+      "type": "passive",
+      "effect": "Roll a dice. Add 1 to the roll if the target is damaged. On a 3+, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Monster^^** in combat with this unit to be the target."
+    },
+    {
+      "name": "A Tough Grot to Swallow",
+      "type": "reaction",
+      "effect": "Roll a dice. On a 2+, that **^^Rampage^^** ability has no effect. On a 1, remove this unit’s **Klutcha-grot** from the battlefield."
+    }
+  ]
+}

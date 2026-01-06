@@ -1,0 +1,57 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "bloodreavers",
+  "name": "Bloodreavers",
+  "faction": "blades-of-khorne",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "BLADES OF KHORNE",
+    "BLOODBOUND",
+    "CHAMPION",
+    "CHAOS",
+    "INFANTRY",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)"
+  ],
+  "baseSize": 10,
+  "weapons": [
+    {
+      "name": "Reaver Blades and Axes",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Blood-hungry"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "BLOODBOUND",
+    "CHAMPION",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)"
+  ],
+  "abilities": [
+    {
+      "name": "Blood for the Blood God!",
+      "type": "passive",
+      "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons if it charged in the same turn."
+    }
+  ]
+}

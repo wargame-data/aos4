@@ -1,0 +1,106 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "plague-priest-on-plague-furnace",
+  "name": "Plague Priest on Plague Furnace",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 15,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "HERO",
+    "PESTILENS",
+    "PRIEST (1)",
+    "SKAVEN",
+    "WAR MACHINE",
+    "WARD (5+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Great Plague Censer",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Foetid Blades",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Crushing Bulk",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Warpstone-tipped Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "PESTILENS",
+    "PRIEST (1)",
+    "SKAVEN",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Great Plague Censer** is 2."
+    },
+    {
+      "name": "Corrupting Influence",
+      "type": "passive",
+      "effect": "Subtract 1 from ward rolls for enemy units while they are within 13\" of this unit."
+    },
+    {
+      "name": "Altar of the Great Corruptor",
+      "type": "passive",
+      "effect": "Friendly **^^Pestilens^^** units have **^^Ward (6+)^^** while they are wholly within 13\" of this unit."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

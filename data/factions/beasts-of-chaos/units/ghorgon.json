@@ -1,0 +1,70 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "ghorgon",
+  "name": "Ghorgon",
+  "faction": "beasts-of-chaos",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 15,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "BEASTS OF CHAOS",
+    "CHAOS",
+    "LEGENDS",
+    "MONSTER"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Butchering Blades",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Infantry^^**(+1 Rend)"
+      ]
+    },
+    {
+      "name": "Huge Slavering Maw",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEASTS OF CHAOS",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Swallow Whole",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. If the roll exceeds the target’s Health characteristic:\n• 1 model in the target unit is slain.\n• **Heal (X)** this unit, where **X** is an amount equal to the roll.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Butchering Blades** is 4."
+    }
+  ]
+}

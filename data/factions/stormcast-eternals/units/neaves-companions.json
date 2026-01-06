@@ -1,0 +1,83 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "neaves-companions",
+  "name": "Neave's Companions",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 3,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "INFANTRY",
+    "ORDER",
+    "STORMCAST ETERNALS",
+    "THE BLACKTALONS",
+    "UNIQUE"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Cyclone Sword and Axe",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Stormcharged Warhammer",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Typhoon Crossbow",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Anda’s Celestial Talons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "STORMCAST ETERNALS",
+    "THE BLACKTALONS"
+  ],
+  "abilities": [
+    {
+      "name": "Shield of Azyr",
+      "type": "passive",
+      "effect": "While any friendly **^^The Blacktalons Heroes^^** are wholly within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**."
+    }
+  ]
+}

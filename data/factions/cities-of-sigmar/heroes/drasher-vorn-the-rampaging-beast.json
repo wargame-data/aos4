@@ -1,0 +1,69 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "drasher-vorn-the-rampaging-beast",
+  "name": "Drasher Vorn, the Rampaging Beast",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CITIES OF SIGMAR",
+    "HERO",
+    "HUMAN",
+    "INFANTRY",
+    "LEGENDS",
+    "ORDER",
+    "UNIQUE",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Feral Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "LEGENDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Fury of the Wildlands",
+      "type": "passive",
+      "effect": "If any enemy models have been slain by this unit’s combat attacks this turn, until the end of the next turn:\n• This unit cannot use **^^Retreat^^** abilities.\n• Add 1 to hit rolls for this unit’s combat attacks.",
+      "phase": "any",
+      "declare": "You must use this ability."
+    },
+    {
+      "name": "Ebon Claw",
+      "type": "passive",
+      "effect": "Allocate D3 damage points to this unit (ward rolls cannot be made for those damage points). Then, add the number of damage points allocated to this unit by this ability this turn to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.",
+      "phase": "hero"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

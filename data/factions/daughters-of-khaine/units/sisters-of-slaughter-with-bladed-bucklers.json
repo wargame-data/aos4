@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "sisters-of-slaughter-with-bladed-bucklers",
+  "name": "Sisters of Slaughter with Bladed Bucklers",
+  "faction": "daughters-of-khaine",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "CHAMPION",
+    "DAUGHTERS OF KHAINE",
+    "INFANTRY",
+    "MUSICIAN (1/5)",
+    "ORDER",
+    "STANDARD BEARER (1/5)",
+    "WARD (6+)"
+  ],
+  "baseSize": 10,
+  "weapons": [
+    {
+      "name": "Kruiplash",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CHAMPION",
+    "DAUGHTERS OF KHAINE",
+    "MUSICIAN (1/5)",
+    "STANDARD BEARER (1/5)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Dance of Diversion",
+      "type": "passive",
+      "effect": "Subtract 1 from hit rolls for combat attacks that target this unit."
+    },
+    {
+      "name": "Bladed Bucklers",
+      "type": "passive",
+      "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+    }
+  ]
+}

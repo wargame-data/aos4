@@ -1,0 +1,58 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "reclusians",
+  "name": "Reclusians",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 3,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "INFANTRY",
+    "ORDER",
+    "RUINATION CHAMBER",
+    "STORMCAST ETERNALS"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Rune-blessed Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "RUINATION CHAMBER",
+    "STORMCAST ETERNALS"
+  ],
+  "abilities": [
+    {
+      "name": "Memorian Descendants",
+      "type": "passive",
+      "effect": "This unit’s **Memorians** are tokens. There are 2 **Memorians** for every 3 models in this unit. While any of this unit’s **Memorians** are on the battlefield, add 1 to this unit’s resistance rolls when using the ‘Ruination Chamber’ ability. Each time you make an unmodified save roll of 1 for this unit, remove 1 of its **Memorians** from the battlefield after the **^^Attack^^** ability has been resolved (the damage point is still inflicted)."
+    },
+    {
+      "name": "Ruination Chamber",
+      "type": "reaction",
+      "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+    }
+  ]
+}

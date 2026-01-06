@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "knight-azyros",
+  "name": "Knight-Azyros",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 6,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "FLY",
+    "HERO",
+    "INFANTRY",
+    "ORDER",
+    "RUINATION CHAMBER",
+    "STORMCAST ETERNALS"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Star-blessed Weapon",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FLY",
+    "RUINATION CHAMBER",
+    "STORMCAST ETERNALS"
+  ],
+  "abilities": [
+    {
+      "name": "Light in the Dark",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, pick 1 of the following effects:\n• If the target is in combat, the target can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.\n• If the target is not in combat, the target can immediately use the ‘Normal Move’ ability as if it were your movement phase.",
+      "phase": "any",
+      "declare": "Pick a friendly **Prosecutors** unit wholly within 12\" of this unit to be the target."
+    },
+    {
+      "name": "The Light of Sigmar",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, pick 1 of the following effects:\n• For the rest of the turn, subtract 1 from hit rolls for attacks made by enemy units while they are in combat with this unit.\n• Heal (D3) each friendly **^^Stormcast Eternals^^** unit within this unit’s combat range.",
+      "phase": "combat"
+    },
+    {
+      "name": "Ruination Chamber",
+      "type": "reaction",
+      "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "RUINATION CHAMBER"
+      ],
+      "description": "Units with RUINATION CHAMBER keyword"
+    }
+  ]
+}

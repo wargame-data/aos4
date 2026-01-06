@@ -1,0 +1,85 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "knight-zephyros",
+  "name": "Knight-Zephyros",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "7\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "HERO",
+    "INFANTRY",
+    "ORDER",
+    "STORMCAST ETERNALS",
+    "VANGUARD CHAMBER"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Stormshot Pistol",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Tempest Axes",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)",
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "STORMCAST ETERNALS",
+    "VANGUARD CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Tireless Hunter",
+      "type": "once-per-turn",
+      "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement"
+    },
+    {
+      "name": "Vanguard Chamber",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn, this unit can use **^^Shoot^^** and/or **^^Charge^^** abilities even if it used a **^^Run^^** or **^^Retreat^^** ability in the same turn.",
+      "phase": "hero"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "VANGUARD CHAMBER"
+      ],
+      "description": "Units with VANGUARD CHAMBER keyword"
+    }
+  ]
+}

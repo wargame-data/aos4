@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "steelhearts-champions",
+  "name": "Steelheart's Champions",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 3,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "INFANTRY",
+    "LEGENDS",
+    "ORDER",
+    "STORMCAST ETERNALS",
+    "UNIQUE",
+    "WARRIOR CHAMBER"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Heavens-wrought Weapon",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "LEGENDS",
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Heroic Guard",
+      "type": "passive",
+      "effect": "Add 1 to save rolls for this unit while it is in combat with any enemy units that charged in the same turn."
+    },
+    {
+      "name": "Stalwart Defenders",
+      "type": "passive",
+      "effect": "Add 3 to this unit’s control score while it is contesting an objective wholly within friendly territory."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "stegadon-chief",
+  "name": "Stegadon Chief",
+  "faction": "seraphon",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 14,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "HERO",
+    "MONSTER",
+    "ORDER",
+    "SERAPHON",
+    "SKINK"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Handlers’ Meteoric Javelins",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Meteoric Warspear",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Stegadon’s Horns and Jaws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Skystreak Bow",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti‑**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Sunfire Throwers",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti‑**^^Infantry^^** (+1 Rend)",
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "SERAPHON",
+    "SKINK"
+  ],
+  "abilities": [
+    {
+      "name": "Skink Coordination",
+      "type": "passive",
+      "effect": "If a friendly non-**^^Monster Skink^^** unit uses the ‘Redeploy’ command while it is wholly within 18\" of this unit, no command points are spent."
+    },
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Stegadon’s Horns and Jaws** is 4."
+    },
+    {
+      "name": "Crushing Stomps",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Add 2 to the amount of mortal damage inflicted, if any, if this unit charged this turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

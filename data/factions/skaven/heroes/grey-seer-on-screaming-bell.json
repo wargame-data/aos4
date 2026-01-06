@@ -1,0 +1,111 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "grey-seer-on-screaming-bell",
+  "name": "Grey Seer on Screaming Bell",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 15,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "HERO",
+    "MASTERCLAN",
+    "SKAVEN",
+    "WAR MACHINE",
+    "WARD (5+)",
+    "WIZARD (2)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Rat Ogor’s Tearing Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Crushing Bulk",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Warpstone Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "MASTERCLAN",
+    "SKAVEN",
+    "WARD (5+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Crushing Bulk** is 4."
+    },
+    {
+      "name": "Altar of the Horned Rat",
+      "type": "passive",
+      "effect": "Friendly **^^Skaven Infantry^^** units have **^^Ward (6+)^^** while they are wholly within 13\" of this unit."
+    },
+    {
+      "name": "Peal of Doom",
+      "type": "passive",
+      "effect": "Roll a dice and apply the corresponding effect:\n**1 *Magical Backlash:*** Inflict D3 mortal damage on this unit.\n**2-4 *Wall of Unholy Sound:*** Until the start of your next turn, subtract 1 from hit rolls for combat attacks made by enemy units while they are within 13\" of this unit.\n**5-6 *Apocalyptic Doom:*** Roll a D3 for each enemy unit within 13\" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+      "phase": "hero"
+    },
+    {
+      "name": "Cracks Call",
+      "type": "spell",
+      "effect": "If the casting roll exceeds the target’s **^^Move^^** characteristic, inflict an amount of mortal damage on the target equal to the difference between the casting roll and its **^^Move^^** characteristic.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit that does not have **^^Fly^^** and is within 13\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "MASTERCLAN"
+      ],
+      "description": "Units with MASTERCLAN keyword"
+    }
+  ]
+}

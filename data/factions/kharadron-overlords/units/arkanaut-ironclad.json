@@ -1,0 +1,91 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "arkanaut-ironclad",
+  "name": "Arkanaut Ironclad",
+  "faction": "kharadron-overlords",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 18,
+    "save": "2+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "DUARDIN",
+    "FLY",
+    "KHARADRON OVERLORDS",
+    "ORDER",
+    "SKYVESSEL",
+    "WAR MACHINE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Great Sky Ordnance",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Aethershock Torpedoes",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Boarding Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "DUARDIN",
+    "FLY",
+    "KHARADRON OVERLORDS",
+    "SKYVESSEL"
+  ],
+  "abilities": [
+    {
+      "name": "Incoming!",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target."
+    },
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Great Sky Ordnance** is 4."
+    },
+    {
+      "name": "Heavy Bomb Racks",
+      "type": "passive",
+      "effect": "Roll 10 dice. For each 4+, inflict 1 mortal damage on the target.",
+      "phase": "movement",
+      "declare": "Pick an enemy unit that does not have **^^Fly^^** and that this unit passed across this phase to be the target."
+    },
+    {
+      "name": "Transport Capacity",
+      "type": "passive",
+      "effect": "This unit can transport up to 3 friendly **^^Kharadron Overlords Infantry^^** units with a combined model count of up to 22 (see Battle Traits)."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "sekhar-fang-of-nulahmia",
+  "name": "Sekhar, Fang of Nulahmia",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "HERO",
+    "INFANTRY",
+    "SOULBLIGHT GRAVELORDS",
+    "UNIQUE",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (2)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Nulahmian Warglaive",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    },
+    {
+      "name": "Ouboroth’s Godhusk Fangs",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Death's Construction",
+      "type": "spell",
+      "effect": "Until the start of your next turn, while they are wholly within 6\" of this unit, friendly **^^Soulblight Gravelords^^** units cannot be picked to be the target of abilities used by the target other than **^^Fight^^** abilities.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 12\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    },
+    {
+      "name": "Serpentine Agility",
+      "type": "passive",
+      "effect": "If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends."
+    },
+    {
+      "name": "The Time-swallower's Maw",
+      "type": "once-per-battle",
+      "effect": "This unit cannot use the ‘Serpentine Agility’ ability for the rest of the battle. Roll 2D6 for each target. If the roll exceeds the target’s Move characteristic, inflict an amount of mortal damage on the target equal to the difference between the roll and its Move characteristic.",
+      "phase": "combat",
+      "declare": "Pick each enemy unit in combat with this unit to be the targets."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

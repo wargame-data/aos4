@@ -1,0 +1,39 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "bone-tithe-nexus",
+  "name": "Bone-tithe Nexus",
+  "faction": "ossiarch-bonereapers",
+  "points": 0,
+  "stats": {
+    "move": "0\"",
+    "health": 13,
+    "save": "4+",
+    "control": 0
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "FACTION TERRAIN",
+    "OSSIARCH BONEREAPERS"
+  ],
+  "baseSize": 1,
+  "weapons": [],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FACTION TERRAIN",
+    "OSSIARCH BONEREAPERS"
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Gaze",
+      "type": "passive",
+      "effect": "Roll a dice. On a 4+, pick 1 of the following effects to apply:\n***Punishment of Agony***: Subtract 1 from hit rolls for the target until the start of your next turn.\n***Punishment of Ignorance***: Subtract 1 from casting rolls and/or chanting rolls for the target until the start of your next turn.\n***Punishment of Lethargy***: Halve the target’s Move characteristic until the start of your next turn.\n***Punishment of Death***: Inflict D3 mortal damage on the target.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 18\" of this terrain feature to be the target."
+    }
+  ]
+}

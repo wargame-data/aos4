@@ -1,0 +1,58 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "isharann-tidecaster",
+  "name": "Isharann Tidecaster",
+  "faction": "idoneth-deepkin",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "HERO",
+    "IDONETH DEEPKIN",
+    "ISHARANN",
+    "ORDER",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Pelagic Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "IDONETH DEEPKIN",
+    "ISHARANN",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Master of the Ethersea",
+      "type": "once-per-turn",
+      "effect": "On a 3+, pick 1 of the following effects to apply until the start of your next turn:\n***Creeping Mist:*** Friendly **^^Idoneth Deepkin^^** units cannot be targeted by shooting attacks unless the attacking model is within 12\" of them.\n***Surging Stream:*** Add 1 to run rolls and charge rolls for friendly **^^Idoneth Deepkin^^** units.\n***Spiteful Riptide:*** Each time an enemy unit uses a **^^Retreat^^** ability, after the effect of that ability has been resolved, inflict D3 mortal damage on that unit.",
+      "phase": "hero",
+      "declare": "Make an Isharann ritual roll of D6."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

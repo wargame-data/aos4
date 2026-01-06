@@ -1,0 +1,56 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "chaos-lord",
+  "name": "Chaos Lord",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "HERO",
+    "INFANTRY",
+    "SLAVES TO DARKNESS",
+    "WARRIORS OF CHAOS"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Reaperblade",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SLAVES TO DARKNESS",
+    "WARRIORS OF CHAOS"
+  ],
+  "abilities": [
+    {
+      "name": "Glory in Battle",
+      "type": "reaction",
+      "effect": "Pick a friendly non-**^^Hero Warriors of Chaos Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to wound rolls for the target’s attacks for the rest of the turn."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

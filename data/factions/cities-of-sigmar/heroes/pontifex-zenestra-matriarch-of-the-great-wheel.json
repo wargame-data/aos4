@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "pontifex-zenestra-matriarch-of-the-great-wheel",
+  "name": "Pontifex Zenestra, Matriarch of the Great Wheel",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 9,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CITIES OF SIGMAR",
+    "HERO",
+    "HUMAN",
+    "INFANTRY",
+    "ORDER",
+    "PRIEST (2)",
+    "UNIQUE",
+    "WARD (4+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Sceptre of the Wheel",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Acolytes’ Club and Axe",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "PRIEST (2)",
+    "WARD (4+)"
+  ],
+  "abilities": [
+    {
+      "name": "Voice of the God-king",
+      "type": "passive",
+      "effect": "This unit can use the ‘Unbind’ ability as if it had **^^Wizard (1)^^**."
+    },
+    {
+      "name": "Vessel of Sigmar",
+      "type": "prayer",
+      "effect": "Pick 1 of the following effects to apply until the start of your next turn. Pick up to 2 different effects instead if the chanting roll was 10+.\n***The Great Wheel Turns:*** Add 2\" to the Move characteristic of friendly ^^**Cities of Sigmar Human^^** units if they are wholly within 12\" of this unit at the start of the move.\n***Hallowed Ground:*** Friendly **^^Cities of Sigmar Human^^** units have **^^Ward (5+)^^** while they are wholly within 12\" of this unit.\n***Cast Out Evil:*** Roll a D3 for each enemy **^^Wizard^^** and **^^Priest^^** on the battlefield. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+      "phase": "hero",
+      "declare": "Make a chanting roll of D6.",
+      "chantingValue": 5,
+      "keywords": [
+        "**^^PRAYER^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

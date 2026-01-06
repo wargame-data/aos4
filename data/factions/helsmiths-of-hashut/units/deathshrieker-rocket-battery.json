@@ -1,0 +1,66 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "deathshrieker-rocket-battery",
+  "name": "Deathshrieker Rocket Battery",
+  "faction": "helsmiths-of-hashut",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 8,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "HELSMITHS OF HASHUT",
+    "WAR MACHINE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Hashu-Zharr Rockets",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)",
+        "Anti-**^^War Machine^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Artillerist Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "HELSMITHS OF HASHUT"
+  ],
+  "abilities": [
+    {
+      "name": "Hungering Flames",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn, the Damage characteristic of this unit's **Hashu-Zharr Rockets** is 5 if the target is a **^^Monster^^** or **^^War Machine^^**.",
+      "phase": "shooting"
+    },
+    {
+      "name": "Watch Them Burn",
+      "type": "reaction",
+      "effect": "Roll a number of dice equal to the number of **daemonic power points** this unit has for each other enemy unit within the combat range of the target of this unit's shooting attacks. For each 3+, inflict 1 mortal damage on the enemy unit being rolled for."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "flesh-hounds",
+  "name": "Flesh Hounds",
+  "faction": "blades-of-khorne",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "BEAST",
+    "BLADES OF KHORNE",
+    "CHAMPION (1/5)",
+    "CHAOS",
+    "DAEMON",
+    "WARD (6+)"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Blood-dark Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Blood-hungry",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEAST",
+    "BLADES OF KHORNE",
+    "CHAMPION (1/5)",
+    "DAEMON",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Hunters of Mystics",
+      "type": "passive",
+      "effect": "If the casting roll for an enemy **^^Wizard^^** within 12\" of this unit contains 2 or more results of 1 or 2, the spell is miscast.\nIf the chanting roll for an enemy **^^Priest^^** within 12\" of this unit is an unmodified 2, the prayer fails and its effect is not resolved. In addition, your opponent cannot give that **^^Priest^^** any ritual points for the rest of the phase."
+    }
+  ]
+}

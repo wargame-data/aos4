@@ -1,0 +1,58 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "vyrkos-blood-born",
+  "name": "Vyrkos Blood-born",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 3,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "INFANTRY",
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Piercing Blade",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Shadowfast",
+      "type": "once-per-turn",
+      "effect": "This unit can use a **^^Move^^** ability as if it were your movement phase."
+    },
+    {
+      "name": "Cling to the Shadows",
+      "type": "passive",
+      "effect": "While each model in this unit is within 1\" of any terrain features, this unit cannot be targeted by shooting attacks unless the attacking model is within 9\" of it."
+    }
+  ]
+}

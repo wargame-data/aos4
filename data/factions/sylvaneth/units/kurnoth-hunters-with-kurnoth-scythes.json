@@ -1,0 +1,60 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "kurnoth-hunters-with-kurnoth-scythes",
+  "name": "Kurnoth Hunters with Kurnoth Scythes",
+  "faction": "sylvaneth",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "INFANTRY",
+    "KURNOTHI",
+    "ORDER",
+    "SYLVANETH"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Kurnoth Scythe",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-charge (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "KURNOTHI",
+    "SYLVANETH"
+  ],
+  "abilities": [
+    {
+      "name": "Envoys of the Everqueen",
+      "type": "passive",
+      "effect": "While this unit is contesting an objective, friendly **^^Sylvaneth^^** units contesting that objective have **^^Ward (6+)^^**."
+    },
+    {
+      "name": "Tanglethorn Thicket",
+      "type": "passive",
+      "effect": "Roll a dice for each model in this unit. For each 3+, inflict 1 mortal damage on the target.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target."
+    }
+  ]
+}

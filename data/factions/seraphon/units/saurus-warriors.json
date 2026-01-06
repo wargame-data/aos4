@@ -1,0 +1,54 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "saurus-warriors",
+  "name": "Saurus Warriors",
+  "faction": "seraphon",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "INFANTRY",
+    "MUSICIAN (1/10)",
+    "ORDER",
+    "SAURUS",
+    "SERAPHON",
+    "STANDARD BEARER (1/10)"
+  ],
+  "baseSize": 10,
+  "weapons": [
+    {
+      "name": "Celestite Weapon",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "MUSICIAN (1/10)",
+    "SAURUS",
+    "SERAPHON",
+    "STANDARD BEARER (1/10)"
+  ],
+  "abilities": [
+    {
+      "name": "Ordered Cohorts",
+      "type": "passive",
+      "effect": "Add 1 to save rolls for this unit while each model in this unit is contesting an objective you control."
+    }
+  ]
+}

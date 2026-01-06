@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "khinerai-heartrenders",
+  "name": "Khinerai Heartrenders",
+  "faction": "daughters-of-khaine",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DAUGHTERS OF KHAINE",
+    "FLY",
+    "INFANTRY",
+    "KHINERAI",
+    "ORDER",
+    "WARD (6+)"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Barbed Javelin",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DAUGHTERS OF KHAINE",
+    "FLY",
+    "KHINERAI",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Circling in the Skies Above",
+      "type": "passive",
+      "effect": "Set up this unit in reserve **in the skies**. It has now been deployed.",
+      "declare": "Pick this unit if it has not been deployed.",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ]
+    },
+    {
+      "name": "Death from Above",
+      "type": "passive",
+      "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Pick this unit if it is **in the skies**."
+    },
+    {
+      "name": "Fire and Flight",
+      "type": "passive",
+      "effect": "If this unit used a **^^Shoot^^** ability this phase, this unit can move D6\". It cannot move into combat during any part of that move.",
+      "phase": "shooting"
+    }
+  ]
+}

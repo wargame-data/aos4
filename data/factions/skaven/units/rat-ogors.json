@@ -1,0 +1,62 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "rat-ogors",
+  "name": "Rat Ogors",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 4,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "INFANTRY",
+    "MOULDER",
+    "SKAVEN"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Claws, Blades and Fangs",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Warpfire Gun",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "MOULDER",
+    "SKAVEN"
+  ],
+  "abilities": [
+    {
+      "name": "Unleashed Warp-fury",
+      "type": "passive",
+      "effect": "Inflict D3 mortal damage on this unit. Then, add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.",
+      "phase": "combat"
+    }
+  ]
+}

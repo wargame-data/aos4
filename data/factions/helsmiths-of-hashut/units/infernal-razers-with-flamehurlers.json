@@ -1,0 +1,70 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "infernal-razers-with-flamehurlers",
+  "name": "Infernal Razers with Flamehurlers",
+  "faction": "helsmiths-of-hashut",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 1,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "CHAOS",
+    "DUARDIN",
+    "HELSMITHS OF HASHUT",
+    "INFANTRY"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Karagthrun Flamehurlers",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Weapon Butt",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DUARDIN",
+    "HELSMITHS OF HASHUT"
+  ],
+  "abilities": [
+    {
+      "name": "Scorched Remains",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, subtract an amount equal to the roll from the target's control score until the start of your next turn.",
+      "phase": "shooting",
+      "declare": "If this unit used a **^^Shoot^^** ability this turn and all of its attacks targeted the same enemy **^^Infantry^^** unit, that enemy unit is the target."
+    },
+    {
+      "name": "Manglers of Metal",
+      "type": "passive",
+      "effect": "Add 1 to the Rend characteristic of this unit’s ranged weapons for each **daemonic power point** this unit has."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "the-skinnerkin",
+  "name": "The Skinnerkin",
+  "faction": "flesh-eater-courts",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DEATH",
+    "FLESH-EATER COURTS",
+    "INFANTRY",
+    "LEGENDS",
+    "SERFS",
+    "UNIQUE",
+    "WARD (6+)"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Butchering Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLESH-EATER COURTS",
+    "LEGENDS",
+    "SERFS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Prime Cuts",
+      "type": "passive",
+      "effect": "Each time a combat attack made by this unit scores a critical hit, give 1 **prime cut point** to this unit, to a maximum of 6."
+    },
+    {
+      "name": "Dinner is Served",
+      "type": "passive",
+      "effect": "**Heal (X)** the target, where **X** is the number of **prime cut points** this unit has. Then, reset this unit’s **prime cut points** to 0.",
+      "phase": "any",
+      "declare": "Pick a friendly **^^Flesh-eater Courts Hero^^** wholly within 12\" of this unit to be the target."
+    }
+  ]
+}

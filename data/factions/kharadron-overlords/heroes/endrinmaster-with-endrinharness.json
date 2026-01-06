@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "endrinmaster-with-endrinharness",
+  "name": "Endrinmaster with Endrinharness",
+  "faction": "kharadron-overlords",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DUARDIN",
+    "HERO",
+    "INFANTRY",
+    "KHARADRON OVERLORDS",
+    "ORDER",
+    "SKYFARER"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Aethermight Hammer",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "DUARDIN",
+    "KHARADRON OVERLORDS",
+    "SKYFARER"
+  ],
+  "abilities": [
+    {
+      "name": "'Aye Aye, Captain!'",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn:\n• The target can use a **^^Retreat^^** or **^^Run^^** ability and still use **^^Shoot^^** abilities later in the turn.\n• No mortal damage is inflicted on the target by **^^Retreat^^** abilities.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Skyvessel^^** within this unit’s combat range to be the target."
+    },
+    {
+      "name": "Mobile Repairs",
+      "type": "passive",
+      "effect": "Roll a dice. On a 2+, **Heal (3)** the target.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Skyvessel^^** or **Zontari Endrin Dock** within this unit’s combat range to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

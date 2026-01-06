@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "athol-khul",
+  "name": "Athol Khul",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "DARKOATH",
+    "HERO",
+    "INFANTRY",
+    "LEGENDS",
+    "PLEDGED TO KHORNE",
+    "SLAVES TO DARKNESS",
+    "UNIQUE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Spear of the Khul",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DARKOATH",
+    "LEGENDS",
+    "PLEDGED TO KHORNE",
+    "SLAVES TO DARKNESS"
+  ],
+  "abilities": [
+    {
+      "name": "Tribal Warleader",
+      "type": "once-per-battle",
+      "effect": "If this destroyed an enemy **^^Hero^^** this turn, this unit has **^^Ward (4+)^^** for the rest of the battle.",
+      "phase": "any"
+    },
+    {
+      "name": "Oath of Murder",
+      "type": "once-per-battle",
+      "effect": "For the rest of the turn, friendly units that do not already have a **^^Pledge to Chaos^^** keyword have the **^^Pledged to Khorne^^** while they are wholly within 12\" of this unit.",
+      "phase": "charge"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

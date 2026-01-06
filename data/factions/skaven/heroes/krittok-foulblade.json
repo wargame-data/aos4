@@ -1,0 +1,83 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "krittok-foulblade",
+  "name": "Krittok Foulblade",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "HERO",
+    "INFANTRY",
+    "SKAVEN",
+    "UNIQUE",
+    "VERMINUS",
+    "WARMASTER"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Warplock Pistol",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Doomfang",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SKAVEN",
+    "VERMINUS"
+  ],
+  "abilities": [
+    {
+      "name": "Foster Competition",
+      "type": "passive",
+      "effect": "Add 1 to wound rolls for friendly **Stormvermin** units while they are wholly within 13\"of this unit."
+    },
+    {
+      "name": "Doomfang",
+      "type": "passive",
+      "effect": "This unit has **^^Strike-first^^** for the rest of the turn but it cannot use commands this phase.",
+      "phase": "combat"
+    },
+    {
+      "name": "A Reputation For Cunning",
+      "type": "command",
+      "effect": "You can pick 2 different eligible units to use the 'Always Three Clawsteps Ahead' ability this phase instead of 1, but at least 1 of those units must have the **^^Verminus^^** keyword.",
+      "phase": "hero"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

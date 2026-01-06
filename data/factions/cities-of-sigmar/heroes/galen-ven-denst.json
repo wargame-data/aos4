@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "galen-ven-denst",
+  "name": "Galen ven Denst",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CITIES OF SIGMAR",
+    "HERO",
+    "HUMAN",
+    "INFANTRY",
+    "ORDER",
+    "UNIQUE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Runic Broadsword",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Wizard^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Spell-banishing Pistol",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN"
+  ],
+  "abilities": [
+    {
+      "name": "Guardian and Mentor",
+      "type": "passive",
+      "effect": "While a friendly **Doralia ven Denst** is wholly within this unit’s combat range, this unit has **^^Strike-first^^** and both this unit and that **Doralia ven Denst** have **^^Ward (5+)^^**."
+    },
+    {
+      "name": "Weapons of Banishment",
+      "type": "passive",
+      "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target **^^Wizards^^**, **^^Priests^^** and **^^Manifestations^^**."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

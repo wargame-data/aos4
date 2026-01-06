@@ -1,0 +1,62 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "untamed-beasts",
+  "name": "Untamed Beasts",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION (1/9)",
+    "CHAOS",
+    "INFANTRY",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "UNDIVIDED"
+  ],
+  "baseSize": 9,
+  "weapons": [
+    {
+      "name": "Ghurish Hunting Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION (1/9)",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "UNDIVIDED"
+  ],
+  "abilities": [
+    {
+      "name": "Unleash the Beast",
+      "type": "passive",
+      "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase."
+    },
+    {
+      "name": "Jagged Harpoon",
+      "type": "passive",
+      "effect": "Roll a D3. If the target is a **^^Beast^^** or **^^Monster^^**, roll a dice instead. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "any",
+      "declare": "If this unit includes a **First Fang**, pick an enemy unit in combat with this unit to be the target."
+    }
+  ]
+}

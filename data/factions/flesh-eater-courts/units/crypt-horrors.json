@@ -1,0 +1,58 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "crypt-horrors",
+  "name": "Crypt Horrors",
+  "faction": "flesh-eater-courts",
+  "points": 0,
+  "stats": {
+    "move": "7\"",
+    "health": 4,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DEATH",
+    "FLESH-EATER COURTS",
+    "INFANTRY",
+    "KNIGHTS",
+    "WARD (6+)"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Club and Septic Talons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Cavalry^^** (+1 Rend)",
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLESH-EATER COURTS",
+    "KNIGHTS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Holy Blades of Bone",
+      "type": "once-per-turn",
+      "effect": "Roll 2 dice for each model in this unit. Add 2 to each roll if the target is **^^Cavalry^^**. For each 5+, inflict 1 mortal damage on the target.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target."
+    }
+  ]
+}

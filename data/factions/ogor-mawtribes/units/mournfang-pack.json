@@ -1,0 +1,89 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "mournfang-pack",
+  "name": "Mournfang Pack",
+  "faction": "ogor-mawtribes",
+  "points": 0,
+  "stats": {
+    "move": "9\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "BEASTCLAW RAIDERS",
+    "CAVALRY",
+    "CHAMPION",
+    "DESTRUCTION",
+    "MUSICIAN (1/4)",
+    "OGOR",
+    "OGOR MAWTRIBES",
+    "STANDARD BEARER (1/4)"
+  ],
+  "baseSize": 2,
+  "weapons": [
+    {
+      "name": "Mournfang Rider Weapon",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Cavalry^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Mournfang’s Tusks",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Ironlock Pistol",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BEASTCLAW RAIDERS",
+    "CHAMPION",
+    "MUSICIAN (1/4)",
+    "OGOR",
+    "OGOR MAWTRIBES",
+    "STANDARD BEARER (1/4)"
+  ],
+  "abilities": [
+    {
+      "name": "Alpha Cavalry",
+      "type": "passive",
+      "effect": "The **Charge (+1 Damage)** weapon ability has no effect on attacks that target this unit."
+    },
+    {
+      "name": "Lumpen Wall of Flesh",
+      "type": "passive",
+      "effect": "Subtract 1 from wound rolls for shooting attacks that target friendly **^^Beastclaw Raiders^^** units while they are within this unit’s combat range."
+    }
+  ]
+}

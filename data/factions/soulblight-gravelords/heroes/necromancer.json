@@ -1,0 +1,62 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "necromancer",
+  "name": "Necromancer",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "HERO",
+    "INFANTRY",
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Mortis Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Vanhel's Danse Macabre",
+      "type": "command",
+      "effect": "The target can use 2 **^^Fight^^** abilities this phase. After the first is used, however, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick a friendly **^^Deathrattle^^ or **^^Deadwalkers^^** unit wholly within 12\" of this unit to be the target."
+    },
+    {
+      "name": "Undead Minions",
+      "type": "passive",
+      "effect": "While this unit is within the combat range of a friendly **^^Deathrattle^^** or **^^Deadwalkers^^** unit:\n• This unit has **^^Ward (4+)^^**.\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly **^^Deathrattle^^ or **^^Deadwalkers^^** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points)."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

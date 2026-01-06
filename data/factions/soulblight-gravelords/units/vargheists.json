@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "vargheists",
+  "name": "Vargheists",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 4,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DEATH",
+    "FLY",
+    "INFANTRY",
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Murderous Fangs and Talons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLY",
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Death's Descent",
+      "type": "once-per-turn",
+      "effect": "If this unit is not in combat, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement",
+      "keywords": [
+        "**^^CORE^^**"
+      ]
+    }
+  ]
+}

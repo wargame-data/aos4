@@ -1,0 +1,77 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "snarlfang-riders",
+  "name": "Snarlfang Riders",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAMPION",
+    "DESTRUCTION",
+    "GITMOB",
+    "GLOOMSPITE GITZ",
+    "MUSICIAN (1/5)",
+    "STANDARD BEARER (1/5)"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Grot Bow",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Snarlfang’s Slavering Jaws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Stabbin’ Stikka",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "GITMOB",
+    "GLOOMSPITE GITZ",
+    "MUSICIAN (1/5)",
+    "STANDARD BEARER (1/5)"
+  ],
+  "abilities": [
+    {
+      "name": "Can't Catch Us!",
+      "type": "once-per-turn",
+      "effect": "If this unit is not in combat, this unit can move D6\". It cannot end that move in combat.",
+      "phase": "movement"
+    }
+  ]
+}

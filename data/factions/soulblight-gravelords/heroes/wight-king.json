@@ -1,0 +1,65 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "wight-king",
+  "name": "Wight King",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "4\"",
+    "health": 5,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "DEATHRATTLE",
+    "HERO",
+    "INFANTRY",
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Baleful Tomb Blade",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "DEATHRATTLE",
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Ancient Strategies",
+      "type": "reaction",
+      "effect": "Pick a friendly non-**^^Hero Deathrattle Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the ^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
+    },
+    {
+      "name": "King of Shambling Bones",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, the target's melee weapons have **Crit (2 Hits)** for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Deathrattle^^** unit within this unit's combat range to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

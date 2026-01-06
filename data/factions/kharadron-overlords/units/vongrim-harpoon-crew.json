@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "vongrim-harpoon-crew",
+  "name": "Vongrim Harpoon Crew",
+  "faction": "kharadron-overlords",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 2,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "DUARDIN",
+    "FLY",
+    "INFANTRY",
+    "KHARADRON OVERLORDS",
+    "ORDER",
+    "SKYFARER"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Pioneer Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Skydrake Harpoon or Firearm",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DUARDIN",
+    "FLY",
+    "KHARADRON OVERLORDS",
+    "SKYFARER"
+  ],
+  "abilities": [
+    {
+      "name": "Light Endrinpacks",
+      "type": "once-per-turn",
+      "effect": "If this unit is in combat, it can move 2d6\" but must end that move in combat.",
+      "phase": "combat"
+    }
+  ]
+}

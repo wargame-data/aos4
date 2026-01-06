@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "crypt-haunter-courtier",
+  "name": "Crypt Haunter Courtier",
+  "faction": "flesh-eater-courts",
+  "points": 0,
+  "stats": {
+    "move": "7\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DEATH",
+    "FLESH-EATER COURTS",
+    "HERO",
+    "INFANTRY",
+    "NOBLE",
+    "WARD (6+)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Massive Bone Club and Rancid Talons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLESH-EATER COURTS",
+    "NOBLE",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Knightly Exemplar",
+      "type": "reaction",
+      "effect": "Pick a friendly **Crypt Horrors** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
+    },
+    {
+      "name": "Blessed Blood",
+      "type": "passive",
+      "effect": "Heal (D3) this unit.",
+      "phase": "hero"
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

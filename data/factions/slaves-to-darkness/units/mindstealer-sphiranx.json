@@ -1,0 +1,51 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "mindstealer-sphiranx",
+  "name": "Mindstealer Sphiranx",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 10,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "MONSTER",
+    "SLAVES TO DARKNESS"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Shredding Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SLAVES TO DARKNESS"
+  ],
+  "abilities": [
+    {
+      "name": "Dominate Mind",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. If the roll exceeds the target’s Control characteristic, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit within 6\" of this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    }
+  ]
+}

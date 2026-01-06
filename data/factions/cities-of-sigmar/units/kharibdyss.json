@@ -1,0 +1,65 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "kharibdyss",
+  "name": "Kharibdyss",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 12,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "CITIES OF SIGMAR",
+    "MONSTER",
+    "ORDER"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Crew’s Goads and Whips",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Fanged Tentacles and Spiked Tail",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CITIES OF SIGMAR"
+  ],
+  "abilities": [
+    {
+      "name": "Abyssal Howl",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, subtract 5 from the target’s control score for the rest of the turn.",
+      "phase": "any",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    }
+  ]
+}

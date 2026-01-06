@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "barrow-knights",
+  "name": "Barrow Knights",
+  "faction": "soulblight-gravelords",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 3,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAMPION",
+    "DEATH",
+    "DEATHRATTLE",
+    "MUSICIAN (1/5)",
+    "SOULBLIGHT GRAVELORDS",
+    "STANDARD BEARER (1/5)",
+    "WARD (6+)"
+  ],
+  "baseSize": 5,
+  "weapons": [
+    {
+      "name": "Skeletal Steed’s Hooves and Teeth",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Barrow Lance",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)",
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DEATHRATTLE",
+    "MUSICIAN (1/5)",
+    "SOULBLIGHT GRAVELORDS",
+    "STANDARD BEARER (1/5)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Cursed to Rise Once More",
+      "type": "once-per-turn",
+      "effect": "You can return 1 slain model to this unit.",
+      "phase": "any"
+    },
+    {
+      "name": "Knights of the King",
+      "type": "passive",
+      "effect": "While any friendly **^^Deathrattle Cavalry Heroes^^** are within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**."
+    }
+  ]
+}

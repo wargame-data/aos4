@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "kurnoths-heralds",
+  "name": "Kurnoth's Heralds",
+  "faction": "sylvaneth",
+  "points": 0,
+  "stats": {
+    "move": "12\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAMPION",
+    "KURNOTHI",
+    "LEGENDS",
+    "ORDER",
+    "UNIQUE"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Hunter Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Kurnothi Bow",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "KURNOTHI",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Graceful Leaps",
+      "type": "passive",
+      "effect": "Each time this unit makes a pile-in move:\n• Add 3\" to the distance this unit can move.\n• This unit can pass through models in enemy units."
+    }
+  ]
+}

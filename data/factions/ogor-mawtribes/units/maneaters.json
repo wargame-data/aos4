@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "maneaters",
+  "name": "Maneaters",
+  "faction": "ogor-mawtribes",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 4,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "INFANTRY",
+    "OGOR",
+    "OGOR MAWTRIBES"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Pistols or Throwing Weapons",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Maneater Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "OGOR",
+    "OGOR MAWTRIBES"
+  ],
+  "abilities": [
+    {
+      "name": "Been There, Done That",
+      "type": "reaction",
+      "effect": "Roll a dice. On a 4+, that ability has no effect on this unit."
+    }
+  ]
+}

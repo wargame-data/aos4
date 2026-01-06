@@ -1,0 +1,94 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "gaunt-summoner",
+  "name": "Gaunt Summoner",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "DAEMON",
+    "HERO",
+    "INFANTRY",
+    "PLEDGED TO TZEENTCH",
+    "SLAVES TO DARKNESS",
+    "WARD (6+)",
+    "WIZARD (2)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Warptongue Blade",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Changestaff",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "PLEDGED TO TZEENTCH",
+    "SLAVES TO DARKNESS",
+    "WARD (6+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Minions of the Silver Tower",
+      "type": "passive",
+      "effect": "The target is set up in reserve **in a Silver Tower**. It has now been deployed.",
+      "declare": "Pick a friendly unit that has not been deployed to be the target",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ]
+    },
+    {
+      "name": "Book of Profane Secrets",
+      "type": "passive",
+      "effect": "Set up the target on the battlefield wholly within 12\" of this unit and more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Pick a friendly unit **in a Silver Tower** to be the target."
+    },
+    {
+      "name": "Divert Realmgate",
+      "type": "spell",
+      "effect": "Units set up this turn using this unit’s ‘Book of Profane Secrets’ ability can be set up wholly within 18\" of this unit and more than 7\" from all enemy units instead of the distances in the ability.",
+      "phase": "hero",
+      "declare": "Make a casting roll of 2D6",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

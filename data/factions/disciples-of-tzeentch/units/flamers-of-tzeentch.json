@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "flamers-of-tzeentch",
+  "name": "Flamers of Tzeentch",
+  "faction": "disciples-of-tzeentch",
+  "points": 0,
+  "stats": {
+    "move": "9\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "CHAOS",
+    "DAEMON",
+    "DISCIPLES OF TZEENTCH",
+    "FLY",
+    "INFANTRY",
+    "WARD (6+)"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Flaming Maws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Warping Flames",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Wyrdflame"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DAEMON",
+    "DISCIPLES OF TZEENTCH",
+    "FLY",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Capricious Wyrdflame",
+      "type": "passive",
+      "effect": "Add 1 to wound rolls for this unit’s shooting attacks that target a **^^Burning^^** enemy unit."
+    }
+  ]
+}

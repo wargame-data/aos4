@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "sorceress",
+  "name": "Sorceress",
+  "faction": "cities-of-sigmar",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "AELF",
+    "CITIES OF SIGMAR",
+    "HERO",
+    "INFANTRY",
+    "ORDER",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Witchstaff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CITIES OF SIGMAR",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Cruel Sacrifice",
+      "type": "once-per-turn",
+      "effect": "Add 1 to casting rolls for this unit for the rest of the turn. Then, roll a dice. On a 4+, 1 model in the target unit is slain.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Cities of Sigmar Aelf^^** unit wholly within 6\" of this unit to be the target."
+    },
+    {
+      "name": "Word of Pain",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, subtract 1 from hit rolls and wound rolls for the target’s attacks until the start of your next turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

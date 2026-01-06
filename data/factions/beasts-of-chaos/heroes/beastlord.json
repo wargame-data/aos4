@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "beastlord",
+  "name": "Beastlord",
+  "faction": "beasts-of-chaos",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "BEASTS OF CHAOS",
+    "BRAYHERD",
+    "CHAOS",
+    "HERO",
+    "INFANTRY",
+    "LEGENDS"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Paired Man-ripper Axes",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)",
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEASTS OF CHAOS",
+    "BRAYHERD",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Hatred of Heroes",
+      "type": "passive",
+      "effect": "While this unit is in combat with any enemy **^^Heroes^^**, add 1 to hit rolls and wound rolls for combat attacks made by friendly **^^Beasts of Chaos^^** units wholly within 12\" of this unit."
+    },
+    {
+      "name": "Call of Battle",
+      "type": "reaction",
+      "effect": "Pick a friendly non-**^^Hero Brayherd Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

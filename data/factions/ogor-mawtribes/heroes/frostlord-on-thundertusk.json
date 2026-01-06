@@ -1,0 +1,101 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "frostlord-on-thundertusk",
+  "name": "Frostlord on Thundertusk",
+  "faction": "ogor-mawtribes",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 15,
+    "save": "4+",
+    "control": 10
+  },
+  "role": "other",
+  "keywords": [
+    "BEASTCLAW RAIDERS",
+    "DESTRUCTION",
+    "HERO",
+    "MONSTER",
+    "OGOR",
+    "OGOR MAWTRIBES"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Ice Blast",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Frost Spear",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Thundertusk’s Colossal Tusks",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BEASTCLAW RAIDERS",
+    "OGOR",
+    "OGOR MAWTRIBES"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Thundertusk’s Colossal Tusks** is 2."
+    },
+    {
+      "name": "Bellowing Voice",
+      "type": "once-per-battle",
+      "effect": "Each target can add 1 to the D3 roll made if that unit uses the ‘Trampling Charge’ ability this turn.",
+      "phase": "charge",
+      "declare": "Pick any number of friendly **^^Beastclaw Raiders^^** units wholly within 12\" of this unit to be the targets."
+    },
+    {
+      "name": "Sweeping Tusks",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.",
+      "phase": "movement",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

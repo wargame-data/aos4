@@ -1,0 +1,95 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "verminlord-warpseer",
+  "name": "Verminlord Warpseer",
+  "faction": "skaven",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 13,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "DAEMON",
+    "HERO",
+    "MASTERCLAN",
+    "MONSTER",
+    "SKAVEN",
+    "WARD (5+)",
+    "WIZARD (2)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Doom Glaive",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "MASTERCLAN",
+    "SKAVEN",
+    "WARD (5+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Divine the Future",
+      "type": "passive",
+      "effect": "While this unit is on the battlefield, add 2\" to the distance friendly units can move when using the ‘Always Three Clawsteps Ahead’ ability."
+    },
+    {
+      "name": "Arch-Manipulator",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 4+, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Hurl Scry-orb",
+      "type": "once-per-battle",
+      "effect": "This unit cannot use the ‘Divine the Future’ ability for the rest of the battle. Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target."
+    },
+    {
+      "name": "Tectonic Splintering",
+      "type": "spell",
+      "effect": "Until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 18\" to be the target, then make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "MASTERCLAN"
+      ],
+      "description": "Units with MASTERCLAN keyword"
+    }
+  ]
+}

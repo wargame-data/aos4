@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "squig-hoppers",
+  "name": "Squig Hoppers",
+  "faction": "gloomspite-gitz",
+  "points": 0,
+  "stats": {
+    "move": "D6+8\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CAVALRY",
+    "CHAMPION",
+    "DESTRUCTION",
+    "FLY",
+    "GLOOMSPITE GITZ",
+    "MOONCLAN",
+    "SQUIG"
+  ],
+  "baseSize": 10,
+  "weapons": [
+    {
+      "name": "Fang-filled Gob",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Slitta",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLY",
+    "GLOOMSPITE GITZ",
+    "MOONCLAN",
+    "SQUIG"
+  ],
+  "abilities": [
+    {
+      "name": "Boing! Boing! Boing!",
+      "type": "passive",
+      "effect": "Roll a dice for each model in this unit that passed across the target. For each 4+, inflict 1 mortal damage on the target.",
+      "phase": "movement",
+      "declare": "Pick an enemy unit that this unit passed across this phase to be the target."
+    }
+  ]
+}

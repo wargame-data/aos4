@@ -1,0 +1,119 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "gatebreaker-mega-gargant",
+  "name": "Gatebreaker Mega-Gargant",
+  "faction": "sons-of-behemat",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 35,
+    "save": "4+",
+    "control": 20
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "HERO",
+    "MEGA-GARGANT",
+    "MONSTER",
+    "SONS OF BEHEMAT"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Hurled Boulder",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Death Grip",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Almighty Stomp",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Fortcrusha Flail",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Faction Terrain^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "MEGA-GARGANT",
+    "SONS OF BEHEMAT"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 15 or more damage points, the Attacks characteristic of its **Fortcrusha Flail** is 4 and this unit has a Control characteristic of 10."
+    },
+    {
+      "name": "Smash Down",
+      "type": "once-per-turn",
+      "effect": "If the target is **^^Faction Terrain^^**, inflict D3+3 mortal damage on it. Then, roll a D3 for each non-**^^Monster^^** unit (friendly and enemy) within 3\" of the target. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+      "phase": "combat",
+      "declare": "Pick a terrain feature within 3\" of this unit to be the target."
+    },
+    {
+      "name": "Pulverising Strike",
+      "type": "passive",
+      "effect": "This unit can make a pile-in move. Then, roll a dice. On a 4+, inflict 4D6 mortal damage on the target.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^CORE^^**",
+        "**^^ATTACK^^**",
+        "**^^FIGHT^^**"
+      ]
+    },
+    {
+      "name": "Son of Behemat",
+      "type": "passive",
+      "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points)."
+    },
+    {
+      "name": "Longshanks",
+      "type": "passive",
+      "effect": "This unit can pass through models in non-**^^Monster^^** units and parts of terrain features that are less than 4\" tall."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

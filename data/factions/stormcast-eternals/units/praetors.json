@@ -1,0 +1,55 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "praetors",
+  "name": "Praetors",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 3,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "keywords": [
+    "CHAMPION",
+    "INFANTRY",
+    "ORDER",
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "baseSize": 3,
+  "weapons": [
+    {
+      "name": "Soulguard’s Halberd",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Soul-bonded",
+      "type": "passive",
+      "effect": "Pick a friendly **^^Stormcast Eternals Hero^^** to be this unit’s soul-bonded charge for the rest of the battle. This unit can use this ability while it is in reserve."
+    },
+    {
+      "name": "Soul-forged Guardians",
+      "type": "passive",
+      "effect": "While this unit’s soul-bonded charge is within this unit’s combat range, both this unit and that soul-bonded charge have **^^Ward (5+)^^**."
+    }
+  ]
+}

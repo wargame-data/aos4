@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "id": "gnoblar-scraplauncher",
+  "name": "Gnoblar Scraplauncher",
+  "faction": "ogor-mawtribes",
+  "points": 0,
+  "stats": {
+    "move": "9\"",
+    "health": 9,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "DESTRUCTION",
+    "OGOR MAWTRIBES",
+    "RHINOX",
+    "WAR MACHINE"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Rhinox’s Sharp Horns",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Scrappers’ Stabbers",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Piles of Old Scrap",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "OGOR MAWTRIBES",
+    "RHINOX"
+  ],
+  "abilities": [
+    {
+      "name": "Load It Up!",
+      "type": "passive",
+      "effect": "If this unit is within the combat range of a friendly **Gnoblars** unit, this unit’s shooting attacks score critical hits on unmodified hit rolls of 5+ until the start of your next turn.",
+      "phase": "shooting"
+    }
+  ]
+}

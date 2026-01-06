@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "shardspeaker-of-slaanesh",
+  "name": "Shardspeaker of Slaanesh",
+  "faction": "hedonites-of-slaanesh",
+  "points": 0,
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "HEDONITES OF SLAANESH",
+    "HERO",
+    "INFANTRY",
+    "SYBARITE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Haze Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Shadow-cloaked Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "HEDONITES OF SLAANESH",
+    "SYBARITE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Mist Lurkers",
+      "type": "passive",
+      "effect": "If this unit successfully casts a spell, until the start of your next turn, it can attack with its **Shadow-cloaked Claws**."
+    },
+    {
+      "name": "Twisted Mirror",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 4+, subtract 1 from save rolls for the target until the start of your next turn.",
+      "phase": "shooting",
+      "declare": "Pick an enemy unit within 8\" of this unit to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

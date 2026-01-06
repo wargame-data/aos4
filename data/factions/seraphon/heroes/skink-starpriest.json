@@ -1,0 +1,57 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "skink-starpriest",
+  "name": "Skink Starpriest",
+  "faction": "seraphon",
+  "points": 0,
+  "stats": {
+    "move": "8\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "HERO",
+    "INFANTRY",
+    "ORDER",
+    "SERAPHON",
+    "SKINK",
+    "WIZARD (1)"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Serpent Staff",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "SERAPHON",
+    "SKINK",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Serpent Staff",
+      "type": "passive",
+      "effect": "Roll a dice. On a 2+, the target’s melee weapons have **Crit (Auto-wound)** until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick a visible friendly **^^Seraphon^^** unit wholly within 18\" of this unit to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,91 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "spirit-of-durthu",
+  "name": "Spirit of Durthu",
+  "faction": "sylvaneth",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 14,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "HERO",
+    "MONSTER",
+    "ORDER",
+    "SYLVANETH"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Verdant Blast",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    },
+    {
+      "name": "Guardian Sword",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Massive Impaling Talons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "SYLVANETH"
+  ],
+  "abilities": [
+    {
+      "name": "Titanic Duel",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Monster^^** in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    },
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Guardian Sword** is 3."
+    },
+    {
+      "name": "Wrathful Guardian",
+      "type": "passive",
+      "effect": "Add 1 to hit rolls for this unit’s combat attacks while the target is within 3\" of an **Awakened Wyldwood**."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null
+}

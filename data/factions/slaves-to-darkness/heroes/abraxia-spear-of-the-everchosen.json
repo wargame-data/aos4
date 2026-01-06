@@ -1,0 +1,98 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "abraxia-spear-of-the-everchosen",
+  "name": "Abraxia, Spear of the Everchosen",
+  "faction": "slaves-to-darkness",
+  "points": 0,
+  "stats": {
+    "move": "10\"",
+    "health": 14,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "keywords": [
+    "CHAOS",
+    "HERO",
+    "MONSTER",
+    "SLAVES TO DARKNESS",
+    "UNIQUE",
+    "WARD (5+)",
+    "WARRIORS OF CHAOS"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Gorbolga",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti‑**^^Hero^^** (+1 Rend)",
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "The Thanatorg’s Claws and Fangs",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SLAVES TO DARKNESS",
+    "WARD (5+)",
+    "WARRIORS OF CHAOS"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **the Thanatorg's Claws and Fangs** is 4."
+    },
+    {
+      "name": "Warlord of the First Circle",
+      "type": "passive",
+      "effect": "If a friendly **Varanguard** unit uses the ‘Relentless Killers’ ability while it is wholly within 12\" of this unit, that unit does not have **^^Strike-last^^** as a result of that ability."
+    },
+    {
+      "name": "Gorbolga the Accurs'd",
+      "type": "passive",
+      "effect": "If this unit is in combat, roll a dice and apply the corresponding effect:\n**1 *Uncontrollable Power:*** Allocate 1 damage point to this unit.\n**2 *The Spear Slumbers:*** No effect.\n**3-5 *White-hot Varanite:*** Add 1 to the Damage characteristic of this unit’s **Gorbolga** for the rest of the turn.\n**6 *Rampant Mutation:*** The effect of ‘White-hot Varanite’ applies and this unit’s **Gorbolga** has **Crit (Mortal)** for the rest of the turn.",
+      "phase": "combat"
+    },
+    {
+      "name": "Blood of Molten Varanite",
+      "type": "passive",
+      "effect": "Roll a dice each time a damage point inflicted by a combat attack is allocated to this unit. On a 4+, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+    },
+    {
+      "name": "Roar of Domination",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ]
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": true,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "id": "lord-ordinator",
+  "name": "Lord-Ordinator",
+  "faction": "stormcast-eternals",
+  "points": 0,
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "keywords": [
+    "HERO",
+    "INFANTRY",
+    "LEGENDS",
+    "ORDER",
+    "SACROSANCT CHAMBER",
+    "STORMCAST ETERNALS"
+  ],
+  "baseSize": 1,
+  "weapons": [
+    {
+      "name": "Astral Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "LEGENDS",
+    "SACROSANCT CHAMBER",
+    "STORMCAST ETERNALS"
+  ],
+  "abilities": [
+    {
+      "name": "Arcane Engineer",
+      "type": "once-per-turn",
+      "effect": "The target’s attacks score critical hits on unmodified hit rolls of 4+ for the rest of the phase.",
+      "phase": "shooting",
+      "declare": "Pick a visible friendly **^^Sacrosanct Chamber War Machine^^** wholly within 12\" of this unit to be the target."
+    }
+  ],
+  "isWizard": null,
+  "isPriest": null,
+  "isUnique": false,
+  "canJoinRegiment": null,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "SACROSANCT CHAMBER"
+      ],
+      "description": "Units with SACROSANCT CHAMBER keyword"
+    }
+  ]
+}
