@@ -293,3 +293,51 @@ export function ensureEnhancementsDir(factionId: string, baseDir?: string): void
   const factionDir = getFactionDir(factionId, baseDir);
   ensureDir(join(factionDir, "enhancements"));
 }
+
+/**
+ * Get regiments of renown directory path
+ */
+export function getRegimentsOfRenownDir(baseDir?: string): string {
+  const dir = baseDir || DATA_DIR;
+  return join(dir, "_shared", "regiments-of-renown");
+}
+
+/**
+ * Ensure regiments of renown directory exists
+ */
+export function ensureRegimentsOfRenownDir(baseDir?: string): void {
+  ensureDir(getRegimentsOfRenownDir(baseDir));
+}
+
+/**
+ * Determine output path for a regiment of renown
+ */
+export function getRegimentOfRenownOutputPath(
+  regiment: { id: string },
+  baseDir?: string
+): string {
+  return join(getRegimentsOfRenownDir(baseDir), `${regiment.id}.json`);
+}
+
+/**
+ * Write a regiment of renown
+ */
+export function writeRegimentOfRenown<T extends { id: string }>(
+  regiment: T,
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult {
+  const path = getRegimentOfRenownOutputPath(regiment, baseDir);
+  return writeJson(path, regiment, options);
+}
+
+/**
+ * Write multiple regiments of renown
+ */
+export function writeRegimentsOfRenown<T extends { id: string }>(
+  regiments: T[],
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult[] {
+  return regiments.map((regiment) => writeRegimentOfRenown(regiment, options, baseDir));
+}

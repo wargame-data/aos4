@@ -1,0 +1,59 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "namarti-shore-raid",
+  "name": "Namarti Shore Raid",
+  "points": 270,
+  "allowedFactions": [
+    "Cities of Sigmar",
+    "Daughters of Khaine",
+    "Fyreslayers",
+    "Kharadron Overlords",
+    "Lumineth Realm-lords",
+    "Seraphon",
+    "Stormcast Eternals",
+    "Sylvaneth"
+  ],
+  "units": [
+    {
+      "name": "Namarti Thralls",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Akhelian Thrallmaster",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Namarti Reavers",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "In the Shadow of the Ethersea",
+      "type": "passive",
+      "effect": "Set up the units in this Regiment of Renown in reserve **in the ethersea**. They have now been deployed.",
+      "declare": "This ability must be used to deploy this Regiment of Renown instead of the 'Deploy Unit' ability or the 'Deploy Regiment' ability.",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Hunt of the Bloodthirsty Shiver",
+      "type": "passive",
+      "effect": "Set up each unit on the battlefield wholly within 7\" of a battlefield edge, more than 9\" from all enemy units and within the combat range of another unit in this Regiment of Renown. Then, each unit can immediately move D3\". The units cannot move into combat during any part of that move.",
+      "phase": "movement",
+      "declare": "Pick each unit in this Regiment of Renown that is **in the ethersea**.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

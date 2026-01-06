@@ -1,0 +1,45 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "lord-skaldiors-chosen",
+  "name": "Lord Skaldior's Chosen",
+  "points": 530,
+  "allowedFactions": [
+    "Beasts of Chaos [LEGENDS]",
+    "Blades of Khorne",
+    "Disciples of Tzeentch",
+    "Hedonites of Slaanesh",
+    "Helsmiths of Hashut",
+    "Maggotkin of Nurgle",
+    "Skaven"
+  ],
+  "units": [
+    {
+      "name": "Chaos Lord on Daemonic Mount",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Chaos Knights",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Chaos Warriors",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Ironclad Despoilers",
+      "type": "passive",
+      "effect": "Add 1 to save rolls for units in this Regiment of Renown while they are contesting an objective you control.\nAdd 1 to wound rolls for units in this Regiment of Renown while they are contesting an objective you do not control.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

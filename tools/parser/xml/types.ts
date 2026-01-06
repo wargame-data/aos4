@@ -84,6 +84,9 @@ export interface BSForceEntry {
   };
   categoryLinks?: BSCategoryLink[];
   forceEntries?: BSForceEntry[];
+  costs?: BSCost[];
+  modifiers?: BSModifier[];
+  constraints?: BSConstraint[];
 }
 
 // Selection Entry - The main building block (units, models, upgrades)
@@ -280,6 +283,7 @@ export interface BSEntryLink {
   };
   constraints?: BSConstraint[];
   modifiers?: BSModifier[];
+  modifierGroups?: BSModifierGroup[];
   costs?: BSCost[];
   categoryLinks?: BSCategoryLink[];
   profiles?: BSProfile[];

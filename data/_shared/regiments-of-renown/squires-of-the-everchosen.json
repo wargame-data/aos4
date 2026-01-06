@@ -1,0 +1,48 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "squires-of-the-everchosen",
+  "name": "Squires of the Everchosen",
+  "points": 280,
+  "allowedFactions": [
+    "Blades of Khorne",
+    "Disciples of Tzeentch",
+    "Hedonites of Slaanesh",
+    "Maggotkin of Nurgle",
+    "Slaves to Darkness",
+    "Slaves to Darkness - Legion of the First Prince"
+  ],
+  "units": [
+    {
+      "name": "Morbheg Knights",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Varghulf Courtier",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "A Deluded Quest",
+      "type": "once-per-battle",
+      "effect": "The target has the **^^Enemy of the Everchosen^^** keyword.",
+      "declare": "Pick an enemy unit to be the target.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "A Quest Well Done",
+      "type": "once-per-battle",
+      "effect": "If the enemy **^^Enemy of the Everchosen^^** unit is destroyed by a unit in this Regiment of Renown, add 10 to the control score of each unit in this Regiment of Renown for the rest of the battle.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

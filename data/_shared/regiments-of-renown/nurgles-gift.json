@@ -1,0 +1,57 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "nurgles-gift",
+  "name": "Nurgle's Gift",
+  "points": 180,
+  "allowedFactions": [
+    "Beasts of Chaos [LEGENDS]",
+    "Bonesplitterz [LEGENDS]",
+    "Cities of Sigmar",
+    "Daughters of Khaine",
+    "Flesh-eater Courts",
+    "Fyreslayers",
+    "Gloomspite Gitz",
+    "Helsmiths of Hashut",
+    "Ironjawz",
+    "Kharadron Overlords",
+    "Kruleboyz",
+    "Lumineth Realm-lords",
+    "Ogor Mawtribes",
+    "Skaven",
+    "Slaves to Darkness",
+    "Slaves to Darkness - Legion of the First Prince",
+    "Sons of Behemat",
+    "Sylvaneth"
+  ],
+  "units": [
+    {
+      "name": "Nurglings",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Incubation Period",
+      "type": "passive",
+      "effect": "Set up the units in this Regiment of Renown in reserve **festering within**. They have now been deployed.",
+      "declare": "This ability must be used to deploy this Regiment of Renown.",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Bursting With Life",
+      "type": "passive",
+      "effect": "If a friendly non-**^^Nurgle’s Gift^^** unit would be destroyed, before the last model is removed from play, roll a dice. Add 1 to the roll for each other friendly non-**^^Nurgle’s Gift^^** unit that has been destroyed this battle. On a 5+, pick a friendly unit that is **festering within** and set it up wholly within 6\" of that model. It can be set up in combat.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

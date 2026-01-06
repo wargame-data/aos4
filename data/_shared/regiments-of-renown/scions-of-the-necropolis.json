@@ -1,0 +1,38 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "scions-of-the-necropolis",
+  "name": "Scions of the Necropolis",
+  "points": 770,
+  "allowedFactions": [
+    "Flesh-eater Courts",
+    "Nighthaunt",
+    "Soulblight Gravelords"
+  ],
+  "units": [
+    {
+      "name": "Katakros, Mortarch of the Necropolis",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Immortis Guard",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Bulwark of the Necropolis",
+      "type": "passive",
+      "effect": "Subtract 2D6 from the target’s control score for the rest of the turn.",
+      "phase": "any",
+      "declare": "Pick an enemy unit in combat with a unit in this Regiment of Renown to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

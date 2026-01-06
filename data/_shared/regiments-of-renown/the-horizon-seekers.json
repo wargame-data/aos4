@@ -1,0 +1,46 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "the-horizon-seekers",
+  "name": "The Horizon Seekers",
+  "points": 500,
+  "allowedFactions": [
+    "Cities of Sigmar",
+    "Daughters of Khaine",
+    "Fyreslayers",
+    "Idoneth Deepkin",
+    "Kharadron Overlords",
+    "Lumineth Realm-lords",
+    "Seraphon",
+    "Sylvaneth"
+  ],
+  "units": [
+    {
+      "name": "Lord-Aquilor",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Vanguard-Palladors with Starstrike Javelins",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Vanguard-Hunters",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Hunters' Cohesion",
+      "type": "passive",
+      "effect": "Each time this Regiment of Renown's **Lord- Aquilor** uses its 'Ride the Winds Aetheric' ability, you can pick all units in this Regiment of Renown that are not in combat to be the targets.\nIn addition, add 1 to hit rolls for attacks made by this Regiment of Renown’s **Lord-Aquilor** and **Vanguard-Palladors** units that target a **^^Hunted^^** enemy unit",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

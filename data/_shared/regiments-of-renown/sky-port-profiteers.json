@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "sky-port-profiteers",
+  "name": "Sky-Port Profiteers",
+  "points": 350,
+  "allowedFactions": [
+    "Cities of Sigmar",
+    "Daughters of Khaine",
+    "Fyreslayers",
+    "Idoneth Deepkin",
+    "Lumineth Realm-lords",
+    "Ogor Mawtribes",
+    "Ossiarch Bonereapers",
+    "Seraphon",
+    "Soulblight Gravelords",
+    "Stormcast Eternals",
+    "Sylvaneth"
+  ],
+  "units": [
+    {
+      "name": "Grundstok Thunderers",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Codewright",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Cruising Into Position",
+      "type": "command",
+      "effect": "Roll a D3 for each target. On a 2+, **Heal (X)** the target, where **X** is an amount equal to the roll.",
+      "phase": "hero",
+      "declare": "Pick a visible terrain feature within 18\" of the **Codewright** in this Regiment of Renown. Each friendly unit wholly within 3\" of that terrain feature is a target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "No One Rides For Free",
+      "type": "command",
+      "effect": "Remove the target from the battlefield, then set it up again on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Pick a friendly **^^Infantry^^** unit with up to 10 models that is wholly within 9\" of the **Codewright** in this Regiment of Renown and not in combat to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Long-Range Support",
+      "type": "command",
+      "effect": "Roll a dice for each target. If the roll exceeds the target's Health characteristic, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "shooting",
+      "declare": "Pick an objective within 15\" of the **Codewright** in this Regiment of Renown and that no friendly units are contesting. Each unit contesting that objective is a target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

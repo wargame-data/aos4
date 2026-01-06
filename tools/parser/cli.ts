@@ -16,11 +16,12 @@ import {
   BSDATA_AOS_NAME,
 } from "./github/clone.js";
 import { getRepoCachePath, isCacheValid, getCacheAge } from "./github/cache.js";
-import { parseCat } from "./xml/reader.js";
+import { parseCat, parseGst } from "./xml/reader.js";
 import { findUnits, getFactionId, isLibrary, extractPointsFromEntryLinks } from "./xml/traverser.js";
 import { UnitMapper, type Unit, type Hero } from "./mappers/unit.mapper.js";
 import { mapBattleFormations, type BattleFormation } from "./mappers/battle-formation.mapper.js";
 import { mapHeroicTraits, mapArtefactsOfPower, type EnhancementCollection } from "./mappers/enhancement.mapper.js";
+import { mapRegimentsOfRenown, type RegimentOfRenown } from "./mappers/regiment-of-renown.mapper.js";
 import type { MapperOptions } from "./mappers/base.js";
 import {
   writeUnit,
@@ -31,6 +32,8 @@ import {
   writeBattleFormations,
   writeEnhancement,
   ensureEnhancementsDir,
+  ensureRegimentsOfRenownDir,
+  writeRegimentsOfRenown,
 } from "./output/writer.js";
 import { mapLores, type Lore } from "./mappers/lore.mapper.js";
 import {
@@ -160,6 +163,9 @@ async function syncCommand(options: CLIOptions): Promise<void> {
   // Parse lores from Lores.cat
   const lores = await parseLores(bsdataPath, options, log);
 
+  // Parse regiments of renown
+  const regiments = await parseRegimentsOfRenown(bsdataPath, catalogueFiles, options, log);
+
   // Validate if not skipped
   if (!options.skipValidate) {
     log.info("\nValidating parsed data...");
@@ -181,12 +187,20 @@ async function syncCommand(options: CLIOptions): Promise<void> {
       const loreResults = writeLores(lores, { dryRun: false }, undefined, join(outputDir, ".."));
       log.info(`  shared lores: ${loreResults.length} files written`);
     }
+
+    // Write regiments of renown
+    if (regiments.length > 0) {
+      const outputDir = options.output || FACTIONS_DIR;
+      ensureRegimentsOfRenownDir(join(outputDir, ".."));
+      const regimentResults = writeRegimentsOfRenown(regiments, { dryRun: false }, join(outputDir, ".."));
+      log.info(`  regiments of renown: ${regimentResults.length} files written`);
+    }
   } else {
     log.info("\nDry run - no files written");
   }
 
   // Summary
-  printSummary(results, lores.length, log);
+  printSummary(results, lores.length, regiments.length, log);
 }
 
 /**
@@ -237,7 +251,7 @@ async function parseCommand(options: CLIOptions): Promise<void> {
     await writeResults(results, options, log);
   }
 
-  printSummary(results, 0, log);
+  printSummary(results, 0, 0, log);
 }
 
 /**
@@ -545,6 +559,71 @@ async function parseLores(
 }
 
 /**
+ * Parse regiments of renown from game system and Regiments of Renown.cat
+ */
+async function parseRegimentsOfRenown(
+  bsdataPath: string,
+  _catalogueFiles: string[],
+  options: CLIOptions,
+  log: Logger
+): Promise<RegimentOfRenown[]> {
+  const gameSystemFile = join(bsdataPath, "Age of Sigmar 4.0.gst");
+  const regimentsCatFile = join(bsdataPath, "Regiments of Renown.cat");
+
+  if (!existsSync(gameSystemFile)) {
+    log.verbose("No game system file found");
+    return [];
+  }
+
+  if (!existsSync(regimentsCatFile)) {
+    log.verbose("No Regiments of Renown.cat found");
+    return [];
+  }
+
+  log.info("Parsing regiments of renown...");
+
+  try {
+    // Parse game system (contains regiment forceEntries with points)
+    const gameSystem = await parseGst(gameSystemFile);
+
+    // Parse Regiments of Renown catalogue (contains abilities and unit links)
+    const regimentsCatalogue = await parseCat(regimentsCatFile);
+
+    // Find and parse all NON-library faction catalogues (for ID -> name mapping)
+    // These have the catalogue IDs that regiment conditions reference
+    const allCatFiles = await glob(join(bsdataPath, "*.cat"));
+    const nonLibraryCatFiles = allCatFiles.filter(
+      (f) =>
+        !f.includes("Library") &&
+        !f.includes("Regiments of Renown") &&
+        !f.includes("Lores") &&
+        !f.toLowerCase().includes("legends")
+    );
+
+    const factionCatalogues = await Promise.all(nonLibraryCatFiles.map((f) => parseCat(f)));
+    log.verbose(`  Found ${factionCatalogues.length} faction catalogues for ID mapping`);
+
+    const mapperOptions: MapperOptions = {
+      strict: options.strict,
+      factionId: "shared",
+      grandAlliance: undefined,
+      catalogueName: "Regiments of Renown",
+    };
+
+    const regiments = mapRegimentsOfRenown(gameSystem, regimentsCatalogue, factionCatalogues, mapperOptions);
+    log.info(`  Found ${regiments.length} regiments of renown`);
+
+    return regiments;
+  } catch (error) {
+    log.error(`Failed to parse Regiments of Renown: ${error}`);
+    if (options.strict) {
+      throw error;
+    }
+    return [];
+  }
+}
+
+/**
  * Load points from the non-library catalogue corresponding to a library file
  */
 async function loadPointsForFaction(
@@ -699,7 +778,7 @@ async function writeResults(
 /**
  * Print summary
  */
-function printSummary(results: FactionParseResult[], loresCount: number, log: Logger): void {
+function printSummary(results: FactionParseResult[], loresCount: number, regimentsCount: number, log: Logger): void {
   log.info("\n" + "=".repeat(40));
   log.info("Summary");
   log.info("=".repeat(40));
@@ -721,6 +800,7 @@ function printSummary(results: FactionParseResult[], loresCount: number, log: Lo
   log.info(`Battle Formations: ${totalFormations}`);
   log.info(`Enhancements: ${totalEnhancements}`);
   log.info(`Lores: ${loresCount}`);
+  log.info(`Regiments of Renown: ${regimentsCount}`);
   log.info(`Errors: ${totalErrors}`);
 }
 

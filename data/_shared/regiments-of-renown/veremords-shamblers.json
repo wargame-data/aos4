@@ -1,0 +1,45 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "veremords-shamblers",
+  "name": "Veremord's Shamblers",
+  "points": 210,
+  "allowedFactions": [
+    "Flesh-eater Courts",
+    "Nighthaunt",
+    "Ossiarch Bonereapers"
+  ],
+  "units": [
+    {
+      "name": "Corpse Cart",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Deadwalker Zombies",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Vitiating Vapours",
+      "type": "passive",
+      "effect": "Subtract 1 from ward rolls for enemy units while they are within 12\" of the **Corpse Cart** in this Regiment of Renown.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Legend among Graverobbers",
+      "type": "passive",
+      "effect": "For each target that had any models slain this turn, you can return D3 slain models to the **Deadwalker Zombies** unit in this Regiment of Renown.",
+      "phase": "any",
+      "declare": "Pick the **Corpse Cart** in this Regiment of Renown to use this ability if it is within 3\" of the **Deadwalker Zombies** unit in this Regiment of Renown. Then, pick each enemy **^^Infantry^^**, **^^Cavalry^^** and **^^Beast^^** unit within 12\" of the **Corpse Cart** to be the targets.",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

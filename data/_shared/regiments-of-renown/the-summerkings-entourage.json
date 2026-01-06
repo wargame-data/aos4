@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "the-summerkings-entourage",
+  "name": "The Summerking's Entourage",
+  "points": 640,
+  "allowedFactions": [
+    "Nighthaunt",
+    "Ossiarch Bonereapers",
+    "Soulblight Gravelords"
+  ],
+  "units": [
+    {
+      "name": "Ushoran, Mortarch of Delusion",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Morbheg Knights",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Cryptguard",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Maddening Radiance",
+      "type": "passive",
+      "effect": "Add 1 to the Attacks characteristic of melee weapons used by units in this Regiment of Renown while they are wholly within 12\" of the **Ushoran** in this Regiment of Renown.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Deranged Transformation",
+      "type": "spell",
+      "effect": "Until the start of your next turn:\n• Add 2\" to the target’s Move characteristic.\n• Add 1 to wound rolls for the target’s combat attacks",
+      "phase": "hero",
+      "declare": "Pick the **Ushoran** in this Regiment of Renown to cast this spell, pick another visible unit in this Regiment of Renown wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Summon Deluded Throngs",
+      "type": "once-per-battle",
+      "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 6\" of a battlefield edge and more than 9\" from all enemy units. The replacement unit is part of this Regiment of Renown.",
+      "phase": "movement",
+      "declare": "Pick the **Ushoran** in this Regiment of Renown to use this ability, then pick another unit in this Regiment of Renown that has been destroyed to be the target",
+      "color": "Gray",
+      "abilityCategory": "Rallying"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

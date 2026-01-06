@@ -1,0 +1,47 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "one-eyed-grunnock",
+  "name": "One-eyed Grunnock",
+  "points": 410,
+  "allowedFactions": [
+    "Beasts of Chaos [LEGENDS]",
+    "Blades of Khorne",
+    "Bonesplitterz [LEGENDS]",
+    "Disciples of Tzeentch",
+    "Gloomspite Gitz",
+    "Hedonites of Slaanesh",
+    "Helsmiths of Hashut",
+    "Ironjawz",
+    "Kruleboyz",
+    "Maggotkin of Nurgle",
+    "Ogor Mawtribes",
+    "Skaven",
+    "Slaves to Darkness",
+    "Slaves to Darkness - Legion of the First Prince"
+  ],
+  "units": [
+    {
+      "name": "Warstomper Mega-Gargant",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Shake the Earth",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+:\n• Inflict an amount of mortal damage on the target equal to the roll. If the target is **^^Infantry^^**, double the amount of mortal damage inflicted.\n• Subtract 1 from hit rolls for the target’s attacks for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

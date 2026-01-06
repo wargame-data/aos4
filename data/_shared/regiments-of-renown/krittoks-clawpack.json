@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "krittoks-clawpack",
+  "name": "Krittok's Clawpack",
+  "points": 380,
+  "allowedFactions": [
+    "Beasts of Chaos [LEGENDS]",
+    "Blades of Khorne",
+    "Disciples of Tzeentch",
+    "Hedonites of Slaanesh",
+    "Maggotkin of Nurgle",
+    "Slaves to Darkness",
+    "Slaves to Darkness - Legion of the First Prince"
+  ],
+  "units": [
+    {
+      "name": "Doom-flayers",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Krittok Foulblade",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Stormvermin",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Fickle Motives",
+      "type": "passive",
+      "effect": "Add 1 to the Attacks characteristic of melee weapons used by friendly **^^Krittok's Clawpack^^** units while you have more victory points than your opponent.\nSubtract 3 from the control scores of friendly **^^Krittok's Clawpack^^** units while you have fewer victory points than your opponent.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Always Three Clawsteps Ahead",
+      "type": "once-per-turn",
+      "effect": "That unit can use the 'Normal Move' ability as if it were your movement phase.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Krittok's Clawpack^^** unit that is not in combat to use this ability.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Skryre Payloads",
+      "type": "passive",
+      "effect": "Friendly **^^Krittok's Clawpack^^ Doom-Flayers** units have **^^Ward (5+)^^** while they are within the combat range of a friendly **^^Krittok's Clawpack^^ Stormvermin** unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

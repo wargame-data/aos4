@@ -1,0 +1,59 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "goroan-scions",
+  "name": "Goroan Scions",
+  "points": 420,
+  "allowedFactions": [
+    "Bonesplitterz [LEGENDS]",
+    "Gloomspite Gitz",
+    "Ironjawz",
+    "Kruleboyz",
+    "Ogor Mawtribes",
+    "Sons of Behemat"
+  ],
+  "units": [
+    {
+      "name": "Ogroid Theridons",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Ogroid Thaumaturge",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Ogroid Myrmidon",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Bellow of Gorkamorka",
+      "type": "spell",
+      "effect": "The target has **^^Strike-last^^** until the start of your next turn. In addition, while the target has the **^^Burning^^** keyword, subtract 1 from hit rolls for the target until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick the **Ogroid Thaumaturge** in this Regiment of Renown to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Goroan Forgecraft",
+      "type": "once-per-turn",
+      "effect": "On a 3+, add 1 to the Rend characteristic of the target’s melee weapons until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Destruction Hero^^** that is within the combat range of a **^^Hero^^** in this Regiment of Renown to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}
