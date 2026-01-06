@@ -47,12 +47,16 @@
     {
       "name": "Frenzied Assault",
       "type": "passive",
-      "effect": "If this unit charged in the same turn, add 1 to the Attacks characteristic of its melee weapons for the rest of the turn."
+      "effect": "If this unit charged in the same turn, add 1 to the Attacks characteristic of its melee weapons for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Enshrouding Fumes",
       "type": "passive",
-      "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit."
+      "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

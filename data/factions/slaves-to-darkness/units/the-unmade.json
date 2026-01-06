@@ -61,7 +61,9 @@
     {
       "name": "Frozen in Fear",
       "type": "passive",
-      "effect": "Enemy units cannot use the ‘Redeploy’ or ‘Rally’ commands while they are within 12\" of this unit."
+      "effect": "Enemy units cannot use the ‘Redeploy’ or ‘Rally’ commands while they are within 12\" of this unit.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ]
 }

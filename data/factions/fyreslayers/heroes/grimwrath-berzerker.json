@@ -45,13 +45,17 @@
     {
       "name": "Grimwrath Oaths",
       "type": "passive",
-      "effect": "Pick 1 of the following oaths for this unit to swear:\n***‘I will guard them with my life!’:*** While this unit is wholly within 6\" of another friendly **^^Fyreslayers Hero^^**:\n• Add 1 to hit rolls for this unit’s attacks.\n• Add 1 to ward rolls for this unit.\nIf a friendly **^^Fyreslayers Hero^^** wholly within 6\" of this unit is destroyed, this effect no longer applies.\n***‘I will not be stopped!’:*** Add 1 to charge rolls for this unit, and add 1 to save rolls for this unit while it is in combat. If this unit uses the ‘Retreat’ or ‘Rally’ abilities, this effect no longer applies."
+      "effect": "Pick 1 of the following oaths for this unit to swear:\n***‘I will guard them with my life!’:*** While this unit is wholly within 6\" of another friendly **^^Fyreslayers Hero^^**:\n• Add 1 to hit rolls for this unit’s attacks.\n• Add 1 to ward rolls for this unit.\nIf a friendly **^^Fyreslayers Hero^^** wholly within 6\" of this unit is destroyed, this effect no longer applies.\n***‘I will not be stopped!’:*** Add 1 to charge rolls for this unit, and add 1 to save rolls for this unit while it is in combat. If this unit uses the ‘Retreat’ or ‘Rally’ abilities, this effect no longer applies.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Battle-fury",
       "type": "once-per-battle",
       "effect": "If this unit is in combat, it can use 2 **^^Fight^^** abilities this phase. After the first is used, however, this unit has **^^Strike-last^^** for the rest of the phase.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

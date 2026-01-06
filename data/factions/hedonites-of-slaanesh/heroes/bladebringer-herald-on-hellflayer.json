@@ -76,19 +76,25 @@
       "type": "passive",
       "effect": "Add 2\" to the Move characteristic of this unit and each target for the rest of the turn.",
       "phase": "movement",
-      "declare": "Pick up to 2 friendly **Hellflayer** units wholly within 12\" of this unit to be the targets."
+      "declare": "Pick up to 2 friendly **Hellflayer** units wholly within 12\" of this unit to be the targets.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Soulscent",
       "type": "passive",
       "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any models are slain by this ability, this unit has **^^Ward (5+)^^** for the rest of the turn.",
       "phase": "movement",
-      "declare": "Pick up to 3 enemy units that this unit passed across this phase to be the targets."
+      "declare": "Pick up to 3 enemy units that this unit passed across this phase to be the targets.",
+      "color": "Gray",
+      "abilityCategory": "Special"
     },
     {
       "name": "Threshing Doom",
       "type": "passive",
-      "effect": "When this unit moves, it can pass through models in enemy **^^Infantry^^** units and can pass through the combat ranges of enemy **^^Infantry^^** units, but it cannot end a move in combat unless specified in the ability used."
+      "effect": "When this unit moves, it can pass through models in enemy **^^Infantry^^** units and can pass through the combat ranges of enemy **^^Infantry^^** units, but it cannot end a move in combat unless specified in the ability used.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": 1,

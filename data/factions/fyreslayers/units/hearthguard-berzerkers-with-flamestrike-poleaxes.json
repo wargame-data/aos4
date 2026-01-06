@@ -49,14 +49,18 @@
     {
       "name": "Duty Unto Death",
       "type": "passive",
-      "effect": "While any friendly **^^Fyreslayers Infantry Heroes^^** are wholly within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**."
+      "effect": "While any friendly **^^Fyreslayers Infantry Heroes^^** are wholly within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Smouldering Braziers",
       "type": "passive",
       "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "any",
-      "declare": "Pick an enemy unit in combat with this unit to be the target."
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     }
   ]
 }

@@ -56,7 +56,9 @@
       "type": "passive",
       "effect": "Pick 1 of the following effects:\n***Tactical Bombing:*** Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n***Drop It All!:*** Make 2 rolls of D3. For each 2+, inflict an amount of mortal damage on the target equal to the roll. Then, roll a D3 for each unit (friendly and enemy) within the target’s combat range that does not have **^^Fly^^**. On a 2+, inflict an amount of mortal damage on that unit equal to the roll. Once the ‘Drop It All!’ effect of this ability has been resolved, this unit cannot use this ability again for the rest of the battle.",
       "phase": "movement",
-      "declare": "If this unit used a **^^Move^^** ability this phase, pick an enemy unit that does not have **^^Fly^^** and that this unit passed across this turn to be the target."
+      "declare": "If this unit used a **^^Move^^** ability this phase, pick an enemy unit that does not have **^^Fly^^** and that this unit passed across this turn to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Offensive"
     }
   ]
 }

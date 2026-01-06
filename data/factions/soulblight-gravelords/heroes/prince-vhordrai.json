@@ -91,7 +91,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Shordmaire's Claws** is 5."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Shordmaire's Claws** is 5.",
+      "color": "Black"
     },
     {
       "name": "Trail of Crimson",
@@ -101,7 +102,9 @@
       "declare": "This unit can make a pile-in move (even if it is not in combat). Then, if this unit is in combat, pick an enemy unit in combat with it to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Quickblood",
@@ -112,14 +115,18 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Saint of Slaughter",
       "type": "passive",
       "effect": "Pick 1 of the following effects to apply for the rest of the battle:\n• Add 2\" to the target’s Move characteristic.\n• Add 1 to the Attacks characteristic of the target’s melee weapons.\n• Add 1 to the Damage characteristic of the target’s melee weapons.\nMore than 1 effect can apply to a unit at the same time; however, each effect can only be applied to a unit once.",
       "phase": "any",
-      "declare": "Pick a friendly non-**^^Monster Vampire^^** unit that destroyed a unit this turn using a **^^Fight^^** ability and is wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly non-**^^Monster Vampire^^** unit that destroyed a unit this turn using a **^^Fight^^** ability and is wholly within 12\" of this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

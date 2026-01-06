@@ -61,7 +61,9 @@
       "name": "Tallyman of Nurgle",
       "type": "passive",
       "effect": "You gain a number of **tally points** equal to the current battle round number.\nDuring the battle round, you can spend your **tally points**. For each **tally point** you spend, you can re-roll 1 hit roll, 1 wound roll, 1 save roll or 1 ward roll for a friendly **^^Maggotkin of Nurgle^^** unit wholly within 12\" of this unit.\nAt the end of the battle round, any unspent **tally points** are lost.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

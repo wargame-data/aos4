@@ -66,13 +66,17 @@
     {
       "name": "Vulcharc",
       "type": "passive",
-      "effect": "While this unit includes any models accompanied by **Vulcharcs**, subtract 1 from casting rolls for enemy **^^Wizards^^** within 12\" of this unit."
+      "effect": "While this unit includes any models accompanied by **Vulcharcs**, subtract 1 from casting rolls for enemy **^^Wizards^^** within 12\" of this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Gestalt Sorcery",
       "type": "passive",
       "effect": "If this unit includes any models carrying a **Scroll of Dark Arts**, roll a dice. Add 1 to the roll for each other friendly **Kairic Acolytes** unit within this unit’s combat range. On a 5+, add 1 to the Rend characteristic of this unit’s **Sorcerous Bolts** for the rest of the turn.",
-      "phase": "shooting"
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "manifestation-lore-the-great-grand-gnawhorde",
+  "name": "Manifestation Lore: The Great-grand Gnawhorde",
+  "loreType": "manifestation",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Summon Vermintide",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Vermintide** wholly within 13\" of the caster, visible to them and more than 9\" from all enemy units.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Vermintide** on the battlefield, pick a friendly **^^Skaven Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ]
+}

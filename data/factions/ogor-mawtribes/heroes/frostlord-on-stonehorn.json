@@ -73,17 +73,22 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Stonehorn’s Rock-hard Horns** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Stonehorn’s Rock-hard Horns** is 4.",
+      "color": "Black"
     },
     {
       "name": "Frost Spear",
       "type": "passive",
-      "effect": "If any damage points are allocated to an enemy **^^Hero^^** or **^^Monster^^** by attacks made with this unit’s **Frost Spear**, subtract 1 from the Attacks characteristic of that enemy unit’s melee weapons until the start of your next turn."
+      "effect": "If any damage points are allocated to an enemy **^^Hero^^** or **^^Monster^^** by attacks made with this unit’s **Frost Spear**, subtract 1 from the Attacks characteristic of that enemy unit’s melee weapons until the start of your next turn.",
+      "color": "Red",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Stone Skeleton",
       "type": "passive",
-      "effect": "Ignore the first damage point that would be allocated to this unit in each phase."
+      "effect": "Ignore the first damage point that would be allocated to this unit in each phase.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Earth-shattering Charge",
@@ -93,7 +98,9 @@
       "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

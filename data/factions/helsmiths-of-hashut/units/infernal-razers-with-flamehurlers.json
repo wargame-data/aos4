@@ -59,12 +59,16 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, subtract an amount equal to the roll from the target's control score until the start of your next turn.",
       "phase": "shooting",
-      "declare": "If this unit used a **^^Shoot^^** ability this turn and all of its attacks targeted the same enemy **^^Infantry^^** unit, that enemy unit is the target."
+      "declare": "If this unit used a **^^Shoot^^** ability this turn and all of its attacks targeted the same enemy **^^Infantry^^** unit, that enemy unit is the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Manglers of Metal",
       "type": "passive",
-      "effect": "Add 1 to the Rend characteristic of this unit’s ranged weapons for each **daemonic power point** this unit has."
+      "effect": "Add 1 to the Rend characteristic of this unit’s ranged weapons for each **daemonic power point** this unit has.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

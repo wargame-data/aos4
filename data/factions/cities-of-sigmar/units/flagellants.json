@@ -44,7 +44,9 @@
     {
       "name": "Glorious Martyrs",
       "type": "passive",
-      "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. Add 1 to the roll if this unit is wholly within 12\" of a friendly **Pontifex Zenestra**. On a 5+, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+      "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. Add 1 to the roll if this unit is wholly within 12\" of a friendly **Pontifex Zenestra**. On a 5+, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

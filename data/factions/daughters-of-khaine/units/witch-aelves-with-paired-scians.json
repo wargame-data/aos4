@@ -53,7 +53,9 @@
     {
       "name": "Frenzied Fervour",
       "type": "passive",
-      "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons for the rest of the turn if this unit charged in the same turn."
+      "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons for the rest of the turn if this unit charged in the same turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

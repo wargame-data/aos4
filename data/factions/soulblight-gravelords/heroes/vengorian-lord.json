@@ -59,7 +59,9 @@
       "name": "Festering Feast",
       "type": "once-per-turn",
       "effect": "If any damage points were allocated to enemy units by this unit's attacks this turn, **Heal (D3)** this unit and each other friendly **^^Soulblight Gravelords Monster^^** wholly within 12\" of this unit.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Scything Talons",
@@ -69,12 +71,16 @@
       "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Nightmare's Miasma",
       "type": "passive",
-      "effect": "Subtract 1 from the Rend characteristic of melee weapons used by enemy units while they are in combat with this unit."
+      "effect": "Subtract 1 from the Rend characteristic of melee weapons used by enemy units while they are in combat with this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": 1,

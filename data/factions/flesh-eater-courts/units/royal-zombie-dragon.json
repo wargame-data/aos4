@@ -79,18 +79,23 @@
       "phase": "combat",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "On Rotten Wings",
       "type": "once-per-turn",
       "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
-      "phase": "movement"
+      "phase": "movement",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Necromantic Limits",
       "type": "passive",
-      "effect": "This unit's **Draconic Claws** have a maximum Attacks characteristic of 10.\nWhile this unit has 10 or more damage points, the Attacks characteristic of its **Draconic Claws** is 5."
+      "effect": "This unit's **Draconic Claws** have a maximum Attacks characteristic of 10.\nWhile this unit has 10 or more damage points, the Attacks characteristic of its **Draconic Claws** is 5.",
+      "color": "Black"
     }
   ]
 }

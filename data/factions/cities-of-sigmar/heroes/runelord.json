@@ -45,7 +45,9 @@
     {
       "name": "Runes of Spellbreaking",
       "type": "passive",
-      "effect": "This unit can use the ‘Unbind’ ability as if it had **^^Wizard (1)^^**."
+      "effect": "This unit can use the ‘Unbind’ ability as if it had **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Forgefire",
@@ -56,7 +58,9 @@
       "chantingValue": 5,
       "keywords": [
         "**^^PRAYER^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

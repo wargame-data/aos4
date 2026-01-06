@@ -73,7 +73,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Draconic Claws** is 5."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Draconic Claws** is 5.",
+      "color": "Black"
     },
     {
       "name": "Death on Tattered Wings",
@@ -82,14 +83,18 @@
       "declare": "Pick this unit if it has not been deployed.",
       "keywords": [
         "**^^DEPLOY^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Loathsome Descent",
       "type": "passive",
       "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Pick this unit if it is **high above the battlefield**."
+      "declare": "Pick this unit if it is **high above the battlefield**.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Red Ruin",
@@ -99,7 +104,9 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Purple",
+      "abilityCategory": "Special"
     }
   ]
 }

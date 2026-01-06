@@ -55,7 +55,9 @@
       "type": "once-per-turn",
       "effect": "Roll a dice for each target. On a 3+, add 1 to hit rolls for the target’s attacks until the start of your next turn.",
       "phase": "hero",
-      "declare": "Pick up to 3 visible friendly **Gyrocopter** or **Gyrobomber** units wholly within 18\" of this unit to be the targets."
+      "declare": "Pick up to 3 visible friendly **Gyrocopter** or **Gyrobomber** units wholly within 18\" of this unit to be the targets.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

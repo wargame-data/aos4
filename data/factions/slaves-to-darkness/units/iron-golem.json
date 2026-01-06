@@ -61,12 +61,16 @@
     {
       "name": "Ogor Breacher",
       "type": "passive",
-      "effect": "While this unit includes an **Ogor Breacher**, ignore the first damage point that would be allocated to this unit in each phase."
+      "effect": "While this unit includes an **Ogor Breacher**, ignore the first damage point that would be allocated to this unit in each phase.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Iron Resilience",
       "type": "passive",
-      "effect": "Add 1 to save rolls for this unit if it has not used a **^^Move^^** ability in the same turn."
+      "effect": "Add 1 to save rolls for this unit if it has not used a **^^Move^^** ability in the same turn.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

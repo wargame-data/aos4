@@ -130,6 +130,7 @@ const CONTAINER_CHILD_MAP: Record<string, string> = {
   forceEntries: "forceEntry",
   catalogueLinks: "catalogueLink",
   publications: "publication",
+  attributes: "attribute",
 };
 
 /**
@@ -207,4 +208,15 @@ export function findCharacteristic(
 ): string {
   const char = profile.characteristics?.find((c) => c.$.name === name);
   return getCharacteristicValue(char);
+}
+
+/**
+ * Find attribute by name in a profile
+ */
+export function findAttribute(
+  profile: { attributes?: Array<{ $: { name: string }; _?: string }> },
+  name: string
+): string | undefined {
+  const attr = profile.attributes?.find((a) => a.$.name === name);
+  return attr?._;
 }

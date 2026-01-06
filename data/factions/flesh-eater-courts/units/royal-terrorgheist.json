@@ -80,19 +80,24 @@
       "declare": "Pick an enemy **^^Infantry^^** unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "Necromantic Limits",
       "type": "passive",
-      "effect": "This unit's **Skeletal Talons** have a maximum Attacks characteristic of 10.\nWhile this unit has 10 or more damage points, the Attacks characteristic of its **Skeletal Talons** is 4."
+      "effect": "This unit's **Skeletal Talons** have a maximum Attacks characteristic of 10.\nWhile this unit has 10 or more damage points, the Attacks characteristic of its **Skeletal Talons** is 4.",
+      "color": "Black"
     },
     {
       "name": "Wicked Predator",
       "type": "once-per-turn",
       "effect": "For each champion, standard bearer, and musician in the target unit, add 1 to the Attacks characteristic of this unit's **Terrorgheist's Skeletal Talons**, to a maximum of 10, for the rest of the phase. Those additional attacks must target that enemy unit.",
       "phase": "combat",
-      "declare": "Pick an enemy unit in combat with this unit to be the target."
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

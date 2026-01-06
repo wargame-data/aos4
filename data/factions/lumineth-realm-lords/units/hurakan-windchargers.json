@@ -60,7 +60,9 @@
     {
       "name": "Windcharger Arrows",
       "type": "passive",
-      "effect": "Ward rolls cannot be made for damage points inflicted by this unit’s shooting attacks."
+      "effect": "Ward rolls cannot be made for damage points inflicted by this unit’s shooting attacks.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

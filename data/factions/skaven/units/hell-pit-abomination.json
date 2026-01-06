@@ -46,7 +46,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Gnashing Teeth and Flailing Fists** is 8."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Gnashing Teeth and Flailing Fists** is 8.",
+      "color": "Black"
     },
     {
       "name": "Avalanche of Flesh",
@@ -56,18 +57,24 @@
       "declare": "Pick an enemy **^^Infantry^^** unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Regenerating Monstrosity",
       "type": "passive",
       "effect": "**Heal (D6)** this unit.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Too Horrible to Die",
       "type": "passive",
-      "effect": "The first time this unit would be destroyed, before removing it from the battlefield, roll a dice and apply the corresponding effect:\n**1 *Dead:*** This unit is destroyed.\n**2-4 *The Rats Emerge:*** Roll a D3 for each enemy unit in combat with this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll. Then, this unit is destroyed.\n**5-6 *It’s Alive!:*** This unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (D6)** this unit."
+      "effect": "The first time this unit would be destroyed, before removing it from the battlefield, roll a dice and apply the corresponding effect:\n**1 *Dead:*** This unit is destroyed.\n**2-4 *The Rats Emerge:*** Roll a D3 for each enemy unit in combat with this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll. Then, this unit is destroyed.\n**5-6 *It’s Alive!:*** This unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (D6)** this unit.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ]
 }

@@ -70,7 +70,9 @@
     {
       "name": "Lay the Beast Low",
       "type": "passive",
-      "effect": "Add 1 to hit rolls and wound rolls for this unit’s shooting attacks that target enemy **^^Monsters^^**."
+      "effect": "Add 1 to hit rolls and wound rolls for this unit’s shooting attacks that target enemy **^^Monsters^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

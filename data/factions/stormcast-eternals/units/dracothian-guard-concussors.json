@@ -73,12 +73,16 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick an enemy unit in combat with this unit to be the target."
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "Extremis Chamber",
       "type": "passive",
-      "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+      "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+      "color": "Green",
+      "abilityCategory": "Offensive"
     }
   ]
 }

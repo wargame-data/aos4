@@ -60,17 +60,23 @@
     {
       "name": "The Prime Huntress",
       "type": "passive",
-      "effect": "Double the Damage characteristic of this unit’s **Thengavar** for attacks that target **^^Monsters^^**."
+      "effect": "Double the Damage characteristic of this unit’s **Thengavar** for attacks that target **^^Monsters^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Dazzling Radiance",
       "type": "passive",
-      "effect": "Ignore negative modifiers to the control scores of friendly **^^Stormcast Eternals^^** units while they are wholly within 12\" of this unit."
+      "effect": "Ignore negative modifiers to the control scores of friendly **^^Stormcast Eternals^^** units while they are wholly within 12\" of this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     },
     {
       "name": "On Wings of Brilliance",
       "type": "passive",
-      "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3."
+      "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

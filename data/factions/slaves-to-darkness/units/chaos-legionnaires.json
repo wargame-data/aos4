@@ -46,7 +46,9 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 4+, the target cannot use commands for the rest of the turn.",
       "phase": "movement",
-      "declare": "Pick an enemy unit within 6\" of this unit to be the target."
+      "declare": "Pick an enemy unit within 6\" of this unit to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Special"
     }
   ]
 }

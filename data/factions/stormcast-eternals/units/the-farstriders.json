@@ -62,13 +62,17 @@
       "type": "passive",
       "effect": "Roll a dice. On a 3+, inflict 1 mortal damage on the target.",
       "phase": "shooting",
-      "declare": "If this unit’s **Sanson Farstrider** is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target."
+      "declare": "If this unit’s **Sanson Farstrider** is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Vanguard Chamber",
       "type": "once-per-turn",
       "effect": "For the rest of the turn, this unit can use **^^Shoot^^** and/or **^^Charge^^** abilities even if it used a **^^Run^^** or **^^Retreat^^** ability in the same turn.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

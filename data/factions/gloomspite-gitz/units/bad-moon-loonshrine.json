@@ -32,7 +32,9 @@
       "name": "Moonclan Lairs",
       "type": "command",
       "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this terrain feature and more than 3\" from all enemy units.",
-      "declare": "Pick a friendly non-**^^Hero^^** non-**^^Monster^^** non-**^^War Machine Gloomspite Gitz^^** unit that has been destroyed to be the target."
+      "declare": "Pick a friendly non-**^^Hero^^** non-**^^Monster^^** non-**^^War Machine Gloomspite Gitz^^** unit that has been destroyed to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
     }
   ]
 }

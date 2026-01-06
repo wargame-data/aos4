@@ -68,7 +68,9 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 2,

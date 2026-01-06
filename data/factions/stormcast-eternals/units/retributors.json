@@ -61,7 +61,9 @@
     {
       "name": "Crushing Counter-blow",
       "type": "passive",
-      "effect": "If this unit is damaged or if any models in this unit were slain this turn, add 1 to hit rolls for this unit’s attacks for the rest of the turn."
+      "effect": "If this unit is damaged or if any models in this unit were slain this turn, add 1 to hit rolls for this unit’s attacks for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

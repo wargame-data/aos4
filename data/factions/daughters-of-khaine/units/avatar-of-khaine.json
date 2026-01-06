@@ -60,7 +60,9 @@
       "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     }
   ]
 }

@@ -62,7 +62,9 @@
     {
       "name": "Guided by the Past",
       "type": "passive",
-      "effect": "This unit’s **Tzeentchian Spears and Vicious Beaks** have **Charge (+1 Damage)** if you are the underdog or it was determined at the start of the battle round that you would take the second turn."
+      "effect": "This unit’s **Tzeentchian Spears and Vicious Beaks** have **Charge (+1 Damage)** if you are the underdog or it was determined at the start of the battle round that you would take the second turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

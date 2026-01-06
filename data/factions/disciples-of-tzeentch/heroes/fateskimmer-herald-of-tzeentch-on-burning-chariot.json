@@ -77,14 +77,18 @@
       "type": "passive",
       "effect": "Roll a dice. On a 3+, the target has the **^^Burning^^** keyword.",
       "phase": "movement",
-      "declare": "Pick an enemy unit that this unit passed across this phase to be the target."
+      "declare": "Pick an enemy unit that this unit passed across this phase to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Special"
     },
     {
       "name": "Fuelling the Inferno",
       "type": "passive",
       "effect": "Inflict 1 mortal damage on each target.",
       "phase": "any",
-      "declare": "Pick up to 3 **^^Burning^^** enemy units within 12\" of this unit to be the targets."
+      "declare": "Pick up to 3 **^^Burning^^** enemy units within 12\" of this unit to be the targets.",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

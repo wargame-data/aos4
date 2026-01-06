@@ -70,7 +70,9 @@
     {
       "name": "Outmanoeuvre",
       "type": "passive",
-      "effect": "When this unit uses the ‘Redeploy’ command, if you roll a 1-3 when determining the distance this unit can move, you can use a value of 4 instead."
+      "effect": "When this unit uses the ‘Redeploy’ command, if you roll a 1-3 when determining the distance this unit can move, you can use a value of 4 instead.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

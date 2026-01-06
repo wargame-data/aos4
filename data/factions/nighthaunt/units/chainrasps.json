@@ -50,7 +50,9 @@
       "name": "Chilling Horde",
       "type": "once-per-battle",
       "effect": "Each target can move 6\" but cannot end that move in combat.",
-      "declare": "Pick up to 3 friendly **Chainrasp** units to be the targets,"
+      "declare": "Pick up to 3 friendly **Chainrasp** units to be the targets,",
+      "color": "Black",
+      "abilityCategory": "Movement"
     }
   ]
 }

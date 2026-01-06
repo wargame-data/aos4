@@ -61,12 +61,16 @@
     {
       "name": "Royal Companions",
       "type": "reaction",
-      "effect": "Pick a friendly non-**^^Hero Deathrattle Cavalry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved."
+      "effect": "Pick a friendly non-**^^Hero Deathrattle Cavalry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Lord of Trampling Bones",
       "type": "passive",
-      "effect": "Add 1 to charge rolls for friendly **^^Deathrattle Cavalry^^** units while they are wholly within 12\" of this unit."
+      "effect": "Add 1 to charge rolls for friendly **^^Deathrattle Cavalry^^** units while they are wholly within 12\" of this unit.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

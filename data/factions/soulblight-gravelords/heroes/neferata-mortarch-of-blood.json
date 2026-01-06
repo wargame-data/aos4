@@ -75,7 +75,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Nagadron’s Claws** is 3."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Nagadron’s Claws** is 3.",
+      "color": "Black"
     },
     {
       "name": "The Adevore",
@@ -85,12 +86,16 @@
       "declare": "Pick an enemy **^^Hero^^** that was allocated any damage points inflicted by this unit’s **Akmet-har** this turn to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Twilight's Allure",
       "type": "passive",
-      "effect": "Subtract 1 from hit rolls for combat attacks that target friendly **^^Soulblight Gravelords^^** units while they are wholly within 6\" of this unit."
+      "effect": "Subtract 1 from hit rolls for combat attacks that target friendly **^^Soulblight Gravelords^^** units while they are wholly within 6\" of this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Dark Mist",
@@ -101,13 +106,17 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "The Mortarch of Blood",
       "type": "passive",
       "effect": "Each target can use the ‘Normal Move’ ability as if it were your movement phase.",
-      "declare": "Pick up to 3 friendly **^^Deathrattle Infantry^^** or **^^Deadwalkers Infantry^^** units to be the targets."
+      "declare": "Pick up to 3 friendly **^^Deathrattle Infantry^^** or **^^Deadwalkers Infantry^^** units to be the targets.",
+      "color": "Black",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": 2,

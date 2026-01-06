@@ -46,17 +46,23 @@
     {
       "name": "Earn an Honourable Death",
       "type": "reaction",
-      "effect": "Pick a friendly non-**^^Hero Ruination Chamber Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
+      "effect": "Pick a friendly non-**^^Hero Ruination Chamber Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Memorian",
       "type": "passive",
-      "effect": "This unit’s **Memorian** is a token. Add 3 to the control scores of friendly **^^Ruination Chamber^^** units wholly within 12\" of this unit while its **Memorian** is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove its **Memorian** from the battlefield after the Attack ability has been resolved (the damage point is still inflicted)."
+      "effect": "This unit’s **Memorian** is a token. Add 3 to the control scores of friendly **^^Ruination Chamber^^** units wholly within 12\" of this unit while its **Memorian** is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove its **Memorian** from the battlefield after the Attack ability has been resolved (the damage point is still inflicted).",
+      "color": "Purple",
+      "abilityCategory": "Control"
     },
     {
       "name": "Ruination Chamber",
       "type": "reaction",
-      "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+      "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

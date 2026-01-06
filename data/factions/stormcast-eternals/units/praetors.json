@@ -44,12 +44,16 @@
     {
       "name": "Soul-bonded",
       "type": "passive",
-      "effect": "Pick a friendly **^^Stormcast Eternals Hero^^** to be this unit’s soul-bonded charge for the rest of the battle. This unit can use this ability while it is in reserve."
+      "effect": "Pick a friendly **^^Stormcast Eternals Hero^^** to be this unit’s soul-bonded charge for the rest of the battle. This unit can use this ability while it is in reserve.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Soul-forged Guardians",
       "type": "passive",
-      "effect": "While this unit’s soul-bonded charge is within this unit’s combat range, both this unit and that soul-bonded charge have **^^Ward (5+)^^**."
+      "effect": "While this unit’s soul-bonded charge is within this unit’s combat range, both this unit and that soul-bonded charge have **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

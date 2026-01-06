@@ -47,14 +47,18 @@
       "type": "passive",
       "effect": "Your opponent must decide whether the target will accept or decline this unit’s challenge.\n***Accept:*** The target has **^^Strike-first^^** for the rest of the turn. If this unit is in combat with the target when the target is picked to use a **^^Fight^^** ability, all of the target’s attacks must target this unit.\n***Decline:*** The target has **^^Strike-last^^** for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick an enemy unit in combat with this unit to be the target."
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "Only the Best Will Suffice",
       "type": "passive",
       "effect": "Roll a dice. On a 3+, for the rest of the turn, each time a model in the target unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. For each 4+, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
       "phase": "combat",
-      "declare": "Pick a friendly **^^Myrmidesh Painbringers^^** or **^^Symbaresh Twinsouls^^** unit that is in combat and is wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly **^^Myrmidesh Painbringers^^** or **^^Symbaresh Twinsouls^^** unit that is in combat and is wholly within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

@@ -80,7 +80,9 @@
     {
       "name": "Iron Heart of Khaine",
       "type": "passive",
-      "effect": "You cannot allocate more than 3 damage points to this unit each turn. Once 3 points have been allocated to this unit in a turn, any further damage points that would be allocated to it are ignored.\nDamage points allocated to this unit cannot be healed.\nIf this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 3 damage points to it (ward rolls cannot be made for those damage points)."
+      "effect": "You cannot allocate more than 3 damage points to this unit each turn. Once 3 points have been allocated to this unit in a turn, any further damage points that would be allocated to it are ignored.\nDamage points allocated to this unit cannot be healed.\nIf this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 3 damage points to it (ward rolls cannot be made for those damage points).",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Fury of the Shadow Queen",
@@ -90,7 +92,9 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

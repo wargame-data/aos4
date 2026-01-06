@@ -71,7 +71,9 @@
       "name": "Can't Catch Us!",
       "type": "once-per-turn",
       "effect": "If this unit is not in combat, this unit can move D6\". It cannot end that move in combat.",
-      "phase": "movement"
+      "phase": "movement",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

@@ -79,17 +79,23 @@
       "type": "once-per-battle",
       "effect": "For the rest of the turn, the first time the target uses the ‘Redeploy’, ‘Rally’, ‘Covering Fire’ or ‘Countercharge’ command, you can pick another friendly **^^Cities of Sigmar Human^^** unit wholly within 12\" of this unit and that has not used a command this phase to use the same command immediately after the first has been resolved (this is an exception to Commands, 1.2). You must still spend command points as normal to use the command a second time.",
       "phase": "hero",
-      "declare": "Pick a friendly **^^Cities of Sigmar Human^^** unit wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly **^^Cities of Sigmar Human^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "The Marshal's Retinue",
       "type": "passive",
-      "effect": "While any friendly **Freeguild Marshal and Relic Envoy** units are wholly within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**."
+      "effect": "While any friendly **Freeguild Marshal and Relic Envoy** units are wholly within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Dispatch Spies",
       "type": "reaction",
-      "effect": "Unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost."
+      "effect": "Unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ]
 }

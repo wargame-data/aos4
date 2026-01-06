@@ -59,14 +59,18 @@
     {
       "name": "Mist Lurkers",
       "type": "passive",
-      "effect": "If this unit successfully casts a spell, until the start of your next turn, it can attack with its **Shadow-cloaked Claws**."
+      "effect": "If this unit successfully casts a spell, until the start of your next turn, it can attack with its **Shadow-cloaked Claws**.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Twisted Mirror",
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 4+, subtract 1 from save rolls for the target until the start of your next turn.",
       "phase": "shooting",
-      "declare": "Pick an enemy unit within 8\" of this unit to be the target."
+      "declare": "Pick an enemy unit within 8\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ],
   "isWizard": 1,

@@ -69,12 +69,16 @@
       "declare": "Pick each enemy unit in combat with this unit to be the targets.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Purple",
+      "abilityCategory": "Special"
     },
     {
       "name": "Scion of the Primordial Storm",
       "type": "reaction",
-      "effect": "If this unit or a friendly **Dragon Ogors** unit wholly within 12\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit or that friendly unit. This unit can use this ability more than once per phase but only once per **^^Spell^^** ability."
+      "effect": "If this unit or a friendly **Dragon Ogors** unit wholly within 12\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit or that friendly unit. This unit can use this ability more than once per phase but only once per **^^Spell^^** ability.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

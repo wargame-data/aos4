@@ -49,13 +49,17 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. If the roll is equal to or less than the target's control characteristic, the target has **^^Strike-last^^** for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick an enemy unit in combat with this unit to be the target."
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Tempered by Fury",
       "type": "once-per-battle",
       "effect": "Pick 1 of the target’s melee weapons. Add 1 to the Rend characteristic of that weapon for the rest of the battle.",
-      "declare": "Pick another friendly **^^Bloodbound Hero^^** within 8\" of this unit to be the target."
+      "declare": "Pick another friendly **^^Bloodbound Hero^^** within 8\" of this unit to be the target.",
+      "color": "Black",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

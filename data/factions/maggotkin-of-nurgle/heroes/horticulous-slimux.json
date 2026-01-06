@@ -59,14 +59,18 @@
       "name": "Cultivating the Garden of Nurgle",
       "type": "passive",
       "effect": "If there are fewer than 3 friendly **Feculent Gnarlmaws** on the battlefield, you can set up a **Feculent Gnarlmaw** wholly within 12\" of this unit, more than 3\" from all enemy units, objectives and other terrain features.",
-      "phase": "movement"
+      "phase": "movement",
+      "color": "Gray",
+      "abilityCategory": "Special"
     },
     {
       "name": "Beast Handler",
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, set up a replacement unit wholly within 12\" of this unit and more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Pick a friendly **Beasts of Nurgle** unit that has been destroyed."
+      "declare": "Pick a friendly **Beasts of Nurgle** unit that has been destroyed.",
+      "color": "Gray",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

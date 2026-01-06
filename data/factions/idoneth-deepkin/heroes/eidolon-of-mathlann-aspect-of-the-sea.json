@@ -61,12 +61,16 @@
     {
       "name": "Dormant Energies",
       "type": "passive",
-      "effect": "Add 1 to casting rolls for this unit."
+      "effect": "Add 1 to casting rolls for this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Tranquillity of the Abyss",
       "type": "passive",
-      "effect": "Ignore negative modifiers to the control scores of friendly **^^Idoneth Deepkin^^** units while they are wholly within 12\" of this unit."
+      "effect": "Ignore negative modifiers to the control scores of friendly **^^Idoneth Deepkin^^** units while they are wholly within 12\" of this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     },
     {
       "name": "Vengeful Waves",
@@ -76,7 +80,9 @@
       "declare": "If this unit has not charged this turn, pick an enemy unit in combat with it to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Orange",
+      "abilityCategory": "Special"
     },
     {
       "name": "Tsunami of Terror",
@@ -87,7 +93,9 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 2,

@@ -60,7 +60,9 @@
       "type": "once-per-battle",
       "effect": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "combat",
-      "declare": "Pick an enemy unit in combat with this unit and that charged this turn to be the target."
+      "declare": "Pick an enemy unit in combat with this unit and that charged this turn to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

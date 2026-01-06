@@ -55,7 +55,9 @@
     {
       "name": "Bubonic Barrage",
       "type": "passive",
-      "effect": "Each time this unit uses a **^^Shoot^^** ability, if all of its attacks targeted the same enemy unit, after that ability has been resolved, roll a dice. If the result is equal to or less than the number of models in that enemy unit that were slain by attacks made by this unit’s **Plagueclaw Catapult** this phase, that enemy unit has **^^Strike‑last^^** for the rest of the turn."
+      "effect": "Each time this unit uses a **^^Shoot^^** ability, if all of its attacks targeted the same enemy unit, after that ability has been resolved, roll a dice. If the result is equal to or less than the number of models in that enemy unit that were slain by attacks made by this unit’s **Plagueclaw Catapult** this phase, that enemy unit has **^^Strike‑last^^** for the rest of the turn.",
+      "color": "Blue",
+      "abilityCategory": "Defensive"
     }
   ]
 }

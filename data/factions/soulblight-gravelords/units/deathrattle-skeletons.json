@@ -49,7 +49,9 @@
       "name": "Skeleton Legion",
       "type": "passive",
       "effect": "You can return D3 slain models to this unit.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
     }
   ]
 }

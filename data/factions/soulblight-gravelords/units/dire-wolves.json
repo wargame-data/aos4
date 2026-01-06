@@ -50,7 +50,9 @@
     {
       "name": "On the Hunt",
       "type": "passive",
-      "effect": "This unit can use a **^^Run^^** ability and still use **^^Charge^^** abilities later in the turn."
+      "effect": "This unit can use a **^^Run^^** ability and still use **^^Charge^^** abilities later in the turn.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ]
 }

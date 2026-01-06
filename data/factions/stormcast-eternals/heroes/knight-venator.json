@@ -80,7 +80,9 @@
         "**^^CORE^^**",
         "**^^ATTACK^^**",
         "**^^SHOOT^^**"
-      ]
+      ],
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ],
   "isWizard": null,

@@ -49,7 +49,9 @@
       "type": "once-per-turn",
       "effect": "For the rest of the turn, the target can use a **^^Run^^** ability and still use **^^Charge^^** abilities later in the turn.",
       "phase": "movement",
-      "declare": "Pick a friendly **^^Beasts of Chaos^^** unit wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly **^^Beasts of Chaos^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": 1,

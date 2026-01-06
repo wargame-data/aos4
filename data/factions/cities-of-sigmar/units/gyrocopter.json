@@ -56,7 +56,9 @@
       "type": "once-per-battle",
       "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "movement",
-      "declare": "If this unit used a **^^Move^^** ability this phase, pick an enemy unit that does not have **^^Fly^^** and that this unit passed across this turn to be the target."
+      "declare": "If this unit used a **^^Move^^** ability this phase, pick an enemy unit that does not have **^^Fly^^** and that this unit passed across this turn to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Offensive"
     }
   ]
 }

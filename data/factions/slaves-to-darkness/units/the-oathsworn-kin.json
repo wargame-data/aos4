@@ -57,7 +57,9 @@
     {
       "name": "Broken Nadja",
       "type": "passive",
-      "effect": "While this unit’s **Broken Nadja** is on the battlefield, it has **^^Wizard (1)^^**."
+      "effect": "While this unit’s **Broken Nadja** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Withering Death",
@@ -68,7 +70,9 @@
       "castingValue": 5,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     }
   ]
 }

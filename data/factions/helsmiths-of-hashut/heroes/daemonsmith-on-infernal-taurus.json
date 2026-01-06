@@ -75,12 +75,15 @@
     {
       "name": "Unholy Stampede",
       "type": "passive",
-      "effect": "While a friendly **^^Helsmiths of Hashut Cavalry^^** unit is wholly within 12\" of this unit:\n• That unit can use a **^^Retreat^^** ability and still use **^^Charge^^** abilities later in the turn.\n• No mortal damage is inflicted on that unit by **^^Retreat^^** abilities."
+      "effect": "While a friendly **^^Helsmiths of Hashut Cavalry^^** unit is wholly within 12\" of this unit:\n• That unit can use a **^^Retreat^^** ability and still use **^^Charge^^** abilities later in the turn.\n• No mortal damage is inflicted on that unit by **^^Retreat^^** abilities.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Horns and Hooves** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Horns and Hooves** is 4.",
+      "color": "Black"
     },
     {
       "name": "Immolating Presence",
@@ -90,12 +93,16 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Daemonic Resilience",
       "type": "passive",
-      "effect": "Apply the effect below that corresponds with the number of **daemonic power points** this unit has:\n**1** This unit has **^^Ward (6+)^^**.\n**2** This unit has **^^Ward (5+)^^**.\n**3** This unit has **^^Ward (4+)^^** against damage inflicted by **^^Spells^^**, **^^Prayers^^**, and abilites used by **^^Manifestations^^**. Otherwise, it has **^^Ward (5+)^^**."
+      "effect": "Apply the effect below that corresponds with the number of **daemonic power points** this unit has:\n**1** This unit has **^^Ward (6+)^^**.\n**2** This unit has **^^Ward (5+)^^**.\n**3** This unit has **^^Ward (4+)^^** against damage inflicted by **^^Spells^^**, **^^Prayers^^**, and abilites used by **^^Manifestations^^**. Otherwise, it has **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": 1,

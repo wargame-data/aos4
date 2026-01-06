@@ -44,7 +44,9 @@
       "name": "Rhythm of Destruction",
       "type": "passive",
       "effect": "If any enemy models were slain this turn by this unit’s combat attacks, give this unit D3 ritual points.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

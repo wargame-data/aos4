@@ -54,17 +54,23 @@
       "type": "passive",
       "effect": "Roll a dice. On a 3+, give the target 1 **daemonic power point**.\n**Designer's Note:** *You cannot make more than one roll for each objective in each turn regardless of how many friendly units with this ability are contesting that objective.*",
       "phase": "hero",
-      "declare": "If this unit is contesting an objective you control, pick a friendly non-**^^Hobgrot Helsmiths of Hashut^^** unit wholly within 12\" of this unit to be the target."
+      "declare": "If this unit is contesting an objective you control, pick a friendly non-**^^Hobgrot Helsmiths of Hashut^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Daemonic Resilience",
       "type": "passive",
-      "effect": "Apply the effect below that corresponds with the number of **daemonic power points** this unit has:\n**1** This unit has **^^Ward (6+)^^**.\n**2** This unit has **^^Ward (5+)^^**.\n**3** This unit has **^^Ward (4+)^^** against damage inflicted by **^^Spells^^**, **^^Prayers^^**, and abilites used by **^^Manifestations^^**. Otherwise, it has **^^Ward (5+)^^**."
+      "effect": "Apply the effect below that corresponds with the number of **daemonic power points** this unit has:\n**1** This unit has **^^Ward (6+)^^**.\n**2** This unit has **^^Ward (5+)^^**.\n**3** This unit has **^^Ward (4+)^^** against damage inflicted by **^^Spells^^**, **^^Prayers^^**, and abilites used by **^^Manifestations^^**. Otherwise, it has **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Sacred Gongs",
       "type": "passive",
-      "effect": "This unit's **Gong Carriers** are tokens. There is 1 **Gong Carrier** for every **^^Musician^^** in this unit. If this unit uses the 'Rally' command, as a reaction, you can remove a **Gong Carrier** to make an additional rally roll of D6."
+      "effect": "This unit's **Gong Carriers** are tokens. There is 1 **Gong Carrier** for every **^^Musician^^** in this unit. If this unit uses the 'Rally' command, as a reaction, you can remove a **Gong Carrier** to make an additional rally roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
     }
   ]
 }

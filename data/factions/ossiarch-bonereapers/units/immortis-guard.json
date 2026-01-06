@@ -45,7 +45,9 @@
     {
       "name": "Soulbound Protectors",
       "type": "passive",
-      "effect": "Add 1 to ward rolls for friendly **^^Ossiarch Bonereapers Heroes^^** within this unit’s combat range. However, each time you make an unmodified ward roll of 1 for a friendly **^^Ossiarch Bonereapers Heroes^^** within this unit’s combat range, allocate 1 damage point to this unit after the damage sequence for that **^^Hero^^** has been resolved (ward rolls cannot be made for those damage points)."
+      "effect": "Add 1 to ward rolls for friendly **^^Ossiarch Bonereapers Heroes^^** within this unit’s combat range. However, each time you make an unmodified ward roll of 1 for a friendly **^^Ossiarch Bonereapers Heroes^^** within this unit’s combat range, allocate 1 damage point to this unit after the damage sequence for that **^^Hero^^** has been resolved (ward rolls cannot be made for those damage points).",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

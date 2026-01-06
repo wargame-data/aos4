@@ -49,12 +49,16 @@
       "type": "passive",
       "effect": "**Heal (D6)** the target.",
       "phase": "any",
-      "declare": "Pick a visible friendly **^^Manifestation^^** wholly within 12\" of this unit to be the target."
+      "declare": "Pick a visible friendly **^^Manifestation^^** wholly within 12\" of this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Aetheric Manipulation",
       "type": "passive",
-      "effect": "Add 1 to casting rolls for this unit when it uses a SUMMON ability."
+      "effect": "Add 1 to casting rolls for this unit when it uses a SUMMON ability.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

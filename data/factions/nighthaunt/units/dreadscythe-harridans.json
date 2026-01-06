@@ -49,7 +49,9 @@
     {
       "name": "Harrowing Shrieks",
       "type": "passive",
-      "effect": "Enemy units cannot be healed or have slain models returned to them while they are in combat with this unit."
+      "effect": "Enemy units cannot be healed or have slain models returned to them while they are in combat with this unit.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ]
 }

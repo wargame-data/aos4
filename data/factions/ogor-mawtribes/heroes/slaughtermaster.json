@@ -59,13 +59,17 @@
     {
       "name": "Fill the Pot",
       "type": "passive",
-      "effect": "Each time an enemy unit is destroyed by a combat attack made by a friendly **^^Ogor Mawtribes^^** unit wholly within 18\" of this unit, give this unit a **grisly remains point**, to a maximum of 3."
+      "effect": "Each time an enemy unit is destroyed by a combat attack made by a friendly **^^Ogor Mawtribes^^** unit wholly within 18\" of this unit, give this unit a **grisly remains point**, to a maximum of 3.",
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "Great Cauldron",
       "type": "passive",
       "effect": "You can spend 1 or more of this unit’s **grisly remains points**. For each point spent, pick a friendly **^^Gutbusters^^** unit wholly within 12\" of this unit to be the target, then pick 1 of the following effects: ***Bloodgruel:*** The target has **^^Ward (5+)^^** for the rest of the turn.\n***Spinemarrow:*** Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

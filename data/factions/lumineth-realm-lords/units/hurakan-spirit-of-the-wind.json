@@ -60,12 +60,16 @@
     {
       "name": "Hunters of Majestic Beasts",
       "type": "passive",
-      "effect": "The Damage characteristic of this unit’s **Bow of the Wind’s Vengeance** is 3 for attacks that target **^^Monsters^^**."
+      "effect": "The Damage characteristic of this unit’s **Bow of the Wind’s Vengeance** is 3 for attacks that target **^^Monsters^^**.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Spirit of the Wind",
       "type": "passive",
-      "effect": "While friendly **^^Hurakan^^** units are wholly within 12\" of this unit, they can use **^^Shoot^^** and/or **^^Charge^^** abilities even if they used a **^^Run^^** or **^^Retreat^^** ability in the same turn and no mortal damage is inflicted on them by **^^Retreat^^** abilities."
+      "effect": "While friendly **^^Hurakan^^** units are wholly within 12\" of this unit, they can use **^^Shoot^^** and/or **^^Charge^^** abilities even if they used a **^^Run^^** or **^^Retreat^^** ability in the same turn and no mortal damage is inflicted on them by **^^Retreat^^** abilities.",
+      "color": "Gray",
+      "abilityCategory": "Special"
     },
     {
       "name": "Living Cyclone",
@@ -75,7 +79,9 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
     }
   ]
 }

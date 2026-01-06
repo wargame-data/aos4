@@ -79,12 +79,16 @@
       "type": "once-per-battle",
       "effect": "For the rest of the turn:\n• This unit has **^^Strike-first^^**\n• Double the Attacks characteristic of this unit’s melee weapons.\n• This unit’s attacks must target an enemy **^^Monster^^** or **^^Beast^^**.",
       "phase": "combat",
-      "declare": "This unit can only use this ability if any models in this unit have been slain."
+      "declare": "This unit can only use this ability if any models in this unit have been slain.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Uglug the Troggoth",
       "type": "passive",
-      "effect": "While this unit includes **Uglug**, ignore the first damage point allocated to it each phase."
+      "effect": "While this unit includes **Uglug**, ignore the first damage point allocated to it each phase.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

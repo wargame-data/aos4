@@ -66,12 +66,15 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Firestealer Hammers** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Firestealer Hammers** is 4.",
+      "color": "Black"
     },
     {
       "name": "Stonemage Symbiosis",
       "type": "passive",
-      "effect": "The ‘Battle Damaged’ ability has no effect on this unit while it is wholly within 12\" of a friendly **Alarith Stonemage**."
+      "effect": "The ‘Battle Damaged’ ability has no effect on this unit while it is wholly within 12\" of a friendly **Alarith Stonemage**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Unbreakable Bulwark",
@@ -81,14 +84,18 @@
       "declare": "If this unit did not charge this turn, pick an enemy unit in combat with it to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "Unshakeable Faith of the Mountains",
       "type": "command",
       "effect": "Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick up to 3 different friendly **^^Alarith Aelf^^** units wholly within 12\" of this unit to be the targets."
+      "declare": "Pick up to 3 different friendly **^^Alarith Aelf^^** units wholly within 12\" of this unit to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

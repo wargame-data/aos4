@@ -44,7 +44,9 @@
     {
       "name": "A Pact Maintained",
       "type": "passive",
-      "effect": "While a friendly **Radukar the Wolf** or **Radukar the Beast** is within this unit’s combat range, both that unit and this unit have **^^Ward (5+)^^**."
+      "effect": "While a friendly **Radukar the Wolf** or **Radukar the Beast** is within this unit’s combat range, both that unit and this unit have **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

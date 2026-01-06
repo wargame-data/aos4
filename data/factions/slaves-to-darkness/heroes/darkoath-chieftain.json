@@ -46,13 +46,17 @@
     {
       "name": "Tribal Warleader",
       "type": "reaction",
-      "effect": "Pick a friendly non-**^^Hero Darkoath Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn."
+      "effect": "Pick a friendly non-**^^Hero Darkoath Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Oath of Murder",
       "type": "once-per-battle",
       "effect": "If this unit destroyed an enemy **^^Hero^^** or **^^Monster^^** this turn, this unit has **^^Strike-first^^** for the rest of the battle.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

@@ -63,7 +63,9 @@
       "name": "Relentless as the Driving Current",
       "type": "passive",
       "effect": "If this unit is in combat, it can move 2D6\". It can pass through models in enemy units but must end that move in combat.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Travel the Waterways",
@@ -72,7 +74,9 @@
       "phase": "movement",
       "keywords": [
         "**^^CORE^^**"
-      ]
+      ],
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

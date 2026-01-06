@@ -48,7 +48,9 @@
       "name": "Unleashed Savagery",
       "type": "once-per-battle",
       "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons for the rest of the turn.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

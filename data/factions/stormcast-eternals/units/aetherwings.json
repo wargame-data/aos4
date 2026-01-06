@@ -48,7 +48,9 @@
     {
       "name": "Marked for Destruction",
       "type": "passive",
-      "effect": "Add 1 to hit rolls for shooting attacks made by friendly **^^Vanguard Chamber^^** units if the target is within 9\" of this unit."
+      "effect": "Add 1 to hit rolls for shooting attacks made by friendly **^^Vanguard Chamber^^** units if the target is within 9\" of this unit.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

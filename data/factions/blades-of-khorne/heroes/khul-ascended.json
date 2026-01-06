@@ -53,7 +53,9 @@
     {
       "name": "Loathe the Arcane",
       "type": "reaction",
-      "effect": "This unit can use this ability if it is not in combat. This unit can move 3\" but must end that move closer to the unit that used the **^^Spell^^** ability. It cannot move into combat during any part of that move."
+      "effect": "This unit can use this ability if it is not in combat. This unit can move 3\" but must end that move closer to the unit that used the **^^Spell^^** ability. It cannot move into combat during any part of that move.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Ascended Warlord",
@@ -62,14 +64,18 @@
       "phase": "combat",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Reality-Splitting Axe",
       "type": "passive",
       "effect": "Roll a dice. On a 5+, one model in that unit is slain.",
       "phase": "any",
-      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by combat attacks made by this unit to be the target."
+      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by combat attacks made by this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

@@ -89,12 +89,15 @@
     {
       "name": "Necromantic Limits",
       "type": "passive",
-      "effect": "This unit's **Draconic Claws** have a maximum Attacks characteristic of 10.\nWhile this unit has 10 or more damage points, the Attacks characteristic of its **Draconic Claws** is 5."
+      "effect": "This unit's **Draconic Claws** have a maximum Attacks characteristic of 10.\nWhile this unit has 10 or more damage points, the Attacks characteristic of its **Draconic Claws** is 5.",
+      "color": "Black"
     },
     {
       "name": "Monstrous Hunger",
       "type": "passive",
-      "effect": "While they are wholly within 12\" of this unit, friendly non-**^^Hero Flesh-eater Courts Monsters^^** can use **^^Charge^^** abilities even if they used a Run ability in the same turn."
+      "effect": "While they are wholly within 12\" of this unit, friendly non-**^^Hero Flesh-eater Courts Monsters^^** can use **^^Charge^^** abilities even if they used a Run ability in the same turn.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Draconic Terror",
@@ -104,7 +107,9 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "For the Kingdom!",
@@ -112,7 +117,9 @@
       "effect": "While you believe this **^^Delusion^^**, add 1 to charge rolls for friendly **^^Knights^^** units and friendly **^^Flesh-eater Courts Monsters^^** while they are wholly within 12\" of any friendly **^^Flesh-eater Courts Heroes^^**.\nAdd 2 to charge rolls for friendly **^^Knights^^** units and friendly **^^Flesh-eater Courts Monsters^^** instead while they are wholly within 12\" of any friendly **Abhorrant Ghoul Kings on Royal Zombie Dragons**.",
       "keywords": [
         "**^^DELUSION^^**"
-      ]
+      ],
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": 1,

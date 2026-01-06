@@ -78,7 +78,9 @@
       "phase": "combat",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

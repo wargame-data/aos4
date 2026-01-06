@@ -47,7 +47,9 @@
       "type": "once-per-battle",
       "effect": "You can re-roll charge rolls for the targets for the rest of the turn.",
       "phase": "hero",
-      "declare": "Pick up to 3 friendly **^^Fyreslayers Infantry^^** units wholly within 12\" of this unit to be the targets."
+      "declare": "Pick up to 3 friendly **^^Fyreslayers Infantry^^** units wholly within 12\" of this unit to be the targets.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Last of the Lodge-fire",
@@ -59,7 +61,9 @@
         "**^^CORE^^**",
         "**^^ATTACK^^**",
         "**^^FIGHT^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

@@ -63,31 +63,40 @@
         "**^^CORE^^**",
         "**^^MOVE^^**",
         "**^^CHARGE^^**"
-      ]
+      ],
+      "color": "Orange",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Heavy Sky Ordnance** is 3."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Heavy Sky Ordnance** is 3.",
+      "color": "Black"
     },
     {
       "name": "Medium Bomb Racks",
       "type": "passive",
       "effect": "Roll 6 dice. For each 4+, inflict 1 mortal damage on the target.",
       "phase": "movement",
-      "declare": "Pick an enemy unit that does not have **^^Fly^^** and that this unit passed across this phase to be the target."
+      "declare": "Pick an enemy unit that does not have **^^Fly^^** and that this unit passed across this phase to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Transport Capacity",
       "type": "passive",
-      "effect": "This unit can transport up to 2 friendly **^^Kharadron Overlords Infantry^^** units with a combined model count of up to 12 (see Battle Traits)."
+      "effect": "This unit can transport up to 2 friendly **^^Kharadron Overlords Infantry^^** units with a combined model count of up to 12 (see Battle Traits).",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Incoming!",
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "combat",
-      "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target."
+      "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

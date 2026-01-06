@@ -61,19 +61,25 @@
       "name": "Loyal Companion",
       "type": "once-per-battle",
       "effect": "For the rest of the turn, this unit has **^^Ward (4+)^^**. Remove this unit’s **Gryph-hound** from the battlefield at the end of the turn.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Dutiful Gryph-hound",
       "type": "passive",
-      "effect": "This unit’s **Gryph-hound** is a token. If this unit’s **Gryph-hound** has been removed, it can no longer attack with its **Gryph-hound’s Beak** and it cannot use the ‘Loyal Companion’ ability"
+      "effect": "This unit’s **Gryph-hound** is a token. If this unit’s **Gryph-hound** has been removed, it can no longer attack with its **Gryph-hound’s Beak** and it cannot use the ‘Loyal Companion’ ability",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Warding Lantern",
       "type": "passive",
       "effect": "For the rest of the turn:\n• Friendly **^^Stormcast Eternals^^** units have **^^Ward (6+)^^** while they are contesting the target.\n• Ward rolls cannot be made for enemy units while they are contesting the target.",
       "phase": "hero",
-      "declare": "Pick an objective within 12” of this unit to be the target."
+      "declare": "Pick an objective within 12” of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

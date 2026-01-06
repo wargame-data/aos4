@@ -62,7 +62,9 @@
     {
       "name": "All Shall Burn",
       "type": "passive",
-      "effect": "Add 1 to the Damage characteristic of this unit’s **Flameburst Pots and Infernal Fires** for attacks that target **^^War Machines^^** or **^^Infantry^^** units with 10 or more models."
+      "effect": "Add 1 to the Damage characteristic of this unit’s **Flameburst Pots and Infernal Fires** for attacks that target **^^War Machines^^** or **^^Infantry^^** units with 10 or more models.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

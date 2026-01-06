@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "lore-of-frazzlegit",
+  "name": "Lore of Frazzlegit",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Gitspeed",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, add 2\" to the Move characteristic of friendly non-**^^Troggoth Gloomspite Gitz^^** units while they are wholly within 12\" of this unit.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Gloomspite Gitz Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Bright Fright",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Each target can immediately use a **^^Retreat^^** ability as if it was your movement phase. No mortal damage is inflicted on the targets by those **^^Retreat^^** abilities.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Gloomspite Gitz Wizard^^** to cast this spell, pick up to 3 friendly visible **^^Gloomspite Gitz^^** units wholly within 12\" of them to be the targets, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Gaze of Glareface",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn:\n• The target cannot use **^^Run^^** abilities.\n• Halve the Range characteristic of the target’s ranged weapons.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Gloomspite Gitz^^** Wizard to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    }
+  ]
+}

@@ -68,12 +68,16 @@
       "type": "once-per-battle",
       "effect": "For each target, you can return a number of slain models to that unit with a combined Health characteristic of up to D3+3.",
       "phase": "hero",
-      "declare": "Pick any number of friendly **^^Nighthaunt^^** units on the battlefield to be the targets."
+      "declare": "Pick any number of friendly **^^Nighthaunt^^** units on the battlefield to be the targets.",
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
     },
     {
       "name": "Mortarch of Grief",
       "type": "passive",
-      "effect": "If the unmodified hit roll or unmodified wound roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends."
+      "effect": "If the unmodified hit roll or unmodified wound roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Grief-stricken",
@@ -84,7 +88,9 @@
       "castingValue": 6,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 2,

@@ -56,7 +56,9 @@
     {
       "name": "Brutal Power",
       "type": "passive",
-      "effect": "Add 1 to this unit’s power level while there are any friendly **^^Ironjawz^^** units that have 10 or more models wholly within 12\" of it."
+      "effect": "Add 1 to this unit’s power level while there are any friendly **^^Ironjawz^^** units that have 10 or more models wholly within 12\" of it.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

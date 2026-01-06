@@ -74,19 +74,24 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Sweeping Blows** is 3."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Sweeping Blows** is 3.",
+      "color": "Black"
     },
     {
       "name": "Entangling Grasp",
       "type": "passive",
       "effect": "Roll a dice. On a 3+, the target cannot use **^^Run^^** or **^^Retreat^^** abilities until the start of your next turn.",
       "phase": "shooting",
-      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Strangleroots** to be the target."
+      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Strangleroots** to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

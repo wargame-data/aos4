@@ -47,7 +47,9 @@
     {
       "name": "Realmscribe",
       "type": "reaction",
-      "effect": "Change the casting roll for that spell to a value of 8 that cannot be modified."
+      "effect": "Change the casting roll for that spell to a value of 8 that cannot be modified.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

@@ -54,7 +54,9 @@
     {
       "name": "Navigators of the Storm",
       "type": "passive",
-      "effect": "If an enemy unit had any damage points allocated to it this turn by this unit’s shooting attacks, add 1 to hit rolls for attacks made by friendly **^^Stormcast Eternals^^** units that target that unit for the rest of the turn."
+      "effect": "If an enemy unit had any damage points allocated to it this turn by this unit’s shooting attacks, add 1 to hit rolls for attacks made by friendly **^^Stormcast Eternals^^** units that target that unit for the rest of the turn.",
+      "color": "Blue",
+      "abilityCategory": "Offensive"
     }
   ]
 }

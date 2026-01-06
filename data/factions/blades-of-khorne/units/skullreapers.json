@@ -50,7 +50,9 @@
     {
       "name": "Trial of Skulls",
       "type": "passive",
-      "effect": "Add 8 to this unit's control score while it is in combat."
+      "effect": "Add 8 to this unit's control score while it is in combat.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     }
   ]
 }

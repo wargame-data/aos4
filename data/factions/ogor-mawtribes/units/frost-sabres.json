@@ -43,7 +43,9 @@
     {
       "name": "Hunters of the Frozen Wilds",
       "type": "passive",
-      "effect": "This unit is not visible to enemy units while it is within 3\" of a terrain feature and more than 9\" from all enemy units."
+      "effect": "This unit is not visible to enemy units while it is within 3\" of a terrain feature and more than 9\" from all enemy units.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

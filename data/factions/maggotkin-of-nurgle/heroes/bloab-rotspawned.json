@@ -74,7 +74,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Bilespurter's Claws and Maw** is 3."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Bilespurter's Claws and Maw** is 3.",
+      "color": "Black"
     },
     {
       "name": "Daemon Flies",
@@ -84,7 +85,9 @@
       "declare": "Pick each enemy unit within 7\" of this unit to be the targets.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Miasma of Pestilence",
@@ -92,7 +95,9 @@
       "effect": "Until the start of your next turn, each time a friendly ability is used that resulted in any damage points being allocated to the target, roll a dice. On a 4+, allocate 1 additional damage point to the target (ward rolls cannot be made for that damage point).",
       "phase": "hero",
       "declare": "Pick a visible enemy unit within 12\" of this unit to be the target, then make a casting roll of 2D6.",
-      "castingValue": 6
+      "castingValue": 6,
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

@@ -4,9 +4,70 @@
  * Maps BSData ability profiles to aos-data ability schema format.
  */
 
-import type { BSProfile, BSRule } from "../xml/types.js";
+import type {
+  BSProfile,
+  BSRule,
+  BSModifier,
+  BSCondition,
+  BSConditionGroup,
+} from "../xml/types.js";
 import { BaseMapper, type MapperOptions } from "./base.js";
-import { findCharacteristic } from "../xml/reader.js";
+import { findCharacteristic, findAttribute } from "../xml/reader.js";
+
+/**
+ * Color values for abilities (from BSData attributes)
+ */
+export type AbilityColor =
+  | "Black"
+  | "Blue"
+  | "Gray"
+  | "Green"
+  | "Orange"
+  | "Purple"
+  | "Red"
+  | "Yellow";
+
+/**
+ * Category values for abilities (from BSData Type attribute)
+ */
+export type AbilityCategory =
+  | "Offensive"
+  | "Defensive"
+  | "Movement"
+  | "Control"
+  | "Special"
+  | "Rallying"
+  | "Shooting";
+
+/**
+ * Condition for modifier output
+ */
+export interface OutputCondition {
+  type: BSCondition["$"]["type"];
+  value: string;
+  field: string;
+  scope?: string;
+  childId?: string;
+}
+
+/**
+ * Condition group with AND/OR logic
+ */
+export interface OutputConditionGroup {
+  logic: "and" | "or";
+  conditions?: OutputCondition[];
+  groups?: OutputConditionGroup[];
+}
+
+/**
+ * Modifier in output format
+ */
+export interface OutputModifier {
+  type: BSModifier["$"]["type"];
+  field: string;
+  value: string;
+  conditions?: OutputConditionGroup;
+}
 
 /**
  * aos-data Ability type
@@ -27,6 +88,9 @@ export interface Ability {
   declare?: string;
   effect: string;
   keywords?: string[];
+  color?: AbilityColor;
+  abilityCategory?: AbilityCategory;
+  modifiers?: OutputModifier[];
 }
 
 /**
@@ -100,6 +164,24 @@ export class AbilityMapper extends BaseMapper<BSProfile | BSRule, Ability> {
     const keywords = this.extractKeywords(profile);
     if (keywords.length > 0) {
       ability.keywords = keywords;
+    }
+
+    // Extract color attribute
+    const color = this.extractColor(profile);
+    if (color) {
+      ability.color = color;
+    }
+
+    // Extract ability category (Type attribute)
+    const abilityCategory = this.extractAbilityCategory(profile);
+    if (abilityCategory) {
+      ability.abilityCategory = abilityCategory;
+    }
+
+    // Extract modifiers if present
+    const modifiers = this.extractModifiers(profile);
+    if (modifiers.length > 0) {
+      ability.modifiers = modifiers;
     }
 
     return ability;
@@ -227,6 +309,164 @@ export class AbilityMapper extends BaseMapper<BSProfile | BSRule, Ability> {
       .split(/[,;\n]+/)
       .map((k) => k.trim().toUpperCase())
       .filter((k) => k.length > 0 && k !== "-");
+  }
+
+  private extractColor(profile: BSProfile): AbilityColor | undefined {
+    const color = findAttribute(profile, "Color");
+    if (!color) return undefined;
+
+    const validColors: AbilityColor[] = [
+      "Black",
+      "Blue",
+      "Gray",
+      "Green",
+      "Orange",
+      "Purple",
+      "Red",
+      "Yellow",
+    ];
+
+    // Handle "Grey" variant
+    const normalized = color === "Grey" ? "Gray" : color;
+    if (validColors.includes(normalized as AbilityColor)) {
+      return normalized as AbilityColor;
+    }
+
+    return undefined;
+  }
+
+  private extractAbilityCategory(profile: BSProfile): AbilityCategory | undefined {
+    // Try "Type" first, then "Parent Node" as fallback
+    const category = findAttribute(profile, "Type") || findAttribute(profile, "Parent Node");
+    if (!category) return undefined;
+
+    const validCategories: AbilityCategory[] = [
+      "Offensive",
+      "Defensive",
+      "Movement",
+      "Control",
+      "Special",
+      "Rallying",
+      "Shooting",
+    ];
+
+    if (validCategories.includes(category as AbilityCategory)) {
+      return category as AbilityCategory;
+    }
+
+    return undefined;
+  }
+
+  private extractModifiers(profile: BSProfile): OutputModifier[] {
+    if (!profile.modifiers || profile.modifiers.length === 0) {
+      return [];
+    }
+
+    return profile.modifiers
+      .filter((mod) => this.isRelevantModifier(mod))
+      .map((mod) => this.mapModifier(mod));
+  }
+
+  private isRelevantModifier(mod: BSModifier): boolean {
+    const field = mod.$.field.toLowerCase();
+    // Filter out visibility/constraint modifiers - keep only game-relevant ones
+    // Skip "hidden" field modifiers (visibility)
+    // Skip modifiers that look like constraint IDs (usually hex-like strings)
+    if (field === "hidden") return false;
+    if (/^[a-f0-9-]{8,}$/i.test(mod.$.field)) return false;
+    return true;
+  }
+
+  private mapModifier(mod: BSModifier): OutputModifier {
+    const output: OutputModifier = {
+      type: mod.$.type,
+      field: mod.$.field,
+      value: mod.$.value,
+    };
+
+    // Map conditions if present
+    if (mod.conditions || mod.conditionGroups) {
+      const conditionGroup = this.buildConditionGroup(
+        mod.conditions,
+        mod.conditionGroups
+      );
+      if (conditionGroup) {
+        output.conditions = conditionGroup;
+      }
+    }
+
+    return output;
+  }
+
+  private buildConditionGroup(
+    conditions?: BSCondition[],
+    conditionGroups?: BSConditionGroup[]
+  ): OutputConditionGroup | undefined {
+    const hasConditions = conditions && conditions.length > 0;
+    const hasGroups = conditionGroups && conditionGroups.length > 0;
+
+    if (!hasConditions && !hasGroups) {
+      return undefined;
+    }
+
+    const result: OutputConditionGroup = {
+      logic: "and", // Default to AND when combining conditions and groups
+    };
+
+    if (hasConditions) {
+      result.conditions = conditions!.map((c) => this.mapCondition(c));
+    }
+
+    if (hasGroups) {
+      result.groups = conditionGroups!
+        .map((g) => this.mapConditionGroup(g))
+        .filter((g): g is OutputConditionGroup => g !== undefined);
+    }
+
+    return result;
+  }
+
+  private mapCondition(condition: BSCondition): OutputCondition {
+    const output: OutputCondition = {
+      type: condition.$.type,
+      value: condition.$.value,
+      field: condition.$.field,
+    };
+
+    if (condition.$.scope) {
+      output.scope = condition.$.scope;
+    }
+
+    if (condition.$.childId) {
+      output.childId = condition.$.childId;
+    }
+
+    return output;
+  }
+
+  private mapConditionGroup(group: BSConditionGroup): OutputConditionGroup | undefined {
+    const hasConditions = group.conditions && group.conditions.length > 0;
+    const hasGroups = group.conditionGroups && group.conditionGroups.length > 0;
+
+    if (!hasConditions && !hasGroups) {
+      return undefined;
+    }
+
+    const result: OutputConditionGroup = {
+      logic: group.$.type,
+    };
+
+    if (hasConditions) {
+      result.conditions = group.conditions!.map((c) => this.mapCondition(c));
+    }
+
+    if (hasGroups) {
+      result.groups = group.conditionGroups!
+        .map((g) => this.mapConditionGroup(g))
+        .filter((g): g is OutputConditionGroup => g !== undefined);
+    }
+
+    return result;
   }
 }
 

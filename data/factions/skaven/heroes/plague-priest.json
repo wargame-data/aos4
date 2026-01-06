@@ -50,7 +50,9 @@
     {
       "name": "Feed on Pestilence",
       "type": "reaction",
-      "effect": "Give this unit 1 ritual point."
+      "effect": "Give this unit 1 ritual point.",
+      "color": "Red",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

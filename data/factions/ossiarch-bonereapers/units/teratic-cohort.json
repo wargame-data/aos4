@@ -63,14 +63,18 @@
       "declare": "Pick this unit if it has not been deployed.",
       "keywords": [
         "**^^DEPLOY^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Hunters Unleashed",
       "type": "passive",
       "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Pick this unit if it is **outflanking the enemy**."
+      "declare": "Pick this unit if it is **outflanking the enemy**.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

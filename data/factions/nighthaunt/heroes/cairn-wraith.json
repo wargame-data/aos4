@@ -50,7 +50,9 @@
       "type": "once-per-battle",
       "effect": "Add 1 to wound rolls for the target’s combat attacks for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick a visible friendly **Grimghast Reapers** unit wholly within 12\" of this unit to be the target."
+      "declare": "Pick a visible friendly **Grimghast Reapers** unit wholly within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

@@ -48,7 +48,9 @@
     {
       "name": "Selfless Protectors",
       "type": "passive",
-      "effect": "While any friendly **^^Slann^^** units are within this unit’s combat range, both this unit and those **^^Slann^^** units have Ward (5+)."
+      "effect": "While any friendly **^^Slann^^** units are within this unit’s combat range, both this unit and those **^^Slann^^** units have Ward (5+).",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

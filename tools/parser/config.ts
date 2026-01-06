@@ -60,7 +60,6 @@ export const BSDATA_GST_PATTERN = "*.gst";
 
 // Files to skip in BSData
 export const BSDATA_SKIP_FILES = [
-  "Lores.cat",
   "Regiments of Renown.cat",
   "Path to Glory",
 ];
@@ -79,6 +78,7 @@ export const SCHEMA_URLS = {
   ability: "https://aos-data.org/schema/ability.schema.json",
   faction: "https://aos-data.org/schema/faction.schema.json",
   battleFormation: "https://aos-data.org/schema/battle-formation.schema.json",
+  lore: "https://aos-data.org/schema/lore.schema.json",
 };
 
 /**

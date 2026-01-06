@@ -62,19 +62,25 @@
       "type": "once-per-turn",
       "effect": "For the rest of the turn, while the target is wholly within 12\" of this unit, add 5 to the target’s control score.",
       "phase": "hero",
-      "declare": "Pick a friendly non-**^^Hero Ruination Chamber^^** unit wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly non-**^^Hero Ruination Chamber^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Control"
     },
     {
       "name": "Vice-like Grip",
       "type": "once-per-turn",
       "effect": "Roll 2D6. If the result exceeds the target’s Health characteristic, for the rest of the turn:\n• The target has **^^Strike-last^^**.\n• The target cannot use commands.",
       "phase": "charge",
-      "declare": "Pick an enemy non-**^^Monster Hero^^** in combat with this unit to be the target."
+      "declare": "Pick an enemy non-**^^Monster Hero^^** in combat with this unit to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Special"
     },
     {
       "name": "Ruination Chamber",
       "type": "reaction",
-      "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+      "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

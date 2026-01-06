@@ -77,7 +77,9 @@
       "type": "passive",
       "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage equal on the target equal to the roll.",
       "phase": "charge",
-      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target."
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Nimbus of Power",
@@ -86,14 +88,18 @@
       "phase": "movement",
       "keywords": [
         "**^^CORE^^**"
-      ]
+      ],
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Evocation of Death",
       "type": "passive",
       "effect": "Set up a replacement unit wholly within 12\" of this unit. The replacement unit can only be set up in combat with enemy units that are in combat with this unit.",
       "phase": "any",
-      "declare": "If any damage points were allocated to an enemy unit by this unit's combat attacks this turn and that enemy unit was destroyed this turn, pick a friendly non-**^^Unique Nighthaunt Hero^^** that has been destroyed."
+      "declare": "If any damage points were allocated to an enemy unit by this unit's combat attacks this turn and that enemy unit was destroyed this turn, pick a friendly non-**^^Unique Nighthaunt Hero^^** that has been destroyed.",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
     }
   ]
 }

@@ -74,12 +74,16 @@
       "phase": "combat",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Timberrrrr!",
       "type": "passive",
-      "effect": "When this unit is destroyed, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of this unit. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than this unit."
+      "effect": "When this unit is destroyed, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of this unit. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

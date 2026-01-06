@@ -31,27 +31,35 @@
     {
       "name": "Words of Hate",
       "type": "passive",
-      "effect": "While this terrain feature has an **Invoker**:\n• Add 1 to chanting rolls for the **Invoker**.\n• The **Invoker** cannot use **^^Move^^** abilities.\n• Instead of measuring range or visibility to the **Invoker**, measure to this terrain feature instead.\n• All attacks that would target the **Invoker** target this terrain feature instead.\n• If this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the **Invoker**. Then, set up the **Invoker** on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer an **Invoker**. If it is not possible to set up the **Invoker**, it is slain."
+      "effect": "While this terrain feature has an **Invoker**:\n• Add 1 to chanting rolls for the **Invoker**.\n• The **Invoker** cannot use **^^Move^^** abilities.\n• Instead of measuring range or visibility to the **Invoker**, measure to this terrain feature instead.\n• All attacks that would target the **Invoker** target this terrain feature instead.\n• If this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the **Invoker**. Then, set up the **Invoker** on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer an **Invoker**. If it is not possible to set up the **Invoker**, it is slain.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Ascend the Altar",
       "type": "passive",
       "effect": "Place the target on this terrain feature. The target is now an Invoker (see ‘Words of Hate’).",
       "phase": "hero",
-      "declare": "If this terrain feature does not have an **Invoker**, pick a friendly **^^Blades of Khorne Infantry Priest^^** within 3\" of it to be the target."
+      "declare": "If this terrain feature does not have an **Invoker**, pick a friendly **^^Blades of Khorne Infantry Priest^^** within 3\" of it to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Hatred of Sorcery",
       "type": "once-per-turn",
       "effect": "Resolve the effect of the 'Banish Manifestation' ability for each target. If any **^^Endless Spells^^** are banished by this ability, you gain 1 **blood tithe** point.",
       "phase": "hero",
-      "declare": "If this terrain feature has an **Invoker**, pick up to D3 enemy **^^Endless Spells^** within 18\" of this terrain feature to be the target(s) and make a **banishment roll** of 2D6 for each target."
+      "declare": "If this terrain feature has an **Invoker**, pick up to D3 enemy **^^Endless Spells^** within 18\" of this terrain feature to be the target(s) and make a **banishment roll** of 2D6 for each target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Descend the Altar",
       "type": "passive",
       "effect": "If this terrain feature has an **Invoker** that was not placed on it this turn, set up the **Invoker** on the battlefield wholly within 6\" of this terrain feature and not in combat. That unit is no longer an **Invoker**.",
-      "phase": "movement"
+      "phase": "movement",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

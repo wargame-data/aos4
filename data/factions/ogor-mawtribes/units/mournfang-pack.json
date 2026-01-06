@@ -78,12 +78,16 @@
     {
       "name": "Alpha Cavalry",
       "type": "passive",
-      "effect": "The **Charge (+1 Damage)** weapon ability has no effect on attacks that target this unit."
+      "effect": "The **Charge (+1 Damage)** weapon ability has no effect on attacks that target this unit.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Lumpen Wall of Flesh",
       "type": "passive",
-      "effect": "Subtract 1 from wound rolls for shooting attacks that target friendly **^^Beastclaw Raiders^^** units while they are within this unit’s combat range."
+      "effect": "Subtract 1 from wound rolls for shooting attacks that target friendly **^^Beastclaw Raiders^^** units while they are within this unit’s combat range.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

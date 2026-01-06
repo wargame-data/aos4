@@ -52,13 +52,17 @@
     {
       "name": "On da March",
       "type": "passive",
-      "effect": "While they are wholly within 12\" of this unit, friendly **^^Kruleboyz Infantry^^** units can use **^^Charge^^** abilities even if they used a **^^Run^^** ability in the same turn."
+      "effect": "While they are wholly within 12\" of this unit, friendly **^^Kruleboyz Infantry^^** units can use **^^Charge^^** abilities even if they used a **^^Run^^** ability in the same turn.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Regeneration",
       "type": "passive",
       "effect": "**Heal (D3)** this unit.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Black",
+      "abilityCategory": "Defensive"
     }
   ]
 }

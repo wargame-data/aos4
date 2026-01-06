@@ -57,13 +57,17 @@
     {
       "name": "Squigs Gone Wild",
       "type": "passive",
-      "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+      "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Herding Squigs",
       "type": "passive",
       "effect": "Roll a dice for each **Squig Herder** in this unit. For each 2+, you can return D3 slain **Cave Squigs** to this unit. For each 1, 1 **Squig Herder** in this unit is slain.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
     }
   ]
 }

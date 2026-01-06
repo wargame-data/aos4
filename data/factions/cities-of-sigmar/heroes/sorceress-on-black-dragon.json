@@ -73,14 +73,17 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Black Dragon’s Fearsome Jaws and Claws** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Black Dragon’s Fearsome Jaws and Claws** is 4.",
+      "color": "Black"
     },
     {
       "name": "Command Underlings",
       "type": "passive",
       "effect": "Add 3\" to the Move characteristic of each target for the rest of the turn.",
       "phase": "hero",
-      "declare": "Pick up to 3 friendly **^^Cities of Sigmar Aelf Infantry^^** units wholly within 12\" of this unit to be targets."
+      "declare": "Pick up to 3 friendly **^^Cities of Sigmar Aelf Infantry^^** units wholly within 12\" of this unit to be targets.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Feed on Life Force",
@@ -90,12 +93,16 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Purple",
+      "abilityCategory": "Special"
     },
     {
       "name": "Dark Sorcery",
       "type": "passive",
-      "effect": "Add 1 to casting rolls for this unit for each **dark sorcery token** it has."
+      "effect": "Add 1 to casting rolls for this unit for each **dark sorcery token** it has.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

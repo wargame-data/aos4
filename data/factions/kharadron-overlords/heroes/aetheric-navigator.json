@@ -60,12 +60,16 @@
       "type": "once-per-turn",
       "effect": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units. Then, if the target is a **^^Skyvessel^^**, you can remove this unit from the battlefield and set it up again on the battlefield wholly within 6\" of the target and more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Pick a friendly **^^Skyvessel^^** or **^^Auto-Endrin^^** within this unit's combat range and that is not in combat to be the target."
+      "declare": "Pick a friendly **^^Skyvessel^^** or **^^Auto-Endrin^^** within this unit's combat range and that is not in combat to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Aethersight",
       "type": "passive",
-      "effect": "This unit can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**."
+      "effect": "This unit can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

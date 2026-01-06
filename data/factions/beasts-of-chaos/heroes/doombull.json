@@ -59,14 +59,18 @@
       "type": "once-per-turn",
       "effect": "For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3.",
       "phase": "charge",
-      "declare": "Pick a friendly **^^Warherd^^** unit that is not in combat and is wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly **^^Warherd^^** unit that is not in combat and is wholly within 12\" of this unit to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Alpha Charge",
       "type": "passive",
       "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "charge",
-      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target."
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

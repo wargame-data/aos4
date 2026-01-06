@@ -60,7 +60,9 @@
     {
       "name": "Rune of Enthlai",
       "type": "reaction",
-      "effect": "If that spell is successfully cast, roll a dice. On a 3+, after resolving the effect of that spell, this unit can immediately cast that spell a second time using the same casting roll. Do not count the second spell towards the number of **^^Spell^^** abilities this unit can use this turn."
+      "effect": "If that spell is successfully cast, roll a dice. On a 3+, after resolving the effect of that spell, this unit can immediately cast that spell a second time using the same casting roll. Do not count the second spell towards the number of **^^Spell^^** abilities this unit can use this turn.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Ethereal Blessings",
@@ -71,7 +73,9 @@
       "castingValue": 6,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": 2,

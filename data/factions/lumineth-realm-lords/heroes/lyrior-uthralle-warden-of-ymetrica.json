@@ -82,12 +82,16 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Voice of Tyrion",
       "type": "passive",
-      "effect": "Each time a friendly **^^Lumineth Realm-lords^^** unit wholly within 12\" of this unit uses the ‘All-out Attack’ command, no command points are spent."
+      "effect": "Each time a friendly **^^Lumineth Realm-lords^^** unit wholly within 12\" of this unit uses the ‘All-out Attack’ command, no command points are spent.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

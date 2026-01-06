@@ -42,7 +42,9 @@
     {
       "name": "Oathsworn",
       "type": "passive",
-      "effect": "While any friendly **^^Cities of Sigmar Duardin Infantry Heroes^^** are wholly within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**."
+      "effect": "While any friendly **^^Cities of Sigmar Duardin Infantry Heroes^^** are wholly within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

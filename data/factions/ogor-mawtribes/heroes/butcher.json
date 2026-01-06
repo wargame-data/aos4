@@ -47,7 +47,9 @@
     {
       "name": "Savage Hunger",
       "type": "passive",
-      "effect": "While they are wholly within 12\" of this unit, friendly **^^Gutbusters^^** units can use **^^Charge^^** abilities even if they used a **^^Run^^** ability in the same turn."
+      "effect": "While they are wholly within 12\" of this unit, friendly **^^Gutbusters^^** units can use **^^Charge^^** abilities even if they used a **^^Run^^** ability in the same turn.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": 1,

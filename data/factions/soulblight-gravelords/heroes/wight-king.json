@@ -48,14 +48,18 @@
     {
       "name": "Ancient Strategies",
       "type": "reaction",
-      "effect": "Pick a friendly non-**^^Hero Deathrattle Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the ^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
+      "effect": "Pick a friendly non-**^^Hero Deathrattle Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the ^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "King of Shambling Bones",
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, the target's melee weapons have **Crit (2 Hits)** for the rest of the turn.",
       "phase": "hero",
-      "declare": "Pick a friendly **^^Deathrattle^^** unit within this unit's combat range to be the target."
+      "declare": "Pick a friendly **^^Deathrattle^^** unit within this unit's combat range to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

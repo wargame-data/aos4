@@ -56,14 +56,18 @@
     {
       "name": "More-more Warp Energy!",
       "type": "reaction",
-      "effect": "Roll a dice. On a 2+, set the Damage characteristic of this unit’s **Warplock Musket** to 3 for the rest of the turn. On a 1, inflict D3 mortal damage on this unit."
+      "effect": "Roll a dice. On a 2+, set the Damage characteristic of this unit’s **Warplock Musket** to 3 for the rest of the turn. On a 1, inflict D3 mortal damage on this unit.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Sniper-master",
       "type": "once-per-turn",
       "effect": "For the rest of the turn, this unit and friendly **Warplock Jezzails** units wholly within 13\" of this unit can ignore the effects of the ‘Guarded Hero’ ability (Core Rules, 25.0) when picking the target for their shooting attacks.",
       "phase": "shooting",
-      "declare": "Pick a visible enemy **^^Hero^^** to be the target."
+      "declare": "Pick a visible enemy **^^Hero^^** to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ],
   "isWizard": null,

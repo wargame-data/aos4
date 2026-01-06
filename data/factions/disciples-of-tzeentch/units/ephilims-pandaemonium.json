@@ -66,12 +66,16 @@
       "name": "Power Leech",
       "type": "once-per-turn",
       "effect": "Roll a D3. Allocate a number of damage points to this unit equal to the roll (ward rolls cannot be made for those damage points). Then, add 2 to the Attacks characteristic of this unit’s ranged weapons for the rest of the turn.",
-      "phase": "shooting"
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Keeper of the Pandaemonium",
       "type": "passive",
-      "effect": "You can return D3 slain models to this unit."
+      "effect": "You can return D3 slain models to this unit.",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
     }
   ]
 }

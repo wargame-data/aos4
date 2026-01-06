@@ -47,13 +47,17 @@
       "name": "Royal Retinue",
       "type": "once-per-battle",
       "effect": "For the rest of the battle, while the royal retinue is wholly within 6\" of this unit, add 1 to hit rolls for attacks made by the royal retinue and this unit has **^^Ward (4+)^^**.",
-      "declare": "Pick a friendly non-**^^Hero Fyreslayers Infantry^^** unit within this unit’s combat range to be the royal retinue."
+      "declare": "Pick a friendly non-**^^Hero Fyreslayers Infantry^^** unit within this unit’s combat range to be the royal retinue.",
+      "color": "Black",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Commanding Presence",
       "type": "passive",
       "effect": "Add the current battle round number to the control scores of friendly **^^Fyreslayers Infantry^^** units wholly within 12\" of this unit for the rest of the turn.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Control"
     }
   ],
   "isWizard": null,

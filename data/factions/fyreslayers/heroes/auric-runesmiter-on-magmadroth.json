@@ -87,14 +87,18 @@
     {
       "name": "Volcanic Blood",
       "type": "passive",
-      "effect": "If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+      "effect": "If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Runic Empowerment",
       "type": "passive",
       "effect": "Roll a dice. On a 3+, add 1 to wound rolls for the target’s attacks for the rest of the turn.",
       "phase": "hero",
-      "declare": "Pick a friendly **^^Fyreslayers^^** unit wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly **^^Fyreslayers^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Lashing Tail",
@@ -104,12 +108,15 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Claws and Horns** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Claws and Horns** is 4.",
+      "color": "Black"
     }
   ],
   "isWizard": null,

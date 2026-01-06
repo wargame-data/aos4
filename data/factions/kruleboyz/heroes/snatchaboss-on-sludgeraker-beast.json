@@ -68,7 +68,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Sludgeraker’s Talons** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Sludgeraker’s Talons** is 4.",
+      "color": "Black"
     },
     {
       "name": "Festering Wounds",
@@ -78,14 +79,18 @@
       "declare": "Pick up to 3 enemy units that had any damage points allocated to them this turn by attacks made by this unit or a friendly unit with the **^^Sludgeraker Venom^^** keyword to be the targets.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Purple",
+      "abilityCategory": "Special"
     },
     {
       "name": "Sludgeraker Venom",
       "type": "passive",
       "effect": "That unit has the **^^Sludgeraker Venom^^** keyword for the rest of the turn.",
       "phase": "hero",
-      "declare": "Pick a friendly **^^Kruleboyz^^** unit wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly **^^Kruleboyz^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

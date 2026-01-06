@@ -56,12 +56,16 @@
       "name": "More-more Warpstone Bullets!",
       "type": "once-per-turn",
       "effect": "If this unit is within the combat range of a friendly **^^Skryre Hero^^**, this unit’s **Hail of Warpstone Bullets** has an Attacks characteristic of 6D6+3 instead of 3D6+3 for the rest of the turn. However, for each unmodified hit roll of 1 for an attack made with this unit’s **Hail of Warpstone Bullets**, inflict 1 mortal damage on this unit after the **^^Shoot^^** ability has been resolved.",
-      "phase": "shooting"
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Overwhelming Fire",
       "type": "passive",
-      "effect": "Add 1 to hit rolls for this unit’s shooting attacks that target an enemy unit that has 10 or more models."
+      "effect": "Add 1 to hit rolls for this unit’s shooting attacks that target an enemy unit that has 10 or more models.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

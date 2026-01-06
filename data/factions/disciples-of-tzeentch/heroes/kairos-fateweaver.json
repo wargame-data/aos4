@@ -64,17 +64,22 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Staff of Tomorrow and Beaks** is 3."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Staff of Tomorrow and Beaks** is 3.",
+      "color": "Black"
     },
     {
       "name": "Oracle of Eternity",
       "type": "once-per-battle",
-      "effect": "Pick 1 battle tactics card that is on your roster and discard it. Then, for the rest of the battle, replace it with a battle tactics card that is not on your roster.\nIf that new battle tactics card requires either player to pick something, they must do so immediately when the new battle tactics card is picked.\nThe combined total of victory points earned by both the discarded battle tactics card and the new battle tactics card is 15. Any additional victory points beyond 15 that are earned by completing the battle tactics on both of those battle tactics cards are lost."
+      "effect": "Pick 1 battle tactics card that is on your roster and discard it. Then, for the rest of the battle, replace it with a battle tactics card that is not on your roster.\nIf that new battle tactics card requires either player to pick something, they must do so immediately when the new battle tactics card is picked.\nThe combined total of victory points earned by both the discarded battle tactics card and the new battle tactics card is 15. Any additional victory points beyond 15 that are earned by completing the battle tactics on both of those battle tactics cards are lost.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Mastery of Magic",
       "type": "passive",
-      "effect": "When you make a casting roll for this unit, you can change the lowest D6 to match the highest D6."
+      "effect": "When you make a casting roll for this unit, you can change the lowest D6 to match the highest D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Arcane Suggestion",
@@ -85,12 +90,16 @@
       "castingValue": 8,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Beacon of Sorcery",
       "type": "passive",
-      "effect": "Add 1 to casting rolls and unbinding rolls for friendly **^^Disciples of Tzeentch Wizards^^** while they are wholly within 12\" of this unit."
+      "effect": "Add 1 to casting rolls and unbinding rolls for friendly **^^Disciples of Tzeentch Wizards^^** while they are wholly within 12\" of this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 3,

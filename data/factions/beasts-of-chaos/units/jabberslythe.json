@@ -64,7 +64,9 @@
       "declare": "Roll a D3. On a 2+, pick up to a number of enemy units equal to the roll that are within 9\" of this unit to be the targets.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

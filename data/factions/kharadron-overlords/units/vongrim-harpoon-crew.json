@@ -62,7 +62,9 @@
       "name": "Light Endrinpacks",
       "type": "once-per-turn",
       "effect": "If this unit is in combat, it can move 2d6\" but must end that move in combat.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Movement"
     }
   ]
 }

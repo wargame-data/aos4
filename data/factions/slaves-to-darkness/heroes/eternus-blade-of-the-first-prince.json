@@ -57,7 +57,9 @@
     {
       "name": "Network of Spies",
       "type": "reaction",
-      "effect": "Roll a dice. Add 1 to the roll if the enemy unit is in combat with a friendly **Chaos Legionnaires** or **Chaos Furies** unit. On a 5+, that command has no effect. The command still counts as having been used and the command points spent to use the command are still lost."
+      "effect": "Roll a dice. Add 1 to the roll if the enemy unit is in combat with a friendly **Chaos Legionnaires** or **Chaos Furies** unit. On a 5+, that command has no effect. The command still counts as having been used and the command points spent to use the command are still lost.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Veins of Black Lightning",
@@ -67,7 +69,9 @@
       "declare": "This unit can use this ability if it has been destroyed.",
       "keywords": [
         "**^^CORE^^**"
-      ]
+      ],
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

@@ -63,7 +63,9 @@
     {
       "name": "Lone Agent",
       "type": "passive",
-      "effect": "Add 5 to this unit’s control score while it is more than 9\" from all other friendly units."
+      "effect": "Add 5 to this unit’s control score while it is more than 9\" from all other friendly units.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     },
     {
       "name": "Independent Operative",
@@ -71,7 +73,9 @@
       "effect": "If this unit has not been deployed, set it up anywhere on the battlefield not in combat with any enemy units. This unit has now been deployed.\n**Designer’s Note:** *Enemy units that deploy after this unit can deploy in combat with it.*",
       "keywords": [
         "**^^DEPLOY^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

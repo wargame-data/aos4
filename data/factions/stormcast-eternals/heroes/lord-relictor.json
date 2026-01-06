@@ -46,7 +46,9 @@
     {
       "name": "Mortis Priest",
       "type": "passive",
-      "effect": "Add 1 to chanting rolls for this unit."
+      "effect": "Add 1 to chanting rolls for this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

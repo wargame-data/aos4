@@ -60,7 +60,9 @@
     {
       "name": "Brimstone Horror",
       "type": "passive",
-      "effect": "This unit’s **Brimstone Horror** is a token. When this unit’s **Blue Horror** is slain, place this unit’s **Brimstone Horror** on the battlefield. Add 1 to the Damage characteristic of this unit’s **Mighty Sorcerous Bolt** while its **Brimstone Horror** is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove this unit’s **Brimstone Horror** from the battlefield."
+      "effect": "This unit’s **Brimstone Horror** is a token. When this unit’s **Blue Horror** is slain, place this unit’s **Brimstone Horror** on the battlefield. Add 1 to the Damage characteristic of this unit’s **Mighty Sorcerous Bolt** while its **Brimstone Horror** is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove this unit’s **Brimstone Horror** from the battlefield.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ]
 }

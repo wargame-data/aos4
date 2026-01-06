@@ -78,7 +78,9 @@
       "type": "passive",
       "effect": "Roll a dice. On a 3+:\n• Inflict D3 mortal damage on the target.\n• This unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.",
       "phase": "any",
-      "declare": "Pick an enemy unit in combat with this unit to be the target."
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Special"
     }
   ]
 }

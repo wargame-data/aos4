@@ -55,7 +55,9 @@
         "**^^CORE^^**",
         "**^^MOVE^^**",
         "**^^CHARGE^^**"
-      ]
+      ],
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     }
   ]
 }

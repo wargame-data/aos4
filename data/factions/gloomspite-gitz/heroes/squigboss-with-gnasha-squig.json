@@ -59,7 +59,9 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 2+, pick 1 of the following effects to apply for the rest of the turn:\n***Crimson Deffcap:*** Add 3\" to the target’s Move characteristic.\n***Yellow Lurka:*** The target’s **Fang-filled Gobs**, **Huge Fang-filled Gobs** or **Massive Fang-filled Gobs** have **Crit (Mortal)**.",
       "phase": "hero",
-      "declare": "Pick a friendly Squig unit\nwithin this unit’s combat range to be\nthe target."
+      "declare": "Pick a friendly Squig unit\nwithin this unit’s combat range to be\nthe target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

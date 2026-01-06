@@ -51,7 +51,9 @@
     {
       "name": "Bringers of Desolation",
       "type": "passive",
-      "effect": "Add 1 to the Attacks characteristic of this unit’s Rune-etched Weapons while it is contesting an objective you control."
+      "effect": "Add 1 to the Attacks characteristic of this unit’s Rune-etched Weapons while it is contesting an objective you control.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

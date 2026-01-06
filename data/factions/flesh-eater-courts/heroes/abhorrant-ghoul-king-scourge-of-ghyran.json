@@ -52,12 +52,16 @@
     {
       "name": "Long Live the King",
       "type": "passive",
-      "effect": "If this unit would be destroyed, before removing it from play, friendly non-**^^Unique Flesh-eater Courts^^** units wholly within 12\" of this unit become enraged until the start of your next turn. Melee weapons used by friendly enraged units have **Crit (Auto-wound)** and score critical hits on unmodified hit rolls of 5+, even if this unit has been destroyed."
+      "effect": "If this unit would be destroyed, before removing it from play, friendly non-**^^Unique Flesh-eater Courts^^** units wholly within 12\" of this unit become enraged until the start of your next turn. Melee weapons used by friendly enraged units have **Crit (Auto-wound)** and score critical hits on unmodified hit rolls of 5+, even if this unit has been destroyed.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "The King's Court",
       "type": "passive",
-      "effect": "Add 1 to the Attacks characteristic of melee weapons used by other friendly non-**^^Monster Flesh-eater Courts Heroes^^** while they are wholly within 12\" of this unit. In addition, add 1 to the Attacks characteristic of this unit’s melee weapons for each other friendly non-**^^Monster Flesh-eater Courts Hero^^** wholly within 12\" of this unit, to a maximum of +3."
+      "effect": "Add 1 to the Attacks characteristic of melee weapons used by other friendly non-**^^Monster Flesh-eater Courts Heroes^^** while they are wholly within 12\" of this unit. In addition, add 1 to the Attacks characteristic of this unit’s melee weapons for each other friendly non-**^^Monster Flesh-eater Courts Hero^^** wholly within 12\" of this unit, to a maximum of +3.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

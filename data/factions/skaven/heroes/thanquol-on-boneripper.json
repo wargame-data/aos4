@@ -74,18 +74,23 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Warpfire Braziers** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Warpfire Braziers** is 4.",
+      "color": "Black"
     },
     {
       "name": "Staff of the Horned Rat",
       "type": "passive",
-      "effect": "Add 1 to casting rolls for this unit."
+      "effect": "Add 1 to casting rolls for this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Warp-amulet",
       "type": "passive",
       "effect": "**Heal (D3)** this unit.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Boneripper Rampage",
@@ -95,7 +100,9 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Terrible Madness",
@@ -106,7 +113,9 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 2,

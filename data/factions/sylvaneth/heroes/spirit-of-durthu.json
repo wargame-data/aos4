@@ -71,17 +71,22 @@
       "declare": "Pick an enemy **^^Monster^^** in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Guardian Sword** is 3."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Guardian Sword** is 3.",
+      "color": "Black"
     },
     {
       "name": "Wrathful Guardian",
       "type": "passive",
-      "effect": "Add 1 to hit rolls for this unit’s combat attacks while the target is within 3\" of an **Awakened Wyldwood**."
+      "effect": "Add 1 to hit rolls for this unit’s combat attacks while the target is within 3\" of an **Awakened Wyldwood**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

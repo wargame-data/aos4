@@ -77,12 +77,16 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 2+, the target cannot use commands until the start of your next turn.",
       "phase": "shooting",
-      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Piercing Scream** to be the target."
+      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Piercing Scream** to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Special"
     },
     {
       "name": "The Briar Queen",
       "type": "passive",
-      "effect": "While this unit’s **Briar Queen** is on the battlefield, it has **^^Wizard (1)^^**."
+      "effect": "While this unit’s **Briar Queen** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

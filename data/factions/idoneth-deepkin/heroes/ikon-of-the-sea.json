@@ -50,12 +50,15 @@
       "type": "once-per-turn",
       "effect": "For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for the targets, to a maximum of 3.",
       "phase": "charge",
-      "declare": "Pick this unit and up to 1 friendly **^^Idoneth Deepkin^^** unit within this unit's combat range to be the targets."
+      "declare": "Pick this unit and up to 1 friendly **^^Idoneth Deepkin^^** unit within this unit's combat range to be the targets.",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Rapid Approach",
       "type": "passive",
-      "effect": "This unit can use a **^^Run^^** ability and still use **^^Charge^^** abilities later in the turn"
+      "effect": "This unit can use a **^^Run^^** ability and still use **^^Charge^^** abilities later in the turn",
+      "color": "Black",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

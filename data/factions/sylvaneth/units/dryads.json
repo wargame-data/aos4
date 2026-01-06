@@ -42,7 +42,9 @@
     {
       "name": "Blessings of the Forest",
       "type": "passive",
-      "effect": "Subtract 1 from hit rolls and wound rolls for attacks that target this unit while it is wholly within 6\" of any friendly **Awakened Wyldwoods**."
+      "effect": "Subtract 1 from hit rolls and wound rolls for attacks that target this unit while it is wholly within 6\" of any friendly **Awakened Wyldwoods**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

@@ -53,7 +53,9 @@
       "type": "passive",
       "effect": "Roll a dice for each model in this unit that passed across the target. For each 4+, inflict 1 mortal damage on the target.",
       "phase": "movement",
-      "declare": "Pick an enemy unit that this unit passed across this phase to be the target."
+      "declare": "Pick an enemy unit that this unit passed across this phase to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Offensive"
     }
   ]
 }

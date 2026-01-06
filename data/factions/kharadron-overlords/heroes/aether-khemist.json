@@ -60,12 +60,16 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s ranged weapons for the rest of the turn.",
       "phase": "shooting",
-      "declare": "Pick a friendly **Arkanaut Company** unit wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly **Arkanaut Company** unit wholly within 12\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Atmospheric Isolation",
       "type": "passive",
-      "effect": "Subtract 1 from charge rolls for enemy units within 9\" of this unit."
+      "effect": "Subtract 1 from charge rolls for enemy units within 9\" of this unit.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

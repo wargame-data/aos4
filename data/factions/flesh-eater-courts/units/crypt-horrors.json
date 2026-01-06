@@ -52,7 +52,9 @@
       "type": "once-per-turn",
       "effect": "Roll 2 dice for each model in this unit. Add 2 to each roll if the target is **^^Cavalry^^**. For each 5+, inflict 1 mortal damage on the target.",
       "phase": "combat",
-      "declare": "Pick an enemy unit in combat with this unit to be the target."
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

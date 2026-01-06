@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "spell-lore-ziggurat-stampede",
+  "name": "Spell Lore: Ziggurat Stampede",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Flaming Weapons",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Add 1 to the Rend characteristic of the target's melee weapons until the start of yout next turn.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Ziggurat Stampede^^** to cast this spell, pick a visible friendly **^^Ziggurat Stampede^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Searing Detonation",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Ziggurat Stampede Wizard^^** to cast this spell, then pick each enemy unit in combat with them to be the targets, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Burn to Ash",
+      "castingValue": 8,
+      "timing": "Your Hero Phase",
+      "effect": "If the target has a Health characteristic, inflict 2D3 mortal damage on it. Then, if the target was not destroyed or does not have a Health characteristic:\n• The target gains the 'Obscuring' terrain ability for the rest of the battle.\n• If the target is **^^Faction Terrain^^**, until the start of your next turn, abilities on that terrain feature’s warscroll have no effect.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Ziggurat Stampede Wizard^^** to cast this spell, pick a terrain feature within 18\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ]
+}

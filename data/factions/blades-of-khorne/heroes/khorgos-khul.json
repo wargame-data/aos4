@@ -68,21 +68,27 @@
       "type": "once-per-battle",
       "effect": "The targets' melee weapons have **Charge (+1 Damage)** for the rest of the turn.",
       "phase": "charge",
-      "declare": "Pick each friendly **^^Bloodbound Hero^^** within this unit's combat range to be the targets."
+      "declare": "Pick each friendly **^^Bloodbound Hero^^** within this unit's combat range to be the targets.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Master of the Goretide",
       "type": "once-per-turn",
       "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 6\" of the battlefield edge and more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Spend 3 **blood tithe points** and pick a friendly **^^Bloodbound^^** unit that started the battle with 3 or more models and that has been destroyed to be the target."
+      "declare": "Spend 3 **blood tithe points** and pick a friendly **^^Bloodbound^^** unit that started the battle with 3 or more models and that has been destroyed to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Rallying"
     },
     {
       "name": "Reality-Splitting Axe",
       "type": "passive",
       "effect": "Roll a dice. On a 5+, one model in that unit is slain.",
       "phase": "any",
-      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by combat attacks made by this unit to be the target."
+      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by combat attacks made by this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

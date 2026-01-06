@@ -48,7 +48,9 @@
     {
       "name": "Molten Rockbolts",
       "type": "passive",
-      "effect": "Each time a shooting attack made by this unit scores a critical hit, subtract 1\" from the target unit’s Move characteristic until the start of your next turn. This ability cannot reduce the target unit’s unmodified Move characteristic below half"
+      "effect": "Each time a shooting attack made by this unit scores a critical hit, subtract 1\" from the target unit’s Move characteristic until the start of your next turn. This ability cannot reduce the target unit’s unmodified Move characteristic below half",
+      "color": "Blue",
+      "abilityCategory": "Movement"
     }
   ]
 }

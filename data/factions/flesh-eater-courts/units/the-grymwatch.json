@@ -67,7 +67,9 @@
       "name": "Quest to Slay the Monster",
       "type": "passive",
       "effect": "For the rest of the turn, while this unit is in combat with any enemy **^^Monster^^** or **^^Beast^^** units, it has **^^Strike-first^^**. However, for the rest of the turn, while it is in combat with any enemy **^^Monster^^** or **^^Beast^^** units, all of this unit’s combat attacks must target an enemy **^^Monster^^** or **^^Beast^^** unit.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

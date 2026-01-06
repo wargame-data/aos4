@@ -54,7 +54,9 @@
       "type": "once-per-turn",
       "effect": "The targets can each use the ‘All-out Attack’ or ‘All-out Defence’ command this phase even if that command has been used by a friendly unit this phase.",
       "phase": "combat",
-      "declare": "Pick up to 2 friendly **^^Verminus Infantry^^** units wholly within 13\" of this unit to be the targets."
+      "declare": "Pick up to 2 friendly **^^Verminus Infantry^^** units wholly within 13\" of this unit to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "Killing Blow",
@@ -64,7 +66,9 @@
       "declare": "Pick a damaged enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

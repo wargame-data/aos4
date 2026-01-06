@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "prayer-lore-the-croneseer-s-pariahs",
+  "name": "Prayer Lore: The Croneseer's Pariahs",
+  "loreType": "prayer",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "prayers": [
+    {
+      "name": "Wings of the Crone Goddess",
+      "chantingValue": 3,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn:\n• The target has **^^Fly^^**.\n• Add 2\" to the target’s Move characteristic. If the chanting roll was 8+, add 6\" to the target’s Move characteristic instead.",
+      "keywords": [
+        "**^^PRAYER^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Croneseer’s Pariahs Priest^^** to chant this prayer, pick a visible friendly **^^Croneseer’s Pariahs^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Auspicious Strike",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, each time the unmodified hit roll for an attack made against the target is 1, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved. If the chanting roll was 10+, inflict 1 mortal damage foreach unmodified hit roll of 1-2 instead.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Croneseer’s Pariahs Priest^^** to chant this prayer, pick a visible friendly **^^Croneseer’s Pariahs^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Augury of Battle",
+      "chantingValue": 5,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, the target has **^^Ward (5+)^^**. If the chanting roll was 10+, you can pick up to 2 friendly **^^Croneseer’s Pariahs^^** units wholly within 18\" of the caster instead of 1.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Croneseer’s Pariahs Priest^^** to chant this prayer, pick a visible friendly **^^Croneseer’s Pariahs^^** unit wholly within 18\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    }
+  ]
+}

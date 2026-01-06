@@ -61,7 +61,9 @@
       "type": "passive",
       "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "charge",
-      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target."
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     }
   ]
 }

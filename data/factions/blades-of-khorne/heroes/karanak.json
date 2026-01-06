@@ -52,7 +52,9 @@
       "name": "Prey of the Blood God",
       "type": "once-per-turn",
       "effect": "Pick an enemy **^^Hero^^** to be this unit’s quarry. You can pick a **^^Hero^^** in reserve.",
-      "phase": "movement"
+      "phase": "movement",
+      "color": "Gray",
+      "abilityCategory": "Special"
     },
     {
       "name": "Stalk the Prey",
@@ -62,12 +64,16 @@
       "declare": "If this unit's quarry is on the battlefield, pick this unit and up to 1 friendly **Flesh hounds** unit to be the targets.",
       "keywords": [
         "**^^CORE^^**"
-      ]
+      ],
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "First of the Pack",
       "type": "passive",
-      "effect": "While this unit is wholly within 12\" of a friendly **Flesh Hounds** unit, add 2 to charge rolls for this unit. In addition, while any friendly **Flesh Hounds** units are wholly within 12\" of this unit, they can ignore the effect of the ‘Beast’ ability"
+      "effect": "While this unit is wholly within 12\" of a friendly **Flesh Hounds** unit, add 2 to charge rolls for this unit. In addition, while any friendly **Flesh Hounds** units are wholly within 12\" of this unit, they can ignore the effect of the ‘Beast’ ability",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

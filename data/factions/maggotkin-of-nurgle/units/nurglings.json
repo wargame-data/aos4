@@ -48,7 +48,9 @@
       "name": "Endless Swarm",
       "type": "passive",
       "effect": "**Heal (3)** this unit.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
     }
   ]
 }

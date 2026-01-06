@@ -48,7 +48,9 @@
     {
       "name": "Whirlwind of Destruction",
       "type": "passive",
-      "effect": "Add 1 to the Attacks characteristic of this unit’s melee weapons if this unit charged this turn."
+      "effect": "Add 1 to the Attacks characteristic of this unit’s melee weapons if this unit charged this turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

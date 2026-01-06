@@ -48,7 +48,9 @@
       "name": "Scry the Stars",
       "type": "once-per-battle",
       "effect": "Roll a number of dice equal to the current battle round number. For each 3+, pick a friendly **^^Seraphon^^** unit wholly within 18\" of this unit. That unit has **^^Ward (5+)^^** until the start of your next turn.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Celestial Doom",
@@ -59,7 +61,9 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 2,

@@ -58,12 +58,16 @@
     {
       "name": "Protection of the Void",
       "type": "passive",
-      "effect": "While they are wholly within 12\" of this unit, friendlt **^^Skyfarer^^** units have **^^Ward (5+)^^** against mortal damage inflicted by **^^Spell^^** abilities, **^^Prayer^^** abilities and abilities used by **^^Manifestations^^**."
+      "effect": "While they are wholly within 12\" of this unit, friendlt **^^Skyfarer^^** units have **^^Ward (5+)^^** against mortal damage inflicted by **^^Spell^^** abilities, **^^Prayer^^** abilities and abilities used by **^^Manifestations^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Nullsuit",
       "type": "passive",
-      "effect": "Double the Damage characteristic of this unit's weapons for attacks that target **^^Priests^^**, **^^Wizards^^**, or **^^Manifestations^^**."
+      "effect": "Double the Damage characteristic of this unit's weapons for attacks that target **^^Priests^^**, **^^Wizards^^**, or **^^Manifestations^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

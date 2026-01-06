@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "lore-of-undeath",
+  "name": "Lore of Undeath",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Prison of Grief",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "The target has **^^Strike-last^^** until the start of your next turn.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Soulblight Gravelords Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Vile Transference",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Roll a number of dice equal to the number of models in the target unit. For each 6, inflict 1 mortal damage on that unit. If any enemy models were slain by this spell, **Heal(D3)** the caster.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Soulblight Gravelord Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Waste Away",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "For the rest of the turn, subtract 1 from the Damage characteristic of the target’s melee weapons.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Soulblight Gravelords Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    }
+  ]
+}

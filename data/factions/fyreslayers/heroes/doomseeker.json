@@ -45,13 +45,17 @@
     {
       "name": "Runic Power",
       "type": "passive",
-      "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons while this unit has 1 damage point. Add 2 to the Damage characteristic of this unit’s melee weapons instead while this unit has 2 or more damage points."
+      "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons while this unit has 1 damage point. Add 2 to the Damage characteristic of this unit’s melee weapons instead while this unit has 2 or more damage points.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Oathbound",
       "type": "passive",
       "effect": "Add 1 to hit rolls and wound rolls for attacks made by this unit that target its quarry. If this unit is destroyed while it is in combat with its quarry, inflict 3 mortal damage on this unit’s quarry immediately after the ability that destroyed this unit has been resolved.",
-      "declare": "Pick an enemy unit to be this unit’s quarry. You can pick a unit that has been deployed in reserve."
+      "declare": "Pick an enemy unit to be this unit’s quarry. You can pick a unit that has been deployed in reserve.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

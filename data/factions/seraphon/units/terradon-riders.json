@@ -62,19 +62,25 @@
     {
       "name": "Attack from On High",
       "type": "passive",
-      "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit."
+      "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Deadly Cargo",
       "type": "passive",
       "effect": "Roll a dice for each model in this unit, and add 2 to each roll if this unit is within the combat ranges of any friendly **Terradon Chief** units. For each 5+:\n• Inflict 1 mortal damage on the target.\n• If any damage points are allocated by this ability and the target does not have **^^Fly^^**, the target cannot use **^^Run^^** abilities until the start of your next turn.",
       "phase": "movement",
-      "declare": "Pick an enemy unit that this unit passed across this phase to be the target."
+      "declare": "Pick an enemy unit that this unit passed across this phase to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Special"
     },
     {
       "name": "Dispersed Formation",
       "type": "passive",
-      "effect": "This unit has a coherency range of 2\"."
+      "effect": "This unit has a coherency range of 2\".",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ]
 }

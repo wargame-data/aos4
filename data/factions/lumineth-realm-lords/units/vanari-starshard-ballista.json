@@ -60,13 +60,17 @@
       "name": "Blinding Bolts",
       "type": "once-per-battle",
       "effect": "If all of this unit’s shooting attacks this turn target the same enemy unit, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.",
-      "phase": "shooting"
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Scryhawks",
       "type": "passive",
       "effect": "For the rest of the turn, add 6\" to the Range characteristic of this unit’s **Starshard Bolts** while it is wholly within 12\" of any friendly **Vanari Auralan Sentinels** units.",
-      "phase": "shooting"
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

@@ -47,14 +47,18 @@
     {
       "name": "Trophies of Glorious Deaths",
       "type": "reaction",
-      "effect": "Roll a dice. On a 5+, that command has no effect, it still counts as having been used and the command points spent to use it are still lost. This reaction cannot be used more than once per command."
+      "effect": "Roll a dice. On a 5+, that command has no effect, it still counts as having been used and the command points spent to use it are still lost. This reaction cannot be used more than once per command.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Killer of Kings",
       "type": "once-per-turn",
       "effect": "Roll 2D6 for each target. If the roll exceeds the target's Health characteristic, 1 model from that unit is slain, or, if the target is a **^^Manifestation^^**, it is automatically destroyed.",
       "phase": "any",
-      "declare": "Pick each enemy unit and **^^Manifestation^^** in combat with this unit to be the target."
+      "declare": "Pick each enemy unit and **^^Manifestation^^** in combat with this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

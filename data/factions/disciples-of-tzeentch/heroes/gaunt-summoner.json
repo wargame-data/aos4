@@ -64,7 +64,9 @@
       "declare": "Pick a friendly unit that has not been deployed to be the target.",
       "keywords": [
         "**^^DEPLOY^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Divert Realmgate",
@@ -75,14 +77,18 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Book of Profane Secrets",
       "type": "passive",
       "effect": "Set up the target on the battlefield wholly within 12\" of this unit and more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Pick a friendly unit **in a Silver Tower** to be the target."
+      "declare": "Pick a friendly unit **in a Silver Tower** to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": 2,

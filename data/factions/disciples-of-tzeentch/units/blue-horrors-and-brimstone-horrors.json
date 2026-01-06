@@ -66,7 +66,9 @@
     {
       "name": "Split Again",
       "type": "passive",
-      "effect": "Each time a **Blue Horror** model in this unit is slain, before removing the model from play, roll a dice. On a 3+, you can add 1 **Brimstone Horrors** model to this unit.\n**Designer’s Note:** *You cannot have more than 10 Blue Horror models and 10 Brimstone Horrors models in a non-reinforced unit. You cannot have more than 20 Blue Horror models and 20 Brimstone Horrors models in a reinforced unit.*"
+      "effect": "Each time a **Blue Horror** model in this unit is slain, before removing the model from play, roll a dice. On a 3+, you can add 1 **Brimstone Horrors** model to this unit.\n**Designer’s Note:** *You cannot have more than 10 Blue Horror models and 10 Brimstone Horrors models in a non-reinforced unit. You cannot have more than 20 Blue Horror models and 20 Brimstone Horrors models in a reinforced unit.*",
+      "color": "Black",
+      "abilityCategory": "Rallying"
     }
   ]
 }

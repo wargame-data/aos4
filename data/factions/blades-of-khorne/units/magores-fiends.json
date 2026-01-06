@@ -60,7 +60,9 @@
     {
       "name": "No Respite",
       "type": "passive",
-      "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll 2 dice. For each 5+, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+      "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll 2 dice. For each 5+, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

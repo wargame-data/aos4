@@ -71,12 +71,16 @@
       "type": "passive",
       "effect": "For the rest of the battle, this unit has **^^Strike-first^^** and **^^Ward (4+)^^**.",
       "phase": "any",
-      "declare": "This unit can only use this ability if you control the object of this unit’s quest and this unit is contesting it."
+      "declare": "This unit can only use this ability if you control the object of this unit’s quest and this unit is contesting it.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "The Looncourt's Quest",
       "type": "passive",
-      "effect": "Pick an objective or terrain feature within enemy territory to be the **object of this unit’s quest**."
+      "effect": "Pick an objective or terrain feature within enemy territory to be the **object of this unit’s quest**.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ]
 }

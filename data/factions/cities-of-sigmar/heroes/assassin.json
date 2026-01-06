@@ -47,12 +47,16 @@
     {
       "name": "Hidden Murderer",
       "type": "passive",
-      "effect": "While this unit is within the combat range of a friendly **^^Infantry^^** unit that has 5 or more models and there are no enemy units within this unit's combat range, this unit is not visible to enemy units."
+      "effect": "While this unit is within the combat range of a friendly **^^Infantry^^** unit that has 5 or more models and there are no enemy units within this unit's combat range, this unit is not visible to enemy units.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "In for the Kill",
       "type": "passive",
-      "effect": "This unit has **^^Strike-first^^** if it charged in the same turn."
+      "effect": "This unit has **^^Strike-first^^** if it charged in the same turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

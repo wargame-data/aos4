@@ -77,20 +77,26 @@
       "effect": "Until the start of your next turn, the first time an enemy unit uses a command within 18\" of this unit, your opponent must spend an additional command point to use that command.",
       "phase": "hero",
       "declare": "Make a casting roll of 2D6.",
-      "castingValue": 8
+      "castingValue": 8,
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Equal Prodigies",
       "type": "passive",
       "effect": "If Ellania takes the lead, until the start of your next turn, add 1 to this unit’s power level and it has **^^Ward (4+)^^**. If Ellathor takes the lead, until the start of your next turn, add the current battle round number to the Damage characteristic of **Altairi**.",
       "phase": "hero",
-      "declare": "Pick whether Ellania will take the lead or Ellathor will take the lead."
+      "declare": "Pick whether Ellania will take the lead or Ellathor will take the lead.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Sudden Translocation",
       "type": "passive",
       "effect": "This unit can use this ability if any enemy models were slain by it this turn. **Heal (D6)** this unit. Then, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units. When using the ‘Equal Prodigies’ ability in your next turn, you must pick Ellania to take the lead.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

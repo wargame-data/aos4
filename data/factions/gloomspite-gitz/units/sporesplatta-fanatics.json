@@ -42,12 +42,16 @@
     {
       "name": "Puffshroom Frenzy",
       "type": "passive",
-      "effect": "Add 1 to the Attacks characteristic of melee weapons used by other friendly **^^Moonclan^^** units while they are wholly within 12\" of this unit. Subtract 1 from the Attacks characteristic of melee weapons used by enemy units while they are in combat with this unit."
+      "effect": "Add 1 to the Attacks characteristic of melee weapons used by other friendly **^^Moonclan^^** units while they are wholly within 12\" of this unit. Subtract 1 from the Attacks characteristic of melee weapons used by enemy units while they are in combat with this unit.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "A Prod in the Right Direction",
       "type": "passive",
-      "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase."
+      "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ]
 }

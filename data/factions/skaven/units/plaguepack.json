@@ -61,12 +61,16 @@
     {
       "name": "Plague Rat",
       "type": "passive",
-      "effect": "This unit’s **Plague rat** is a token. If you make an unmodified chanting roll of 1 for this unit while its **Plague rat** is on the battlefield, you can remove its **Plague rat** from the battlefield and then re-roll that chanting roll."
+      "effect": "This unit’s **Plague rat** is a token. If you make an unmodified chanting roll of 1 for this unit while its **Plague rat** is on the battlefield, you can remove its **Plague rat** from the battlefield and then re-roll that chanting roll.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Enshrouding Fumes",
       "type": "passive",
-      "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit."
+      "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

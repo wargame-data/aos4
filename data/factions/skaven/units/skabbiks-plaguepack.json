@@ -64,12 +64,16 @@
     {
       "name": "Enshrouding Fumes",
       "type": "passive",
-      "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit."
+      "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Skritter",
       "type": "passive",
-      "effect": "This unit’s **Skritter** is a token. If you make a chanting roll of 1 for this unit while its **Skritter** is on the battlefield, you can remove its **Skritter** from the battlefield and then re-roll that chanting roll."
+      "effect": "This unit’s **Skritter** is a token. If you make a chanting roll of 1 for this unit while its **Skritter** is on the battlefield, you can remove its **Skritter** from the battlefield and then re-roll that chanting roll.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

@@ -45,7 +45,9 @@
       "name": "Slaughter at Any Cost",
       "type": "passive",
       "effect": "If any damage points were allocated to this unit this turn, this unit can use the ‘Normal Move’ ability as if it were your movement phase.",
-      "phase": "shooting"
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Movement"
     }
   ]
 }

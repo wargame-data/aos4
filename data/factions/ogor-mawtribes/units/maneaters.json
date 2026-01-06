@@ -55,7 +55,9 @@
     {
       "name": "Been There, Done That",
       "type": "reaction",
-      "effect": "Roll a dice. On a 4+, that ability has no effect on this unit."
+      "effect": "Roll a dice. On a 4+, that ability has no effect on this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

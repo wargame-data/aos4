@@ -63,12 +63,16 @@
     {
       "name": "Soulbound Shield",
       "type": "reaction",
-      "effect": "If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit. This unit can use this ability more than once per phase but only once per **^^Spell^^** ability."
+      "effect": "If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit. This unit can use this ability more than once per phase but only once per **^^Spell^^** ability.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Lord of Fate",
       "type": "passive",
-      "effect": "Add 1 to wound rolls for attacks made by friendly **^^Arcanite^^** units while they are wholly within 12\" of this unit."
+      "effect": "Add 1 to wound rolls for attacks made by friendly **^^Arcanite^^** units while they are wholly within 12\" of this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

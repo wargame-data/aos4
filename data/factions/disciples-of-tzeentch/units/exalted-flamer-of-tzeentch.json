@@ -60,14 +60,18 @@
     {
       "name": "Capricious Wyrdflame",
       "type": "passive",
-      "effect": "Add 1 to wound rolls for this unit’s shooting attacks that target a **^^Burning^^** enemy unit."
+      "effect": "Add 1 to wound rolls for this unit’s shooting attacks that target a **^^Burning^^** enemy unit.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Transmogrifying Beacon",
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, the target’s ranged weapons have **Crit (2 Hits)** for the rest of the turn.",
       "phase": "shooting",
-      "declare": "Pick another friendly **Exalted Flamer of Tzeentch** or **Flamers of Tzeentch** unit within this unit’s combat range to be the target."
+      "declare": "Pick another friendly **Exalted Flamer of Tzeentch** or **Flamers of Tzeentch** unit within this unit’s combat range to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

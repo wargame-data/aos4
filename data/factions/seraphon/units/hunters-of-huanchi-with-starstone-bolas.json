@@ -69,7 +69,9 @@
       "type": "passive",
       "effect": "Roll a dice. On a 3+, until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.",
       "phase": "shooting",
-      "declare": "Pick an enemy unit that was targeted by this unit’s **Starstone Bolas** this turn to be the target."
+      "declare": "Pick an enemy unit that was targeted by this unit’s **Starstone Bolas** this turn to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Hidden Hunters",
@@ -78,14 +80,18 @@
       "declare": "Pick this unit if it has not been deployed.",
       "keywords": [
         "**^^DEPLOY^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Chameleon Ambush",
       "type": "passive",
       "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Pick this unit if it is **in ambush**."
+      "declare": "Pick this unit if it is **in ambush**.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

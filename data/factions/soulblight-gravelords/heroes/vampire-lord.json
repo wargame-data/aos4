@@ -52,7 +52,9 @@
       "name": "Sanguine Blur",
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy non-**^^Hero^^** units and more than 3\" from all enemy **^^Heroes^^**.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": 1,

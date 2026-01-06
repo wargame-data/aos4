@@ -35,17 +35,23 @@
       "declare": "This ability must be used instead of the 'Deploy Faction Terrain' ability.",
       "keywords": [
         "**^^DEPLOY TERRAIN^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Guardians of the Deep",
       "type": "passive",
-      "effect": "Add 1 to save rolls for friendly **^^Idoneth Deepkin Infantry^^** and **^^Cavalry^^** units while they are wholly within 6\" of this terrain feature."
+      "effect": "Add 1 to save rolls for friendly **^^Idoneth Deepkin Infantry^^** and **^^Cavalry^^** units while they are wholly within 6\" of this terrain feature.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Phantasmal Ruin",
       "type": "passive",
-      "effect": "Models can pass through this terrain feature but cannot be set up on or end moves on any part of this terrain feature.\nEach time an enemy unit ends a move that passed through or across this terrain feature, roll a D3. On a 2+, inflict an amount of mortal damage on that unit equal to the roll."
+      "effect": "Models can pass through this terrain feature but cannot be set up on or end moves on any part of this terrain feature.\nEach time an enemy unit ends a move that passed through or across this terrain feature, roll a D3. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

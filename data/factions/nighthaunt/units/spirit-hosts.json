@@ -47,7 +47,9 @@
     {
       "name": "Drawn to War",
       "type": "passive",
-      "effect": "Friendly **^^Nighthaunt Infantry Heroes^^** have **^^Ward (4+)^^** while they are wholly within this unit’s combat range."
+      "effect": "Friendly **^^Nighthaunt Infantry Heroes^^** have **^^Ward (4+)^^** while they are wholly within this unit’s combat range.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

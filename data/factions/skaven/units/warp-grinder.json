@@ -55,14 +55,18 @@
       "declare": "Pick this unit and up to 1 friendly non-**^^Monster Skaven^^** unit if those units have not been deployed.",
       "keywords": [
         "**^^DEPLOY^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Warp-ambush",
       "type": "passive",
       "effect": "Roll a dice. On a 4+, set up this unit within 3\" of the target and more than 6\" from all other enemy units. Then, set up the unit that was **in the tunnels below** with this unit within 3\" of the target and more than 6\" from all other enemy units.",
       "phase": "movement",
-      "declare": "Pick this unit if it is **in the tunnels below**, then pick an enemy unit more than 6\" from all other enemy units to be the target."
+      "declare": "Pick this unit if it is **in the tunnels below**, then pick an enemy unit more than 6\" from all other enemy units to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

@@ -54,7 +54,9 @@
       "type": "passive",
       "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "charge",
-      "declare": "Pick an enemy unit within 6\" of this unit and that used a **^^Move^^** ability this turn to be the target. You cannot pick the same unit to be the target of this ability more than once per turn."
+      "declare": "Pick an enemy unit within 6\" of this unit and that used a **^^Move^^** ability this turn to be the target. You cannot pick the same unit to be the target of this ability more than once per turn.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     }
   ]
 }

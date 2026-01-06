@@ -49,12 +49,16 @@
     {
       "name": "Indulgence Given Form",
       "type": "passive",
-      "effect": "Each time an enemy unit uses a command while it is within 12\" of this unit, give 1 **indulgence point** to this unit, to a maximum of 6."
+      "effect": "Each time an enemy unit uses a command while it is within 12\" of this unit, give 1 **indulgence point** to this unit, to a maximum of 6.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Sublime Harmonies",
       "type": "passive",
-      "effect": "While this unit’s **Vashtiss** is on the battlefield, it has **^^Wizard (1)^^**. In addition, each time you make a casting roll for this unit, you can spend any number of **indulgence points** it has. For each point spent, add 1 to the casting roll."
+      "effect": "While this unit’s **Vashtiss** is on the battlefield, it has **^^Wizard (1)^^**. In addition, each time you make a casting roll for this unit, you can spend any number of **indulgence points** it has. For each point spent, add 1 to the casting roll.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

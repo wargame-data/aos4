@@ -59,7 +59,9 @@
       "type": "passive",
       "effect": "Add 1 to hit rolls for attacks made by friendly **^^Cities of Sigmar Human^^** units that target that unit for the rest of the turn.",
       "phase": "shooting",
-      "declare": "Pick an enemy unit that was targeted by this unit’s shooting attacks this turn to be the target."
+      "declare": "Pick an enemy unit that was targeted by this unit’s shooting attacks this turn to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Fortify Position",
@@ -68,7 +70,9 @@
       "phase": "movement",
       "keywords": [
         "**^^CORE^^**"
-      ]
+      ],
+      "color": "Gray",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

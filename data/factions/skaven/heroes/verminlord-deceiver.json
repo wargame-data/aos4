@@ -65,7 +65,9 @@
     {
       "name": "Lord of Assassins",
       "type": "reaction",
-      "effect": "If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead."
+      "effect": "If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Burst From the Shadows",
@@ -74,7 +76,9 @@
       "phase": "combat",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": 1,

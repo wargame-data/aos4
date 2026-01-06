@@ -47,12 +47,16 @@
     {
       "name": "Shadowfast",
       "type": "once-per-turn",
-      "effect": "This unit can use a **^^Move^^** ability as if it were your movement phase."
+      "effect": "This unit can use a **^^Move^^** ability as if it were your movement phase.",
+      "color": "Purple",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Cling to the Shadows",
       "type": "passive",
-      "effect": "While each model in this unit is within 1\" of any terrain features, this unit cannot be targeted by shooting attacks unless the attacking model is within 9\" of it."
+      "effect": "While each model in this unit is within 1\" of any terrain features, this unit cannot be targeted by shooting attacks unless the attacking model is within 9\" of it.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

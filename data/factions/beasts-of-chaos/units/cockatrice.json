@@ -48,7 +48,9 @@
       "type": "once-per-turn",
       "effect": "Roll a dice for each model in the target unit. For each 6, inflict 1 mortal damage on the target. If any damage points are allocated to the target by this ability, the target has **^^Strike-last^^** for the rest of the turn.",
       "phase": "shooting",
-      "declare": "Pick a visible enemy unit within 12\" of this unit to be the target."
+      "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

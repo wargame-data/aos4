@@ -47,7 +47,9 @@
       "type": "once-per-turn",
       "effect": "On a 3+, the target has **^^Ward (5+)^^** until the start of your next turn.",
       "phase": "hero",
-      "declare": "Pick a friendly **^^Warriors of Chaos^^** unit wholly within 12\" of this unit to be the target and roll a dice."
+      "declare": "Pick a friendly **^^Warriors of Chaos^^** unit wholly within 12\" of this unit to be the target and roll a dice.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": 1,

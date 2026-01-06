@@ -59,7 +59,9 @@
     {
       "name": "Screeching Raiders",
       "type": "passive",
-      "effect": "While this unit is wholly within enemy territory, its weapons have **Crit (2 Hits)**."
+      "effect": "While this unit is wholly within enemy territory, its weapons have **Crit (2 Hits)**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

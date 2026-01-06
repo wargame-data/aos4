@@ -47,7 +47,9 @@
     {
       "name": "Glory-seeker",
       "type": "passive",
-      "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons for attacks that target **^^Heroes^^** or **^^Monsters^^**."
+      "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons for attacks that target **^^Heroes^^** or **^^Monsters^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

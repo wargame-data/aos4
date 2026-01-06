@@ -33,7 +33,9 @@
     {
       "name": "Entropic Lodestone",
       "type": "passive",
-      "effect": "From the second battle round onwards, add 1 to the Rend characteristic of melee weapons used by friendly **^^Beasts of Chaos^^** units while they are wholly within 24\" of this terrain feature.\nIf this terrain feature is wholly within 18\" of the centre of the battlefield, this ability affects all friendly **^^Beasts of Chaos^^** units on the battlefield instead of those wholly within 24\" of it."
+      "effect": "From the second battle round onwards, add 1 to the Rend characteristic of melee weapons used by friendly **^^Beasts of Chaos^^** units while they are wholly within 24\" of this terrain feature.\nIf this terrain feature is wholly within 18\" of the centre of the battlefield, this ability affects all friendly **^^Beasts of Chaos^^** units on the battlefield instead of those wholly within 24\" of it.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

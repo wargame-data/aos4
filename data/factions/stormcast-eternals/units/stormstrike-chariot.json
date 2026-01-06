@@ -80,14 +80,18 @@
     {
       "name": "Celestial Blaze",
       "type": "passive",
-      "effect": "When this unit uses the ‘Power Through’ command, inflict an additional D3 mortal damage on the target and add D6\" to the distance this unit can move as part of that ability"
+      "effect": "When this unit uses the ‘Power Through’ command, inflict an additional D3 mortal damage on the target and add D6\" to the distance this unit can move as part of that ability",
+      "color": "Purple",
+      "abilityCategory": "Special"
     },
     {
       "name": "Azyr Unleashed",
       "type": "passive",
       "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "charge",
-      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target."
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     }
   ]
 }

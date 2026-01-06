@@ -52,7 +52,9 @@
       "declare": "Pick a friendly **^^Serfs^^** or **^^Knights^^** unit wholly within 12\" of this unit to be the target.",
       "keywords": [
         "**^^CORE^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
     },
     {
       "name": "Musicians, Play!",
@@ -60,7 +62,9 @@
       "effect": "While you believe this **^^Delusion^^**, subtract 1 from hit rolls for shooting attacks that target friendly **^^Flesh-eater Courts^^** units while they are wholly within 12\" of a friendly **^^Flesh-eater Courts Hero^^**.",
       "keywords": [
         "**^^DELUSION^^**"
-      ]
+      ],
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": 1,

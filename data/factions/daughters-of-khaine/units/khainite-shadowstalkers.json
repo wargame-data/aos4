@@ -60,7 +60,9 @@
       "phase": "movement",
       "keywords": [
         "**^^CORE^^**"
-      ]
+      ],
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

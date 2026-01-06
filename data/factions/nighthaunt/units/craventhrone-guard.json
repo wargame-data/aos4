@@ -65,7 +65,9 @@
       "name": "Black-hearted Lackeys",
       "type": "once-per-turn",
       "effect": "Roll a D3. On a 2+, this unit immediately uses the 'Retreat' ability without any mortal damage being inflicted on it. Then, inflict an amount of mortal damage on the target equal to the roll.",
-      "phase": "movement"
+      "phase": "movement",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

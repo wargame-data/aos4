@@ -79,7 +79,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Chitinous Legs** is 6."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Chitinous Legs** is 6.",
+      "color": "Black"
     },
     {
       "name": "Voracious Predator",
@@ -89,12 +90,16 @@
       "declare": "Pick up to 3 enemy units within 1\" of this unit to be the targets.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Wall Crawler",
       "type": "passive",
-      "effect": "This unit can pass across terrain features as if it had **^^Fly^^**."
+      "effect": "This unit can pass across terrain features as if it had **^^Fly^^**.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

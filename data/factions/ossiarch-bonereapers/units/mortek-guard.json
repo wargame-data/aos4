@@ -50,7 +50,9 @@
     {
       "name": "Shieldwall",
       "type": "passive",
-      "effect": "Ignore all modifiers to save rolls for this unit (positive and negative) for the rest of the turn if this unit did not use a **^^Move^^** ability in the same turn."
+      "effect": "Ignore all modifiers to save rolls for this unit (positive and negative) for the rest of the turn if this unit did not use a **^^Move^^** ability in the same turn.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

@@ -45,12 +45,16 @@
     {
       "name": "Share the Pain",
       "type": "passive",
-      "effect": "Each time you make a successful ward roll for this unit for a damage point inflicted by a combat attack, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+      "effect": "Each time you make a successful ward roll for this unit for a damage point inflicted by a combat attack, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+      "color": "Green",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Disciples in Torment",
       "type": "passive",
-      "effect": "While this unit is contesting an objective, add 1 to wound rolls for combat attacks made by friendly **^^Sybarite^^** units wholly within 12\" of this unit."
+      "effect": "While this unit is contesting an objective, add 1 to wound rolls for combat attacks made by friendly **^^Sybarite^^** units wholly within 12\" of this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

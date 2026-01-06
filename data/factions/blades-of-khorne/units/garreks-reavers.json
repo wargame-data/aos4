@@ -47,13 +47,17 @@
     {
       "name": "Blood for the Blood God!",
       "type": "passive",
-      "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons if it charged in the same turn."
+      "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons if it charged in the same turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Grisly Trophies",
       "type": "passive",
       "effect": "If this unit is in a **Blades of Khorne** army and any enemy models were slain this turn by this unit’s attacks, you gain 1 **blood tithe point**.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Special"
     }
   ]
 }

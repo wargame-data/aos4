@@ -86,17 +86,22 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Great Plague Censer** is 2."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Great Plague Censer** is 2.",
+      "color": "Black"
     },
     {
       "name": "Corrupting Influence",
       "type": "passive",
-      "effect": "Subtract 1 from ward rolls for enemy units while they are within 13\" of this unit."
+      "effect": "Subtract 1 from ward rolls for enemy units while they are within 13\" of this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Altar of the Great Corruptor",
       "type": "passive",
-      "effect": "Friendly **^^Pestilens^^** units have **^^Ward (6+)^^** while they are wholly within 13\" of this unit."
+      "effect": "Friendly **^^Pestilens^^** units have **^^Ward (6+)^^** while they are wholly within 13\" of this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

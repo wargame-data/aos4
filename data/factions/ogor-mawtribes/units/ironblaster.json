@@ -78,7 +78,9 @@
     {
       "name": "Lethal Payload",
       "type": "passive",
-      "effect": "Each time this unit uses a **^^Shoot^^** ability, pick either the **Big Shot** or **Hail Shot** weapon characteristics for all the attacks it makes with its **Ironblaster Cannon**."
+      "effect": "Each time this unit uses a **^^Shoot^^** ability, pick either the **Big Shot** or **Hail Shot** weapon characteristics for all the attacks it makes with its **Ironblaster Cannon**.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

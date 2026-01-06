@@ -52,7 +52,9 @@
     {
       "name": "Vassals, to Arms!",
       "type": "reaction",
-      "effect": "Pick a friendly **^^Serfs^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit's combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to wound rolls for the target's attacks for the rest of the turn."
+      "effect": "Pick a friendly **^^Serfs^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit's combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to wound rolls for the target's attacks for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Code of Honour",
@@ -60,7 +62,9 @@
       "effect": "While you believe this **^^Delusion^^**, add 1 to the Damage characteristic of melee weapons used by friendly non-**^^Unique Flesh-eater Courts Heroes^^** for attacks that target an enemy **^^Hero^^**.",
       "keywords": [
         "**^^DELUSION^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

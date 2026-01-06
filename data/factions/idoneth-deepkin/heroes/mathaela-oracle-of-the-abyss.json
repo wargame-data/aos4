@@ -79,7 +79,9 @@
       "type": "passive",
       "effect": "For the rest of the turn, add 1 to the Attacks characteristic of the targets' **Companion** weapons.",
       "phase": "combat",
-      "declare": "Pick up to 3 friendly **^^Idoneth Deepkin^^** units wholly within 12\" of this unit to be the targets."
+      "declare": "Pick up to 3 friendly **^^Idoneth Deepkin^^** units wholly within 12\" of this unit to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Crushing Pressure",
@@ -90,7 +92,9 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

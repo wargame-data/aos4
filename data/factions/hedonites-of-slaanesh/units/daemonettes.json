@@ -50,7 +50,9 @@
     {
       "name": "Lithe and Swift",
       "type": "passive",
-      "effect": "Add 1 to the Attacks characteristic of this unit’s Piercing Claws for the rest of the turn if this unit charged in the same turn."
+      "effect": "Add 1 to the Attacks characteristic of this unit’s Piercing Claws for the rest of the turn if this unit charged in the same turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

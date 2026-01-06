@@ -109,12 +109,16 @@
       "type": "once-per-turn",
       "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Pick this unit if it is **in the tunnels below** and includes any models armed with **Grinderfists**."
+      "declare": "Pick this unit if it is **in the tunnels below** and includes any models armed with **Grinderfists**.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Shock Gauntlets",
       "type": "passive",
-      "effect": "Each time an attack made with this unit’s **Shock Gauntlets** scores a critical hit, that attack scores D6 hits on the target unit instead of 1. Make a wound roll for each hit."
+      "effect": "Each time an attack made with this unit’s **Shock Gauntlets** scores a critical hit, that attack scores D6 hits on the target unit instead of 1. Make a wound roll for each hit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

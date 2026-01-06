@@ -63,7 +63,9 @@
     {
       "name": "Skarbrand's Rage",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, or if it did not use a **^^Fight^^** ability last turn, the effects of the 'Blood-drenched' ability apply to this unit."
+      "effect": "While this unit has 10 or more damage points, or if it did not use a **^^Fight^^** ability last turn, the effects of the 'Blood-drenched' ability apply to this unit.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Roar of Total Rage",
@@ -73,12 +75,16 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Inescapable Wrath",
       "type": "passive",
-      "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3."
+      "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

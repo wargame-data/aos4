@@ -51,7 +51,9 @@
     {
       "name": "Elite Bodyguard",
       "type": "passive",
-      "effect": "Friendly **^^Skaven Infantry Heroes^^** have **^^Ward (5+)^^** while they are within this unit’s combat range."
+      "effect": "Friendly **^^Skaven Infantry Heroes^^** have **^^Ward (5+)^^** while they are within this unit’s combat range.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

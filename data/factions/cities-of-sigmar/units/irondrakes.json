@@ -70,7 +70,9 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "shooting",
-      "declare": "If this unit is not in combat, pick a visible enemy unit within 6\" of it to be the target."
+      "declare": "If this unit is not in combat, pick a visible enemy unit within 6\" of it to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

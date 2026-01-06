@@ -71,17 +71,23 @@
       "castingValue": 6,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Control"
     },
     {
       "name": "Shrieking Swarm",
       "type": "passive",
-      "effect": "Subtract 1 from hit rolls for attacks that target this unit."
+      "effect": "Subtract 1 from hit rolls for attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Behemoth's Bane",
       "type": "passive",
-      "effect": "Subtract 2 from the Attacks characteristic of enemy **^^Monsters^^’ melee weapons while they are in combat with this unit."
+      "effect": "Subtract 2 from the Attacks characteristic of enemy **^^Monsters^^’ melee weapons while they are in combat with this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": 1,

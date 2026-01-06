@@ -57,18 +57,24 @@
     {
       "name": "Keep 'Em in Line",
       "type": "reaction",
-      "effect": "If this unit is wholly within 12\" of the unit using the ‘All-out Attack’ command, add 1 to wound rolls for combat attacks made by that unit for the rest of the phase."
+      "effect": "If this unit is wholly within 12\" of the unit using the ‘All-out Attack’ command, add 1 to wound rolls for combat attacks made by that unit for the rest of the phase.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Unleash the Stab-grot!",
       "type": "once-per-battle",
       "effect": "Pick 1 of the following effects:\n• Pick an enemy unit in combat with this unit to be the target. Inflict D3 mortal damage on the target.\n• This unit has **^^Ward (5+)^^** for the rest of the turn.\nAfter resolving either effect, remove this unit’s **Stab-grot** from the battlefield.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "Stab-grot",
       "type": "passive",
-      "effect": "This unit’s **Stab-grot** is a token. If this unit’s **Stab grot** has been removed, it can no longer attack with its **Stab-grot’s Shiv** and it cannot use the ‘Unleash the Stab-grot!’ ability."
+      "effect": "This unit’s **Stab-grot** is a token. If this unit’s **Stab grot** has been removed, it can no longer attack with its **Stab-grot’s Shiv** and it cannot use the ‘Unleash the Stab-grot!’ ability.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

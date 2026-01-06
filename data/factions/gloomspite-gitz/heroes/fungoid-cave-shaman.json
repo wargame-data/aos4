@@ -58,7 +58,9 @@
       "name": "Deffcap Mushroom",
       "type": "once-per-battle",
       "effect": "Add 1 to this unit’s power level for the rest of the turn.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

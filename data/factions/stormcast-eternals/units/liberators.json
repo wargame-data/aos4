@@ -59,7 +59,9 @@
     {
       "name": "Stalwart Defenders",
       "type": "passive",
-      "effect": "Add 3 to this unit’s control score while it is contesting an objective wholly within friendly territory."
+      "effect": "Add 3 to this unit’s control score while it is contesting an objective wholly within friendly territory.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     }
   ]
 }

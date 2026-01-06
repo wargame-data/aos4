@@ -59,7 +59,9 @@
     {
       "name": "Virulent Concoctions",
       "type": "passive",
-      "effect": "When using the ‘Blessed by the Plaguefather’ ability, if you choose to infect an enemy unit, you can pick an enemy unit that had any damage points allocated to it by this unit’s shooting attacks this turn to be the target even if that unit is not in combat with a friendly **^^Maggotkin of Nurgle^^** unit."
+      "effect": "When using the ‘Blessed by the Plaguefather’ ability, if you choose to infect an enemy unit, you can pick an enemy unit that had any damage points allocated to it by this unit’s shooting attacks this turn to be the target even if that unit is not in combat with a friendly **^^Maggotkin of Nurgle^^** unit.",
+      "color": "Purple",
+      "abilityCategory": "Special"
     }
   ]
 }

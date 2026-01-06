@@ -58,7 +58,9 @@
     {
       "name": "Verdian Crown",
       "type": "passive",
-      "effect": "This unit counts as an **Awakened Wyldwood** for the purposes of the ‘Endless Growth’, ‘Walk the Hidden Paths’ and ‘Strike and Fade’ abilities."
+      "effect": "This unit counts as an **Awakened Wyldwood** for the purposes of the ‘Endless Growth’, ‘Walk the Hidden Paths’ and ‘Strike and Fade’ abilities.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Aspect of the Everqueen",
@@ -69,7 +71,9 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Writhing Vines",
@@ -79,7 +83,9 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 2,

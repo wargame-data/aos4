@@ -63,7 +63,9 @@
     {
       "name": "Iron-willed Overlord",
       "type": "passive",
-      "effect": "Add 2 to the control scores of friendly **^^Warriors of Chaos^^** units while they are wholly within 12\" of this unit."
+      "effect": "Add 2 to the control scores of friendly **^^Warriors of Chaos^^** units while they are wholly within 12\" of this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     },
     {
       "name": "Apex Predator",
@@ -73,7 +75,9 @@
       "declare": "Pick an enemy **^^Monster^^** in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

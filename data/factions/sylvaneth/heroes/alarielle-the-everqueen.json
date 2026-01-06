@@ -61,7 +61,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Wardroth’s Great Antlers** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Wardroth’s Great Antlers** is 4.",
+      "color": "Black"
     },
     {
       "name": "Metamorphosis",
@@ -72,13 +73,17 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Lifebloom",
       "type": "passive",
       "effect": "Pick 1 of the following effects:\n• Add 1 to casting rolls for this unit for the rest of the turn.\n• **Heal (2D3)** this unit.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Living Battering Ram",
@@ -88,14 +93,18 @@
       "declare": "If this unit charged this turn, pick an enemy **^^Infantry^^** unit within 1\" of it to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Rite of Life",
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 4+, set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 9\" of a friendly **Awakened Wyldwood** and more than 9\" from all enemy units. If the target was a **^^Monster^^**, allocate 6 damage points to the replacement unit (ward rolls cannot be made for those damage points).",
       "phase": "movement",
-      "declare": "Pick a friendly **^^Sylvaneth^^** unit that has been destroyed to be the target. This unit can use this ability if it has been destroyed, but if it does, this unit must be the target."
+      "declare": "Pick a friendly **^^Sylvaneth^^** unit that has been destroyed to be the target. This unit can use this ability if it has been destroyed, but if it does, this unit must be the target.",
+      "color": "Gray",
+      "abilityCategory": "Rallying"
     }
   ],
   "isWizard": 3,

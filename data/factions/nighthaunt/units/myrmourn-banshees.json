@@ -48,7 +48,9 @@
     {
       "name": "Spell-eaters",
       "type": "reaction",
-      "effect": "If a friendly **^^Nighthaunt^^** unit wholly within 12\" of this unit was picked to be the target of that spell, this unit can use the ‘Unbind’ ability as if it had **^^Wizard (1)^^**. Add 1 to the unbinding roll for that ability. If the spell is unbound, inflict D3 mortal damage on the caster"
+      "effect": "If a friendly **^^Nighthaunt^^** unit wholly within 12\" of this unit was picked to be the target of that spell, this unit can use the ‘Unbind’ ability as if it had **^^Wizard (1)^^**. Add 1 to the unbinding roll for that ability. If the spell is unbound, inflict D3 mortal damage on the caster",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

@@ -70,7 +70,9 @@
       "chantingValue": 4,
       "keywords": [
         "**^^PRAYER^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Dark Flight",
@@ -80,12 +82,16 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Purple",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Ruination Chamber",
       "type": "reaction",
-      "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+      "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

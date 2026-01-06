@@ -73,13 +73,17 @@
     {
       "name": "Swift Attackers",
       "type": "passive",
-      "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit."
+      "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Oath of the Raider",
       "type": "once-per-battle",
       "effect": "If this unit charged this phase and is only in combat with 1 enemy unit, and that enemy unit is only in combat with this unit, add 1 to the Rend characteristic of this unit’s weapons for the rest of the battle.",
-      "phase": "charge"
+      "phase": "charge",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     }
   ]
 }

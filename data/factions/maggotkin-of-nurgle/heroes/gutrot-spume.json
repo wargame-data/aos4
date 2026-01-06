@@ -52,14 +52,18 @@
       "type": "passive",
       "effect": "Set up this unit on the battlefield, wholly within 7\" of a battlefield edge and more than 9\" from all enemy units. Then set up every other friendly unit that is **aboard the Slime Fleet** on the battlefield wholly within 7\" of a battlefield edge, wholly within 7\" of this unit and more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Pick this unit if it is **aboard the Slime Fleet**."
+      "declare": "Pick this unit if it is **aboard the Slime Fleet**.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Flailing Tentacles",
       "type": "passive",
       "effect": "Roll a dice. On a 3+, the target has **^^Strike-last^^** for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick an enemy **^^Infantry Hero^^** in combat with this unit to be the target."
+      "declare": "Pick an enemy **^^Infantry Hero^^** in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Master of the Slime Fleet",
@@ -68,7 +72,9 @@
       "declare": "Pick a regiment led by this unit to be the target if no units from that regiment have been deployed.",
       "keywords": [
         "**^^DEPLOY^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

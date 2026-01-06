@@ -71,13 +71,17 @@
     {
       "name": "Beast-breaker",
       "type": "passive",
-      "effect": "If the target is a **^^Monster^^**, the Damage characteristic of this unit’s **Skullshatter Crossbow** is 3 and the Damage characteristic of its **Impaling Spear** is 6."
+      "effect": "If the target is a **^^Monster^^**, the Damage characteristic of this unit’s **Skullshatter Crossbow** is 3 and the Damage characteristic of its **Impaling Spear** is 6.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Unrelenting Hunter",
       "type": "once-per-turn",
       "effect": "If this unit is more than 9\" from all enemy units, it can use the ‘Normal Move’ ability as if it were your movement phase.",
-      "phase": "movement"
+      "phase": "movement",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

@@ -59,7 +59,9 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, the target has **^^Strike-first^^** for the rest of the turn.",
       "phase": "combat",
-      "declare": "If this unit is wholly within 6\" of any friendly **Awakened Wyldwoods**, pick a friendly **^^Sylvaneth^^** unit wholly within 12\" of this unit to be the target."
+      "declare": "If this unit is wholly within 6\" of any friendly **Awakened Wyldwoods**, pick a friendly **^^Sylvaneth^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

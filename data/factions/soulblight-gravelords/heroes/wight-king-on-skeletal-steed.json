@@ -63,12 +63,16 @@
       "type": "passive",
       "effect": "For the rest of the turn, add 1 to hit rolls for attacks made by friendly **^^Deathrattle^^** units while they are wholly within 6\" of that objective or terrain feature.",
       "phase": "hero",
-      "declare": "Pick an objective or terrain feature within enemy territory."
+      "declare": "Pick an objective or terrain feature within enemy territory.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Ancient Barrow Curse",
       "type": "passive",
-      "effect": "If an attack made with this unit's **King's Relic Weapon** scores a critical hit, the target unit becomes **cursed** for the rest of the battle. Subtract 1 from save rolls for **cursed** units even if this unit has been destroyed.\n**Designer's Note:** *Multiple enemy units can become cursed by this ability but the same enemy unit cannot become cursed more than once.*"
+      "effect": "If an attack made with this unit's **King's Relic Weapon** scores a critical hit, the target unit becomes **cursed** for the rest of the battle. Subtract 1 from save rolls for **cursed** units even if this unit has been destroyed.\n**Designer's Note:** *Multiple enemy units can become cursed by this ability but the same enemy unit cannot become cursed more than once.*",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

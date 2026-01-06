@@ -1,0 +1,25 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "prayer-lore-heroes-of-the-first-forged",
+  "name": "Prayer Lore: Heroes of the First-Forged",
+  "loreType": "prayer",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "prayers": [
+    {
+      "name": "Speed of the Righteous",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Add 2\" to the Move characteristic of the target for the rest of the turn. If the chanting roll was 6+, you can pick another eligible unit to be a second target.",
+      "keywords": [
+        "**^^PRAYER^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^First‑Forged Priest^^** to chant this prayer, pick a visible friendly **^^Stormcast Eternals^^** unit wholly within 12\" of them to be a target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    }
+  ]
+}

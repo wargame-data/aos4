@@ -88,12 +88,15 @@
     {
       "name": "Volcanic Blood",
       "type": "passive",
-      "effect": "If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+      "effect": "If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Claws and Horns** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Claws and Horns** is 4.",
+      "color": "Black"
     },
     {
       "name": "Dominating Roar",
@@ -103,12 +106,16 @@
       "declare": "Pick an enemy **^^Monster^^** in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Purple",
+      "abilityCategory": "Control"
     },
     {
       "name": "Vying for Glory",
       "type": "passive",
-      "effect": "Each time this unit destroys a **^^Monster^^**, add 1 to the Attacks characteristic of this unit’s **Ancestral Weapons** for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative."
+      "effect": "Each time this unit destroys a **^^Monster^^**, add 1 to the Attacks characteristic of this unit’s **Ancestral Weapons** for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

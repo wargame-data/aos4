@@ -50,7 +50,9 @@
     {
       "name": "Insatiable Gluttony",
       "type": "passive",
-      "effect": "If you have used the ‘Feast on Flesh’ ability this battle, add 1 to the control score of this unit for each model in this unit."
+      "effect": "If you have used the ‘Feast on Flesh’ ability this battle, add 1 to the control score of this unit for each model in this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     }
   ]
 }

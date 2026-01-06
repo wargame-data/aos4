@@ -60,7 +60,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Betentacled Maw** is 8."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Betentacled Maw** is 8.",
+      "color": "Black"
     },
     {
       "name": "Aura of Mutation",
@@ -70,13 +71,17 @@
       "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "Mutant Regeneration",
       "type": "passive",
       "effect": "**Heal (D3)** this unit.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     }
   ]
 }

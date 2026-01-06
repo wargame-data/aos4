@@ -50,7 +50,9 @@
     {
       "name": "Hunter's Instincts",
       "type": "passive",
-      "effect": "Enemy **^^Monsters^^** cannot use **^^Rampage^^** abilities while they are in combat with this unit. In addition, subtract 1 from the Damage characteristic of melee weapons used by enemy **^^Monsters^^** and **^^Beast^^** units while they are in combat with this unit."
+      "effect": "Enemy **^^Monsters^^** cannot use **^^Rampage^^** abilities while they are in combat with this unit. In addition, subtract 1 from the Damage characteristic of melee weapons used by enemy **^^Monsters^^** and **^^Beast^^** units while they are in combat with this unit.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ]
 }

@@ -64,12 +64,16 @@
       "castingValue": 5,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Disrupter of the Arcane",
       "type": "passive",
-      "effect": "Each time this unit unbinds a spell, roll a dice. On a 4+, subtract 1 from the power level of the enemy **^^Wizard^^** that used that **^^Spell^^** ability, to a minimum of 0, until the start of your next turn."
+      "effect": "Each time this unit unbinds a spell, roll a dice. On a 4+, subtract 1 from the power level of the enemy **^^Wizard^^** that used that **^^Spell^^** ability, to a minimum of 0, until the start of your next turn.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 2,

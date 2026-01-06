@@ -50,12 +50,16 @@
     {
       "name": "Soulreaper",
       "type": "passive",
-      "effect": "Subtract 1 from wound rolls for combat attacks made by enemy units while they are in combat with this unit."
+      "effect": "Subtract 1 from wound rolls for combat attacks made by enemy units while they are in combat with this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Necrotic Impetus",
       "type": "reaction",
-      "effect": "Pick a friendly non-**^^Hero Ossiarch Bonereapers Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
+      "effect": "Pick a friendly non-**^^Hero Ossiarch Bonereapers Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

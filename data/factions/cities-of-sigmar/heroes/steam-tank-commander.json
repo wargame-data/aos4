@@ -87,13 +87,17 @@
       "type": "once-per-battle",
       "effect": "For the rest of the turn, add 1 to hit rolls for shooting attacks made by this unit and by each target.",
       "phase": "shooting",
-      "declare": "Pick up to 2 friendly **Steam Tank** units to be the targets."
+      "declare": "Pick up to 2 friendly **Steam Tank** units to be the targets.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "More Pressure!",
       "type": "passive",
       "effect": "Roll 2D6. If the roll is less than the number of damage points this unit has, inflict D3 mortal damage on this unit. Otherwise, pick 1 of the following effects to apply to this unit until the start of your next turn:\n***Power the Wheels:*** This unit can use a **^^Run^^** ability and still use **^^Shoot^^** and/or **^^Charge^^** abilities later in the turn.\n***Power the Guns:*** Add 3 to the Attacks characteristic of this unit’s **Steam Gun**.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

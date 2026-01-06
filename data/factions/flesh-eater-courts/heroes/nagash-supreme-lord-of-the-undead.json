@@ -58,12 +58,15 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, subtract 3 from its power level."
+      "effect": "While this unit has 10 or more damage points, subtract 3 from its power level.",
+      "color": "Black"
     },
     {
       "name": "The Staff of Power",
       "type": "passive",
-      "effect": "Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn."
+      "effect": "Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Hand of Dust",
@@ -73,14 +76,18 @@
       "declare": "Pick a visible enemy **^^Hero^^** or **^^Monster^^** in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Supreme Lord of the Undead",
       "type": "once-per-battle",
       "effect": "Set up a replacement unit identical to the target wholly within 12\" of this unit and more than 9\" from all enemy units.",
       "phase": "hero",
-      "declare": "Pick a friendly non-**^^Hero^^** non-**^^Unique Death^^** unit that has been destroyed to be the target."
+      "declare": "Pick a friendly non-**^^Hero^^** non-**^^Unique Death^^** unit that has been destroyed to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
     },
     {
       "name": "Invocation of Nagash",
@@ -91,7 +98,9 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Utter Contempt",

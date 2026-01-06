@@ -1,0 +1,37 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "spell-lore-new-summercourt",
+  "name": "Spell Lore: New Summercourt",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Deranged Transformation",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn:\n• Add 2\" to the target’s Move characteristic.\n• Add 1 to wound rolls for the target’s combat attacks.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^New Summercourt Wizard^^** to cast this spell, pick a visible friendly **^^New Summercourt Infantry^^** or **^^Cavalry^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Miasma of Madness",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, for each unmodified hit roll of 1 for a combat attack made by the target, inflict 1 mortal damage on the target after the **^^Fight^^** ability has been resolved.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^New Summercourt Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ]
+}

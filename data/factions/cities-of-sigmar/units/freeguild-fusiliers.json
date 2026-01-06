@@ -69,12 +69,16 @@
     {
       "name": "Fusiliers, Fire!",
       "type": "passive",
-      "effect": "Each time this unit uses a **^^Shoot^^** ability, if it is in a fortified position, it can pick either of the ranged weapon profiles for all the attacks it makes with its **Fusil-cannons**. If it is not in a fortified position, use the **Mobile** weapon characteristics."
+      "effect": "Each time this unit uses a **^^Shoot^^** ability, if it is in a fortified position, it can pick either of the ranged weapon profiles for all the attacks it makes with its **Fusil-cannons**. If it is not in a fortified position, use the **Mobile** weapon characteristics.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Blackpowder Squire",
       "type": "passive",
-      "effect": "This unit has a **Blackpowder Squire** token. Each time this unit uses a **^^Shoot^^** ability, if this unit’s **Blackpowder Squire** is on the battlefield, you can re-roll 1 hit roll. If a hit roll re-rolled in this manner is 1, remove this unit’s **Blackpowder Squire** from the battlefield."
+      "effect": "This unit has a **Blackpowder Squire** token. Each time this unit uses a **^^Shoot^^** ability, if this unit’s **Blackpowder Squire** is on the battlefield, you can re-roll 1 hit roll. If a hit roll re-rolled in this manner is 1, remove this unit’s **Blackpowder Squire** from the battlefield.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Fortify Position",
@@ -83,7 +87,9 @@
       "phase": "movement",
       "keywords": [
         "**^^CORE^^**"
-      ]
+      ],
+      "color": "Gray",
+      "abilityCategory": "Defensive"
     }
   ]
 }

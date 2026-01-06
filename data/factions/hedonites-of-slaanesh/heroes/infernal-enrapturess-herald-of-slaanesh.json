@@ -55,7 +55,9 @@
     {
       "name": "Discordant Disruption",
       "type": "reaction",
-      "effect": "The casting roll for that spell must be re-rolled. If 2 or more dice in the re-rolled casting roll have the same value or if 1 of the dice is a 6, inflict D3 mortal damage on that **^^Wizard^^** after the effect of that spell has been resolved."
+      "effect": "The casting roll for that spell must be re-rolled. If 2 or more dice in the re-rolled casting roll have the same value or if 1 of the dice is a 6, inflict D3 mortal damage on that **^^Wizard^^** after the effect of that spell has been resolved.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

@@ -70,7 +70,9 @@
       "type": "passive",
       "effect": "Roll a number of dice equal to the number of models in this unit. Add 1 to each roll if there are more models in the target unit than this unit. For each 3+, inflict 1 mortal damage on the target.",
       "phase": "charge",
-      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target."
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     }
   ]
 }

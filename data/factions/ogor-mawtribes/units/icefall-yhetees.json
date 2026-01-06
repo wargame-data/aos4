@@ -45,7 +45,9 @@
       "name": "Bounding Leaps",
       "type": "passive",
       "effect": "This unit can move up to 3\". It can move into combat.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Movement"
     }
   ]
 }

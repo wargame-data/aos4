@@ -58,7 +58,9 @@
     {
       "name": "Hidden Weapon Team",
       "type": "passive",
-      "effect": "While this unit is within the combat range of a friendly **Clanrats** unit that has 5 or more models, and there are no other friendly **^^Weapon Team^^** units within that unit’s combat range, this unit is not visible to enemy units more than 13\" away."
+      "effect": "While this unit is within the combat range of a friendly **Clanrats** unit that has 5 or more models, and there are no other friendly **^^Weapon Team^^** units within that unit’s combat range, this unit is not visible to enemy units more than 13\" away.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

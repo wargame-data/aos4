@@ -50,7 +50,9 @@
     {
       "name": "Sweeping Blows",
       "type": "reaction",
-      "effect": "If any damage points inflicted by attacks made as part of that **^^Fight^^** ability are allocated to any enemy units, subtract 1 from wound rolls for attacks made by those enemy units for the rest of the turn."
+      "effect": "If any damage points inflicted by attacks made as part of that **^^Fight^^** ability are allocated to any enemy units, subtract 1 from wound rolls for attacks made by those enemy units for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Defensive"
     }
   ]
 }

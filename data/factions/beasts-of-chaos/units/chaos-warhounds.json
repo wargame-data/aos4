@@ -46,7 +46,9 @@
     {
       "name": "Outrunners of Chaos",
       "type": "reaction",
-      "effect": "Change one of the dice in the charge roll to a 4."
+      "effect": "Change one of the dice in the charge roll to a 4.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ]
 }

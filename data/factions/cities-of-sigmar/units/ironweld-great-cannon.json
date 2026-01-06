@@ -62,7 +62,9 @@
     {
       "name": "Shot and Shell",
       "type": "passive",
-      "effect": "Each time this unit uses a **^^Shoot^^** ability, if it is in a fortified position, pick either the **Cannonball** or **Grapeshot** weapon characteristics for all the attacks it makes with its **Great Cannon**. If it is not in a fortified position, use the **Grapeshot** weapon characteristics."
+      "effect": "Each time this unit uses a **^^Shoot^^** ability, if it is in a fortified position, pick either the **Cannonball** or **Grapeshot** weapon characteristics for all the attacks it makes with its **Great Cannon**. If it is not in a fortified position, use the **Grapeshot** weapon characteristics.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Fortify Position",
@@ -71,7 +73,9 @@
       "phase": "movement",
       "keywords": [
         "**^^CORE^^**"
-      ]
+      ],
+      "color": "Gray",
+      "abilityCategory": "Defensive"
     }
   ]
 }

@@ -61,19 +61,25 @@
     {
       "name": "Foster Competition",
       "type": "passive",
-      "effect": "Add 1 to wound rolls for friendly **Stormvermin** units while they are wholly within 13\"of this unit."
+      "effect": "Add 1 to wound rolls for friendly **Stormvermin** units while they are wholly within 13\"of this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Doomfang",
       "type": "passive",
       "effect": "This unit has **^^Strike-first^^** for the rest of the turn but it cannot use commands this phase.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "A Reputation For Cunning",
       "type": "command",
       "effect": "You can pick 2 different eligible units to use the 'Always Three Clawsteps Ahead' ability this phase instead of 1, but at least 1 of those units must have the **^^Verminus^^** keyword.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

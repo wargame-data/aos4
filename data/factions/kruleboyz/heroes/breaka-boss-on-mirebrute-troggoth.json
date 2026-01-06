@@ -61,19 +61,25 @@
       "declare": "Pick an enemy **^^Infantry^^** unit within 1\" of this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Breaka-harness",
       "type": "passive",
       "effect": "Make a breaka-roll of D3.\n• Inflict an amount of mortal damage on this unit equal to the breaka-roll.\n• Double the breaka-roll and add that value to the Attacks characteristic of this unit’s **Mirebrute’s Clubs** for the rest of the turn.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Regeneration",
       "type": "passive",
       "effect": "**Heal (D3)** this unit.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Black",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

@@ -56,7 +56,9 @@
     {
       "name": "You Messin'?",
       "type": "passive",
-      "effect": "Enemy units with a Health characteristic of 1 or 2 cannot contest objectives while they are in combat with this unit."
+      "effect": "Enemy units with a Health characteristic of 1 or 2 cannot contest objectives while they are in combat with this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     }
   ]
 }

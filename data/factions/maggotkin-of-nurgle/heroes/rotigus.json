@@ -71,7 +71,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Gnarlrod** is 3."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Gnarlrod** is 3.",
+      "color": "Black"
     },
     {
       "name": "Mountain of Loathsome Flesh",
@@ -81,12 +82,16 @@
       "declare": "If this unit charged this phase, roll a dice. On a 3+, pick an enemy unit within 1\" of it to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Bringer of Plenty",
       "type": "passive",
-      "effect": "Add 1 to casting rolls for this unit."
+      "effect": "Add 1 to casting rolls for this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Deluge of Nurgle",
@@ -97,7 +102,9 @@
       "castingValue": 8,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 2,

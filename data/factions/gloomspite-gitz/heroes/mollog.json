@@ -59,23 +59,31 @@
       "name": "Regeneration",
       "type": "passive",
       "effect": "**Heal (D3)** this unit.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Black",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Mollog's Mob",
       "type": "passive",
-      "effect": "This unit’s **Bat Squig**, **Spiteshroom** and **Stalagsquig** are tokens. After setting up this unit on the battlefield for the first time, place its tokens next to it."
+      "effect": "This unit’s **Bat Squig**, **Spiteshroom** and **Stalagsquig** are tokens. After setting up this unit on the battlefield for the first time, place its tokens next to it.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Unleash the Critters!",
       "type": "passive",
       "effect": "Pick 1 of the following effects:\n**Spore Cloud:** Remove this unit’s **Spiteshroom**. For the rest of the turn, subtract 1 from hit rolls for attacks made by enemy units while they\nare in combat with this unit.\n**Bat Squig Attack!:** Remove this unit’s **Bat Squig**. Pick an enemy unit in combat with this unit to be the target and roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n**Rock-hard Skin:** Remove this unit’s **Stalagsquig**. Ignore all modifiers to save rolls for this unit (positive and negative) for the rest of the turn.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "Bitey Distractions",
       "type": "passive",
-      "effect": "This unit has **^^Ward (5+)^^** while any of its tokens are on the battlefield."
+      "effect": "This unit has **^^Ward (5+)^^** while any of its tokens are on the battlefield.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

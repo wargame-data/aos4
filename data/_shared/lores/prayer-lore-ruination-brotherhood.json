@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "prayer-lore-ruination-brotherhood",
+  "name": "Prayer Lore: Ruination Brotherhood",
+  "loreType": "prayer",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "prayers": [
+    {
+      "name": "Morrda's Embrace",
+      "chantingValue": 5,
+      "timing": "Your Hero Phase",
+      "effect": "Roll a dice. If the roll exceeds the target’s Health characteristic, 1 model in the target unit is slain. If the chanting roll was 10+, roll 2D6 instead.",
+      "keywords": [
+        "**^^PRAYER^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Ruination Brotherhood Priest^^** to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Murderous Flock",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target unit. If the chanting roll was 10+, inflict 1 mortal damage on the target unit for each 4+ instead.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Ruination Brotherhood Priest^^** to chant this prayer, pick a visible enemy unit within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Raven's Flight",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Add 2\" to the target’s Move characteristic for the rest of the turn. If the chanting roll was 8+, in addition, for the rest of the turn, the target can use **^^Charge^^** abilities even if they have used a **^^Run^^** ability in the same turn.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Ruination Brotherhood Priest^^** to chant this prayer, pick a visible friendly unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    }
+  ]
+}

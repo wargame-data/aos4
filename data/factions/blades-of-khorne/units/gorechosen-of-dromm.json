@@ -50,7 +50,9 @@
     {
       "name": "Grisly Trophies",
       "type": "passive",
-      "effect": "While this unit’s **Dromm, Wounder of Worlds**, is on the battlefield, it has **^^Priest (1)^^** and can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**"
+      "effect": "While this unit’s **Dromm, Wounder of Worlds**, is on the battlefield, it has **^^Priest (1)^^** and can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**",
+      "color": "Purple",
+      "abilityCategory": "Special"
     }
   ]
 }

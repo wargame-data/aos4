@@ -56,12 +56,16 @@
     {
       "name": "More-more Doom!",
       "type": "reaction",
-      "effect": "Roll a dice. On a 2+, set the Damage characteristic of its **Doomrocket** to D3+3 for the rest of the turn. On a 1, inflict D3 mortal damage on this unit."
+      "effect": "Roll a dice. On a 2+, set the Damage characteristic of its **Doomrocket** to D3+3 for the rest of the turn. On a 1, inflict D3 mortal damage on this unit.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Explosive Payload",
       "type": "passive",
-      "effect": "Add 1 to hit rolls for this unit’s shooting attacks that target an enemy unit that has 10 or more models."
+      "effect": "Add 1 to hit rolls for this unit’s shooting attacks that target an enemy unit that has 10 or more models.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ],
   "isWizard": null,

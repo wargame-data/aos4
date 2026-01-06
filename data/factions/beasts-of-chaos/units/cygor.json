@@ -63,17 +63,22 @@
       "declare": "Pick an **^^Endless Spell^^** within 9\" of this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Massive Horns** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Massive Horns** is 4.",
+      "color": "Black"
     },
     {
       "name": "Soul-eater",
       "type": "passive",
-      "effect": "This unit can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**. Each time this unit unbinds a spell, inflict D3 mortal damage on the caster."
+      "effect": "This unit can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**. Each time this unit unbinds a spell, inflict D3 mortal damage on the caster.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

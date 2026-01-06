@@ -53,7 +53,9 @@
     {
       "name": "Guardians of the King",
       "type": "passive",
-      "effect": "While any friendly **^^Soulblight Gravelords Infantry Heroes^^** are within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**."
+      "effect": "While any friendly **^^Soulblight Gravelords Infantry Heroes^^** are within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

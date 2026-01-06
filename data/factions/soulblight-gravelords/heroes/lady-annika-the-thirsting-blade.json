@@ -48,14 +48,18 @@
       "type": "passive",
       "effect": "Set up this unit wholly within enemy territory and more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Pick this unit if it is **lying in wait**."
+      "declare": "Pick this unit if it is **lying in wait**.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Kiss of the Blade Proboscian",
       "type": "passive",
       "effect": "Roll a dice. On a 2+, subtract 1 from save rolls for the target for the rest of the battle.",
       "phase": "any",
-      "declare": "Pick an enemy unit that was allocated any damage points inflicted by this unit’s combat attacks this turn to be the target."
+      "declare": "Pick an enemy unit that was allocated any damage points inflicted by this unit’s combat attacks this turn to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Supernatural Speed",
@@ -64,7 +68,9 @@
       "declare": "Pick this unit if it has not been deployed.",
       "keywords": [
         "**^^DEPLOY^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

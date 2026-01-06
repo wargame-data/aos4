@@ -81,7 +81,9 @@
       "type": "once-per-battle",
       "effect": "This unit’s **Tik Tik** is a token. If this unit’s Tik Tik is on the battlefield, remove it from the battlefield and roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll and the target has **^^Strike-last^^** for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick an enemy unit in combat with this unit to be the target."
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Tunneling Team",
@@ -89,14 +91,18 @@
       "effect": "Set up this unit in reserve **drilling beneath the surface**. It has now been deployed.",
       "keywords": [
         "**^^DEPLOY^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Tunnelpack Ambush",
       "type": "passive",
       "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Pick this unit if it is **drilling beneath the surface**."
+      "declare": "Pick this unit if it is **drilling beneath the surface**.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

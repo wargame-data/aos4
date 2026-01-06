@@ -64,13 +64,17 @@
       "type": "once-per-battle",
       "effect": "You can re-roll charge rolls for the targets for the rest of the turn. In addition, if a target charges this phase, add 1 to the Attacks characteristic of that target’s weapons for the rest of the turn.",
       "phase": "charge",
-      "declare": "Pick this unit and up to 2 friendly **Vanari Dawnriders** units within this unit’s combat range to be the targets."
+      "declare": "Pick this unit and up to 2 friendly **Vanari Dawnriders** units within this unit’s combat range to be the targets.",
+      "color": "Orange",
+      "abilityCategory": "Special"
     },
     {
       "name": "Purest Aetherquartz",
       "type": "once-per-battle",
       "effect": "For the rest of the turn, add 1 to casting rolls for this unit and subtract 1 from hit rolls for attacks that target this unit.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

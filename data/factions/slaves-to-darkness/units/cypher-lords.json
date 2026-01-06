@@ -59,13 +59,17 @@
     {
       "name": "Acrobatic Leaps",
       "type": "passive",
-      "effect": "This unit has **^^Strike-first^^** if it charged in the same turn."
+      "effect": "This unit has **^^Strike-first^^** if it charged in the same turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Shattered Gloom Globes",
       "type": "once-per-battle",
       "effect": "This unit cannot be targeted by shooting attacks for the rest of the turn.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     }
   ]
 }

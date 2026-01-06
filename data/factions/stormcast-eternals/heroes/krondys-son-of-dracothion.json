@@ -77,17 +77,22 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Apex Maw** is 2."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Apex Maw** is 2.",
+      "color": "Black"
     },
     {
       "name": "Regalia Fulmentarus",
       "type": "passive",
-      "effect": "Add 2 to casting rolls for this unit."
+      "effect": "Add 2 to casting rolls for this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Atavistic Tempest",
@@ -98,7 +103,9 @@
       "castingValue": 8,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 2,

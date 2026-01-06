@@ -59,14 +59,18 @@
       "type": "passive",
       "effect": "Roll a D3 for each other enemy unit within the target's combat range. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
       "phase": "shooting",
-      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit's **Warpvolt Obliterator** to be the target."
+      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit's **Warpvolt Obliterator** to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Lightning Master",
       "type": "once-per-battle",
       "effect": "Roll a dice. On a 2+, set the Attacks characteristic of the target's **Warpvolt Scourgers** to 10 for the rest of the turn.",
       "phase": "shooting",
-      "declare": "Pick a friendly **Warpvolt Scourgers** unit within this unit's combat range to be the target."
+      "declare": "Pick a friendly **Warpvolt Scourgers** unit within this unit's combat range to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ],
   "isWizard": null,

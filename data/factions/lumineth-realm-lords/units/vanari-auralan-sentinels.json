@@ -60,7 +60,9 @@
       "name": "Lofted Shots",
       "type": "passive",
       "effect": "For the rest of the turn, add 6\" to the Range characteristic of this unit’s **Auralan Bows** but subtract 1 from hit rolls for this unit’s shooting attacks.",
-      "phase": "shooting"
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

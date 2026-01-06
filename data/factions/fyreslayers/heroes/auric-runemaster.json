@@ -47,12 +47,16 @@
     {
       "name": "High Priest of the Zharrgrim",
       "type": "passive",
-      "effect": "Each time a **^^Prayer^^** chanted by this unit is answered, this unit gains a **magmic power token**."
+      "effect": "Each time a **^^Prayer^^** chanted by this unit is answered, this unit gains a **magmic power token**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Master of the Runes",
       "type": "reaction",
-      "effect": "Remove 3 of this unit’s **magmic power tokens**. If you do so, apply the effect below that corresponds to the **^^Ur-gold Rune^^** ability that was used:\n***Rune of Fury:*** For the rest of the battle round, add 1 to wound rolls for combat attacks made by friendly **^^Fyreslayers^^** units while they have **^^Strike-first^^**.\n***Rune of Fiery Determination:*** Add 1 to save rolls for friendly **^^Fyreslayers^^** units for the rest of the battle round.\n***Rune of Relentless Zeal:*** Add 1 to run rolls and charge rolls for friendly **^^Fyreslayers^^** units for the rest of the battle round.\n***Rune of Searing Heat:*** Add 1 to the Rend characteristic of melee weapons used by friendly **^^Fyreslayers^^** units for the rest of the battle round.\n***Rune of Farsight:*** Increase the range of the ‘Rune of Farsight’ ability to 16\"."
+      "effect": "Remove 3 of this unit’s **magmic power tokens**. If you do so, apply the effect below that corresponds to the **^^Ur-gold Rune^^** ability that was used:\n***Rune of Fury:*** For the rest of the battle round, add 1 to wound rolls for combat attacks made by friendly **^^Fyreslayers^^** units while they have **^^Strike-first^^**.\n***Rune of Fiery Determination:*** Add 1 to save rolls for friendly **^^Fyreslayers^^** units for the rest of the battle round.\n***Rune of Relentless Zeal:*** Add 1 to run rolls and charge rolls for friendly **^^Fyreslayers^^** units for the rest of the battle round.\n***Rune of Searing Heat:*** Add 1 to the Rend characteristic of melee weapons used by friendly **^^Fyreslayers^^** units for the rest of the battle round.\n***Rune of Farsight:*** Increase the range of the ‘Rune of Farsight’ ability to 16\".",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

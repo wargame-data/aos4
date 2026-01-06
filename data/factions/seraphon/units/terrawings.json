@@ -48,12 +48,16 @@
       "type": "passive",
       "effect": "Roll a D3. If the roll exceeds the target’s Control characteristic, the target cannot use commands for the rest of the turn.",
       "phase": "shooting",
-      "declare": "Pick an enemy unit within 10\" of this unit to be the target."
+      "declare": "Pick an enemy unit within 10\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Special"
     },
     {
       "name": "Dispersed Formation",
       "type": "passive",
-      "effect": "This unit has a coherency range of 2\"."
+      "effect": "This unit has a coherency range of 2\".",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ]
 }

@@ -77,21 +77,27 @@
       "type": "once-per-battle",
       "effect": "Each target can use a **^^Run^^** ability and still use **^^Shoot^^** and/or **^^Charge^^** abilities later in the turn.",
       "phase": "movement",
-      "declare": "Pick up to 3 visible friendly **^^Skyvessels^^** wholly within 24\" of this unit that are not in combat to be the targets."
+      "declare": "Pick up to 3 visible friendly **^^Skyvessels^^** wholly within 24\" of this unit that are not in combat to be the targets.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "First Rule of Grungsson",
       "type": "passive",
       "effect": "Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick up to 2 other friendly **^^Skyfarer^^** units within this unit’s combat range to be the targets."
+      "declare": "Pick up to 2 other friendly **^^Skyfarer^^** units within this unit’s combat range to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Moustache-mounted Aetherblasters",
       "type": "passive",
       "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "any",
-      "declare": "Pick an enemy unit in combat with this unit to be the target."
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

@@ -80,18 +80,23 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Dorghar’s Claws and Tails** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Dorghar’s Claws and Tails** is 4.",
+      "color": "Black"
     },
     {
       "name": "The Slayer of Kings",
       "type": "passive",
-      "effect": "Each time this unit uses a **^^Fight^^** ability, if the unmodified wound roll for 2 or more attacks made with **The Slayer of Kings** that target the same **^^Hero^^** is 6, that **^^Hero^^** is automatically destroyed."
+      "effect": "Each time this unit uses a **^^Fight^^** ability, if the unmodified wound roll for 2 or more attacks made with **The Slayer of Kings** that target the same **^^Hero^^** is 6, that **^^Hero^^** is automatically destroyed.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "The Eye of Sheerian",
       "type": "once-per-battle",
       "effect": "Roll a dice. This roll replaces the priority roll of the next battle round. On a 1-3, your opponent must take the first turn of that battle round. On a 4-6, you must take the first turn of that battle round. This ability cannot be used if there is an enemy **Archaon** on the battlefield.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Three-headed Titan",
@@ -100,7 +105,9 @@
       "phase": "combat",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 2,

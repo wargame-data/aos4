@@ -46,12 +46,16 @@
       "name": "Storm of Blades",
       "type": "once-per-battle",
       "effect": "This unit can use 2 **^^Fight^^** abilities this phase. After the first is used, however, this unit has **^^Strike-last^^** for the rest of the turn.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Whirlpool's Fury",
       "type": "passive",
-      "effect": "Enemy units cannot use **^^Retreat^^** abilities while they are in combat with this unit.\nFriendly units that use a **^^Retreat^^** ability while they are wholly within 12\" of this unit can still use **^^Shoot^^** and/or **^^Charge^^** abilities later in the turn.\nNo mortal damage is inflicted on friendly **^^Idoneth Deepkin^^** units by **^^Retreat^^** abilities while they are wholly within 12\" of this unit."
+      "effect": "Enemy units cannot use **^^Retreat^^** abilities while they are in combat with this unit.\nFriendly units that use a **^^Retreat^^** ability while they are wholly within 12\" of this unit can still use **^^Shoot^^** and/or **^^Charge^^** abilities later in the turn.\nNo mortal damage is inflicted on friendly **^^Idoneth Deepkin^^** units by **^^Retreat^^** abilities while they are wholly within 12\" of this unit.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

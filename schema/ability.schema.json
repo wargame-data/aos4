@@ -60,6 +60,91 @@
       "type": "array",
       "items": { "type": "string" },
       "description": "Keywords associated with this ability (e.g., 'SPELL', 'PRAYER', 'UNLIMITED')"
+    },
+    "color": {
+      "type": "string",
+      "enum": ["Black", "Blue", "Gray", "Green", "Orange", "Purple", "Red", "Yellow"],
+      "description": "Visual categorization color from BSData"
+    },
+    "abilityCategory": {
+      "type": "string",
+      "enum": ["Offensive", "Defensive", "Movement", "Control", "Special", "Rallying", "Shooting"],
+      "description": "Functional categorization of the ability"
+    },
+    "modifiers": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/modifier" },
+      "description": "Conditional modifiers that affect this ability"
+    }
+  },
+  "definitions": {
+    "modifier": {
+      "type": "object",
+      "required": ["type", "field", "value"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["set", "increment", "decrement", "append", "add", "remove"],
+          "description": "The type of modification"
+        },
+        "field": {
+          "type": "string",
+          "description": "The field being modified"
+        },
+        "value": {
+          "type": "string",
+          "description": "The value to apply"
+        },
+        "conditions": {
+          "$ref": "#/definitions/conditionGroup"
+        }
+      }
+    },
+    "conditionGroup": {
+      "type": "object",
+      "required": ["logic"],
+      "properties": {
+        "logic": {
+          "type": "string",
+          "enum": ["and", "or"],
+          "description": "How conditions are combined"
+        },
+        "conditions": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/condition" }
+        },
+        "groups": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/conditionGroup" }
+        }
+      }
+    },
+    "condition": {
+      "type": "object",
+      "required": ["type", "value", "field"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["equalTo", "notEqualTo", "lessThan", "greaterThan", "atLeast", "atMost", "instanceOf"],
+          "description": "The condition type"
+        },
+        "value": {
+          "type": "string",
+          "description": "The value to compare against"
+        },
+        "field": {
+          "type": "string",
+          "description": "The field to check"
+        },
+        "scope": {
+          "type": "string",
+          "description": "The scope of the condition"
+        },
+        "childId": {
+          "type": "string",
+          "description": "Reference to a child entry"
+        }
+      }
     }
   }
 }

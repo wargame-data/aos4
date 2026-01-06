@@ -61,7 +61,9 @@
     {
       "name": "Skilled Swashbucklers",
       "type": "passive",
-      "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+      "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+      "color": "Green",
+      "abilityCategory": "Offensive"
     }
   ]
 }

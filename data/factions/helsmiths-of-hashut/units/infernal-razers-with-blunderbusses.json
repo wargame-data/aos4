@@ -56,12 +56,16 @@
       "type": "once-per-turn",
       "effect": "Roll a dice and add the number of enemy models in the target unit slain by attacks made by this unit this turn. If the result is 6+, the target has **^^Strike-last^^** for the rest of the turn.",
       "phase": "shooting",
-      "declare": "If this unit used a **^^Shoot^^** ability this turn and all of its attacks targeted the same enemy unit, that enemy unit is the target."
+      "declare": "If this unit used a **^^Shoot^^** ability this turn and all of its attacks targeted the same enemy unit, that enemy unit is the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Manglers of Metal",
       "type": "passive",
-      "effect": "Add 1 to the Rend characteristic of this unit’s ranged weapons for each **daemonic power point** this unit has."
+      "effect": "Add 1 to the Rend characteristic of this unit’s ranged weapons for each **daemonic power point** this unit has.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

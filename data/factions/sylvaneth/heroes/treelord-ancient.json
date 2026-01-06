@@ -73,19 +73,24 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Sweeping Blows** is 3."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Sweeping Blows** is 3.",
+      "color": "Black"
     },
     {
       "name": "Awakening the Wood",
       "type": "once-per-turn",
       "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage equal to the roll on each enemy unit within the target’s combat range.",
       "phase": "hero",
-      "declare": "Pick a visible friendly **Awakened Wyldwood** wholly within 18\" of this unit to be the target."
+      "declare": "Pick a visible friendly **Awakened Wyldwood** wholly within 18\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

@@ -122,6 +122,15 @@ export interface BSSelectionEntryGroup {
   selectionEntryGroups?: BSSelectionEntryGroup[];
 }
 
+// Attribute on a profile (Color, Type, etc.)
+export interface BSAttribute {
+  $: {
+    name: string;
+    typeId: string;
+  };
+  _?: string; // The attribute value
+}
+
 // Profile (stat line - can be Unit, Weapon, Ability, etc.)
 export interface BSProfile {
   $: BSBaseAttributes & {
@@ -132,6 +141,7 @@ export interface BSProfile {
     page?: string;
   };
   characteristics?: BSCharacteristic[];
+  attributes?: BSAttribute[];
   modifiers?: BSModifier[];
 }
 

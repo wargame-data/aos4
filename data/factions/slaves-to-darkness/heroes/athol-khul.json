@@ -52,13 +52,17 @@
       "name": "Tribal Warleader",
       "type": "once-per-battle",
       "effect": "If this destroyed an enemy **^^Hero^^** this turn, this unit has **^^Ward (4+)^^** for the rest of the battle.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Oath of Murder",
       "type": "once-per-battle",
       "effect": "For the rest of the turn, friendly units that do not already have a **^^Pledge to Chaos^^** keyword have the **^^Pledged to Khorne^^** while they are wholly within 12\" of this unit.",
-      "phase": "charge"
+      "phase": "charge",
+      "color": "Orange",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

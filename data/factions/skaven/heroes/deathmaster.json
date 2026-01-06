@@ -61,12 +61,16 @@
     {
       "name": "Shadowy Killers",
       "type": "passive",
-      "effect": "If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends."
+      "effect": "If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Running Death",
       "type": "passive",
-      "effect": "While friendly **^^Eshin^^** units are wholly within 13\" of this unit, they can use **^^Shoot^^** and/or **^^Charge^^** abilities even if they used a **^^Run^^** ability in the same turn."
+      "effect": "While friendly **^^Eshin^^** units are wholly within 13\" of this unit, they can use **^^Shoot^^** and/or **^^Charge^^** abilities even if they used a **^^Run^^** ability in the same turn.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

@@ -33,14 +33,18 @@
       "type": "once-per-battle",
       "effect": "**Heal (D3)** each friendly **^^Fyreslayers^^** unit on the battlefield. Once this ability has been used, this terrain feature cannot use the ‘Molten Blessing’ abiity for the rest of the battle.",
       "phase": "hero",
-      "declare": "Pick a friendly **^^Fyreslayers Priest^^** within this terrain feature’s combat range to expend the power of the forge."
+      "declare": "Pick a friendly **^^Fyreslayers Priest^^** within this terrain feature’s combat range to expend the power of the forge.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Molten Blessing",
       "type": "passive",
       "effect": "Add 1 to chanting rolls for the target for the rest of the turn. In addition, the target can use the ‘Unbind’ ability this turn as if it had **^^Wizard (1)^^**.",
       "phase": "any",
-      "declare": "Pick a friendly **^^Fyreslayers Priest^^** within this terrain feature’s combat range to be the target."
+      "declare": "Pick a friendly **^^Fyreslayers Priest^^** within this terrain feature’s combat range to be the target.",
+      "color": "Black",
+      "abilityCategory": "Offensive"
     }
   ]
 }

@@ -46,13 +46,17 @@
     {
       "name": "Icon of the Blood God",
       "type": "passive",
-      "effect": "If a friendly **^^Bloodbound^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
+      "effect": "If a friendly **^^Bloodbound^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
     },
     {
       "name": "Rage of Khorne",
       "type": "once-per-battle",
       "effect": "Add 1 to the Attacks characteristics of friendly **^^Bloodbound^^** units' melee weapons for the rest of the turn.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

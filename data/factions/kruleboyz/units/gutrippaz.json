@@ -50,7 +50,9 @@
       "name": "Scare Taktikz",
       "type": "passive",
       "effect": "Roll a dice. On a 3+, subtract 1 from hit rolls for attacks made by non-**^^Hero^^** units that target this unit for the rest of the turn.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Defensive"
     }
   ]
 }

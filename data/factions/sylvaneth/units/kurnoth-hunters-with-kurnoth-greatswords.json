@@ -47,14 +47,18 @@
     {
       "name": "Envoys of the Everqueen",
       "type": "passive",
-      "effect": "While this unit is contesting an objective, friendly **^^Sylvaneth^^** units contesting that objective have **^^Ward (6+)^^**."
+      "effect": "While this unit is contesting an objective, friendly **^^Sylvaneth^^** units contesting that objective have **^^Ward (6+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Trample Underfoot",
       "type": "passive",
       "effect": "Roll a dice for each model in this unit. For each 3+, inflict 1 mortal damage on the target.",
       "phase": "combat",
-      "declare": "If this unit charged this turn, pick an enemy unit that is in combat with this unit to be the target."
+      "declare": "If this unit charged this turn, pick an enemy unit that is in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

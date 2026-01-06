@@ -53,14 +53,18 @@
       "declare": "Pick this unit if it has not been deployed.",
       "keywords": [
         "**^^DEPLOY^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Frenzied Hunters",
       "type": "passive",
       "effect": "Set up this unit on the battlefield wholly within 9\" of a battlefield edge and more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Pick this unit if it is **lurking on the fringes**."
+      "declare": "Pick this unit if it is **lurking on the fringes**.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     }
   ]
 }

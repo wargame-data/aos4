@@ -1,0 +1,140 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://aos-data.org/schema/lore.schema.json",
+  "title": "Lore",
+  "description": "A spell lore, prayer lore, or manifestation lore for Age of Sigmar",
+  "type": "object",
+  "required": ["id", "name", "loreType"],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "JSON Schema reference"
+    },
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the lore (kebab-case)"
+    },
+    "name": {
+      "type": "string",
+      "description": "The lore's display name"
+    },
+    "loreType": {
+      "type": "string",
+      "enum": ["spell", "prayer", "manifestation"],
+      "description": "The type of lore"
+    },
+    "spells": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/spell" },
+      "description": "Spells available in this lore"
+    },
+    "prayers": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/prayer" },
+      "description": "Prayers available in this lore"
+    },
+    "_meta": {
+      "type": "object",
+      "properties": {
+        "lastUpdated": {
+          "type": "string",
+          "description": "Date of last update"
+        },
+        "source": {
+          "type": "string",
+          "description": "Source of the data"
+        }
+      }
+    }
+  },
+  "definitions": {
+    "spell": {
+      "type": "object",
+      "required": ["name", "castingValue", "effect"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The spell's name"
+        },
+        "castingValue": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 12,
+          "description": "Casting value (rolled on 2D6)"
+        },
+        "timing": {
+          "type": "string",
+          "description": "When the spell can be cast"
+        },
+        "declare": {
+          "type": "string",
+          "description": "Declaration requirements"
+        },
+        "effect": {
+          "type": "string",
+          "description": "The spell's effect"
+        },
+        "keywords": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Keywords (e.g., 'SPELL', 'SUMMON', 'UNLIMITED')"
+        },
+        "color": {
+          "$ref": "#/definitions/color"
+        },
+        "abilityCategory": {
+          "$ref": "#/definitions/abilityCategory"
+        }
+      }
+    },
+    "prayer": {
+      "type": "object",
+      "required": ["name", "chantingValue", "effect"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The prayer's name"
+        },
+        "chantingValue": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 6,
+          "description": "Chanting value (rolled on D6)"
+        },
+        "timing": {
+          "type": "string",
+          "description": "When the prayer can be chanted"
+        },
+        "declare": {
+          "type": "string",
+          "description": "Declaration requirements"
+        },
+        "effect": {
+          "type": "string",
+          "description": "The prayer's effect"
+        },
+        "keywords": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Keywords (e.g., 'PRAYER', 'UNLIMITED')"
+        },
+        "color": {
+          "$ref": "#/definitions/color"
+        },
+        "abilityCategory": {
+          "$ref": "#/definitions/abilityCategory"
+        }
+      }
+    },
+    "color": {
+      "type": "string",
+      "enum": ["Black", "Blue", "Gray", "Green", "Orange", "Purple", "Red", "Yellow"],
+      "description": "Visual categorization color"
+    },
+    "abilityCategory": {
+      "type": "string",
+      "enum": ["Offensive", "Defensive", "Movement", "Control", "Special", "Rallying", "Shooting"],
+      "description": "Functional categorization of the ability"
+    }
+  }
+}

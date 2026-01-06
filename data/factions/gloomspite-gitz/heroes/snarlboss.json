@@ -57,12 +57,16 @@
       "type": "once-per-turn",
       "effect": "For the rest of the turn, add 1 to the Attacks characteristic of the targets' **Companion** melee weapons.",
       "phase": "combat",
-      "declare": "If this unit charged this turn, pick this unit and up to 2 friendly **^^Gitmob Cavalry^^** units within this unit's combat range to be the targets."
+      "declare": "If this unit charged this turn, pick this unit and up to 2 friendly **^^Gitmob Cavalry^^** units within this unit's combat range to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Boss Snarlfang",
       "type": "passive",
-      "effect": "Add 2 to charge rolls for friendly **^^Gitmob Cavalry^^** units while they are wholly within 12\" of this unit."
+      "effect": "Add 2 to charge rolls for friendly **^^Gitmob Cavalry^^** units while they are wholly within 12\" of this unit.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

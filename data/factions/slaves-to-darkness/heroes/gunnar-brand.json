@@ -51,14 +51,18 @@
       "type": "passive",
       "effect": "This unit can use 2 **^^Fight^^** abilities this phase. After the first is used, however, this unit has **^^Strike-last^^** for the rest of the turn. When using the second **^^Fight^^** ability, this unit must pick an enemy **^^Hero^^** to be the target of all of its attacks.",
       "phase": "combat",
-      "declare": "This unit can only use this ability if it is in combat with an enemy **^^Hero^^**."
+      "declare": "This unit can only use this ability if it is in combat with an enemy **^^Hero^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Oath of Bloodshed",
       "type": "once-per-battle",
       "effect": "Friendly **^^Gunnar’s Oathsworn^^** units have **^^Ward (4+)^^** for the rest of the battle.",
       "phase": "any",
-      "declare": "This unit can only use this ability if any enemy **^^Heroes^^** were slain by this unit’s combat attacks this turn."
+      "declare": "This unit can only use this ability if any enemy **^^Heroes^^** were slain by this unit’s combat attacks this turn.",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

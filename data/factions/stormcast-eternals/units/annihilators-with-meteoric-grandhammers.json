@@ -46,14 +46,18 @@
       "type": "passive",
       "effect": "The target has **^^Strike-last^^** for the rest of the turn.",
       "phase": "charge",
-      "declare": "If this unit charged this phase and the unmodified charge roll was 8+, pick an enemy unit within 1\" of it to be the target."
+      "declare": "If this unit charged this phase and the unmodified charge roll was 8+, pick an enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Blazing Impact",
       "type": "passive",
       "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "movement",
-      "declare": "If this unit was set up this turn using the ‘Scions of the Storm’ ability, pick up to 3 enemy units within 10\" of it to be the targets."
+      "declare": "If this unit was set up this turn using the ‘Scions of the Storm’ ability, pick up to 3 enemy units within 10\" of it to be the targets.",
+      "color": "Gray",
+      "abilityCategory": "Offensive"
     }
   ]
 }

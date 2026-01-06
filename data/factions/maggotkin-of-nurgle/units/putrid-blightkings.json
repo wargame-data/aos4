@@ -50,7 +50,9 @@
     {
       "name": "Bloated Bulk",
       "type": "passive",
-      "effect": "Add 3 to this unit’s control score while each model in this unit is contesting an objective you control."
+      "effect": "Add 3 to this unit’s control score while each model in this unit is contesting an objective you control.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     }
   ]
 }

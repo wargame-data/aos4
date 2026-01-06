@@ -60,7 +60,9 @@
       "name": "Heartseekers",
       "type": "passive",
       "effect": "If this unit has not used a **^^Move^^** ability this turn and was not set up this turn, this unit’s shooting attacks score critical hits on unmodified hit rolls of 5+ for the rest of the turn.",
-      "phase": "shooting"
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

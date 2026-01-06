@@ -71,18 +71,23 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Crushing Bulk** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Crushing Bulk** is 4.",
+      "color": "Black"
     },
     {
       "name": "Altar of the Horned Rat",
       "type": "passive",
-      "effect": "Friendly **^^Skaven Infantry^^** units have **^^Ward (6+)^^** while they are wholly within 13\" of this unit."
+      "effect": "Friendly **^^Skaven Infantry^^** units have **^^Ward (6+)^^** while they are wholly within 13\" of this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Peal of Doom",
       "type": "passive",
       "effect": "Roll a dice and apply the corresponding effect:\n**1 *Magical Backlash:*** Inflict D3 mortal damage on this unit.\n**2-4 *Wall of Unholy Sound:*** Until the start of your next turn, subtract 1 from hit rolls for combat attacks made by enemy units while they are within 13\" of this unit.\n**5-6 *Apocalyptic Doom:*** Roll a D3 for each enemy unit within 13\" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Cracks Call",
@@ -93,7 +98,9 @@
       "castingValue": 6,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 2,

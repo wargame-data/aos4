@@ -46,12 +46,16 @@
     {
       "name": "'Fight, You Scum!'",
       "type": "reaction",
-      "effect": "Pick a friendly non-**^^Hero Helsmiths of Hashut Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit's combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of its melee weapons for the rest of the turn."
+      "effect": "Pick a friendly non-**^^Hero Helsmiths of Hashut Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit's combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of its melee weapons for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Black-Hearted Conqueror",
       "type": "passive",
-      "effect": "Add 3 to the control scores of friendly **^^Helsmith of Hashut Infantry^^** units while they are wholly within 6\" of this unit. Add 6\" to the range of this ability for each **daemonic power point** this unit has."
+      "effect": "Add 3 to the control scores of friendly **^^Helsmith of Hashut Infantry^^** units while they are wholly within 6\" of this unit. Add 6\" to the range of this ability for each **daemonic power point** this unit has.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     }
   ],
   "isWizard": null,

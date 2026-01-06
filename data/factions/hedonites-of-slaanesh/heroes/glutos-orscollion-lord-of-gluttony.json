@@ -79,12 +79,16 @@
       "type": "passive",
       "effect": "**Heal (6)** the target.",
       "phase": "any",
-      "declare": "Pick a friendly **^^Sybarite^^** unit wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly **^^Sybarite^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "The Grand Gourmand",
       "type": "passive",
-      "effect": "A different effect applies to friendly **^^Sybarite^^** units each battle round while they are wholly within 12\" of this unit, as shown below. The effects of all previous battle rounds also apply to those units while they are wholly within 12\" of this unit.\n**Battle Round 1:**\n***Starter:*** Add 1 to run rolls and charge rolls for those units.\n**Battle Round 2:**\n***Main:*** Add 3 to those units’ control scores.\n**Battle Round 3:**\n***Dessert:*** Add 1 to hit rolls for those unit’s attacks.\n**Battle Round 4+:**\n***Digestif:*** Add 1 to the Rend characteristic of those units’ melee weapons."
+      "effect": "A different effect applies to friendly **^^Sybarite^^** units each battle round while they are wholly within 12\" of this unit, as shown below. The effects of all previous battle rounds also apply to those units while they are wholly within 12\" of this unit.\n**Battle Round 1:**\n***Starter:*** Add 1 to run rolls and charge rolls for those units.\n**Battle Round 2:**\n***Main:*** Add 3 to those units’ control scores.\n**Battle Round 3:**\n***Dessert:*** Add 1 to hit rolls for those unit’s attacks.\n**Battle Round 4+:**\n***Digestif:*** Add 1 to the Rend characteristic of those units’ melee weapons.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Crippling Famishment",
@@ -95,12 +99,15 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Greatblade and Claws** is 6."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Greatblade and Claws** is 6.",
+      "color": "Black"
     }
   ],
   "isWizard": 2,

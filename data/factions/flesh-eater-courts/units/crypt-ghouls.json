@@ -49,7 +49,9 @@
     {
       "name": "Royal Approval",
       "type": "passive",
-      "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons while it is wholly within 12\" of any friendly **^^Nobles^^** or **^^Abhorrants^^**."
+      "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons while it is wholly within 12\" of any friendly **^^Nobles^^** or **^^Abhorrants^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

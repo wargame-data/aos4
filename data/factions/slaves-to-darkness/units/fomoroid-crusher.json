@@ -58,7 +58,9 @@
       "declare": "Pick a terrain feature within 1\" of this unit, then pick each other unit (friendly and enemy) within 3\" of that terrain feature to be the targets.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

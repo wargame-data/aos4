@@ -48,7 +48,9 @@
     {
       "name": "Aquatic Illusions",
       "type": "passive",
-      "effect": "Subtract 1 from hit rolls for attacks that target this unit."
+      "effect": "Subtract 1 from hit rolls for attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Nebulous Sea-fog",
@@ -59,7 +61,9 @@
       "castingValue": 6,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": 1,

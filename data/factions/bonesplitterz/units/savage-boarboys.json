@@ -64,7 +64,9 @@
     {
       "name": "Wild Enthusiasm",
       "type": "passive",
-      "effect": "This unit can use the ‘Power Through’ command even if it has not charged this turn. In addition, when you pick a target for that command, the target does not have to have a lower Health characteristic than this unit."
+      "effect": "This unit can use the ‘Power Through’ command even if it has not charged this turn. In addition, when you pick a target for that command, the target does not have to have a lower Health characteristic than this unit.",
+      "color": "Purple",
+      "abilityCategory": "Special"
     }
   ]
 }

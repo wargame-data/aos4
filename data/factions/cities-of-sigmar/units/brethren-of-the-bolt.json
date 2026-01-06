@@ -50,12 +50,16 @@
     {
       "name": "Pater Filius",
       "type": "passive",
-      "effect": "While this unit’s **Pater Filius** is on the battlefield, it has **^^Priest (1)^^**."
+      "effect": "While this unit’s **Pater Filius** is on the battlefield, it has **^^Priest (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Crackling with Faith",
       "type": "passive",
-      "effect": "Each time a combat attack made by this unit scores a critical hit, you can pick an enemy unit within 6\" of this unit that was not the target of that combat attack. Inflict 1 mortal damage on that enemy unit after the **^^Fight^^** ability has been resolved."
+      "effect": "Each time a combat attack made by this unit scores a critical hit, you can pick an enemy unit within 6\" of this unit that was not the target of that combat attack. Inflict 1 mortal damage on that enemy unit after the **^^Fight^^** ability has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Bolt from the Blue",
@@ -66,7 +70,9 @@
       "chantingValue": 5,
       "keywords": [
         "**^^PRAYER^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

@@ -59,17 +59,23 @@
     {
       "name": "Da Frazzlefangz",
       "type": "passive",
-      "effect": "While an enemy unit is within 6\" of this unit:\n• Subtract 1 from hit rolls for that enemy unit's attacks.\n• That enemy unit cannot use the 'All-out Attack' command."
+      "effect": "While an enemy unit is within 6\" of this unit:\n• Subtract 1 from hit rolls for that enemy unit's attacks.\n• That enemy unit cannot use the 'All-out Attack' command.",
+      "color": "Green",
+      "abilityCategory": "Special"
     },
     {
       "name": "Rip 'Em ta Bits",
       "type": "reaction",
-      "effect": "Pick a friendly **^^Gitmob^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit's combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved."
+      "effect": "Pick a friendly **^^Gitmob^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit's combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Time ta Scarper",
       "type": "reaction",
-      "effect": "Roll a dice. On a 4+, the unit using that **^^Fight^^** ability can move 2D6\" after that **^^Fight^^** ability has been resolved. It can move through the combat ranges of any enemy units but cannot end that move in combat."
+      "effect": "Roll a dice. On a 4+, the unit using that **^^Fight^^** ability can move 2D6\" after that **^^Fight^^** ability has been resolved. It can move through the combat ranges of any enemy units but cannot end that move in combat.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

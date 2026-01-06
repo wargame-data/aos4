@@ -57,7 +57,9 @@
     {
       "name": "Voice of the God-king",
       "type": "passive",
-      "effect": "This unit can use the ‘Unbind’ ability as if it had **^^Wizard (1)^^**."
+      "effect": "This unit can use the ‘Unbind’ ability as if it had **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Vessel of Sigmar",
@@ -68,7 +70,9 @@
       "chantingValue": 5,
       "keywords": [
         "**^^PRAYER^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

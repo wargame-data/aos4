@@ -48,7 +48,9 @@
       "type": "once-per-turn",
       "effect": "For the rest of the turn, the target can use **^^Charge^^** abilities even if it used a **^^Run^^** ability in the same turn.",
       "phase": "movement",
-      "declare": "Pick a friendly non-**^^Hero Bloodbound^^** unit within this unit’s combat range to be the target."
+      "declare": "Pick a friendly non-**^^Hero Bloodbound^^** unit within this unit’s combat range to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

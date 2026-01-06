@@ -1,0 +1,10 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "lore-of-aqshian-wrath",
+  "name": "Lore of Aqshian Wrath",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

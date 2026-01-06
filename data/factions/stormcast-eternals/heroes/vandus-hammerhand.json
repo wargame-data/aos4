@@ -73,12 +73,16 @@
     {
       "name": "Lord of the Hammerhands",
       "type": "passive",
-      "effect": "Add 3 to the control scores of friendly **^^Warrior Chamber^^** units while they are wholly within 12\" of this unit."
+      "effect": "Add 3 to the control scores of friendly **^^Warrior Chamber^^** units while they are wholly within 12\" of this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     },
     {
       "name": "Vengeance Unleashed",
       "type": "reaction",
-      "effect": "Pick a friendly non-**^^Hero Warrior Chamber^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
+      "effect": "Pick a friendly non-**^^Hero Warrior Chamber^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

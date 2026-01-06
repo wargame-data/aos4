@@ -66,7 +66,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Mighty Axe of Khorne and Bloodflail** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Mighty Axe of Khorne and Bloodflail** is 4.",
+      "color": "Black"
     },
     {
       "name": "Vengeance of Khorne",
@@ -76,19 +77,25 @@
       "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Commander of Tyrants",
       "type": "once-per-turn",
       "effect": "Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick another visible friendly non-**^^Unique Blades of Khorne Daemon^^** unit to be the target."
+      "declare": "Pick another visible friendly non-**^^Unique Blades of Khorne Daemon^^** unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Wrathful Dominance",
       "type": "passive",
-      "effect": "Add 1 to hit rolls for this unit's attacks that target an enemy **^^Hero^^**."
+      "effect": "Add 1 to hit rolls for this unit's attacks that target an enemy **^^Hero^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

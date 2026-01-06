@@ -75,19 +75,25 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Fires of Retribution",
       "type": "passive",
-      "effect": "While this unit has 5-9 damage points, add 1 to the Attacks characteristic of its melee weapons.\nWhile this unit has 10 or more damage points, add 2 to the Attacks characteristic of its melee weapons instead."
+      "effect": "While this unit has 5-9 damage points, add 1 to the Attacks characteristic of its melee weapons.\nWhile this unit has 10 or more damage points, add 2 to the Attacks characteristic of its melee weapons instead.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Ancient Master of War",
       "type": "passive",
       "effect": "Subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick an enemy unit within this unit’s combat range to be the target."
+      "declare": "Pick an enemy unit within this unit’s combat range to be the target.",
+      "color": "Red",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

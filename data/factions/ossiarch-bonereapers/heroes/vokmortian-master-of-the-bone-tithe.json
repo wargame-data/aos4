@@ -61,7 +61,9 @@
       "type": "once-per-battle",
       "effect": "For the rest of the turn, non-**^^Fight Core^^** abilities cost 1 command point for the target to use. Those abilities do not count as commands.",
       "phase": "hero",
-      "declare": "Pick a visible enemy unit within 12\" of this unit to be the target."
+      "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Mortal Contract",
@@ -72,7 +74,9 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 2,

@@ -63,7 +63,9 @@
       "keywords": [
         "**^^CORE^^**",
         "**^^MOVE^^**"
-      ]
+      ],
+      "color": "Gray",
+      "abilityCategory": "Special"
     }
   ]
 }

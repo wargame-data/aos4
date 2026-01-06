@@ -67,12 +67,16 @@
       "name": "Cursed to Rise Once More",
       "type": "once-per-turn",
       "effect": "You can return 1 slain model to this unit.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
     },
     {
       "name": "Knights of the King",
       "type": "passive",
-      "effect": "While any friendly **^^Deathrattle Cavalry Heroes^^** are within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**."
+      "effect": "While any friendly **^^Deathrattle Cavalry Heroes^^** are within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

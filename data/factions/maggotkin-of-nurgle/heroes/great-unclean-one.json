@@ -78,7 +78,9 @@
       "declare": "If this unit is damaged, pick up to 3 enemy units in combat with this unit to be the targets.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Plague Wind",
@@ -89,19 +91,24 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Locus of Nurgle",
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 4+, set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Pick a friendly **^^Maggotkin of Nurgle Daemon^^** unit that started the battle with 3 or more models and that has been destroyed to be the target"
+      "declare": "Pick a friendly **^^Maggotkin of Nurgle Daemon^^** unit that started the battle with 3 or more models and that has been destroyed to be the target",
+      "color": "Gray",
+      "abilityCategory": "Rallying"
     },
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Colossal Blight Weapons** is 3."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Colossal Blight Weapons** is 3.",
+      "color": "Black"
     }
   ],
   "isWizard": 2,

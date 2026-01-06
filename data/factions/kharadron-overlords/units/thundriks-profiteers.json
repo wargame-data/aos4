@@ -81,7 +81,9 @@
       "type": "passive",
       "effect": "Roll a dice. On a 3+:\n• If the target is controlled by either player, that player loses control of that objective.\n• The target cannot be contested until the start of your next turn.",
       "phase": "shooting",
-      "declare": "If this unit’s **Bjorgen Thundrik** is on the battlefield, pick an objective within 12\" of this unit to be the target."
+      "declare": "If this unit’s **Bjorgen Thundrik** is on the battlefield, pick an objective within 12\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Special"
     }
   ]
 }

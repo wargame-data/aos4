@@ -59,19 +59,25 @@
     {
       "name": "Nexus of Death Energy",
       "type": "passive",
-      "effect": "When a friendly **^^Deathrattle^^** or **^^Deadwalkers^^** unit wholly within 12\" of this unit is picked to be the target of the ‘Deathly Invocation’ ability, add D3 to the number of damage points that can be healed or the combined Health characteristic of models that can be returned."
+      "effect": "When a friendly **^^Deathrattle^^** or **^^Deadwalkers^^** unit wholly within 12\" of this unit is picked to be the target of the ‘Deathly Invocation’ ability, add D3 to the number of damage points that can be healed or the combined Health characteristic of models that can be returned.",
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
     },
     {
       "name": "Wave of Power",
       "type": "once-per-turn",
       "effect": "Roll a dice for each target. On a 3+, inflict an amount of mortal damage on the target equal to the value of this unit’s **stored energy dice**. Then, change the value of the **stored energy dice** back to 1.",
       "phase": "shooting",
-      "declare": "Pick up to 3 enemy units within 10\" of this unit to be the targets."
+      "declare": "Pick up to 3 enemy units within 10\" of this unit to be the targets.",
+      "color": "Blue",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "The Reliquary",
       "type": "passive",
-      "effect": "When this unit is set up for the first time, place a **stored energy dice** beside it with the ‘1’ facing up. Each time a friendly **^^Soulblight Gravelords Wizards^^** successfully casts a spell while it is within 12\" of this unit, increase the value of the **stored energy dice** beside this unit by 1 (to a maximum of 6)."
+      "effect": "When this unit is set up for the first time, place a **stored energy dice** beside it with the ‘1’ facing up. Each time a friendly **^^Soulblight Gravelords Wizards^^** successfully casts a spell while it is within 12\" of this unit, increase the value of the **stored energy dice** beside this unit by 1 (to a maximum of 6).",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

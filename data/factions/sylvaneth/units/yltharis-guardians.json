@@ -57,12 +57,16 @@
     {
       "name": "Ylthari",
       "type": "passive",
-      "effect": "While this unit’s **Ylthari** is on the battlefield, it has **^^Wizard (1)^^**."
+      "effect": "While this unit’s **Ylthari** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Bitterness of the Soul",
       "type": "passive",
-      "effect": "Add 1 to the Damage characteristic of this unit’s **Enchanted Glade Weapons** for each model in this unit that is slain.\n*Designer’s Note: Models that have been slain and returned to this unit do not count as being slain for the purposes of this ability.*"
+      "effect": "Add 1 to the Damage characteristic of this unit’s **Enchanted Glade Weapons** for each model in this unit that is slain.\n*Designer’s Note: Models that have been slain and returned to this unit do not count as being slain for the purposes of this ability.*",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

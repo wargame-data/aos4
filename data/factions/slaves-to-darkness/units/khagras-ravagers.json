@@ -50,12 +50,16 @@
     {
       "name": "Ravagers of the Mortal Realms",
       "type": "passive",
-      "effect": "This unit has **^^Ward (5+)^^** while it is contesting an objective you control."
+      "effect": "This unit has **^^Ward (5+)^^** while it is contesting an objective you control.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Zarshia Bittersoul",
       "type": "passive",
-      "effect": "While this unit’s **Zarshia Bittersoul** is on the battlefield, it has **^^Wizard (1)^^**."
+      "effect": "While this unit’s **Zarshia Bittersoul** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

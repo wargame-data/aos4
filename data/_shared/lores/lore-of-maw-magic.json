@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "lore-of-maw-magic",
+  "name": "Lore of Maw-magic",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Blood Feast",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Add 1 to the Attacks characteristic of the target’s melee weapons until the start of your next turn.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Ogor Mawtribes Wizard^^** to cast this spell, pick a visible friendly **^^Ogor Infantry^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Greasy Deluge",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Subtract 1 from hit rolls for the target’s attacks until the start of your next turn.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Ogor Mawtribes Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Troggoth Guts",
+      "castingValue": 5,
+      "timing": "Your Hero Phase",
+      "effect": "**Heal (D3)** the target and add 3 to the target’s control score for the rest of the turn.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Ogor Mawtribes Wizard^^** to cast this spell, pick a visible friendly **^^Ogor Mawtribes^^** unit within 12\" of them that has not been picked to be the target of this ability this turn to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ]
+}

@@ -58,14 +58,18 @@
     {
       "name": "Lord of the Bloodbound",
       "type": "passive",
-      "effect": "Add 1 to wound rolls for friendly **^^Bloodbound Infantry^^** units while they are wholly within 12\" of this unit."
+      "effect": "Add 1 to wound rolls for friendly **^^Bloodbound Infantry^^** units while they are wholly within 12\" of this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "'Bring Me Their Skull!'",
       "type": "once-per-turn",
       "effect": "The target has **^^Strike-first^^** for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick another friendly **^^Bloodbound Infantry Hero^^** wholly within 12\" of this unit to be the target."
+      "declare": "Pick another friendly **^^Bloodbound Infantry Hero^^** wholly within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

@@ -52,7 +52,9 @@
       "name": "Heralds of Ruination",
       "type": "once-per-battle",
       "effect": "This unit can use 2 **^^Fight^^** abilities this phase. After the first is used, however, this unit has **^^Strike-last^^** for the rest of the turn.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

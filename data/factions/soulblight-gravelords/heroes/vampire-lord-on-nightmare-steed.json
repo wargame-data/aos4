@@ -64,12 +64,16 @@
       "type": "passive",
       "effect": "Add 1 to the Rend characteristic of that unit's **Templar Weapons** for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick a friendly **Blood Knights** unit that charged this turn and is wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly **Blood Knights** unit that charged this turn and is wholly within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "'For Glory! For Blood!'",
       "type": "reaction",
-      "effect": "You can re-roll the charge roll for that **^^Charge^^** ability. Then, before the charge move is made, you can pick a friendly **Blood Knights** unit that is not in combat, is wholly within 12\" of this unit and has not used a **^^Charge^^** ability this turn to be the target. If this unit charges, then, immediately after the **^^Charge^^** ability used by this unit has been resolved, the target can immediately use the ‘Charge’ ability even if it is not your charge phase. In addition, you can re-roll charge rolls for the target this phase."
+      "effect": "You can re-roll the charge roll for that **^^Charge^^** ability. Then, before the charge move is made, you can pick a friendly **Blood Knights** unit that is not in combat, is wholly within 12\" of this unit and has not used a **^^Charge^^** ability this turn to be the target. If this unit charges, then, immediately after the **^^Charge^^** ability used by this unit has been resolved, the target can immediately use the ‘Charge’ ability even if it is not your charge phase. In addition, you can re-roll charge rolls for the target this phase.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": 1,

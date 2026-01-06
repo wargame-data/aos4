@@ -49,7 +49,9 @@
     {
       "name": "Fight for Glory",
       "type": "passive",
-      "effect": "The first time each turn that this unit is picked to use a **^^Fight^^** ability in the combat phase, if this unit is wholly within 12\" of any friendly **^^Slaves to Darkness Heroes^^**, add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn."
+      "effect": "The first time each turn that this unit is picked to use a **^^Fight^^** ability in the combat phase, if this unit is wholly within 12\" of any friendly **^^Slaves to Darkness Heroes^^**, add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

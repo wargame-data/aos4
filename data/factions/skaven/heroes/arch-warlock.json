@@ -67,7 +67,9 @@
     {
       "name": "Overseers of the Enginecovens",
       "type": "passive",
-      "effect": "If a friendly **^^Skryre^^** unit wholly within 13\" of this unit uses the 'Covering Fire' command, no command points are spent."
+      "effect": "If a friendly **^^Skryre^^** unit wholly within 13\" of this unit uses the 'Covering Fire' command, no command points are spent.",
+      "color": "Blue",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

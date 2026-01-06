@@ -66,7 +66,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Mighty Axe of Khorne** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Mighty Axe of Khorne** is 4.",
+      "color": "Black"
     },
     {
       "name": "Ensnaring Lash",
@@ -76,14 +77,18 @@
       "declare": "Pick an enemy **^^Monster^^** in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Beckon the Hunt",
       "type": "once-per-turn",
       "effect": "For the rest of the turn, when making charge rolls for the target, roll 1 additional dice, to a maximum of 3, and discard 1 dice of your choice.",
       "phase": "movement",
-      "declare": "Pick a friendly non-**^^Unique Blades of Khorne Daemon^^** unit to be the target."
+      "declare": "Pick a friendly non-**^^Unique Blades of Khorne Daemon^^** unit to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

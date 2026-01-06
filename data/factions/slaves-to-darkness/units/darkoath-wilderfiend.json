@@ -60,13 +60,17 @@
     {
       "name": "Feed on Flesh",
       "type": "passive",
-      "effect": "Each time a model (friendly or enemy) is slain within 12\" of this unit, give this unit a **sacrifice point**, to a maximum of 6. If there are more than 1 friendly **Darkoath Wilderfiend** units within 12\" of the slain model, only 1 of them can be given a **sacrifice point** for that slain model."
+      "effect": "Each time a model (friendly or enemy) is slain within 12\" of this unit, give this unit a **sacrifice point**, to a maximum of 6. If there are more than 1 friendly **Darkoath Wilderfiend** units within 12\" of the slain model, only 1 of them can be given a **sacrifice point** for that slain model.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Primal Sorcery",
       "type": "passive",
       "effect": "Pick 1 of the following effects:\n***Mind Shroud:*** Pick an enemy unit within 12\" of this unit to be the target and roll a number of dice equal to the number of **sacrifice points** this unit has. If any of the rolls are a 5+, the target cannot use commands for the rest of the turn.\n***Warping Balefire:*** Pick an enemy unit within 12\" of this unit to be the target and roll a number of dice equal to the number of **sacrifice points** this unit has. For each 3+, inflict 1 mortal damage on the target.\n***Dark Might: Heal (X)*** this unit, where X is the number of **sacrifice points** this unit has.\nAfter applying the effect you picked, reset this unit’s **sacrifice points** to 0.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

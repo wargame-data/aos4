@@ -57,14 +57,18 @@
     {
       "name": "Gimme All da Light",
       "type": "passive",
-      "effect": "Friendly **^^Gitmob^^** units that are not **Frazzlegit Shamans on War-Wheelas** cannot be targeted by shooting attacks while they are wholly within 6\" of this unit,"
+      "effect": "Friendly **^^Gitmob^^** units that are not **Frazzlegit Shamans on War-Wheelas** cannot be targeted by shooting attacks while they are wholly within 6\" of this unit,",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Frazzlemist",
       "type": "once-per-turn",
       "effect": "Roll a d3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "shooting",
-      "declare": "Pick up to 3 visible enemy units within 9\" of this unit to be the targets."
+      "declare": "Pick up to 3 visible enemy units within 9\" of this unit to be the targets.",
+      "color": "Blue",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

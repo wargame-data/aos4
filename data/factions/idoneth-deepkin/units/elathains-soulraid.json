@@ -65,14 +65,18 @@
       "name": "Elathain's Lurelight",
       "type": "passive",
       "effect": "Roll a D3. On a 2+, return a number of slain models to this unit equal to the roll.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
     },
     {
       "name": "Soulnet",
       "type": "passive",
       "effect": "Roll a dice. If the roll equals or exceeds the target’s Health characteristic, 1 model in the target unit is slain.",
       "phase": "combat",
-      "declare": "If this unit’s **Elathain Ill-fated** is on the battlefield, pick an enemy **^^Infantry^^** unit in combat with this unit to be the target."
+      "declare": "If this unit’s **Elathain Ill-fated** is on the battlefield, pick an enemy **^^Infantry^^** unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

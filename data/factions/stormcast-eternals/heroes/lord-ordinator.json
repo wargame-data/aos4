@@ -50,7 +50,9 @@
       "type": "once-per-turn",
       "effect": "The target’s attacks score critical hits on unmodified hit rolls of 4+ for the rest of the phase.",
       "phase": "shooting",
-      "declare": "Pick a visible friendly **^^Sacrosanct Chamber War Machine^^** wholly within 12\" of this unit to be the target."
+      "declare": "Pick a visible friendly **^^Sacrosanct Chamber War Machine^^** wholly within 12\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ],
   "isWizard": null,

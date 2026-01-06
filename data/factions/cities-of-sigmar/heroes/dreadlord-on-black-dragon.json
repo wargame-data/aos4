@@ -87,7 +87,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Black Dragon’s Fearsome Jaws and Claws** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Black Dragon’s Fearsome Jaws and Claws** is 4.",
+      "color": "Black"
     },
     {
       "name": "Indiscriminate Slaughter",
@@ -97,12 +98,16 @@
       "declare": "Pick all units (friendly and enemy) within this unit’s combat range, excluding this unit, to be the targets.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Under the Shadow of Black Wings",
       "type": "passive",
-      "effect": "Add 1 to charge rolls for friendly **^^Cities of Sigmar Aelf Cavalry^^** units while they are wholly within 12\" of this unit."
+      "effect": "Add 1 to charge rolls for friendly **^^Cities of Sigmar Aelf Cavalry^^** units while they are wholly within 12\" of this unit.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

@@ -56,7 +56,9 @@
     {
       "name": "Locus of Undeath",
       "type": "passive",
-      "effect": "Melee weapons used by other friendly **^^Deadwalkers^^** units have **Crit (Auto-wound)** while they are wholly within 12\" of this unit."
+      "effect": "Melee weapons used by other friendly **^^Deadwalkers^^** units have **Crit (Auto-wound)** while they are wholly within 12\" of this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

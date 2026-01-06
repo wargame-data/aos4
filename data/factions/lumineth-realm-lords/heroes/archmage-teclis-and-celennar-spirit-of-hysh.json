@@ -73,17 +73,22 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Celennar’s Moonbright Talons** is 3."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Celennar’s Moonbright Talons** is 3.",
+      "color": "Black"
     },
     {
       "name": "Aura of Celennar",
       "type": "passive",
-      "effect": "Add 1 to casting rolls for other friendly **^^Lumineth Realm‑lords Wizards^^** while they are wholly within 12\" of this unit."
+      "effect": "Add 1 to casting rolls for other friendly **^^Lumineth Realm‑lords Wizards^^** while they are wholly within 12\" of this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Archmage",
       "type": "passive",
-      "effect": "Instead of making a casting roll for this unit, you can use a value of 10 for the roll that cannot be modified. In addition, instead of making an unbinding roll or banishment roll for this unit, you can use a value of 8 for the roll that cannot be modified."
+      "effect": "Instead of making a casting roll for this unit, you can use a value of 10 for the roll that cannot be modified. In addition, instead of making an unbinding roll or banishment roll for this unit, you can use a value of 8 for the roll that cannot be modified.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Spirit of the Moon",
@@ -93,7 +98,9 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "Storm of Searing White Light",
@@ -104,7 +111,9 @@
       "castingValue": 10,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 4,

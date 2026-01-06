@@ -59,12 +59,16 @@
     {
       "name": "Swordmasters",
       "type": "passive",
-      "effect": "Each time this unit uses a **^^Fight^^** ability, you must pick either the **Perfect Strike** or **Flurry of Blows** weapon characteristics for all the attacks it makes with its **Sunmetal Blades**. In addition, do not use the attack sequence for an attack made with **Perfect Strike**. Instead, roll a dice. On a 2+, inflict 1 mortal damage on the target."
+      "effect": "Each time this unit uses a **^^Fight^^** ability, you must pick either the **Perfect Strike** or **Flurry of Blows** weapon characteristics for all the attacks it makes with its **Sunmetal Blades**. In addition, do not use the attack sequence for an attack made with **Perfect Strike**. Instead, roll a dice. On a 2+, inflict 1 mortal damage on the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Guardians",
       "type": "passive",
-      "effect": "While any friendly **^^Scinari Heroes^^** are wholly within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**."
+      "effect": "While any friendly **^^Scinari Heroes^^** are wholly within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

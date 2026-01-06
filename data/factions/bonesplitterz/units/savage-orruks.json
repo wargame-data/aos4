@@ -52,7 +52,9 @@
     {
       "name": "The Savage Hordes",
       "type": "passive",
-      "effect": "Add 10 to the control score of this unit while it is in combat with any enemy units that charged this turn."
+      "effect": "Add 10 to the control score of this unit while it is in combat with any enemy units that charged this turn.",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
     }
   ]
 }

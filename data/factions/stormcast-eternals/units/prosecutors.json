@@ -49,17 +49,23 @@
     {
       "name": "Dispersed Formation",
       "type": "passive",
-      "effect": "This unit has a coherency range of 2\"."
+      "effect": "This unit has a coherency range of 2\".",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Heralds of Righteousness",
       "type": "passive",
-      "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3."
+      "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Ruination Chamber",
       "type": "reaction",
-      "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+      "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

@@ -65,18 +65,24 @@
       "castingValue": 6,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Violent Offerings",
       "type": "passive",
       "effect": "If any damage points were allocated to an enemy **^^Wizard^^** or **^^Priest^^** by this unit’s combat attacks this turn and that enemy unit has been destroyed, add 1 to this unit’s power level for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Special"
     },
     {
       "name": "Champions of the Gilded Throne",
       "type": "passive",
-      "effect": "When players are alternating picking units to use a **^^Fight^^** ability, when it is your turn to pick a unit, instead of picking 1 unit, you can pick a friendly non-**^^Hero Hedonites of Slaanesh Daemon^^** unit wholly within 18\" of this unit and a friendly non-**^^Hero Sybarite^^** unit wholly within 18\" of this unit. Resolve the second **^^Fight^^** ability immediately after the first."
+      "effect": "When players are alternating picking units to use a **^^Fight^^** ability, when it is your turn to pick a unit, instead of picking 1 unit, you can pick a friendly non-**^^Hero Hedonites of Slaanesh Daemon^^** unit wholly within 18\" of this unit and a friendly non-**^^Hero Sybarite^^** unit wholly within 18\" of this unit. Resolve the second **^^Fight^^** ability immediately after the first.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

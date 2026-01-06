@@ -58,7 +58,9 @@
     {
       "name": "Torrent of Flame",
       "type": "passive",
-      "effect": "Add 1 to the Damage characteristic of this unit’s **Fire Breath** for attacks that target **^^Infantry^^**."
+      "effect": "Add 1 to the Damage characteristic of this unit’s **Fire Breath** for attacks that target **^^Infantry^^**.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ],
   "isWizard": 1,

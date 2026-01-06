@@ -61,14 +61,18 @@
       "type": "once-per-battle",
       "effect": "Add 2 to charge rolls for the targets for the rest of the turn.",
       "phase": "charge",
-      "declare": "Pick this unit and up to 2 friendly non-**^^Hero^^** non-**^^Cavalry Warriors of Chaos^^** units wholly within 12\" of this unit to be the targets."
+      "declare": "Pick this unit and up to 2 friendly non-**^^Hero^^** non-**^^Cavalry Warriors of Chaos^^** units wholly within 12\" of this unit to be the targets.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Brutish Rampage",
       "type": "passive",
       "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "charge",
-      "declare": "If this unit charged this phase, pick up to 3 enemy units within 1\" of it to be the targets."
+      "declare": "If this unit charged this phase, pick up to 3 enemy units within 1\" of it to be the targets.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

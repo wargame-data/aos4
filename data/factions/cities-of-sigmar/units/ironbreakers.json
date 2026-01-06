@@ -48,7 +48,9 @@
     {
       "name": "Gromril Shieldwall",
       "type": "passive",
-      "effect": "While this unit is affected by the ‘Hold the Line’ **^^Officar’s Order^^** ability, it has **^^Ward (4+)^^** instead of **^^Ward (5+)^^**."
+      "effect": "While this unit is affected by the ‘Hold the Line’ **^^Officar’s Order^^** ability, it has **^^Ward (4+)^^** instead of **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

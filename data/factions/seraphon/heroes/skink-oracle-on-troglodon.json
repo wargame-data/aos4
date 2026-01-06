@@ -84,18 +84,23 @@
     {
       "name": "Terror",
       "type": "passive",
-      "effect": "Subtract 2 from the control scores of enemy units while they are in combat with this unit."
+      "effect": "Subtract 2 from the control scores of enemy units while they are in combat with this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     },
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Troglodon’s Jaws** is 2."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Troglodon’s Jaws** is 2.",
+      "color": "Black"
     },
     {
       "name": "Troglodon Regeneration",
       "type": "passive",
       "effect": "**Heal (D3)** this unit.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Noxious Roar",
@@ -105,7 +110,9 @@
       "declare": "Pick up to 3 enemy units in combat with this unit to be the targets.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": 1,

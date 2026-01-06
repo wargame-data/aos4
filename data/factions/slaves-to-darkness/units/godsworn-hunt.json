@@ -65,12 +65,16 @@
       "name": "Oath of Conquest",
       "type": "once-per-battle",
       "effect": "If this unit is contesting an objective you control that is wholly within enemy territory, this unit has **^^Ward (5+)^^** for the rest of the battle.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Theddra Skull-scryer",
       "type": "passive",
-      "effect": "While this unit’s **Theddra Skull-scryer** is on the battlefield, it has **^^Wizard (1)^^**."
+      "effect": "While this unit’s **Theddra Skull-scryer** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

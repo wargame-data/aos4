@@ -49,12 +49,16 @@
     {
       "name": "One Soul, Two Bodies",
       "type": "passive",
-      "effect": "Each time a damage point would be allocated to this unit, it is instead allocated to a friendly **The Shadow Queen** (you cannot make any further ward rolls for that damage point).\nIf this unit would be automatically destroyed by another ability, it is not automatically destroyed. Instead, allocate 3 damage points to a friendly **The Shadow Queen** (ward rolls cannot be made for those damage points).\nIf a friendly **The Shadow Queen** is destroyed, this unit is automatically destroyed."
+      "effect": "Each time a damage point would be allocated to this unit, it is instead allocated to a friendly **The Shadow Queen** (you cannot make any further ward rolls for that damage point).\nIf this unit would be automatically destroyed by another ability, it is not automatically destroyed. Instead, allocate 3 damage points to a friendly **The Shadow Queen** (ward rolls cannot be made for those damage points).\nIf a friendly **The Shadow Queen** is destroyed, this unit is automatically destroyed.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Sorceress Supreme",
       "type": "passive",
-      "effect": "Add 1 to casting rolls for this unit."
+      "effect": "Add 1 to casting rolls for this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Mirror Dance",
@@ -65,7 +69,9 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": 3,

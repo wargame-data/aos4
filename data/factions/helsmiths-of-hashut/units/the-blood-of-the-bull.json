@@ -71,7 +71,9 @@
     {
       "name": "Infernal Empowerment",
       "type": "passive",
-      "effect": "Apply the effect(s) below that corresponds with the number of **daemonic power points** this unit has. These effects are cumulative.\n**1+** Add 1\" to this unit's Move characteristic.\n**2+** Add 1 to wound rolls for this unit's combat attacks.\n**3+** Add 1 to the Rend characteristic of this unit's melee weapons."
+      "effect": "Apply the effect(s) below that corresponds with the number of **daemonic power points** this unit has. These effects are cumulative.\n**1+** Add 1\" to this unit's Move characteristic.\n**2+** Add 1 to wound rolls for this unit's combat attacks.\n**3+** Add 1 to the Rend characteristic of this unit's melee weapons.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ]
 }

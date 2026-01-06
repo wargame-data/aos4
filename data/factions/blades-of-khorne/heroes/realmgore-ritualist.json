@@ -50,7 +50,9 @@
       "type": "once-per-battle",
       "effect": "For the rest of the battle, add 1 to wound rolls for combat attacks made by friendly **Bloodbound** units while they are wholly within 12\" of the target.",
       "phase": "movement",
-      "declare": "Pick an objective or terrain feature within this unit’s combat range to be the target."
+      "declare": "Pick an objective or terrain feature within this unit’s combat range to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

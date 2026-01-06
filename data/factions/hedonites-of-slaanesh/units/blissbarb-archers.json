@@ -54,7 +54,9 @@
     {
       "name": "Blissbrew Homonculus",
       "type": "passive",
-      "effect": "This unit’s **Blissbrew Homonculus** is a token. There is 1 **Blissbrew Homonculus** for every 10 models in this unit.\nSubtract 1 from hit rolls for shooting attacks that target this unit while it has a **Blissbrew Homonculus**. If you make an unmodified save roll of 1 for this unit, remove the **Blissbrew Homonculus** from the battlefield after the Attack ability has been resolved (the damage point is still inflicted)."
+      "effect": "This unit’s **Blissbrew Homonculus** is a token. There is 1 **Blissbrew Homonculus** for every 10 models in this unit.\nSubtract 1 from hit rolls for shooting attacks that target this unit while it has a **Blissbrew Homonculus**. If you make an unmodified save roll of 1 for this unit, remove the **Blissbrew Homonculus** from the battlefield after the Attack ability has been resolved (the damage point is still inflicted).",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

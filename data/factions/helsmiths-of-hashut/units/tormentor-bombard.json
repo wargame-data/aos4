@@ -56,12 +56,16 @@
       "type": "once-per-turn",
       "effect": "Roll a dice for each target. On a 3+, that unit cannot use commands until the start of your next turn.",
       "phase": "shooting",
-      "declare": "If this unit used a **^^Shoot^^** ability this turn and all of its attacks targeted the same enemy unit, that enemy unit is the target. Then, you can pick a number of enemy units within 6\" of the target equal to the number of **daemonic power points** this unit has to be additional targets."
+      "declare": "If this unit used a **^^Shoot^^** ability this turn and all of its attacks targeted the same enemy unit, that enemy unit is the target. Then, you can pick a number of enemy units within 6\" of the target equal to the number of **daemonic power points** this unit has to be additional targets.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Calculated Trajectory",
       "type": "passive",
-      "effect": "Add 1 to hit rolls for this unit's shooting attacks that target an enemy unit with 5 or more models that is more than 12\" from this unit."
+      "effect": "Add 1 to hit rolls for this unit's shooting attacks that target an enemy unit with 5 or more models that is more than 12\" from this unit.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

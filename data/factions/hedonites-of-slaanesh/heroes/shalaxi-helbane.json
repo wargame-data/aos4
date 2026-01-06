@@ -63,7 +63,9 @@
       "type": "once-per-battle",
       "effect": "The target can use 2 **^^Fight^^** abilities this turn. After the first is used, however, the target has **^^Strike-last^^** for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick a friendly non-**^^Hero Hedonites of Slaanesh^^** unit wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly non-**^^Hero Hedonites of Slaanesh^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Paramount Hunter",
@@ -74,12 +76,16 @@
         "**^^MOVE^^**",
         "**^^CHARGE^^**",
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Orange",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Supernatural Grace",
       "type": "passive",
-      "effect": "Subtract 1 from hit rolls for combat attacks that target this unit."
+      "effect": "Subtract 1 from hit rolls for combat attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Refine Senses",
@@ -87,12 +93,15 @@
       "effect": "For the rest of the turn:\n• Add 1 to wound rolls for this unit’s attacks that target enemy **^^Heroes^^**.\n• Add 1 to save rolls for attacks made by enemy **^^Heroes^^** that target this unit",
       "phase": "hero",
       "declare": "Make a casting roll of 2D6.",
-      "castingValue": 4
+      "castingValue": 4,
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Soulpiercer** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Soulpiercer** is 4.",
+      "color": "Black"
     }
   ],
   "isWizard": 2,

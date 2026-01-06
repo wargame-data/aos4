@@ -68,7 +68,9 @@
       "name": "Predator Knights",
       "type": "once-per-turn",
       "effect": "Inflict D3 mortal damage on the target. Then, this unit can use a **^^Retreat^^** ability as if it were your movement phase. No mortal damage is inflicted on this unit by that **^^Retreat^^** ability.",
-      "declare": "Pick an enemy unit in combat with this unit to be the target."
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Special"
     }
   ]
 }

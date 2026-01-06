@@ -61,12 +61,16 @@
       "type": "passive",
       "effect": "Roll a dice. On a 4+, the target has **^^Strike-Last^^** for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick an enemy unit in combat with this unit’s **Curseblood** to be the target."
+      "declare": "Pick an enemy unit in combat with this unit’s **Curseblood** to be the target.",
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "Creed of the Askurga Renkai",
       "type": "passive",
-      "effect": "Subtract 1 from hit rolls for combat attacks made by enemy **^^Monsters^^** that target this unit. Add 1 to hit rolls for combat attacks made by this unit that target enemy **^^Monsters^^**."
+      "effect": "Subtract 1 from hit rolls for combat attacks made by enemy **^^Monsters^^** that target this unit. Add 1 to hit rolls for combat attacks made by this unit that target enemy **^^Monsters^^**.",
+      "color": "Red",
+      "abilityCategory": "Special"
     }
   ]
 }

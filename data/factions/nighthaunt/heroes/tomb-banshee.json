@@ -61,14 +61,18 @@
     {
       "name": "Cacophony of Sorrow",
       "type": "passive",
-      "effect": "While there are any friendly **Myrmourn Banshees** units wholly within 12\" of this unit, ignore positive modifiers to the control scores of enemy units within 12\" of this unit."
+      "effect": "While there are any friendly **Myrmourn Banshees** units wholly within 12\" of this unit, ignore positive modifiers to the control scores of enemy units within 12\" of this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     },
     {
       "name": "Ghostly Howl",
       "type": "once-per-battle",
       "effect": "Inflict D3 mortal damage on the target. If any models in the target unit are slain by this ability, the target cannot use commands for the rest of the turn.",
       "phase": "shooting",
-      "declare": "Pick an enemy unit in combat with this unit to be the target."
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

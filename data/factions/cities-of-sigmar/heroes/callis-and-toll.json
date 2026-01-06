@@ -63,17 +63,23 @@
     {
       "name": "Get It Done",
       "type": "reaction",
-      "effect": "Pick a friendly **Toll’s Companions** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved."
+      "effect": "Pick a friendly **Toll’s Companions** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Right Tools for the Job",
       "type": "passive",
-      "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target **^^Wizards^^**, **^^Priests^^** and **^^Manifestations^^**."
+      "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target **^^Wizards^^**, **^^Priests^^** and **^^Manifestations^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Wily to the Last",
       "type": "passive",
-      "effect": "If this unit has 2 models and would be automatically destroyed, it is not automatically destroyed. Instead, 1 model in this unit is slain."
+      "effect": "If this unit has 2 models and would be automatically destroyed, it is not automatically destroyed. Instead, 1 model in this unit is slain.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

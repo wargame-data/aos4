@@ -59,7 +59,9 @@
     {
       "name": "The Vengeful Allegiance",
       "type": "passive",
-      "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+      "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+      "color": "Green",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Subvert",
@@ -70,14 +72,18 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Deadly Symbiosis",
       "type": "passive",
       "effect": "For the rest of the turn, if either target uses the ‘All-out Attack’ or ‘All-out Defence’ command, the other target can also use the same command in the same phase and no command points are spent to use the command a second time.",
       "phase": "combat",
-      "declare": "Pick a friendly non-**^^Hero Sybarite^^** unit and a friendly non-**^^Hero Hedonites of Slaanesh Daemon^^** unit to be the targets. Both units must be wholly within 12\" of this unit."
+      "declare": "Pick a friendly non-**^^Hero Sybarite^^** unit and a friendly non-**^^Hero Hedonites of Slaanesh Daemon^^** unit to be the targets. Both units must be wholly within 12\" of this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

@@ -69,13 +69,17 @@
       "castingValue": 5,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Scrolls of Sorcery",
       "type": "passive",
       "effect": "The next time this unit uses a non-**^^Summon Spell^^** ability this phase, do not make a casting roll as part of that ability. Instead, roll a dice. On a 2+, the spell is successfully cast and cannot be unbound.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

@@ -61,12 +61,16 @@
     {
       "name": "Warrior Mages",
       "type": "passive",
-      "effect": "This unit can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**."
+      "effect": "This unit can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Dracoline Fury",
       "type": "passive",
-      "effect": "While this unit is contesting an objective you do not control, it has **^^Strike-first^^**."
+      "effect": "While this unit is contesting an objective you do not control, it has **^^Strike-first^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

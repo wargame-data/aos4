@@ -61,7 +61,9 @@
     {
       "name": "Decimating Blow",
       "type": "passive",
-      "effect": "Add 1 to the Damage characteristic of this unit’s Decimator Thunderaxes if the target unit has 10 or more models."
+      "effect": "Add 1 to the Damage characteristic of this unit’s Decimator Thunderaxes if the target unit has 10 or more models.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

@@ -61,14 +61,18 @@
       "type": "passive",
       "effect": "**Heal (3)** the target.",
       "phase": "any",
-      "declare": "Pick another friendly **^^Moulder^^** unit wholly within 13\" of this unit to be the target."
+      "declare": "Pick another friendly **^^Moulder^^** unit wholly within 13\" of this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Tyrannical Packmaster",
       "type": "passive",
       "effect": "Add 1 to charge rolls for the target for the rest of the turn.",
       "phase": "charge",
-      "declare": "Pick another friendly **^^Moulder^^** unit within this unit’s combat range to be the target."
+      "declare": "Pick another friendly **^^Moulder^^** unit within this unit’s combat range to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

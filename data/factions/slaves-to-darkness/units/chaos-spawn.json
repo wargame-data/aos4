@@ -45,7 +45,9 @@
     {
       "name": "Drawn to Power",
       "type": "passive",
-      "effect": "While this unit is wholly within 12\" of a friendly **Daemon Prince**, you can re-roll the random characteristic rolls for this unit’s Move and Attacks characteristics."
+      "effect": "While this unit is wholly within 12\" of a friendly **Daemon Prince**, you can re-roll the random characteristic rolls for this unit’s Move and Attacks characteristics.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ]
 }

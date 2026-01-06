@@ -46,12 +46,16 @@
     {
       "name": "Arise! Arise!",
       "type": "reaction",
-      "effect": "When resolving the effect of the ‘Endless Legions’ ability, set up the replacement unit wholly within 3\" of this unit instead of wholly within 12\" and more than 3\" from all enemy units instead of more than 9\", even if it is not your movement phase. The replacement unit can still use **^^Charge^^** abilities this turn."
+      "effect": "When resolving the effect of the ‘Endless Legions’ ability, set up the replacement unit wholly within 3\" of this unit instead of wholly within 12\" and more than 3\" from all enemy units instead of more than 9\", even if it is not your movement phase. The replacement unit can still use **^^Charge^^** abilities this turn.",
+      "color": "Gray",
+      "abilityCategory": "Rallying"
     },
     {
       "name": "Keeper of the Corpse-gardens",
       "type": "passive",
-      "effect": "While this unit is within the combat range of a friendly **Deadwalker Zombies** unit:\n• This unit has **^^Ward (4+)^^**.\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly **Deadwalker Zombies** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points)."
+      "effect": "While this unit is within the combat range of a friendly **Deadwalker Zombies** unit:\n• This unit has **^^Ward (4+)^^**.\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly **Deadwalker Zombies** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

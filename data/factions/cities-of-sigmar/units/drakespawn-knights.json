@@ -64,7 +64,9 @@
       "name": "Bestial Instincts",
       "type": "passive",
       "effect": "For the rest of the turn, add 1 to the Attacks characteristic of this unit’s **Drakespawn’s Ferocious Jaws** while it is in combat with any damaged enemy units or while it is in combat with any enemy units that have had any models slain.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

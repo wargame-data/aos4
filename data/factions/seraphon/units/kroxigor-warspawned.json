@@ -57,12 +57,16 @@
     {
       "name": "Spawn of Sotek",
       "type": "passive",
-      "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons while this unit is wholly within 12\" of any friendly **^^Skink Infantry^^** or **^^Skink Cavalry^^** units in combat."
+      "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons while this unit is wholly within 12\" of any friendly **^^Skink Infantry^^** or **^^Skink Cavalry^^** units in combat.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Heavy-scaled Skin",
       "type": "passive",
-      "effect": "Subtract 1 from the Rend characteristic of ranged weapons used for shooting attacks that target this unit."
+      "effect": "Subtract 1 from the Rend characteristic of ranged weapons used for shooting attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

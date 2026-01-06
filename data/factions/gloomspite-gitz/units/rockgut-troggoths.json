@@ -55,7 +55,9 @@
       "name": "Regeneration",
       "type": "passive",
       "effect": "**Heal (D3)** this unit.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Black",
+      "abilityCategory": "Defensive"
     }
   ]
 }

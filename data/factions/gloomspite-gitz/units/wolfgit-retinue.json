@@ -64,7 +64,9 @@
     {
       "name": "I Got Dis, Boss!",
       "type": "passive",
-      "effect": "While a friendly **Snarlboss** is within this unit's combat range, both this unit and that **Snarlboss** have **^^Ward (5+)^^**."
+      "effect": "While a friendly **Snarlboss** is within this unit's combat range, both this unit and that **Snarlboss** have **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

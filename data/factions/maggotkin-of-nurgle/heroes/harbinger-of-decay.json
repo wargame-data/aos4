@@ -64,7 +64,9 @@
       "type": "once-per-battle",
       "effect": "Until the start of your next turn, subtract 1\" from the Move characteristic of each target and subtract 1 from run rolls and charge rolls for each target.",
       "phase": "hero",
-      "declare": "Pick up to 3 enemy units within 24\" of this unit to be the targets."
+      "declare": "Pick up to 3 enemy units within 24\" of this unit to be the targets.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Omens of Decay",
@@ -72,7 +74,9 @@
       "effect": "Subtract twice the current battle round number from the target’s control score for the rest of the turn. If the chanting roll was 10+, this ability affects all enemy units within 12\" of this unit.",
       "phase": "hero",
       "declare": "Pick a visible enemy unit within 12\" of this unit to be the target, then make a chanting roll of D6.",
-      "chantingValue": 4
+      "chantingValue": 4,
+      "color": "Yellow",
+      "abilityCategory": "Control"
     }
   ],
   "isWizard": null,

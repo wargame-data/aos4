@@ -88,7 +88,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Piston-driven Legs and Daemonic Blade or Claw** is 6."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Piston-driven Legs and Daemonic Blade or Claw** is 6.",
+      "color": "Black"
     },
     {
       "name": "Piston-driven Carnage",
@@ -98,12 +99,16 @@
       "declare": "Pick an enemy **^^Infantry^^** unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "Implacable Advance",
       "type": "passive",
-      "effect": "This unit can use **^^Charge^^** abilities even if it used a **^^Run^^** ability in the same turn."
+      "effect": "This unit can use **^^Charge^^** abilities even if it used a **^^Run^^** ability in the same turn.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ]
 }

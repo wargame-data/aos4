@@ -57,13 +57,17 @@
     {
       "name": "Envoys of the Everqueen",
       "type": "passive",
-      "effect": "While this unit is contesting an objective, friendly **^^Sylvaneth^^** units contesting that objective have **^^Ward (6+)^^**."
+      "effect": "While this unit is contesting an objective, friendly **^^Sylvaneth^^** units contesting that objective have **^^Ward (6+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Steady Aim",
       "type": "passive",
       "effect": "For the rest of the turn, this unit can ignore the effects of the ‘Guarded Hero’ ability (Core Rules, 25.0) when picking targets for its shooting attacks.",
-      "phase": "shooting"
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

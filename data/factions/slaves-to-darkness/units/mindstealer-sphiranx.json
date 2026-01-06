@@ -45,7 +45,9 @@
       "declare": "Pick an enemy unit within 6\" of this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Defensive"
     }
   ]
 }

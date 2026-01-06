@@ -47,14 +47,18 @@
       "type": "once-per-turn",
       "effect": "Add 1 to casting rolls for this unit for the rest of the turn. Then, roll a dice. On a 4+, 1 model in the target unit is slain.",
       "phase": "hero",
-      "declare": "Pick a friendly **^^Cities of Sigmar Aelf^^** unit wholly within 6\" of this unit to be the target."
+      "declare": "Pick a friendly **^^Cities of Sigmar Aelf^^** unit wholly within 6\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Word of Pain",
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, subtract 1 from hit rolls and wound rolls for the target’s attacks until the start of your next turn.",
       "phase": "combat",
-      "declare": "Pick an enemy unit in combat with this unit to be the target."
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": 1,

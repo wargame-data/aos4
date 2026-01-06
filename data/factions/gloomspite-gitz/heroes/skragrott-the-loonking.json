@@ -55,17 +55,23 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "The Loonking's Entreaty",
       "type": "reaction",
-      "effect": "The face of the Bad Moon stays in its current position this battle round instead of moving to the next face in the sequence."
+      "effect": "The face of the Bad Moon stays in its current position this battle round instead of moving to the next face in the sequence.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Babbling Wand",
       "type": "passive",
-      "effect": "Each time a friendly **^^Moonclan^^** unit wholly within 12\" of this unit uses the ‘Redeploy’ command, no command points are spent."
+      "effect": "Each time a friendly **^^Moonclan^^** unit wholly within 12\" of this unit uses the ‘Redeploy’ command, no command points are spent.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": 2,

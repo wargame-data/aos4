@@ -1,0 +1,33 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "prayer-lore-the-duardin-ascendant",
+  "name": "Prayer Lore: The Duardin Ascendant",
+  "loreType": "prayer",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "prayers": [
+    {
+      "name": "Oath of Restoration",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, friendly **^^Duardin Ascendant^^** units have **^^Ward (6+)^^** while they have any models contesting the target. If the chanting roll was 7+, friendly **^^Duardin Ascendant^^** models have **^^Ward (5+)^^** while they have any models contesting the target instead.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Duardin Ascendant Priest^^** to chant this prayer, pick a visible objective within 18\" of them that is coned by 2 or more friendly **unified** units to be the target, then make a chanting roll of D6."
+    },
+    {
+      "name": "Spirit of the White Dwarf",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "The target is **unified** until the start of your next turn. If the chanting roll was 8+, you can pick 2 targets instead of 1.",
+      "keywords": [
+        "**^^PRAYER^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Duardin Ascendant Priest^^** to chant this prayer, pick a visible friendly **^^Duardin Ascendant^^** unit within 18\" of them to be the target, then make a chanting roll of D6."
+    }
+  ]
+}

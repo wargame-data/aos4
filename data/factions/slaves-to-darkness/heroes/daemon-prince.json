@@ -49,17 +49,23 @@
       "name": "Immortal Champion",
       "type": "passive",
       "effect": "Roll a dice. On a 4+, this unit has **^^Strike-first^^** for the rest of the turn.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Airborne Horror",
       "type": "passive",
-      "effect": "If this unit has **Wings**, it has a Move characteristic of 10\" and has **^^Fly^^**."
+      "effect": "If this unit has **Wings**, it has a Move characteristic of 10\" and has **^^Fly^^**.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "The Mounted Skulls of the Fallen",
       "type": "passive",
-      "effect": "If this unit has a **Trophy Rack**, its **Hellforged Weapons** also have Anti-**^^Hero^^ (+1 Rend)**."
+      "effect": "If this unit has a **Trophy Rack**, its **Hellforged Weapons** also have Anti-**^^Hero^^ (+1 Rend)**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

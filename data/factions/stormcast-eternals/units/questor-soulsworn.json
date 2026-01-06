@@ -44,12 +44,16 @@
     {
       "name": "Ordained Quest",
       "type": "once-per-battle",
-      "effect": "Pick an objective wholly outside friendly territory. That objective is considered by you to be questmarked."
+      "effect": "Pick an objective wholly outside friendly territory. That objective is considered by you to be questmarked.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "His Will Be Done",
       "type": "passive",
-      "effect": "While this unit is contesting a questmarked objective:\n• Add 3 to this unit’s control score.\n• This unit has **^^Ward (5+)^^**."
+      "effect": "While this unit is contesting a questmarked objective:\n• Add 3 to this unit’s control score.\n• This unit has **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Relictor Soulguide",
@@ -59,7 +63,9 @@
       "declare": "You can pick a friendly **Knight-Questor** within this unit’s combat range to be the target.",
       "keywords": [
         "**^^CORE^^**"
-      ]
+      ],
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

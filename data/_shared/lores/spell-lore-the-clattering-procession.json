@@ -1,0 +1,37 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "spell-lore-the-clattering-procession",
+  "name": "Spell Lore: The Clattering Procession",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Spectral Lashes",
+      "castingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Add 2\" to the target's Move characteristic for the rest of the turn.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Clattering Procession Wizard^^** to cast this spell, pick a visible friendly **^^Clattering Procession^^** unit wholly within 12\" of them and that has not been picked to be the target of this ability this turn to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Fell Riders",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "You can re-roll run rolls and charge rolls for the targets for the rest of the turn.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Clattering Procession Wizard^^** to cast this spell, pick the caster and up to two visible friendly **^^Clattering Procession^^** units wholly within 12\" of them to be the targets, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    }
+  ]
+}

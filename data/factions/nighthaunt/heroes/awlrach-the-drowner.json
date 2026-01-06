@@ -50,14 +50,18 @@
       "name": "Drifting on Spectral Tides",
       "type": "passive",
       "effect": "Roll a dice. On a 3+, this unit can immediately use the 'Normal Move' or the 'Retreat' ability as if it were your movement phase.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Passage Through the Underworlds",
       "type": "once-per-battle",
       "effect": "Remove this unit and the target from the battlefield, then set them up again on the battlefield wholly within 6\" of each other and more than 7\" from all enemy units.",
       "phase": "movement",
-      "declare": "If this unit is not in combat, pick a friendly non-**^^Hero Nighthaunt^^** unit that is not in combat and is wholly within 12\" of this unit to be the target."
+      "declare": "If this unit is not in combat, pick a friendly non-**^^Hero Nighthaunt^^** unit that is not in combat and is wholly within 12\" of this unit to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

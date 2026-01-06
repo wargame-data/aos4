@@ -49,7 +49,9 @@
       "type": "passive",
       "effect": "Roll a dice. On a 2+, subtract 1 from ward rolls for the target for the rest of the turn.",
       "phase": "hero",
-      "declare": "Pick an enemy unit that was picked to be the target of a spell that was successfully cast by this unit this phase to be the target."
+      "declare": "Pick an enemy unit that was picked to be the target of a spell that was successfully cast by this unit this phase to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

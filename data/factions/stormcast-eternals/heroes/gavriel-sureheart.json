@@ -51,12 +51,16 @@
       "type": "passive",
       "effect": "For the rest of the phase, when making charge rolls for the targets, add 1 to the number of dice rolled, then remove 1 dice of your choice and use the remaining dice as the charge roll.",
       "phase": "charge",
-      "declare": "Pick this unit and another visible friendly **^^Warrior Chamber^^** unit within 3\" of it to be the targets."
+      "declare": "Pick this unit and another visible friendly **^^Warrior Chamber^^** unit within 3\" of it to be the targets.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Sigmarite Thundershield",
       "type": "passive",
-      "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+      "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
     }
   ],
   "isWizard": null,

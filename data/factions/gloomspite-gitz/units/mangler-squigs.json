@@ -70,12 +70,15 @@
     {
       "name": "Squig Rage",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Huge Fang-filled Gobs** is 6."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Huge Fang-filled Gobs** is 6.",
+      "color": "Black"
     },
     {
       "name": "Watch Out!",
       "type": "passive",
-      "effect": "If this unit is destroyed, before removing it from play, roll a dice for each enemy unit within this unit’s combat range. On a 4+, inflict D3 mortal damage on that unit."
+      "effect": "If this unit is destroyed, before removing it from play, roll a dice for each enemy unit within this unit’s combat range. On a 4+, inflict D3 mortal damage on that unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Giant Boing!",
@@ -84,7 +87,9 @@
       "phase": "charge",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ]
 }

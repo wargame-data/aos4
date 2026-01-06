@@ -7,7 +7,8 @@
 import { existsSync, mkdirSync, writeFileSync, readFileSync } from "fs";
 import { join, dirname } from "path";
 import type { Unit, Hero } from "../mappers/unit.mapper.js";
-import { FACTIONS_DIR } from "../config.js";
+import type { Lore } from "../mappers/lore.mapper.js";
+import { FACTIONS_DIR, DATA_DIR } from "../config.js";
 
 /**
  * Write options
@@ -145,6 +146,7 @@ export function ensureFactionStructure(
   ensureDir(join(factionDir, "heroes"));
   ensureDir(join(factionDir, "units"));
   ensureDir(join(factionDir, "battle-formations"));
+  ensureDir(join(factionDir, "lores"));
 }
 
 /**
@@ -165,4 +167,64 @@ export function writeFactionIndex(
   const path = join(factionDir, "_index.json");
 
   return writeJson(path, factionData, options);
+}
+
+/**
+ * Get shared lores directory path
+ */
+export function getSharedLoresDir(baseDir?: string): string {
+  const dir = baseDir || DATA_DIR;
+  return join(dir, "_shared", "lores");
+}
+
+/**
+ * Ensure shared lores directory exists
+ */
+export function ensureSharedLoresDir(baseDir?: string): void {
+  ensureDir(getSharedLoresDir(baseDir));
+}
+
+/**
+ * Determine output path for a lore
+ * Shared lores (from Lores.cat) go to _shared/lores/
+ * Faction-specific lores go to {faction}/lores/
+ */
+export function getLoreOutputPath(
+  lore: Lore,
+  factionId?: string,
+  baseDir?: string
+): string {
+  if (factionId) {
+    // Faction-specific lore
+    const dir = baseDir || FACTIONS_DIR;
+    return join(dir, factionId, "lores", `${lore.id}.json`);
+  } else {
+    // Shared lore (from Lores.cat)
+    return join(getSharedLoresDir(baseDir), `${lore.id}.json`);
+  }
+}
+
+/**
+ * Write a lore to its appropriate location
+ */
+export function writeLore(
+  lore: Lore,
+  options: WriteOptions = {},
+  factionId?: string,
+  baseDir?: string
+): WriteResult {
+  const path = getLoreOutputPath(lore, factionId, baseDir);
+  return writeJson(path, lore, options);
+}
+
+/**
+ * Write multiple lores
+ */
+export function writeLores(
+  lores: Lore[],
+  options: WriteOptions = {},
+  factionId?: string,
+  baseDir?: string
+): WriteResult[] {
+  return lores.map((lore) => writeLore(lore, options, factionId, baseDir));
 }

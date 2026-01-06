@@ -69,13 +69,17 @@
       "keywords": [
         "**^^SPELL^^**",
         "**^^UNLIMITED^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Wurrgog Mask",
       "type": "once-per-battle",
       "effect": "For the rest of the turn:\n• The Attacks characteristic of this unit’s *Deadly Green Bolts* is 12 instead of D6.\n• For each unmodified hit roll of 1 for a shooting attack made by this unit, inflict D3 mortal damage on this unit after the **^^Shoot^^** ability has been resolved.",
-      "phase": "shooting"
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ],
   "isWizard": 2,

@@ -51,12 +51,16 @@
     {
       "name": "Fount of Willpower",
       "type": "reaction",
-      "effect": "Remove 1 of this unit's **soul-quota tokens**. Then, you can re-roll the casting roll."
+      "effect": "Remove 1 of this unit's **soul-quota tokens**. Then, you can re-roll the casting roll.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Catalogue of Souls",
       "type": "passive",
-      "effect": "Each time an enemy unit is destroyed, give this unit a **soul-quota token**."
+      "effect": "Each time an enemy unit is destroyed, give this unit a **soul-quota token**.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Empowered by Memory",
@@ -67,7 +71,9 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

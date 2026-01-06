@@ -1,0 +1,85 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "lore-of-the-overgrown-wilds",
+  "name": "Lore of the Overgrown Wilds",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Thicket Shield",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, while the target is wholly within 3\" of a terrain feature, it is not visible to enemy units more than 9\" away.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Wizard^^** to cast this spell, pick a visible friendly unit wholly within 12\" of them and not in combat to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Awaken the Carnivores",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, subtract 1 from save rolls (friendly and enemy) while they are within 3\" of the target.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Wizard^^** to cast this spell, pick a visible terrain feature within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Disrupt the Humours",
+      "castingValue": 5,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, subtract 1 from contamination rolls and remediation rolls for the target.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Shifting Lands",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, enemy units cannot be set up within 12\" of the target.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Wizard^^** to cast this spell, pick a visible terrain feature within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Healing Spiral",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, each time the target uses a **^^Fight^^** ability, after that ability has been resolved, **Heal(X)** the target, where **X** is the number of enemy models slain by combat attacks as part of that **^^Fight^^** ability.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Wizard^^** to cast this spell, pick a visible friendly unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Forest Walk",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Double the caster's Move characteristic until the start of your next turn.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    }
+  ]
+}

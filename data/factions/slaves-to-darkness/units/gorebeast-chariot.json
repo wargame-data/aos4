@@ -72,7 +72,9 @@
     {
       "name": "Brutal Momentum",
       "type": "passive",
-      "effect": "When this unit uses the ‘Power Through’ command, inflict an additional D3 mortal damage on the target and add 3\" to the distance this unit can move as part of that ability"
+      "effect": "When this unit uses the ‘Power Through’ command, inflict an additional D3 mortal damage on the target and add 3\" to the distance this unit can move as part of that ability",
+      "color": "Purple",
+      "abilityCategory": "Special"
     }
   ]
 }

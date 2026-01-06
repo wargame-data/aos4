@@ -69,13 +69,17 @@
       "type": "passive",
       "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "combat",
-      "declare": "Pick each enemy unit in combat with this unit to be the targets."
+      "declare": "Pick each enemy unit in combat with this unit to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Prophet of the Horned Rat",
       "type": "once-per-battle",
       "effect": "You can re-roll chanting rolls for this unit until the start of your next turn",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Gaze of the Gnaw",
@@ -85,7 +89,9 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "The Death Frenzy",
@@ -95,7 +101,9 @@
       "declare": "Pick a visible enemy unit within 13\"of this unit or a visible friendly **^^Skaven Infantry^^** unit within 13\" of this unit to be the target, then make a chanting roll of D6.",
       "keywords": [
         "**^^PRAYER^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

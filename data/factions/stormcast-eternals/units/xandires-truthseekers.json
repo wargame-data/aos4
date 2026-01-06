@@ -76,14 +76,18 @@
     {
       "name": "Taros",
       "type": "passive",
-      "effect": "This unit’s **Taros** is a token. After setting up this unit on the battlefield for the first time, place **Taros** next to it."
+      "effect": "This unit’s **Taros** is a token. After setting up this unit on the battlefield for the first time, place **Taros** next to it.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Harrying Aetherwing",
       "type": "passive",
       "effect": "Until the start of your next turn, place **Taros** next to the target. While **Taros** is placed next to an enemy unit, that enemy unit cannot use commands.",
       "phase": "shooting",
-      "declare": "If any attacks made with this unit’s **Stormcaller Bow** scored a critical hit this phase, pick an enemy unit targeted by those attacks to be the target."
+      "declare": "If any attacks made with this unit’s **Stormcaller Bow** scored a critical hit this phase, pick an enemy unit targeted by those attacks to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Special"
     }
   ]
 }

@@ -60,7 +60,9 @@
       "declare": "Pick this unit if it has not been deployed.",
       "keywords": [
         "**^^DEPLOY^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "'Neh Neh Na-neh Neh! Can't Catch Me!\"",
@@ -74,7 +76,9 @@
       "type": "passive",
       "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Pick this unit if it is in a secret tunnel."
+      "declare": "Pick this unit if it is in a secret tunnel.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

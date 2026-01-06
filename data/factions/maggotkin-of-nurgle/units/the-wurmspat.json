@@ -50,12 +50,16 @@
       "name": "Retchling",
       "type": "once-per-battle",
       "effect": "If this unit’s **Fecula Flyblown** is on the battlefield, add 1 to its power level for the rest of the turn.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Fecula Flyblown",
       "type": "passive",
-      "effect": "While this unit’s **Fecula Flyblown** is on the battlefield, it has **^^Wizard (1)^^**."
+      "effect": "While this unit’s **Fecula Flyblown** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

@@ -53,7 +53,9 @@
       "name": "Rise Again",
       "type": "passive",
       "effect": "If this unit’s **King Morlak Velmorn** is on the battlefield, roll a dice for each slain model from this unit. On a 4+, you can return 1 slain model to this unit.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Rallying"
     }
   ]
 }

@@ -45,12 +45,16 @@
     {
       "name": "Icon of Grimnir",
       "type": "passive",
-      "effect": "Ignore negative modifiers to the control scores of friendly **^^Fyreslayers^^** units while they are wholly within 12\" of this unit."
+      "effect": "Ignore negative modifiers to the control scores of friendly **^^Fyreslayers^^** units while they are wholly within 12\" of this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     },
     {
       "name": "Bard of the Lodge",
       "type": "passive",
-      "effect": "If a friendly unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
+      "effect": "If a friendly unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
     }
   ],
   "isWizard": null,

@@ -68,14 +68,18 @@
     {
       "name": "'For Sigmar, Charge!'",
       "type": "passive",
-      "effect": "Add 1 to charge rolls for this unit and for friendly **Freeguild Cavaliers** units while they are wholly within 12\" of this unit."
+      "effect": "Add 1 to charge rolls for this unit and for friendly **Freeguild Cavaliers** units while they are wholly within 12\" of this unit.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Run Down the Foe",
       "type": "once-per-battle",
       "effect": "This unit and the target have **^^Strike-first^^** for the rest of the turn.",
       "phase": "combat",
-      "declare": "If this unit charged this turn, pick a friendly **^^Cities of Sigmar Human Cavalry^^** unit that charged this turn and is wholly within 12\" of this unit to be the target."
+      "declare": "If this unit charged this turn, pick a friendly **^^Cities of Sigmar Human Cavalry^^** unit that charged this turn and is wholly within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

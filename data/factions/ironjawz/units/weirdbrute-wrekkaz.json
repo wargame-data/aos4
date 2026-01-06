@@ -47,7 +47,9 @@
     {
       "name": "Berserkers",
       "type": "passive",
-      "effect": "This unit can use a **^^Run^^** ability and still use **^^Charge^^** abilities later in the turn."
+      "effect": "This unit can use a **^^Run^^** ability and still use **^^Charge^^** abilities later in the turn.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

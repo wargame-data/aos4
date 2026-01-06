@@ -50,7 +50,9 @@
     {
       "name": "No Respite",
       "type": "passive",
-      "effect": "While this unit is contesting an objective you do not control, it has **Ward (5+)**"
+      "effect": "While this unit is contesting an objective you do not control, it has **Ward (5+)**",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

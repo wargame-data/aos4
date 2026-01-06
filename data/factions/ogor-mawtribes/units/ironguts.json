@@ -51,12 +51,16 @@
       "name": "Down to the Ironguts",
       "type": "once-per-battle",
       "effect": "This unit can use 2 **^^Fight^^** abilities this phase. After the first is used, however, this unit has Strike-last for the rest of the turn.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Protect the Tyrant",
       "type": "passive",
-      "effect": "While this unit is within the combat ranges of any friendly Tyrants, both this unit and those Tyrants have Ward (6+)."
+      "effect": "While this unit is within the combat ranges of any friendly Tyrants, both this unit and those Tyrants have Ward (6+).",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

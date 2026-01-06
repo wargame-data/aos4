@@ -72,14 +72,18 @@
       "type": "once-per-turn",
       "effect": "For the rest of the turn, combat attacks made by the targets against enemy units that charged this turn have **Crit (2 Hits)**.",
       "phase": "combat",
-      "declare": "Pick this unit and up to 1 friendly **Endrinriggers** unit wholly within 12\" of this unit to be the targets."
+      "declare": "Pick this unit and up to 1 friendly **Endrinriggers** unit wholly within 12\" of this unit to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Mobile Repairs",
       "type": "passive",
       "effect": "Roll a dice. On a 2+, **Heal (3)** the target.",
       "phase": "hero",
-      "declare": "Pick a friendly **^^Skyvessel^^** or **Zontari Endrin Dock** within this unit’s combat range to be the target."
+      "declare": "Pick a friendly **^^Skyvessel^^** or **Zontari Endrin Dock** within this unit’s combat range to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

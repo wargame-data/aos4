@@ -106,7 +106,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Thundertusk’s Colossal Tusks** is 2."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Thundertusk’s Colossal Tusks** is 2.",
+      "color": "Black"
     },
     {
       "name": "Freezing Aura",
@@ -116,7 +117,9 @@
       "declare": "Pick an enemy **^^Infantry^^** unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

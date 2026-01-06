@@ -69,13 +69,16 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Sloppklaw’s Talons** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Sloppklaw’s Talons** is 4.",
+      "color": "Black"
     },
     {
       "name": "Kountin' Krew",
       "type": "passive",
       "effect": "For the rest of the battle, the target’s **Slitta-knives** have **Crit (Mortal)** while they are wholly within 12\" of this unit.",
-      "declare": "Pick a friendly **Hobgrot Slittaz** unit within this unit’s combat range to be the target."
+      "declare": "Pick a friendly **Hobgrot Slittaz** unit within this unit’s combat range to be the target.",
+      "color": "Black",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Aggravate Wounds",
@@ -85,13 +88,17 @@
       "declare": "Pick an enemy **^^Monster^^** in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Bet-master",
       "type": "passive",
       "effect": "Add 1 to wound rolls for attacks made by this unit and friendly **Hobgrot Slittaz** units that target **the bet**.",
-      "declare": "Pick an enemy unit on the battlefield to be **the bet**."
+      "declare": "Pick an enemy unit on the battlefield to be **the bet**.",
+      "color": "Black",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

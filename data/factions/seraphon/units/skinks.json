@@ -57,7 +57,9 @@
     {
       "name": "Swift and Nimble",
       "type": "passive",
-      "effect": "When this unit uses the ‘Redeploy’ command, when determining the distance this unit can move, you can roll 2 dice instead of 1 and pick either result."
+      "effect": "When this unit uses the ‘Redeploy’ command, when determining the distance this unit can move, you can roll 2 dice instead of 1 and pick either result.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

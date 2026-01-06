@@ -46,7 +46,9 @@
     {
       "name": "Feed on Mangled Remains",
       "type": "passive",
-      "effect": "Each time this unit uses a **^^Fight^^** ability, after that **^^Fight^^** ability has been resolved, **Heal (D3)** this unit."
+      "effect": "Each time this unit uses a **^^Fight^^** ability, after that **^^Fight^^** ability has been resolved, **Heal (D3)** this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

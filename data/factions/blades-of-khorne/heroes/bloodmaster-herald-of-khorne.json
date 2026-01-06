@@ -51,7 +51,9 @@
     {
       "name": "The Blood Must Flow",
       "type": "reaction",
-      "effect": "Pick a friendly **Bloodletters** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. For the rest of the turn, add 1 to hit rolls for combat attacks made by this unit and that friendly **Bloodletters** unit."
+      "effect": "Pick a friendly **Bloodletters** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. For the rest of the turn, add 1 to hit rolls for combat attacks made by this unit and that friendly **Bloodletters** unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

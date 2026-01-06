@@ -49,12 +49,16 @@
     {
       "name": "Echoes of the Watch",
       "type": "reaction",
-      "effect": "Pick a friendly **Deathrattle Skeletons** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved."
+      "effect": "Pick a friendly **Deathrattle Skeletons** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Disciplined Advance",
       "type": "passive",
-      "effect": "Each time you make a run roll for a friendly **Deathrattle Skeletons** unit wholly within 12\" of this unit, you can change that roll to a 4."
+      "effect": "Each time you make a run roll for a friendly **Deathrattle Skeletons** unit wholly within 12\" of this unit, you can change that roll to a 4.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

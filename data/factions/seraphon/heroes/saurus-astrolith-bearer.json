@@ -43,12 +43,16 @@
     {
       "name": "Celestial Conduit",
       "type": "reaction",
-      "effect": "If that spell is successfully cast, for the rest of the turn, add 3 to the control scores of friendly **^^Seraphon^^** units while they are wholly within 12\" of this unit."
+      "effect": "If that spell is successfully cast, for the rest of the turn, add 3 to the control scores of friendly **^^Seraphon^^** units while they are wholly within 12\" of this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Control"
     },
     {
       "name": "Revivifying Energies",
       "type": "passive",
-      "effect": "Friendly **^^Seraphon Infantry^^** units have Ward (6+) while they are wholly within 12\" of this unit. If a unit already has **^^Ward (6+)^^**, it has **^^Ward (5+)^^** instead."
+      "effect": "Friendly **^^Seraphon Infantry^^** units have Ward (6+) while they are wholly within 12\" of this unit. If a unit already has **^^Ward (6+)^^**, it has **^^Ward (5+)^^** instead.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

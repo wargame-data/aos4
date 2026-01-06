@@ -50,12 +50,16 @@
       "type": "once-per-turn",
       "effect": "Both player's roll off. If you win the roll-off, pick a melee weapon that the target is armed with. Your opponent must pick a visible unit in their army within 3\" of the target (they can pick the target's own unit, and even if it is a single-model unit).\nYour opponent must resolve combat attacks for the target using the melee weapon you picked against the unit they picked.",
       "phase": "any",
-      "declare": "Pick a visible enemy model within 3\" of this unit to be the target."
+      "declare": "Pick a visible enemy model within 3\" of this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Crimson Haze",
       "type": "passive",
-      "effect": "While this unit is in combat, add 1 to the Attacks characteristic of melee weapons used by friendly **^^Bloodbound^^** units, excluding **Wrathmongers** units, while they are wholly within 12\" of this unit."
+      "effect": "While this unit is in combat, add 1 to the Attacks characteristic of melee weapons used by friendly **^^Bloodbound^^** units, excluding **Wrathmongers** units, while they are wholly within 12\" of this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

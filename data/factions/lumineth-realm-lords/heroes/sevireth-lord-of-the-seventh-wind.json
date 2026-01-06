@@ -62,12 +62,16 @@
     {
       "name": "The Living Gale",
       "type": "passive",
-      "effect": "This unit cannot be targeted by shooting attacks made by enemy units that are more than 9\" from this unit."
+      "effect": "This unit cannot be targeted by shooting attacks made by enemy units that are more than 9\" from this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Spirit of the Wind",
       "type": "passive",
-      "effect": "While friendly **^^Hurakan^^** units are wholly within 12\" of this unit, they can use **^^Shoot^^** and/or **^^Charge^^** abilities even if they used a **^^Run^^** or **^^Retreat^^** ability in the same turn and no mortal damage is inflicted on them by **^^Retreat^^** abilities."
+      "effect": "While friendly **^^Hurakan^^** units are wholly within 12\" of this unit, they can use **^^Shoot^^** and/or **^^Charge^^** abilities even if they used a **^^Run^^** or **^^Retreat^^** ability in the same turn and no mortal damage is inflicted on them by **^^Retreat^^** abilities.",
+      "color": "Gray",
+      "abilityCategory": "Special"
     },
     {
       "name": "Searing Desert Winds",
@@ -77,7 +81,9 @@
       "declare": "Pick up to 3 different enemy units in combat with this unit to be the targets.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

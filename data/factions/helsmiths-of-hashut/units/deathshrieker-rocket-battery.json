@@ -55,12 +55,16 @@
       "name": "Hungering Flames",
       "type": "once-per-turn",
       "effect": "For the rest of the turn, the Damage characteristic of this unit's **Hashu-Zharr Rockets** is 5 if the target is a **^^Monster^^** or **^^War Machine^^**.",
-      "phase": "shooting"
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Watch Them Burn",
       "type": "reaction",
-      "effect": "Roll a number of dice equal to the number of **daemonic power points** this unit has for each other enemy unit within the combat range of the target of this unit's shooting attacks. For each 3+, inflict 1 mortal damage on the enemy unit being rolled for."
+      "effect": "Roll a number of dice equal to the number of **daemonic power points** this unit has for each other enemy unit within the combat range of the target of this unit's shooting attacks. For each 3+, inflict 1 mortal damage on the enemy unit being rolled for.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

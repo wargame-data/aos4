@@ -53,14 +53,18 @@
     {
       "name": "Faithful Gryph-hounds",
       "type": "passive",
-      "effect": "This unit’s **Gryph-hounds** are tokens. After setting up this unit on the battlefield for the first time, place both **Gryph-hounds** next to it."
+      "effect": "This unit’s **Gryph-hounds** are tokens. After setting up this unit on the battlefield for the first time, place both **Gryph-hounds** next to it.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Hunting Hounds",
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 1, remove 1 of this unit’s **Gryph-hounds** from the battlefield. On a 2+, pick 1 of this unit’s **Gryph-hounds** that is next to this unit or next to an enemy unit and place it next to the target instead.\nWhile any of this unit’s **Gryph-hounds** are next to an enemy unit, add 1 to hit rolls and wound rolls for this unit’s shooting attacks that target that unit.\nIf an enemy unit is destroyed or removed from the battlefield while any of this unit’s **Gryph-hounds** are next to it, place those **Gryph-hounds** next to this unit.",
       "phase": "movement",
-      "declare": "If this unit was not set up this turn and any of this unit’s **Gryph-hounds** are on the battlefield, pick an enemy unit within 12\" of this unit to be the target."
+      "declare": "If this unit was not set up this turn and any of this unit’s **Gryph-hounds** are on the battlefield, pick an enemy unit within 12\" of this unit to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Shooting"
     }
   ],
   "isWizard": null,

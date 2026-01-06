@@ -48,12 +48,16 @@
     {
       "name": "Zealous Counter-Attack",
       "type": "reaction",
-      "effect": "This unit has **^^Strike-first^^** for he rest of the turn."
+      "effect": "This unit has **^^Strike-first^^** for he rest of the turn.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Crush the Unworthy",
       "type": "passive",
-      "effect": "Add 1 to charge rolls for each **daemonic power point** it has."
+      "effect": "Add 1 to charge rolls for each **daemonic power point** it has.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ]
 }

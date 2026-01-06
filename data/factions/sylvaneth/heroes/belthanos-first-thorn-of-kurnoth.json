@@ -63,14 +63,18 @@
       "type": "once-per-battle",
       "effect": "For the rest of the battle, the target gains the ‘Place of Power’ terrain ability (Terrain 1.2) and counts as a friendly Awakened Wyldwood for the purposes of the ‘Endless Growth’, ‘Walk the Hidden Paths’ and ‘Strike and Fade’ abilities.",
       "phase": "any",
-      "declare": "Pick a terrain feature within 6\" of this unit to be the target."
+      "declare": "Pick a terrain feature within 6\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Kurnothi War-horn",
       "type": "passive",
       "effect": "For the rest of the turn, each target can use **^^Charge^^** abilities even if they used a **^^Run^^** ability in the same turn.",
       "phase": "charge",
-      "declare": "Pick up to 3 friendly **^^Sylvaneth^^** units to be the target."
+      "declare": "Pick up to 3 friendly **^^Sylvaneth^^** units to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Rhythm of the Chase",
@@ -80,12 +84,15 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Carnelian Greatspite’s Razor-like Mandibles** is 3."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Carnelian Greatspite’s Razor-like Mandibles** is 3.",
+      "color": "Black"
     }
   ],
   "isWizard": null,

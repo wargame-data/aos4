@@ -47,7 +47,9 @@
     {
       "name": "Slicing Fervour",
       "type": "passive",
-      "effect": "This unit has **^^Strike-first^^** while it is in combat with a **blissmarked** unit."
+      "effect": "This unit has **^^Strike-first^^** while it is in combat with a **blissmarked** unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Blissbarb Shafts",
@@ -57,7 +59,9 @@
       "declare": "If this unit’s **Hadzu** is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target.",
       "keywords": [
         "**^^SHOOT^^**"
-      ]
+      ],
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

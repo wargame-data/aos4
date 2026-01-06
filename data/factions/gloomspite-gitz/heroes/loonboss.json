@@ -47,12 +47,16 @@
       "type": "passive",
       "effect": "Roll a dice. On a 2+, pick 1 of the following effects:\n***Get Back ’Ere!:*** If the target is not in combat, you can return D6 slain models to it.\n***Stab ’Em Good!:*** Add 1 to wound rolls for the target’s attacks until the start of your next turn",
       "phase": "hero",
-      "declare": "Pick a visible friendly **Moonclan Stabbas** unit wholly within 12\" of this unit to be the target."
+      "declare": "Pick a visible friendly **Moonclan Stabbas** unit wholly within 12\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Let's Get Stabbin'!",
       "type": "reaction",
-      "effect": "Pick a friendly non-**^^Hero Moonclan Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved."
+      "effect": "Pick a friendly non-**^^Hero Moonclan Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

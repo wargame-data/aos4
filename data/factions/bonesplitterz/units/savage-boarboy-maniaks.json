@@ -64,7 +64,9 @@
     {
       "name": "On a Tear",
       "type": "reaction",
-      "effect": "Add 5 to this unit’s control score for the rest of the turn."
+      "effect": "Add 5 to this unit’s control score for the rest of the turn.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     }
   ]
 }

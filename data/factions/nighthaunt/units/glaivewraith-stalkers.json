@@ -51,7 +51,9 @@
       "name": "Unerring Hunters",
       "type": "once-per-turn",
       "effect": "For the rest of the turn, each time this unit makes a pile-in move, add 3\" to the distance it can move.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Movement"
     }
   ]
 }

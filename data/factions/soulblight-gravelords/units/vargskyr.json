@@ -60,12 +60,16 @@
     {
       "name": "Beast",
       "type": "passive",
-      "effect": "This unit has a maximum control score of 1."
+      "effect": "This unit has a maximum control score of 1.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     },
     {
       "name": "Bounding Haste",
       "type": "passive",
-      "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3. In addition, when this unit uses a **^^Charge^^** ability, it can pass through terrain features and enemy models as if it had **^^Fly^^**."
+      "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3. In addition, when this unit uses a **^^Charge^^** ability, it can pass through terrain features and enemy models as if it had **^^Fly^^**.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ]
 }

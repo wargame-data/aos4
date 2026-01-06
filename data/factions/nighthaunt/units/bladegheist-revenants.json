@@ -47,7 +47,9 @@
     {
       "name": "Thrashing Desperation",
       "type": "passive",
-      "effect": "While this unit contests an objective you control, enemy units cannot finish a charge move within 1/2\" of a model in this unit unless the unmodified charge roll was 7 or more."
+      "effect": "While this unit contests an objective you control, enemy units cannot finish a charge move within 1/2\" of a model in this unit unless the unmodified charge roll was 7 or more.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

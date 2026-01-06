@@ -43,19 +43,25 @@
     {
       "name": "Starspawned",
       "type": "passive",
-      "effect": "Ignore the first damage point that would be allocated to friendly **^^Saurus^^** and **^^Kroxigor^^** units each phase while they are wholly within 12\" of this unit."
+      "effect": "Ignore the first damage point that would be allocated to friendly **^^Saurus^^** and **^^Kroxigor^^** units each phase while they are wholly within 12\" of this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Venomite Swarm",
       "type": "once-per-turn",
       "effect": "If this unit’s **Venomites** token is on the battlefield, roll a D3.\nOn a 1, remove this unit’s **Venomites** token from the battlefield. On a\n2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "combat",
-      "declare": "Pick an enemy unit in combat with this unit to be the target."
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Scaled Protectors",
       "type": "passive",
-      "effect": "Ignore negative and positive modifiers to save rolls for this unit."
+      "effect": "Ignore negative and positive modifiers to save rolls for this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

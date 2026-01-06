@@ -52,14 +52,18 @@
     {
       "name": "Prime Cuts",
       "type": "passive",
-      "effect": "Each time a combat attack made by this unit scores a critical hit, give 1 **prime cut point** to this unit, to a maximum of 6."
+      "effect": "Each time a combat attack made by this unit scores a critical hit, give 1 **prime cut point** to this unit, to a maximum of 6.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Dinner is Served",
       "type": "passive",
       "effect": "**Heal (X)** the target, where **X** is the number of **prime cut points** this unit has. Then, reset this unit’s **prime cut points** to 0.",
       "phase": "any",
-      "declare": "Pick a friendly **^^Flesh-eater Courts Hero^^** wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly **^^Flesh-eater Courts Hero^^** wholly within 12\" of this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
     }
   ]
 }

@@ -57,7 +57,9 @@
     {
       "name": "Brutal Blows",
       "type": "passive",
-      "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons for attacks that target an enemy unit that has 10 or more models."
+      "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons for attacks that target an enemy unit that has 10 or more models.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

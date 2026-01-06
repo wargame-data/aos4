@@ -59,14 +59,18 @@
       "type": "once-per-turn",
       "effect": "Make a number of D3 rolls equal to the current battle round number. For each 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "shooting",
-      "declare": "Pick a visible enemy unit within 12\" of this unit to be the target."
+      "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Portents of Battle",
       "type": "once-per-turn",
       "effect": "Add 1 to hit rolls for the targets’ combat attacks until the start of your next turn.",
       "phase": "hero",
-      "declare": "Pick up to D3 visible friendly **^^Cities of Sigmar Human^^** units wholly within 12\" of this unit to be the targets."
+      "declare": "Pick up to D3 visible friendly **^^Cities of Sigmar Human^^** units wholly within 12\" of this unit to be the targets.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

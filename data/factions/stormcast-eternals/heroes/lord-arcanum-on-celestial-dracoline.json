@@ -61,14 +61,18 @@
       "type": "once-per-turn",
       "effect": "Inflict D3 mortal damage on each enemy unit in combat with the target.",
       "phase": "charge",
-      "declare": "Pick a visible friendly **^^Sacrosanct Chamber Cavalry^^** unit that charged this phase and is wholly within 12\" of this unit to be the target."
+      "declare": "Pick a visible friendly **^^Sacrosanct Chamber Cavalry^^** unit that charged this phase and is wholly within 12\" of this unit to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Pack Alpha",
       "type": "passive",
       "effect": "Add 1 to the Attacks characteristic of the targets’ **Companion** melee weapons for the rest of the turn.",
       "phase": "combat",
-      "declare": "If this unit is in combat, pick this unit and up to 1 other visible friendly **^^Sacrosanct Chamber Cavalry^^** unit within its combat range to be the targets."
+      "declare": "If this unit is in combat, pick this unit and up to 1 other visible friendly **^^Sacrosanct Chamber Cavalry^^** unit within its combat range to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

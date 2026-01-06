@@ -67,12 +67,16 @@
     {
       "name": "Searing Beam of Light",
       "type": "passive",
-      "effect": "Each time this unit attacks with its **Searing Beam of Light**, pick a point on the battlefield within range to be the target. If the attack scores a hit, draw a straight line between that point and the closest point on this unit’s base. Inflict D3 mortal damage on each visible unit (friendly and enemy) that the line passes across."
+      "effect": "Each time this unit attacks with its **Searing Beam of Light**, pick a point on the battlefield within range to be the target. If the attack scores a hit, draw a straight line between that point and the closest point on this unit’s base. Inflict D3 mortal damage on each visible unit (friendly and enemy) that the line passes across.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Aura of Protection",
       "type": "passive",
-      "effect": "Friendly **^^Cities of Sigmar^^** units have **^^Ward (6+)^^** while they are wholly within 12\" of this unit."
+      "effect": "Friendly **^^Cities of Sigmar^^** units have **^^Ward (6+)^^** while they are wholly within 12\" of this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": 1,

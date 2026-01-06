@@ -51,7 +51,9 @@
     {
       "name": "Blood for the Blood God!",
       "type": "passive",
-      "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons if it charged in the same turn."
+      "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons if it charged in the same turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

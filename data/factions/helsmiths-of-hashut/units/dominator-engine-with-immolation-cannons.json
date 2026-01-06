@@ -61,12 +61,16 @@
       "type": "passive",
       "effect": "For the rest of the turn, add 2 to the Attacks characteristic of this unit’s **Immolation Cannons** for each unit picked to be the target of this ability, but each time this unit uses a **^^Shoot^^** ability, it must target each of those units with at least 3 of its attacks.",
       "phase": "shooting",
-      "declare": "Pick any number of visible enemy units within 8\" of this unit to be the targets."
+      "declare": "Pick any number of visible enemy units within 8\" of this unit to be the targets.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Daemonic Strength",
       "type": "passive",
-      "effect": "For each **daemonic power point** this unit has:\n• Add 1\" to its Move characteristic\n• Add 1 to the Attacks characteristic of its weapons."
+      "effect": "For each **daemonic power point** this unit has:\n• Add 1\" to its Move characteristic\n• Add 1 to the Attacks characteristic of its weapons.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ]
 }

@@ -70,7 +70,9 @@
       "name": "Sever One Head, Another Takes Its Place",
       "type": "once-per-turn",
       "effect": "**Heal (6)** this unit.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Six-headed Strike",
@@ -80,7 +82,9 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

@@ -50,12 +50,16 @@
       "name": "Oath of Dark Sacrifice",
       "type": "once-per-battle",
       "effect": "If an unmodified casting roll for this unit this phase was 8+, this unit has **^^Ward (5+)^^** for the rest of the battle.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Sarrakkar Blackwing",
       "type": "passive",
-      "effect": "While this unit’s **Sarrakkar Blackwing** is on the battlefield, it has **^^Wizard (1)^^**."
+      "effect": "While this unit’s **Sarrakkar Blackwing** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

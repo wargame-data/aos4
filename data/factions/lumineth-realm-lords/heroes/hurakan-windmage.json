@@ -64,7 +64,9 @@
       "type": "passive",
       "effect": "Roll a dice. On a 3+, add 3\" to the target’s Move characteristic for the rest of the turn and the target has **^^Fly^^** for the rest of the turn.",
       "phase": "movement",
-      "declare": "Pick a friendly **Hurakan Windchargers** unit wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly **Hurakan Windchargers** unit wholly within 12\" of this unit to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Transporting Vortex",
@@ -75,7 +77,9 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": 1,

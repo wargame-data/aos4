@@ -74,7 +74,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Leviadon’s Scythed Fins and Crushing Jaws** is 5."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Leviadon’s Scythed Fins and Crushing Jaws** is 5.",
+      "color": "Black"
     },
     {
       "name": "Crushing Charge",
@@ -84,12 +85,16 @@
       "declare": "If this unit charged this phase, pick an enemy **^^Infantry^^** unit within 1\" of it to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Void Drum",
       "type": "passive",
-      "effect": "Friendly **^^Idoneth Deepkin^^** units have **^^Ward (5+)^^** while they are wholly within 6\" of this unit."
+      "effect": "Friendly **^^Idoneth Deepkin^^** units have **^^Ward (5+)^^** while they are wholly within 6\" of this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

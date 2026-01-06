@@ -61,13 +61,17 @@
       "name": "Tireless Hunter",
       "type": "once-per-turn",
       "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
-      "phase": "movement"
+      "phase": "movement",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Vanguard Chamber",
       "type": "once-per-turn",
       "effect": "For the rest of the turn, this unit can use **^^Shoot^^** and/or **^^Charge^^** abilities even if it used a **^^Run^^** or **^^Retreat^^** ability in the same turn.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

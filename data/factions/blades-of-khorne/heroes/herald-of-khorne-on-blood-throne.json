@@ -51,14 +51,18 @@
     {
       "name": "Blood Marked",
       "type": "passive",
-      "effect": "This unit has **^^Ward (4+)^^** against damage inflicted by **^^Spell^^** abilities and abilities used by **^^Manifestations^^**."
+      "effect": "This unit has **^^Ward (4+)^^** against damage inflicted by **^^Spell^^** abilities and abilities used by **^^Manifestations^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Offering of Blood",
       "type": "once-per-turn",
       "effect": "Allocate 3 damage points to the target (ward rolls cannot be made for those damage points). For the rest of the turn, add 1 to this unit's power level, to a maximum of 2.",
       "phase": "hero",
-      "declare": "Pick a friendly unit within 3\" of this unit to be the target."
+      "declare": "Pick a friendly unit within 3\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

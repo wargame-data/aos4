@@ -64,13 +64,17 @@
       "effect": "For the rest of the battle, subtract 1 from hit rolls for shooting attacks that target friendly **^^Infantry^^** or **^^Cavalry^^** units while they are wholly within 3\" of the target.",
       "phase": "hero",
       "declare": "Pick an objective or visible non-**^^Faction Terrain^^** terrain feature within 12\" of this unit to be the target. Then, make a casting roll of 2D6.",
-      "castingValue": 6
+      "castingValue": 6,
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Summon Wisper",
       "type": "passive",
       "effect": "If there is not a friendly **Wisper** on the battlefield, set up a friendly **Wisper** wholly within 12\" of this unit, visible to it and more than 9\" from all enemy units. This unit has summoned that **^^Manifestation^^**.",
-      "phase": "movement"
+      "phase": "movement",
+      "color": "Gray",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

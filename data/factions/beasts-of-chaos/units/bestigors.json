@@ -53,12 +53,16 @@
     {
       "name": "Ferocious Advance",
       "type": "passive",
-      "effect": "Subtract 1 from wound rolls for shooting attacks that target this unit."
+      "effect": "Subtract 1 from wound rolls for shooting attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Despoilers",
       "type": "reaction",
-      "effect": "This unit’s attacks score critical hits on unmodified hit rolls of 5+ for the rest of the turn."
+      "effect": "This unit’s attacks score critical hits on unmodified hit rolls of 5+ for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

@@ -46,12 +46,16 @@
     {
       "name": "Shield of the Manticore",
       "type": "passive",
-      "effect": "Subtract 1 from the Rend characteristic of weapons used for attacks that target friendly **^^Infantry Heroes^^** while those friendly units are within 3\" of this unit."
+      "effect": "Subtract 1 from the Rend characteristic of weapons used for attacks that target friendly **^^Infantry Heroes^^** while those friendly units are within 3\" of this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Emberstone-riddled Flesh",
       "type": "passive",
-      "effect": "Each time you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after that **^^Fight^^** ability has been resolved."
+      "effect": "Each time you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after that **^^Fight^^** ability has been resolved.",
+      "color": "Green",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

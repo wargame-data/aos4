@@ -48,12 +48,16 @@
     {
       "name": "Heralds of Nagash",
       "type": "reaction",
-      "effect": "This unit is affected by that **^^Relentless Discipline^^** ability as if it were wholly within range of the friendly **^^Hero^^** picked to use it."
+      "effect": "This unit is affected by that **^^Relentless Discipline^^** ability as if it were wholly within range of the friendly **^^Hero^^** picked to use it.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Harbingers of Death",
       "type": "passive",
-      "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3."
+      "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ]
 }

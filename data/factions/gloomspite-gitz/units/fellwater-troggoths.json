@@ -55,13 +55,17 @@
     {
       "name": "Noxious Vomit",
       "type": "passive",
-      "effect": "If any damage points are allocated to an enemy unit by attacks made with this unit’s **Noxious Vomit**, that unit is **drenched in vomit** until the start of your next turn.\nWhile a unit is **drenched in vomit**:\n• Subtract 1 from save rolls for that unit.\n• Ignore positive modifiers to save rolls for that unit."
+      "effect": "If any damage points are allocated to an enemy unit by attacks made with this unit’s **Noxious Vomit**, that unit is **drenched in vomit** until the start of your next turn.\nWhile a unit is **drenched in vomit**:\n• Subtract 1 from save rolls for that unit.\n• Ignore positive modifiers to save rolls for that unit.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Regeneration",
       "type": "passive",
       "effect": "**Heal (D3)** this unit.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Black",
+      "abilityCategory": "Defensive"
     }
   ]
 }

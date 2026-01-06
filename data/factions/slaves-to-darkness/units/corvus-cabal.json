@@ -64,7 +64,9 @@
       "type": "passive",
       "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units. Then, add 1 to charge rolls for this unit for the rest of the turn.",
       "phase": "movement",
-      "declare": "Pick this unit if it is lurking in the shadows."
+      "declare": "Pick this unit if it is lurking in the shadows.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Shadow-lurkers",
@@ -73,7 +75,9 @@
       "declare": "Pick this unit if it has not been deployed.",
       "keywords": [
         "**^^DEPLOY^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ]
 }

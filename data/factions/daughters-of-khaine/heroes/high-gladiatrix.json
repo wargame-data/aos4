@@ -47,14 +47,18 @@
       "type": "passive",
       "effect": "Roll a dice. On a 2+, add 1 to the Rend characteristic of melee weapons used by the target for the rest of the turn.",
       "phase": "combat",
-      "declare": "If this unit is in combat, pick a visible friendly **^^Daughters of Khaine Aelf^^** non-**^^Hero Infantry^^** unit wholly within 12\" of this unit to be the target."
+      "declare": "If this unit is in combat, pick a visible friendly **^^Daughters of Khaine Aelf^^** non-**^^Hero Infantry^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Killing Stroke",
       "type": "once-per-battle",
       "effect": "Roll 2D6. If the roll exceeds the target’s Health characteristic, it is automatically destroyed.",
       "phase": "combat",
-      "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target."
+      "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

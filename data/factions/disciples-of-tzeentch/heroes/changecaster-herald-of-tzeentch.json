@@ -60,12 +60,16 @@
     {
       "name": "Daemonic Locus",
       "type": "passive",
-      "effect": "Each time a friendly **^^Disciples of Tzeentch Daemon^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
+      "effect": "Each time a friendly **^^Disciples of Tzeentch Daemon^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
     },
     {
       "name": "Lurid Flames",
       "type": "passive",
-      "effect": "Add 1 to hit rolls for combat attacks made by friendly units that target a **^^Burning^^** enemy unit within 12\" of this unit."
+      "effect": "Add 1 to hit rolls for combat attacks made by friendly units that target a **^^Burning^^** enemy unit within 12\" of this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

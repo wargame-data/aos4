@@ -63,7 +63,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Ashigaroth's Claws** is 3."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Ashigaroth's Claws** is 3.",
+      "color": "Black"
     },
     {
       "name": "Ashigaroth's Hunger",
@@ -72,12 +73,16 @@
       "phase": "combat",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "The Sword of Unholy Power",
       "type": "passive",
-      "effect": "If this unit has slain any enemy models this turn, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **^^Deathrattle^^** and **^^Deadwalkers^^** units while they are wholly within 12\" of this unit."
+      "effect": "If this unit has slain any enemy models this turn, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **^^Deathrattle^^** and **^^Deadwalkers^^** units while they are wholly within 12\" of this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Wind of Death",
@@ -88,12 +93,16 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "The Mortarch of Night",
       "type": "reaction",
-      "effect": "The unit using the ‘Redeploy’ command can move into combat when using that ability"
+      "effect": "The unit using the ‘Redeploy’ command can move into combat when using that ability",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": 2,

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "prayer-lore-the-equinox-feast",
+  "name": "Prayer Lore: The Equinox Feast",
+  "loreType": "prayer",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  }
+}

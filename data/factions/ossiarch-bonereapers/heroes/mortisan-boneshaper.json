@@ -52,7 +52,9 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+:\n・If the target is damaged, **Heal (3)** the target.\n・If the target is not damaged, return a number of slain models to the target unit with a combined Health characteristic of up to 3.",
       "phase": "hero",
-      "declare": "Pick a friendly **^^Ossiarch Bonereapers^^** unit wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly **^^Ossiarch Bonereapers^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

@@ -45,7 +45,9 @@
       "type": "passive",
       "effect": "Add 3 to each target’s control score for the rest of the turn. In addition, **Heal (D3)** each target.",
       "phase": "hero",
-      "declare": "Pick up to D3 friendly **^^Stormcast Eternals^^** units wholly within 12\" of this unit to be the targets."
+      "declare": "Pick up to D3 friendly **^^Stormcast Eternals^^** units wholly within 12\" of this unit to be the targets.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

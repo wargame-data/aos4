@@ -50,12 +50,16 @@
       "effect": "The spell is unbound and its effect is not resolved.",
       "keywords": [
         "**^^UNBIND^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Aetheric Destabilisation",
       "type": "passive",
-      "effect": "While they are within 30\" of this unit, subtract 1 from casting rolls for enemy units when they use **^^Summon^^** abilities."
+      "effect": "While they are within 30\" of this unit, subtract 1 from casting rolls for enemy units when they use **^^Summon^^** abilities.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

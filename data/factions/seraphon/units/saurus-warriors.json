@@ -48,7 +48,9 @@
     {
       "name": "Ordered Cohorts",
       "type": "passive",
-      "effect": "Add 1 to save rolls for this unit while each model in this unit is contesting an objective you control."
+      "effect": "Add 1 to save rolls for this unit while each model in this unit is contesting an objective you control.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

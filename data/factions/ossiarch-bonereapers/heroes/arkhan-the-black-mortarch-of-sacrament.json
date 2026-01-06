@@ -64,12 +64,15 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Razarak's Ebon Claws** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Razarak's Ebon Claws** is 4.",
+      "color": "Black"
     },
     {
       "name": "The Staff of Spirits",
       "type": "passive",
-      "effect": "Add 1 to casting rolls for this unit. Each time this unit successfully casts a spell, **Heal (1)** this unit."
+      "effect": "Add 1 to casting rolls for this unit. Each time this unit successfully casts a spell, **Heal (1)** this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "The Doom of Traitors",
@@ -79,12 +82,16 @@
       "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Mortarch of Sacrament",
       "type": "reaction",
-      "effect": "If a friendly **^^Ossiarch Bonereapers^^** unit wholly within 18\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on that unit. This unit can use this ability more than once per phase but only once per **^^Spell^^** ability."
+      "effect": "If a friendly **^^Ossiarch Bonereapers^^** unit wholly within 18\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on that unit. This unit can use this ability more than once per phase but only once per **^^Spell^^** ability.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Curse of Years",
@@ -95,7 +102,9 @@
       "castingValue": 6,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 3,

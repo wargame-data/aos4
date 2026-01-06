@@ -46,12 +46,16 @@
     {
       "name": "Duty Unto Death",
       "type": "passive",
-      "effect": "While any friendly **^^Fyreslayers Infantry Heroes^^** are wholly within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**."
+      "effect": "While any friendly **^^Fyreslayers Infantry Heroes^^** are wholly within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Fires of Vengeance",
       "type": "passive",
-      "effect": "While this unit is within the combat ranges of any damaged friendly **^^Fyreslayers Heroes^^**, add 1 to the Attacks characteristic of this unit’s melee weapons."
+      "effect": "While this unit is within the combat ranges of any damaged friendly **^^Fyreslayers Heroes^^**, add 1 to the Attacks characteristic of this unit’s melee weapons.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

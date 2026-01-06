@@ -96,12 +96,15 @@
     {
       "name": "Skink Coordination",
       "type": "passive",
-      "effect": "If a friendly non-**^^Monster Skink^^** unit uses the ‘Redeploy’ command while it is wholly within 18\" of this unit, no command points are spent."
+      "effect": "If a friendly non-**^^Monster Skink^^** unit uses the ‘Redeploy’ command while it is wholly within 18\" of this unit, no command points are spent.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Stegadon’s Horns and Jaws** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Stegadon’s Horns and Jaws** is 4.",
+      "color": "Black"
     },
     {
       "name": "Crushing Stomps",
@@ -111,7 +114,9 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

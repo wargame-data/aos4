@@ -49,12 +49,16 @@
     {
       "name": "Swooping Descent",
       "type": "once-per-turn",
-      "effect": "Remove this unit from the battlefield, then set it up again more than 9\" from all enemy units and either:\n• Wholly within 6\" of the edge of the battlefield, or\n• Within 3\" of an objective you do not control."
+      "effect": "Remove this unit from the battlefield, then set it up again more than 9\" from all enemy units and either:\n• Wholly within 6\" of the edge of the battlefield, or\n• Within 3\" of an objective you do not control.",
+      "color": "Purple",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Glorious Charge",
       "type": "passive",
-      "effect": "While this unit is within the combat range of a friendly **^^Knights^^** unit and has charged this turn, this unit has **^^Ward (5+)^^** and its **Gory Talons and Fangs** have **Charge (+1 Damage)**."
+      "effect": "While this unit is within the combat range of a friendly **^^Knights^^** unit and has charged this turn, this unit has **^^Ward (5+)^^** and its **Gory Talons and Fangs** have **Charge (+1 Damage)**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

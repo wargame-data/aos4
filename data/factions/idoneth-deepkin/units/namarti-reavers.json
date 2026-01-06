@@ -59,7 +59,9 @@
     {
       "name": "Strike On the Move",
       "type": "passive",
-      "effect": "This unit can use **^^Shoot^^** abilities even if it used a **^^Run^^** or **^^Retreat^^** ability in the same turn."
+      "effect": "This unit can use **^^Shoot^^** abilities even if it used a **^^Run^^** or **^^Retreat^^** ability in the same turn.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

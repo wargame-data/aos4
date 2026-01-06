@@ -61,7 +61,9 @@
       "name": "Rituals of Prophecy",
       "type": "passive",
       "effect": "Roll 6 dice:\n• For each 1, add 1 to the Attacks characteristic of this unit’s melee weapons until the start of your next turn.\n• For each 3, add 1\" to this unit’s Move characteristic until the start of your next turn.\n• If any of the rolls are a 6, add 1 to save rolls for this unit until the start of your next turn.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

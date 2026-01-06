@@ -86,7 +86,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Stegadon’s Horns and Jaws** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Stegadon’s Horns and Jaws** is 4.",
+      "color": "Black"
     },
     {
       "name": "Unstoppable Stampede",
@@ -96,7 +97,9 @@
       "declare": "If this unit charged this phase, pick an enemy **^^Infantry^^** unit in combat with it to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Orange",
+      "abilityCategory": "Special"
     }
   ]
 }

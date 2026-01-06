@@ -54,14 +54,18 @@
     {
       "name": "Seeds of Rot",
       "type": "passive",
-      "effect": "When using the 'Blessed by the Plaguefater' ability, if you choose to infect an enemy unit, you can pick an enemy unit that is contesting an objective that is **seeded with rot**."
+      "effect": "When using the 'Blessed by the Plaguefater' ability, if you choose to infect an enemy unit, you can pick an enemy unit that is contesting an objective that is **seeded with rot**.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Blooming Plague",
       "type": "passive",
       "effect": "The target is **seeded with rot** for the rest of the battle.",
       "phase": "any",
-      "declare": "Pick an objective that is contested by this unit to be the target."
+      "declare": "Pick an objective that is contested by this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Special"
     }
   ]
 }

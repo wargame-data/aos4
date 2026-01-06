@@ -64,7 +64,9 @@
       "type": "passive",
       "effect": "Roll a dice. On a 3+, subtract D3 from the Damage characteristic of the target’s **Companion** melee weapons for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick an enemy **^^Monster^^** in combat with this unit to be the target."
+      "declare": "Pick an enemy **^^Monster^^** in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Defensive"
     }
   ]
 }

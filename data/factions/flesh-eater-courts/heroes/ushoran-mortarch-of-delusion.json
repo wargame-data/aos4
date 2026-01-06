@@ -58,7 +58,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Monstrous Talons** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Monstrous Talons** is 4.",
+      "color": "Black"
     },
     {
       "name": "Shroudcage Fragment",
@@ -68,12 +69,16 @@
       "declare": "Pick up to 3 enemy units in combat with this unit to be the targets.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Epicentre of Delusion",
       "type": "passive",
-      "effect": "Each time you make a delusion roll, you can add 1 or subtract 1 from the roll."
+      "effect": "Each time you make a delusion roll, you can add 1 or subtract 1 from the roll.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Glimpse of Delusion",
@@ -84,7 +89,9 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "The One True King",
@@ -92,7 +99,9 @@
       "effect": "While you believe this **^^Delusion^^**:\n• Add 1 to run rolls and charge rolls for friendly **^^Flesh-eater Courts^^** units.\n• Subtract 1 from run rolls and charge rolls for enemy units.\n• The melee weapons used by friendly **^^Serfs^^** units have **Anti-charge (+1 Rend)** while they are wholly within friendly territory and did not charge in the same turn.",
       "keywords": [
         "**^^DELUSION^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 2,

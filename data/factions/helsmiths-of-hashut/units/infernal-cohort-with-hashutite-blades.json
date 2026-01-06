@@ -51,17 +51,23 @@
     {
       "name": "Disciplined March",
       "type": "passive",
-      "effect": "When making run rolls for this unit, if you roll a 1-3, you can use a value of 4 instead."
+      "effect": "When making run rolls for this unit, if you roll a 1-3, you can use a value of 4 instead.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Daemonic Resilience",
       "type": "passive",
-      "effect": "Apply the effect below that corresponds with the number of **daemonic power points** this unit has:\n**1** This unit has **^^Ward (6+)^^**.\n**2** This unit has **^^Ward (5+)^^**.\n**3** This unit has **^^Ward (4+)^^** against damage inflicted by **^^Spells^^**, **^^Prayers^^**, and abilites used by **^^Manifestations^^**. Otherwise, it has **^^Ward (5+)^^**."
+      "effect": "Apply the effect below that corresponds with the number of **daemonic power points** this unit has:\n**1** This unit has **^^Ward (6+)^^**.\n**2** This unit has **^^Ward (5+)^^**.\n**3** This unit has **^^Ward (4+)^^** against damage inflicted by **^^Spells^^**, **^^Prayers^^**, and abilites used by **^^Manifestations^^**. Otherwise, it has **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Sacred Gongs",
       "type": "passive",
-      "effect": "This unit's **Gong Carriers** are tokens. There is 1 **Gong Carrier** for every **^^Musician^^** in this unit. If this unit uses the 'Rally' command, as a reaction, you can remove a **Gong Carrier** to make an additional rally roll of D6."
+      "effect": "This unit's **Gong Carriers** are tokens. There is 1 **Gong Carrier** for every **^^Musician^^** in this unit. If this unit uses the 'Rally' command, as a reaction, you can remove a **Gong Carrier** to make an additional rally roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
     }
   ]
 }

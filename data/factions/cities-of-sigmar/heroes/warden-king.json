@@ -43,13 +43,17 @@
     {
       "name": "Fearless Leader",
       "type": "reaction",
-      "effect": "Pick a friendly non-**^^Hero Cities of Sigmar Duardin^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved."
+      "effect": "Pick a friendly non-**^^Hero Cities of Sigmar Duardin^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Ancestral Grudgebearer",
       "type": "once-per-battle",
       "effect": "For the rest of the battle, add 1 to wound rolls for combat attacks made by friendly **^^Cities of Sigmar Duardin^^** units that target that unit.",
-      "declare": "Pick an enemy unit in your opponent’s army to bear a grudge against. You can pick an enemy unit that is in reserve."
+      "declare": "Pick an enemy unit in your opponent’s army to bear a grudge against. You can pick an enemy unit that is in reserve.",
+      "color": "Black",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

@@ -57,12 +57,16 @@
       "name": "Firing from the Belly",
       "type": "passive",
       "effect": "If this unit has not used a Move ability this turn and was not set up this turn, add 1 to hit rolls for this unit’s shooting attacks for the rest of the turn.",
-      "phase": "shooting"
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Powder Gnoblars",
       "type": "passive",
-      "effect": "This unit has up to 2 **Powder Gnoblar** tokens. Each time this unit uses a **^^Shoot^^** ability, for each of this unit’s **Powder Gnoblars** that are on the battlefield, you can re-roll 1 random characteristic roll for this unit’s Attacks characteristic. If a random characteristic roll re-rolled in this manner is 1, remove 1 of this unit’s **Powder Gnoblars** from the battlefield."
+      "effect": "This unit has up to 2 **Powder Gnoblar** tokens. Each time this unit uses a **^^Shoot^^** ability, for each of this unit’s **Powder Gnoblars** that are on the battlefield, you can re-roll 1 random characteristic roll for this unit’s Attacks characteristic. If a random characteristic roll re-rolled in this manner is 1, remove 1 of this unit’s **Powder Gnoblars** from the battlefield.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

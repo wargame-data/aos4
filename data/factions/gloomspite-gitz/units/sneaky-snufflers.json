@@ -58,7 +58,9 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. Add 1 to the roll if the face of the Bad Moon is **Cacklin'** this turn. On a 3+, the target has **^^Ward (5+)^^** until the start of your next turn. On a 6+, also add 1 to the Attacks characteristic of the target’s melee weapons until the start of your next turn.",
       "phase": "hero",
-      "declare": "If this unit is not in combat, pick a friendly **^^Moonclan^^** unit wholly within 12\" of it to be the target."
+      "declare": "If this unit is not in combat, pick a friendly **^^Moonclan^^** unit wholly within 12\" of it to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

@@ -77,14 +77,18 @@
       "type": "passive",
       "effect": "Pick 1 of the following to apply for the rest of the turn:\n• This unit has **^^Ward (5+)^^**\n• This unit's **Ezechiarian Greatsword** has **Crit (Mortal)**",
       "phase": "combat",
-      "declare": "This unit can use this ability while its **Cado Ezechiar** is on the battlefield."
+      "declare": "This unit can use this ability while its **Cado Ezechiar** is on the battlefield.",
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "Aurelias",
       "type": "passive",
       "effect": "Pick 1 of the following to apply for the rest of the turn:\n• Add 1 to this unit's power level.\n• Each time a casting roll is made for this unit, you can re-roll 1 of the dice.",
       "phase": "hero",
-      "declare": "This unit can use this ability while its **Aurelias** is on the battlefield."
+      "declare": "This unit can use this ability while its **Aurelias** is on the battlefield.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Retribution or Salvation",
@@ -95,7 +99,9 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

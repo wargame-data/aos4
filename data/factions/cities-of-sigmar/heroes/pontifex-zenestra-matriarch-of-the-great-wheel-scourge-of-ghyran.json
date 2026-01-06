@@ -50,7 +50,9 @@
       "type": "passive",
       "effect": "Roll a dice. On a 3+:\n• If the target is a **^^Manifestation^^**, it is banished and removed from the battlefield.. • If the target is a **^^Wizard^^** or **^^Priest^^**, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "hero",
-      "declare": "Pick a visible enemy **^^Wizard^^**, **^^Priest^^** or **^^Manifestation^^** within 18\" of this unit to be the target."
+      "declare": "Pick a visible enemy **^^Wizard^^**, **^^Priest^^** or **^^Manifestation^^** within 18\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Sigmar's Will",
@@ -61,7 +63,9 @@
       "chantingValue": 4,
       "keywords": [
         "**^^PRAYER^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

@@ -83,14 +83,17 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its ** Curved Beak** is 3."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its ** Curved Beak** is 3.",
+      "color": "Black"
     },
     {
       "name": "Summon Daemons of Tzeentch",
       "type": "once-per-turn",
       "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 9\" of this unit and more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Discard 1 destiny dice. Then, pick a friendly non-**^^Hero^^** non-**^^Unique Disciples of Tzeentch Daemon^^** unit that has been destroyed to be the target."
+      "declare": "Discard 1 destiny dice. Then, pick a friendly non-**^^Hero^^** non-**^^Unique Disciples of Tzeentch Daemon^^** unit that has been destroyed to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Rallying"
     },
     {
       "name": "Tzeentch's Firestorm",
@@ -102,12 +105,16 @@
       "keywords": [
         "**^^SPELL^^**",
         "**^^WYRDFLAME^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Locus of Change",
       "type": "passive",
-      "effect": "Subtract 1 from hit rolls for combat attacks that target friendly **^^Disciples of Tzeentch Daemon^^** units while they are wholly within 12\" of this unit."
+      "effect": "Subtract 1 from hit rolls for combat attacks that target friendly **^^Disciples of Tzeentch Daemon^^** units while they are wholly within 12\" of this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": 2,

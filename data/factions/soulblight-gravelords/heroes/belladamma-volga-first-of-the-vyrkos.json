@@ -66,17 +66,23 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "First of the Vyrkos",
       "type": "passive",
-      "effect": "Add 3 to the control scores of friendly **Radukar the Wolf**, **Radukar the Beast**, **Ivya Volga**, **Lady Annika** and **Kritza** units while they are wholly within 18\" of this unit."
+      "effect": "Add 3 to the control scores of friendly **Radukar the Wolf**, **Radukar the Beast**, **Ivya Volga**, **Lady Annika** and **Kritza** units while they are wholly within 18\" of this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     },
     {
       "name": "Wolfguard",
       "type": "passive",
-      "effect": "While this unit is within the combat range of a friendly **Dire Wolves** unit:\n• This unit has **^^Ward (4+)^^**.\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly **Dire Wolves** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points)."
+      "effect": "While this unit is within the combat range of a friendly **Dire Wolves** unit:\n• This unit has **^^Ward (4+)^^**.\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly **Dire Wolves** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": 2,

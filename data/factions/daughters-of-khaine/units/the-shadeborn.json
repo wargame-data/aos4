@@ -61,13 +61,17 @@
       "type": "passive",
       "effect": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick an enemy unit in combat with this unit to be the target."
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "Shadow Leap",
       "type": "passive",
       "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
-      "phase": "movement"
+      "phase": "movement",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

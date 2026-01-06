@@ -50,19 +50,25 @@
       "declare": "Pick this unit and a friendly **Callis and Toll** unit in the same regiment as this unit if those units have not been deployed.",
       "keywords": [
         "**^^DEPLOY^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Emerge from the Shadows",
       "type": "passive",
       "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units. Then, set up the **Callis and Toll** unit that was set up in the shadows with this unit wholly within 6\" of it and more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Pick this unit if it is in the shadows."
+      "declare": "Pick this unit if it is in the shadows.",
+      "color": "Gray",
+      "abilityCategory": "Special"
     },
     {
       "name": "Saviours of Cinderfall",
       "type": "passive",
-      "effect": "While a friendly **Callis and Toll** unit is wholly within this unit’s combat range, both this unit and that **Callis and Toll** unit have **^^Ward (5+)^^**."
+      "effect": "While a friendly **Callis and Toll** unit is wholly within this unit’s combat range, both this unit and that **Callis and Toll** unit have **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

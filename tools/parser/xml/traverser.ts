@@ -450,3 +450,43 @@ export function extractPointsFromEntryLinks(
 
   return pointsMap;
 }
+
+/**
+ * Check if a selection entry group is a lore (spell, prayer, or manifestation)
+ */
+export function isLoreGroup(group: BSSelectionEntryGroup): boolean {
+  const name = group.$.name.toLowerCase();
+  return (
+    name.includes("lore") ||
+    name.includes("manifestation") ||
+    name.includes("prayer lore") ||
+    name.includes("spell lore")
+  );
+}
+
+/**
+ * Find all lore groups in a catalogue
+ */
+export function findLoreGroups(catalogue: BSCatalogue): BSSelectionEntryGroup[] {
+  const lores: BSSelectionEntryGroup[] = [];
+
+  // Check shared selection entry groups
+  if (catalogue.sharedSelectionEntryGroups) {
+    for (const group of catalogue.sharedSelectionEntryGroups) {
+      if (isLoreGroup(group)) {
+        lores.push(group);
+      }
+    }
+  }
+
+  // Check direct selection entry groups
+  if (catalogue.selectionEntryGroups) {
+    for (const group of catalogue.selectionEntryGroups) {
+      if (isLoreGroup(group)) {
+        lores.push(group);
+      }
+    }
+  }
+
+  return lores;
+}

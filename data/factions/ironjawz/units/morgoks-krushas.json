@@ -50,7 +50,9 @@
     {
       "name": "In Their Element",
       "type": "passive",
-      "effect": "The first time an enemy **^^Monster^^** is destroyed by this unit, add 1 to wound rolls for this unit’s attacks for the rest of the battle."
+      "effect": "The first time an enemy **^^Monster^^** is destroyed by this unit, add 1 to wound rolls for this unit’s attacks for the rest of the battle.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

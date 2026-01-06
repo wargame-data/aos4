@@ -44,12 +44,16 @@
     {
       "name": "Fiendish Reflexes",
       "type": "passive",
-      "effect": "If this unit did not charge this turn, it has **^^Ward (5+)^^** while it is in combat."
+      "effect": "If this unit did not charge this turn, it has **^^Ward (5+)^^** while it is in combat.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Ego-driven Excess",
       "type": "passive",
-      "effect": "If this unit did not charge this turn, subtract 1 from the Attacks characteristic of melee weapons used by enemy units while they are in combat with this unit."
+      "effect": "If this unit did not charge this turn, subtract 1 from the Attacks characteristic of melee weapons used by enemy units while they are in combat with this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

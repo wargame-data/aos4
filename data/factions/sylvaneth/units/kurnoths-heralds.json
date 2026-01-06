@@ -58,7 +58,9 @@
     {
       "name": "Graceful Leaps",
       "type": "passive",
-      "effect": "Each time this unit makes a pile-in move:\n• Add 3\" to the distance this unit can move.\n• This unit can pass through models in enemy units."
+      "effect": "Each time this unit makes a pile-in move:\n• Add 3\" to the distance this unit can move.\n• This unit can pass through models in enemy units.",
+      "color": "Red",
+      "abilityCategory": "Movement"
     }
   ]
 }

@@ -53,7 +53,9 @@
       "declare": "Pick this unit and up to 2 friendly **^^Flesh-eater Courts^^** units in this unit's regiment that have not been deployed to be the targets.",
       "keywords": [
         "**^^DEPLOY^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Trespassers!",
@@ -63,7 +65,9 @@
       "declare": "Pick this unit if it is **patrolling the borders**, then pick an enemy unit to be the target.",
       "keywords": [
         "**^^CORE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Defenders of the Kingdom",
@@ -71,7 +75,9 @@
       "effect": "While you believe this **^^Delusion^^** and this unit is on the battlefield, add 1 to charge rolls for friendly **^^Flesh-eater Courts^^** units while they are wholly within 12\" of a friendly **^^Flesh-eater Courts Hero^^**. Add 2 to charge rolls instead if they were set up in the same turn.\nWhen using the 'A Kingdom Deluded' ability, you can pick this **^^Delusion^^** even if this unit is **patrolling the borders**.",
       "keywords": [
         "**^^DELUSION^^**"
-      ]
+      ],
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": 1,

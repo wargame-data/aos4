@@ -58,13 +58,17 @@
     {
       "name": "Forest Fighters",
       "type": "passive",
-      "effect": "This unit has a coherency range of 2\"."
+      "effect": "This unit has a coherency range of 2\".",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Zephyrspites",
       "type": "once-per-turn",
       "effect": "If this unit used a Shoot ability this phase, this unit can move D6\". It cannot end that move in combat.",
-      "phase": "shooting"
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Movement"
     }
   ]
 }

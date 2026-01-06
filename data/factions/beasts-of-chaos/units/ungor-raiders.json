@@ -65,7 +65,9 @@
       "type": "once-per-turn",
       "effect": "Roll a number of dice equal to the number of models in this unit. For each 6, inflict 1 mortal damage on the target. Then, in your next movement phase, set up this unit on the battlefield using the 'Beastherd Ambush' ability. If it is not possible to do so, it is destroyed.",
       "phase": "hero",
-      "declare": "If this unit is in reserve in ambush, pick a non-**^^Hero^^** enemy unit within 12\" of a battlefield edge to be the target."
+      "declare": "If this unit is in reserve in ambush, pick a non-**^^Hero^^** enemy unit within 12\" of a battlefield edge to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ]
 }

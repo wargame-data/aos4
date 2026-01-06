@@ -73,12 +73,16 @@
     {
       "name": "Acid-fuelled Flame",
       "type": "passive",
-      "effect": "Each time this unit uses a **^^Shoot^^** ability, you must pick either its **Glob of Flame Acid** or its **Stream of Fire** ranged weapon.\nIn addition, after resolving shooting attacks made with this unit’s **Glob of Flame Acid**, if any damage points were allocated to an enemy unit by those attacks, subtract 1 from save rolls for that enemy unit for the rest of the turn."
+      "effect": "Each time this unit uses a **^^Shoot^^** ability, you must pick either its **Glob of Flame Acid** or its **Stream of Fire** ranged weapon.\nIn addition, after resolving shooting attacks made with this unit’s **Glob of Flame Acid**, if any damage points were allocated to an enemy unit by those attacks, subtract 1 from save rolls for that enemy unit for the rest of the turn.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Sun Acolytes",
       "type": "passive",
-      "effect": "This unit has a crew of 3 **Sun Acolytes** that are tokens. Add 1 to this unit’s control score for each **Sun Acolyte** it has. If this unit has no **Sun Acolytes**, it has a maximum control score of 1 for the rest of the battle.\nEach time you make an unmodified save roll of 1 for this unit, remove 1 of its **Sun Acolytes** from the battlefield after the **^^Attack^^** ability has been resolved (the damage point is still inflicted)."
+      "effect": "This unit has a crew of 3 **Sun Acolytes** that are tokens. Add 1 to this unit’s control score for each **Sun Acolyte** it has. If this unit has no **Sun Acolytes**, it has a maximum control score of 1 for the rest of the battle.\nEach time you make an unmodified save roll of 1 for this unit, remove 1 of its **Sun Acolytes** from the battlefield after the **^^Attack^^** ability has been resolved (the damage point is still inflicted).",
+      "color": "Purple",
+      "abilityCategory": "Control"
     }
   ]
 }

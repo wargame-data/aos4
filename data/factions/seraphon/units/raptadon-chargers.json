@@ -63,7 +63,9 @@
     {
       "name": "Cold-blooded Unity",
       "type": "passive",
-      "effect": "Add 1 to hit rolls for this unit’s combat attacks if they target an enemy unit that was targeted by shooting attacks made by a friendly **Raptadon Hunters** unit in the same turn."
+      "effect": "Add 1 to hit rolls for this unit’s combat attacks if they target an enemy unit that was targeted by shooting attacks made by a friendly **Raptadon Hunters** unit in the same turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

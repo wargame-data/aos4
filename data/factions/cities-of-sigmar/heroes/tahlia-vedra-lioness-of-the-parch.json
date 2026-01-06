@@ -74,19 +74,24 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Infernadine’s Leonine Jaws** is 2."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Infernadine’s Leonine Jaws** is 2.",
+      "color": "Black"
     },
     {
       "name": "Unparalleled Tactician",
       "type": "passive",
-      "effect": "When this unit uses an **^^Officar’s Order^^** ability, you can pick an additional friendly **^^Cities of Sigmar^^** unit wholly within 12\" of this unit to be a target of that ability"
+      "effect": "When this unit uses an **^^Officar’s Order^^** ability, you can pick an additional friendly **^^Cities of Sigmar^^** unit wholly within 12\" of this unit to be a target of that ability",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Lead from the Front",
       "type": "once-per-battle",
       "effect": "For each target:\n• Add 1 to wound rolls for combat attacks made by that unit for the rest of the turn.\n• That unit has **^^Ward (5+)^^** for the rest of the turn.",
       "phase": "combat",
-      "declare": "If this unit is in combat, pick up to 3 other friendly **^^Cities of Sigmar^^** units wholly within 12\" of this unit to be the targets."
+      "declare": "If this unit is in combat, pick up to 3 other friendly **^^Cities of Sigmar^^** units wholly within 12\" of this unit to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Rallying"
     },
     {
       "name": "Paralysing Venom",
@@ -96,7 +101,9 @@
       "declare": "Pick an enemy **^^Monster^^** that charged this turn and is in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

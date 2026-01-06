@@ -48,7 +48,9 @@
     {
       "name": "Fortitude of the Earth",
       "type": "passive",
-      "effect": "This unit has **^^Ward (5+)^^** while all of its models are contesting an objective you control."
+      "effect": "This unit has **^^Ward (5+)^^** while all of its models are contesting an objective you control.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

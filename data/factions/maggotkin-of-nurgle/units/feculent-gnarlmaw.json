@@ -45,7 +45,9 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 4+, the target has the **^^Diseased^^** keyword.",
       "phase": "any",
-      "declare": "Pick an enemy unit within 6\" of this terrain feature to be the target."
+      "declare": "Pick an enemy unit within 6\" of this terrain feature to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Special"
     }
   ]
 }

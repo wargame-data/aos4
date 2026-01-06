@@ -48,7 +48,9 @@
     {
       "name": "Disposable Lackeys",
       "type": "passive",
-      "effect": "This unit can immediately use the 'Normal Move' ability as if it were your movement phase."
+      "effect": "This unit can immediately use the 'Normal Move' ability as if it were your movement phase.",
+      "color": "Black",
+      "abilityCategory": "Movement"
     }
   ]
 }

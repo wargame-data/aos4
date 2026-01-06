@@ -49,7 +49,9 @@
       "type": "passive",
       "effect": "Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s melee weapons for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick a friendly **^^Alarith Aelf^^** unit wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly **^^Alarith Aelf^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Living Fissure",
@@ -60,7 +62,9 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

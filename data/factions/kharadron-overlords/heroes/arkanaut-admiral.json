@@ -60,14 +60,18 @@
       "type": "once-per-turn",
       "effect": "For the rest of the phase, each time the target uses a **^^Shoot^^** ability, you can re-roll 1 of the hit rolls made for that ability.",
       "phase": "shooting",
-      "declare": "Pick a friendly **^^Flagship^^** wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly **^^Flagship^^** wholly within 12\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "'Bring Every Gun to Bear!'",
       "type": "once-per-turn",
       "effect": "For the rest of the turn, add 1 to the Attacks characteristic of the target’s ranged weapons.",
       "phase": "shooting",
-      "declare": "Pick a friendly **Skyvessel** wholly within 24\" of this unit to be the target."
+      "declare": "Pick a friendly **Skyvessel** wholly within 24\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ],
   "isWizard": null,

@@ -59,12 +59,15 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Butchering Blades** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Butchering Blades** is 4.",
+      "color": "Black"
     }
   ]
 }

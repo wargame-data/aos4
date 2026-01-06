@@ -57,12 +57,16 @@
       "name": "Sniffer Spite",
       "type": "passive",
       "effect": "If this unit’s **Zarbag** is on the battlefield and within 3\" of a terrain feature, roll a dice. On a 4+, add 1 to this unit’s power level for the rest of the turn.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Zarbag",
       "type": "passive",
-      "effect": "While this unit’s **Zarbag** is on the battlefield, it has **^^Wizard (1)^^**."
+      "effect": "While this unit’s **Zarbag** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

@@ -60,20 +60,26 @@
     {
       "name": "Spear of the Kavaloi",
       "type": "passive",
-      "effect": "When this unit uses a **^^Charge^^** ability, it can pass through models in enemy **^^Infantry^^** units as if it had **^^Fly^^**."
+      "effect": "When this unit uses a **^^Charge^^** ability, it can pass through models in enemy **^^Infantry^^** units as if it had **^^Fly^^**.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Unstoppable Charge",
       "type": "passive",
       "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "charge",
-      "declare": "If this unit charged this phase, pick an enemy **^^Infantry^^** unit that it passed across to be the target."
+      "declare": "If this unit charged this phase, pick an enemy **^^Infantry^^** unit that it passed across to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Still Their Breath!",
       "type": "once-per-battle",
       "effect": "If this unit is in combat, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly non-**^^Hero Ossiarch Bonereapers^^** units while they are wholly within 12\" of this unit.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

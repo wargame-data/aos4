@@ -72,7 +72,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Whippermaw's Claws and Maw** is 3."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Whippermaw's Claws and Maw** is 3.",
+      "color": "Black"
     },
     {
       "name": "Grasping Tongue",
@@ -82,12 +83,16 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Acid Ichor",
       "type": "passive",
-      "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
+      "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+      "color": "Green",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

@@ -52,7 +52,9 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, the target has **^^Ward (5+)^^** for the rest of the turn.",
       "phase": "hero",
-      "declare": "Pick a friendly **^^Daughters of Khaine^^** unit wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly **^^Daughters of Khaine^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

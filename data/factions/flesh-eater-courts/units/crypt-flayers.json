@@ -62,7 +62,9 @@
       "name": "To Our Liege",
       "type": "once-per-turn",
       "effect": "If this unit is not in combat, remove it from the battlefield and set it up again wholly within 12\" of a friendly **^^Flesh-eater Courts Hero^^** and more than 9\" from all enemy units.",
-      "phase": "movement"
+      "phase": "movement",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

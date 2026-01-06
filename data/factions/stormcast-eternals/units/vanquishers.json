@@ -51,7 +51,9 @@
     {
       "name": "Lightning Strikes",
       "type": "passive",
-      "effect": "Add 1 to the Damage characteristic of this unit’s **Celestial Greatswords** for attacks that target an enemy unit that has 5 or more models."
+      "effect": "Add 1 to the Damage characteristic of this unit’s **Celestial Greatswords** for attacks that target an enemy unit that has 5 or more models.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

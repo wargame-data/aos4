@@ -63,7 +63,9 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. If the roll is equal to or less than that enemy unit’s Health characteristic, for the rest of the phase, you can re-roll failed hit rolls for attacks made by this unit that target that enemy unit.",
       "phase": "shooting",
-      "declare": "Pick a visible enemy unit within 15\" of this unit to be the target."
+      "declare": "Pick a visible enemy unit within 15\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Reflected Agony",
@@ -71,7 +73,9 @@
       "effect": "Until the start of your next turn, enemy units and enemy **^^Manifestations^^** cannot be set up within 12\" of this unit.",
       "phase": "hero",
       "declare": "Make a casting roll of 2D6.",
-      "castingValue": 5
+      "castingValue": 5,
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 2,

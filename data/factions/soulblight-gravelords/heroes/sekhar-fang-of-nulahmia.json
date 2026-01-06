@@ -69,19 +69,25 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Serpentine Agility",
       "type": "passive",
-      "effect": "If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends."
+      "effect": "If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "The Time-swallower's Maw",
       "type": "once-per-battle",
       "effect": "This unit cannot use the ‘Serpentine Agility’ ability for the rest of the battle. Roll 2D6 for each target. If the roll exceeds the target’s Move characteristic, inflict an amount of mortal damage on the target equal to the difference between the roll and its Move characteristic.",
       "phase": "combat",
-      "declare": "Pick each enemy unit in combat with this unit to be the targets."
+      "declare": "Pick each enemy unit in combat with this unit to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 2,

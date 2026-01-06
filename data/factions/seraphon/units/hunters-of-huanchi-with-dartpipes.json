@@ -65,21 +65,27 @@
       "declare": "Pick this unit if it has not been deployed.",
       "keywords": [
         "**^^DEPLOY^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Star-venom",
       "type": "passive",
       "effect": "Roll a dice. On a 2+, subtract 1 from wound rolls for the target’s combat attacks for the rest of the turn.",
       "phase": "shooting",
-      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Dartpipe** to be the target."
+      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Dartpipe** to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Chameleon Ambush",
       "type": "passive",
       "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Pick this unit if it is **in ambush**."
+      "declare": "Pick this unit if it is **in ambush**.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

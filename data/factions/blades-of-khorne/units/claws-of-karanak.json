@@ -48,12 +48,16 @@
     {
       "name": "The Scent of Blood",
       "type": "passive",
-      "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase."
+      "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase.",
+      "color": "Black",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Pack Hunters",
       "type": "passive",
-      "effect": "While this unit is wholly within 12\" of a friendly **Flesh Hounds** unit or a friendly **Karanak**, this unit’s combat attacks score critical hits on unmodified hit rolls of 5+."
+      "effect": "While this unit is wholly within 12\" of a friendly **Flesh Hounds** unit or a friendly **Karanak**, this unit’s combat attacks score critical hits on unmodified hit rolls of 5+.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

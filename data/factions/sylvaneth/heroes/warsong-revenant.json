@@ -47,7 +47,9 @@
     {
       "name": "Wyldwood Revenants",
       "type": "passive",
-      "effect": "Add 1 to unbinding rolls and banishment rolls for this unit while it is wholly within 6\" of any **Awakened Wyldwoods**."
+      "effect": "Add 1 to unbinding rolls and banishment rolls for this unit while it is wholly within 6\" of any **Awakened Wyldwoods**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Unleash Swarm of Spites",
@@ -58,12 +60,16 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Alarielle's Song",
       "type": "passive",
-      "effect": "Friendly **^^Sylvaneth^^** units have **^^Ward (6+)^^** while they are wholly within 12\" of this unit. Subtract 1 from ward rolls for enemy units while they are within 12\" of this unit."
+      "effect": "Friendly **^^Sylvaneth^^** units have **^^Ward (6+)^^** while they are wholly within 12\" of this unit. Subtract 1 from ward rolls for enemy units while they are within 12\" of this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": 2,

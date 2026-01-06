@@ -67,7 +67,9 @@
     {
       "name": "Crushing Onslaught",
       "type": "passive",
-      "effect": "If the unmodified charge roll for this unit is 8+:\n• For the rest of the phase, this unit can pass through models in enemy units.\n• Enemy **Cavalry^^** units passed through by this unit in this phase cannot make pile-in moves for the rest of the turn."
+      "effect": "If the unmodified charge roll for this unit is 8+:\n• For the rest of the phase, this unit can pass through models in enemy units.\n• Enemy **Cavalry^^** units passed through by this unit in this phase cannot make pile-in moves for the rest of the turn.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ]
 }

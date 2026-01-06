@@ -66,7 +66,9 @@
     {
       "name": "Glory Shots",
       "type": "passive",
-      "effect": "Add 1 to the Rend characteristic of this unit’s ranged weapons for attacks that target units contesting an objective you do not control."
+      "effect": "Add 1 to the Rend characteristic of this unit’s ranged weapons for attacks that target units contesting an objective you do not control.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

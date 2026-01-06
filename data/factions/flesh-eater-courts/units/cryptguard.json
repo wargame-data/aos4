@@ -54,13 +54,17 @@
     {
       "name": "Royal Bodyguard",
       "type": "passive",
-      "effect": "While any friendly non-**^^Monster Flesh-eater Courts Heroes^^** are wholly within this unit’s combat range, both this unit and those **^^Heroes^^** have **^^Ward (5+)^^**."
+      "effect": "While any friendly non-**^^Monster Flesh-eater Courts Heroes^^** are wholly within this unit’s combat range, both this unit and those **^^Heroes^^** have **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Elite Guardians",
       "type": "once-per-turn",
       "effect": "If this unit is in combat with any enemy units that charged this turn, roll a dice. On a 3+, for the rest of the turn, this unit has **^^Strike-first^^** but ward rolls cannot be made for it.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

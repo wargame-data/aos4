@@ -51,7 +51,9 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, until the start of your next turn, each time the target uses a **^^Spell^^** or **^^Unbind^^** ability, this unit gains 1 ritual point.",
       "phase": "hero",
-      "declare": "Pick an enemy **^^Wizard^^** within 24\" of this unit to be the target."
+      "declare": "Pick an enemy **^^Wizard^^** within 24\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

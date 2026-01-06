@@ -67,12 +67,15 @@
     {
       "name": "Terror",
       "type": "passive",
-      "effect": "Subtract 2 from the control scores of enemy units while they are in combat with this unit."
+      "effect": "Subtract 2 from the control scores of enemy units while they are in combat with this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     },
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Carnosaur’s Massive Jaws** is 2."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Carnosaur’s Massive Jaws** is 2.",
+      "color": "Black"
     },
     {
       "name": "Maim and Tear",
@@ -82,7 +85,9 @@
       "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

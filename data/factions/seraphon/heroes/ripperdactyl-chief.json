@@ -62,18 +62,24 @@
       "name": "Blot Toad",
       "type": "once-per-battle",
       "effect": "Place a **Blot Toad** next to each target.",
-      "declare": "You receive 1 **Blot Toad** token for each **Ripperdactyl Chief** or **Ripperdactyl Riders** unit in your army, to a maximum of 3 tokens. Pick a number of enemy units equal to the number of **Blot Toads** you have to be the targets."
+      "declare": "You receive 1 **Blot Toad** token for each **Ripperdactyl Chief** or **Ripperdactyl Riders** unit in your army, to a maximum of 3 tokens. Pick a number of enemy units equal to the number of **Blot Toads** you have to be the targets.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Toad Rage",
       "type": "passive",
-      "effect": "Add 1 to the Attacks characteristic of this unit’s **Ripperdactyl’s Tearing Jaws** while it is in combat with any units that have a Blot Toad."
+      "effect": "Add 1 to the Attacks characteristic of this unit’s **Ripperdactyl’s Tearing Jaws** while it is in combat with any units that have a Blot Toad.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Ripperdactyl Assault",
       "type": "once-per-battle",
       "effect": "Add 1 to the Attacks characteristic of **Moonstone Warspears** used by friendly **Ripperdactyl Riders** units wholly within 12\" of this unit for the rest of the turn.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

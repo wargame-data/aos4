@@ -65,12 +65,16 @@
       "castingValue": 6,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Nightmare's Miasma",
       "type": "passive",
-      "effect": "Subtract 1 from the Rend characteristic of melee weapons used by enemy units while they are in combat with this unit."
+      "effect": "Subtract 1 from the Rend characteristic of melee weapons used by enemy units while they are in combat with this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Impaling Talons",
@@ -80,7 +84,9 @@
       "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

@@ -66,7 +66,9 @@
       "type": "passive",
       "effect": "If the target is a friendly unit, add 5 to the target’s control score for the rest of the turn. If the target is an enemy unit, subtract 5 from the target’s control score for the rest of the turn.",
       "phase": "any",
-      "declare": "Pick a visible unit within 18\" of this unit to be the target."
+      "declare": "Pick a visible unit within 18\" of this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     },
     {
       "name": "Enthralling Splendour",
@@ -76,7 +78,9 @@
       "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Orange",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Whispers of Doubt",
@@ -87,12 +91,16 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Progeny of Slaanesh",
       "type": "passive",
-      "effect": "While a friendly **Dexcessa** is on the battlefield, add 1 to this unit’s power level."
+      "effect": "While a friendly **Dexcessa** is on the battlefield, add 1 to this unit’s power level.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 1,

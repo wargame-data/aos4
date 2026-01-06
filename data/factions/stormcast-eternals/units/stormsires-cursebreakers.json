@@ -50,14 +50,18 @@
     {
       "name": "Averon Stormsire",
       "type": "passive",
-      "effect": "While this unit’s **Averon Stormsire** is on the battlefield, it has **^^Wizard (1)^^**."
+      "effect": "While this unit’s **Averon Stormsire** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Overwhelming Storm",
       "type": "passive",
       "effect": "For the rest of the phase, add 1 to wound rolls for the target’s combat attacks.",
       "phase": "combat",
-      "declare": "If this unit is contesting an objective that you control, pick a friendly non-**^^Hero Stormcast Eternals Infantry^^** unit within 12\" of this unit to be the target."
+      "declare": "If this unit is contesting an objective that you control, pick a friendly non-**^^Hero Stormcast Eternals Infantry^^** unit within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

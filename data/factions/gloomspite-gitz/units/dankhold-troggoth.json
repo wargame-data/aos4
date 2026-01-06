@@ -46,18 +46,24 @@
       "phase": "combat",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Magical Resistance",
       "type": "reaction",
-      "effect": "If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit."
+      "effect": "If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Regeneration",
       "type": "passive",
       "effect": "**Heal (D3)** this unit.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Black",
+      "abilityCategory": "Defensive"
     }
   ]
 }

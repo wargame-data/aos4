@@ -47,7 +47,9 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 2+, pick 1 of the following effects to apply for the rest of the turn:\n***A-Stabbing We Will Go!:*** Add 1 to wound rolls for the target’s attacks.\n***Early One Evening My Pustule Was Seeping:*** Ward rolls cannot be made for damage points inflicted by the target’s combat attacks.\n***My Love Is Like a Ripe, Ripe Fart:*** Subtract 1 from hit rolls for attacks made by enemy units that target the target unit.",
       "phase": "combat",
-      "declare": "Pick a visible friendly **^^Maggotkin of Nurgle Daemon^^** unit wholly within 12\" of this unit to be the target."
+      "declare": "Pick a visible friendly **^^Maggotkin of Nurgle Daemon^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

@@ -50,7 +50,9 @@
       "type": "once-per-turn",
       "effect": "On a 3+, that objective is considered by you to be consecrated. While each model in a friendly **^^Cities of Sigmar Human^^** unit is contesting a consecrated objective, that unit has **^^Ward (5+)^^**. If your opponent gains control of a consecrated objective, it is no longer consecrated.",
       "phase": "movement",
-      "declare": "If this unit is contesting an objective you control that is not contested by any enemy models, roll a dice."
+      "declare": "If this unit is contesting an objective you control that is not contested by any enemy models, roll a dice.",
+      "color": "Gray",
+      "abilityCategory": "Special"
     }
   ]
 }

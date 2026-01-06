@@ -65,7 +65,9 @@
       "name": "The Thirteen-headed One",
       "type": "passive",
       "effect": "Pick 1 of the following effects to apply until the start of your next turn. You cannot pick the same effect more than once per battle.\n***Master of Dire Sorcery:*** Add 1 to casting rolls for friendly **^^Masterclan Wizards^^** while they are wholly within 13\" of this unit.\n***Commander of Vermin:*** Add 1 to charge rolls for friendly **^^Verminus^^** units while they are wholly within 13\" of this unit.\n***Knower of Warp-tech:*** Add 1 to hit rolls for shooting attacks made by friendly **^^Skryre^^** units while they are wholly within 13\" of this unit.\n***Deliverer of Weeping Blades:*** Add 1 to the Rend characteristic of melee weapons used by friendly **^^Eshin^^** units while they are wholly within 13\" of this unit.\n***Bringer of Plagues:*** Add 1 to chanting rolls for friendly **^^Pestilens Priests^^** while they are wholly within 13\" of this unit.\n***Shaper of Fleshcraft:*** **Heal (D3)** each friendly **^^Moulder^^** unit wholly within 13\" of this unit.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Terrifying Monstrosity",
@@ -75,7 +77,9 @@
       "declare": "Pick an enemy **^^Infantry^^** unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
     },
     {
       "name": "The Dreaded Thirteenth Spell",
@@ -86,7 +90,9 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": 2,

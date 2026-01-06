@@ -48,7 +48,9 @@
     {
       "name": "World Banner",
       "type": "passive",
-      "effect": "Add 3 to the control scores of other friendly **^^Lumineth Realm‑lords^^** units while they are wholly within 18\" of this unit."
+      "effect": "Add 3 to the control scores of other friendly **^^Lumineth Realm‑lords^^** units while they are wholly within 18\" of this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     }
   ],
   "isWizard": null,

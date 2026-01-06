@@ -54,7 +54,9 @@
     {
       "name": "Gather the Aether",
       "type": "passive",
-      "effect": "Add 1 to this unit’s power level while it is contesting an objective."
+      "effect": "Add 1 to this unit’s power level while it is contesting an objective.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Aethershock",
@@ -65,7 +67,9 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

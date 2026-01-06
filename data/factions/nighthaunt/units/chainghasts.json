@@ -50,7 +50,9 @@
       "name": "Another Link in the Chain",
       "type": "passive",
       "effect": "Roll a dice. Add 1 to the roll if this unit is wholly within 12\" of any friendly **Spirit Torments**. On a 3+, for the rest of the turn, add 1 to hit rolls for combat attacks made by friendly **^^Nighthaunt^^** units while they are wholly within 12\" of this unit.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

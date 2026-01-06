@@ -1,0 +1,43 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "spell-lore-petrifex-elite",
+  "name": "Spell Lore: Petrifex Elite",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Hard as Diamond",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Subtract 1 from wound rolls for attacks that target that unit until the start of your next turn.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Petrifex Elite Wizard^^** to cast this spell, pick a visible friendly unit wholly within 12\" of them to be the target, then make a casting roll of 2D6."
+    },
+    {
+      "name": "Skeletal Grasp",
+      "castingValue": 8,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn:\n• Halve the target's Move characteristic\n• Subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Petrifex Elite Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6."
+    },
+    {
+      "name": "Tremors From the Entombed",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "If the target is a terrain feature, roll a D3 for each unit (friendly or enemy) within 3\" of it. On a 2+. inflict an amount of mortal damage on that unit equal to the roll.\nIf the unit is a faction terrain feature, inflict 2D6 mortal damage on it, If the target is destroyed, before removing it from play, roll a D3 for each unit (friendly or enemy) within 3\" of it. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Petrifex Elite Wizard^^** to cast this spell, pick a terrain feature or faction terrain feature within 12\" of them to be the target, then make a casting roll of 2D6."
+    }
+  ]
+}

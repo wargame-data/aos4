@@ -1,0 +1,25 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "spell-lore-the-great-grand-gnawhorde",
+  "name": "Spell Lore: The Great-grand Gnawhorde",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Deafening Frenzy",
+      "castingValue": 8,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn:\n• The target has **^^Strike-first^^**.\n• The target cannot use commands.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Gnawhorde Wizard^^** to cast this spell, pick a visible friendly **^^Gnawhorde Infantry^^** unit wholly within 13\" of them to be the target, then make a casting roll of 2D6. The casting roll for this spell cannot be modified.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ]
+}

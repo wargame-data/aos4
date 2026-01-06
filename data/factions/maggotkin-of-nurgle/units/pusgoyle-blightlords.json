@@ -61,12 +61,16 @@
     {
       "name": "Relentless Attackers",
       "type": "passive",
-      "effect": "Add 1 to the Rend characteristic of this unit’s **Flyrider’s Arsenal** for attacks that target units contesting an objective you do not control."
+      "effect": "Add 1 to the Rend characteristic of this unit’s **Flyrider’s Arsenal** for attacks that target units contesting an objective you do not control.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Dispersed Formation",
       "type": "passive",
-      "effect": "This unit has a coherency range of 2\"."
+      "effect": "This unit has a coherency range of 2\".",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ]
 }

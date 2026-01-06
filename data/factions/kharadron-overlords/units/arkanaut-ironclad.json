@@ -68,24 +68,31 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "combat",
-      "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target."
+      "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Great Sky Ordnance** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Great Sky Ordnance** is 4.",
+      "color": "Black"
     },
     {
       "name": "Heavy Bomb Racks",
       "type": "passive",
       "effect": "Roll 10 dice. For each 4+, inflict 1 mortal damage on the target.",
       "phase": "movement",
-      "declare": "Pick an enemy unit that does not have **^^Fly^^** and that this unit passed across this phase to be the target."
+      "declare": "Pick an enemy unit that does not have **^^Fly^^** and that this unit passed across this phase to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Transport Capacity",
       "type": "passive",
-      "effect": "This unit can transport up to 3 friendly **^^Kharadron Overlords Infantry^^** units with a combined model count of up to 22 (see Battle Traits)."
+      "effect": "This unit can transport up to 3 friendly **^^Kharadron Overlords Infantry^^** units with a combined model count of up to 22 (see Battle Traits).",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ]
 }

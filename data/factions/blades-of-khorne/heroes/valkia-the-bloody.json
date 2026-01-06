@@ -55,19 +55,25 @@
       "declare": "Pick this unit if it has not been deployed.",
       "keywords": [
         "**^^DEPLOY^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "The Red Angel of Slaughter",
       "type": "passive",
       "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units. Then, pick a visible enemy unit within 10\" of this unit and roll a dice. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
       "phase": "movement",
-      "declare": "Pick this unit if it is **soaring above the battlefield**."
+      "declare": "Pick this unit if it is **soaring above the battlefield**.",
+      "color": "Gray",
+      "abilityCategory": "Special"
     },
     {
       "name": "The Gaze of Khorne",
       "type": "passive",
-      "effect": "If a friendly **^^Bloodbound^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6. However, friendly **^^Bloodbound^^** units cannot use **^^Retreat^^** abilities while they are within 12\" of this unit."
+      "effect": "If a friendly **^^Bloodbound^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6. However, friendly **^^Bloodbound^^** units cannot use **^^Retreat^^** abilities while they are within 12\" of this unit.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

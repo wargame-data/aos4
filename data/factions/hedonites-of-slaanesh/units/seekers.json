@@ -65,7 +65,9 @@
     {
       "name": "Quicksilver Speed",
       "type": "passive",
-      "effect": "When making run rolls for this unit, if you roll a 1-3, you can use a value of 4 instead."
+      "effect": "When making run rolls for this unit, if you roll a 1-3, you can use a value of 4 instead.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

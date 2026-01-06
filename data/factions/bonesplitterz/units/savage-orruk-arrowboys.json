@@ -67,7 +67,9 @@
       "type": "once-per-battle",
       "effect": "Roll a dice. Add 1 to the roll if the target is a **^^Beast^^** or **^^Cavalry^^** unit, or add 2 to the roll if the target is a **^^Monster^^**. On a 4+, subtract 1 from the Attacks characteristic of the target’s **Companion** weapons for the rest of the turn.",
       "phase": "shooting",
-      "declare": "If all of the attacks made with this unit’s **Stinga Bows** this turn targeted the same enemy unit, pick that enemy unit to be the target."
+      "declare": "If all of the attacks made with this unit’s **Stinga Bows** this turn targeted the same enemy unit, pick that enemy unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Offensive"
     }
   ]
 }

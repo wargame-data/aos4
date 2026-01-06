@@ -72,12 +72,16 @@
     {
       "name": "Supreme Swordmaster",
       "type": "passive",
-      "effect": "Ignore negative modifiers to hit rolls and wound rolls for this unit’s attacks. In addition, ignore negative modifiers to the characteristics of this unit’s melee weapons."
+      "effect": "Ignore negative modifiers to hit rolls and wound rolls for this unit’s attacks. In addition, ignore negative modifiers to the characteristics of this unit’s melee weapons.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Spirit Armour",
       "type": "passive",
-      "effect": "Ignore all modifiers to save rolls for this unit (positive and negative)."
+      "effect": "Ignore all modifiers to save rolls for this unit (positive and negative).",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

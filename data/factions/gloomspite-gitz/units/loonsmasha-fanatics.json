@@ -42,7 +42,9 @@
     {
       "name": "Whirling Death",
       "type": "passive",
-      "effect": "This unit has **^^Strike-first^^**."
+      "effect": "This unit has **^^Strike-first^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Hidden Loons",
@@ -51,14 +53,18 @@
       "declare": "Pick this unit if it has not been deployed.",
       "keywords": [
         "**^^DEPLOY^^**"
-      ]
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Release the Fanatics!",
       "type": "passive",
       "effect": "Set up this unit anywhere on the battlefield wholly within 6\" of the target and more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Pick this unit if it is **hidden among the mobs**. Then, pick a friendly **Moonclan Shootas** or **Moonclan Stabbas** unit that has 10 or more models to be the target."
+      "declare": "Pick this unit if it is **hidden among the mobs**. Then, pick a friendly **Moonclan Shootas** or **Moonclan Stabbas** unit that has 10 or more models to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

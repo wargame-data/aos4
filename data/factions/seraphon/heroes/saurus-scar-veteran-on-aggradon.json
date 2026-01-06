@@ -59,14 +59,18 @@
       "name": "Primal Rage",
       "type": "passive",
       "effect": "This unit must use this ability each turn.\nIf this unit used any **^^Fight^^** abilities this turn, place a **rage token** next to it, to a maximum of 3. If this unit did not use any **^^Fight^^** abilities this turn, remove all **rage tokens** it has.\nAdd 1 to the Attacks characteristic of this unit’s **Companion** weapons for each **rage token** it has until the end of the next turn.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Alpha Roar",
       "type": "once-per-battle",
       "effect": "Add 1 to the Attacks characteristic of the targets’ **Companion** weapons for the rest of the turn. In addition, place a **rage token** next to each target, to a maximum of 3 per unit.",
       "phase": "combat",
-      "declare": "Pick this unit and each friendly **Aggradon Lancers** unit wholly within 12\" of it to be the targets."
+      "declare": "Pick this unit and each friendly **Aggradon Lancers** unit wholly within 12\" of it to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

@@ -77,7 +77,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Bigteef’s Fists and Tail** is 6."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Bigteef’s Fists and Tail** is 6.",
+      "color": "Black"
     },
     {
       "name": "Monster Grapple",
@@ -87,18 +88,24 @@
       "declare": "Pick an enemy **^^Monster^^** in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Voice of Gork",
       "type": "reaction",
-      "effect": "Until the start of your next turn, add 1 to hit rolls for combat attacks made by friendly **^^Ironjawz^^** units while they are wholly within 18\" of this unit."
+      "effect": "Until the start of your next turn, add 1 to hit rolls for combat attacks made by friendly **^^Ironjawz^^** units while they are wholly within 18\" of this unit.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Strength From Victory",
       "type": "passive",
       "effect": "If any damage points were allocated to an enemy unit by this unit’s combat attacks this turn and that enemy unit has been destroyed, give this unit a **Waaagh! token**, to a maximum of 3.\nUntil the end of the next turn, add 1 to the Attacks characteristic of this unit’s weapons for each **Waaagh! token** it has.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

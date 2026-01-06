@@ -52,7 +52,9 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s melee weapons until the start of your next turn.",
       "phase": "hero",
-      "declare": "Pick a friendly **Gothizzar Harvester**, **Morghast Archai** or **Morghast Harbingers** unit wholly within 12\" of this unit to be the target."
+      "declare": "Pick a friendly **Gothizzar Harvester**, **Morghast Archai** or **Morghast Harbingers** unit wholly within 12\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

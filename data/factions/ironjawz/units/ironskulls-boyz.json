@@ -48,7 +48,9 @@
     {
       "name": "Dead 'Ard",
       "type": "passive",
-      "effect": "Subtract 1 from wound rolls for attacks that target this unit."
+      "effect": "Subtract 1 from wound rolls for attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

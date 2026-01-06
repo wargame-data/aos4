@@ -58,19 +58,25 @@
     {
       "name": "Klaq-Trok",
       "type": "passive",
-      "effect": "While this unit’s **Klaq-Trok** is on the battlefield, ignore the first damage point that would be allocated to this unit each phase."
+      "effect": "While this unit’s **Klaq-Trok** is on the battlefield, ignore the first damage point that would be allocated to this unit each phase.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Kixi-Taka, the Diviner",
       "type": "passive",
-      "effect": "While this unit’s **Kixi-Taka, the Diviner** is on the battlefield, it has **^^Wizard (1)^^**."
+      "effect": "While this unit’s **Kixi-Taka, the Diviner** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Otapatl's Dartpipe",
       "type": "passive",
       "effect": "Roll a dice. On a 4+, inflict 1 mortal damage on the target.",
       "phase": "shooting",
-      "declare": "If this unit’s **Otapatl** is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target."
+      "declare": "If this unit’s **Otapatl** is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Control"
     }
   ]
 }

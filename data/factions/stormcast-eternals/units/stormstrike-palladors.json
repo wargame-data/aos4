@@ -64,7 +64,9 @@
     {
       "name": "Ride for Vengeance",
       "type": "passive",
-      "effect": "If any friendly **^^Warrior Chamber^^** units have been destroyed this battle:\n• You can re-roll charge rolls for this unit.\n• This unit has **^^Strike-first^^** if it charged in the same turn."
+      "effect": "If any friendly **^^Warrior Chamber^^** units have been destroyed this battle:\n• You can re-roll charge rolls for this unit.\n• This unit has **^^Strike-first^^** if it charged in the same turn.",
+      "color": "Orange",
+      "abilityCategory": "Special"
     }
   ]
 }

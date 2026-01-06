@@ -49,12 +49,16 @@
     {
       "name": "Lust for Violence",
       "type": "reaction",
-      "effect": "Pick a friendly **Daemonettes** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved."
+      "effect": "Pick a friendly **Daemonettes** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Lithe and Swift",
       "type": "passive",
-      "effect": "Add 1 to the Attacks characteristic of this unit’s **Ravaging Claws** for the rest of the turn if this unit charged in the same turn."
+      "effect": "Add 1 to the Attacks characteristic of this unit’s **Ravaging Claws** for the rest of the turn if this unit charged in the same turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

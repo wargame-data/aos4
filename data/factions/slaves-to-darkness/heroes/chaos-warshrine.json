@@ -59,7 +59,8 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Flailing Fists** is 4."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Flailing Fists** is 4.",
+      "color": "Black"
     },
     {
       "name": "Favour of Chaos",
@@ -70,12 +71,16 @@
       "chantingValue": 4,
       "keywords": [
         "**^^PRAYER^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Protection of the Dark Gods",
       "type": "passive",
-      "effect": "Friendly **^^Warriors of Chaos^^** units have **^^Ward (6+)^^** while they are wholly within 12\" of this unit."
+      "effect": "Friendly **^^Warriors of Chaos^^** units have **^^Ward (6+)^^** while they are wholly within 12\" of this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

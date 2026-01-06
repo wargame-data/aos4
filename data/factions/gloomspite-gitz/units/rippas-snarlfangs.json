@@ -61,12 +61,16 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. Add 1 to the roll if the target is damaged. On a 5+, inflict 1 mortal damage on the target.",
       "phase": "shooting",
-      "declare": "If this unit’s **Mean-eye** is on the battlefield and not in combat, pick a visible enemy unit within 15\" of this unit to be the target."
+      "declare": "If this unit’s **Mean-eye** is on the battlefield and not in combat, pick a visible enemy unit within 15\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Marking Your Territory",
       "type": "passive",
-      "effect": "Add 1 to the Rend characteristic of this unit’s **Wolfgit Weapons** while it cons an objective you control that is not contested by any other friendly units."
+      "effect": "Add 1 to the Rend characteristic of this unit’s **Wolfgit Weapons** while it cons an objective you control that is not contested by any other friendly units.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

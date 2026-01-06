@@ -72,18 +72,24 @@
       "keywords": [
         "**^^CORE^^**",
         "**^^MOVE^^**"
-      ]
+      ],
+      "color": "Gray",
+      "abilityCategory": "Special"
     },
     {
       "name": "Keepin' Up Wiv da Boss",
       "type": "reaction",
-      "effect": "Pick a friendly **Sunsteala Wheelas** unit that has not used a **^^Fight^^** ability this turn and is within this unit's combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved."
+      "effect": "Pick a friendly **Sunsteala Wheelas** unit that has not used a **^^Fight^^** ability this turn and is within this unit's combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Da Glare of Frazzlegit",
       "type": "once-per-battle",
       "effect": "For the rest of the turn: • Subtract 1 from hit rolls for attacks made by enemy units while they are in combat with any friendly **Sunsteala Wheelas**.\n• Add 6\" to the Move characteristic of this unit and friendly **Sunsteala Wheelas**.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

@@ -50,12 +50,16 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, inflict 1 mortal damage on the target and the target has the **^^Sentenced^^** keyword until the start of your next turn.",
       "phase": "hero",
-      "declare": "Pick a visible enemy unit within 18\" of this unit to be the target."
+      "declare": "Pick a visible enemy unit within 18\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Judge, Jury and Executioner",
       "type": "passive",
-      "effect": "Each time a friendly **^^Nighthaunt Infantry^^** unit uses a **^^Fight^^** ability, if all of its attacks target the same **^^Sentenced^^** enemy unit, that friendly unit's melee weapons have **Crit (Mortal)** for that **^^Fight^^** ability."
+      "effect": "Each time a friendly **^^Nighthaunt Infantry^^** unit uses a **^^Fight^^** ability, if all of its attacks target the same **^^Sentenced^^** enemy unit, that friendly unit's melee weapons have **Crit (Mortal)** for that **^^Fight^^** ability.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

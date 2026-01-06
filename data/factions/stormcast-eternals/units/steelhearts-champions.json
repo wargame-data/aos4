@@ -50,12 +50,16 @@
     {
       "name": "Heroic Guard",
       "type": "passive",
-      "effect": "Add 1 to save rolls for this unit while it is in combat with any enemy units that charged in the same turn."
+      "effect": "Add 1 to save rolls for this unit while it is in combat with any enemy units that charged in the same turn.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Stalwart Defenders",
       "type": "passive",
-      "effect": "Add 3 to this unit’s control score while it is contesting an objective wholly within friendly territory."
+      "effect": "Add 3 to this unit’s control score while it is contesting an objective wholly within friendly territory.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     }
   ]
 }

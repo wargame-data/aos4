@@ -50,7 +50,9 @@
       "name": "Joyous Battle Fury",
       "type": "passive",
       "effect": "If any enemy models were slain by this unit’s combat attacks this turn, **Heal (D3)** this unit, then place a **battle fury token** next to it.\nAdd 1 to the Attacks characteristic of this unit’s **Impaling Talons** for each **battle fury token** it has until the end of the next turn.",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Special"
     },
     {
       "name": "Redolence of Violence",
@@ -60,17 +62,23 @@
       "declare": "If this unit charged this turn, pick up to D3 other friendly non-**^^Hero Hedonites of Slaanesh Daemon^^** units wholly within 12\" of this unit to be the targets.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Fleeting Dance of Death",
       "type": "passive",
-      "effect": "This unit can use **^^Charge^^** abilities even if it used a **^^Retreat^^** ability in the same turn. In addition, no mortal damage is inflicted on this unit by **^^Retreat^^** abilities."
+      "effect": "This unit can use **^^Charge^^** abilities even if it used a **^^Retreat^^** ability in the same turn. In addition, no mortal damage is inflicted on this unit by **^^Retreat^^** abilities.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Scion of Slaanesh",
       "type": "passive",
-      "effect": "While a friendly **Synessa** is on the battlefield, subtract 1 from hit rolls for attacks that target this unit."
+      "effect": "While a friendly **Synessa** is on the battlefield, subtract 1 from hit rolls for attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

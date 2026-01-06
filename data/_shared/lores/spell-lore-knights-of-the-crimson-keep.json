@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "spell-lore-knights-of-the-crimson-keep",
+  "name": "Spell Lore: Knights of the Crimson Keep",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-06",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Siphon Strength",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Inflict D3 mortal damage on the target. For the rest of the turn, add 1 to hit rolls for attacks made by the caster.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Crimson Keep Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Deathly Gale",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Crimson Keep Wizard^^** to cast this spell, pick a visible friendly **^^Crimson Keep^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Awakened Fury",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Add 1 to the Damage characteristic of the target's **Companion** melee weapons until the start of your next turn.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Crimson Keep Wizard^^** to cast this spell, pick a visible friendly **^^Crimson Keep^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ]
+}

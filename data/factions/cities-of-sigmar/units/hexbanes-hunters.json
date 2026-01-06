@@ -81,13 +81,17 @@
       "type": "passive",
       "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Add 1 to the damage inflicted (if any) on the target if it has the **^^Death^^**, **^^Daemon^^** or **^^Wizard^^** keyword.",
       "phase": "any",
-      "declare": "Pick an enemy unit in combat with this unit to be the target."
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Hunt with Conviction",
       "type": "passive",
       "effect": "Add 1 to the damage inflicted by this unit’s attacks that target the unit picked to be **hunted by the Order**.\n*Designer’s Note: You can pick an enemy unit that is in reserve.*",
-      "declare": "Pick an enemy **^^Hero^^** or **^^Wizard^^** to be **hunted by the Order**. You must pick a **^^Wizard Hero^^** if there is one in your opponent’s army."
+      "declare": "Pick an enemy **^^Hero^^** or **^^Wizard^^** to be **hunted by the Order**. You must pick a **^^Wizard Hero^^** if there is one in your opponent’s army.",
+      "color": "Black",
+      "abilityCategory": "Offensive"
     }
   ]
 }

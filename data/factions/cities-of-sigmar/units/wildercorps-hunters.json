@@ -76,12 +76,16 @@
     {
       "name": "Expert Trackers",
       "type": "passive",
-      "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase."
+      "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase.",
+      "color": "Black",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Hidden and Dangerous",
       "type": "passive",
-      "effect": "This unit is not visible to enemy units more than 12\" from it while it is affected by the ‘Cover’ terrain ability. In addition, add 1 to hit rolls for this unit’s shooting attacks while it is wholly within 3\" of a terrain feature."
+      "effect": "This unit is not visible to enemy units more than 12\" from it while it is affected by the ‘Cover’ terrain ability. In addition, add 1 to hit rolls for this unit’s shooting attacks while it is wholly within 3\" of a terrain feature.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

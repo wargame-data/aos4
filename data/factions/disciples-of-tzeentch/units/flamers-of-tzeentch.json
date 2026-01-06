@@ -62,7 +62,9 @@
     {
       "name": "Capricious Wyrdflame",
       "type": "passive",
-      "effect": "Add 1 to wound rolls for this unit’s shooting attacks that target a **^^Burning^^** enemy unit."
+      "effect": "Add 1 to wound rolls for this unit’s shooting attacks that target a **^^Burning^^** enemy unit.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

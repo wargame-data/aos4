@@ -33,7 +33,9 @@
       "type": "passive",
       "effect": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
       "phase": "movement",
-      "declare": "Pick a friendly non-**^^Monster Stormcast Eternals^^** unit that is not in combat and is wholly within 6\" of this terrain feature to be the target."
+      "declare": "Pick a friendly non-**^^Monster Stormcast Eternals^^** unit that is not in combat and is wholly within 6\" of this terrain feature to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

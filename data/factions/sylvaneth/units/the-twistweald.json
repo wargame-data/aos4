@@ -76,7 +76,9 @@
       "type": "once-per-turn",
       "effect": "Subtract D3 from charge rolls for the target for the rest of the turn.",
       "phase": "movement",
-      "declare": "If this unit is more than 6\" from all other friendly **^^Sylvaneth^^** units, pick an enemy unit within 12\" of this unit to be the target."
+      "declare": "If this unit is more than 6\" from all other friendly **^^Sylvaneth^^** units, pick an enemy unit within 12\" of this unit to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ]
 }

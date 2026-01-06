@@ -72,7 +72,9 @@
       "type": "passive",
       "effect": "This unit can use a **^^Shoot^^** ability as if it were your shooting phase. It must target a visible enemy unit in combat with the target.",
       "phase": "charge",
-      "declare": "If this unit is not in combat, pick a friendly **Raptadon Chargers** unit that charged this turn and is within 12\" of this unit to be the target."
+      "declare": "If this unit is not in combat, pick a friendly **Raptadon Chargers** unit that charged this turn and is within 12\" of this unit to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Shooting"
     }
   ]
 }

@@ -48,7 +48,9 @@
     {
       "name": "`I Thought Duardin Were Made of Sterner Stuff!`",
       "type": "passive",
-      "effect": "Add 2 to the control scores of friendly **^^Cities of Sigmar Duardin^^** units, excluding **Longbeards** units, while they are wholly within 12\" of this unit."
+      "effect": "Add 2 to the control scores of friendly **^^Cities of Sigmar Duardin^^** units, excluding **Longbeards** units, while they are wholly within 12\" of this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     }
   ]
 }

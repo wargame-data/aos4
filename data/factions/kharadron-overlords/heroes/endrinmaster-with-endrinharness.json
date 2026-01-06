@@ -47,14 +47,18 @@
       "type": "once-per-turn",
       "effect": "For the rest of the turn:\n• The target can use a **^^Retreat^^** or **^^Run^^** ability and still use **^^Shoot^^** abilities later in the turn.\n• No mortal damage is inflicted on the target by **^^Retreat^^** abilities.",
       "phase": "hero",
-      "declare": "Pick a friendly **^^Skyvessel^^** within this unit’s combat range to be the target."
+      "declare": "Pick a friendly **^^Skyvessel^^** within this unit’s combat range to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Mobile Repairs",
       "type": "passive",
       "effect": "Roll a dice. On a 2+, **Heal (3)** the target.",
       "phase": "hero",
-      "declare": "Pick a friendly **^^Skyvessel^^** or **Zontari Endrin Dock** within this unit’s combat range to be the target."
+      "declare": "Pick a friendly **^^Skyvessel^^** or **Zontari Endrin Dock** within this unit’s combat range to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

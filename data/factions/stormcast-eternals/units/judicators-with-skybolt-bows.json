@@ -74,7 +74,9 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, the target cannot use **^^Rampage^^** abilities until the start of your next turn.",
       "phase": "shooting",
-      "declare": "Pick a visible enemy **^^Monster^^** that had any damage points allocated to it this phase by this unit’s shooting attacks to be the target."
+      "declare": "Pick a visible enemy **^^Monster^^** that had any damage points allocated to it this phase by this unit’s shooting attacks to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Special"
     }
   ]
 }

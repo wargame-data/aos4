@@ -24,7 +24,10 @@ import {
   writeUnit,
   readExistingUnit,
   ensureFactionStructure,
+  ensureSharedLoresDir,
+  writeLores,
 } from "./output/writer.js";
+import { mapLores, type Lore } from "./mappers/lore.mapper.js";
 import {
   generateBatchPatches,
   formatPatchSummary,
@@ -146,6 +149,9 @@ async function syncCommand(options: CLIOptions): Promise<void> {
   // Parse all factions
   const results = await parseAllFactions(catalogueFiles, options, log);
 
+  // Parse lores from Lores.cat
+  const lores = await parseLores(bsdataPath, options, log);
+
   // Validate if not skipped
   if (!options.skipValidate) {
     log.info("\nValidating parsed data...");
@@ -159,12 +165,20 @@ async function syncCommand(options: CLIOptions): Promise<void> {
   // Write results
   if (!options.dryRun) {
     await writeResults(results, options, log);
+
+    // Write lores
+    if (lores.length > 0) {
+      const outputDir = options.output || FACTIONS_DIR;
+      ensureSharedLoresDir(join(outputDir, ".."));
+      const loreResults = writeLores(lores, { dryRun: false }, undefined, join(outputDir, ".."));
+      log.info(`  shared lores: ${loreResults.length} files written`);
+    }
   } else {
     log.info("\nDry run - no files written");
   }
 
   // Summary
-  printSummary(results, log);
+  printSummary(results, lores.length, log);
 }
 
 /**
@@ -215,7 +229,7 @@ async function parseCommand(options: CLIOptions): Promise<void> {
     await writeResults(results, options, log);
   }
 
-  printSummary(results, log);
+  printSummary(results, 0, log);
 }
 
 /**
@@ -382,6 +396,17 @@ async function findCatalogueFiles(bsdataPath: string): Promise<string[]> {
 }
 
 /**
+ * Find Lores.cat file in BSData directory
+ */
+function findLoresFile(bsdataPath: string): string | null {
+  const loresPath = join(bsdataPath, "Lores.cat");
+  if (existsSync(loresPath)) {
+    return loresPath;
+  }
+  return null;
+}
+
+/**
  * Parse all factions from catalogue files
  */
 async function parseAllFactions(
@@ -463,6 +488,45 @@ async function parseAllFactions(
   }
 
   return results;
+}
+
+/**
+ * Parse lores from Lores.cat
+ */
+async function parseLores(
+  bsdataPath: string,
+  options: CLIOptions,
+  log: Logger
+): Promise<Lore[]> {
+  const loresFile = findLoresFile(bsdataPath);
+  if (!loresFile) {
+    log.verbose("No Lores.cat found");
+    return [];
+  }
+
+  log.info("Parsing spell/prayer lores from Lores.cat...");
+
+  try {
+    const catalogue = await parseCat(loresFile);
+
+    const mapperOptions: MapperOptions = {
+      strict: options.strict,
+      factionId: "shared",
+      grandAlliance: undefined,
+      catalogueName: catalogue.$.name,
+    };
+
+    const lores = mapLores(catalogue, mapperOptions);
+    log.info(`  Found ${lores.length} lores`);
+
+    return lores;
+  } catch (error) {
+    log.error(`Failed to parse Lores.cat: ${error}`);
+    if (options.strict) {
+      throw error;
+    }
+    return [];
+  }
 }
 
 /**
@@ -550,7 +614,7 @@ async function writeResults(
 /**
  * Print summary
  */
-function printSummary(results: FactionParseResult[], log: Logger): void {
+function printSummary(results: FactionParseResult[], loresCount: number, log: Logger): void {
   log.info("\n" + "=".repeat(40));
   log.info("Summary");
   log.info("=".repeat(40));
@@ -565,6 +629,7 @@ function printSummary(results: FactionParseResult[], log: Logger): void {
 
   log.info(`Factions: ${results.length}`);
   log.info(`Units: ${totalUnits}`);
+  log.info(`Lores: ${loresCount}`);
   log.info(`Errors: ${totalErrors}`);
 }
 

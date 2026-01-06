@@ -67,14 +67,18 @@
       "castingValue": 7,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Sacred Amphora",
       "type": "once-per-battle",
       "effect": "**Heal (2D3)** the target.",
       "phase": "hero",
-      "declare": "Pick a visible friendly unit within 3\" of this unit to be the target."
+      "declare": "Pick a visible friendly unit within 3\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": 1,

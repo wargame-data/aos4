@@ -53,12 +53,16 @@
       "type": "once-per-turn",
       "effect": "Roll a dice. On a 4+, the target has **^^Strike-last^^** for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick an enemy unit in combat with this unit to be the target."
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Disruptive Song",
       "type": "passive",
-      "effect": "Subtract 1 from casting rolls and unbinding rolls for enemy **^^Wizards^^** while they are within 12\" of this unit."
+      "effect": "Subtract 1 from casting rolls and unbinding rolls for enemy **^^Wizards^^** while they are within 12\" of this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

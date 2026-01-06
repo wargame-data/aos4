@@ -83,7 +83,9 @@
       "type": "reaction",
       "effect": "If all of the attacks made for that **^^Shoot^^** ability target the same enemy unit, after that **^^Shoot^^** ability has been resolved, roll a dice and add the number of damage points allocated to the target by that **^^Shoot^^** ability. If the roll is higher than the target's Control characteristic, apply the following effect to the target based on the ammunition type picked:\n***Shieldbreaker:*** Ward rolls cannot be made for the target until the start of your next turn.\n***Thunderdrakk:*** That target has a maximum control score of 1 until the start of your next turn.",
       "phase": "shooting",
-      "declare": "Pick **Shieldbreaker** ammunition or **Thunderdrakk** ammunition."
+      "declare": "Pick **Shieldbreaker** ammunition or **Thunderdrakk** ammunition.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

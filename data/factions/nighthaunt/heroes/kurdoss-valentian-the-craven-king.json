@@ -51,12 +51,16 @@
       "type": "passive",
       "effect": "The target can immediately use a **^^Shoot^^** ability as if it were your shooting phase, but all of its attacks must target an enemy unit in combat with this unit. The target cannot use **^^Charge^^** abilities for the rest of the turn.",
       "phase": "charge",
-      "declare": "If this unit charged this phase, pick a friendly **Craventhrone Guard** unit that is not in combat to be the target."
+      "declare": "If this unit charged this phase, pick a friendly **Craventhrone Guard** unit that is not in combat to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "If I Cannot Rule, None Shall Rule!",
       "type": "reaction",
-      "effect": "Roll a dice. On a 3+, unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost."
+      "effect": "Roll a dice. On a 3+, unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

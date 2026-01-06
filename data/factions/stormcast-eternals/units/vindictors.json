@@ -50,7 +50,9 @@
       "name": "Hold the Shieldwall",
       "type": "passive",
       "effect": "If this unit did not charge this turn and is in combat with an enemy unit that charged this turn, roll a dice. On a 4+, this unit has **^^Strike-first^^** for the rest of the turn.",
-      "phase": "combat"
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

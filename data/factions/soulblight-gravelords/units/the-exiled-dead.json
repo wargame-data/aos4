@@ -53,12 +53,16 @@
       "name": "Unfeeling Fortitude",
       "type": "passive",
       "effect": "Roll a dice. On a 3+, this unit has **^^Ward (5+)^^** until the start of your next turn.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Deintalos the Exile",
       "type": "passive",
-      "effect": "While this unit’s **Deintalos the Exile** is on the battlefield, it has **^^Wizard (1)^^**. While this unit’s **Prentice Marcov** is on the battlefield, add 1 to casting rolls for this unit."
+      "effect": "While this unit’s **Deintalos the Exile** is on the battlefield, it has **^^Wizard (1)^^**. While this unit’s **Prentice Marcov** is on the battlefield, add 1 to casting rolls for this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

@@ -63,7 +63,9 @@
       "type": "passive",
       "effect": "Roll a dice. Add 1 to the roll if there are fewer models in this unit than the total number of enemy models in units that are in combat with this unit. On a 4+, for the rest of the turn, the targets count as having charged.",
       "phase": "charge",
-      "declare": "If this unit is in combat and has not charged this turn, pick this unit and up to 1 friendly **Freeguild Cavalier-Marshal** or **Freeguild Marshal on Griffon** within this unit’s combat range to be the targets."
+      "declare": "If this unit is in combat and has not charged this turn, pick this unit and up to 1 friendly **Freeguild Cavalier-Marshal** or **Freeguild Marshal on Griffon** within this unit’s combat range to be the targets.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
     }
   ]
 }

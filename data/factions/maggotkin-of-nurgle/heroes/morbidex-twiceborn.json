@@ -72,13 +72,16 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Tripletongue’s Claws and Maw** is 3."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Tripletongue’s Claws and Maw** is 3.",
+      "color": "Black"
     },
     {
       "name": "Gigantic Nurgling-kin",
       "type": "passive",
       "effect": "**Heal (X) this unit**, where X is half the number of damage points this unit has (rounding up).",
-      "phase": "any"
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Tide of Nurglings",
@@ -88,12 +91,16 @@
       "declare": "Pick a friendly **Nurglings** unit within this unit’s combat range to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Lord of Nurglings",
       "type": "passive",
-      "effect": "While any friendly **Nurglings** units are wholly within 12\" of this unit:\n• Ignore the first damage point that would be allocated to each of those units each phase.\n• Add 3 to those units’ control scores"
+      "effect": "While any friendly **Nurglings** units are wholly within 12\" of this unit:\n• Ignore the first damage point that would be allocated to each of those units each phase.\n• Add 3 to those units’ control scores",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,

@@ -62,12 +62,16 @@
       "type": "once-per-turn",
       "effect": "The target has the **^^Burning^^** keyword.",
       "phase": "any",
-      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by this unit’s combat attacks to be the target."
+      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by this unit’s combat attacks to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Special"
     },
     {
       "name": "Thaumaturge Rage",
       "type": "passive",
-      "effect": "Add 1 to hit rolls and wound rolls for this unit’s combat attacks while it is damaged."
+      "effect": "Add 1 to hit rolls and wound rolls for this unit’s combat attacks while it is damaged.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": 1,

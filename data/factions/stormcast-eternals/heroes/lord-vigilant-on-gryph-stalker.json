@@ -57,12 +57,16 @@
       "type": "once-per-battle",
       "effect": "That unit can use 2 **^^Fight^^** abilities this phase. After the first is used, however, that unit has **^^Strike-last^^** for the rest of the turn.",
       "phase": "combat",
-      "declare": "Pick a friendly non-**^^Hero Ruination Chamber^^** unit wholly within 12\" of this unit."
+      "declare": "Pick a friendly non-**^^Hero Ruination Chamber^^** unit wholly within 12\" of this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Ruination Chamber",
       "type": "reaction",
-      "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
+      "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

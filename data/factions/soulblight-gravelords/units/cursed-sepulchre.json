@@ -33,12 +33,16 @@
     {
       "name": "Locus of Shyish",
       "type": "passive",
-      "effect": "Each time a friendly **^^Soulblight Gravelords Wizard^^** casts a **^^Summon Spell^^** from the 'Manifestations of the Grave' lore, you can measure the range and visibility from this terrain feature instead."
+      "effect": "Each time a friendly **^^Soulblight Gravelords Wizard^^** casts a **^^Summon Spell^^** from the 'Manifestations of the Grave' lore, you can measure the range and visibility from this terrain feature instead.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     },
     {
       "name": "Leeching Soil",
       "type": "passive",
-      "effect": "Each time a model (friendly or enemy) is slain while it is within 9\" of this terrain feature, **Heal (1)** this terrain feature."
+      "effect": "Each time a model (friendly or enemy) is slain while it is within 9\" of this terrain feature, **Heal (1)** this terrain feature.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ]
 }

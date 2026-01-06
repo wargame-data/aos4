@@ -64,14 +64,18 @@
       "type": "passive",
       "effect": "Add 1 to the Rend characteristic of the targets’ **Companion** melee weapons for the rest of the turn.",
       "phase": "combat",
-      "declare": "If this unit charged this turn, pick this unit and up to 2 friendly **Pusgoyle Blightlords** units wholly within 12\" of this unit to be the targets."
+      "declare": "If this unit charged this turn, pick this unit and up to 2 friendly **Pusgoyle Blightlords** units wholly within 12\" of this unit to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Vectors of Foulest Contagion",
       "type": "once-per-turn",
       "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "combat",
-      "declare": "Pick up to 3 enemy units in combat with this unit to be the targets."
+      "declare": "Pick up to 3 enemy units in combat with this unit to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

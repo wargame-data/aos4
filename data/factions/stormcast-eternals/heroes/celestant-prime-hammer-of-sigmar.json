@@ -60,14 +60,18 @@
     {
       "name": "Cometstrike Sceptre",
       "type": "passive",
-      "effect": "Each time this unit attacks with its Cometstrike Sceptre, if the attack scores a hit, inflict D3 mortal damage on the target."
+      "effect": "Each time this unit attacks with its Cometstrike Sceptre, if the attack scores a hit, inflict D3 mortal damage on the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     },
     {
       "name": "Retribution From on High",
       "type": "once-per-battle",
       "effect": "Subtract the current battle round number from 10 to determine this unit’s strike zone. Set up this unit on the battlefield more than a number of inches equal to its strike zone from all enemy units.",
       "phase": "movement",
-      "declare": "Pick this unit if it is **in the Celestial Realm**."
+      "declare": "Pick this unit if it is **in the Celestial Realm**.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     }
   ],
   "isWizard": null,

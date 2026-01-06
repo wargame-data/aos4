@@ -71,12 +71,15 @@
     {
       "name": "Battle Damaged",
       "type": "passive",
-      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Vulcha’s Talons and Beak** is 5."
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Vulcha’s Talons and Beak** is 5.",
+      "color": "Black"
     },
     {
       "name": "Commanding View",
       "type": "reaction",
-      "effect": "If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead."
+      "effect": "If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
     },
     {
       "name": "Vulcha Dive",
@@ -86,7 +89,9 @@
       "declare": "If this unit charged this phase, pick an enemy unit in combat with it to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Orange",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

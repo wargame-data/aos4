@@ -60,12 +60,16 @@
     {
       "name": "Guardian and Mentor",
       "type": "passive",
-      "effect": "While a friendly **Doralia ven Denst** is wholly within this unit’s combat range, this unit has **^^Strike-first^^** and both this unit and that **Doralia ven Denst** have **^^Ward (5+)^^**."
+      "effect": "While a friendly **Doralia ven Denst** is wholly within this unit’s combat range, this unit has **^^Strike-first^^** and both this unit and that **Doralia ven Denst** have **^^Ward (5+)^^**.",
+      "color": "Black",
+      "abilityCategory": "Special"
     },
     {
       "name": "Weapons of Banishment",
       "type": "passive",
-      "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target **^^Wizards^^**, **^^Priests^^** and **^^Manifestations^^**."
+      "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target **^^Wizards^^**, **^^Priests^^** and **^^Manifestations^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ],
   "isWizard": null,

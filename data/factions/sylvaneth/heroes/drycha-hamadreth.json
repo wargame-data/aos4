@@ -75,7 +75,9 @@
       "name": "Mercurial Aspect",
       "type": "once-per-turn",
       "effect": "Pick 1 of the following effects to apply to this unit for the rest of the turn:\n***Enraged:*** Add 10 to the Attacks characteristic of this unit’s **Flitterfuries**.\n***Embittered:*** Add 10 to the Attacks characteristic of this unit’s **Swarm of Squirmlings**.",
-      "phase": "hero"
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Song of Spite",
@@ -86,7 +88,9 @@
       "castingValue": 6,
       "keywords": [
         "**^^SPELL^^**"
-      ]
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Primal Terror",
@@ -96,7 +100,9 @@
       "declare": "Pick an enemy unit in combat with this unit to be the target.",
       "keywords": [
         "**^^RAMPAGE^^**"
-      ]
+      ],
+      "color": "Red",
+      "abilityCategory": "Control"
     }
   ],
   "isWizard": 1,

@@ -74,12 +74,16 @@
     {
       "name": "Gruesome Bombardment",
       "type": "passive",
-      "effect": "If any damage points are allocated to an enemy unit by a **^^Shoot^^** ability used by this unit, subtract 3 from that enemy unit’s control score for the rest of the turn."
+      "effect": "If any damage points are allocated to an enemy unit by a **^^Shoot^^** ability used by this unit, subtract 3 from that enemy unit’s control score for the rest of the turn.",
+      "color": "Purple",
+      "abilityCategory": "Control"
     },
     {
       "name": "Grind Their Bones, Seize Their Skulls",
       "type": "passive",
-      "effect": "If any enemy models are slain by a **^^Fight^^** ability used by this unit, after that **^^Fight^^** ability has been resolved, this unit can immediately use a **^^Shoot^^** ability as if it were your shooting phase."
+      "effect": "If any enemy models are slain by a **^^Fight^^** ability used by this unit, after that **^^Fight^^** ability has been resolved, this unit can immediately use a **^^Shoot^^** ability as if it were your shooting phase.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
     }
   ]
 }

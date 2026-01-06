@@ -78,12 +78,16 @@
     {
       "name": "Stone-cursed Resolve",
       "type": "passive",
-      "effect": "Ignore all modifiers to save rolls for this unit (positive and negative)."
+      "effect": "Ignore all modifiers to save rolls for this unit (positive and negative).",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     },
     {
       "name": "Cast Down the Idol",
       "type": "passive",
-      "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons for attacks that target **^^Faction Terrain^^**."
+      "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons for attacks that target **^^Faction Terrain^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
     }
   ]
 }

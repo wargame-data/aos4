@@ -51,7 +51,9 @@
     {
       "name": "Hunters of Mystics",
       "type": "passive",
-      "effect": "If the casting roll for an enemy **^^Wizard^^** within 12\" of this unit contains 2 or more results of 1 or 2, the spell is miscast.\nIf the chanting roll for an enemy **^^Priest^^** within 12\" of this unit is an unmodified 2, the prayer fails and its effect is not resolved. In addition, your opponent cannot give that **^^Priest^^** any ritual points for the rest of the phase."
+      "effect": "If the casting roll for an enemy **^^Wizard^^** within 12\" of this unit contains 2 or more results of 1 or 2, the spell is miscast.\nIf the chanting roll for an enemy **^^Priest^^** within 12\" of this unit is an unmodified 2, the prayer fails and its effect is not resolved. In addition, your opponent cannot give that **^^Priest^^** any ritual points for the rest of the phase.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
     }
   ]
 }

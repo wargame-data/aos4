@@ -62,7 +62,9 @@
     {
       "name": "Empowered Through Excruciation",
       "type": "passive",
-      "effect": "Ignore the first damage point that would be allocated to each friendly **^^Nighthaunt^^** unit wholly within 12\" of this unit in each phase."
+      "effect": "Ignore the first damage point that would be allocated to each friendly **^^Nighthaunt^^** unit wholly within 12\" of this unit in each phase.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
     }
   ],
   "isWizard": null,

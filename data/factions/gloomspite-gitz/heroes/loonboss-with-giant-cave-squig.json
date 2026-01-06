@@ -61,12 +61,16 @@
       "type": "passive",
       "effect": "Roll a dice. If the roll equals or exceeds the target’s Health characteristic, 1 model in the target unit is slain.",
       "phase": "any",
-      "declare": "Pick an enemy unit within 1\" of this unit to be the target."
+      "declare": "Pick an enemy unit within 1\" of this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
     },
     {
       "name": "Goin' Somewhere?",
       "type": "passive",
-      "effect": "If a friendly **^^Moonclan Infantry^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6. However, friendly **^^Moonclan Infantry^^** units cannot use **^^Retreat^^** abilities while they are within 12\" of this unit."
+      "effect": "If a friendly **^^Moonclan Infantry^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6. However, friendly **^^Moonclan Infantry^^** units cannot use **^^Retreat^^** abilities while they are within 12\" of this unit.",
+      "color": "Black",
+      "abilityCategory": "Special"
     }
   ],
   "isWizard": null,
