@@ -25,12 +25,12 @@
     {
       "name": "Master-crafted Repeater Crossbow",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,
       "damage": 1,
-      "range": "12\"",
+      "range": "15\"",
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)"
       ]

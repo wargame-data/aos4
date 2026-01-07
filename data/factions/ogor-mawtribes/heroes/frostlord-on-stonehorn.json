@@ -24,11 +24,11 @@
     {
       "name": "Stonehorn’s Hooves",
       "type": "melee",
-      "attacks": 1,
+      "attacks": "D6",
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3",
       "abilities": [
         "Companion"
       ]
@@ -36,11 +36,11 @@
     {
       "name": "Frost Spear",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
       "abilities": [
         "Charge (+1 Damage)"
       ]
@@ -48,11 +48,11 @@
     {
       "name": "Stonehorn’s Rock-hard Horns",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
       "abilities": [
         "Charge (+1 Damage)",
         "Companion"

@@ -24,10 +24,10 @@
     {
       "name": "Harvester Cannon",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
       "range": "12\"",
       "abilities": [
@@ -37,11 +37,11 @@
     {
       "name": "Piston-driven Legs and Daemonic Blade or Claw",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 8,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3",
       "abilities": [
         "Companion"
       ]
@@ -51,9 +51,9 @@
       "type": "melee",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D6",
       "abilities": [
         "Crit (Mortal)",
         "Companion"
@@ -64,9 +64,9 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 3,
       "range": "12\"",
       "abilities": [
         "Companion"

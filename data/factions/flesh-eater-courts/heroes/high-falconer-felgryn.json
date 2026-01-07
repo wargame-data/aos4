@@ -29,7 +29,7 @@
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
-      "damage": 1,
+      "damage": "D6",
       "range": "12\"",
       "abilities": [
         "Shoot in Combat",
@@ -39,11 +39,11 @@
     {
       "name": "Filthy Talons and Fangs",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
     }
   ],
   "_meta": {

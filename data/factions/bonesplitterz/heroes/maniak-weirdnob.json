@@ -26,18 +26,18 @@
     {
       "name": "Bonebeast Staff",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
-      "damage": 1
+      "damage": "D3"
     },
     {
       "name": "War Boar’s Tusks and Hooves",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
       "abilities": [

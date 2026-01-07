@@ -24,10 +24,10 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "10\"",
       "abilities": [
         "Shoot in Combat"
       ]
@@ -35,11 +35,11 @@
     {
       "name": "Maneater Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2
     }
   ],
   "_meta": {

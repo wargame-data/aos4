@@ -30,9 +30,9 @@
       "attacks": 1,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "rend": 1,
+      "damage": "D3",
+      "range": "8\"",
       "abilities": [
         "Shoot in Combat"
       ]
@@ -40,10 +40,10 @@
     {
       "name": "Soulraid Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1
     }
   ],

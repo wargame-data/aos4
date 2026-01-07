@@ -24,11 +24,11 @@
     {
       "name": "Castellant’s Halberd",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Crit (Auto-wound)"
       ]
@@ -36,7 +36,7 @@
     {
       "name": "Gryph-hound’s Beak",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,

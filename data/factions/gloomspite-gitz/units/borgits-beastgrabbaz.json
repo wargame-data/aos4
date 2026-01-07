@@ -25,11 +25,11 @@
     {
       "name": "Borgit's Stabba",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "rend": 1,
+      "damage": "D3",
       "abilities": [
         "Anti-**^^Beast^^** (+1 Rend)",
         "Anti-**^^Monster^^** (+1 Rend)"
@@ -38,9 +38,9 @@
     {
       "name": "Beastgrabba Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1,
       "abilities": [
@@ -51,11 +51,11 @@
     {
       "name": "Troggoth Fists",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
-      "damage": 1,
+      "damage": 2,
       "abilities": [
         "Anti-**^^Beast^^** (+1 Rend)",
         "Anti-**^^Monster^^** (+1 Rend)"

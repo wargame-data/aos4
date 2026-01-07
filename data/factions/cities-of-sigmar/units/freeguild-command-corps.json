@@ -23,7 +23,7 @@
     {
       "name": "Assortment of Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,
@@ -35,8 +35,8 @@
       "attacks": 1,
       "hit": "2+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "rend": 2,
+      "damage": "D6",
       "abilities": [
         "Crit (Mortal)"
       ]
@@ -44,11 +44,11 @@
     {
       "name": "Gargoylian’s Bite",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
-      "damage": 1,
+      "damage": "D3",
       "abilities": [
         "Companion"
       ]
@@ -56,11 +56,11 @@
     {
       "name": "Sigmarite Great Weapon",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3"
     }
   ],
   "_meta": {

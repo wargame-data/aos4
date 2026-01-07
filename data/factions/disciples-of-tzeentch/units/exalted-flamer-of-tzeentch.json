@@ -24,12 +24,12 @@
     {
       "name": "Wyrdflame Blast",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "damage": "D3",
+      "range": "16\"",
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)",
         "Wyrdflame"
@@ -38,7 +38,7 @@
     {
       "name": "Flaming Maws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,

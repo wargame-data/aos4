@@ -24,9 +24,9 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "5+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3",
       "range": "12\""
     },
     {
@@ -34,27 +34,27 @@
       "type": "melee",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 2,
+      "damage": 4
     },
     {
       "name": "Massive Club",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2
     },
     {
       "name": "Mighty Kick",
       "type": "melee",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3"
     }
   ],
   "_meta": {

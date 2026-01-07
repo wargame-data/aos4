@@ -27,11 +27,11 @@
     {
       "name": "Greatblade and Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 8,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 3,
       "abilities": [
         "Companion"
       ]
@@ -41,9 +41,9 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "2+",
-      "wound": "4+",
+      "wound": "2+",
       "rend": 0,
-      "damage": 1,
+      "damage": 6,
       "range": "12\"",
       "abilities": [
         "Shoot in Combat"
@@ -52,7 +52,7 @@
     {
       "name": "Scourge and Dagger",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,

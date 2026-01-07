@@ -26,11 +26,11 @@
     {
       "name": "Heirloom Axe",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Anti-**^^Monster^^**(+1 Rend)"
       ]
@@ -38,7 +38,7 @@
     {
       "name": "Bat Swarm's Needling Fangs",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "2D6",
       "hit": "4+",
       "wound": "4+",
       "rend": 0,

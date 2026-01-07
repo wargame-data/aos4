@@ -28,9 +28,9 @@
     {
       "name": "Host of Vermin",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 10,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1,
       "abilities": [
@@ -41,11 +41,11 @@
     {
       "name": "Unholy Gnawstaff",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D6",
       "abilities": [
         "Crit (Mortal)"
       ]

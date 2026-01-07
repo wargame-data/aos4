@@ -27,18 +27,18 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\""
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3,
+      "range": "18\""
     },
     {
       "name": "Dirigible Suit Weapon Battery",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
       "range": "12\"",
       "abilities": [
@@ -48,11 +48,11 @@
     {
       "name": "Upgraded Aethermatic Saw",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2
     }
   ],
   "_meta": {

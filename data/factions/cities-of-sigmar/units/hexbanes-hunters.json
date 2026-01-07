@@ -26,12 +26,12 @@
     {
       "name": "Blackpowder Pistols",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,
       "damage": 1,
-      "range": "12\"",
+      "range": "8\"",
       "abilities": [
         "Shoot in Combat",
         "Anti-**^^Wizard^^** (+1 Rend)"
@@ -40,7 +40,7 @@
     {
       "name": "Witch Hunter Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
@@ -52,12 +52,12 @@
     {
       "name": "Crossbow Launcher",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "15\"",
       "abilities": [
         "Anti-**^^Wizard^^** (+1 Rend)"
       ]

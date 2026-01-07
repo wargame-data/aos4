@@ -26,11 +26,11 @@
     {
       "name": "Blood-slick Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3,
       "abilities": [
         "Crit (Mortal)"
       ]
@@ -38,11 +38,11 @@
     {
       "name": "Vyrkos Blood-born's Piercing Blades",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
     }
   ],
   "_meta": {

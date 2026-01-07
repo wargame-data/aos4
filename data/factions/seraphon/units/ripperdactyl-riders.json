@@ -24,7 +24,7 @@
     {
       "name": "Moonstone Warspear",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
@@ -36,10 +36,10 @@
     {
       "name": "Ripperdactyl’s Tearing Jaws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Charge (+1 Damage)",

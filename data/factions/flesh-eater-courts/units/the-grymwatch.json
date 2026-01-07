@@ -26,11 +26,11 @@
     {
       "name": "Great Halberd",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "2+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Crit (Auto-wound)",
         "Anti-**^^Monster^^** (+1 Rend)"
@@ -39,7 +39,7 @@
     {
       "name": "Knightly Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,

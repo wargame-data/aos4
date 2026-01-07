@@ -23,12 +23,12 @@
     {
       "name": "Baneful Breath",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "D6",
       "hit": "2+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "rend": 1,
+      "damage": 3,
+      "range": "10\"",
       "abilities": [
         "Shoot in Combat",
         "Companion"
@@ -37,11 +37,11 @@
     {
       "name": "Draconic Jaws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 4,
       "abilities": [
         "Crit (Auto-wound)",
         "Companion"
@@ -50,11 +50,11 @@
     {
       "name": "Draconic Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 7,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Crit (Auto-wound)",
         "Companion"

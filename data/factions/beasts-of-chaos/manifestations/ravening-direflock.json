@@ -32,10 +32,10 @@
     {
       "name": "Murderous Beaks",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "5+",
+      "rend": 1,
       "damage": 1
     }
   ],

@@ -24,10 +24,10 @@
     {
       "name": "Vulkyn Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Anti-**^^Monster^^** (+1 Rend)"
@@ -38,9 +38,9 @@
       "type": "melee",
       "attacks": 1,
       "hit": "3+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
-      "damage": 1,
+      "damage": 2,
       "abilities": [
         "Crit (Mortal)",
         "Companion"

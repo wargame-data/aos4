@@ -23,10 +23,10 @@
     {
       "name": "Despoiler Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Crit (2 Hits)"
@@ -35,10 +35,10 @@
     {
       "name": "Tuskgors’ Iron-hard Tusks",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "5+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Companion"

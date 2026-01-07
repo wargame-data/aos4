@@ -21,12 +21,12 @@
     {
       "name": "Torrent of Ruinous Energy",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "30\"",
       "abilities": [
         "Anti-**^^Cavalry^^** (+1 Rend)",
         "Anti-**^^Infantry^^** (+1 Rend)"
@@ -35,7 +35,7 @@
     {
       "name": "Artillerist Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,

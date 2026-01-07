@@ -25,19 +25,19 @@
     {
       "name": "Pioneer Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1
     },
     {
       "name": "Skydrake Harpoon or Firearm",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
       "range": "12\"",
       "abilities": [

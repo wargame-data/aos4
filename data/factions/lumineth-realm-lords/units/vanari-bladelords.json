@@ -26,17 +26,17 @@
       "type": "melee",
       "attacks": 1,
       "hit": "6+",
-      "wound": "4+",
+      "wound": "6+",
       "rend": 0,
-      "damage": 1
+      "damage": "⟝See 'Swordmasters' ability⟞"
     },
     {
       "name": "Sunmetal Blade: Flurry of Blows",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Crit (Mortal)",

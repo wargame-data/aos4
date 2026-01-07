@@ -24,11 +24,11 @@
     {
       "name": "Morrgryph's Talons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]
@@ -36,11 +36,11 @@
     {
       "name": "Hallowed Glaive",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Charge (+1 Damage)"
       ]

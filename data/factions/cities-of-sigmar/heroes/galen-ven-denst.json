@@ -24,11 +24,11 @@
     {
       "name": "Runic Broadsword",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Anti-**^^Wizard^^** (+1 Rend)"
       ]
@@ -36,12 +36,12 @@
     {
       "name": "Spell-banishing Pistol",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
-      "range": "12\"",
+      "range": "10\"",
       "abilities": [
         "Shoot in Combat"
       ]

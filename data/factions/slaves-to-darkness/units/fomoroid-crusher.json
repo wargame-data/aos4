@@ -21,21 +21,21 @@
     {
       "name": "Hurled Terrain",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "D3",
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
       "range": "12\""
     },
     {
       "name": "Crushing Fists and Swinging Masonry",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3",
       "abilities": [
         "Crit (2 Hits)"
       ]

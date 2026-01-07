@@ -24,9 +24,9 @@
     {
       "name": "Ethereal Steed’s Ghostly Hooves and Teeth",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
       "abilities": [
@@ -37,10 +37,10 @@
     {
       "name": "Spectral Scythe",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Charge (+1 Damage)",

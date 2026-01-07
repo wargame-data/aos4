@@ -22,9 +22,9 @@
     {
       "name": "Slicers and Krag-smasha's Paws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
       "abilities": [
@@ -34,19 +34,19 @@
     {
       "name": "Doom Diver",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\""
+      "wound": "3+",
+      "rend": 3,
+      "damage": 3,
+      "range": "24\""
     },
     {
       "name": "Catapult Crew Tools",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "6+",
       "rend": 0,
       "damage": 1
     }

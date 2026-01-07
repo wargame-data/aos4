@@ -25,11 +25,11 @@
     {
       "name": "Gravekeeper's Spade",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
     }
   ],
   "_meta": {

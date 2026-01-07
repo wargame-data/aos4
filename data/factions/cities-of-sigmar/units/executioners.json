@@ -25,10 +25,10 @@
     {
       "name": "Executioner’s Draich",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Crit (Mortal)"

@@ -26,9 +26,9 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3+2",
       "range": "12\"",
       "abilities": [
         "Companion"
@@ -37,11 +37,11 @@
     {
       "name": "Frost Spear",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
       "abilities": [
         "Charge (+1 Damage)"
       ]
@@ -49,11 +49,11 @@
     {
       "name": "Thundertusk’s Colossal Tusks",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 5,
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)",
         "Companion"

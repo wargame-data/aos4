@@ -28,8 +28,8 @@
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "damage": "D3",
+      "range": "8\"",
       "abilities": [
         "Shoot in Combat"
       ]
@@ -37,11 +37,11 @@
     {
       "name": "Puff-fungus Club",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3
     }
   ],
   "_meta": {

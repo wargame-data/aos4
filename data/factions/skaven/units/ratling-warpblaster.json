@@ -22,12 +22,12 @@
     {
       "name": "Hail of Warpstone Bullets",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "3D6+3",
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
-      "range": "12\"",
+      "range": "20\"",
       "abilities": [
         "Crit (Auto-wound)"
       ]
@@ -35,9 +35,9 @@
     {
       "name": "Thrall-rats’ Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1
     }

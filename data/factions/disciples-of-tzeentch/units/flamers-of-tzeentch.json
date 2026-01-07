@@ -25,7 +25,7 @@
     {
       "name": "Flaming Maws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,
@@ -34,11 +34,11 @@
     {
       "name": "Warping Flames",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,
-      "damage": 1,
+      "damage": "D3",
       "range": "12\"",
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)",

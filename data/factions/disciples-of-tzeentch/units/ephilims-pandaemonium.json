@@ -27,16 +27,16 @@
     {
       "name": "Daemonic Talons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1
     },
     {
       "name": "Warping Wyrdfire",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,

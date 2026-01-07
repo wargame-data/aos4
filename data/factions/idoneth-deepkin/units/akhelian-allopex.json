@@ -24,20 +24,20 @@
     {
       "name": "Barbed Hooks and Blades",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1
     },
     {
       "name": "Allopex’s Ferocious Bite",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
       "abilities": [
         "Anti‑**^^Monster^^** (+1 Rend)",
         "Companion"
@@ -46,12 +46,12 @@
     {
       "name": "Razorshell Harpoon",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 3,
+      "range": "18\"",
       "abilities": [
         "Anti‑**^^Monster^^** (+1 Rend)"
       ]
@@ -59,12 +59,12 @@
     {
       "name": "Retarius Net Launcher",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 3,
+      "range": "18\"",
       "abilities": [
         "Anti‑**^^Cavalry^^** (+1 Rend)"
       ]

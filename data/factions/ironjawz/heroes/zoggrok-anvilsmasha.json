@@ -23,27 +23,27 @@
     {
       "name": "Skull-crushing Basha",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2
     },
     {
       "name": "Ward-smashing Choppa",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3
     },
     {
       "name": "Grunta-tongs",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1
     }

@@ -26,11 +26,11 @@
     {
       "name": "Deadly Blades",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "2+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "5+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Anti-**^^Hero^^** (+1 Rend)"
       ]
@@ -38,12 +38,12 @@
     {
       "name": "Poisoned Throwing Knives",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "2+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "rend": 1,
+      "damage": "D3",
+      "range": "10\"",
       "abilities": [
         "Crit (Auto-wound)",
         "Shoot in Combat"

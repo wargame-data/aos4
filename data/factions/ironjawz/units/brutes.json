@@ -23,11 +23,11 @@
     {
       "name": "Brute Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)"
       ]
@@ -35,11 +35,11 @@
     {
       "name": "Gore-choppa",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3
     }
   ],
   "_meta": {

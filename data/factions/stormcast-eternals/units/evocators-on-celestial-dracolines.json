@@ -24,10 +24,10 @@
     {
       "name": "Evocator Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Crit (Mortal)"
@@ -36,11 +36,11 @@
     {
       "name": "Celestial Dracoline’s Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]

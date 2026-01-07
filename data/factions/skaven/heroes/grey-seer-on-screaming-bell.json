@@ -25,11 +25,11 @@
     {
       "name": "Rat Ogor’s Tearing Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]
@@ -37,11 +37,11 @@
     {
       "name": "Crushing Bulk",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]
@@ -49,11 +49,11 @@
     {
       "name": "Warpstone Staff",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "rend": 1,
+      "damage": "D3"
     }
   ],
   "_meta": {

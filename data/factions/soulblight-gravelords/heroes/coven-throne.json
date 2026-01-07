@@ -26,20 +26,20 @@
     {
       "name": "Acolytes' Poniards",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1
     },
     {
       "name": "Matriarch's Stiletto",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Crit (2 Hits)"
       ]
@@ -47,7 +47,7 @@
     {
       "name": "Spectral Host's Blades",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 10,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,

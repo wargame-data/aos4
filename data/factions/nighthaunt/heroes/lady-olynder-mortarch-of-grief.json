@@ -27,11 +27,11 @@
     {
       "name": "Staff of Midnight",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
       "abilities": [
         "Crit (Auto-wound)"
       ]
@@ -41,9 +41,9 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "2+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 3,
+      "damage": "D6",
       "range": "12\"",
       "abilities": [
         "Crit (Auto-wound)",

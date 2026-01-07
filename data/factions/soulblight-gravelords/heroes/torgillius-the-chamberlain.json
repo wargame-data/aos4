@@ -25,7 +25,7 @@
     {
       "name": "Familiars’ Fangs and Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
@@ -37,12 +37,12 @@
     {
       "name": "Necrotising Bolts",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "rend": 1,
+      "damage": "D3",
+      "range": "18\"",
       "abilities": [
         "Shoot in Combat"
       ]

@@ -25,11 +25,11 @@
     {
       "name": "Ossified Talons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
-      "damage": 1,
+      "damage": 2,
       "abilities": [
         "Crit (2 Hits)"
       ]

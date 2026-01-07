@@ -25,11 +25,11 @@
     {
       "name": "Soulmason's Staff",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "rend": 1,
+      "damage": "D3",
       "abilities": [
         "Crit (2 Hits)"
       ]
@@ -37,10 +37,10 @@
     {
       "name": "Mortek Throne's Ossified Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "5+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Companion"

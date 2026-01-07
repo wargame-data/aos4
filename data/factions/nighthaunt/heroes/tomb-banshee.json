@@ -24,11 +24,11 @@
     {
       "name": "Piercing Scream",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D3",
       "range": "12\"",
       "abilities": [
         "Shoot in Combat"
@@ -37,11 +37,11 @@
     {
       "name": "Ancient Chill Dagger",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D3",
       "abilities": [
         "Crit (Auto-wound)"
       ]

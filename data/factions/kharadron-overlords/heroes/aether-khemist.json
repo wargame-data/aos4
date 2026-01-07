@@ -24,21 +24,21 @@
     {
       "name": "Heavy Instruments",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
-      "damage": 1
+      "damage": "D3"
     },
     {
       "name": "Atmospheric Anatomiser",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "3D6",
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 2,
       "damage": 1,
-      "range": "12\"",
+      "range": "8\"",
       "abilities": [
         "Shoot in Combat"
       ]

@@ -24,12 +24,12 @@
     {
       "name": "Fusil-cannon: Fortified Position",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1,
-      "range": "12\""
+      "range": "18\""
     },
     {
       "name": "Fusil-cannon: Mobile",
@@ -37,7 +37,7 @@
       "attacks": 1,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1,
       "range": "12\"",
       "abilities": [

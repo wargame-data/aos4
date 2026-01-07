@@ -25,11 +25,11 @@
     {
       "name": "Cursed Crosier",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
-      "damage": 1
+      "damage": "D3"
     }
   ],
   "_meta": {

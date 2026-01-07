@@ -22,12 +22,12 @@
     {
       "name": "Slythey Tongue",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "8\"",
       "abilities": [
         "Shoot in Combat",
         "Companion"
@@ -36,11 +36,11 @@
     {
       "name": "Vorpal Claws and Tail",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]

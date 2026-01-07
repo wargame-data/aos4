@@ -25,11 +25,11 @@
     {
       "name": "Giant Snarlfang’s Jaws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
-      "damage": 1,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]
@@ -37,9 +37,9 @@
     {
       "name": "Pointy Skewas",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1,
       "abilities": [

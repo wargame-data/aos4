@@ -25,11 +25,11 @@
     {
       "name": "Celennari Blade",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "2+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 3,
       "abilities": [
         "Anti-**^^Hero^^** (+1 Rend)",
         "Anti-**^^Monster^^** (+1 Rend)"
@@ -38,11 +38,11 @@
     {
       "name": "Fangsword of Eltharion",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "2+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 3,
+      "damage": 3,
       "abilities": [
         "Crit (2 Hits)"
       ]
@@ -50,11 +50,11 @@
     {
       "name": "Searing Darts of Light",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "2+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D3",
       "range": "12\""
     }
   ],

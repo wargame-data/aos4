@@ -28,17 +28,17 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\""
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "8\""
     },
     {
       "name": "Clawed Forelimbs",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1
     }

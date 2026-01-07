@@ -26,11 +26,11 @@
     {
       "name": "Lyrior’s Sword",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "2+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Crit (Mortal)"
       ]
@@ -38,9 +38,9 @@
     {
       "name": "Farael’s Horns and Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
       "abilities": [
@@ -52,9 +52,9 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "2+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3",
       "range": "12\"",
       "abilities": [
         "Anti-**^^Daemon^^** (+1 Rend)"

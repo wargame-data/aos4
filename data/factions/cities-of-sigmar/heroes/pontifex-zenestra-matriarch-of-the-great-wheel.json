@@ -26,16 +26,16 @@
     {
       "name": "Sceptre of the Wheel",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
-      "damage": 1
+      "damage": "D3"
     },
     {
       "name": "Acolytes’ Club and Axe",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,

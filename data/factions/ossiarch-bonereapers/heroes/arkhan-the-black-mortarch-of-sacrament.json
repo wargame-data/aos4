@@ -27,11 +27,11 @@
     {
       "name": "Razarak's Ebon Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]
@@ -39,11 +39,11 @@
     {
       "name": "Zefet-kar and Khenash-an",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
       "abilities": [
         "Crit (2 Hits)"
       ]

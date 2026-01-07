@@ -24,11 +24,11 @@
     {
       "name": "Hellforged Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 3,
       "abilities": [
         "Crit (Mortal)"
       ]

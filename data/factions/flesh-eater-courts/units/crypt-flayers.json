@@ -25,21 +25,21 @@
     {
       "name": "Piercing Talons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1
     },
     {
       "name": "Death Scream",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 2,
       "damage": 1,
-      "range": "12\"",
+      "range": "10\"",
       "abilities": [
         "Shoot in Combat"
       ]

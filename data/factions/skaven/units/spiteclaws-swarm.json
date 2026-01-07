@@ -24,9 +24,9 @@
     {
       "name": "Rusty Weapon",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1,
       "abilities": [
@@ -36,11 +36,11 @@
     {
       "name": "Wicked Halberd",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "rend": 1,
+      "damage": 2
     }
   ],
   "_meta": {

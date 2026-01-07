@@ -26,15 +26,15 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
-      "range": "12\""
+      "range": "10\""
     },
     {
       "name": "Shadowstalker Blades",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,

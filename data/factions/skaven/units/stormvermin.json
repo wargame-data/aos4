@@ -25,10 +25,10 @@
     {
       "name": "Stormvermin Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Anti-charge (+1 Rend)"

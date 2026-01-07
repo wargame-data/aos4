@@ -24,7 +24,7 @@
     {
       "name": "Despoiler Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
@@ -33,12 +33,12 @@
     {
       "name": "Despoiler Shortbow",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
       "damage": 1,
-      "range": "12\""
+      "range": "15\""
     }
   ],
   "_meta": {

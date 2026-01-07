@@ -27,9 +27,9 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "2+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 3,
+      "damage": "D6",
       "range": "12\"",
       "abilities": [
         "Shoot in Combat"
@@ -38,11 +38,11 @@
     {
       "name": "Heartrender",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 8,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3,
       "abilities": [
         "Crit (Mortal)"
       ]
@@ -50,7 +50,7 @@
     {
       "name": "Crown of Serpents",
       "type": "melee",
-      "attacks": 1,
+      "attacks": "2D6",
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
@@ -61,9 +61,9 @@
       "type": "melee",
       "attacks": 1,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "3+",
+      "rend": 2,
+      "damage": 6
     }
   ],
   "_meta": {

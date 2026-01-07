@@ -26,21 +26,21 @@
     {
       "name": "Wurrgog Staff",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
-      "damage": 1
+      "damage": "D3"
     },
     {
       "name": "Deadly Green Bolts",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "D6",
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "10\"",
       "abilities": [
         "Shoot in Combat"
       ]

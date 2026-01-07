@@ -22,11 +22,11 @@
     {
       "name": "Stegadon’s Horns and Jaws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Charge (+1 Damage)",
         "Companion"
@@ -35,7 +35,7 @@
     {
       "name": "Handlers’ Meteoric Javelins",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,

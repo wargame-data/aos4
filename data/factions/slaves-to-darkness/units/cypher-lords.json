@@ -29,7 +29,7 @@
       "wound": "4+",
       "rend": 0,
       "damage": 1,
-      "range": "12\"",
+      "range": "10\"",
       "abilities": [
         "Shoot in Combat"
       ]
@@ -37,7 +37,7 @@
     {
       "name": "Exotic Blades",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,

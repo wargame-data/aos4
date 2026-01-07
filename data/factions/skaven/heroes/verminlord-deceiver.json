@@ -26,12 +26,12 @@
     {
       "name": "Doomstar",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "range": "13\"",
       "abilities": [
         "Crit (Auto-wound)"
       ]
@@ -39,11 +39,11 @@
     {
       "name": "Warpstiletto",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 8,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 3,
+      "damage": 2,
       "abilities": [
         "Crit (Mortal)"
       ]

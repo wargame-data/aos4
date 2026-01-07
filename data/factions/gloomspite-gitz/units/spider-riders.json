@@ -25,17 +25,17 @@
     {
       "name": "Spider-bow",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1,
-      "range": "12\""
+      "range": "18\""
     },
     {
       "name": "Spider Fangs",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
@@ -48,9 +48,9 @@
     {
       "name": "Crooked Spear",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1
     }

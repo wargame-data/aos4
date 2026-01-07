@@ -33,11 +33,11 @@
     {
       "name": "Glaive of the Rat King",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 7,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
       "abilities": [
         "Crit (2 Hits)"
       ]

@@ -23,21 +23,21 @@
     {
       "name": "Cogsmith’s Firearms",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
-      "range": "12\""
+      "range": "15\""
     },
     {
       "name": "Gun Butt and Cog Axe",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "rend": 1,
+      "damage": 2
     }
   ],
   "_meta": {

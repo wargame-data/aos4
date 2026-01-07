@@ -26,19 +26,19 @@
     {
       "name": "Raider Bow",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1,
-      "range": "12\""
+      "range": "18\""
     },
     {
       "name": "Jagged Shank",
       "type": "melee",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1,
       "abilities": [

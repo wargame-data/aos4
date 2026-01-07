@@ -22,7 +22,7 @@
     {
       "name": "Attendants' Crawler Tools",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
@@ -34,12 +34,12 @@
     {
       "name": "Dread Catapult",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3+2",
+      "range": "24\"",
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)",
         "Crit (2 Hits)"

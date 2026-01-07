@@ -27,9 +27,9 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "2+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D3+3",
       "range": "12\"",
       "abilities": [
         "Shoot in Combat"
@@ -38,11 +38,11 @@
     {
       "name": "Annihilating Jaws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 4,
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)"
       ]
@@ -50,11 +50,11 @@
     {
       "name": "Drake-lord’s Talons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2
     }
   ],
   "_meta": {

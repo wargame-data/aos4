@@ -25,19 +25,19 @@
     {
       "name": "Doomfire Crossbow",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,
       "damage": 1,
-      "range": "12\""
+      "range": "10\""
     },
     {
       "name": "Dark Steed’s Vicious Bite",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
       "abilities": [
@@ -47,10 +47,10 @@
     {
       "name": "Cursed Scimitar",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1
     }
   ],

@@ -30,8 +30,8 @@
       "hit": "3+",
       "wound": "4+",
       "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "damage": "D3",
+      "range": "18\"",
       "abilities": [
         "Wyrdflame"
       ]
@@ -39,20 +39,20 @@
     {
       "name": "Warpsteel Sword",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,
-      "damage": 1
+      "damage": "D3"
     },
     {
       "name": "Disc’s Teeth and Horns",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
       "abilities": [
         "Companion"
       ]

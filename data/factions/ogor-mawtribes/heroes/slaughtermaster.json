@@ -25,9 +25,9 @@
     {
       "name": "Gnoblars’ Implements",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1,
       "abilities": [
@@ -37,10 +37,10 @@
     {
       "name": "Stump Blades",
       "type": "melee",
-      "attacks": 1,
+      "attacks": "2D6",
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "2+",
+      "rend": 1,
       "damage": 1
     }
   ],

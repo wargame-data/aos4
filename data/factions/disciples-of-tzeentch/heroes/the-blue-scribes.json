@@ -26,9 +26,9 @@
     {
       "name": "Sharpened Quills",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1,
       "abilities": [
@@ -38,11 +38,11 @@
     {
       "name": "Disc’s Teeth and Horns",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
       "abilities": [
         "Companion"
       ]

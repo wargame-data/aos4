@@ -22,9 +22,9 @@
     {
       "name": "Warhorses' Steel-shod Hooves",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
       "abilities": [

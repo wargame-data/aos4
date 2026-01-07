@@ -26,7 +26,7 @@
     {
       "name": "Kruiplash and Sacrificial Knife",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,

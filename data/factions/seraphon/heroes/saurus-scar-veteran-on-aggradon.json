@@ -23,11 +23,11 @@
     {
       "name": "Celestite Spear or Club",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
       "abilities": [
         "Charge (+1 Damage)"
       ]
@@ -35,11 +35,11 @@
     {
       "name": "Aggradon’s Rending Bites and Striking Talons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]

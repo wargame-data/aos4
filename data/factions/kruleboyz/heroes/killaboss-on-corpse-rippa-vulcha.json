@@ -23,11 +23,11 @@
     {
       "name": "Boss-stikka or Boss-hacka",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Crit (Mortal)"
       ]
@@ -37,9 +37,9 @@
       "type": "melee",
       "attacks": 1,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D6",
       "abilities": [
         "Crit (Mortal)",
         "Companion"
@@ -48,11 +48,11 @@
     {
       "name": "Vulcha’s Talons and Beak",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 7,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]

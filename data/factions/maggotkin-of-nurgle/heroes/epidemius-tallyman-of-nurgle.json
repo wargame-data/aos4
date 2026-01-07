@@ -26,18 +26,18 @@
     {
       "name": "Epidemius’s Balesword",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3"
     },
     {
       "name": "Mound of Nurglings",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 10,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1,
       "abilities": [

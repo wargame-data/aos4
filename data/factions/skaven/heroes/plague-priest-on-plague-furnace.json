@@ -25,11 +25,11 @@
     {
       "name": "Great Plague Censer",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 3,
       "abilities": [
         "Crit (Auto-wound)"
       ]
@@ -37,9 +37,9 @@
     {
       "name": "Foetid Blades",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1,
       "abilities": [
@@ -49,11 +49,11 @@
     {
       "name": "Crushing Bulk",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]
@@ -61,11 +61,11 @@
     {
       "name": "Warpstone-tipped Staff",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "rend": 1,
+      "damage": "D3",
       "abilities": [
         "Crit (Auto-wound)"
       ]

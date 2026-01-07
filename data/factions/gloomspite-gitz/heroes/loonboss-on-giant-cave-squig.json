@@ -24,11 +24,11 @@
     {
       "name": "Massive Fang-filled Gob",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D3",
       "abilities": [
         "Companion"
       ]
@@ -36,11 +36,11 @@
     {
       "name": "Moon-cutta or Loonboss Stabba",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Charge (+1 Damage)"
       ]

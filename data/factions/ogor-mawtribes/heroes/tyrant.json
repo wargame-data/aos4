@@ -24,11 +24,11 @@
     {
       "name": "Thundermace",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
       "abilities": [
         "Crit (Mortal)"
       ]
@@ -36,11 +36,11 @@
     {
       "name": "Beastskewer Glaive",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Anti-**^^Monster^^** (+1 Rend)"
       ]
@@ -48,12 +48,12 @@
     {
       "name": "Ogor Pistols",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "10\"",
       "abilities": [
         "Shoot in Combat"
       ]

@@ -26,11 +26,11 @@
     {
       "name": "Plaguereapers",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 8,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
       "abilities": [
         "Crit (Auto-wound)"
       ]

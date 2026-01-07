@@ -23,7 +23,7 @@
     {
       "name": "Spectral Claws and Daggers",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,

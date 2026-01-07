@@ -31,10 +31,10 @@
     {
       "name": "Storm of Vengeance",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 12,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Crit (Auto-wound)"

@@ -25,11 +25,11 @@
     {
       "name": "Sepulchral Sceptre",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3,
       "abilities": [
         "Crit (Auto-wound)"
       ]

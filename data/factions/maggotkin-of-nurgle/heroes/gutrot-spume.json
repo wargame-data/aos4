@@ -25,11 +25,11 @@
     {
       "name": "Rot-pocked Axe",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Crit (Mortal)",
         "Anti-Hero (+1 Rend)"

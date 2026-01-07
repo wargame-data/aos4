@@ -24,11 +24,11 @@
     {
       "name": "Jaggedsnarl's Jaws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]
@@ -36,11 +36,11 @@
     {
       "name": "Da Metal Toof",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Crit (Mortal)"
       ]

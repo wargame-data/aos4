@@ -26,11 +26,11 @@
     {
       "name": "Mighty Axe of Khorne and Bloodflail",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 4,
       "abilities": [
         "Anti-**^^Hero^^** (+1 Rend)",
         "Blood-hungry"
@@ -39,12 +39,12 @@
     {
       "name": "Hellfire Breath",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "2D6",
       "hit": "2+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
-      "range": "12\"",
+      "range": "8\"",
       "abilities": [
         "Shoot in Combat"
       ]

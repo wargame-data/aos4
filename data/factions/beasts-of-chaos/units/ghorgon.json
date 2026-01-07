@@ -22,11 +22,11 @@
     {
       "name": "Butchering Blades",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 7,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 3,
       "abilities": [
         "Anti-**^^Infantry^^**(+1 Rend)"
       ]
@@ -34,11 +34,11 @@
     {
       "name": "Huge Slavering Maw",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D6"
     }
   ],
   "_meta": {

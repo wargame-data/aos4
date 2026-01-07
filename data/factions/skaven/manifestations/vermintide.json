@@ -31,9 +31,9 @@
     {
       "name": "Chittering Bites",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 13,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1,
       "abilities": [

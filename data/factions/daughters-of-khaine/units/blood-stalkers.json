@@ -24,12 +24,12 @@
     {
       "name": "Heartseeker Bow",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1,
-      "range": "12\"",
+      "range": "18\"",
       "abilities": [
         "Crit (Auto-wound)"
       ]
@@ -37,7 +37,7 @@
     {
       "name": "Scianlar",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,

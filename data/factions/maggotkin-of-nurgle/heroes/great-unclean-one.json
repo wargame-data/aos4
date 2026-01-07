@@ -25,9 +25,9 @@
     {
       "name": "Host of Nurglings",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 10,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1,
       "abilities": [
@@ -38,12 +38,12 @@
     {
       "name": "Noxious Bile",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "D3+3",
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
+      "range": "7\"",
       "abilities": [
         "Shoot in Combat"
       ]
@@ -51,11 +51,11 @@
     {
       "name": "Colossal Blight Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 2,
+      "damage": 4
     }
   ],
   "_meta": {

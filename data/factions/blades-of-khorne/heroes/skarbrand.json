@@ -26,11 +26,11 @@
     {
       "name": "Slaughter",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 4,
       "abilities": [
         "Blood-hungry"
       ]
@@ -38,11 +38,11 @@
     {
       "name": "Carnage",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 8,
       "abilities": [
         "Crit (Mortal)"
       ]

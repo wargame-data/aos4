@@ -24,20 +24,20 @@
     {
       "name": "Slaughterer’s Axe",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 1,
+      "damage": 3
     },
     {
       "name": "Alphabeast Horns",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "2+",
       "rend": 0,
-      "damage": 1,
+      "damage": 2,
       "abilities": [
         "Charge (+1 Damage)"
       ]

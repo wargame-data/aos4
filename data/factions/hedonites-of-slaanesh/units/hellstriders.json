@@ -25,7 +25,7 @@
     {
       "name": "Claw-spear or Hellscourge",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,
@@ -38,7 +38,7 @@
     {
       "name": "Steed’s Poisoned Tongue",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,

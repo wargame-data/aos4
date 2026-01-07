@@ -28,19 +28,19 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "2+",
-      "wound": "4+",
+      "wound": "6+",
       "rend": 0,
-      "damage": 1,
-      "range": "12\""
+      "damage": "⟝See 'Cometstrike Sceptre' ability⟞",
+      "range": "18\""
     },
     {
       "name": "Ghal Maraz",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 4,
       "abilities": [
         "Crit (Mortal)"
       ]

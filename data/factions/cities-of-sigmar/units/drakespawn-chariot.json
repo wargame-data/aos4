@@ -22,10 +22,10 @@
     {
       "name": "Barbed Spear",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Charge (+1 Damage)"
@@ -34,10 +34,10 @@
     {
       "name": "Drakespawn’s Ferocious Jaws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Companion"

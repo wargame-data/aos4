@@ -24,9 +24,9 @@
     {
       "name": "Culling Club",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "2+",
       "rend": 0,
       "damage": 1,
       "abilities": [
@@ -38,9 +38,9 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "2+",
       "rend": 0,
-      "damage": 1,
+      "damage": "D3",
       "range": "12\"",
       "abilities": [
         "Anti-**^^Monster^^** (+1 Rend)"
@@ -51,10 +51,10 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "10\"",
       "abilities": [
         "Anti-**^^Monster^^** (+1 Rend)"
       ]

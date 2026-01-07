@@ -23,21 +23,21 @@
     {
       "name": "Hurled Debris",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\""
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "18\""
     },
     {
       "name": "Death Grip",
       "type": "melee",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D6",
       "abilities": [
         "Anti-**^^Hero^^** (+1 Rend)"
       ]
@@ -45,11 +45,11 @@
     {
       "name": "Almighty Stomp",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3",
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)"
       ]
@@ -57,11 +57,11 @@
     {
       "name": "Shipwrecka Warclub",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 2,
+      "damage": 4
     }
   ],
   "_meta": {

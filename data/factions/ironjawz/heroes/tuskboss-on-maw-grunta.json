@@ -23,20 +23,20 @@
     {
       "name": "Pig-hacka",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 7,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
     },
     {
       "name": "Maw-grunta’s Tusks",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]
@@ -44,11 +44,11 @@
     {
       "name": "Maw-grunta’s Trotters",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "2+",
       "rend": 0,
-      "damage": 1,
+      "damage": "D3",
       "abilities": [
         "Companion"
       ]
@@ -56,10 +56,10 @@
     {
       "name": "Kill-choppas",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1
     }
   ],

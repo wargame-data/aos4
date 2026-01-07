@@ -22,11 +22,11 @@
     {
       "name": "Moonstone Hammer",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 3,
       "abilities": [
         "Anti‑**^^Infantry^^** (+1 Rend)"
       ]
@@ -34,11 +34,11 @@
     {
       "name": "Drakebite Maul",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Anti‑**^^Infantry^^** (+1 Rend)"
       ]

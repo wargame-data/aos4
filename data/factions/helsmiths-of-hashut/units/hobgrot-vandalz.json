@@ -25,9 +25,9 @@
     {
       "name": "Scavenged Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1
     }

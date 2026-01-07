@@ -25,11 +25,11 @@
     {
       "name": "Hand-and-a-half Sword",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "rend": 2,
+      "damage": 2
     }
   ],
   "_meta": {

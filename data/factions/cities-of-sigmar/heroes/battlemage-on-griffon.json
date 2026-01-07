@@ -25,11 +25,11 @@
     {
       "name": "Amber Spear",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
       "range": "12\"",
       "abilities": [
         "Anti‑**^^Monster^^** (+1 Rend)"
@@ -38,20 +38,20 @@
     {
       "name": "Beaststaff",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3"
     },
     {
       "name": "Griffon’s Razor Claws and Twin Beaks",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
       "abilities": [
         "Companion"
       ]

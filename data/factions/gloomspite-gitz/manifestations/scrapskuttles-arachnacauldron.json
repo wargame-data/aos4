@@ -30,11 +30,11 @@
     {
       "name": "Spider Legs",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
-      "damage": 1
+      "damage": 2
     }
   ],
   "abilities": [

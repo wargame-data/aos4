@@ -22,7 +22,7 @@
     {
       "name": "Freakish Mutations",
       "type": "melee",
-      "attacks": 1,
+      "attacks": "2D6",
       "hit": "5+",
       "wound": "4+",
       "rend": 0,

@@ -25,11 +25,11 @@
     {
       "name": "Storm-forged Axe",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 3,
       "abilities": [
         "Crit (Mortal)"
       ]
@@ -37,10 +37,10 @@
     {
       "name": "Crackling Bolts",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "2D6",
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
       "range": "12\"",
       "abilities": [

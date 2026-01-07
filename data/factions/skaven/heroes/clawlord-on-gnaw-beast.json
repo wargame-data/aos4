@@ -23,21 +23,21 @@
     {
       "name": "Warpforged Halberd",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "rend": 1,
+      "damage": 2
     },
     {
       "name": "Ratling Pistol",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "D6",
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
-      "range": "12\"",
+      "range": "10\"",
       "abilities": [
         "Crit (Auto-wound)",
         "Shoot in Combat"
@@ -46,11 +46,11 @@
     {
       "name": "Gnaw-beast’s Chisel Fangs",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
       "abilities": [
         "Companion"
       ]

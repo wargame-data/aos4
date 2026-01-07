@@ -23,10 +23,10 @@
     {
       "name": "Monsta-killa Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Anti-**^^Monster^^** (+1 Rend)",

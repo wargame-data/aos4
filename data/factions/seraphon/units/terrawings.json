@@ -22,7 +22,7 @@
     {
       "name": "Snapping Beaks",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,

@@ -28,10 +28,10 @@
     {
       "name": "Corpsemare Trample",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "5+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Crit (2 Hits)"

@@ -22,12 +22,12 @@
     {
       "name": "Warpflame Scourger",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "2D6",
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "15\"",
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)",
         "Crit (Auto-wound)"
@@ -36,11 +36,11 @@
     {
       "name": "Chain-flail",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
       "abilities": [
         "Crit (Mortal)"
       ]
@@ -48,11 +48,11 @@
     {
       "name": "Bladed Limbs",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "rend": 1,
+      "damage": 2
     }
   ],
   "_meta": {

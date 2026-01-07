@@ -26,10 +26,10 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
-      "range": "12\"",
+      "range": "8\"",
       "abilities": [
         "Shoot in Combat"
       ]
@@ -37,9 +37,9 @@
     {
       "name": "Slitta-knives",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1
     }

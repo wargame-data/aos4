@@ -25,20 +25,20 @@
     {
       "name": "Ironshell Club",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 3,
+      "damage": 4
     },
     {
       "name": "Mighty Antlers",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3+3"
     }
   ],
   "_meta": {

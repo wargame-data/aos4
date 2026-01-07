@@ -31,10 +31,10 @@
     {
       "name": "Volatile Warp Energy",
       "type": "melee",
-      "attacks": 1,
+      "attacks": "2D6",
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1
     }
   ],

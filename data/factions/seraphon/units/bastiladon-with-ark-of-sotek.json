@@ -22,11 +22,11 @@
     {
       "name": "Bludgeoning Tail",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
       "abilities": [
         "Companion"
       ]
@@ -34,7 +34,7 @@
     {
       "name": "Handlers’ Meteoric Javelins",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
@@ -47,9 +47,9 @@
     {
       "name": "Ark of Sotek",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 20,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1,
       "abilities": [

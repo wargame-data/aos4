@@ -24,7 +24,7 @@
     {
       "name": "Repeater Crossbow",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
@@ -37,12 +37,12 @@
     {
       "name": "Black Dragon’s Noxious Breath",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "D3+3",
       "hit": "2+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1,
-      "range": "12\"",
+      "range": "10\"",
       "abilities": [
         "Shoot in Combat",
         "Companion"
@@ -51,11 +51,11 @@
     {
       "name": "Black Dragon’s Fearsome Jaws and Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]
@@ -63,11 +63,11 @@
     {
       "name": "Dreadlord’s Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Charge (+1 Damage)"
       ]

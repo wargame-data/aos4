@@ -27,20 +27,20 @@
     {
       "name": "Impaling Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "3+",
+      "rend": 2,
+      "damage": 4
     },
     {
       "name": "Soulpiercer",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "2+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3,
       "abilities": [
         "Anti‑**^^Hero^^** (+1 Rend)"
       ]

@@ -22,12 +22,12 @@
     {
       "name": "Starshard Bolts",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "2+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "24\"",
       "abilities": [
         "Crit (2 Hits)",
         "Anti-**^^Monster^^** (+1 Rend)"
@@ -36,7 +36,7 @@
     {
       "name": "Crew’s Arming Swords",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,

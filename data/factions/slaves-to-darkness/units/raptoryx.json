@@ -21,7 +21,7 @@
     {
       "name": "Razor-sharp Beak and Talons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,

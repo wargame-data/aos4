@@ -22,10 +22,10 @@
     {
       "name": "Gryph-chargers’ Razor Beaks",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Companion"
@@ -34,10 +34,10 @@
     {
       "name": "Stormstrike Axe",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Charge (+1 Damage)"
@@ -46,12 +46,12 @@
     {
       "name": "Great Stormbow",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
-      "range": "12\"",
+      "range": "18\"",
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)",
         "Crit (2 Hits)"
@@ -60,10 +60,10 @@
     {
       "name": "Tempestuous Spear",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 2,
       "damage": 1
     }
   ],

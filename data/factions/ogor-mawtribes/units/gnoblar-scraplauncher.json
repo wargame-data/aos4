@@ -24,9 +24,9 @@
       "type": "melee",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3",
       "abilities": [
         "Companion"
       ]
@@ -34,21 +34,21 @@
     {
       "name": "Scrappers’ Stabbers",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 7,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1
     },
     {
       "name": "Piles of Old Scrap",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "3D6",
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
       "damage": 1,
-      "range": "12\"",
+      "range": "24\"",
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)",
         "Crit (Auto-wound)"

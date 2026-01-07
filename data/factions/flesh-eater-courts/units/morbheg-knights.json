@@ -27,11 +27,11 @@
     {
       "name": "Nightshrieker’s Claws and Teeth",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]
@@ -39,10 +39,10 @@
     {
       "name": "Grisly Lance",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Charge (+1 Damage)"

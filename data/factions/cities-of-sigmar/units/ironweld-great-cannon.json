@@ -22,27 +22,27 @@
     {
       "name": "Great Cannon: Cannonball",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\""
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3+2",
+      "range": "24\""
     },
     {
       "name": "Great Cannon: Grapeshot",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "range": "12\""
     },
     {
       "name": "Crew’s Tools and Sidearms",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,

@@ -23,12 +23,12 @@
     {
       "name": "Soulreach Grasp",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
+      "range": "10\"",
       "abilities": [
         "Crit (Auto-wound)",
         "Shoot In Combat"
@@ -37,11 +37,11 @@
     {
       "name": "Wraith's Spectral Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)",
         "Crit (Auto-wound)"
@@ -50,7 +50,7 @@
     {
       "name": "Relic Bearers’ Claws and Ethereal Steeds’ Hooves",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 14,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,

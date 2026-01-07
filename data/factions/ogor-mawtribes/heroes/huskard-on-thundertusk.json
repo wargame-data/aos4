@@ -27,9 +27,9 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3+2",
       "range": "12\"",
       "abilities": [
         "Companion"
@@ -38,11 +38,11 @@
     {
       "name": "Thundertusk’s Colossal Tusks",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 5,
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)",
         "Companion"
@@ -51,9 +51,9 @@
     {
       "name": "Punches and Kicks",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "2+",
       "rend": 0,
       "damage": 1
     },
@@ -62,19 +62,19 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\""
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "18\""
     },
     {
       "name": "Chaintrap",
       "type": "ranged",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 3,
       "range": "12\"",
       "abilities": [
         "Anti‑**^^Monster^^** (+1 Rend)"
@@ -85,10 +85,10 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "2+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
-      "range": "12\""
+      "range": "24\""
     }
   ],
   "_meta": {

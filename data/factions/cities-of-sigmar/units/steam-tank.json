@@ -24,19 +24,19 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\""
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3+2",
+      "range": "18\""
     },
     {
       "name": "Crushing Wheels",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]
@@ -44,7 +44,7 @@
     {
       "name": "Steam Gun",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "2D6",
       "hit": "2+",
       "wound": "4+",
       "rend": 0,

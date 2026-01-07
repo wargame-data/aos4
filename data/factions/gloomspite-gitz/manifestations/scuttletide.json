@@ -30,7 +30,7 @@
     {
       "name": "Spider Bites",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 8,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,

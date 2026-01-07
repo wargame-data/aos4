@@ -25,21 +25,21 @@
     {
       "name": "Haruspicy Blades",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "rend": 1,
+      "damage": "D3"
     },
     {
       "name": "Aelven Crossbow",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,
       "damage": 1,
-      "range": "12\"",
+      "range": "10\"",
       "abilities": [
         "Crit (Auto-wound)"
       ]

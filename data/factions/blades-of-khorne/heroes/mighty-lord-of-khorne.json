@@ -23,11 +23,11 @@
     {
       "name": "Axe of Khorne",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
       "abilities": [
         "Blood-hungry"
       ]
@@ -35,9 +35,9 @@
     {
       "name": "Flesh Hound’s Blood-dark Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
       "abilities": [

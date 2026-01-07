@@ -25,10 +25,10 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D6",
+      "range": "10\"",
       "abilities": [
         "Shoot in Combat",
         "Companion"
@@ -37,11 +37,11 @@
     {
       "name": "Fanged Maw",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D6",
       "abilities": [
         "Companion"
       ]
@@ -49,11 +49,11 @@
     {
       "name": "Skeletal Talons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]

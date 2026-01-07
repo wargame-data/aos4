@@ -24,10 +24,10 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D3",
+      "range": "10\"",
       "abilities": [
         "Crit (2 Hits)",
         "Companion"
@@ -36,11 +36,11 @@
     {
       "name": "Stormstrike Glaive",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Charge (+1 Damage)"
       ]
@@ -48,11 +48,11 @@
     {
       "name": "Dracoth’s Claws and Fangs",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]

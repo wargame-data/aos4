@@ -22,19 +22,19 @@
     {
       "name": "Warp Lightning Blast",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "2D6",
       "hit": "4+",
-      "wound": "4+",
+      "wound": "6+",
       "rend": 0,
-      "damage": 1,
-      "range": "12\""
+      "damage": "⟝See Warp Lightning Blast ability⟞",
+      "range": "20\""
     },
     {
       "name": "Crew’s Teeth and Knives",
       "type": "melee",
-      "attacks": 1,
+      "attacks": "D6",
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1
     }

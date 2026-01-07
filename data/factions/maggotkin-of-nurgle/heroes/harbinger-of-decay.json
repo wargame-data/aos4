@@ -25,11 +25,11 @@
     {
       "name": "Grim Rotsword or Plague Scythe",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 3,
       "abilities": [
         "Crit (Mortal)"
       ]
@@ -37,9 +37,9 @@
     {
       "name": "Daemonic Mount’s Flyblown Bite",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
       "abilities": [

@@ -22,11 +22,11 @@
     {
       "name": "Boss-choppa",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 8,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2
     }
   ],
   "_meta": {

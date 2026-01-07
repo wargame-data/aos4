@@ -23,11 +23,11 @@
     {
       "name": "Meteoric Grandhammer",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3
     }
   ],
   "_meta": {

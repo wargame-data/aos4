@@ -26,10 +26,10 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "15\"",
       "abilities": [
         "Anti-**^^Monster^^** (+1 Rend)"
       ]
@@ -39,19 +39,19 @@
       "type": "melee",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1
     },
     {
       "name": "Rapid-fire Rivet Gun",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1,
-      "range": "12\"",
+      "range": "10\"",
       "abilities": [
         "Shoot in Combat"
       ]
@@ -59,11 +59,11 @@
     {
       "name": "Aethermatic Saw",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Anti-charge (+1 Rend)"
       ]
@@ -71,12 +71,12 @@
     {
       "name": "Aethermatic Volley Gun",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "2D6",
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
       "damage": 1,
-      "range": "12\"",
+      "range": "15\"",
       "abilities": [
         "Crit (2 Hits)"
       ]

@@ -23,11 +23,11 @@
     {
       "name": "Kosargi Bardiche",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3
     }
   ],
   "_meta": {

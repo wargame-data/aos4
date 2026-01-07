@@ -26,11 +26,11 @@
     {
       "name": "Spear of Repressed Fury and Crulhook",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 7,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
       "abilities": [
         "Charge (+1 Damage)"
       ]

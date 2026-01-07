@@ -24,21 +24,21 @@
     {
       "name": "Basalt Hammer",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3"
     },
     {
       "name": "Fire Breath",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "2+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
-      "range": "12\"",
+      "range": "8\"",
       "abilities": [
         "Shoot in Combat"
       ]

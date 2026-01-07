@@ -66,7 +66,9 @@ export class WeaponMapper extends BaseMapper<BSProfile, Weapon> {
   }
 
   private extractAttacks(profile: BSProfile): number | string {
-    const value = findCharacteristic(profile, "Attacks");
+    const value =
+      findCharacteristic(profile, "Attacks") ||
+      findCharacteristic(profile, "Atk");
     if (!value) {
       this.recordUnmapped({
         type: "missing_characteristic",
@@ -106,7 +108,8 @@ export class WeaponMapper extends BaseMapper<BSProfile, Weapon> {
   private extractWound(profile: BSProfile): string {
     const value =
       findCharacteristic(profile, "To Wound") ||
-      findCharacteristic(profile, "Wound");
+      findCharacteristic(profile, "Wound") ||
+      findCharacteristic(profile, "Wnd");
     if (!value) {
       this.recordUnmapped({
         type: "missing_characteristic",
@@ -124,7 +127,9 @@ export class WeaponMapper extends BaseMapper<BSProfile, Weapon> {
   }
 
   private extractRend(profile: BSProfile): number {
-    const value = findCharacteristic(profile, "Rend");
+    const value =
+      findCharacteristic(profile, "Rend") ||
+      findCharacteristic(profile, "Rnd");
     if (!value && value !== "0" && value !== "-") {
       // Rend can legitimately be 0 or "-"
       return 0;
@@ -133,7 +138,9 @@ export class WeaponMapper extends BaseMapper<BSProfile, Weapon> {
   }
 
   private extractDamage(profile: BSProfile): number | string {
-    const value = findCharacteristic(profile, "Damage");
+    const value =
+      findCharacteristic(profile, "Damage") ||
+      findCharacteristic(profile, "Dmg");
     if (!value) {
       this.recordUnmapped({
         type: "missing_characteristic",
@@ -151,7 +158,9 @@ export class WeaponMapper extends BaseMapper<BSProfile, Weapon> {
   }
 
   private extractRange(profile: BSProfile): string {
-    const value = findCharacteristic(profile, "Range");
+    const value =
+      findCharacteristic(profile, "Range") ||
+      findCharacteristic(profile, "Rng");
     if (!value) {
       this.recordUnmapped({
         type: "missing_characteristic",

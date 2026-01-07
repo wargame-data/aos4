@@ -31,10 +31,10 @@
     {
       "name": "Hooked Tongues",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 8,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1
     }
   ],

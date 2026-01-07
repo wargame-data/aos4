@@ -29,11 +29,11 @@
     {
       "name": "The Slayer of Kings",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "2+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3,
       "abilities": [
         "Anti-**^^Hero^^** (+1 Rend)"
       ]
@@ -41,11 +41,11 @@
     {
       "name": "Dorghar’s Heads",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 5,
       "abilities": [
         "Companion"
       ]
@@ -53,11 +53,11 @@
     {
       "name": "Dorghar’s Claws and Tails",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
       "abilities": [
         "Companion"
       ]

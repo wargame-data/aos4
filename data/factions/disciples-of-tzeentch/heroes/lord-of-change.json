@@ -26,20 +26,20 @@
     {
       "name": "Curved Beak",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
     },
     {
       "name": "Staff of Tzeentch",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
-      "damage": 1,
+      "damage": "D3",
       "abilities": [
         "Anti-**^^Wizard^^** (+1 Rend)"
       ]
@@ -47,12 +47,12 @@
     {
       "name": "Rod of Sorcery",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "2D6",
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
-      "range": "12\"",
+      "range": "18\"",
       "abilities": [
         "Wyrdflame"
       ]
@@ -60,11 +60,11 @@
     {
       "name": "Baleful Sword",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3
     }
   ],
   "_meta": {

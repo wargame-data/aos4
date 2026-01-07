@@ -24,7 +24,7 @@
     {
       "name": "Ghurish Hunting Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,

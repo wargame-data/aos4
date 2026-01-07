@@ -27,27 +27,27 @@
     {
       "name": "Gnarlrod",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 1,
+      "damage": 3
     },
     {
       "name": "Fanged Maws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2
     },
     {
       "name": "Host of Nurglings",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 10,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1,
       "abilities": [

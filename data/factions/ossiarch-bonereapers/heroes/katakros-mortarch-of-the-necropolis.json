@@ -25,11 +25,11 @@
     {
       "name": "Inda-Khaat",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3,
       "abilities": [
         "Crit (2 Hits)"
       ]
@@ -37,10 +37,10 @@
     {
       "name": "Retinue Blades",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 10,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Crit (2 Hits)"
@@ -49,11 +49,11 @@
     {
       "name": "The Shield Immortis",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2
     }
   ],
   "_meta": {

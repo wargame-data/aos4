@@ -25,11 +25,11 @@
     {
       "name": "Stonehorn’s Hooves",
       "type": "melee",
-      "attacks": 1,
+      "attacks": "D6",
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3",
       "abilities": [
         "Companion"
       ]
@@ -37,20 +37,20 @@
     {
       "name": "Punches and Kicks",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "2+",
       "rend": 0,
       "damage": 1
     },
     {
       "name": "Stonehorn’s Rock-hard Horns",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
       "abilities": [
         "Charge (+1 Damage)",
         "Companion"
@@ -61,19 +61,19 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\""
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "18\""
     },
     {
       "name": "Chaintrap",
       "type": "ranged",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 3,
       "range": "12\"",
       "abilities": [
         "Anti‑**^^Monster^^** (+1 Rend)"
@@ -84,10 +84,10 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "2+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
-      "range": "12\""
+      "range": "24\""
     }
   ],
   "_meta": {

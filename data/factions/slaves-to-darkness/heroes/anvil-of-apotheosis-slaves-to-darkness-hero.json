@@ -22,18 +22,18 @@
     {
       "name": "Chaos Blade",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
     },
     {
       "name": "Daemonic Steed's Mighty Hooves",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
       "abilities": [
@@ -43,9 +43,9 @@
     {
       "name": "Chaos Steeds' Trampling Hooves",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
       "abilities": [
@@ -55,11 +55,11 @@
     {
       "name": "Mighty Chaotic Beast's Talons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]
@@ -67,11 +67,11 @@
     {
       "name": "Gorebeast's Crushing Fists",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
-      "damage": 1,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]

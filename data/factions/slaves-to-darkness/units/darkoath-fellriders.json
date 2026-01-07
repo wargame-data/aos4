@@ -25,9 +25,9 @@
     {
       "name": "Warsteed’s Hooves",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
       "abilities": [
@@ -37,9 +37,9 @@
     {
       "name": "Broadsword",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
       "abilities": [
@@ -51,10 +51,10 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
-      "damage": 1,
-      "range": "12\""
+      "damage": "D3",
+      "range": "10\""
     }
   ],
   "_meta": {

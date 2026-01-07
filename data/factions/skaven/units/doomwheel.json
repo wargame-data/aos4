@@ -22,12 +22,12 @@
     {
       "name": "Warp Bolts",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "D6",
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "13\"",
       "abilities": [
         "Shoot in Combat"
       ]
@@ -35,9 +35,9 @@
     {
       "name": "Grinding Wheels",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
       "abilities": [

@@ -22,10 +22,10 @@
     {
       "name": "Tusks and Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1
     }
   ],

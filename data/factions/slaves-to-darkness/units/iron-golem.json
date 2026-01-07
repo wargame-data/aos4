@@ -25,10 +25,10 @@
     {
       "name": "Legion Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1
     },
     {
@@ -39,7 +39,7 @@
       "wound": "4+",
       "rend": 0,
       "damage": 1,
-      "range": "12\"",
+      "range": "8\"",
       "abilities": [
         "Shoot in Combat"
       ]

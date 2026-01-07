@@ -27,11 +27,11 @@
     {
       "name": "Warpfire Braziers",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
       "abilities": [
         "Companion"
       ]
@@ -39,21 +39,21 @@
     {
       "name": "Staff of the Horned Rat",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "rend": 1,
+      "damage": "D3"
     },
     {
       "name": "Custom Warpfire Projectors",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "2+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 2,
       "damage": 1,
-      "range": "12\"",
+      "range": "10\"",
       "abilities": [
         "Companion"
       ]

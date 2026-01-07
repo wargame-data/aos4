@@ -26,11 +26,11 @@
     {
       "name": "Ravaging Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "rend": 1,
+      "damage": 2
     }
   ],
   "_meta": {

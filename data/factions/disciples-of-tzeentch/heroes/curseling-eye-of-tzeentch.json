@@ -24,12 +24,12 @@
     {
       "name": "Hurled Arcane Energy",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "D6",
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
-      "range": "12\"",
+      "range": "18\"",
       "abilities": [
         "Wyrdflame"
       ]
@@ -37,11 +37,11 @@
     {
       "name": "Staff of Tzeentch and Blazing Sword",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "rend": 1,
+      "damage": 2
     }
   ],
   "_meta": {

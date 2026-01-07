@@ -25,11 +25,11 @@
     {
       "name": "Regent’s Sword",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Crit (Mortal)"
       ]
@@ -37,9 +37,9 @@
     {
       "name": "Lightcourser’s Horns and Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
       "abilities": [

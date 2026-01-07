@@ -26,11 +26,11 @@
     {
       "name": "Mighty Axe of Khorne",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 4,
       "abilities": [
         "Anti-**^^Monster^^** (+1 Rend)",
         "Blood-hungry"
@@ -39,12 +39,12 @@
     {
       "name": "Lash of Khorne",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "8\"",
       "abilities": [
         "Shoot in Combat"
       ]

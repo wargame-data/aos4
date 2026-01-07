@@ -25,12 +25,12 @@
     {
       "name": "Bloodwrack Gaze",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3,
+      "range": "15\"",
       "abilities": [
         "Crit (2 Hits)",
         "Shoot in Combat"
@@ -39,11 +39,11 @@
     {
       "name": "Medusa's Spear and Shrinekeepers’ Goadstaves",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 8,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "rend": 1,
+      "damage": 2
     }
   ],
   "_meta": {

@@ -25,20 +25,20 @@
     {
       "name": "Starstone Atlatl",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 2,
       "damage": 1,
       "range": "12\""
     },
     {
       "name": "Raptadon’s Serrated Fangs",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Companion"
@@ -47,9 +47,9 @@
     {
       "name": "Weighted Moonstone Club",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1
     }

@@ -28,12 +28,12 @@
     {
       "name": "Raging Torrents of Lava",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D3",
+      "range": "8\"",
       "abilities": [
         "Shoot in Combat"
       ]
@@ -41,11 +41,11 @@
     {
       "name": "Molten Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3",
       "abilities": [
         "Crit (Mortal)"
       ]

@@ -27,11 +27,11 @@
     {
       "name": "Shordmaire's Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 7,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]
@@ -39,11 +39,11 @@
     {
       "name": "Shordmaire's Maw",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
       "abilities": [
         "Companion"
       ]
@@ -51,11 +51,11 @@
     {
       "name": "The Bloodlance",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
       "abilities": [
         "Charge (+1 Damage)"
       ]
@@ -63,12 +63,12 @@
     {
       "name": "Shordemaire's Miasma",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "D6",
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
+      "range": "10\"",
       "abilities": [
         "Shoot in Combat",
         "Companion"

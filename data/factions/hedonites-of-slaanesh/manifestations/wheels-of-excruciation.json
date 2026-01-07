@@ -31,7 +31,7 @@
     {
       "name": "Rending Wheels",
       "type": "melee",
-      "attacks": 1,
+      "attacks": "2D6",
       "hit": "4+",
       "wound": "4+",
       "rend": 0,

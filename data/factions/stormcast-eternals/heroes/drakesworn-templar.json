@@ -24,12 +24,12 @@
     {
       "name": "Skybolt Bow",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "2+",
+      "rend": 1,
       "damage": 1,
-      "range": "12\"",
+      "range": "18\"",
       "abilities": [
         "Crit (Auto-wound)"
       ]
@@ -37,11 +37,11 @@
     {
       "name": "Templar Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Anti-**^^Hero^^** (+1 Rend)",
         "Anti-**^^Monster^^** (+1 Rend)"
@@ -50,11 +50,11 @@
     {
       "name": "Stardrake’s Cavernous Jaws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 7,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
       "abilities": [
         "Companion"
       ]
@@ -62,12 +62,12 @@
     {
       "name": "Rain of Stars",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
+      "range": "24\"",
       "abilities": [
         "Companion"
       ]

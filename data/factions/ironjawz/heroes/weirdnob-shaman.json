@@ -23,12 +23,12 @@
     {
       "name": "Green Puke",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "2+",
       "wound": "4+",
       "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "damage": "D3",
+      "range": "10\"",
       "abilities": [
         "Shoot in Combat"
       ]
@@ -36,11 +36,11 @@
     {
       "name": "Waaagh! Staff",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3"
     }
   ],
   "_meta": {

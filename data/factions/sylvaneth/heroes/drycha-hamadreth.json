@@ -24,10 +24,10 @@
     {
       "name": "Flitterfuries",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 10,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1,
       "range": "12\"",
       "abilities": [
@@ -38,11 +38,11 @@
     {
       "name": "Slashing Talons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)"
       ]
@@ -50,10 +50,10 @@
     {
       "name": "Swarm of Squirmlings",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 10,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)",

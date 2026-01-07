@@ -25,7 +25,7 @@
     {
       "name": "Darkling Sword",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,

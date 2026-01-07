@@ -25,11 +25,11 @@
     {
       "name": "Trap Launcher",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
       "range": "12\"",
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)"
@@ -38,11 +38,11 @@
     {
       "name": "Hunting Knife",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "2+",
       "rend": 0,
-      "damage": 1
+      "damage": 2
     }
   ],
   "_meta": {

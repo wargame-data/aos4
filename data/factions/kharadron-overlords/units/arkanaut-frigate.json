@@ -24,17 +24,17 @@
     {
       "name": "Heavy Sky Ordnance",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\""
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
+      "range": "24\""
     },
     {
       "name": "Boarding Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 8,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,

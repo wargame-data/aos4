@@ -28,11 +28,11 @@
     {
       "name": "Blade of Shadows",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 8,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
       "abilities": [
         "Crit (Auto-wound)"
       ]
@@ -40,11 +40,11 @@
     {
       "name": "Fell Claw and Spearing Tail",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "2+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
       "abilities": [
         "Charge (+1 Damage)"
       ]

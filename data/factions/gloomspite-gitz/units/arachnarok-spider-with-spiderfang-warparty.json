@@ -23,17 +23,17 @@
     {
       "name": "Spider-bows",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 10,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1,
-      "range": "12\""
+      "range": "18\""
     },
     {
       "name": "Crooked Spears",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 10,
       "hit": "5+",
       "wound": "4+",
       "rend": 0,
@@ -42,11 +42,11 @@
     {
       "name": "Monstrous Spider Fangs",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 1,
+      "damage": 3,
       "abilities": [
         "Crit (Mortal)",
         "Companion"
@@ -55,10 +55,10 @@
     {
       "name": "Chitinous Legs",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 8,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "2+",
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Companion"

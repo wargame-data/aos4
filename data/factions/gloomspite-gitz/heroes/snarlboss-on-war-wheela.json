@@ -23,11 +23,11 @@
     {
       "name": "Snarlfangs' Frothing Jaws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
-      "damage": 1,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]
@@ -35,11 +35,11 @@
     {
       "name": "Chain Basha",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Crit (Auto-wound)"
       ]
@@ -47,7 +47,7 @@
     {
       "name": "Wheela Slicers",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,

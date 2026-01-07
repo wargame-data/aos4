@@ -26,10 +26,10 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D6",
+      "range": "10\"",
       "abilities": [
         "Crit (Auto-wound)"
       ]
@@ -37,11 +37,11 @@
     {
       "name": "Culler's Sickle",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
       "abilities": [
         "Crit (Auto-wound)"
       ]

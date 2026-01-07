@@ -28,21 +28,21 @@
     {
       "name": "Dumakar",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3"
     },
     {
       "name": "Ruinous Torrents",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1,
-      "range": "12\"",
+      "rend": 1,
+      "damage": "D3",
+      "range": "18\"",
       "abilities": [
         "Crit (2 Hits)",
         "Shoot in Combat"
@@ -51,11 +51,11 @@
     {
       "name": "Ghorrakos's Horns and Hooves",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
       "abilities": [
         "Charge (+1 Damage)",
         "Companion"

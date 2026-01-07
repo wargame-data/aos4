@@ -23,7 +23,7 @@
     {
       "name": "Karagthrun Flamehurlers",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "2+",
       "wound": "4+",
       "rend": 0,

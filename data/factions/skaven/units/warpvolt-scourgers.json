@@ -23,21 +23,21 @@
     {
       "name": "Rusty Knives",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1
     },
     {
       "name": "Warpvolt Scourger",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "2D6",
       "hit": "2+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1,
-      "range": "12\"",
+      "range": "15\"",
       "abilities": [
         "Crit (2 Hits)",
         "Anti-**^^Cavalry^^** (+1 Rend)"

@@ -24,21 +24,21 @@
     {
       "name": "Forge Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1
     },
     {
       "name": "Flamehurler",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "D6",
       "hit": "2+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
-      "range": "12\"",
+      "range": "8\"",
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)",
         "Shoot in Combat"

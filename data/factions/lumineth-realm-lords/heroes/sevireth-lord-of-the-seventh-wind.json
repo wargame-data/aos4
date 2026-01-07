@@ -27,20 +27,20 @@
     {
       "name": "Swirling Shards",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "2+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1
     },
     {
       "name": "Enathrai, the Howling Death",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "2+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 3,
+      "damage": "D3+1",
       "range": "12\"",
       "abilities": [
         "Shoot in Combat"

@@ -25,11 +25,11 @@
     {
       "name": "Savage Maws and Goreslick Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Anti-**^^Hero^^** (+1 Rend)",
         "Blood-hungry"

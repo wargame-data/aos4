@@ -26,11 +26,11 @@
     {
       "name": "Plague Censer",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "5+",
+      "rend": 1,
+      "damage": 2,
       "abilities": [
         "Crit (Auto-wound)"
       ]
@@ -38,9 +38,9 @@
     {
       "name": "Plaguepack Weapons",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1,
       "abilities": [

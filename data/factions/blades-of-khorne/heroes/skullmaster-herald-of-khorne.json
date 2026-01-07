@@ -24,11 +24,11 @@
     {
       "name": "Blade of Blood",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 5,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
       "abilities": [
         "Blood-hungry",
         "Crit (2 Hits)"
@@ -37,11 +37,11 @@
     {
       "name": "Juggernaut’s Brazen Hooves",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
       "abilities": [
         "Anti-**^^Cavalry^^** +1 Rend)",
         "Companion"

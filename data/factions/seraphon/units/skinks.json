@@ -23,7 +23,7 @@
     {
       "name": "Javelins and Boltspitters",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
@@ -38,7 +38,7 @@
       "type": "melee",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1
     }

@@ -23,17 +23,17 @@
     {
       "name": "Grot Bow",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1,
-      "range": "12\""
+      "range": "15\""
     },
     {
       "name": "Wheela Slicers and Stabbin’ Stikka",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
       "wound": "4+",
       "rend": 0,
@@ -42,11 +42,11 @@
     {
       "name": "Snarlfangs' Frothing Jaws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
-      "damage": 1,
+      "damage": 2,
       "abilities": [
         "Companion"
       ]

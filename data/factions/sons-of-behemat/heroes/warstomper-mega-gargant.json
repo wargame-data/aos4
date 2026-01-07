@@ -25,9 +25,9 @@
       "type": "melee",
       "attacks": 1,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D6",
       "abilities": [
         "Anti-**^^Hero^^** (+1 Rend)"
       ]
@@ -35,11 +35,11 @@
     {
       "name": "Almightier Stomp",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3",
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)"
       ]
@@ -47,11 +47,11 @@
     {
       "name": "Titanic Boulderclub",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
       "abilities": [
         "Anti-**^^Infantry^^** (+1 Rend)"
       ]

@@ -25,9 +25,9 @@
       "type": "melee",
       "attacks": 1,
       "hit": "3+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1,
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
       "abilities": [
         "Companion"
       ]
@@ -35,10 +35,10 @@
     {
       "name": "Mason’s Tools",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
+      "wound": "3+",
+      "rend": 1,
       "damage": 1,
       "abilities": [
         "Anti-**^^Faction Terrain^^** (+1 Rend)"
@@ -52,7 +52,7 @@
       "wound": "4+",
       "rend": 0,
       "damage": 1,
-      "range": "12\""
+      "range": "18\""
     },
     {
       "name": "Jade Dagger",

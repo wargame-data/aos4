@@ -26,16 +26,16 @@
     {
       "name": "Flensing Whips and Piercing Claws",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 6,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 1,
       "damage": 1
     },
     {
       "name": "Steeds’ Poisoned Tongues",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "3+",
       "wound": "4+",
       "rend": 0,

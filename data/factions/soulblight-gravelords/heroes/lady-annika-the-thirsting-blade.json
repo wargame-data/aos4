@@ -25,11 +25,11 @@
     {
       "name": "Blade Proboscian",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 7,
       "hit": "3+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "rend": 1,
+      "damage": 2
     }
   ],
   "_meta": {

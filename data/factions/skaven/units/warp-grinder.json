@@ -22,20 +22,20 @@
     {
       "name": "Crew's Teeth and Knives",
       "type": "melee",
-      "attacks": 1,
+      "attacks": "D6",
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1
     },
     {
       "name": "Warpstone Drill-fang",
       "type": "melee",
-      "attacks": 1,
+      "attacks": "D3",
       "hit": "4+",
-      "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "wound": "2+",
+      "rend": 3,
+      "damage": 5
     }
   ],
   "_meta": {

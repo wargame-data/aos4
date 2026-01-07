@@ -26,17 +26,17 @@
       "type": "ranged",
       "attacks": 1,
       "hit": "2+",
-      "wound": "4+",
+      "wound": "6+",
       "rend": 0,
-      "damage": 1,
-      "range": "12\""
+      "damage": "⟝See 'Searing Beam of Light' ability⟞",
+      "range": "24\""
     },
     {
       "name": "Warhorses' Steel-shod Hooves",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 4,
       "hit": "5+",
-      "wound": "4+",
+      "wound": "3+",
       "rend": 0,
       "damage": 1,
       "abilities": [
@@ -46,11 +46,11 @@
     {
       "name": "Wizard’s Staff",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 3,
       "hit": "4+",
       "wound": "4+",
-      "rend": 0,
-      "damage": 1
+      "rend": 1,
+      "damage": "D3"
     }
   ],
   "_meta": {

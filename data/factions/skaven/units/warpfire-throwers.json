@@ -23,21 +23,21 @@
     {
       "name": "Rusty Knives",
       "type": "melee",
-      "attacks": 1,
+      "attacks": 2,
       "hit": "4+",
-      "wound": "4+",
+      "wound": "5+",
       "rend": 0,
       "damage": 1
     },
     {
       "name": "Warpfire Thrower",
       "type": "ranged",
-      "attacks": 1,
+      "attacks": "2D6",
       "hit": "2+",
       "wound": "4+",
-      "rend": 0,
+      "rend": 2,
       "damage": 1,
-      "range": "12\"",
+      "range": "10\"",
       "abilities": [
         "Shoot in Combat"
       ]
