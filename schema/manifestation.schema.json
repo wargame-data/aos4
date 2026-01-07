@@ -157,6 +157,10 @@
               {
                 "type": "string",
                 "pattern": "^\\d?[dD]\\d+.*$"
+              },
+              {
+                "type": "string",
+                "pattern": "^⟝.*⟞$"
               }
             ]
           },

@@ -10,10 +10,14 @@ const attacksSchema = z.union([
   diceExpressionSchema,
 ]);
 
-// Damage can be a number or dice expression
+// Ability reference pattern (e.g., "⟝See 'Bloodwrack Stare' ability⟞")
+const abilityReferenceSchema = z.string().regex(/^⟝.*⟞$/);
+
+// Damage can be a number, dice expression, or ability reference
 const damageSchema = z.union([
   z.number().int().min(1),
   diceExpressionSchema,
+  abilityReferenceSchema,
 ]);
 
 export const weaponSchema = z
