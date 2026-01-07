@@ -45,6 +45,7 @@ import {
   writeBattleTacticCards,
   ensureBloodTitheDir,
   writeBloodTitheAbilities,
+  writeFactionIndex,
 } from "./output/writer.js";
 import { mapLores, type Lore } from "./mappers/lore.mapper.js";
 import {
@@ -59,6 +60,8 @@ import {
   catalogueNameToFactionId,
   getGrandAlliance,
   shouldSkipCatalogue,
+  SCHEMA_URLS,
+  KEYWORD_TO_FACTION,
 } from "./config.js";
 
 /**
@@ -943,6 +946,39 @@ async function writeResults(
       ensureBloodTitheDir(outputDir);
       const bloodTitheResults = writeBloodTitheAbilities(result.bloodTitheAbilities, { dryRun: false }, outputDir);
       log.verbose(`  Wrote ${bloodTitheResults.length} blood tithe abilities`);
+    }
+
+    // Write faction index
+    const grandAlliance = getGrandAlliance(result.factionId);
+    if (grandAlliance) {
+      // Get army keyword from KEYWORD_TO_FACTION mapping (reverse lookup)
+      const armyKeyword = Object.entries(KEYWORD_TO_FACTION)
+        .find(([, factionId]) => factionId === result.factionId)?.[0];
+
+      // Build battle formation references
+      const battleFormationRefs = result.battleFormations.map((bf) => ({
+        name: bf.name,
+        file: `battle-formations/${bf.id}.json`,
+      }));
+
+      // Clean up faction name (remove "- Library" suffix)
+      const cleanFactionName = result.factionName.replace(/\s*-\s*Library$/i, "");
+
+      const factionData = {
+        $schema: SCHEMA_URLS.faction,
+        id: result.factionId,
+        name: cleanFactionName,
+        grandAlliance,
+        armyKeywords: armyKeyword ? [armyKeyword] : [],
+        battleFormations: battleFormationRefs,
+        _meta: {
+          lastUpdated: new Date().toISOString().split("T")[0],
+          source: `${cleanFactionName} Faction Pack`,
+        },
+      };
+
+      const indexResult = writeFactionIndex(result.factionId, factionData, { dryRun: false }, outputDir);
+      log.verbose(`  ${indexResult.created ? "Created" : "Updated"}: ${indexResult.path}`);
     }
 
     const formationCount = result.battleFormations.length;

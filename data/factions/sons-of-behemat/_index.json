@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "sons-of-behemat",
+  "name": "Sons of Behemat",
+  "grandAlliance": "destruction",
+  "armyKeywords": [
+    "SONS OF BEHEMAT"
+  ],
+  "battleFormations": [
+    {
+      "name": "Boss Tribe",
+      "file": "battle-formations/boss-tribe.json"
+    },
+    {
+      "name": "Taker Tribe",
+      "file": "battle-formations/taker-tribe.json"
+    },
+    {
+      "name": "Breaker Tribe",
+      "file": "battle-formations/breaker-tribe.json"
+    },
+    {
+      "name": "Stomper Tribe",
+      "file": "battle-formations/stomper-tribe.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Sons of Behemat Faction Pack"
+  }
+}

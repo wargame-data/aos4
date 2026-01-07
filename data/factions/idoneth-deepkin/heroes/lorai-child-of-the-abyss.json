@@ -2,7 +2,7 @@
   "$schema": "https://aos-data.org/schema/hero.schema.json",
   "id": "lorai-child-of-the-abyss",
   "name": "Lorai, Child of the Abyss",
-  "faction": "stormcast-eternals",
+  "faction": "idoneth-deepkin",
   "points": 0,
   "stats": {
     "move": "6\"",

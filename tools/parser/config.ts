@@ -52,7 +52,62 @@ export const FACTION_GRAND_ALLIANCE: Record<string, string> = {
   "ogor-mawtribes": "destruction",
   "orruk-warclans": "destruction",
   "sons-of-behemat": "destruction",
+  "ironjawz": "destruction",
+  "kruleboyz": "destruction",
+  "bonesplitterz": "destruction",
+
+  // Additional Chaos
+  "helsmiths-of-hashut": "chaos",
 };
+
+// Keyword to faction ID mapping (for cross-catalogue units)
+export const KEYWORD_TO_FACTION: Record<string, string> = {
+  "STORMCAST ETERNALS": "stormcast-eternals",
+  "IDONETH DEEPKIN": "idoneth-deepkin",
+  "DAUGHTERS OF KHAINE": "daughters-of-khaine",
+  "FYRESLAYERS": "fyreslayers",
+  "KHARADRON OVERLORDS": "kharadron-overlords",
+  "LUMINETH REALM-LORDS": "lumineth-realm-lords",
+  "CITIES OF SIGMAR": "cities-of-sigmar",
+  "SERAPHON": "seraphon",
+  "SYLVANETH": "sylvaneth",
+  "BLADES OF KHORNE": "blades-of-khorne",
+  "DISCIPLES OF TZEENTCH": "disciples-of-tzeentch",
+  "HEDONITES OF SLAANESH": "hedonites-of-slaanesh",
+  "MAGGOTKIN OF NURGLE": "maggotkin-of-nurgle",
+  "BEASTS OF CHAOS": "beasts-of-chaos",
+  "SKAVEN": "skaven",
+  "SLAVES TO DARKNESS": "slaves-to-darkness",
+  "FLESH-EATER COURTS": "flesh-eater-courts",
+  "NIGHTHAUNT": "nighthaunt",
+  "OSSIARCH BONEREAPERS": "ossiarch-bonereapers",
+  "SOULBLIGHT GRAVELORDS": "soulblight-gravelords",
+  "GLOOMSPITE GITZ": "gloomspite-gitz",
+  "OGOR MAWTRIBES": "ogor-mawtribes",
+  "ORRUK WARCLANS": "orruk-warclans",
+  "SONS OF BEHEMAT": "sons-of-behemat",
+  "IRONJAWZ": "ironjawz",
+  "KRULEBOYZ": "kruleboyz",
+  "BONESPLITTERZ": "bonesplitterz",
+  "HELSMITHS OF HASHUT": "helsmiths-of-hashut",
+};
+
+/**
+ * Detect the correct faction from unit keywords.
+ * Used when units appear in cross-faction catalogues.
+ */
+export function detectFactionFromKeywords(
+  keywords: string[],
+  catalogueFactionId: string
+): string {
+  for (const keyword of keywords) {
+    const factionId = KEYWORD_TO_FACTION[keyword];
+    if (factionId && factionId !== catalogueFactionId) {
+      return factionId;
+    }
+  }
+  return catalogueFactionId;
+}
 
 // File patterns for BSData
 export const BSDATA_CAT_PATTERN = "*.cat";

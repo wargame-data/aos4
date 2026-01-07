@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "lumineth-realm-lords",
+  "name": "Lumineth Realm-lords",
+  "grandAlliance": "order",
+  "armyKeywords": [
+    "LUMINETH REALM-LORDS"
+  ],
+  "battleFormations": [
+    {
+      "name": "Vanari Battlehost",
+      "file": "battle-formations/vanari-battlehost.json"
+    },
+    {
+      "name": "Scinari Council",
+      "file": "battle-formations/scinari-council.json"
+    },
+    {
+      "name": "Alarith Temple",
+      "file": "battle-formations/alarith-temple.json"
+    },
+    {
+      "name": "Hurakan Temple",
+      "file": "battle-formations/hurakan-temple.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Lumineth Realm-lords Faction Pack"
+  }
+}

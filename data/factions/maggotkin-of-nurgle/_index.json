@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "maggotkin-of-nurgle",
+  "name": "Maggotkin of Nurgle",
+  "grandAlliance": "chaos",
+  "armyKeywords": [
+    "MAGGOTKIN OF NURGLE"
+  ],
+  "battleFormations": [
+    {
+      "name": "Affliction Cyst",
+      "file": "battle-formations/affliction-cyst.json"
+    },
+    {
+      "name": "Tallyband of Nurgle",
+      "file": "battle-formations/tallyband-of-nurgle.json"
+    },
+    {
+      "name": "Nurgle's Menagerie",
+      "file": "battle-formations/nurgles-menagerie.json"
+    },
+    {
+      "name": "Plague Cyst",
+      "file": "battle-formations/plague-cyst.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Maggotkin of Nurgle Faction Pack"
+  }
+}

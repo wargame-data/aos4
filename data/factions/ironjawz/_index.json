@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "ironjawz",
+  "name": "Ironjawz",
+  "grandAlliance": "destruction",
+  "armyKeywords": [
+    "IRONJAWZ"
+  ],
+  "battleFormations": [
+    {
+      "name": "Weirdfist",
+      "file": "battle-formations/weirdfist.json"
+    },
+    {
+      "name": "Ironjawz Brawl",
+      "file": "battle-formations/ironjawz-brawl.json"
+    },
+    {
+      "name": "Grunta Stampede",
+      "file": "battle-formations/grunta-stampede.json"
+    },
+    {
+      "name": "Ironfist",
+      "file": "battle-formations/ironfist.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Ironjawz Faction Pack"
+  }
+}

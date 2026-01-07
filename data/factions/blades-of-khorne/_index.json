@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "blades-of-khorne",
+  "name": "Blades of Khorne",
+  "grandAlliance": "chaos",
+  "armyKeywords": [
+    "BLADES OF KHORNE"
+  ],
+  "battleFormations": [
+    {
+      "name": "Brass Stampede",
+      "file": "battle-formations/brass-stampede.json"
+    },
+    {
+      "name": "Khornate Legion",
+      "file": "battle-formations/khornate-legion.json"
+    },
+    {
+      "name": "Murderhost",
+      "file": "battle-formations/murderhost.json"
+    },
+    {
+      "name": "Bloodbound Warhorde",
+      "file": "battle-formations/bloodbound-warhorde.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Blades of Khorne Faction Pack"
+  }
+}

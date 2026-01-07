@@ -1,0 +1,35 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "soulblight-gravelords",
+  "name": "Soulblight Gravelords",
+  "grandAlliance": "death",
+  "armyKeywords": [
+    "SOULBLIGHT GRAVELORDS"
+  ],
+  "battleFormations": [
+    {
+      "name": "Deathstench Drove",
+      "file": "battle-formations/deathstench-drove.json"
+    },
+    {
+      "name": "Bacchanal of Blood",
+      "file": "battle-formations/bacchanal-of-blood.json"
+    },
+    {
+      "name": "Deathmarch",
+      "file": "battle-formations/deathmarch.json"
+    },
+    {
+      "name": "Legion of Shyish",
+      "file": "battle-formations/legion-of-shyish.json"
+    },
+    {
+      "name": "Legions of Ulfenkarn",
+      "file": "battle-formations/legions-of-ulfenkarn.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Soulblight Gravelords Faction Pack"
+  }
+}

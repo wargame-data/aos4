@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "kharadron-overlords",
+  "name": "Kharadron Overlords",
+  "grandAlliance": "order",
+  "armyKeywords": [
+    "KHARADRON OVERLORDS"
+  ],
+  "battleFormations": [
+    {
+      "name": "Veteran Ground Troops",
+      "file": "battle-formations/veteran-ground-troops.json"
+    },
+    {
+      "name": "Rapid Redeployment Squadron",
+      "file": "battle-formations/rapid-redeployment-squadron.json"
+    },
+    {
+      "name": "Endrineers Guild Expeditionary Force",
+      "file": "battle-formations/endrineers-guild-expeditionary-force.json"
+    },
+    {
+      "name": "Pioneers and Scavengers",
+      "file": "battle-formations/pioneers-and-scavengers.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Kharadron Overlords Faction Pack"
+  }
+}

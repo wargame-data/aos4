@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "daughters-of-khaine",
+  "name": "Daughters of Khaine",
+  "grandAlliance": "order",
+  "armyKeywords": [
+    "DAUGHTERS OF KHAINE"
+  ],
+  "battleFormations": [
+    {
+      "name": "Slaughter Troupe",
+      "file": "battle-formations/slaughter-troupe.json"
+    },
+    {
+      "name": "Scáthcoven",
+      "file": "battle-formations/sc-thcoven.json"
+    },
+    {
+      "name": "Shadow Patrol",
+      "file": "battle-formations/shadow-patrol.json"
+    },
+    {
+      "name": "Cauldron Guard",
+      "file": "battle-formations/cauldron-guard.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Daughters of Khaine Faction Pack"
+  }
+}

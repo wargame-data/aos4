@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "bonesplitterz",
+  "name": "Bonesplitterz",
+  "grandAlliance": "destruction",
+  "armyKeywords": [
+    "BONESPLITTERZ"
+  ],
+  "battleFormations": [
+    {
+      "name": "Kop Rukk",
+      "file": "battle-formations/kop-rukk.json"
+    },
+    {
+      "name": "Kunnin' Rukk",
+      "file": "battle-formations/kunnin-rukk.json"
+    },
+    {
+      "name": "Snaga Rukk",
+      "file": "battle-formations/snaga-rukk.json"
+    },
+    {
+      "name": "Brutal Rukk",
+      "file": "battle-formations/brutal-rukk.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Bonesplitterz Faction Pack"
+  }
+}

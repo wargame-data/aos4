@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "kruleboyz",
+  "name": "Kruleboyz",
+  "grandAlliance": "destruction",
+  "armyKeywords": [
+    "KRULEBOYZ"
+  ],
+  "battleFormations": [
+    {
+      "name": "Light Finga",
+      "file": "battle-formations/light-finga.json"
+    },
+    {
+      "name": "Trophy Finga",
+      "file": "battle-formations/trophy-finga.json"
+    },
+    {
+      "name": "Kruleboyz Klaw",
+      "file": "battle-formations/kruleboyz-klaw.json"
+    },
+    {
+      "name": "Middul Finga",
+      "file": "battle-formations/middul-finga.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Kruleboyz Faction Pack"
+  }
+}

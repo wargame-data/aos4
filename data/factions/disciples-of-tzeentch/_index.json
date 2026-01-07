@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "disciples-of-tzeentch",
+  "name": "Disciples of Tzeentch",
+  "grandAlliance": "chaos",
+  "armyKeywords": [
+    "DISCIPLES OF TZEENTCH"
+  ],
+  "battleFormations": [
+    {
+      "name": "Arcanite Cabal",
+      "file": "battle-formations/arcanite-cabal.json"
+    },
+    {
+      "name": "Change Host",
+      "file": "battle-formations/change-host.json"
+    },
+    {
+      "name": "Tzaangor Coven",
+      "file": "battle-formations/tzaangor-coven.json"
+    },
+    {
+      "name": "Wyrdflame Host",
+      "file": "battle-formations/wyrdflame-host.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Disciples of Tzeentch Faction Pack"
+  }
+}

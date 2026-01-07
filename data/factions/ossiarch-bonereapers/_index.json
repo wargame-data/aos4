@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "ossiarch-bonereapers",
+  "name": "Ossiarch Bonereapers",
+  "grandAlliance": "death",
+  "armyKeywords": [
+    "OSSIARCH BONEREAPERS"
+  ],
+  "battleFormations": [
+    {
+      "name": "Kavalos Lance",
+      "file": "battle-formations/kavalos-lance.json"
+    },
+    {
+      "name": "Mortek Ballistari",
+      "file": "battle-formations/mortek-ballistari.json"
+    },
+    {
+      "name": "Mortek Phalanx",
+      "file": "battle-formations/mortek-phalanx.json"
+    },
+    {
+      "name": "Mortisan Council",
+      "file": "battle-formations/mortisan-council.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Ossiarch Bonereapers Faction Pack"
+  }
+}

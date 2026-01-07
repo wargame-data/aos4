@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "sylvaneth",
+  "name": "Sylvaneth",
+  "grandAlliance": "order",
+  "armyKeywords": [
+    "SYLVANETH"
+  ],
+  "battleFormations": [
+    {
+      "name": "Lords of the Clan",
+      "file": "battle-formations/lords-of-the-clan.json"
+    },
+    {
+      "name": "Forest Folk",
+      "file": "battle-formations/forest-folk.json"
+    },
+    {
+      "name": "Free Spirits",
+      "file": "battle-formations/free-spirits.json"
+    },
+    {
+      "name": "Outcasts",
+      "file": "battle-formations/outcasts.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Sylvaneth Faction Pack"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "skaven",
+  "name": "Skaven",
+  "grandAlliance": "chaos",
+  "armyKeywords": [
+    "SKAVEN"
+  ],
+  "battleFormations": [
+    {
+      "name": "Warpcog Convocation",
+      "file": "battle-formations/warpcog-convocation.json"
+    },
+    {
+      "name": "Fleshmeld Menagerie",
+      "file": "battle-formations/fleshmeld-menagerie.json"
+    },
+    {
+      "name": "Virulent Procession",
+      "file": "battle-formations/virulent-procession.json"
+    },
+    {
+      "name": "Claw-horde",
+      "file": "battle-formations/claw-horde.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Skaven Faction Pack"
+  }
+}

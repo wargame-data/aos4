@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "helsmiths-of-hashut",
+  "name": "Helsmiths of Hashut",
+  "grandAlliance": "chaos",
+  "armyKeywords": [
+    "HELSMITHS OF HASHUT"
+  ],
+  "battleFormations": [
+    {
+      "name": "Hashutite Host",
+      "file": "battle-formations/hashutite-host.json"
+    },
+    {
+      "name": "Castigation Battery",
+      "file": "battle-formations/castigation-battery.json"
+    },
+    {
+      "name": "The Bullfather's Horns",
+      "file": "battle-formations/the-bullfathers-horns.json"
+    },
+    {
+      "name": "Daemonsmith Cabal",
+      "file": "battle-formations/daemonsmith-cabal.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Helsmiths of Hashut Faction Pack"
+  }
+}

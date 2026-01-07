@@ -10,6 +10,7 @@ import type {
   BSProfile,
 } from "../xml/types.js";
 import { BaseMapper, type MapperOptions } from "./base.js";
+import { detectFactionFromKeywords } from "../config.js";
 import { findCharacteristic } from "../xml/reader.js";
 import {
   findProfilesRecursive,
@@ -150,7 +151,7 @@ export class UnitMapper extends BaseMapper<UnitMapperInput, Unit | Hero> {
       $schema: "https://aos-data.org/schema/unit.schema.json",
       id: toKebabCase(entry.$.name),
       name: entry.$.name,
-      faction: this.options.factionId,
+      faction: detectFactionFromKeywords(keywords, this.options.factionId),
       points: getPointsCost(entry),
       stats,
       role: extractRole(keywords),

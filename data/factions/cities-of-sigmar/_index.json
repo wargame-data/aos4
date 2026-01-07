@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "cities-of-sigmar",
+  "name": "Cities of Sigmar",
+  "grandAlliance": "order",
+  "armyKeywords": [
+    "CITIES OF SIGMAR"
+  ],
+  "battleFormations": [
+    {
+      "name": "Collegiate Arcane Expedition",
+      "file": "battle-formations/collegiate-arcane-expedition.json"
+    },
+    {
+      "name": "Dawnbringer Crusade",
+      "file": "battle-formations/dawnbringer-crusade.json"
+    },
+    {
+      "name": "Ironweld Guild Army",
+      "file": "battle-formations/ironweld-guild-army.json"
+    },
+    {
+      "name": "Fortress-city Defenders",
+      "file": "battle-formations/fortress-city-defenders.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Cities of Sigmar Faction Pack"
+  }
+}

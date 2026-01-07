@@ -1,0 +1,14 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "orruk-warclans",
+  "name": "Orruk Warclans",
+  "grandAlliance": "destruction",
+  "armyKeywords": [
+    "ORRUK WARCLANS"
+  ],
+  "battleFormations": [],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Orruk Warclans Faction Pack"
+  }
+}

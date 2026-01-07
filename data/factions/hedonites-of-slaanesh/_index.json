@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "hedonites-of-slaanesh",
+  "name": "Hedonites of Slaanesh",
+  "grandAlliance": "chaos",
+  "armyKeywords": [
+    "HEDONITES OF SLAANESH"
+  ],
+  "battleFormations": [
+    {
+      "name": "Depraved Carnival",
+      "file": "battle-formations/depraved-carnival.json"
+    },
+    {
+      "name": "Seeker Cavalcade",
+      "file": "battle-formations/seeker-cavalcade.json"
+    },
+    {
+      "name": "Epicurean Revellers",
+      "file": "battle-formations/epicurean-revellers.json"
+    },
+    {
+      "name": "Supreme Sybarites",
+      "file": "battle-formations/supreme-sybarites.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Hedonites of Slaanesh Faction Pack"
+  }
+}

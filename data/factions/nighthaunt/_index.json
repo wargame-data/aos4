@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "nighthaunt",
+  "name": "Nighthaunt",
+  "grandAlliance": "death",
+  "armyKeywords": [
+    "NIGHTHAUNT"
+  ],
+  "battleFormations": [
+    {
+      "name": "Quicksilver Gheists",
+      "file": "battle-formations/quicksilver-gheists.json"
+    },
+    {
+      "name": "Death Stalkers",
+      "file": "battle-formations/death-stalkers.json"
+    },
+    {
+      "name": "Royal Procession",
+      "file": "battle-formations/royal-procession.json"
+    },
+    {
+      "name": "Shrieker Host",
+      "file": "battle-formations/shrieker-host.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Nighthaunt Faction Pack"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "idoneth-deepkin",
+  "name": "Idoneth Deepkin",
+  "grandAlliance": "order",
+  "armyKeywords": [
+    "IDONETH DEEPKIN"
+  ],
+  "battleFormations": [
+    {
+      "name": "Soul-raid Ambushers",
+      "file": "battle-formations/soul-raid-ambushers.json"
+    },
+    {
+      "name": "Namarti Corps",
+      "file": "battle-formations/namarti-corps.json"
+    },
+    {
+      "name": "Isharann Council",
+      "file": "battle-formations/isharann-council.json"
+    },
+    {
+      "name": "Akhelian Beastmasters",
+      "file": "battle-formations/akhelian-beastmasters.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Idoneth Deepkin Faction Pack"
+  }
+}

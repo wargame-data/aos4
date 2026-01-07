@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "ogor-mawtribes",
+  "name": "Ogor Mawtribes",
+  "grandAlliance": "destruction",
+  "armyKeywords": [
+    "OGOR MAWTRIBES"
+  ],
+  "battleFormations": [
+    {
+      "name": "Blackpowder Fanatics",
+      "file": "battle-formations/blackpowder-fanatics.json"
+    },
+    {
+      "name": "Prophets of the Gulping God",
+      "file": "battle-formations/prophets-of-the-gulping-god.json"
+    },
+    {
+      "name": "Beast Handlers",
+      "file": "battle-formations/beast-handlers.json"
+    },
+    {
+      "name": "Heralds of the Everwinter",
+      "file": "battle-formations/heralds-of-the-everwinter.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Ogor Mawtribes Faction Pack"
+  }
+}

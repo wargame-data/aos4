@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "gloomspite-gitz",
+  "name": "Gloomspite Gitz",
+  "grandAlliance": "destruction",
+  "armyKeywords": [
+    "GLOOMSPITE GITZ"
+  ],
+  "battleFormations": [
+    {
+      "name": "Squigalanche",
+      "file": "battle-formations/squigalanche.json"
+    },
+    {
+      "name": "Troggherd",
+      "file": "battle-formations/troggherd.json"
+    },
+    {
+      "name": "Gitmob Pack",
+      "file": "battle-formations/gitmob-pack.json"
+    },
+    {
+      "name": "Gloomspite Horde",
+      "file": "battle-formations/gloomspite-horde.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Gloomspite Gitz Faction Pack"
+  }
+}

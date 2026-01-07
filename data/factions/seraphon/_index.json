@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "seraphon",
+  "name": "Seraphon",
+  "grandAlliance": "order",
+  "armyKeywords": [
+    "SERAPHON"
+  ],
+  "battleFormations": [
+    {
+      "name": "Thunderquake Starhost",
+      "file": "battle-formations/thunderquake-starhost.json"
+    },
+    {
+      "name": "Eternal Starhost",
+      "file": "battle-formations/eternal-starhost.json"
+    },
+    {
+      "name": "Shadowstrike Starhost",
+      "file": "battle-formations/shadowstrike-starhost.json"
+    },
+    {
+      "name": "Sunclaw Starhost",
+      "file": "battle-formations/sunclaw-starhost.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Seraphon Faction Pack"
+  }
+}

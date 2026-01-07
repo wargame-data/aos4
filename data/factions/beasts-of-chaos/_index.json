@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "beasts-of-chaos",
+  "name": "Beasts of Chaos",
+  "grandAlliance": "chaos",
+  "armyKeywords": [
+    "BEASTS OF CHAOS"
+  ],
+  "battleFormations": [
+    {
+      "name": "Almighty Beastherd",
+      "file": "battle-formations/almighty-beastherd.json"
+    },
+    {
+      "name": "Hungering Warherd",
+      "file": "battle-formations/hungering-warherd.json"
+    },
+    {
+      "name": "Thunderscorn Stormherd",
+      "file": "battle-formations/thunderscorn-stormherd.json"
+    },
+    {
+      "name": "Marauding Brayherd",
+      "file": "battle-formations/marauding-brayherd.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Beasts of Chaos Faction Pack"
+  }
+}

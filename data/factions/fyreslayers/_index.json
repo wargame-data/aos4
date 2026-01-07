@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "fyreslayers",
+  "name": "Fyreslayers",
+  "grandAlliance": "order",
+  "armyKeywords": [
+    "FYRESLAYERS"
+  ],
+  "battleFormations": [
+    {
+      "name": "Forge Brethren",
+      "file": "battle-formations/forge-brethren.json"
+    },
+    {
+      "name": "Scales of Vulcatrix",
+      "file": "battle-formations/scales-of-vulcatrix.json"
+    },
+    {
+      "name": "Warrior Kinband",
+      "file": "battle-formations/warrior-kinband.json"
+    },
+    {
+      "name": "Lords of the Lodge",
+      "file": "battle-formations/lords-of-the-lodge.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Fyreslayers Faction Pack"
+  }
+}

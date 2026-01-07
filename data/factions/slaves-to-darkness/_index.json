@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "id": "slaves-to-darkness",
+  "name": "Slaves to Darkness",
+  "grandAlliance": "chaos",
+  "armyKeywords": [
+    "SLAVES TO DARKNESS"
+  ],
+  "battleFormations": [
+    {
+      "name": "Darkoath Horde",
+      "file": "battle-formations/darkoath-horde.json"
+    },
+    {
+      "name": "Legion of Chaos",
+      "file": "battle-formations/legion-of-chaos.json"
+    },
+    {
+      "name": "Despoilers",
+      "file": "battle-formations/despoilers.json"
+    },
+    {
+      "name": "Godswrath Warband",
+      "file": "battle-formations/godswrath-warband.json"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "Slaves to Darkness Faction Pack"
+  }
+}
