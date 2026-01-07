@@ -1,0 +1,52 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "manifestations-of-the-storm",
+  "name": "Manifestations of the Storm",
+  "loreType": "manifestation",
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Summon Celestian Vortex",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a Celestian Vortex wholly within 18\" of the caster and more than 9\" from all enemy units.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Celestian Vortex** on the battlefield, pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Summon Dais Arcanum",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Dais Arcanum** within ½\" of the target, visible to the caster and not in combat. Then, remove the target from the battlefield and place it on the platform of that **Dais Arcanum**.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Dais Arcanum** on the battlefield, pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, pick a friendly Stormcast **^^Eternals Infantry Hero^^** that does not have **^^Fly^^** and is wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Summon Everblaze Comet",
+      "castingValue": 8,
+      "timing": "Your Hero Phase",
+      "effect": "Set up an **Everblaze Comet** wholly within 18\" of the caster.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Everblaze Comet** on the battlefield, pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "factionId": "stormcast-eternals"
+}

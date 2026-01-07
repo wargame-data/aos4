@@ -604,6 +604,56 @@ export function findArtefactGroups(catalogue: BSCatalogue): BSSelectionEntryGrou
 }
 
 /**
+ * Find manifestation lore groups in a faction catalogue.
+ * These contain the faction-specific manifestation lores.
+ */
+export function findManifestationLoreGroups(catalogue: BSCatalogue): BSSelectionEntryGroup[] {
+  return findSelectionEntryGroups(catalogue, /^Manifestation Lores$/i);
+}
+
+/**
+ * Check if a lore group is a manifestation lore
+ */
+export function isManifestationLore(group: BSSelectionEntryGroup): boolean {
+  const name = group.$.name.toLowerCase();
+  return name.includes("manifestation");
+}
+
+/**
+ * Extract the names of manifestation lores that a faction can use.
+ * This looks at the "Manifestation Lores" selection entry groups and extracts
+ * the names of the selection entries within them.
+ *
+ * For example, Stormcast Eternals has:
+ * <selectionEntryGroup name="Manifestation Lores">
+ *   <selectionEntry name="Manifestations of the Storm">
+ *   ...
+ *
+ * Returns: ["Manifestations of the Storm"]
+ */
+export function extractManifestationLoreNames(catalogue: BSCatalogue): string[] {
+  const loreNames: string[] = [];
+
+  // Find all "Manifestation Lores" groups
+  const manifestationGroups = findManifestationLoreGroups(catalogue);
+
+  for (const group of manifestationGroups) {
+    // Get selection entries within this group
+    if (group.selectionEntries) {
+      for (const entry of group.selectionEntries) {
+        const name = entry.$.name;
+        // Skip entries that are just "Manifestation Lore" or "Manifestation Lores" (containers)
+        if (name && !name.toLowerCase().match(/^manifestation\s+lores?$/)) {
+          loreNames.push(name);
+        }
+      }
+    }
+  }
+
+  return loreNames;
+}
+
+/**
  * Get all selection entries from a selection entry group (including nested groups)
  */
 export function getEntriesFromGroup(group: BSSelectionEntryGroup): BSSelectionEntry[] {

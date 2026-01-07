@@ -1,0 +1,39 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "manifestations-of-khaine",
+  "name": "Manifestations of Khaine",
+  "loreType": "manifestation",
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Summon Bladewind",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Bladewind** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Bladewind** on the battlefield, pick a friendly **^^Daughters Of Khaine Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Summon Bloodwrack Viper",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Bloodwrack Viper** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Bloodwrack Viper** on the battlefield, pick a friendly **^^Daughters of Khaine Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "factionId": "daughters-of-khaine"
+}

@@ -17,7 +17,7 @@ import {
 } from "./github/clone.js";
 import { getRepoCachePath, isCacheValid, getCacheAge } from "./github/cache.js";
 import { parseCat, parseGst } from "./xml/reader.js";
-import { findUnits, findManifestations, findFactionTerrain, getFactionId, isLibrary, extractPointsFromEntryLinks, findBattleTacticCards, findBloodTitheAbilities } from "./xml/traverser.js";
+import { findUnits, findManifestations, findFactionTerrain, getFactionId, isLibrary, extractPointsFromEntryLinks, findBattleTacticCards, findBloodTitheAbilities, extractManifestationLoreNames } from "./xml/traverser.js";
 import { PublicationResolver } from "./xml/publications.js";
 import { UnitMapper, type Unit, type Hero } from "./mappers/unit.mapper.js";
 import { ManifestationMapper, type Manifestation } from "./mappers/manifestation.mapper.js";
@@ -92,6 +92,7 @@ interface FactionParseResult {
   terrain: FactionTerrain[];
   battleFormations: BattleFormation[];
   enhancements: EnhancementCollection[];
+  manifestationLoreNames: string[]; // Names of manifestation lores this faction uses
   bloodTitheAbilities: BloodTitheAbility[];
   errors: string[];
 }
@@ -202,12 +203,50 @@ async function syncCommand(options: CLIOptions): Promise<void> {
   if (!options.dryRun) {
     await writeResults(results, options, log);
 
-    // Write lores
+    // Process lores: match manifestation lores to factions, others go to _shared
     if (lores.length > 0) {
       const outputDir = options.output || FACTIONS_DIR;
       ensureSharedLoresDir(join(outputDir, ".."));
-      const loreResults = writeLores(lores, { dryRun: false }, undefined, join(outputDir, ".."));
-      log.info(`  shared lores: ${loreResults.length} files written`);
+
+      // Separate manifestation lores from other lores
+      const manifestationLores = lores.filter(l => l.loreType === "manifestation");
+      const otherLores = lores.filter(l => l.loreType !== "manifestation");
+
+      // Build a map of lore name -> lore for easy lookup
+      const loreLookup = new Map(manifestationLores.map(l => [l.name, l]));
+
+      // Match manifestation lores to factions and write to faction directories
+      let factionLoreCount = 0;
+      for (const result of results) {
+        if (result.manifestationLoreNames.length > 0) {
+          const matchedLores: Lore[] = [];
+          for (const loreName of result.manifestationLoreNames) {
+            const lore = loreLookup.get(loreName);
+            if (lore) {
+              // Clone lore with factionId set
+              const factionLore: Lore = {
+                ...lore,
+                factionId: result.factionId,
+              };
+              matchedLores.push(factionLore);
+            } else {
+              log.verbose(`  Warning: Could not find lore "${loreName}" for faction ${result.factionId}`);
+            }
+          }
+          if (matchedLores.length > 0) {
+            const loreResults = writeLores(matchedLores, { dryRun: false }, result.factionId, outputDir);
+            factionLoreCount += loreResults.length;
+            log.verbose(`  ${result.factionId}: ${loreResults.length} manifestation lores written`);
+          }
+        }
+      }
+      log.info(`  faction manifestation lores: ${factionLoreCount} files written`);
+
+      // Write non-manifestation lores (spell/prayer lores) to _shared/lores/
+      if (otherLores.length > 0) {
+        const sharedLoreResults = writeLores(otherLores, { dryRun: false }, undefined, join(outputDir, ".."));
+        log.info(`  shared lores: ${sharedLoreResults.length} files written`);
+      }
     }
 
     // Write regiments of renown
@@ -606,8 +645,8 @@ async function parseAllFactions(
         }
       }
 
-      // Load battle formations, enhancements, and blood tithe abilities from non-library catalogue
-      const { battleFormations, enhancements, bloodTitheAbilities } = await loadFormationsAndEnhancements(file, mapperOptions, log);
+      // Load battle formations, enhancements, manifestation lore names, and blood tithe abilities from non-library catalogue
+      const { battleFormations, enhancements, manifestationLoreNames, bloodTitheAbilities } = await loadFormationsAndEnhancements(file, mapperOptions, log);
 
       results.push({
         factionId,
@@ -617,6 +656,7 @@ async function parseAllFactions(
         terrain,
         battleFormations,
         enhancements,
+        manifestationLoreNames,
         bloodTitheAbilities,
         errors,
       });
@@ -624,7 +664,8 @@ async function parseAllFactions(
       const enhancementCount = enhancements.reduce((sum, e) => sum + e.enhancements.length, 0);
       const bloodTitheStr = bloodTitheAbilities.length > 0 ? `, ${bloodTitheAbilities.length} blood tithe` : "";
       const terrainStr = terrain.length > 0 ? `, ${terrain.length} terrain` : "";
-      log.info(`  ${factionId}: ${units.length} units, ${manifestations.length} manifestations${terrainStr}, ${battleFormations.length} formations, ${enhancementCount} enhancements${bloodTitheStr}`);
+      const loresStr = manifestationLoreNames.length > 0 ? `, ${manifestationLoreNames.length} manifest. lores` : "";
+      log.info(`  ${factionId}: ${units.length} units, ${manifestations.length} manifestations${terrainStr}, ${battleFormations.length} formations, ${enhancementCount} enhancements${loresStr}${bloodTitheStr}`);
     } catch (error) {
       log.error(`Failed to parse ${file}: ${error}`);
       if (options.strict) {
@@ -821,6 +862,7 @@ async function loadFormationsAndEnhancements(
 ): Promise<{
   battleFormations: BattleFormation[];
   enhancements: EnhancementCollection[];
+  manifestationLoreNames: string[];
   bloodTitheAbilities: BloodTitheAbility[];
 }> {
   // Library file: "Stormcast Eternals - Library.cat"
@@ -828,7 +870,7 @@ async function loadFormationsAndEnhancements(
   const nonLibraryFile = libraryFile.replace(/ - Library\.cat$/i, ".cat");
 
   if (nonLibraryFile === libraryFile || !existsSync(nonLibraryFile)) {
-    return { battleFormations: [], enhancements: [], bloodTitheAbilities: [] };
+    return { battleFormations: [], enhancements: [], manifestationLoreNames: [], bloodTitheAbilities: [] };
   }
 
   try {
@@ -846,6 +888,13 @@ async function loadFormationsAndEnhancements(
       log.verbose(`  Found ${totalEnhancements} enhancements across ${enhancements.length} categories: ${categoryNames}`);
     }
 
+    // Extract manifestation lore NAMES that this faction can use
+    // These will be matched to the actual lore definitions from Lores.cat
+    const manifestationLoreNames = extractManifestationLoreNames(catalogue);
+    if (manifestationLoreNames.length > 0) {
+      log.verbose(`  Found ${manifestationLoreNames.length} manifestation lore references: ${manifestationLoreNames.join(", ")}`);
+    }
+
     // Extract blood tithe abilities (only for Blades of Khorne)
     let bloodTitheAbilities: BloodTitheAbility[] = [];
     if (mapperOptions.factionId === "blades-of-khorne") {
@@ -857,10 +906,10 @@ async function loadFormationsAndEnhancements(
       }
     }
 
-    return { battleFormations, enhancements, bloodTitheAbilities };
+    return { battleFormations, enhancements, manifestationLoreNames, bloodTitheAbilities };
   } catch (error) {
     log.verbose(`  Failed to load formations/enhancements from ${basename(nonLibraryFile)}: ${error}`);
-    return { battleFormations: [], enhancements: [], bloodTitheAbilities: [] };
+    return { battleFormations: [], enhancements: [], manifestationLoreNames: [], bloodTitheAbilities: [] };
   }
 }
 

@@ -59,6 +59,7 @@ export interface Lore {
   id: string;
   name: string;
   loreType: "spell" | "prayer" | "manifestation";
+  factionId?: string; // Links manifestation lores to specific factions
   spells?: Spell[];
   prayers?: Prayer[];
   _meta?: {
@@ -94,6 +95,11 @@ export class LoreMapper extends BaseMapper<LoreMapperInput, Lore> {
       loreType,
       _meta: this.generateMeta(),
     };
+
+    // Add factionId for faction-specific lores (not shared)
+    if (this.options.factionId && this.options.factionId !== "shared") {
+      lore.factionId = this.options.factionId;
+    }
 
     // Extract spells or prayers based on lore type
     if (loreType === "spell" || loreType === "manifestation") {

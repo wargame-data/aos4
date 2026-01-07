@@ -41,6 +41,7 @@ export const loreSchema = z
     id: idSchema,
     name: z.string(),
     loreType: loreTypeSchema,
+    factionId: idSchema.optional(), // Links manifestation lores to specific factions
     spells: z.array(spellSchema).optional(),
     prayers: z.array(prayerSchema).optional(),
     _meta: metaSchema.optional(),
