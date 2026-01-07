@@ -1,0 +1,109 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "great-endrinworks",
+  "name": "Great Endrinworks",
+  "faction": "kharadron-overlords",
+  "type": "great-endrinworks",
+  "enhancements": [
+    {
+      "name": "Coalbeard's Collapsible Bombrack",
+      "ability": {
+        "name": "Coalbeard's Collapsible Bombrack",
+        "type": "passive",
+        "effect": "Add 1 to each dice roll when using this unit's 'Heavy Bomb Racks', 'Medium Bomb Racks' or 'Light Bomb Racks' ability.",
+        "color": "Gray",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Grandiose Fuselage",
+      "ability": {
+        "name": "Grandiose Fuselage",
+        "type": "passive",
+        "effect": "Add 5 to this unit's Control characteristic.",
+        "color": "Purple",
+        "abilityCategory": "Control"
+      }
+    },
+    {
+      "name": "Hegsson Solutions 'Old Reliable' Hullplates",
+      "ability": {
+        "name": "Hegsson Solutions 'Old Reliable' Hullplates",
+        "type": "passive",
+        "effect": "This unit has **^^Ward (5+) against damage inflicted by shoot abilities.",
+        "color": "Green",
+        "abilityCategory": "Defensive"
+      }
+    },
+    {
+      "name": "Nullstone Galvanisation",
+      "ability": {
+        "name": "Nullstone Galvanisation",
+        "type": "passive",
+        "effect": "Inflict D6 mortal damage on each enemy **^^Manifestation^^** within this unit's combat range.",
+        "phase": "any",
+        "color": "Purple",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Gruksson Wide-Bore Cylinders",
+      "ability": {
+        "name": "Gruksson Wide-Bore Cylinders",
+        "type": "passive",
+        "effect": "Add 2\" to this unit's Move characteristic.",
+        "color": "Gray",
+        "abilityCategory": "Movement"
+      }
+    },
+    {
+      "name": "Tracer-Fire Rounds",
+      "ability": {
+        "name": "Tracer-Fire Rounds",
+        "type": "reaction",
+        "effect": "If all of the attacks target the same enemy unit, ignore negative modifiers to hit rolls for those attacks.",
+        "phase": "shooting",
+        "color": "Blue",
+        "abilityCategory": "Shooting"
+      }
+    },
+    {
+      "name": "Voidstone Repulser Vents",
+      "ability": {
+        "name": "Voidstone Repulser Vents",
+        "type": "reaction",
+        "effect": "Roll a dice. On a 4+:\n• Ignore the effect of that spell on that friendly unit.\n• Inflict D3 mortal damage on the caster.\nThis unit can use this ability more than once per phase but you can only roll once for each friendly unit per spell cast.",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Zonbarcorp 'Dealbreaker' Battle Ram",
+      "ability": {
+        "name": "Zonbarcorp 'Dealbreaker' Battle Ram",
+        "type": "passive",
+        "effect": "Roll a number of dice equal to the unmodified charge roll. For each 4+, inflict 1 mortal damage on the target.",
+        "phase": "charge",
+        "declare": "If this unit charged this phase, pick an enemy unit in combat with it to be the target.",
+        "color": "Orange",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Blazebeard and Sons Ejector Pod",
+      "ability": {
+        "name": "Blazebeard and Sons Ejector Pod",
+        "type": "once-per-battle",
+        "effect": "Remove the target from the battlefield, then set it up again wholly within 18\" of this unit and more than 9\" from all enemy units.",
+        "phase": "combat",
+        "declare": "If this unit is in combat, pick a visible friendlt **^^Kharadron Overlords Hero^^** wholly within 6\" of this unit to be the target.",
+        "color": "Red",
+        "abilityCategory": "Movement"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

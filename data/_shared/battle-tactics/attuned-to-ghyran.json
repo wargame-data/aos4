@@ -15,7 +15,7 @@
     "description": "You complete this battle tactic at the end of your turn if there are no enemy units within friendly territory and no enemy units within neutral territory."
   },
   "_meta": {
-    "lastUpdated": "2026-01-06",
+    "lastUpdated": "2026-01-07",
     "source": "BSData import"
   }
 }

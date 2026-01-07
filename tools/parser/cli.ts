@@ -23,7 +23,7 @@ import { UnitMapper, type Unit, type Hero } from "./mappers/unit.mapper.js";
 import { ManifestationMapper, type Manifestation } from "./mappers/manifestation.mapper.js";
 import { TerrainMapper, type FactionTerrain } from "./mappers/terrain.mapper.js";
 import { mapBattleFormations, type BattleFormation } from "./mappers/battle-formation.mapper.js";
-import { mapHeroicTraits, mapArtefactsOfPower, type EnhancementCollection } from "./mappers/enhancement.mapper.js";
+import { mapHeroicTraits, mapArtefactsOfPower, mapAllEnhancements, type EnhancementCollection } from "./mappers/enhancement.mapper.js";
 import { mapRegimentsOfRenown, type RegimentOfRenown } from "./mappers/regiment-of-renown.mapper.js";
 import { mapBattleTacticCards, type BattleTacticCard } from "./mappers/battle-tactic.mapper.js";
 import { mapBloodTitheAbilities, type BloodTitheAbility, clearBloodTitheMapping } from "./mappers/blood-tithe.mapper.js";
@@ -88,8 +88,7 @@ interface FactionParseResult {
   manifestations: Manifestation[];
   terrain: FactionTerrain[];
   battleFormations: BattleFormation[];
-  heroicTraits: EnhancementCollection | null;
-  artefacts: EnhancementCollection | null;
+  enhancements: EnhancementCollection[];
   bloodTitheAbilities: BloodTitheAbility[];
   errors: string[];
 }
@@ -605,7 +604,7 @@ async function parseAllFactions(
       }
 
       // Load battle formations, enhancements, and blood tithe abilities from non-library catalogue
-      const { battleFormations, heroicTraits, artefacts, bloodTitheAbilities } = await loadFormationsAndEnhancements(file, mapperOptions, log);
+      const { battleFormations, enhancements, bloodTitheAbilities } = await loadFormationsAndEnhancements(file, mapperOptions, log);
 
       results.push({
         factionId,
@@ -614,13 +613,12 @@ async function parseAllFactions(
         manifestations,
         terrain,
         battleFormations,
-        heroicTraits,
-        artefacts,
+        enhancements,
         bloodTitheAbilities,
         errors,
       });
 
-      const enhancementCount = (heroicTraits?.enhancements.length || 0) + (artefacts?.enhancements.length || 0);
+      const enhancementCount = enhancements.reduce((sum, e) => sum + e.enhancements.length, 0);
       const bloodTitheStr = bloodTitheAbilities.length > 0 ? `, ${bloodTitheAbilities.length} blood tithe` : "";
       const terrainStr = terrain.length > 0 ? `, ${terrain.length} terrain` : "";
       log.info(`  ${factionId}: ${units.length} units, ${manifestations.length} manifestations${terrainStr}, ${battleFormations.length} formations, ${enhancementCount} enhancements${bloodTitheStr}`);
@@ -819,8 +817,7 @@ async function loadFormationsAndEnhancements(
   log: Logger
 ): Promise<{
   battleFormations: BattleFormation[];
-  heroicTraits: EnhancementCollection | null;
-  artefacts: EnhancementCollection | null;
+  enhancements: EnhancementCollection[];
   bloodTitheAbilities: BloodTitheAbility[];
 }> {
   // Library file: "Stormcast Eternals - Library.cat"
@@ -828,7 +825,7 @@ async function loadFormationsAndEnhancements(
   const nonLibraryFile = libraryFile.replace(/ - Library\.cat$/i, ".cat");
 
   if (nonLibraryFile === libraryFile || !existsSync(nonLibraryFile)) {
-    return { battleFormations: [], heroicTraits: null, artefacts: null, bloodTitheAbilities: [] };
+    return { battleFormations: [], enhancements: [], bloodTitheAbilities: [] };
   }
 
   try {
@@ -838,16 +835,12 @@ async function loadFormationsAndEnhancements(
     const battleFormations = mapBattleFormations(catalogue, mapperOptions);
     log.verbose(`  Found ${battleFormations.length} battle formations`);
 
-    // Extract heroic traits
-    const heroicTraits = mapHeroicTraits(catalogue, mapperOptions);
-    if (heroicTraits) {
-      log.verbose(`  Found ${heroicTraits.enhancements.length} heroic traits`);
-    }
-
-    // Extract artefacts of power
-    const artefacts = mapArtefactsOfPower(catalogue, mapperOptions);
-    if (artefacts) {
-      log.verbose(`  Found ${artefacts.enhancements.length} artefacts`);
+    // Extract all enhancements (heroic traits, artefacts, and faction-specific types)
+    const enhancements = mapAllEnhancements(catalogue, mapperOptions);
+    const totalEnhancements = enhancements.reduce((sum, e) => sum + e.enhancements.length, 0);
+    if (enhancements.length > 0) {
+      const categoryNames = enhancements.map(e => e.name).join(", ");
+      log.verbose(`  Found ${totalEnhancements} enhancements across ${enhancements.length} categories: ${categoryNames}`);
     }
 
     // Extract blood tithe abilities (only for Blades of Khorne)
@@ -861,10 +854,10 @@ async function loadFormationsAndEnhancements(
       }
     }
 
-    return { battleFormations, heroicTraits, artefacts, bloodTitheAbilities };
+    return { battleFormations, enhancements, bloodTitheAbilities };
   } catch (error) {
     log.verbose(`  Failed to load formations/enhancements from ${basename(nonLibraryFile)}: ${error}`);
-    return { battleFormations: [], heroicTraits: null, artefacts: null, bloodTitheAbilities: [] };
+    return { battleFormations: [], enhancements: [], bloodTitheAbilities: [] };
   }
 }
 
@@ -935,18 +928,13 @@ async function writeResults(
       log.verbose(`  Wrote ${formationResults.length} battle formations`);
     }
 
-    // Write enhancements
-    if (result.heroicTraits || result.artefacts) {
+    // Write enhancements (all categories)
+    if (result.enhancements.length > 0) {
       ensureEnhancementsDir(result.factionId, outputDir);
 
-      if (result.heroicTraits) {
-        writeEnhancement(result.heroicTraits, { dryRun: false }, outputDir);
-        log.verbose(`  Wrote heroic traits (${result.heroicTraits.enhancements.length} traits)`);
-      }
-
-      if (result.artefacts) {
-        writeEnhancement(result.artefacts, { dryRun: false }, outputDir);
-        log.verbose(`  Wrote artefacts (${result.artefacts.enhancements.length} artefacts)`);
+      for (const enhancement of result.enhancements) {
+        writeEnhancement(enhancement, { dryRun: false }, outputDir);
+        log.verbose(`  Wrote ${enhancement.name} (${enhancement.enhancements.length} entries)`);
       }
     }
 
@@ -958,7 +946,7 @@ async function writeResults(
     }
 
     const formationCount = result.battleFormations.length;
-    const enhancementCount = (result.heroicTraits?.enhancements.length || 0) + (result.artefacts?.enhancements.length || 0);
+    const enhancementCount = result.enhancements.reduce((sum, e) => sum + e.enhancements.length, 0);
     const bloodTitheStr = result.bloodTitheAbilities.length > 0 ? `, ${result.bloodTitheAbilities.length} blood tithe` : "";
     const terrainStr = result.terrain.length > 0 ? `, ${result.terrain.length} terrain` : "";
     log.info(`  ${result.factionId}: ${result.units.length} units, ${result.manifestations.length} manifestations${terrainStr}, ${formationCount} formations, ${enhancementCount} enhancements${bloodTitheStr} written`);
@@ -986,7 +974,7 @@ function printSummary(results: FactionParseResult[], loresCount: number, regimen
     totalManifestations += result.manifestations.length;
     totalTerrain += result.terrain.length;
     totalFormations += result.battleFormations.length;
-    totalEnhancements += (result.heroicTraits?.enhancements.length || 0) + (result.artefacts?.enhancements.length || 0);
+    totalEnhancements += result.enhancements.reduce((sum, e) => sum + e.enhancements.length, 0);
     totalBloodTithe += result.bloodTitheAbilities.length;
     totalErrors += result.errors.length;
   }

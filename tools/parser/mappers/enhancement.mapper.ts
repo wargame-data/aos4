@@ -16,15 +16,18 @@ import { toKebabCase } from "../transformers/id.js";
 import {
   findHeroicTraitGroups,
   findArtefactGroups,
+  findEnhancementGroups,
   getEntriesFromGroup,
   isHidden,
   getPointsCost,
+  ENHANCEMENT_CATEGORIES,
 } from "../xml/traverser.js";
 
 /**
- * Enhancement type (heroic trait or artefact)
+ * Enhancement type - now a flexible string to support all enhancement categories
+ * Examples: "heroic-trait", "artefact", "great-endrinworks", "big-names", etc.
  */
-export type EnhancementType = "heroic-trait" | "artefact";
+export type EnhancementType = string;
 
 /**
  * Individual enhancement entry
@@ -279,4 +282,127 @@ export function getGroupRestrictions(group: BSSelectionEntryGroup): string | und
   }
 
   return undefined;
+}
+
+/**
+ * Extract the base category name from a potentially faction-suffixed name.
+ * E.g., "Heroic Traits: Stormcast Eternals" -> "Heroic Traits"
+ *       "Great Endrinworks" -> "Great Endrinworks"
+ */
+function extractBaseCategoryName(groupName: string): string {
+  // Check if this matches any known category with a faction suffix
+  for (const category of ENHANCEMENT_CATEGORIES) {
+    if (groupName.toLowerCase().startsWith(category.toLowerCase())) {
+      return category;
+    }
+  }
+  // Return as-is if no match (shouldn't happen with our whitelist)
+  return groupName.split(":")[0].trim();
+}
+
+/**
+ * Convert a category name to its type ID (kebab-case).
+ * E.g., "Heroic Traits" -> "heroic-traits"
+ *       "Artefacts of Power" -> "artefacts-of-power"
+ *       "Great Endrinworks" -> "great-endrinworks"
+ */
+function categoryNameToType(categoryName: string): string {
+  // Special cases for backward compatibility
+  if (categoryName.toLowerCase() === "heroic traits") {
+    return "heroic-trait";
+  }
+  if (categoryName.toLowerCase() === "artefacts of power") {
+    return "artefact";
+  }
+  // Convert to kebab-case
+  return toKebabCase(categoryName);
+}
+
+/**
+ * Convert a category name to its file ID (kebab-case, plural form where appropriate).
+ * E.g., "Heroic Traits" -> "heroic-traits"
+ *       "Artefacts of Power" -> "artefacts-of-power"
+ *       "Great Endrinworks" -> "great-endrinworks"
+ */
+function categoryNameToId(categoryName: string): string {
+  return toKebabCase(categoryName);
+}
+
+/**
+ * Map a single enhancement category group to an EnhancementCollection.
+ */
+function mapEnhancementCategory(
+  catalogue: BSCatalogue,
+  group: BSSelectionEntryGroup,
+  options: MapperOptions
+): EnhancementCollection | null {
+  const mapper = new EnhancementMapper(options);
+  const enhancements: Enhancement[] = [];
+
+  // Get entries from the group (including nested sub-groups)
+  const entries = collectEnhancementEntries(group);
+
+  for (const entry of entries) {
+    if (isHidden(entry)) continue;
+    if (!entry.profiles || entry.profiles.length === 0) continue;
+
+    try {
+      const enhancement = mapper.map({ entry, catalogue, groupName: group.$.name });
+      enhancements.push(enhancement);
+    } catch (error) {
+      const baseName = extractBaseCategoryName(group.$.name);
+      console.error(`Failed to map ${baseName} enhancement ${entry.$.name}: ${error}`);
+    }
+  }
+
+  if (enhancements.length === 0) {
+    return null;
+  }
+
+  const baseCategoryName = extractBaseCategoryName(group.$.name);
+
+  return {
+    $schema: "https://aos-data.org/schema/enhancement.schema.json",
+    id: categoryNameToId(baseCategoryName),
+    name: baseCategoryName,
+    faction: options.factionId,
+    type: categoryNameToType(baseCategoryName),
+    enhancements,
+    _meta: {
+      lastUpdated: new Date().toISOString().split("T")[0],
+      source: "BSData import",
+    },
+  };
+}
+
+/**
+ * Extract all enhancement categories from a catalogue.
+ * This is the main function that discovers and maps all enhancement types.
+ */
+export function mapAllEnhancements(
+  catalogue: BSCatalogue,
+  options: MapperOptions
+): EnhancementCollection[] {
+  const enhancementGroups = findEnhancementGroups(catalogue);
+  const collections: EnhancementCollection[] = [];
+  const seenTypes = new Set<string>();
+
+  for (const group of enhancementGroups) {
+    const baseCategoryName = extractBaseCategoryName(group.$.name);
+    const typeId = categoryNameToType(baseCategoryName);
+
+    // Skip if we've already processed this enhancement type
+    // (can happen if both base and faction-specific groups exist)
+    if (seenTypes.has(typeId)) {
+      continue;
+    }
+
+    const collection = mapEnhancementCategory(catalogue, group, options);
+    if (collection) {
+      collections.push(collection);
+      seenTypes.add(typeId);
+    }
+  }
+
+  return collections;
 }

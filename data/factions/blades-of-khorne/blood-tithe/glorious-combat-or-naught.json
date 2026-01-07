@@ -6,7 +6,7 @@
   "bloodTithePoints": 2,
   "effect": "Subtract 1 from hit rolls for shooting attacks that target friendly Blades of Khorne units.",
   "_meta": {
-    "lastUpdated": "2026-01-06",
+    "lastUpdated": "2026-01-07",
     "source": "BSData import"
   },
   "unlockCondition": "You can only unlock this ability if you have unlocked 'Divine Scorn' or 'Punish the Pacifist'.",

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "monstrous-traits",
+  "name": "Monstrous Traits",
+  "faction": "flesh-eater-courts",
+  "type": "monstrous-traits",
+  "enhancements": [
+    {
+      "name": "Horribly Resilient",
+      "ability": {
+        "name": "Horribly Resilient",
+        "type": "passive",
+        "effect": "Heal (D3) this unit. If this unit is not a **^^Hero^^**, **Heal (2D3)** this unit instead.",
+        "phase": "any",
+        "color": "Purple",
+        "abilityCategory": "Defensive"
+      }
+    },
+    {
+      "name": "Savage Abomination",
+      "ability": {
+        "name": "Savage Abomination",
+        "type": "passive",
+        "effect": "Add 1 to the Attacks characteristic of this unit’s **Companion** melee weapons.",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Revered Monstrosity",
+      "ability": {
+        "name": "Revered Monstrosity",
+        "type": "passive",
+        "effect": "Add 1 to hit rolls for combat attacks made with **Companion** weapons by other friendly non‑**^^Unique Flesh-eater Courts Monsters^^** while they are wholly within 12\" of this unit.",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

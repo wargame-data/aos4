@@ -1,0 +1,45 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "monstrous-traits",
+  "name": "Monstrous Traits",
+  "faction": "kruleboyz",
+  "type": "monstrous-traits",
+  "enhancements": [
+    {
+      "name": "Mean 'Un",
+      "ability": {
+        "name": "Mean 'Un",
+        "type": "passive",
+        "effect": "Add 1 to hit rolls for attacks made with this unit's **Companion** weapons.",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Sneaky 'Un",
+      "ability": {
+        "name": "Sneaky 'Un",
+        "type": "once-per-battle",
+        "effect": "This unit can use the 'Normal Move' or 'Retreat' ability as if it were your movement phase. In addition, no mortal damage is inflicted on this unit by **^^Retreat^^** abilities this phase.",
+        "phase": "hero",
+        "color": "Yellow",
+        "abilityCategory": "Movement"
+      }
+    },
+    {
+      "name": "Tough 'Un",
+      "ability": {
+        "name": "Tough 'Un",
+        "type": "passive",
+        "effect": "Subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.",
+        "color": "Green",
+        "abilityCategory": "Defensive"
+      },
+      "points": 10
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

@@ -6,7 +6,7 @@
   "bloodTithePoints": 4,
   "effect": "Add 1 to the Attacks characteristic of weapons used by friendly Blades of Khorne units that charged in the same turn.",
   "_meta": {
-    "lastUpdated": "2026-01-06",
+    "lastUpdated": "2026-01-07",
     "source": "BSData import"
   },
   "unlockCondition": "You can only unlock this ability if you have unlocked 'Glorious Combat or Naught' or 'Murder the Mystic'.",

@@ -19,7 +19,7 @@ export const enhancementCollectionSchema = z
     id: idSchema,
     name: z.string(),
     faction: idSchema,
-    type: z.enum(["heroic-trait", "artefact"]),
+    type: z.string(), // e.g., "heroic-trait", "artefact", "great-endrinworks", etc.
     enhancements: z.array(enhancementEntrySchema),
     _meta: metaSchema.optional(),
   })

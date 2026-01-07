@@ -20,11 +20,7 @@
       "pattern": "^[a-z0-9-]+$"
     },
     "type": {
-      "type": "string",
-      "enum": [
-        "heroic-trait",
-        "artefact"
-      ]
+      "type": "string"
     },
     "enhancements": {
       "type": "array",

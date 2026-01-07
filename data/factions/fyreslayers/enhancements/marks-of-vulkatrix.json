@@ -1,0 +1,44 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "marks-of-vulkatrix",
+  "name": "Marks of Vulkatrix",
+  "faction": "fyreslayers",
+  "type": "marks-of-vulkatrix",
+  "enhancements": [
+    {
+      "name": "Incandescent Blaze",
+      "ability": {
+        "name": "Incandescent Blaze",
+        "type": "once-per-battle",
+        "effect": "For the rest of the turn:\n• Double the Attacks characteristic of this unit's **Roaring Fyrestream**.\n• This unit's **Roaring Fyrestream** has a Damage characteristic of 3.",
+        "phase": "shooting",
+        "color": "Blue",
+        "abilityCategory": "Shooting"
+      }
+    },
+    {
+      "name": "Peerless Lineage",
+      "ability": {
+        "name": "Peerless Lineage",
+        "type": "reaction",
+        "effect": "You can pick another eligible unit to be a second target of that **^^Rampage^^** ability. If that ability requires a roll, you must roll for each target.",
+        "color": "Black",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Thickened Scales",
+      "ability": {
+        "name": "Thickened Scales",
+        "type": "passive",
+        "effect": "Subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.",
+        "color": "Green",
+        "abilityCategory": "Defensive"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

@@ -839,3 +839,139 @@ export function findFactionTerrain(catalogue: BSCatalogue): BSSelectionEntry[] {
     return hasCategory(e, "FACTION TERRAIN");
   });
 }
+
+/**
+ * Whitelist of known enhancement category names.
+ * These are selection entry groups that contain enhancement options for armies.
+ * Base names only - faction-specific variants like "Heroic Traits: Stormcast" are matched by prefix.
+ */
+export const ENHANCEMENT_CATEGORIES = [
+  // Universal (all/many factions)
+  "Heroic Traits",
+  "Artefacts of Power",
+  "Monstrous Traits",
+
+  // Faction-Specific Enhancement Types
+  "Accursed Devices",           // Helsmiths of Hashut
+  "Aetherwrought Machineries",  // Cities of Sigmar
+  "Alphabeast Instincts",       // Bonesplitterz
+  "Anarchic Relics",            // Beasts of Chaos
+  "Aqshian Artefacts",          // Fyreslayers
+  "Artefacts of the Tempest",   // Stormcast Eternals
+  "Aspects of Azyr",            // Stormcast Eternals
+  "Aspects of Enlightenment",   // Lumineth Realm-lords
+  "Aspects of Renewal",         // Sylvaneth
+  "Avatars of Corruption",      // Maggotkin of Nurgle
+  "Benedictions of Sickness",   // Maggotkin of Nurgle
+  "Big Names",                  // Ogor Mawtribes
+  "Blessings of the Bad Moon",  // Gloomspite Gitz
+  "Blood Blessings of Khorne",  // Blades of Khorne
+  "Bloodshadow Rites",          // Daughters of Khaine
+  "Bond-beast Traits",          // Idoneth Deepkin
+  "Boons of Nurgle",            // Maggotkin of Nurgle
+  "Boss Bones and Other Gubbinz", // Kruleboyz
+  "Brutal Warlords",            // Ironjawz
+  "Celestial Disciplines",      // Seraphon
+  "Commanders of the Blood Legions", // Blades of Khorne
+  "Coveted Treasures",          // Gloomspite Gitz
+  "Da Beast Wivin",             // Bonesplitterz
+  "Da Boss's Hoard",            // Ironjawz
+  "Dark Gifts of Hashut",       // Helsmiths of Hashut
+  "Deathly Heirlooms",          // Nighthaunt
+  "Devious Machinators",        // Skaven
+  "Emberstone Weapon",          // Fyreslayers
+  "Endrinwork Upgrades",        // Kharadron Overlords
+  "Ensorcelled Banners",        // Slaves to Darkness
+  "Esoteric Treasures",         // Ossiarch Bonereapers
+  "Everwinter Prayers",         // Ogor Mawtribes
+  "Fated Artefacts",            // Disciples of Tzeentch
+  "Fell Artefacts",             // Soulblight Gravelords
+  "Figureheads of the Dark Prince", // Hedonites of Slaanesh
+  "First Circle Titles",        // Slaves to Darkness
+  "Gifts of Morathi",           // Daughters of Khaine
+  "Gifts of the Blood God",     // Blades of Khorne
+  "Grandfather's Gifts",        // Maggotkin of Nurgle
+  "Great Endrinworks",          // Kharadron Overlords
+  "Hallmarks of Hel's Claw",    // Helsmiths of Hashut
+  "Hedonistic Obsessions",      // Hedonites of Slaanesh
+  "Heirlooms of Hysh",          // Lumineth Realm-lords
+  "Heirlooms of the Lodge",     // Fyreslayers
+  "Horrors of the Necropolis",  // Ossiarch Bonereapers
+  "Infernal Sorceries",         // Helsmiths of Hashut
+  "Infernal Treasures",         // Helsmiths of Hashut
+  "Ingenious Innovations",      // Skaven
+  "Inheritance of Grimnir",     // Fyreslayers
+  "Inventions of the Sky-ports", // Kharadron Overlords
+  "Judgements of Khorne",       // Blades of Khorne
+  "Krule Artefacts",            // Kruleboyz
+  "Kunnin' Warlords",           // Kruleboyz
+  "Leaders of the Raid",        // Idoneth Deepkin
+  "Lords of Brilliance",        // Disciples of Tzeentch
+  "Lords of the Sky-fleets",    // Kharadron Overlords
+  "Marks of Vulkatrix",         // Fyreslayers
+  "Murderous Artefacts",        // Daughters of Khaine
+  "Noxious Prayers",            // Skaven
+  "Paragons of Murder",         // Hedonites of Slaanesh
+  "Plunder of the Mawtribes",   // Ogor Mawtribes
+  "Relics of Dolorum",          // Nighthaunt
+  "Relics of Nature",           // Sylvaneth
+  "Relics of Ruin",             // Skaven
+  "Relics of Sigmaron",         // Stormcast Eternals
+  "Relics of the Abyss",        // Idoneth Deepkin
+  "Relics of the Empire",       // Cities of Sigmar
+  "Relics of the Underworlds",  // Flesh-eater Courts
+  "Rites of Delusion",          // Flesh-eater Courts
+  "Royal Traits",               // Flesh-eater Courts
+  "Royal Treasury",             // Flesh-eater Courts
+  "Ruinous Overlords",          // Slaves to Darkness
+  "Ruinous Realm-Gnawers",      // Skaven
+  "Sentinels of Order",         // Cities of Sigmar
+  "Servants of the Cosmic Order", // Seraphon
+  "Shades of Death",            // Nighthaunt
+  "Stormforged Qualities",      // Stormcast Eternals
+  "Teachings of the Tithe-reapers", // Ossiarch Bonereapers
+  "The Cursed Bloodlines",      // Soulblight Gravelords
+  "The Pride of Thyria",        // Sons of Behemat
+  "Thyrian Wonders",            // Sons of Behemat
+  "Titanic Trophies",           // Sons of Behemat
+  "Traits of Endless Hunger",   // Flesh-eater Courts
+  "Treasures of the Cities",    // Cities of Sigmar
+  "Treasures of the Old Ones",  // Seraphon
+  "Treasures of the Warglade",  // Sylvaneth
+  "Troglodytic Treasures",      // Gloomspite Gitz
+  "Twilit Sorceries",           // Sylvaneth
+  "Tyrants and Overseers",      // Ogor Mawtribes
+  "Undying Tyrants",            // Ossiarch Bonereapers
+  "Vulkyn Gifts",               // Fyreslayers
+  "Warbeats",                   // Ironjawz
+  "Zharrgrim Blessings",        // Fyreslayers
+] as const;
+
+/**
+ * Find all enhancement groups in a catalogue.
+ * Searches for selection entry groups that match known enhancement category names.
+ * Returns groups matching both base names (e.g., "Heroic Traits") and
+ * faction-specific variants (e.g., "Heroic Traits: Stormcast Eternals").
+ */
+export function findEnhancementGroups(catalogue: BSCatalogue): BSSelectionEntryGroup[] {
+  const groups: BSSelectionEntryGroup[] = [];
+  const seenIds = new Set<string>();
+
+  for (const categoryName of ENHANCEMENT_CATEGORIES) {
+    // Escape special regex characters in category name
+    const escaped = categoryName.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    // Match exact name or name with faction suffix (e.g., "Heroic Traits" or "Heroic Traits: Faction")
+    const pattern = new RegExp(`^${escaped}(:|$)`, "i");
+    const found = findSelectionEntryGroups(catalogue, pattern);
+
+    for (const group of found) {
+      // Avoid duplicates
+      if (group.$ && group.$.id && !seenIds.has(group.$.id)) {
+        seenIds.add(group.$.id);
+        groups.push(group);
+      }
+    }
+  }
+
+  return groups;
+}
