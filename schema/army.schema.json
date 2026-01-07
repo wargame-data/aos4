@@ -168,6 +168,10 @@
       "type": "string",
       "pattern": "^[a-z0-9-]+$"
     },
+    "manifestationLore": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
     "gameFormat": {
       "type": "string",
       "enum": [
@@ -176,6 +180,14 @@
         "2500",
         "path-to-glory"
       ]
+    },
+    "battleTactics": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$"
+      },
+      "maxItems": 2
     }
   },
   "required": [

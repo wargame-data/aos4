@@ -10,6 +10,7 @@ import type { Unit } from "../schemas/schemas/unit.schema.js";
 import type { Hero } from "../schemas/schemas/hero.schema.js";
 import type { Faction } from "../schemas/schemas/faction.schema.js";
 import type { RegimentOfRenown } from "../schemas/schemas/regiment-of-renown.schema.js";
+import type { Lore } from "../schemas/schemas/lore.schema.js";
 import type { ArmyData } from "../schemas/army-validator.js";
 
 // Get directory paths (using process.cwd() like the parser)
@@ -104,6 +105,14 @@ export function loadRegimentsOfRenown(): RegimentOfRenown[] {
 }
 
 /**
+ * Load all lores from shared data (includes manifestation lores).
+ */
+export function loadLores(): Lore[] {
+  const loresDir = join(SHARED_DIR, "lores");
+  return loadJsonDir<Lore>(loresDir);
+}
+
+/**
  * Load all army data from the data directory.
  */
 export function loadArmyData(): ArmyData {
@@ -118,12 +127,14 @@ export function loadArmyData(): ArmyData {
   }
 
   const regimentsOfRenown = loadRegimentsOfRenown();
+  const lores = loadLores();
 
   return {
     factions: new Map(factions.map((f) => [f.id, f])),
     heroes: new Map(heroes.map((h) => [h.id, h])),
     units: new Map(units.map((u) => [u.id, u])),
     regimentsOfRenown: new Map(regimentsOfRenown.map((r) => [r.id, r])),
+    lores: new Map(lores.map((l) => [l.id, l])),
   };
 }
 
@@ -141,11 +152,13 @@ export function loadFactionArmyData(factionId: string): ArmyData {
   const heroes = loadHeroes(factionId);
   const units = loadUnits(factionId);
   const regimentsOfRenown = loadRegimentsOfRenown();
+  const lores = loadLores();
 
   return {
     factions: new Map([[faction.id, faction]]),
     heroes: new Map(heroes.map((h) => [h.id, h])),
     units: new Map(units.map((u) => [u.id, u])),
     regimentsOfRenown: new Map(regimentsOfRenown.map((r) => [r.id, r])),
+    lores: new Map(lores.map((l) => [l.id, l])),
   };
 }

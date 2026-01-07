@@ -61,8 +61,12 @@ export const armySchema = z
     enhancements: enhancementsSchema.optional(),
     /** Optional faction terrain */
     factionTerrain: idSchema.optional(),
+    /** Selected manifestation lore ID (optional, faction must have access) */
+    manifestationLore: idSchema.optional(),
     /** Game format determining points limit */
     gameFormat: gameFormatSchema.optional(),
+    /** Selected battle tactic card IDs (typically 2 cards) */
+    battleTactics: z.array(idSchema).max(2).optional(),
   })
   .strict()
   .refine(

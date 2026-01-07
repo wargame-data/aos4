@@ -2,6 +2,7 @@ import type { Unit } from "./schemas/unit.schema.js";
 import type { Hero } from "./schemas/hero.schema.js";
 import type { RegimentOfRenown } from "./schemas/regiment-of-renown.schema.js";
 import type { Faction } from "./schemas/faction.schema.js";
+import type { Lore } from "./schemas/lore.schema.js";
 import type { Army, GameFormat } from "./schemas/army.schema.js";
 import type { Regiment } from "./schemas/regiment.schema.js";
 import type { UnitSelection } from "./schemas/unit-selection.schema.js";
@@ -15,6 +16,7 @@ export interface ArmyData {
   heroes: Map<string, Hero>;
   regimentsOfRenown: Map<string, RegimentOfRenown>;
   factions: Map<string, Faction>;
+  lores: Map<string, Lore>;
 }
 
 /**
@@ -393,6 +395,45 @@ export function validateArmy(army: Army, data: ArmyData): ValidationResult {
     }
   }
 
+  // Validate unique heroes are not duplicated
+  const heroUsageCount = new Map<string, number>();
+
+  // Count heroes from regiment leaders
+  for (const regiment of army.regiments) {
+    if (regiment.leader?.unitId) {
+      heroUsageCount.set(
+        regiment.leader.unitId,
+        (heroUsageCount.get(regiment.leader.unitId) ?? 0) + 1
+      );
+    }
+  }
+
+  // Count heroes from auxiliary (if any heroes are there)
+  if (army.auxiliary) {
+    for (const aux of army.auxiliary) {
+      if (data.heroes.has(aux.unitId)) {
+        heroUsageCount.set(
+          aux.unitId,
+          (heroUsageCount.get(aux.unitId) ?? 0) + 1
+        );
+      }
+    }
+  }
+
+  // Check for duplicate unique heroes
+  for (const [heroId, count] of heroUsageCount) {
+    if (count > 1) {
+      const hero = data.heroes.get(heroId);
+      if (hero?.isUnique) {
+        errors.push({
+          path: "regiments",
+          message: `Unique hero '${hero.name}' cannot be taken more than once (found ${count} times)`,
+          code: "DUPLICATE_UNIQUE_HERO",
+        });
+      }
+    }
+  }
+
   // Calculate points
   const totalPoints = calculateArmyPoints(army, data);
 
@@ -435,12 +476,85 @@ export function validateArmy(army: Army, data: ArmyData): ValidationResult {
     }
   }
 
+  // Validate manifestation lore selection
+  if (army.manifestationLore) {
+    if (!validateManifestationLoreExists(army.manifestationLore, data)) {
+      errors.push({
+        path: "manifestationLore",
+        message: `Manifestation lore '${army.manifestationLore}' not found`,
+        code: "MANIFESTATION_LORE_NOT_FOUND",
+      });
+    } else if (
+      !validateManifestationLoreFaction(
+        army.manifestationLore,
+        army.faction,
+        army.battleFormation,
+        data
+      )
+    ) {
+      errors.push({
+        path: "manifestationLore",
+        message: `Manifestation lore '${army.manifestationLore}' is not available for faction '${army.faction}'${army.battleFormation ? ` with battle formation '${army.battleFormation}'` : ""}`,
+        code: "MANIFESTATION_LORE_FACTION_MISMATCH",
+      });
+    }
+  }
+
   return {
     valid: errors.length === 0,
     errors,
     warnings,
     totalPoints,
   };
+}
+
+/**
+ * Check if a manifestation lore exists in the data.
+ */
+export function validateManifestationLoreExists(
+  loreId: string,
+  data: ArmyData
+): boolean {
+  const lore = data.lores.get(loreId);
+  return lore !== undefined && lore.loreType === "manifestation";
+}
+
+/**
+ * Check if a manifestation lore is valid for the given faction and battle formation.
+ *
+ * Manifestation lore validity rules:
+ * 1. If the lore has a factionId, it must match either:
+ *    - The army's faction ID
+ *    - The army's battle formation ID (for formation-specific lores)
+ * 2. If the lore has no factionId, it's a global lore available to all factions
+ *    that can use manifestations (determined by grand alliance or faction abilities)
+ */
+export function validateManifestationLoreFaction(
+  loreId: string,
+  factionId: string,
+  battleFormationId: string | undefined,
+  data: ArmyData
+): boolean {
+  const lore = data.lores.get(loreId);
+  if (!lore || lore.loreType !== "manifestation") return false;
+
+  // If lore has no factionId, it's a global manifestation lore (available to all)
+  if (!lore.factionId) {
+    return true;
+  }
+
+  // Check if lore's factionId matches the army's faction
+  if (lore.factionId === factionId) {
+    return true;
+  }
+
+  // Check if lore's factionId matches the battle formation
+  // (formation-specific manifestation lores like "manifestation-lore-astral-templars")
+  if (battleFormationId && lore.factionId === battleFormationId) {
+    return true;
+  }
+
+  return false;
 }
 
 /**
@@ -452,6 +566,7 @@ export function createArmyData(options: {
   heroes?: Hero[];
   regimentsOfRenown?: RegimentOfRenown[];
   factions?: Faction[];
+  lores?: Lore[];
 }): ArmyData {
   return {
     units: new Map((options.units ?? []).map((u) => [u.id, u])),
@@ -460,5 +575,6 @@ export function createArmyData(options: {
       (options.regimentsOfRenown ?? []).map((r) => [r.id, r])
     ),
     factions: new Map((options.factions ?? []).map((f) => [f.id, f])),
+    lores: new Map((options.lores ?? []).map((l) => [l.id, l])),
   };
 }

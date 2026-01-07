@@ -9,6 +9,8 @@ import {
   validateArmy,
   validateUnitExists,
   validateRegimentKeywords,
+  validateManifestationLoreExists,
+  validateManifestationLoreFaction,
   calculateArmyPoints,
   createArmyData,
   type ArmyData,
@@ -17,6 +19,7 @@ import type { Army } from "../schemas/schemas/army.schema.js";
 import type { Unit } from "../schemas/schemas/unit.schema.js";
 import type { Hero } from "../schemas/schemas/hero.schema.js";
 import type { Faction } from "../schemas/schemas/faction.schema.js";
+import type { Lore } from "../schemas/schemas/lore.schema.js";
 
 // Test data: simplified faction and units for testing
 const testFaction: Faction = {
@@ -111,6 +114,75 @@ const testEvocators: Unit = {
   weapons: [{ name: "Tempest Blade", type: "melee", attacks: 3, hit: "3+", wound: "3+", rend: 1, damage: 1 }],
 };
 
+// Test manifestation lores
+const globalManifestationLore: Lore = {
+  id: "manifestations-of-the-storm",
+  name: "Manifestations of the Storm",
+  loreType: "manifestation",
+  spells: [
+    {
+      name: "Summon Celestian Vortex",
+      castingValue: 6,
+      effect: "Set up a Celestian Vortex wholly within 18\" of the caster.",
+    },
+  ],
+};
+
+const factionManifestationLore: Lore = {
+  id: "manifestation-lore-test-faction",
+  name: "Manifestation Lore: Test Faction",
+  loreType: "manifestation",
+  factionId: "test-faction",
+  spells: [
+    {
+      name: "Summon Test Manifestation",
+      castingValue: 7,
+      effect: "Set up a Test Manifestation wholly within 12\" of the caster.",
+    },
+  ],
+};
+
+const formationManifestationLore: Lore = {
+  id: "manifestation-lore-vanguard-wing",
+  name: "Manifestation Lore: Vanguard Wing",
+  loreType: "manifestation",
+  factionId: "vanguard-wing",
+  spells: [
+    {
+      name: "Summon Vanguard Manifestation",
+      castingValue: 5,
+      effect: "Set up a Vanguard Manifestation wholly within 18\" of the caster.",
+    },
+  ],
+};
+
+const otherFactionManifestationLore: Lore = {
+  id: "manifestation-lore-other-faction",
+  name: "Manifestation Lore: Other Faction",
+  loreType: "manifestation",
+  factionId: "other-faction",
+  spells: [
+    {
+      name: "Summon Other Manifestation",
+      castingValue: 6,
+      effect: "Set up an Other Manifestation wholly within 18\" of the caster.",
+    },
+  ],
+};
+
+const spellLore: Lore = {
+  id: "lore-of-storms",
+  name: "Lore of Storms",
+  loreType: "spell",
+  spells: [
+    {
+      name: "Chain Lightning",
+      castingValue: 7,
+      effect: "Pick an enemy unit within 18\"...",
+    },
+  ],
+};
+
 // Create test ArmyData
 let testData: ArmyData;
 
@@ -120,6 +192,13 @@ beforeAll(() => {
     heroes: [testLordCelestant, testKnightIncantor],
     units: [testLiberators, testAnnihilators, testEvocators],
     regimentsOfRenown: [],
+    lores: [
+      globalManifestationLore,
+      factionManifestationLore,
+      formationManifestationLore,
+      otherFactionManifestationLore,
+      spellLore,
+    ],
   });
 });
 
@@ -363,5 +442,189 @@ describe("validateArmy", () => {
     const result = validateArmy(army, testData);
     // This is a warning, not an error
     expect(result.warnings.some((w) => w.code === "REINFORCED_COUNT_MISMATCH")).toBe(true);
+  });
+
+  it("should validate army with valid global manifestation lore", () => {
+    const army: Army = {
+      faction: "test-faction",
+      grandAlliance: "order",
+      regiments: [
+        {
+          leader: { unitId: "lord-celestant", count: 1 },
+          units: [{ unitId: "liberators", count: 5 }],
+        },
+      ],
+      manifestationLore: "manifestations-of-the-storm",
+    };
+
+    const result = validateArmy(army, testData);
+    expect(result.valid).toBe(true);
+    expect(result.errors).toHaveLength(0);
+  });
+
+  it("should validate army with valid faction-specific manifestation lore", () => {
+    const army: Army = {
+      faction: "test-faction",
+      grandAlliance: "order",
+      regiments: [
+        {
+          leader: { unitId: "lord-celestant", count: 1 },
+          units: [{ unitId: "liberators", count: 5 }],
+        },
+      ],
+      manifestationLore: "manifestation-lore-test-faction",
+    };
+
+    const result = validateArmy(army, testData);
+    expect(result.valid).toBe(true);
+    expect(result.errors).toHaveLength(0);
+  });
+
+  it("should validate army with formation-specific manifestation lore", () => {
+    const army: Army = {
+      faction: "test-faction",
+      grandAlliance: "order",
+      battleFormation: "vanguard-wing",
+      regiments: [
+        {
+          leader: { unitId: "lord-celestant", count: 1 },
+          units: [{ unitId: "liberators", count: 5 }],
+        },
+      ],
+      manifestationLore: "manifestation-lore-vanguard-wing",
+    };
+
+    const result = validateArmy(army, testData);
+    expect(result.valid).toBe(true);
+    expect(result.errors).toHaveLength(0);
+  });
+
+  it("should report error for non-existent manifestation lore", () => {
+    const army: Army = {
+      faction: "test-faction",
+      grandAlliance: "order",
+      regiments: [
+        {
+          leader: { unitId: "lord-celestant", count: 1 },
+          units: [{ unitId: "liberators", count: 5 }],
+        },
+      ],
+      manifestationLore: "non-existent-lore",
+    };
+
+    const result = validateArmy(army, testData);
+    expect(result.valid).toBe(false);
+    expect(result.errors.some((e) => e.code === "MANIFESTATION_LORE_NOT_FOUND")).toBe(true);
+  });
+
+  it("should report error for manifestation lore from other faction", () => {
+    const army: Army = {
+      faction: "test-faction",
+      grandAlliance: "order",
+      regiments: [
+        {
+          leader: { unitId: "lord-celestant", count: 1 },
+          units: [{ unitId: "liberators", count: 5 }],
+        },
+      ],
+      manifestationLore: "manifestation-lore-other-faction",
+    };
+
+    const result = validateArmy(army, testData);
+    expect(result.valid).toBe(false);
+    expect(result.errors.some((e) => e.code === "MANIFESTATION_LORE_FACTION_MISMATCH")).toBe(true);
+  });
+
+  it("should report error when selecting spell lore as manifestation lore", () => {
+    const army: Army = {
+      faction: "test-faction",
+      grandAlliance: "order",
+      regiments: [
+        {
+          leader: { unitId: "lord-celestant", count: 1 },
+          units: [{ unitId: "liberators", count: 5 }],
+        },
+      ],
+      manifestationLore: "lore-of-storms", // This is a spell lore, not manifestation
+    };
+
+    const result = validateArmy(army, testData);
+    expect(result.valid).toBe(false);
+    expect(result.errors.some((e) => e.code === "MANIFESTATION_LORE_NOT_FOUND")).toBe(true);
+  });
+
+  it("should report error for formation-specific lore without matching formation", () => {
+    const army: Army = {
+      faction: "test-faction",
+      grandAlliance: "order",
+      // No battleFormation, or different one
+      regiments: [
+        {
+          leader: { unitId: "lord-celestant", count: 1 },
+          units: [{ unitId: "liberators", count: 5 }],
+        },
+      ],
+      manifestationLore: "manifestation-lore-vanguard-wing",
+    };
+
+    const result = validateArmy(army, testData);
+    expect(result.valid).toBe(false);
+    expect(result.errors.some((e) => e.code === "MANIFESTATION_LORE_FACTION_MISMATCH")).toBe(true);
+  });
+});
+
+describe("validateManifestationLoreExists", () => {
+  it("should return true for existing manifestation lore", () => {
+    expect(validateManifestationLoreExists("manifestations-of-the-storm", testData)).toBe(true);
+  });
+
+  it("should return true for faction-specific manifestation lore", () => {
+    expect(validateManifestationLoreExists("manifestation-lore-test-faction", testData)).toBe(true);
+  });
+
+  it("should return false for non-existent lore", () => {
+    expect(validateManifestationLoreExists("non-existent", testData)).toBe(false);
+  });
+
+  it("should return false for spell lore (not manifestation type)", () => {
+    expect(validateManifestationLoreExists("lore-of-storms", testData)).toBe(false);
+  });
+});
+
+describe("validateManifestationLoreFaction", () => {
+  it("should return true for global manifestation lore (no factionId)", () => {
+    expect(
+      validateManifestationLoreFaction("manifestations-of-the-storm", "test-faction", undefined, testData)
+    ).toBe(true);
+  });
+
+  it("should return true when lore factionId matches army faction", () => {
+    expect(
+      validateManifestationLoreFaction("manifestation-lore-test-faction", "test-faction", undefined, testData)
+    ).toBe(true);
+  });
+
+  it("should return true when lore factionId matches battle formation", () => {
+    expect(
+      validateManifestationLoreFaction("manifestation-lore-vanguard-wing", "test-faction", "vanguard-wing", testData)
+    ).toBe(true);
+  });
+
+  it("should return false when lore factionId doesn't match faction or formation", () => {
+    expect(
+      validateManifestationLoreFaction("manifestation-lore-other-faction", "test-faction", undefined, testData)
+    ).toBe(false);
+  });
+
+  it("should return false for non-existent lore", () => {
+    expect(
+      validateManifestationLoreFaction("non-existent", "test-faction", undefined, testData)
+    ).toBe(false);
+  });
+
+  it("should return false for spell lore (not manifestation type)", () => {
+    expect(
+      validateManifestationLoreFaction("lore-of-storms", "test-faction", undefined, testData)
+    ).toBe(false);
   });
 });
