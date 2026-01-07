@@ -1,0 +1,46 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "fated-artefacts",
+  "name": "Fated Artefacts",
+  "faction": "disciples-of-tzeentch",
+  "type": "fated-artefacts",
+  "enhancements": [
+    {
+      "name": "Nine-eyed Tome",
+      "ability": {
+        "name": "Nine-eyed Tome",
+        "type": "passive",
+        "effect": "Add 1 to casting rolls and banishment rolls for this unit.",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      },
+      "points": 10
+    },
+    {
+      "name": "Ambition's End",
+      "ability": {
+        "name": "Ambition's End",
+        "type": "once-per-battle",
+        "effect": "Inflict D3 mortal damage on the target. In addition, subtract 1 from casting rolls for the target for the rest of the battle.",
+        "phase": "combat",
+        "declare": "Pick an enemy **^^Wizard^^** in combat with this unit to be the target.",
+        "color": "Red",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Wyrdflame Blade",
+      "ability": {
+        "name": "Wyrdflame Blade",
+        "type": "passive",
+        "effect": "If any damage points are allocated to an enemy unit by this unit’s combat attacks, that enemy unit has the **^^Burning^^** keyword.",
+        "color": "Red",
+        "abilityCategory": "Special"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "murderous-artefacts",
+  "name": "Murderous Artefacts",
+  "faction": "blades-of-khorne",
+  "type": "murderous-artefacts",
+  "enhancements": [
+    {
+      "name": "Collar of Contempt",
+      "ability": {
+        "name": "Collar of Contempt",
+        "type": "passive",
+        "effect": "This unit can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**. Each time this unit successfully unbinds a spell, inflict D3 mortal damage on the caster.",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Butcher's Blade",
+      "ability": {
+        "name": "Butcher's Blade",
+        "type": "passive",
+        "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+        "declare": "Pick each enemy unit that had any damage points allocated to it this turn by this unit's combat attacks to be the targets.",
+        "color": "Purple",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Ar'gath, the King of Blades",
+      "ability": {
+        "name": "Ar'gath, the King of Blades",
+        "type": "passive",
+        "effect": "Ward rolls cannot be made for enemy **^^Heroes^^** while they are in combat with this unit.",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

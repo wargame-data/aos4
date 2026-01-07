@@ -1,0 +1,47 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "inventions-of-the-sky-ports",
+  "name": "Inventions of the Sky-ports",
+  "faction": "kharadron-overlords",
+  "type": "inventions-of-the-sky-ports",
+  "enhancements": [
+    {
+      "name": "Celestium Burst Grenade",
+      "ability": {
+        "name": "Celestium Burst Grenade",
+        "type": "once-per-battle",
+        "effect": "Ward rolls cannot be made for the target for the rest of the turn.",
+        "phase": "shooting",
+        "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
+        "color": "Blue",
+        "abilityCategory": "Offensive"
+      },
+      "points": 10
+    },
+    {
+      "name": "Voidstone Orb",
+      "ability": {
+        "name": "Voidstone Orb",
+        "type": "reaction",
+        "effect": "That spell is unbound.",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Blazebeard and Sons Bamboozling Flakgun",
+      "ability": {
+        "name": "Blazebeard and Sons Bamboozling Flakgun",
+        "type": "reaction",
+        "effect": "Pick 1 dice in that charge roll. Then, make a **bamboozling flak roll** of D6. If the roll equals or exceeds the value on the dice, remove that dice from the charge roll.",
+        "color": "Orange",
+        "abilityCategory": "Movement"
+      },
+      "points": 10
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

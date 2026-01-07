@@ -1,0 +1,48 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "tyrants-and-overseers",
+  "name": "Tyrants and Overseers",
+  "faction": "helsmiths-of-hashut",
+  "type": "tyrants-and-overseers",
+  "enhancements": [
+    {
+      "name": "Servile Automaton",
+      "ability": {
+        "name": "Servile Automaton",
+        "type": "passive",
+        "effect": "For the rest of the battle, the target is this unit's bodyguard and the following effects apply:\n• While this unit is in combat and its bodyguard is within its combat range, its bodyguard has **^^Strike-first^^**.\n• If this unit is **^^Infantry^^**, it has **^^Ward (5+)^^** while its bodyguard is within its combat range.",
+        "declare": "Pick a friendly **^^Helsmiths of Hashut Automaton^^** unit within this unit's combat range to be the target.",
+        "color": "Black",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "'Fire, You Worms!'",
+      "ability": {
+        "name": "'Fire, You Worms!'",
+        "type": "passive",
+        "effect": "The target can immediately use the 'Shoot' ability as if it were your shooting phase. All attacks must target the same enemy unit, and the enemy unit picked to be the target of the attacks must have charged this phase. If the unmodified hit roll for any of those attacks is 1-5, the attack fails and the attack sequence ends.",
+        "phase": "charge",
+        "declare": "Pick a friendly **^^Helsmiths of Hashut Infantry^^** unit that is not in combat and is wholly within 12\" of this unit to be the target.",
+        "color": "Orange",
+        "abilityCategory": "Shooting"
+      }
+    },
+    {
+      "name": "An Eye for Weakness",
+      "ability": {
+        "name": "An Eye for Weakness",
+        "type": "passive",
+        "effect": "Until the start of your next turn, add 1 to wound rolls for combat attacks made by friendly **^^Helsmiths of Hashut^^** units that target that enemy unit.",
+        "phase": "hero",
+        "declare": "Pick a visible enemy unit within 18\" of this unit to be the target.",
+        "color": "Yellow",
+        "abilityCategory": "Offensive"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

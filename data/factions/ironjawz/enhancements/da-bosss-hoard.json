@@ -1,0 +1,43 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "da-bosss-hoard",
+  "name": "Da Boss's Hoard",
+  "faction": "ironjawz",
+  "type": "da-bosss-hoard",
+  "enhancements": [
+    {
+      "name": "Trophy Skulls",
+      "ability": {
+        "name": "Trophy Skulls",
+        "type": "passive",
+        "effect": "Add 10 to this unit’s control score.",
+        "color": "Purple",
+        "abilityCategory": "Control"
+      }
+    },
+    {
+      "name": "Armour of Gork",
+      "ability": {
+        "name": "Armour of Gork",
+        "type": "passive",
+        "effect": "This unit has **^^Ward (6+)^^**.",
+        "color": "Green",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Amberbone Whetstone",
+      "ability": {
+        "name": "Amberbone Whetstone",
+        "type": "passive",
+        "effect": "Pick 1 of this unit’s weapons. Add 1 to the Rend characteristic of that weapon for the rest of the battle.",
+        "color": "Black",
+        "abilityCategory": "Offensive"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

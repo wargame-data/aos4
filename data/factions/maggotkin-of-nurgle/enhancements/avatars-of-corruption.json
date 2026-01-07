@@ -1,0 +1,44 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "avatars-of-corruption",
+  "name": "Avatars of Corruption",
+  "faction": "maggotkin-of-nurgle",
+  "type": "avatars-of-corruption",
+  "enhancements": [
+    {
+      "name": "Gift of Febrile Frenzy",
+      "ability": {
+        "name": "Gift of Febrile Frenzy",
+        "type": "passive",
+        "effect": "Add 1\" to the Move characteristic of friendly **^^Maggotkin of Nurgle^^** units that do not have **^^Fly^^** if they are wholly within 12\" of this unit at the start of the move.",
+        "color": "Gray",
+        "abilityCategory": "Movement"
+      }
+    },
+    {
+      "name": "Grandfather's Blessing",
+      "ability": {
+        "name": "Grandfather's Blessing",
+        "type": "passive",
+        "effect": "If this unit is in combat with a **^^Diseased^^** enemy unit, **Heal (D6)** this unit.",
+        "phase": "any",
+        "color": "Purple",
+        "abilityCategory": "Defensive"
+      }
+    },
+    {
+      "name": "Overpowering Stench",
+      "ability": {
+        "name": "Overpowering Stench",
+        "type": "reaction",
+        "effect": "Roll a dice. On a 5+, that command has no effect. The command still counts as having been used and the command points spent to use the command are still lost.",
+        "color": "Black",
+        "abilityCategory": "Special"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

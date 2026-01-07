@@ -1,0 +1,45 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "relics-of-dolorum",
+  "name": "Relics of Dolorum",
+  "faction": "nighthaunt",
+  "type": "relics-of-dolorum",
+  "enhancements": [
+    {
+      "name": "Stave of Suffering",
+      "ability": {
+        "name": "Stave of Suffering",
+        "type": "passive",
+        "effect": "While this unit is within 12\" of any damaged enemy units or enemy units that have had any models slain, add 1 to casting rolls for friendly **^^Nighthaunt^^** units while they are wholly within 12\" of this unit.",
+        "color": "Yellow",
+        "abilityCategory": "Defensive"
+      }
+    },
+    {
+      "name": "Tombstone of the Penitent",
+      "ability": {
+        "name": "Tombstone of the Penitent",
+        "type": "passive",
+        "effect": "Add 1 to the Attacks characteristic of this unit’s melee weapons for each non-**^^Faction Terrain^^** terrain feature that is being contested by friendly units, to a maximum of 8.",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Amulet of Waking Nightmares",
+      "ability": {
+        "name": "Amulet of Waking Nightmares",
+        "type": "passive",
+        "effect": "Roll a dice. On a 3+, for the rest of the turn, the target cannot be affected by the ‘Guarded Hero’ ability or the ‘Obscuring’ terrain ability.",
+        "phase": "hero",
+        "declare": "Pick an enemy **^^Hero^^** within 18\" of this unit to be the target.",
+        "color": "Yellow",
+        "abilityCategory": "Offensive"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

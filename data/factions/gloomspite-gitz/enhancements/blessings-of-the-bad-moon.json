@@ -1,0 +1,45 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "blessings-of-the-bad-moon",
+  "name": "Blessings of the Bad Moon",
+  "faction": "gloomspite-gitz",
+  "type": "blessings-of-the-bad-moon",
+  "enhancements": [
+    {
+      "name": "Loontouched",
+      "ability": {
+        "name": "Loontouched",
+        "type": "passive",
+        "effect": "If this unit is not a **^^Wizard^^**, it has **^^Wizard (1)^^**. Otherwise, add 1 to casting rolls for this unit.",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      },
+      "points": 20
+    },
+    {
+      "name": "The Clammy Hand",
+      "ability": {
+        "name": "The Clammy Hand",
+        "type": "passive",
+        "effect": "Each time a friendly **^^Gloomspite Gitz^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
+        "color": "Yellow",
+        "abilityCategory": "Rallying"
+      }
+    },
+    {
+      "name": "Fight Another Day",
+      "ability": {
+        "name": "Fight Another Day",
+        "type": "passive",
+        "effect": "If this unit is in combat, roll a dice. On a 3+, this unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.",
+        "phase": "combat",
+        "color": "Red",
+        "abilityCategory": "Movement"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

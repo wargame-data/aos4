@@ -1,0 +1,43 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "celestial-disciplines",
+  "name": "Celestial Disciplines",
+  "faction": "seraphon",
+  "type": "celestial-disciplines",
+  "enhancements": [
+    {
+      "name": "Being of the Stars",
+      "ability": {
+        "name": "Being of the Stars",
+        "type": "passive",
+        "effect": "Ignore modifiers to save rolls for this unit (positive and negative).",
+        "color": "Green",
+        "abilityCategory": "Defensive"
+      }
+    },
+    {
+      "name": "Reptilian Cunning",
+      "ability": {
+        "name": "Reptilian Cunning",
+        "type": "passive",
+        "effect": "If this unit charged this turn, if a friendly unit wholly within 12\" of this unit uses the ‘All-out Attack’ command in the combat phase, no command points are spent.",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Beastmaster",
+      "ability": {
+        "name": "Beastmaster",
+        "type": "passive",
+        "effect": "Add 2\" to the Move characteristic of friendly **^^Seraphon Cavalry^^** and **^^Seraphon Monster^^** units for the rest of the phase if they are wholly within 12\" of this unit at the start of the move.",
+        "color": "Orange",
+        "abilityCategory": "Movement"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "commanders-of-the-blood-legions",
+  "name": "Commanders of the Blood Legions",
+  "faction": "blades-of-khorne",
+  "type": "commanders-of-the-blood-legions",
+  "enhancements": [
+    {
+      "name": "Magical Scorn",
+      "ability": {
+        "name": "Magical Scorn",
+        "type": "passive",
+        "effect": "Subtract 1 from casting rolls for **^^Wizards^^** while they are within 12\" of this unit.\nSubtract 1 from chanting rolls for enemy **^^Priests^^** while they are within 12\" of this unit.",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Skull Collector",
+      "ability": {
+        "name": "Skull Collector",
+        "type": "passive",
+        "effect": "If any damage points were allocated to an enemy **^^Hero^^** by this unit's combat attacks this turn and that enemy **^^Hero^^** has been destroyed, add 1 to the Attacks characteristic of this unit's melee weapons for the rest of the battle.\nThis unit can be affected by this ability multiple times and the effects are cumulative.",
+        "phase": "any",
+        "color": "Purple",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Frenzied Taskmaster",
+      "ability": {
+        "name": "Frenzied Taskmaster",
+        "type": "passive",
+        "effect": "The target can move D6\" but cannot end that move in combat. If the target ends that move within this unit's combat range, inflict an amount of mortal damage on the target equal to the roll.",
+        "phase": "movement",
+        "declare": "Pick a friendly **^^Blades of Khorne Infantry^^** or **^^Cavalry^^** unit within this unit's combat range that is not in combat to be the target.",
+        "color": "Gray",
+        "abilityCategory": "Special"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

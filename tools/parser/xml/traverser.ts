@@ -544,8 +544,22 @@ export function findLoreGroups(catalogue: BSCatalogue): BSSelectionEntryGroup[] 
 }
 
 /**
+ * Recursively collect all selection entry groups, including nested ones.
+ */
+function collectNestedGroups(groups: BSSelectionEntryGroup[]): BSSelectionEntryGroup[] {
+  const result: BSSelectionEntryGroup[] = [];
+  for (const group of groups) {
+    result.push(group);
+    if (group.selectionEntryGroups) {
+      result.push(...collectNestedGroups(group.selectionEntryGroups));
+    }
+  }
+  return result;
+}
+
+/**
  * Find selection entry groups by name pattern.
- * Searches in both shared and direct selection entry groups.
+ * Searches in both shared and direct selection entry groups, including nested groups.
  */
 export function findSelectionEntryGroups(
   catalogue: BSCatalogue,
@@ -554,21 +568,13 @@ export function findSelectionEntryGroups(
   const groups: BSSelectionEntryGroup[] = [];
   const pattern = typeof namePattern === "string" ? new RegExp(namePattern, "i") : namePattern;
 
-  // Check shared selection entry groups
-  if (catalogue.sharedSelectionEntryGroups) {
-    for (const group of catalogue.sharedSelectionEntryGroups) {
-      if (group.$ && group.$.name && pattern.test(group.$.name)) {
-        groups.push(group);
-      }
-    }
-  }
+  // Collect all groups recursively (including nested ones)
+  const allSharedGroups = collectNestedGroups(catalogue.sharedSelectionEntryGroups ?? []);
+  const allDirectGroups = collectNestedGroups(catalogue.selectionEntryGroups ?? []);
 
-  // Check direct selection entry groups
-  if (catalogue.selectionEntryGroups) {
-    for (const group of catalogue.selectionEntryGroups) {
-      if (group.$ && group.$.name && pattern.test(group.$.name)) {
-        groups.push(group);
-      }
+  for (const group of [...allSharedGroups, ...allDirectGroups]) {
+    if (group.$ && group.$.name && pattern.test(group.$.name)) {
+      groups.push(group);
     }
   }
 

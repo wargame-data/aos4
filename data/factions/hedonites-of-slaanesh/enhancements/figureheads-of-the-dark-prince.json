@@ -1,0 +1,43 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "figureheads-of-the-dark-prince",
+  "name": "Figureheads of the Dark Prince",
+  "faction": "hedonites-of-slaanesh",
+  "type": "figureheads-of-the-dark-prince",
+  "enhancements": [
+    {
+      "name": "Strongest Alone",
+      "ability": {
+        "name": "Strongest Alone",
+        "type": "passive",
+        "effect": "Add 1 to hit rolls and wound rolls for this unit’s attacks while it is more than 6\" from all other friendly units.",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Glory Hog",
+      "ability": {
+        "name": "Glory Hog",
+        "type": "passive",
+        "effect": "If an enemy **^^Hero^^** is destroyed by this unit, this unit has the **^^Euphoric^^** keyword for the rest of the battle.",
+        "color": "Black",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Into the Fray",
+      "ability": {
+        "name": "Into the Fray",
+        "type": "passive",
+        "effect": "If this unit charged this turn and the unmodified charge roll was 8+, this unit has Strike-first for the rest of the turn.",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "treasures-of-the-old-ones",
+  "name": "Treasures of the Old Ones",
+  "faction": "seraphon",
+  "type": "treasures-of-the-old-ones",
+  "enhancements": [
+    {
+      "name": "Incandescent Rectrices",
+      "ability": {
+        "name": "Incandescent Rectrices",
+        "type": "passive",
+        "effect": "**Heal (D3)** this unit.",
+        "phase": "hero",
+        "color": "Yellow",
+        "abilityCategory": "Defensive"
+      }
+    },
+    {
+      "name": "Coatl Familiar",
+      "ability": {
+        "name": "Coatl Familiar",
+        "type": "reaction",
+        "effect": "Add D6 to the casting roll for that spell.",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      },
+      "points": 20
+    },
+    {
+      "name": "Bloodrage Pendant",
+      "ability": {
+        "name": "Bloodrage Pendant",
+        "type": "passive",
+        "effect": "Add 1 to the Attacks characteristic of this unit’s melee weapons. Add 2 instead if the number of damage points allocated to this unit is equal to or greater than half of this unit’s Health characteristic (rounding up).",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

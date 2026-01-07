@@ -1,0 +1,46 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "relics-of-the-underworlds",
+  "name": "Relics of the Underworlds",
+  "faction": "nighthaunt",
+  "type": "relics-of-the-underworlds",
+  "enhancements": [
+    {
+      "name": "Lightshard of the Harvest Moon",
+      "ability": {
+        "name": "Lightshard of the Harvest Moon",
+        "type": "once-per-battle",
+        "effect": "If this unit is in combat, add 1 to the Attacks characteristic of melee weapons used by friendly **^^Nighthaunt^^** units while they are wholly within 12\" of this unit for the rest of the turn.",
+        "phase": "combat",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      },
+      "points": 20
+    },
+    {
+      "name": "Mirror of Echoing Failures",
+      "ability": {
+        "name": "Mirror of Echoing Failures",
+        "type": "reaction",
+        "effect": "Roll a D3. On a 2+, for the rest of the phase:\n• Subtract 1 from casting rolls and chanting rolls for the targets.\n• Each time any of the targets fails to cast a spell or chant a prayer, inflict 1 mortal damage on the target.",
+        "declare": "Pick each enemy **^^Wizard^^** and ^^**Priest^^** within 12\" of this unit to be the targets.",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Brazier of Nagashizzar",
+      "ability": {
+        "name": "Brazier of Nagashizzar",
+        "type": "reaction",
+        "effect": "If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.",
+        "color": "Gray",
+        "abilityCategory": "Movement"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

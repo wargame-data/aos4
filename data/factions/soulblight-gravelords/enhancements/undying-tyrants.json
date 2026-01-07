@@ -1,0 +1,43 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "undying-tyrants",
+  "name": "Undying Tyrants",
+  "faction": "soulblight-gravelords",
+  "type": "undying-tyrants",
+  "enhancements": [
+    {
+      "name": "A Wastrel and a Vagabond",
+      "ability": {
+        "name": "A Wastrel and a Vagabond",
+        "type": "passive",
+        "effect": "While a friendly **Deadwalker Zombies** or **Deathrattle Skeletons** unit is wholly within 12\" of this unit:\n• Add 2 to run rolls for that unit.\n• Add 3\" to the distance that unit can move when it piles in.",
+        "color": "Black",
+        "abilityCategory": "Movement"
+      }
+    },
+    {
+      "name": "Frightening Vitality",
+      "ability": {
+        "name": "Frightening Vitality",
+        "type": "passive",
+        "effect": "Each time an ability would heal exactly 1 or 2 of this unit’s damage points, heal 3 damage points instead.",
+        "color": "Green",
+        "abilityCategory": "Defensive"
+      }
+    },
+    {
+      "name": "Immortal Ego",
+      "ability": {
+        "name": "Immortal Ego",
+        "type": "passive",
+        "effect": "Each phase, you can re-roll 1 hit roll, 1 wound roll and 1 save roll for this unit.",
+        "color": "Black",
+        "abilityCategory": "Special"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

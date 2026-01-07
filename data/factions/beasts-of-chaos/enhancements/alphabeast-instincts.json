@@ -1,0 +1,45 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "alphabeast-instincts",
+  "name": "Alphabeast Instincts",
+  "faction": "beasts-of-chaos",
+  "type": "alphabeast-instincts",
+  "enhancements": [
+    {
+      "name": "Bestial Cunning",
+      "ability": {
+        "name": "Bestial Cunning",
+        "type": "passive",
+        "effect": "Each target can immediately move D3\". The targets cannot move into combat during any part of that move.",
+        "phase": "movement",
+        "declare": "Pick up to 3 friendly **^^Beasts of Chaos^^** units wholly within 12\" of this unit that were set up this turn using the ‘Beastherd Ambush’ ability to be the targets.",
+        "color": "Gray",
+        "abilityCategory": "Movement"
+      }
+    },
+    {
+      "name": "Death-grip",
+      "ability": {
+        "name": "Death-grip",
+        "type": "reaction",
+        "effect": "If that friendly **^^Beasts of Chaos^^** unit is not in combat and is wholly within 18\" of this unit, after the **^^Shoot^^** ability has been resolved, that friendly unit can move 2D6\". It can move into combat.",
+        "color": "Blue",
+        "abilityCategory": "Movement"
+      }
+    },
+    {
+      "name": "Propagator of Ruin",
+      "ability": {
+        "name": "Propagator of Ruin",
+        "type": "passive",
+        "effect": "While this unit is on the battlefield, you can use the ‘Rituals of Ruin’ ability twice per turn in your hero phase instead of once per turn. You cannot pick the same effect more than once per turn.",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

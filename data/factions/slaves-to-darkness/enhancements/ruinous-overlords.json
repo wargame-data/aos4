@@ -1,0 +1,47 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "ruinous-overlords",
+  "name": "Ruinous Overlords",
+  "faction": "slaves-to-darkness",
+  "type": "ruinous-overlords",
+  "enhancements": [
+    {
+      "name": "Favoured of the Pantheon",
+      "ability": {
+        "name": "Favoured of the Pantheon",
+        "type": "passive",
+        "effect": "If this unit is picked as the target of the 'Eye of the Gods' ability, it gains 3 **Dark Apotheosis** points.",
+        "color": "Black",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Deathmonger",
+      "ability": {
+        "name": "Deathmonger",
+        "type": "once-per-battle",
+        "effect": "This unit can use 2 **^^Fight^^** abilities this phase. After the first is used, however, this unit has **^^Strike-last^^** for the rest of the turn.",
+        "phase": "combat",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Radiance of Dark Glory",
+      "ability": {
+        "name": "Radiance of Dark Glory",
+        "type": "passive",
+        "effect": "Roll a dice for each target. On a 3+, **Heal (1)** the target. **Heal (3)** the target instead if it is a Monster.",
+        "phase": "hero",
+        "declare": "Pick each damaged friendly unit wholly within 12\" of this unit to be the targets.",
+        "color": "Yellow",
+        "abilityCategory": "Defensive"
+      },
+      "points": 20
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

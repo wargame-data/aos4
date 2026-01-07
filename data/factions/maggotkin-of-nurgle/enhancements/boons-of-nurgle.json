@@ -1,0 +1,50 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "boons-of-nurgle",
+  "name": "Boons of Nurgle",
+  "faction": "maggotkin-of-nurgle",
+  "type": "boons-of-nurgle",
+  "enhancements": [
+    {
+      "name": "The Carrion Dirge",
+      "ability": {
+        "name": "The Carrion Dirge",
+        "type": "once-per-battle",
+        "effect": "Subtract 3 from each target’s control score for the rest of the turn.",
+        "phase": "hero",
+        "declare": "Pick up to 3 enemy units within 12\" of this unit to be the targets.",
+        "color": "Yellow",
+        "abilityCategory": "Control"
+      }
+    },
+    {
+      "name": "Rustfang",
+      "ability": {
+        "name": "Rustfang",
+        "type": "once-per-battle",
+        "effect": "Subtract 1 from save rolls for the target for the rest of the battle.",
+        "phase": "combat",
+        "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target.",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "The Witherstave",
+      "ability": {
+        "name": "The Witherstave",
+        "type": "passive",
+        "effect": "Roll a dice. On a 4+, the target has **^^Strike-last^^** for the rest of the turn.",
+        "phase": "combat",
+        "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
+        "color": "Red",
+        "abilityCategory": "Defensive"
+      },
+      "points": 20
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

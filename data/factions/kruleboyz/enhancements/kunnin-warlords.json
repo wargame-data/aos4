@@ -1,0 +1,48 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "kunnin-warlords",
+  "name": "Kunnin' Warlords",
+  "faction": "kruleboyz",
+  "type": "kunnin-warlords",
+  "enhancements": [
+    {
+      "name": "Slippery Skumbag",
+      "ability": {
+        "name": "Slippery Skumbag",
+        "type": "passive",
+        "effect": "If this unit is in combat, roll a dice. On a 3+, it can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.",
+        "phase": "combat",
+        "color": "Red",
+        "abilityCategory": "Movement"
+      },
+      "points": 20
+    },
+    {
+      "name": "Egomaniak",
+      "ability": {
+        "name": "Egomaniak",
+        "type": "passive",
+        "effect": "While this unit is within the combat range of a friendly non-**^^Hero Kruleboyz^^** Infantry unit:\n• This unit has **^^Ward (4+)^^**.\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly non-**^^Hero Kruleboyz Infantry^^** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).",
+        "color": "Green",
+        "abilityCategory": "Defensive"
+      },
+      "points": 10
+    },
+    {
+      "name": "Backstabba",
+      "ability": {
+        "name": "Backstabba",
+        "type": "passive",
+        "effect": "Inflict D3 mortal damage on the target. Add 1 to the mortal damage inflicted for each friendly **^^Kruleboyz^^** unit in combat with the target in addition to the first two **^^Kruleboyz^^** units.",
+        "phase": "any",
+        "declare": "Pick an enemy **^^Hero^^** in combat with both this unit and another friendly **^^Kruleboyz^^** unit to be the target.",
+        "color": "Purple",
+        "abilityCategory": "Offensive"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

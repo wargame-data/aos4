@@ -1,0 +1,47 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "relics-of-nature",
+  "name": "Relics of Nature",
+  "faction": "sylvaneth",
+  "type": "relics-of-nature",
+  "enhancements": [
+    {
+      "name": "Seed of Rebirth",
+      "ability": {
+        "name": "Seed of Rebirth",
+        "type": "passive",
+        "effect": "If this unit would be destroyed, before removing it from play, roll a dice. On a 3+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (1)** this unit. This unit cannot use this ability again for the rest of the battle.",
+        "color": "Green",
+        "abilityCategory": "Defensive"
+      }
+    },
+    {
+      "name": "Crown of Fell Bowers",
+      "ability": {
+        "name": "Crown of Fell Bowers",
+        "type": "passive",
+        "effect": "Roll a dice. On 3+, add 1 to wound rolls for combat attacks made by friendly **^^Sylvaneth^^** units that target that enemy unit this phase.",
+        "phase": "combat",
+        "declare": "Pick an enemy unit in combat with this unit to be the target.",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    },
+    {
+      "name": "Greenwood Gladius",
+      "ability": {
+        "name": "Greenwood Gladius",
+        "type": "passive",
+        "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+        "phase": "combat",
+        "declare": "Pick an enemy unit in combat with this unit to be the target.",
+        "color": "Red",
+        "abilityCategory": "Offensive"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}

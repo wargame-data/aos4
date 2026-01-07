@@ -1,0 +1,46 @@
+{
+  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "id": "ingenious-innovations",
+  "name": "Ingenious Innovations",
+  "faction": "kharadron-overlords",
+  "type": "ingenious-innovations",
+  "enhancements": [
+    {
+      "name": "Emberstone Flare",
+      "ability": {
+        "name": "Emberstone Flare",
+        "type": "once-per-battle",
+        "effect": "Remove the target from the battlefield and set it up again wholly within 9\" of this unit and more than 9\" from all enemy units.",
+        "phase": "movement",
+        "declare": "Pick a friendly **^^Kharadron Overlords^^** unit that has **^^Fly^^** and is not in combat to be the target.",
+        "color": "Gray",
+        "abilityCategory": "Movement"
+      }
+    },
+    {
+      "name": "Karst-Bana Aether-Powered Combat Rig",
+      "ability": {
+        "name": "Karst-Bana Aether-Powered Combat Rig",
+        "type": "passive",
+        "effect": "This unit has **^^Ward (5+)^^**. In addition, add 1 to the Attacks characteristic of this unit's melee weapons.",
+        "color": "Red",
+        "abilityCategory": "Special"
+      }
+    },
+    {
+      "name": "Spell in a Bottle",
+      "ability": {
+        "name": "Spell in a Bottle",
+        "type": "once-per-battle",
+        "effect": "This unit can use a **^^Summon^^** ability from the manifestation lore you picked during army composition as if it had **^^Wizard (1)^^**. Instead of making a casting roll for that **^^Summon^^** ability, the casting roll is 7 and cannot be modified. That **^^Summon^^** ability cannot be unbound.",
+        "phase": "hero",
+        "color": "Yellow",
+        "abilityCategory": "Special"
+      }
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-07",
+    "source": "BSData import"
+  }
+}
