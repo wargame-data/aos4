@@ -43,6 +43,8 @@ export const gameFormatSchema = z.enum([
  */
 export const armySchema = z
   .object({
+    /** JSON Schema reference */
+    $schema: z.string().optional(),
     /** Optional name for the army list */
     name: z.string().optional(),
     /** The faction this army belongs to */

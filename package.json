@@ -17,9 +17,12 @@
     "parser:sync": "npm run build && node dist/tools/parser/index.js sync",
     "parser:diff": "npm run build && node dist/tools/parser/index.js diff",
     "parser:list": "npm run build && node dist/tools/parser/index.js list",
+    "army:validate": "npm run build && node dist/tools/army/index.js validate",
     "schema:generate": "node dist/tools/schemas/generate.js",
     "schema:build": "npm run build && npm run schema:generate",
     "test": "npm run build && npm run schema:generate && npm run validate",
+    "test:unit": "vitest run",
+    "test:watch": "vitest",
     "prepublishOnly": "npm run test"
   },
   "bin": {
@@ -54,6 +57,7 @@
     "ora": "^9.0.0",
     "simple-git": "^3.30.0",
     "typescript": "^5.9.3",
+    "vitest": "^4.0.16",
     "xml2js": "^0.6.2",
     "zod-to-json-schema": "^3.24.1"
   }

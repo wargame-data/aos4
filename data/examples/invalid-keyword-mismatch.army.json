@@ -1,0 +1,15 @@
+{
+  "$schema": "https://aos-data.org/schema/army.schema.json",
+  "name": "Invalid - Keyword Mismatch",
+  "faction": "stormcast-eternals",
+  "grandAlliance": "order",
+  "gameFormat": "1000",
+  "regiments": [
+    {
+      "leader": { "unitId": "knight-incantor", "count": 1 },
+      "units": [
+        { "unitId": "liberators", "count": 5 }
+      ]
+    }
+  ]
+}

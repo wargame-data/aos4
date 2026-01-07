@@ -1,0 +1,32 @@
+{
+  "$schema": "https://aos-data.org/schema/army.schema.json",
+  "name": "Invalid - Over Points Limit",
+  "faction": "stormcast-eternals",
+  "grandAlliance": "order",
+  "gameFormat": "1000",
+  "regiments": [
+    {
+      "leader": { "unitId": "lord-celestant", "count": 1 },
+      "units": [
+        { "unitId": "liberators", "count": 5 },
+        { "unitId": "annihilators", "count": 3 },
+        { "unitId": "annihilators", "count": 3 }
+      ]
+    },
+    {
+      "leader": { "unitId": "lord-relictor", "count": 1 },
+      "units": [
+        { "unitId": "liberators", "count": 5 },
+        { "unitId": "annihilators", "count": 3 },
+        { "unitId": "annihilators", "count": 3 }
+      ]
+    },
+    {
+      "leader": { "unitId": "knight-questor", "count": 1 },
+      "units": [
+        { "unitId": "liberators", "count": 5 },
+        { "unitId": "liberators", "count": 5 }
+      ]
+    }
+  ]
+}
