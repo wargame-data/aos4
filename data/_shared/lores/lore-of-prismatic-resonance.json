@@ -30,7 +30,7 @@
         "**^^SPELL^^**",
         "**^^UNLIMITED^^**"
       ],
-      "declare": "Pick a friendly **^^Lumineth Realm-lords Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them that has not been picked to be the target of this ability this battle round to be the target, then make a casting roll of 2D6. Add 1 to the casting value of this spell for each time it has been cast by a friendly **^^Wizard^^** this turn.",
+      "declare": "Pick a friendly **^^Lumineth Realm-lords Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them that has not been picked to be the target of this ability this battle round to be the target, then make a casting roll of 2D6. Add 1 to the casting value of this spell for each time it has been successfully cast by a friendly **^^Wizard^^** this turn.",
       "color": "Yellow",
       "abilityCategory": "Movement"
     },
