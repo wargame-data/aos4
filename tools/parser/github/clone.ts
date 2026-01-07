@@ -4,7 +4,7 @@
  * Clones and updates BSData repositories from GitHub.
  */
 
-import simpleGit, { type SimpleGit } from "simple-git";
+import { simpleGit, type SimpleGit } from "simple-git";
 import { existsSync } from "fs";
 import {
   getRepoCachePath,

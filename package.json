@@ -2,8 +2,16 @@
   "name": "@wargame-data/aos4",
   "version": "0.1.0",
   "description": "Community-maintained Age of Sigmar 4th Edition game data in JSON format",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/src/index.js",
+      "types": "./dist/src/index.d.ts"
+    },
+    "./data/*": "./data/*"
+  },
   "files": [
     "dist",
     "data",

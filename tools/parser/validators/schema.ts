@@ -4,8 +4,12 @@
  * JSON Schema validation for parsed output.
  */
 
-import Ajv from "ajv";
-import addFormats from "ajv-formats";
+import AjvDefault from "ajv";
+import addFormatsDefault from "ajv-formats";
+
+const Ajv = AjvDefault.default ?? AjvDefault;
+const addFormats = addFormatsDefault.default ?? addFormatsDefault;
+type AjvInstance = InstanceType<typeof Ajv>;
 import { readFileSync, existsSync } from "fs";
 import { join } from "path";
 import { glob } from "glob";
@@ -22,7 +26,7 @@ export interface ValidationResult {
 /**
  * Create AJV validator with all schemas loaded
  */
-export function createValidator(): Ajv {
+export function createValidator(): AjvInstance {
   const ajv = new Ajv({
     allErrors: true,
     strict: false,
@@ -47,7 +51,7 @@ export function createValidator(): Ajv {
  * Validate data against a schema
  */
 export function validateAgainstSchema(
-  ajv: Ajv,
+  ajv: AjvInstance,
   schemaId: string,
   data: unknown
 ): ValidationResult {
@@ -80,7 +84,7 @@ export function validateAgainstSchema(
  * Validate a unit
  */
 export function validateUnit(
-  ajv: Ajv,
+  ajv: AjvInstance,
   unit: unknown,
   isHero: boolean
 ): ValidationResult {
@@ -109,7 +113,7 @@ export interface BatchValidationResult {
  * Validate multiple items
  */
 export function validateBatch(
-  ajv: Ajv,
+  ajv: AjvInstance,
   items: Array<{ id: string; data: unknown; schemaId: string }>
 ): BatchValidationResult {
   const result: BatchValidationResult = {

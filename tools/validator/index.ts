@@ -1,8 +1,12 @@
-import Ajv from "ajv";
-import addFormats from "ajv-formats";
+import AjvDefault from "ajv";
+import addFormatsDefault from "ajv-formats";
 import { readFileSync, existsSync } from "fs";
 import { glob } from "glob";
 import { join, dirname, basename } from "path";
+
+const Ajv = AjvDefault.default ?? AjvDefault;
+const addFormats = addFormatsDefault.default ?? addFormatsDefault;
+type AjvInstance = InstanceType<typeof Ajv>;
 
 // Use process.cwd() as root since validator is run from project root
 const ROOT_DIR = process.cwd();
@@ -20,7 +24,7 @@ function loadSchema(schemaPath: string): object {
   return JSON.parse(content);
 }
 
-function createValidator(): Ajv {
+function createValidator(): AjvInstance {
   const ajv = new Ajv({
     allErrors: true,
     strict: false,
@@ -78,7 +82,7 @@ function determineSchemaForFile(filePath: string): string | null {
   return null;
 }
 
-function validateFile(ajv: Ajv, filePath: string): ValidationResult {
+function validateFile(ajv: AjvInstance, filePath: string): ValidationResult {
   const schemaId = determineSchemaForFile(filePath);
 
   if (!schemaId) {
