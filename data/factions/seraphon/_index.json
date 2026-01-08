@@ -27,5 +27,15 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Seraphon Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-celestial-manipulation",
+      "type": "spell"
+    },
+    {
+      "id": "lore-of-primal-jungles",
+      "type": "spell"
+    }
+  ]
 }

@@ -27,5 +27,19 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Skaven Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-ruin",
+      "type": "spell"
+    },
+    {
+      "id": "noxious-prayers",
+      "type": "prayer"
+    },
+    {
+      "id": "manifestations-of-doom",
+      "type": "manifestation"
+    }
+  ]
 }

@@ -27,5 +27,19 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Flesh-eater Courts Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-madness",
+      "type": "spell"
+    },
+    {
+      "id": "rites-of-delusion",
+      "type": "prayer"
+    },
+    {
+      "id": "manifested-insanity",
+      "type": "manifestation"
+    }
+  ]
 }

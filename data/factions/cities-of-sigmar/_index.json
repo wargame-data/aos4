@@ -27,5 +27,15 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Cities of Sigmar Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "spells-of-the-collegiate-arcane",
+      "type": "spell"
+    },
+    {
+      "id": "scriptures-of-sigmar",
+      "type": "prayer"
+    }
+  ]
 }

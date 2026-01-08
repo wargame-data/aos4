@@ -2,12 +2,11 @@ import { z } from "zod";
 import { abilitySchema } from "./ability.schema.js";
 import { idSchema, grandAllianceSchema, loreTypeSchema, metaSchema } from "../base.js";
 
-// Lore reference
+// Lore reference - file path derived from: data/lores/{type}s/{id}.json
 const loreReferenceSchema = z
   .object({
-    name: z.string(),
+    id: idSchema,
     type: loreTypeSchema,
-    file: z.string().optional(),
   })
   .strict();
 

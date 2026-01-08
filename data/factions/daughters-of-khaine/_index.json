@@ -27,5 +27,23 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Daughters of Khaine Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-shadows",
+      "type": "spell"
+    },
+    {
+      "id": "prayers-of-the-khainite-cult",
+      "type": "prayer"
+    },
+    {
+      "id": "bloodshadow-rites",
+      "type": "prayer"
+    },
+    {
+      "id": "manifestations-of-khaine",
+      "type": "manifestation"
+    }
+  ]
 }

@@ -27,5 +27,15 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Nighthaunt Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-the-underworlds",
+      "type": "spell"
+    },
+    {
+      "id": "infernal-sorceries",
+      "type": "manifestation"
+    }
+  ]
 }

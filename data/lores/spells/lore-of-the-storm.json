@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "lore-of-the-storm",
+  "name": "Lore of the Storm",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Lightning Blast",
+      "castingValue": 5,
+      "timing": "Your Hero Phase",
+      "effect": "Inflict D3 mortal damage on the target.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, then pick the closest visible enemy unit to them that has not been picked to be the target of this ability this turn to be the target. If 2 or more visible enemy units are tied to be the closest, you can pick which is the target. Then, make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Starfall",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, pick a visible enemy **^^Infantry^^** or **^^Cavalry^^** unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Thundershock",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Subtract 1 from wound rolls for the target’s attacks until the start of your next turn.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, picka visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    }
+  ]
+}

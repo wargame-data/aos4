@@ -27,5 +27,15 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Sylvaneth Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-the-deepwood",
+      "type": "spell"
+    },
+    {
+      "id": "manifestations-of-the-deepwood",
+      "type": "manifestation"
+    }
+  ]
 }

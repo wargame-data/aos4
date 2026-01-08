@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "lore-of-extravagance",
+  "name": "Lore of Extravagance",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Sadistic Spite",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "The target’s melee weapons have **Crit (Mortal)** instead of **Crit (2 Hits)** for the rest of the battle round.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Hedonites of Slaanesh Wizard^^** to cast this spell, pick a visible friendly **^^Euphoric^^** unit to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Overwhelming Acquiescence",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Add 1 to wound rolls for attacks that target that enemy unit until the start of your next turn.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Hedonites of Slaanesh Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Phantasmagoria",
+      "castingValue": 5,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, each time the target is picked to use a **^^Fight^^** ability, before reactions are used, you can pick a friendly unit in combat with the target. That friendly unit can move 2D3\" after the **^^fight^^** ability has been resolved. It can pass through the combat ranges of enemy units and can end that move in combat.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Hedonites of Slaanesh Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    }
+  ]
+}

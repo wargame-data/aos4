@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "lore-of-the-weird",
+  "name": "Lore of the Weird",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Bash 'Em, Ladz",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "The target’s melee weapons have **Crit (2 Hits)** for the rest of the turn",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Ironjawz Wizard^^** to cast this spell, pick a visible friendly **^^Ironjawz^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Da Great Big Green Hand of Gork",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Remove the target from the battlefield and set it up again wholly within 24\" of the caster and more than 9\" from all enemy units.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Ironjawz Wizard^^** to cast this spell, pick a visible friendly unit wholly within 12\" of them and not in combat to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Mighty 'Eadbutt",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Inflict D3 mortal damage on the target. If the target is a **^^Wizard^^**, inflict 3 mortal damage on the target instead.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Ironjawz Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ]
+}

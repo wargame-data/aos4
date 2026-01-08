@@ -538,21 +538,16 @@ export function validateManifestationLoreFaction(
   const lore = data.lores.get(loreId);
   if (!lore || lore.loreType !== "manifestation") return false;
 
-  // If lore has no factionId, it's a global manifestation lore (available to all)
-  if (!lore.factionId) {
+  // Get the faction data
+  const faction = data.factions.get(factionId);
+  if (!faction) return false;
+
+  // Check if the faction has this lore in its lores array
+  if (faction.lores?.some((ref) => ref.id === loreId && ref.type === "manifestation")) {
     return true;
   }
 
-  // Check if lore's factionId matches the army's faction
-  if (lore.factionId === factionId) {
-    return true;
-  }
-
-  // Check if lore's factionId matches the battle formation
-  // (formation-specific manifestation lores like "manifestation-lore-astral-templars")
-  if (battleFormationId && lore.factionId === battleFormationId) {
-    return true;
-  }
+  // TODO: Consider checking battle formation-specific lores if they become supported
 
   return false;
 }

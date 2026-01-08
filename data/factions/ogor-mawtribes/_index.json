@@ -27,5 +27,15 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Ogor Mawtribes Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-maw-magic",
+      "type": "spell"
+    },
+    {
+      "id": "everwinter-prayers",
+      "type": "prayer"
+    }
+  ]
 }

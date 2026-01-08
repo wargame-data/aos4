@@ -27,5 +27,19 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Ironjawz Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-the-weird",
+      "type": "spell"
+    },
+    {
+      "id": "warbeats",
+      "type": "prayer"
+    },
+    {
+      "id": "manifestations-of-gorkamorka",
+      "type": "manifestation"
+    }
+  ]
 }

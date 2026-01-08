@@ -27,5 +27,19 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Disciples of Tzeentch Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-fate",
+      "type": "spell"
+    },
+    {
+      "id": "lore-of-change",
+      "type": "spell"
+    },
+    {
+      "id": "manifestations-of-tzeentch",
+      "type": "manifestation"
+    }
+  ]
 }

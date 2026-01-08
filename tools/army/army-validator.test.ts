@@ -132,7 +132,6 @@ const factionManifestationLore: Lore = {
   id: "manifestation-lore-test-faction",
   name: "Manifestation Lore: Test Faction",
   loreType: "manifestation",
-  factionId: "test-faction",
   spells: [
     {
       name: "Summon Test Manifestation",
@@ -146,7 +145,6 @@ const formationManifestationLore: Lore = {
   id: "manifestation-lore-vanguard-wing",
   name: "Manifestation Lore: Vanguard Wing",
   loreType: "manifestation",
-  factionId: "vanguard-wing",
   spells: [
     {
       name: "Summon Vanguard Manifestation",
@@ -160,7 +158,6 @@ const otherFactionManifestationLore: Lore = {
   id: "manifestation-lore-other-faction",
   name: "Manifestation Lore: Other Faction",
   loreType: "manifestation",
-  factionId: "other-faction",
   spells: [
     {
       name: "Summon Other Manifestation",

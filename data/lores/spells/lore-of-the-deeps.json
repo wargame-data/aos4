@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "lore-of-the-deeps",
+  "name": "Lore of the Deeps",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Counter-current",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, halve run rolls and charge rolls for the target.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Idoneth Deepkin Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Pressure of the Deep",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Idoneth Deepkin Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Steed of Tides",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Idoneth Deepkin Wizard^^** to cast this spell, pick a visible friendly **^^Idoneth Deepkin^^** unit wholly within 12\" of them and not in combat to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    }
+  ]
+}

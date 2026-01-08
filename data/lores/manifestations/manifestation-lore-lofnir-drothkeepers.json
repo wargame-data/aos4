@@ -1,0 +1,10 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "manifestation-lore-lofnir-drothkeepers",
+  "name": "Manifestation Lore: Lofnir Drothkeepers",
+  "loreType": "manifestation",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  }
+}

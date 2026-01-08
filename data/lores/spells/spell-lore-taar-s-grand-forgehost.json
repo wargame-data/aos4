@@ -1,0 +1,37 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "spell-lore-taar-s-grand-forgehost",
+  "name": "Spell Lore: Taar's Grand Forgehost",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Shackling Curse",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "For the rest of the turn, the target's attacks cannot score critical hits (treat them as regular hits instead).",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Grand Forgehost Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Reinforce Daemonsteel",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, ignore the first damage point allocated to each friendly **^^Helsmiths of Hashut^^** unit in each phase while they are wholly within 12\" of the caster.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Grand Forgehost Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    }
+  ]
+}

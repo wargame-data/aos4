@@ -149,7 +149,6 @@ export function ensureFactionStructure(
   ensureDir(join(factionDir, "units"));
   ensureDir(join(factionDir, "manifestations"));
   ensureDir(join(factionDir, "battle-formations"));
-  ensureDir(join(factionDir, "lores"));
   ensureDir(join(factionDir, "terrain"));
 }
 
@@ -174,38 +173,40 @@ export function writeFactionIndex(
 }
 
 /**
- * Get shared lores directory path
+ * Get central lores directory path
+ * Structure: data/lores/{spells,prayers,manifestations}/
  */
-export function getSharedLoresDir(baseDir?: string): string {
+export function getLoresDir(baseDir?: string): string {
   const dir = baseDir || DATA_DIR;
-  return join(dir, "_shared", "lores");
+  return join(dir, "lores");
 }
 
 /**
- * Ensure shared lores directory exists
+ * Get the subdirectory for a lore type
+ * spell -> spells, prayer -> prayers, manifestation -> manifestations
  */
-export function ensureSharedLoresDir(baseDir?: string): void {
-  ensureDir(getSharedLoresDir(baseDir));
+function getLoreTypeSubdir(loreType: string): string {
+  return `${loreType}s`;
+}
+
+/**
+ * Ensure central lores directory structure exists
+ */
+export function ensureLoresDir(baseDir?: string): void {
+  const loresDir = getLoresDir(baseDir);
+  ensureDir(join(loresDir, "spells"));
+  ensureDir(join(loresDir, "prayers"));
+  ensureDir(join(loresDir, "manifestations"));
 }
 
 /**
  * Determine output path for a lore
- * Shared lores (from Lores.cat) go to _shared/lores/
- * Faction-specific lores go to {faction}/lores/
+ * All lores go to data/lores/{type}s/{id}.json
  */
-export function getLoreOutputPath(
-  lore: Lore,
-  factionId?: string,
-  baseDir?: string
-): string {
-  if (factionId) {
-    // Faction-specific lore
-    const dir = baseDir || FACTIONS_DIR;
-    return join(dir, factionId, "lores", `${lore.id}.json`);
-  } else {
-    // Shared lore (from Lores.cat)
-    return join(getSharedLoresDir(baseDir), `${lore.id}.json`);
-  }
+export function getLoreOutputPath(lore: Lore, baseDir?: string): string {
+  const loresDir = getLoresDir(baseDir);
+  const subdir = getLoreTypeSubdir(lore.loreType);
+  return join(loresDir, subdir, `${lore.id}.json`);
 }
 
 /**
@@ -214,10 +215,9 @@ export function getLoreOutputPath(
 export function writeLore(
   lore: Lore,
   options: WriteOptions = {},
-  factionId?: string,
   baseDir?: string
 ): WriteResult {
-  const path = getLoreOutputPath(lore, factionId, baseDir);
+  const path = getLoreOutputPath(lore, baseDir);
   return writeJson(path, lore, options);
 }
 
@@ -227,10 +227,9 @@ export function writeLore(
 export function writeLores(
   lores: Lore[],
   options: WriteOptions = {},
-  factionId?: string,
   baseDir?: string
 ): WriteResult[] {
-  return lores.map((lore) => writeLore(lore, options, factionId, baseDir));
+  return lores.map((lore) => writeLore(lore, options, baseDir));
 }
 
 /**

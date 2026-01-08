@@ -41,8 +41,6 @@ export const loreSchema = z
     id: idSchema,
     name: z.string(),
     loreType: loreTypeSchema,
-    factionId: idSchema.optional(), // Links lores to specific factions
-    shared: z.boolean().optional(), // Marks lore as available to all factions
     spells: z.array(spellSchema).optional(),
     prayers: z.array(prayerSchema).optional(),
     _meta: metaSchema.optional(),

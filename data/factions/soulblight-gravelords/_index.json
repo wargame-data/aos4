@@ -31,5 +31,15 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Soulblight Gravelords Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-undeath",
+      "type": "spell"
+    },
+    {
+      "id": "manifestations-of-the-grave",
+      "type": "manifestation"
+    }
+  ]
 }

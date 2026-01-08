@@ -17,7 +17,7 @@ import {
   type AbilityColor,
   type AbilityCategory,
 } from "./ability.mapper.js";
-import { SCHEMA_URLS, KEYWORD_TO_FACTION } from "../config.js";
+import { SCHEMA_URLS } from "../config.js";
 
 // Profile type IDs for spells and prayers
 const SPELL_PROFILE_TYPE_ID = "7312-8367-c171-f2ef";
@@ -59,8 +59,6 @@ export interface Lore {
   id: string;
   name: string;
   loreType: "spell" | "prayer" | "manifestation";
-  factionId?: string; // Links lores to specific factions
-  shared?: boolean; // Marks lore as available to all factions
   spells?: Spell[];
   prayers?: Prayer[];
   _meta?: {
@@ -112,53 +110,7 @@ export class LoreMapper extends BaseMapper<LoreMapperInput, Lore> {
       }
     }
 
-    // Determine factionId: use explicit option, or detect from spell/prayer content
-    if (this.options.factionId && this.options.factionId !== "shared") {
-      lore.factionId = this.options.factionId;
-    } else {
-      // Try to detect faction from spell/prayer content
-      const detectedFaction = this.detectFactionFromContent(lore);
-      if (detectedFaction) {
-        lore.factionId = detectedFaction;
-      }
-    }
-
     return lore;
-  }
-
-  /**
-   * Detect faction from spell/prayer content by looking for faction keywords
-   * in the declare and effect text.
-   */
-  private detectFactionFromContent(lore: Lore): string | undefined {
-    const textToSearch: string[] = [];
-
-    // Collect all text from spells
-    if (lore.spells) {
-      for (const spell of lore.spells) {
-        if (spell.declare) textToSearch.push(spell.declare);
-        if (spell.effect) textToSearch.push(spell.effect);
-      }
-    }
-
-    // Collect all text from prayers
-    if (lore.prayers) {
-      for (const prayer of lore.prayers) {
-        if (prayer.declare) textToSearch.push(prayer.declare);
-        if (prayer.effect) textToSearch.push(prayer.effect);
-      }
-    }
-
-    const combinedText = textToSearch.join(" ").toUpperCase();
-
-    // Search for faction keywords in the text
-    for (const [keyword, factionId] of Object.entries(KEYWORD_TO_FACTION)) {
-      if (combinedText.includes(keyword)) {
-        return factionId;
-      }
-    }
-
-    return undefined;
   }
 
   private determineLoreType(group: BSSelectionEntryGroup): Lore["loreType"] {

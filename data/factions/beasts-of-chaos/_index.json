@@ -27,5 +27,15 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Beasts of Chaos Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-the-twisted-wilds",
+      "type": "spell"
+    },
+    {
+      "id": "bestial-manifestations",
+      "type": "manifestation"
+    }
+  ]
 }

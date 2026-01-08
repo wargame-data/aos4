@@ -27,5 +27,15 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Idoneth Deepkin Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-the-deeps",
+      "type": "spell"
+    },
+    {
+      "id": "lore-of-the-abyss",
+      "type": "manifestation"
+    }
+  ]
 }

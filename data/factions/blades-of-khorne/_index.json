@@ -27,5 +27,19 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Blades of Khorne Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "blood-blessings-of-khorne",
+      "type": "prayer"
+    },
+    {
+      "id": "gifts-of-the-blood-god",
+      "type": "prayer"
+    },
+    {
+      "id": "judgements-of-khorne",
+      "type": "manifestation"
+    }
+  ]
 }

@@ -27,5 +27,15 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Helsmiths of Hashut Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-infernal-power",
+      "type": "spell"
+    },
+    {
+      "id": "prayers-of-the-scorched-sect",
+      "type": "prayer"
+    }
+  ]
 }

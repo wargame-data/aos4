@@ -27,5 +27,15 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Slaves to Darkness Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-the-damned",
+      "type": "spell"
+    },
+    {
+      "id": "manifestations-of-malevolence",
+      "type": "manifestation"
+    }
+  ]
 }

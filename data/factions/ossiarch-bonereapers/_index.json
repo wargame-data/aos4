@@ -27,5 +27,19 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Ossiarch Bonereapers Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-ossian-sorcery",
+      "type": "spell"
+    },
+    {
+      "id": "lore-of-necrotheurgy",
+      "type": "spell"
+    },
+    {
+      "id": "horrors-of-the-necropolis",
+      "type": "manifestation"
+    }
+  ]
 }

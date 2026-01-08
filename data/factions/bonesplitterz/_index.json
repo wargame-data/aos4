@@ -27,5 +27,15 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Bonesplitterz Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-the-savage-beast",
+      "type": "spell"
+    },
+    {
+      "id": "prayers-of-the-living-wilds",
+      "type": "prayer"
+    }
+  ]
 }

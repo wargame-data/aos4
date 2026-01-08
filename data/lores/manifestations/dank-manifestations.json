@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "dank-manifestations",
+  "name": "Dank Manifestations",
+  "loreType": "manifestation",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Summon Malevolent Moon",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Malevolent Moon** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Malevolent Moon** on the battlefield, pick a friendly **^^Gloomspite Gitz Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Summon Mork's Mighty Mushroom",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Mork’s Mighty Mushroom** wholly within 12\" of the caster and visible to them.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Mork’s Mighty Mushroom** on the battlefield, pick a friendly **^^Gloomspite Gitz Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Summon Scrapskuttle's Arachnacauldron",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Scrapskuttle’s Arachnacauldron** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Scrapskuttle’s Arachnacauldron** on the battlefield, pick a friendly **^^Gloomspite Gitz Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Summon Scuttletide",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Scuttletide** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Scuttletide** on the battlefield, pick a friendly **^^Gloomspite Gitz Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ]
+}

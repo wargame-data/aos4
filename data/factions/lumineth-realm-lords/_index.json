@@ -27,5 +27,19 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Lumineth Realm-lords Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-hysh",
+      "type": "spell"
+    },
+    {
+      "id": "lore-of-prismatic-resonance",
+      "type": "spell"
+    },
+    {
+      "id": "manifestations-of-hysh",
+      "type": "manifestation"
+    }
+  ]
 }

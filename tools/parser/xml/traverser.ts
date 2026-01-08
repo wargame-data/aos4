@@ -654,6 +654,86 @@ export function extractManifestationLoreNames(catalogue: BSCatalogue): string[] 
 }
 
 /**
+ * Find spell lore groups in a faction catalogue.
+ * These contain the faction-specific spell lores.
+ */
+export function findSpellLoreGroups(catalogue: BSCatalogue): BSSelectionEntryGroup[] {
+  return findSelectionEntryGroups(catalogue, /^Spell Lores$/i);
+}
+
+/**
+ * Find prayer lore groups in a faction catalogue.
+ * These contain the faction-specific prayer lores.
+ */
+export function findPrayerLoreGroups(catalogue: BSCatalogue): BSSelectionEntryGroup[] {
+  return findSelectionEntryGroups(catalogue, /^Prayer Lores$/i);
+}
+
+/**
+ * Extract the names of spell lores that a faction can use.
+ * This looks at the "Spell Lores" selection entry groups and extracts
+ * the names of the selection entries within them.
+ *
+ * For example, a faction might have:
+ * <selectionEntryGroup name="Spell Lores">
+ *   <selectionEntry name="Lore of the Storm">
+ *   ...
+ *
+ * Returns: ["Lore of the Storm"]
+ */
+export function extractSpellLoreNames(catalogue: BSCatalogue): string[] {
+  const loreNames: string[] = [];
+
+  const spellGroups = findSpellLoreGroups(catalogue);
+
+  for (const group of spellGroups) {
+    if (group.selectionEntries) {
+      for (const entry of group.selectionEntries) {
+        const name = entry.$.name;
+        // Skip entries that are just "Spell Lore" or "Spell Lores" (containers)
+        if (name && !name.toLowerCase().match(/^spell\s+lores?$/)) {
+          loreNames.push(name);
+        }
+      }
+    }
+  }
+
+  return loreNames;
+}
+
+/**
+ * Extract the names of prayer lores that a faction can use.
+ * This looks at the "Prayer Lores" selection entry groups and extracts
+ * the names of the selection entries within them.
+ *
+ * For example, a faction might have:
+ * <selectionEntryGroup name="Prayer Lores">
+ *   <selectionEntry name="Prayers of the Stormhosts">
+ *   ...
+ *
+ * Returns: ["Prayers of the Stormhosts"]
+ */
+export function extractPrayerLoreNames(catalogue: BSCatalogue): string[] {
+  const loreNames: string[] = [];
+
+  const prayerGroups = findPrayerLoreGroups(catalogue);
+
+  for (const group of prayerGroups) {
+    if (group.selectionEntries) {
+      for (const entry of group.selectionEntries) {
+        const name = entry.$.name;
+        // Skip entries that are just "Prayer Lore" or "Prayer Lores" (containers)
+        if (name && !name.toLowerCase().match(/^prayer\s+lores?$/)) {
+          loreNames.push(name);
+        }
+      }
+    }
+  }
+
+  return loreNames;
+}
+
+/**
  * Get all selection entries from a selection entry group (including nested groups)
  */
 export function getEntriesFromGroup(group: BSSelectionEntryGroup): BSSelectionEntry[] {

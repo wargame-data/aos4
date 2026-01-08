@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "lore-of-the-twisted-wilds",
+  "name": "Lore of the Twisted Wilds",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Devolve",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn:\n• The target unit has a maximum control score of 1.\n• The target cannot use commands.\n• Each time the target moves, if the caster is on the battlefield, the target must end that move no further from the caster than it was at the start of the move.’",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Beasts of Chaos Wizard^^** to cast this spell, pick a visible enemy non-**^^Hero^^** unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Vicious Stranglethorns",
+      "castingValue": 8,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn:\n• Halve the target’s Move characteristic.\n• Subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.",
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "declare": "Pick a friendly **^^Beasts of Chaos Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Viletide",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Inflict D3 mortal damage on the target. In addition, until the start of your next turn, the target cannot use commands.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Beasts of Chaos Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ]
+}

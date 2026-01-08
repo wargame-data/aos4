@@ -27,5 +27,19 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Fyreslayers Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "zharrgrim-blessings",
+      "type": "prayer"
+    },
+    {
+      "id": "vulkyn-gifts",
+      "type": "prayer"
+    },
+    {
+      "id": "magmic-invocations",
+      "type": "manifestation"
+    }
+  ]
 }

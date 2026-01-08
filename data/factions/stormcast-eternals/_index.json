@@ -31,5 +31,19 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Stormcast Eternals Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-the-storm",
+      "type": "spell"
+    },
+    {
+      "id": "prayers-of-the-stormhosts",
+      "type": "prayer"
+    },
+    {
+      "id": "manifestations-of-the-storm",
+      "type": "manifestation"
+    }
+  ]
 }

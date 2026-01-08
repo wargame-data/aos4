@@ -27,5 +27,15 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Maggotkin of Nurgle Faction Pack"
-  }
+  },
+  "lores": [
+    {
+      "id": "lore-of-malignance",
+      "type": "spell"
+    },
+    {
+      "id": "benedictions-of-sickness",
+      "type": "prayer"
+    }
+  ]
 }

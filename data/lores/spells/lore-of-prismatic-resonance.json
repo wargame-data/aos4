@@ -1,0 +1,51 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "lore-of-prismatic-resonance",
+  "name": "Lore of Prismatic Resonance",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Beacons of Protection",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, ignore the first damage point allocated to friendly non-**^^Monster Lumineth Realm-lords^^** units each phase while they are wholly within 9\" of a friendly **^^Lumineth Realm-lords Wizard^^**. Add 3\" to the range for each additional time this spell has been successfully cast by a friendly **^^Wizard^^** this battle round.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Lumineth Realm-lords Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Beam of Hysh",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Inflict D3+X mortal damage on the target, where X is the number of times, to a maximum of 3, that this spell has previously been successfully cast by a friendly **^^Wizard^^** this turn.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Lumineth Realm-lords Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them that has not been picked to be the target of this ability this battle round to be the target, then make a casting roll of 2D6. Add 1 to the casting value of this spell for each time it has been successfully cast by a friendly **^^Wizard^^** this turn.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Unseen Force",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, the target cannot use **^^Run^^** abilities. In addition, if that enemy unit has already been picked to be the target of this ability this battle round, subtract 1 from hit rolls for the target’s combat attacks.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Lumineth Realm-lords Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    }
+  ]
+}
