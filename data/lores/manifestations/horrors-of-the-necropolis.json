@@ -2,7 +2,7 @@
   "$schema": "https://aos-data.org/schema/lore.schema.json",
   "id": "horrors-of-the-necropolis",
   "name": "Horrors of the Necropolis",
-  "loreType": "spell",
+  "loreType": "manifestation",
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "BSData import"

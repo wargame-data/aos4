@@ -116,10 +116,18 @@ export class LoreMapper extends BaseMapper<LoreMapperInput, Lore> {
   }
 
   private determineLoreType(group: BSSelectionEntryGroup): Lore["loreType"] {
-    // Primary: Check profile types in the entries
+    // Check for prayers first
     if (this.hasPrayerProfiles(group)) {
       return "prayer";
     }
+
+    // Manifestation lores have entryLinks (references to endless spell models)
+    // in addition to spell profiles for summoning
+    if (group.entryLinks && group.entryLinks.length > 0) {
+      return "manifestation";
+    }
+
+    // Regular spell lore
     if (this.hasSpellProfiles(group)) {
       return "spell";
     }

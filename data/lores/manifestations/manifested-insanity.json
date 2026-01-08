@@ -2,7 +2,7 @@
   "$schema": "https://aos-data.org/schema/lore.schema.json",
   "id": "manifested-insanity",
   "name": "Manifested Insanity",
-  "loreType": "spell",
+  "loreType": "manifestation",
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "BSData import"
