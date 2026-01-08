@@ -39,7 +39,7 @@ export const gameFormatSchema = z.enum([
 
 /**
  * Schema for a complete army list.
- * An army consists of 1-5 regiments, optional auxiliary units, and enhancements.
+ * An army consists of 0-5 regiments, optional auxiliary units, and enhancements.
  */
 export const armySchema = z
   .object({
@@ -53,8 +53,10 @@ export const armySchema = z
     grandAlliance: grandAllianceSchema,
     /** Optional battle formation (subfaction) selection */
     battleFormation: idSchema.optional(),
-    /** 1-5 regiments in the army */
-    regiments: z.array(regimentSchema).min(1).max(5),
+    /** The hero designated as the army general (optional - defaults to first regiment leader) */
+    generalHeroId: idSchema.optional(),
+    /** 0-5 regiments in the army */
+    regiments: z.array(regimentSchema).max(5),
     /** Auxiliary units (outside of regiments) */
     auxiliary: z.array(unitSelectionSchema).optional(),
     /** Enhancement selections */
@@ -63,6 +65,10 @@ export const armySchema = z
     factionTerrain: idSchema.optional(),
     /** Selected manifestation lore ID (optional, faction must have access) */
     manifestationLore: idSchema.optional(),
+    /** Selected spell lore ID (army-wide, optional) */
+    spellLore: idSchema.optional(),
+    /** Selected prayer lore ID (army-wide, optional) */
+    prayerLore: idSchema.optional(),
     /** Game format determining points limit */
     gameFormat: gameFormatSchema.optional(),
     /** Selected battle tactic card IDs (typically 2 cards) */

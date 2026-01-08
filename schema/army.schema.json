@@ -28,6 +28,10 @@
       "type": "string",
       "pattern": "^[a-z0-9-]+$"
     },
+    "generalHeroId": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
     "regiments": {
       "type": "array",
       "items": {
@@ -89,7 +93,6 @@
         ],
         "additionalProperties": false
       },
-      "minItems": 1,
       "maxItems": 5
     },
     "auxiliary": {
@@ -169,6 +172,14 @@
       "pattern": "^[a-z0-9-]+$"
     },
     "manifestationLore": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "spellLore": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "prayerLore": {
       "type": "string",
       "pattern": "^[a-z0-9-]+$"
     },
