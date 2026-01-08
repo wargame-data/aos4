@@ -41,6 +41,8 @@ export const loreSchema = z
     id: idSchema,
     name: z.string(),
     loreType: loreTypeSchema,
+    shared: z.boolean().optional(),
+    factionId: idSchema.optional(),
     spells: z.array(spellSchema).optional(),
     prayers: z.array(prayerSchema).optional(),
     _meta: metaSchema.optional(),

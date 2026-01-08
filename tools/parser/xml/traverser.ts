@@ -1111,3 +1111,118 @@ export function findEnhancementGroups(catalogue: BSCatalogue): BSSelectionEntryG
 
   return groups;
 }
+
+/**
+ * Result of finding a universal manifestation lore
+ */
+export interface UniversalManifestationLore {
+  name: string;
+  id: string;
+  spellEntries: BSSelectionEntry[];
+}
+
+/**
+ * Resolve a selection entry group by ID from shared or direct groups
+ */
+function resolveSelectionEntryGroupById(
+  catalogue: BSCatalogue,
+  targetId: string
+): BSSelectionEntryGroup | null {
+  // Check shared selection entry groups
+  if (catalogue.sharedSelectionEntryGroups) {
+    for (const group of catalogue.sharedSelectionEntryGroups) {
+      if (group.$ && group.$.id === targetId) {
+        return group;
+      }
+      // Check nested groups
+      if (group.selectionEntryGroups) {
+        for (const nested of group.selectionEntryGroups) {
+          if (nested.$ && nested.$.id === targetId) {
+            return nested;
+          }
+        }
+      }
+    }
+  }
+
+  // Check direct selection entry groups
+  if (catalogue.selectionEntryGroups) {
+    for (const group of catalogue.selectionEntryGroups) {
+      if (group.$ && group.$.id === targetId) {
+        return group;
+      }
+      // Check nested groups
+      if (group.selectionEntryGroups) {
+        for (const nested of group.selectionEntryGroups) {
+          if (nested.$ && nested.$.id === targetId) {
+            return nested;
+          }
+        }
+      }
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Find universal manifestation lores in Lores.cat.
+ * These are the endless spells and incarnates available to all factions.
+ *
+ * Structure in BSData:
+ * <selectionEntryGroup name="Manifestation Lores">
+ *   <selectionEntry name="Aetherwrought Machineries">
+ *     <entryLink targetId="3418-..."/> <- points to group with spells
+ *   </selectionEntry>
+ *   ...
+ * </selectionEntryGroup>
+ *
+ * The target group contains selectionEntries with spell profiles.
+ */
+export function findUniversalManifestationLores(
+  catalogue: BSCatalogue
+): UniversalManifestationLore[] {
+  const result: UniversalManifestationLore[] = [];
+
+  // Find the "Manifestation Lores" top-level group
+  const manifestationLoresGroups = findSelectionEntryGroups(catalogue, /^Manifestation Lores$/i);
+
+  for (const loresGroup of manifestationLoresGroups) {
+    // Each selectionEntry in this group is a universal manifestation lore
+    if (!loresGroup.selectionEntries) continue;
+
+    for (const entry of loresGroup.selectionEntries) {
+      if (!entry.$ || !entry.$.name) continue;
+
+      const loreName = entry.$.name;
+      const loreId = entry.$.id;
+
+      // Find the entryLink that points to the actual spells group
+      let spellEntries: BSSelectionEntry[] = [];
+
+      if (entry.entryLinks) {
+        for (const link of entry.entryLinks) {
+          if (link.$ && link.$.targetId && link.$.type === "selectionEntryGroup") {
+            // Resolve the target group
+            const targetGroup = resolveSelectionEntryGroupById(catalogue, link.$.targetId);
+            if (targetGroup && targetGroup.selectionEntries) {
+              // These are the spell entries (e.g., "Summon Aethervoid Pendulum")
+              spellEntries.push(...targetGroup.selectionEntries);
+            }
+          }
+        }
+      }
+
+      // Only include if we found spell entries
+      if (spellEntries.length > 0) {
+        result.push({
+          name: loreName,
+          id: loreId,
+          spellEntries,
+        });
+      }
+    }
+  }
+
+  return result;
+}

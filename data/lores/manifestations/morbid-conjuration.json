@@ -1,0 +1,65 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "morbid-conjuration",
+  "name": "Morbid Conjuration",
+  "loreType": "manifestation",
+  "shared": true,
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "❖ Lores"
+  },
+  "spells": [
+    {
+      "name": "Summon Purple Sun of Shyish",
+      "castingValue": 8,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Purple Sun of Shyish** endless spell wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+      "keywords": [
+        "SPELL",
+        "SUMMON"
+      ],
+      "declare": "If there is not a friendly **Purple Sun of Shyish** endless spell on the battlefield, pick a friendly **^^Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Summon Malevolent Maelstrom",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a a **Malevolent Maelstrom** endless spell wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+      "keywords": [
+        "SPELL",
+        "SUMMON"
+      ],
+      "declare": "If there is not a friendly a **Malevolent Maelstrom** endless spell on the battlefield, pick a friendly **^^Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Summon Soulsnare Shackles",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Soulsnare Shackles** endless spell wholly within 18\" of the caster and visible to them. A **Soulsnare Shackles** endless spell has 3 parts that must each be set up within 3\" of at least 1 other part.",
+      "keywords": [
+        "SPELL",
+        "SUMMON"
+      ],
+      "declare": "If there is not a friendly **Soulsnare Shackles** endless spell on the battlefield, pick a friendly **^^Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Summon Suffocating Gravetide",
+      "castingValue": 8,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Suffocating Gravetide** endless spell wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+      "keywords": [
+        "SPELL",
+        "SUMMON"
+      ],
+      "declare": "If there is not a friendly **Suffocating Gravetide** endless spell on the battlefield, pick a friendly **^^Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ]
+}

@@ -235,6 +235,36 @@
       "id": "infernal-sorceries",
       "name": "Infernal Sorceries",
       "file": "/lores/manifestations/infernal-sorceries.json"
+    },
+    {
+      "id": "aetherwrought-machineries",
+      "name": "Aetherwrought Machineries",
+      "file": "/lores/manifestations/aetherwrought-machineries.json"
+    },
+    {
+      "id": "forbidden-power",
+      "name": "Forbidden Power",
+      "file": "/lores/manifestations/forbidden-power.json"
+    },
+    {
+      "id": "krondspine-incarnate",
+      "name": "Krondspine Incarnate",
+      "file": "/lores/manifestations/krondspine-incarnate.json"
+    },
+    {
+      "id": "morbid-conjuration",
+      "name": "Morbid Conjuration",
+      "file": "/lores/manifestations/morbid-conjuration.json"
+    },
+    {
+      "id": "twilit-sorceries",
+      "name": "Twilit Sorceries",
+      "file": "/lores/manifestations/twilit-sorceries.json"
+    },
+    {
+      "id": "primal-energy",
+      "name": "Primal Energy",
+      "file": "/lores/manifestations/primal-energy.json"
     }
   ],
   "regimentsOfRenown": [

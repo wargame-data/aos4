@@ -136,6 +136,17 @@ export const SCHEMA_URLS = {
   lore: "https://aos-data.org/schema/lore.schema.json",
 };
 
+// Universal manifestation lores (available to all factions)
+// These are endless spells and incarnates that any army can use
+export const UNIVERSAL_MANIFESTATION_LORES = [
+  { id: "aetherwrought-machineries", name: "Aetherwrought Machineries" },
+  { id: "forbidden-power", name: "Forbidden Power" },
+  { id: "krondspine-incarnate", name: "Krondspine Incarnate" },
+  { id: "morbid-conjuration", name: "Morbid Conjuration" },
+  { id: "twilit-sorceries", name: "Twilit Sorceries" },
+  { id: "primal-energy", name: "Primal Energy" },
+];
+
 /**
  * Get faction ID from catalogue name or filename
  * Strips " - Library" suffix and normalizes to kebab-case

@@ -12,7 +12,7 @@ import type {
 } from "../xml/types.js";
 import { BaseMapper, type MapperOptions } from "./base.js";
 import { findCharacteristic, findAttribute } from "../xml/reader.js";
-import { findLoreGroups } from "../xml/traverser.js";
+import { findLoreGroups, findUniversalManifestationLores, type UniversalManifestationLore } from "../xml/traverser.js";
 import {
   type AbilityColor,
   type AbilityCategory,
@@ -59,6 +59,8 @@ export interface Lore {
   id: string;
   name: string;
   loreType: "spell" | "prayer" | "manifestation";
+  shared?: boolean;
+  factionId?: string;
   spells?: Spell[];
   prayers?: Prayer[];
   _meta?: {
@@ -404,4 +406,144 @@ export function mapLores(
   return loreGroups.map((group) =>
     mapper.map({ group, catalogue })
   );
+}
+
+/**
+ * Map universal manifestation lores from Lores.cat
+ * These are the endless spells and incarnates available to all factions.
+ */
+export function mapUniversalManifestationLores(
+  catalogue: BSCatalogue,
+  options: MapperOptions
+): Lore[] {
+  const universalLores = findUniversalManifestationLores(catalogue);
+  const mapper = new LoreMapper(options);
+
+  return universalLores.map((ulore) => {
+    const lore: Lore = {
+      $schema: SCHEMA_URLS.lore,
+      id: toKebabCase(ulore.name),
+      name: ulore.name,
+      loreType: "manifestation",
+      shared: true,
+      _meta: {
+        lastUpdated: new Date().toISOString().split("T")[0],
+        source: options.catalogueName || "Lores.cat",
+      },
+    };
+
+    // Extract spells from the spell entries
+    const spells: Spell[] = [];
+    for (const entry of ulore.spellEntries) {
+      if (entry.profiles) {
+        for (const profile of entry.profiles) {
+          // Check if this is a spell profile
+          const isSpell =
+            profile.$.typeId === SPELL_PROFILE_TYPE_ID ||
+            profile.$.typeName?.toLowerCase().includes("spell");
+
+          if (isSpell) {
+            const spell = mapSpellProfile(profile, mapper);
+            if (spell) {
+              spells.push(spell);
+            }
+          }
+        }
+      }
+    }
+
+    if (spells.length > 0) {
+      lore.spells = spells;
+    }
+
+    return lore;
+  });
+}
+
+/**
+ * Helper to map a spell profile (extracted for reuse)
+ */
+function mapSpellProfile(profile: BSProfile, mapper: LoreMapper): Spell | null {
+  const effect = findCharacteristic(profile, "Effect");
+  if (!effect) {
+    return null;
+  }
+
+  const castingValueStr = findCharacteristic(profile, "Casting Value");
+  const castingValue = castingValueStr ? parseInt(castingValueStr, 10) : 0;
+
+  const spell: Spell = {
+    name: profile.$.name,
+    castingValue: castingValue || 5,
+    timing: findCharacteristic(profile, "Timing") || "Your Hero Phase",
+    effect,
+    keywords: extractSpellKeywords(profile),
+  };
+
+  const declare = findCharacteristic(profile, "Declare");
+  if (declare && declare !== "-" && declare.trim() !== "") {
+    spell.declare = declare;
+  }
+
+  const color = extractSpellColor(profile);
+  if (color) {
+    spell.color = color;
+  }
+
+  const category = extractSpellCategory(profile);
+  if (category) {
+    spell.abilityCategory = category;
+  }
+
+  return spell;
+}
+
+function extractSpellKeywords(profile: BSProfile): string[] {
+  const keywords = findCharacteristic(profile, "Keywords");
+  if (!keywords || keywords === "-" || keywords.trim() === "") {
+    return [];
+  }
+
+  return keywords
+    .split(/[,;\n]+/)
+    .map((k) => k.trim().toUpperCase().replace(/\*+/g, "").replace(/\^+/g, ""))
+    .filter((k) => k.length > 0 && k !== "-");
+}
+
+function extractSpellColor(profile: BSProfile): AbilityColor | undefined {
+  const color = findAttribute(profile, "Color");
+  if (!color) return undefined;
+
+  const validColors: AbilityColor[] = [
+    "Black", "Blue", "Gray", "Green", "Orange", "Purple", "Red", "Yellow",
+  ];
+
+  const normalized = color === "Grey" ? "Gray" : color;
+  if (validColors.includes(normalized as AbilityColor)) {
+    return normalized as AbilityColor;
+  }
+
+  return undefined;
+}
+
+function extractSpellCategory(profile: BSProfile): AbilityCategory | undefined {
+  const category = findAttribute(profile, "Type") || findAttribute(profile, "Parent Node");
+  if (!category) return undefined;
+
+  const validCategories: AbilityCategory[] = [
+    "Offensive", "Defensive", "Movement", "Control", "Special", "Rallying", "Shooting",
+  ];
+
+  if (validCategories.includes(category as AbilityCategory)) {
+    return category as AbilityCategory;
+  }
+
+  return undefined;
+}
+
+function toKebabCase(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
 }

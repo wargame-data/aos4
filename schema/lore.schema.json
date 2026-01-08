@@ -23,6 +23,13 @@
         "manifestation"
       ]
     },
+    "shared": {
+      "type": "boolean"
+    },
+    "factionId": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
     "spells": {
       "type": "array",
       "items": {

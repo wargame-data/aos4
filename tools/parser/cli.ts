@@ -48,7 +48,7 @@ import {
   writeBloodTitheAbilities,
   writeFactionIndex,
 } from "./output/writer.js";
-import { mapLores, type Lore } from "./mappers/lore.mapper.js";
+import { mapLores, mapUniversalManifestationLores, type Lore } from "./mappers/lore.mapper.js";
 import {
   generateBatchPatches,
   formatPatchSummary,
@@ -63,6 +63,7 @@ import {
   shouldSkipCatalogue,
   SCHEMA_URLS,
   KEYWORD_TO_FACTION,
+  UNIVERSAL_MANIFESTATION_LORES,
 } from "./config.js";
 
 /**
@@ -684,10 +685,15 @@ async function parseLores(
       catalogueName: catalogue.$.name,
     };
 
-    const lores = mapLores(catalogue, mapperOptions);
-    log.info(`  Found ${lores.length} lores`);
+    // Parse faction-specific lores
+    const factionLores = mapLores(catalogue, mapperOptions);
+    log.info(`  Found ${factionLores.length} faction-specific lores`);
 
-    return lores;
+    // Parse universal manifestation lores (endless spells available to all factions)
+    const universalLores = mapUniversalManifestationLores(catalogue, mapperOptions);
+    log.info(`  Found ${universalLores.length} universal manifestation lores`);
+
+    return [...factionLores, ...universalLores];
   } catch (error) {
     log.error(`Failed to parse Lores.cat: ${error}`);
     if (options.strict) {
@@ -1019,6 +1025,11 @@ async function writeResults(
       for (const loreName of result.manifestationLoreNames) {
         const loreId = toKebabCase(loreName);
         loreRefs.push({ id: loreId, name: loreName, file: `/lores/manifestations/${loreId}.json` });
+      }
+
+      // Add universal manifestation lores (available to all factions)
+      for (const { id, name } of UNIVERSAL_MANIFESTATION_LORES) {
+        loreRefs.push({ id, name, file: `/lores/manifestations/${id}.json` });
       }
 
       // Build unit and hero references (unified: id, name, file)
