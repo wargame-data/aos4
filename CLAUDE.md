@@ -15,6 +15,9 @@ npm run build
 # Validate all JSON data files against schemas
 npm run validate
 
+# Validate an army list JSON file
+npm run army:validate
+
 # Build + generate schemas + validate (full test)
 npm test
 
@@ -32,6 +35,12 @@ npm run parser:diff
 
 # Generate JSON Schema files from Zod schemas
 npm run schema:build
+
+# Run unit tests
+npm run test:unit
+
+# Run unit tests in watch mode
+npm run test:watch
 ```
 
 ## Architecture
@@ -45,7 +54,9 @@ BSData XML (`*.cat`, `*.gst`) → Parser → JSON files in `data/` → Validated
 - `tools/schemas/` - Zod schemas that generate JSON Schema files
 - `schema/` - Generated JSON Schema files (do not edit directly)
 - `data/factions/` - Output JSON files organized by faction
-- `data/shared/` - Cross-faction data (lores, regiments of renown)
+- `data/lores/` - Spell and prayer lores (shared across factions)
+- `data/regiments-of-renown/` - Regiments of Renown (cross-faction mercenary units)
+- `data/battle-tactics/` - Battle Tactic Cards (matched play objectives)
 - `.cache/bsdata/` - Cached BSData repository clone
 
 ### Parser Components
@@ -58,7 +69,12 @@ BSData XML (`*.cat`, `*.gst`) → Parser → JSON files in `data/` → Validated
 ### Schema System
 Schemas are defined in Zod (`tools/schemas/schemas/*.schema.ts`) and exported from `tools/schemas/index.ts`. Running `npm run schema:build` generates JSON Schema files in `schema/`.
 
-Key entity types: Unit, Hero, Manifestation, BattleFormation, Enhancement, RegimentOfRenown, Lore, Faction
+Key entity types: Unit, Hero, Manifestation, BattleFormation, Enhancement, RegimentOfRenown, Lore, Faction, BattleTacticCard
+
+### Mapper Pattern
+All mappers extend `BaseMapper` which provides:
+- `strict` mode - throws on unmapped data (useful for debugging parser issues)
+- `recordUnmapped()` - tracks data that couldn't be parsed for reporting
 
 ### Validation
 The validator (`tools/validator/`) uses directory path to determine schema:

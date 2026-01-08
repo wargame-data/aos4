@@ -544,7 +544,11 @@ export function validateManifestationLoreFaction(
     return true;
   }
 
-  // TODO: Consider checking battle formation-specific lores if they become supported
+  // Check for battle formation-specific lores
+  // Formation-specific lores have IDs ending with the battle formation ID (e.g., "manifestation-lore-vanguard-wing")
+  if (battleFormationId && loreId.endsWith(battleFormationId)) {
+    return true;
+  }
 
   return false;
 }

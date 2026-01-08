@@ -26,6 +26,10 @@ const testFaction: Faction = {
   id: "test-faction",
   name: "Test Faction",
   grandAlliance: "order",
+  lores: [
+    { id: "manifestations-of-the-storm", name: "Manifestations of the Storm", file: "data/lores/manifestations/manifestations-of-the-storm.json" },
+    { id: "manifestation-lore-test-faction", name: "Manifestation Lore: Test Faction", file: "data/lores/manifestations/manifestation-lore-test-faction.json" },
+  ],
 };
 
 const testLordCelestant: Hero = {
