@@ -1,7 +1,5 @@
 # aos4
 
-Community-maintained Age of Sigmar 4th Edition game data in JSON format.
-
 ## Overview
 
 **aos4** provides clean, structured, and version-controlled game data for Age of Sigmar 4th Edition. It's designed to help developers build army list builders, stat trackers, and other hobby tools.
@@ -78,10 +76,6 @@ aos4/
 }
 ```
 
-## Contributing
-
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
 ### Quick Start for Contributors
 
 1. Fork the repository
@@ -108,7 +102,6 @@ npm test
 ## License
 
 - **Code:** MIT License
-- **Data:** Community contributed, see individual files
 
 ## Disclaimer
 
