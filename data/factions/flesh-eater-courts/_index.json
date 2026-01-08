@@ -33,40 +33,160 @@
     "source": "Flesh-eater Courts Faction Pack"
   },
   "units": [
-    "cryptguard",
-    "morbheg-knights",
-    "varghulf-courtier",
-    "crypt-horrors",
-    "crypt-flayers",
-    "crypt-ghouls",
-    "royal-zombie-dragon",
-    "royal-terrorgheist",
-    "royal-beastflayers",
-    "charnel-throne",
-    "the-skinnerkin",
-    "the-grymwatch"
+    {
+      "id": "cryptguard",
+      "name": "Cryptguard",
+      "file": "units/cryptguard.json"
+    },
+    {
+      "id": "morbheg-knights",
+      "name": "Morbheg Knights",
+      "file": "units/morbheg-knights.json"
+    },
+    {
+      "id": "varghulf-courtier",
+      "name": "Varghulf Courtier",
+      "file": "units/varghulf-courtier.json"
+    },
+    {
+      "id": "crypt-horrors",
+      "name": "Crypt Horrors",
+      "file": "units/crypt-horrors.json"
+    },
+    {
+      "id": "crypt-flayers",
+      "name": "Crypt Flayers",
+      "file": "units/crypt-flayers.json"
+    },
+    {
+      "id": "crypt-ghouls",
+      "name": "Crypt Ghouls",
+      "file": "units/crypt-ghouls.json"
+    },
+    {
+      "id": "royal-zombie-dragon",
+      "name": "Royal Zombie Dragon",
+      "file": "units/royal-zombie-dragon.json"
+    },
+    {
+      "id": "royal-terrorgheist",
+      "name": "Royal Terrorgheist",
+      "file": "units/royal-terrorgheist.json"
+    },
+    {
+      "id": "royal-beastflayers",
+      "name": "Royal Beastflayers",
+      "file": "units/royal-beastflayers.json"
+    },
+    {
+      "id": "charnel-throne",
+      "name": "Charnel Throne",
+      "file": "units/charnel-throne.json"
+    },
+    {
+      "id": "the-skinnerkin",
+      "name": "The Skinnerkin",
+      "file": "units/the-skinnerkin.json"
+    },
+    {
+      "id": "the-grymwatch",
+      "name": "The Grymwatch",
+      "file": "units/the-grymwatch.json"
+    }
   ],
   "heroes": [
-    "nagash-supreme-lord-of-the-undead",
-    "grand-justice-gormayne",
-    "abhorrant-ghoul-king-on-royal-zombie-dragon",
-    "abhorrant-ghoul-king-on-royal-terrorgheist",
-    "ushoran-mortarch-of-delusion",
-    "abhorrant-cardinal",
-    "abhorrant-gorewarden",
-    "marrowscroll-herald",
-    "crypt-infernal-courtier",
-    "abhorrant-archregent",
-    "abhorrant-ghoul-king",
-    "crypt-haunter-courtier",
-    "royal-decapitator",
-    "crypt-ghast-courtier",
-    "abhorrant-ghoul-king-scourge-of-ghyran",
-    "abhorrant-gorewarden-scourge-of-ghyran",
-    "high-falconer-felgryn"
+    {
+      "id": "nagash-supreme-lord-of-the-undead",
+      "name": "Nagash, Supreme Lord of the Undead",
+      "file": "heroes/nagash-supreme-lord-of-the-undead.json"
+    },
+    {
+      "id": "grand-justice-gormayne",
+      "name": "Grand Justice Gormayne",
+      "file": "heroes/grand-justice-gormayne.json"
+    },
+    {
+      "id": "abhorrant-ghoul-king-on-royal-zombie-dragon",
+      "name": "Abhorrant Ghoul King on Royal Zombie Dragon",
+      "file": "heroes/abhorrant-ghoul-king-on-royal-zombie-dragon.json"
+    },
+    {
+      "id": "abhorrant-ghoul-king-on-royal-terrorgheist",
+      "name": "Abhorrant Ghoul King on Royal Terrorgheist",
+      "file": "heroes/abhorrant-ghoul-king-on-royal-terrorgheist.json"
+    },
+    {
+      "id": "ushoran-mortarch-of-delusion",
+      "name": "Ushoran, Mortarch of Delusion",
+      "file": "heroes/ushoran-mortarch-of-delusion.json"
+    },
+    {
+      "id": "abhorrant-cardinal",
+      "name": "Abhorrant Cardinal",
+      "file": "heroes/abhorrant-cardinal.json"
+    },
+    {
+      "id": "abhorrant-gorewarden",
+      "name": "Abhorrant Gorewarden",
+      "file": "heroes/abhorrant-gorewarden.json"
+    },
+    {
+      "id": "marrowscroll-herald",
+      "name": "Marrowscroll Herald",
+      "file": "heroes/marrowscroll-herald.json"
+    },
+    {
+      "id": "crypt-infernal-courtier",
+      "name": "Crypt Infernal Courtier",
+      "file": "heroes/crypt-infernal-courtier.json"
+    },
+    {
+      "id": "abhorrant-archregent",
+      "name": "Abhorrant Archregent",
+      "file": "heroes/abhorrant-archregent.json"
+    },
+    {
+      "id": "abhorrant-ghoul-king",
+      "name": "Abhorrant Ghoul King",
+      "file": "heroes/abhorrant-ghoul-king.json"
+    },
+    {
+      "id": "crypt-haunter-courtier",
+      "name": "Crypt Haunter Courtier",
+      "file": "heroes/crypt-haunter-courtier.json"
+    },
+    {
+      "id": "royal-decapitator",
+      "name": "Royal Decapitator",
+      "file": "heroes/royal-decapitator.json"
+    },
+    {
+      "id": "crypt-ghast-courtier",
+      "name": "Crypt Ghast Courtier",
+      "file": "heroes/crypt-ghast-courtier.json"
+    },
+    {
+      "id": "abhorrant-ghoul-king-scourge-of-ghyran",
+      "name": "Abhorrant Ghoul King (Scourge of Ghyran)",
+      "file": "heroes/abhorrant-ghoul-king-scourge-of-ghyran.json"
+    },
+    {
+      "id": "abhorrant-gorewarden-scourge-of-ghyran",
+      "name": "Abhorrant Gorewarden (Scourge of Ghyran)",
+      "file": "heroes/abhorrant-gorewarden-scourge-of-ghyran.json"
+    },
+    {
+      "id": "high-falconer-felgryn",
+      "name": "High Falconer Felgryn",
+      "file": "heroes/high-falconer-felgryn.json"
+    }
   ],
   "terrain": [
-    "charnel-throne"
+    {
+      "id": "charnel-throne",
+      "name": "Charnel Throne",
+      "file": "terrain/charnel-throne.json"
+    }
   ],
   "enhancements": [
     {

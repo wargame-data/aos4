@@ -210,22 +210,73 @@
     "units": {
       "type": "array",
       "items": {
-        "type": "string",
-        "pattern": "^[a-z0-9-]+$"
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "file": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "file"
+        ],
+        "additionalProperties": false
       }
     },
     "heroes": {
       "type": "array",
       "items": {
-        "type": "string",
-        "pattern": "^[a-z0-9-]+$"
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "file": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "file"
+        ],
+        "additionalProperties": false
       }
     },
     "terrain": {
       "type": "array",
       "items": {
-        "type": "string",
-        "pattern": "^[a-z0-9-]+$"
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "file": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "file"
+        ],
+        "additionalProperties": false
       }
     },
     "lores": {

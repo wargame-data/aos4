@@ -33,58 +33,250 @@
     "source": "Skaven Faction Pack"
   },
   "units": [
-    "stormfiends",
-    "plagueclaw",
-    "warplock-jezzails",
-    "ratling-warpblaster",
-    "warpfire-throwers",
-    "rat-ogors",
-    "doom-flayers",
-    "ratling-guns",
-    "doomwheel",
-    "acolyte-globadiers",
-    "hell-pit-abomination",
-    "plague-monks",
-    "clanrats",
-    "stormvermin",
-    "warp-lightning-cannon",
-    "night-runners",
-    "gnawhole",
-    "plague-censer-bearers",
-    "gutter-runners",
-    "skabbiks-plaguepack",
-    "skittershanks-clawpack",
-    "spiteclaws-swarm",
-    "brood-terror",
-    "plaguepack",
-    "warp-grinder",
-    "warpvolt-scourgers",
-    "zikkits-tunnelpack"
+    {
+      "id": "stormfiends",
+      "name": "Stormfiends",
+      "file": "units/stormfiends.json"
+    },
+    {
+      "id": "plagueclaw",
+      "name": "Plagueclaw",
+      "file": "units/plagueclaw.json"
+    },
+    {
+      "id": "warplock-jezzails",
+      "name": "Warplock Jezzails",
+      "file": "units/warplock-jezzails.json"
+    },
+    {
+      "id": "ratling-warpblaster",
+      "name": "Ratling Warpblaster",
+      "file": "units/ratling-warpblaster.json"
+    },
+    {
+      "id": "warpfire-throwers",
+      "name": "Warpfire Throwers",
+      "file": "units/warpfire-throwers.json"
+    },
+    {
+      "id": "rat-ogors",
+      "name": "Rat Ogors",
+      "file": "units/rat-ogors.json"
+    },
+    {
+      "id": "doom-flayers",
+      "name": "Doom-flayers",
+      "file": "units/doom-flayers.json"
+    },
+    {
+      "id": "ratling-guns",
+      "name": "Ratling Guns",
+      "file": "units/ratling-guns.json"
+    },
+    {
+      "id": "doomwheel",
+      "name": "Doomwheel",
+      "file": "units/doomwheel.json"
+    },
+    {
+      "id": "acolyte-globadiers",
+      "name": "Acolyte Globadiers",
+      "file": "units/acolyte-globadiers.json"
+    },
+    {
+      "id": "hell-pit-abomination",
+      "name": "Hell Pit Abomination",
+      "file": "units/hell-pit-abomination.json"
+    },
+    {
+      "id": "plague-monks",
+      "name": "Plague Monks",
+      "file": "units/plague-monks.json"
+    },
+    {
+      "id": "clanrats",
+      "name": "Clanrats",
+      "file": "units/clanrats.json"
+    },
+    {
+      "id": "stormvermin",
+      "name": "Stormvermin",
+      "file": "units/stormvermin.json"
+    },
+    {
+      "id": "warp-lightning-cannon",
+      "name": "Warp Lightning Cannon",
+      "file": "units/warp-lightning-cannon.json"
+    },
+    {
+      "id": "night-runners",
+      "name": "Night Runners",
+      "file": "units/night-runners.json"
+    },
+    {
+      "id": "gnawhole",
+      "name": "Gnawhole",
+      "file": "units/gnawhole.json"
+    },
+    {
+      "id": "plague-censer-bearers",
+      "name": "Plague Censer Bearers",
+      "file": "units/plague-censer-bearers.json"
+    },
+    {
+      "id": "gutter-runners",
+      "name": "Gutter Runners",
+      "file": "units/gutter-runners.json"
+    },
+    {
+      "id": "skabbiks-plaguepack",
+      "name": "Skabbik's Plaguepack",
+      "file": "units/skabbiks-plaguepack.json"
+    },
+    {
+      "id": "skittershanks-clawpack",
+      "name": "Skittershank's Clawpack",
+      "file": "units/skittershanks-clawpack.json"
+    },
+    {
+      "id": "spiteclaws-swarm",
+      "name": "Spiteclaw's Swarm",
+      "file": "units/spiteclaws-swarm.json"
+    },
+    {
+      "id": "brood-terror",
+      "name": "Brood Terror",
+      "file": "units/brood-terror.json"
+    },
+    {
+      "id": "plaguepack",
+      "name": "Plaguepack",
+      "file": "units/plaguepack.json"
+    },
+    {
+      "id": "warp-grinder",
+      "name": "Warp-Grinder",
+      "file": "units/warp-grinder.json"
+    },
+    {
+      "id": "warpvolt-scourgers",
+      "name": "Warpvolt Scourgers",
+      "file": "units/warpvolt-scourgers.json"
+    },
+    {
+      "id": "zikkits-tunnelpack",
+      "name": "Zikkit's Tunnelpack",
+      "file": "units/zikkits-tunnelpack.json"
+    }
   ],
   "heroes": [
-    "thanquol-on-boneripper",
-    "lord-skreech-verminking",
-    "verminlord-deceiver",
-    "grey-seer-on-screaming-bell",
-    "verminlord-warbringer",
-    "verminlord-warpseer",
-    "clawlord",
-    "plague-priest",
-    "warlock-engineer",
-    "warlock-bombardier",
-    "arch-warlock",
-    "verminlord-corruptor",
-    "grey-seer",
-    "deathmaster",
-    "master-moulder",
-    "clawlord-on-gnaw-beast",
-    "plague-priest-on-plague-furnace",
-    "krittok-foulblade",
-    "vizzik-skour-prophet-of-the-horned-rat",
-    "warlock-galvaneer"
+    {
+      "id": "thanquol-on-boneripper",
+      "name": "Thanquol on Boneripper",
+      "file": "heroes/thanquol-on-boneripper.json"
+    },
+    {
+      "id": "lord-skreech-verminking",
+      "name": "Lord Skreech Verminking",
+      "file": "heroes/lord-skreech-verminking.json"
+    },
+    {
+      "id": "verminlord-deceiver",
+      "name": "Verminlord Deceiver",
+      "file": "heroes/verminlord-deceiver.json"
+    },
+    {
+      "id": "grey-seer-on-screaming-bell",
+      "name": "Grey Seer on Screaming Bell",
+      "file": "heroes/grey-seer-on-screaming-bell.json"
+    },
+    {
+      "id": "verminlord-warbringer",
+      "name": "Verminlord Warbringer",
+      "file": "heroes/verminlord-warbringer.json"
+    },
+    {
+      "id": "verminlord-warpseer",
+      "name": "Verminlord Warpseer",
+      "file": "heroes/verminlord-warpseer.json"
+    },
+    {
+      "id": "clawlord",
+      "name": "Clawlord",
+      "file": "heroes/clawlord.json"
+    },
+    {
+      "id": "plague-priest",
+      "name": "Plague Priest",
+      "file": "heroes/plague-priest.json"
+    },
+    {
+      "id": "warlock-engineer",
+      "name": "Warlock Engineer",
+      "file": "heroes/warlock-engineer.json"
+    },
+    {
+      "id": "warlock-bombardier",
+      "name": "Warlock Bombardier",
+      "file": "heroes/warlock-bombardier.json"
+    },
+    {
+      "id": "arch-warlock",
+      "name": "Arch-Warlock",
+      "file": "heroes/arch-warlock.json"
+    },
+    {
+      "id": "verminlord-corruptor",
+      "name": "Verminlord Corruptor",
+      "file": "heroes/verminlord-corruptor.json"
+    },
+    {
+      "id": "grey-seer",
+      "name": "Grey Seer",
+      "file": "heroes/grey-seer.json"
+    },
+    {
+      "id": "deathmaster",
+      "name": "Deathmaster",
+      "file": "heroes/deathmaster.json"
+    },
+    {
+      "id": "master-moulder",
+      "name": "Master Moulder",
+      "file": "heroes/master-moulder.json"
+    },
+    {
+      "id": "clawlord-on-gnaw-beast",
+      "name": "Clawlord on Gnaw-beast",
+      "file": "heroes/clawlord-on-gnaw-beast.json"
+    },
+    {
+      "id": "plague-priest-on-plague-furnace",
+      "name": "Plague Priest on Plague Furnace",
+      "file": "heroes/plague-priest-on-plague-furnace.json"
+    },
+    {
+      "id": "krittok-foulblade",
+      "name": "Krittok Foulblade",
+      "file": "heroes/krittok-foulblade.json"
+    },
+    {
+      "id": "vizzik-skour-prophet-of-the-horned-rat",
+      "name": "Vizzik Skour, Prophet of the Horned Rat",
+      "file": "heroes/vizzik-skour-prophet-of-the-horned-rat.json"
+    },
+    {
+      "id": "warlock-galvaneer",
+      "name": "Warlock Galvaneer",
+      "file": "heroes/warlock-galvaneer.json"
+    }
   ],
   "terrain": [
-    "gnawhole"
+    {
+      "id": "gnawhole",
+      "name": "Gnawhole",
+      "file": "terrain/gnawhole.json"
+    }
   ],
   "enhancements": [
     {

@@ -33,59 +33,255 @@
     "source": "Gloomspite Gitz Faction Pack"
   },
   "units": [
-    "dankhold-troggoth",
-    "rockgut-troggoths",
-    "mangler-squigs",
-    "squig-herd",
-    "moonclan-stabbas",
-    "gobbapalooza",
-    "loonsmasha-fanatics",
-    "boingrot-bounderz",
-    "moonclan-shootas",
-    "sporesplatta-fanatics",
-    "spider-riders",
-    "squig-hoppers",
-    "sneaky-snufflers",
-    "fellwater-troggoths",
-    "snarlfang-riders",
-    "arachnarok-spider-with-flinger",
-    "arachnarok-spider-with-spiderfang-warparty",
-    "skitterstrand-arachnarok",
-    "bad-moon-loonshrine",
-    "aleguzzler-gargant",
-    "grinkraks-looncourt",
-    "zarbags-gitz",
-    "rippas-snarlfangs",
-    "doom-diver-catapult",
-    "wolfgit-retinue",
-    "sunsteala-wheelas",
-    "snarlpack-cavalry",
-    "borgits-beastgrabbaz"
+    {
+      "id": "dankhold-troggoth",
+      "name": "Dankhold Troggoth",
+      "file": "units/dankhold-troggoth.json"
+    },
+    {
+      "id": "rockgut-troggoths",
+      "name": "Rockgut Troggoths",
+      "file": "units/rockgut-troggoths.json"
+    },
+    {
+      "id": "mangler-squigs",
+      "name": "Mangler Squigs",
+      "file": "units/mangler-squigs.json"
+    },
+    {
+      "id": "squig-herd",
+      "name": "Squig Herd",
+      "file": "units/squig-herd.json"
+    },
+    {
+      "id": "moonclan-stabbas",
+      "name": "Moonclan Stabbas",
+      "file": "units/moonclan-stabbas.json"
+    },
+    {
+      "id": "gobbapalooza",
+      "name": "Gobbapalooza",
+      "file": "units/gobbapalooza.json"
+    },
+    {
+      "id": "loonsmasha-fanatics",
+      "name": "Loonsmasha Fanatics",
+      "file": "units/loonsmasha-fanatics.json"
+    },
+    {
+      "id": "boingrot-bounderz",
+      "name": "Boingrot Bounderz",
+      "file": "units/boingrot-bounderz.json"
+    },
+    {
+      "id": "moonclan-shootas",
+      "name": "Moonclan Shootas",
+      "file": "units/moonclan-shootas.json"
+    },
+    {
+      "id": "sporesplatta-fanatics",
+      "name": "Sporesplatta Fanatics",
+      "file": "units/sporesplatta-fanatics.json"
+    },
+    {
+      "id": "spider-riders",
+      "name": "Spider Riders",
+      "file": "units/spider-riders.json"
+    },
+    {
+      "id": "squig-hoppers",
+      "name": "Squig Hoppers",
+      "file": "units/squig-hoppers.json"
+    },
+    {
+      "id": "sneaky-snufflers",
+      "name": "Sneaky Snufflers",
+      "file": "units/sneaky-snufflers.json"
+    },
+    {
+      "id": "fellwater-troggoths",
+      "name": "Fellwater Troggoths",
+      "file": "units/fellwater-troggoths.json"
+    },
+    {
+      "id": "snarlfang-riders",
+      "name": "Snarlfang Riders",
+      "file": "units/snarlfang-riders.json"
+    },
+    {
+      "id": "arachnarok-spider-with-flinger",
+      "name": "Arachnarok Spider with Flinger",
+      "file": "units/arachnarok-spider-with-flinger.json"
+    },
+    {
+      "id": "arachnarok-spider-with-spiderfang-warparty",
+      "name": "Arachnarok Spider with Spiderfang Warparty",
+      "file": "units/arachnarok-spider-with-spiderfang-warparty.json"
+    },
+    {
+      "id": "skitterstrand-arachnarok",
+      "name": "Skitterstrand Arachnarok",
+      "file": "units/skitterstrand-arachnarok.json"
+    },
+    {
+      "id": "bad-moon-loonshrine",
+      "name": "Bad Moon Loonshrine",
+      "file": "units/bad-moon-loonshrine.json"
+    },
+    {
+      "id": "aleguzzler-gargant",
+      "name": "Aleguzzler Gargant",
+      "file": "units/aleguzzler-gargant.json"
+    },
+    {
+      "id": "grinkraks-looncourt",
+      "name": "Grinkrak's Looncourt",
+      "file": "units/grinkraks-looncourt.json"
+    },
+    {
+      "id": "zarbags-gitz",
+      "name": "Zarbag's Gitz",
+      "file": "units/zarbags-gitz.json"
+    },
+    {
+      "id": "rippas-snarlfangs",
+      "name": "Rippa's Snarlfangs",
+      "file": "units/rippas-snarlfangs.json"
+    },
+    {
+      "id": "doom-diver-catapult",
+      "name": "Doom Diver Catapult",
+      "file": "units/doom-diver-catapult.json"
+    },
+    {
+      "id": "wolfgit-retinue",
+      "name": "Wolfgit Retinue",
+      "file": "units/wolfgit-retinue.json"
+    },
+    {
+      "id": "sunsteala-wheelas",
+      "name": "Sunsteala Wheelas",
+      "file": "units/sunsteala-wheelas.json"
+    },
+    {
+      "id": "snarlpack-cavalry",
+      "name": "Snarlpack Cavalry",
+      "file": "units/snarlpack-cavalry.json"
+    },
+    {
+      "id": "borgits-beastgrabbaz",
+      "name": "Borgit's Beastgrabbaz",
+      "file": "units/borgits-beastgrabbaz.json"
+    }
   ],
   "heroes": [
-    "skragrott-the-loonking",
-    "squigboss-with-gnasha-squig",
-    "rabble-rowza",
-    "fungoid-cave-shaman",
-    "webspinner-shaman-on-arachnarok-spider",
-    "loonboss-on-giant-cave-squig",
-    "loonboss-on-mangler-squigs",
-    "kragnos-the-end-of-empires",
-    "trugg-the-troggoth-king",
-    "dankhold-troggboss",
-    "loonboss",
-    "webspinner-shaman",
-    "scuttleboss-on-gigantic-spider",
-    "loonboss-with-giant-cave-squig",
-    "madcap-shaman",
-    "mollog",
-    "droggz-da-sunchompa",
-    "snarlboss",
-    "frazzlegit-shaman-on-war-wheela",
-    "snarlboss-on-war-wheela"
+    {
+      "id": "skragrott-the-loonking",
+      "name": "Skragrott, the Loonking",
+      "file": "heroes/skragrott-the-loonking.json"
+    },
+    {
+      "id": "squigboss-with-gnasha-squig",
+      "name": "Squigboss with Gnasha-squig",
+      "file": "heroes/squigboss-with-gnasha-squig.json"
+    },
+    {
+      "id": "rabble-rowza",
+      "name": "Rabble-Rowza",
+      "file": "heroes/rabble-rowza.json"
+    },
+    {
+      "id": "fungoid-cave-shaman",
+      "name": "Fungoid Cave-Shaman",
+      "file": "heroes/fungoid-cave-shaman.json"
+    },
+    {
+      "id": "webspinner-shaman-on-arachnarok-spider",
+      "name": "Webspinner Shaman on Arachnarok Spider",
+      "file": "heroes/webspinner-shaman-on-arachnarok-spider.json"
+    },
+    {
+      "id": "loonboss-on-giant-cave-squig",
+      "name": "Loonboss on Giant Cave Squig",
+      "file": "heroes/loonboss-on-giant-cave-squig.json"
+    },
+    {
+      "id": "loonboss-on-mangler-squigs",
+      "name": "Loonboss on Mangler Squigs",
+      "file": "heroes/loonboss-on-mangler-squigs.json"
+    },
+    {
+      "id": "kragnos-the-end-of-empires",
+      "name": "Kragnos, the End of Empires",
+      "file": "heroes/kragnos-the-end-of-empires.json"
+    },
+    {
+      "id": "trugg-the-troggoth-king",
+      "name": "Trugg, the Troggoth King",
+      "file": "heroes/trugg-the-troggoth-king.json"
+    },
+    {
+      "id": "dankhold-troggboss",
+      "name": "Dankhold Troggboss",
+      "file": "heroes/dankhold-troggboss.json"
+    },
+    {
+      "id": "loonboss",
+      "name": "Loonboss",
+      "file": "heroes/loonboss.json"
+    },
+    {
+      "id": "webspinner-shaman",
+      "name": "Webspinner Shaman",
+      "file": "heroes/webspinner-shaman.json"
+    },
+    {
+      "id": "scuttleboss-on-gigantic-spider",
+      "name": "Scuttleboss on Gigantic Spider",
+      "file": "heroes/scuttleboss-on-gigantic-spider.json"
+    },
+    {
+      "id": "loonboss-with-giant-cave-squig",
+      "name": "Loonboss with Giant Cave Squig",
+      "file": "heroes/loonboss-with-giant-cave-squig.json"
+    },
+    {
+      "id": "madcap-shaman",
+      "name": "Madcap Shaman",
+      "file": "heroes/madcap-shaman.json"
+    },
+    {
+      "id": "mollog",
+      "name": "Mollog",
+      "file": "heroes/mollog.json"
+    },
+    {
+      "id": "droggz-da-sunchompa",
+      "name": "Droggz da Sunchompa",
+      "file": "heroes/droggz-da-sunchompa.json"
+    },
+    {
+      "id": "snarlboss",
+      "name": "Snarlboss",
+      "file": "heroes/snarlboss.json"
+    },
+    {
+      "id": "frazzlegit-shaman-on-war-wheela",
+      "name": "Frazzlegit Shaman on War-Wheela",
+      "file": "heroes/frazzlegit-shaman-on-war-wheela.json"
+    },
+    {
+      "id": "snarlboss-on-war-wheela",
+      "name": "Snarlboss on War-Wheela",
+      "file": "heroes/snarlboss-on-war-wheela.json"
+    }
   ],
   "terrain": [
-    "bad-moon-loonshrine"
+    {
+      "id": "bad-moon-loonshrine",
+      "name": "Bad Moon Loonshrine",
+      "file": "terrain/bad-moon-loonshrine.json"
+    }
   ],
   "enhancements": [
     {

@@ -33,41 +33,165 @@
     "source": "Ogor Mawtribes Faction Pack"
   },
   "units": [
-    "gnoblar-scraplauncher",
-    "maneaters",
-    "gnoblars",
-    "icefall-yhetees",
-    "ogor-gluttons",
-    "gorger-mawpack",
-    "thundertusk-beastriders",
-    "ironblaster",
-    "stonehorn-beastriders",
-    "frost-sabres",
-    "leadbelchers",
-    "mournfang-pack",
-    "mawpit",
-    "great-mawpot",
-    "ironguts"
+    {
+      "id": "gnoblar-scraplauncher",
+      "name": "Gnoblar Scraplauncher",
+      "file": "units/gnoblar-scraplauncher.json"
+    },
+    {
+      "id": "maneaters",
+      "name": "Maneaters",
+      "file": "units/maneaters.json"
+    },
+    {
+      "id": "gnoblars",
+      "name": "Gnoblars",
+      "file": "units/gnoblars.json"
+    },
+    {
+      "id": "icefall-yhetees",
+      "name": "Icefall Yhetees",
+      "file": "units/icefall-yhetees.json"
+    },
+    {
+      "id": "ogor-gluttons",
+      "name": "Ogor Gluttons",
+      "file": "units/ogor-gluttons.json"
+    },
+    {
+      "id": "gorger-mawpack",
+      "name": "Gorger Mawpack",
+      "file": "units/gorger-mawpack.json"
+    },
+    {
+      "id": "thundertusk-beastriders",
+      "name": "Thundertusk Beastriders",
+      "file": "units/thundertusk-beastriders.json"
+    },
+    {
+      "id": "ironblaster",
+      "name": "Ironblaster",
+      "file": "units/ironblaster.json"
+    },
+    {
+      "id": "stonehorn-beastriders",
+      "name": "Stonehorn Beastriders",
+      "file": "units/stonehorn-beastriders.json"
+    },
+    {
+      "id": "frost-sabres",
+      "name": "Frost Sabres",
+      "file": "units/frost-sabres.json"
+    },
+    {
+      "id": "leadbelchers",
+      "name": "Leadbelchers",
+      "file": "units/leadbelchers.json"
+    },
+    {
+      "id": "mournfang-pack",
+      "name": "Mournfang Pack",
+      "file": "units/mournfang-pack.json"
+    },
+    {
+      "id": "mawpit",
+      "name": "Mawpit",
+      "file": "units/mawpit.json"
+    },
+    {
+      "id": "great-mawpot",
+      "name": "Great Mawpot",
+      "file": "units/great-mawpot.json"
+    },
+    {
+      "id": "ironguts",
+      "name": "Ironguts",
+      "file": "units/ironguts.json"
+    }
   ],
   "heroes": [
-    "bloodpelt-hunter",
-    "kragnos-the-end-of-empires",
-    "slaughtermaster",
-    "butcher",
-    "firebelly",
-    "frostlord-on-stonehorn",
-    "frostlord-on-thundertusk",
-    "huskard-on-stonehorn",
-    "huskard-on-thundertusk",
-    "tyrant",
-    "icebrow-hunter",
-    "hrothgorn-mantrapper",
-    "gorlok-blackpowder",
-    "mantrapper"
+    {
+      "id": "bloodpelt-hunter",
+      "name": "Bloodpelt Hunter",
+      "file": "heroes/bloodpelt-hunter.json"
+    },
+    {
+      "id": "kragnos-the-end-of-empires",
+      "name": "Kragnos, the End of Empires",
+      "file": "heroes/kragnos-the-end-of-empires.json"
+    },
+    {
+      "id": "slaughtermaster",
+      "name": "Slaughtermaster",
+      "file": "heroes/slaughtermaster.json"
+    },
+    {
+      "id": "butcher",
+      "name": "Butcher",
+      "file": "heroes/butcher.json"
+    },
+    {
+      "id": "firebelly",
+      "name": "Firebelly",
+      "file": "heroes/firebelly.json"
+    },
+    {
+      "id": "frostlord-on-stonehorn",
+      "name": "Frostlord on Stonehorn",
+      "file": "heroes/frostlord-on-stonehorn.json"
+    },
+    {
+      "id": "frostlord-on-thundertusk",
+      "name": "Frostlord on Thundertusk",
+      "file": "heroes/frostlord-on-thundertusk.json"
+    },
+    {
+      "id": "huskard-on-stonehorn",
+      "name": "Huskard on Stonehorn",
+      "file": "heroes/huskard-on-stonehorn.json"
+    },
+    {
+      "id": "huskard-on-thundertusk",
+      "name": "Huskard on Thundertusk",
+      "file": "heroes/huskard-on-thundertusk.json"
+    },
+    {
+      "id": "tyrant",
+      "name": "Tyrant",
+      "file": "heroes/tyrant.json"
+    },
+    {
+      "id": "icebrow-hunter",
+      "name": "Icebrow Hunter",
+      "file": "heroes/icebrow-hunter.json"
+    },
+    {
+      "id": "hrothgorn-mantrapper",
+      "name": "Hrothgorn Mantrapper",
+      "file": "heroes/hrothgorn-mantrapper.json"
+    },
+    {
+      "id": "gorlok-blackpowder",
+      "name": "Gorlok Blackpowder",
+      "file": "heroes/gorlok-blackpowder.json"
+    },
+    {
+      "id": "mantrapper",
+      "name": "Mantrapper",
+      "file": "heroes/mantrapper.json"
+    }
   ],
   "terrain": [
-    "mawpit",
-    "great-mawpot"
+    {
+      "id": "mawpit",
+      "name": "Mawpit",
+      "file": "terrain/mawpit.json"
+    },
+    {
+      "id": "great-mawpot",
+      "name": "Great Mawpot",
+      "file": "terrain/great-mawpot.json"
+    }
   ],
   "enhancements": [
     {

@@ -33,49 +33,205 @@
     "source": "Blades of Khorne Faction Pack"
   },
   "units": [
-    "skull-cannon",
-    "wrathmongers",
-    "claws-of-karanak",
-    "bloodreavers",
-    "flesh-hounds",
-    "bloodletters",
-    "bloodcrushers",
-    "mighty-skullcrushers",
-    "skullreapers",
-    "blood-warriors",
-    "khorgorath",
-    "skull-altar",
-    "magores-fiends",
-    "garreks-reavers",
-    "gorechosen-of-dromm",
-    "kamandoras-blades"
+    {
+      "id": "skull-cannon",
+      "name": "Skull Cannon",
+      "file": "units/skull-cannon.json"
+    },
+    {
+      "id": "wrathmongers",
+      "name": "Wrathmongers",
+      "file": "units/wrathmongers.json"
+    },
+    {
+      "id": "claws-of-karanak",
+      "name": "Claws of Karanak",
+      "file": "units/claws-of-karanak.json"
+    },
+    {
+      "id": "bloodreavers",
+      "name": "Bloodreavers",
+      "file": "units/bloodreavers.json"
+    },
+    {
+      "id": "flesh-hounds",
+      "name": "Flesh Hounds",
+      "file": "units/flesh-hounds.json"
+    },
+    {
+      "id": "bloodletters",
+      "name": "Bloodletters",
+      "file": "units/bloodletters.json"
+    },
+    {
+      "id": "bloodcrushers",
+      "name": "Bloodcrushers",
+      "file": "units/bloodcrushers.json"
+    },
+    {
+      "id": "mighty-skullcrushers",
+      "name": "Mighty Skullcrushers",
+      "file": "units/mighty-skullcrushers.json"
+    },
+    {
+      "id": "skullreapers",
+      "name": "Skullreapers",
+      "file": "units/skullreapers.json"
+    },
+    {
+      "id": "blood-warriors",
+      "name": "Blood Warriors",
+      "file": "units/blood-warriors.json"
+    },
+    {
+      "id": "khorgorath",
+      "name": "Khorgorath",
+      "file": "units/khorgorath.json"
+    },
+    {
+      "id": "skull-altar",
+      "name": "Skull Altar",
+      "file": "units/skull-altar.json"
+    },
+    {
+      "id": "magores-fiends",
+      "name": "Magore's Fiends",
+      "file": "units/magores-fiends.json"
+    },
+    {
+      "id": "garreks-reavers",
+      "name": "Garrek's Reavers",
+      "file": "units/garreks-reavers.json"
+    },
+    {
+      "id": "gorechosen-of-dromm",
+      "name": "Gorechosen of Dromm",
+      "file": "units/gorechosen-of-dromm.json"
+    },
+    {
+      "id": "kamandoras-blades",
+      "name": "Kamandora's Blades",
+      "file": "units/kamandoras-blades.json"
+    }
   ],
   "heroes": [
-    "skarbrand",
-    "wrath-of-khorne-bloodthirster",
-    "bloodthirster-of-insensate-rage",
-    "lord-of-khorne-on-juggernaut",
-    "karanak",
-    "bloodthirster-of-unfettered-fury",
-    "bloodmaster-herald-of-khorne",
-    "skarr-bloodwrath",
-    "herald-of-khorne-on-blood-throne",
-    "realmgore-ritualist",
-    "mighty-lord-of-khorne",
-    "skullmaster-herald-of-khorne",
-    "skulltaker",
-    "bloodsecrator",
-    "slaughterpriest",
-    "skullgrinder",
-    "bloodstoker",
-    "valkia-the-bloody",
-    "scyla-anfingrimm",
-    "khul-ascended",
-    "khorgos-khul",
-    "deathbringer"
+    {
+      "id": "skarbrand",
+      "name": "Skarbrand",
+      "file": "heroes/skarbrand.json"
+    },
+    {
+      "id": "wrath-of-khorne-bloodthirster",
+      "name": "Wrath of Khorne Bloodthirster",
+      "file": "heroes/wrath-of-khorne-bloodthirster.json"
+    },
+    {
+      "id": "bloodthirster-of-insensate-rage",
+      "name": "Bloodthirster of Insensate Rage",
+      "file": "heroes/bloodthirster-of-insensate-rage.json"
+    },
+    {
+      "id": "lord-of-khorne-on-juggernaut",
+      "name": "Lord of Khorne on Juggernaut",
+      "file": "heroes/lord-of-khorne-on-juggernaut.json"
+    },
+    {
+      "id": "karanak",
+      "name": "Karanak",
+      "file": "heroes/karanak.json"
+    },
+    {
+      "id": "bloodthirster-of-unfettered-fury",
+      "name": "Bloodthirster of Unfettered Fury",
+      "file": "heroes/bloodthirster-of-unfettered-fury.json"
+    },
+    {
+      "id": "bloodmaster-herald-of-khorne",
+      "name": "Bloodmaster, Herald of Khorne",
+      "file": "heroes/bloodmaster-herald-of-khorne.json"
+    },
+    {
+      "id": "skarr-bloodwrath",
+      "name": "Skarr Bloodwrath",
+      "file": "heroes/skarr-bloodwrath.json"
+    },
+    {
+      "id": "herald-of-khorne-on-blood-throne",
+      "name": "Herald of Khorne on Blood Throne",
+      "file": "heroes/herald-of-khorne-on-blood-throne.json"
+    },
+    {
+      "id": "realmgore-ritualist",
+      "name": "Realmgore Ritualist",
+      "file": "heroes/realmgore-ritualist.json"
+    },
+    {
+      "id": "mighty-lord-of-khorne",
+      "name": "Mighty Lord of Khorne",
+      "file": "heroes/mighty-lord-of-khorne.json"
+    },
+    {
+      "id": "skullmaster-herald-of-khorne",
+      "name": "Skullmaster, Herald of Khorne",
+      "file": "heroes/skullmaster-herald-of-khorne.json"
+    },
+    {
+      "id": "skulltaker",
+      "name": "Skulltaker",
+      "file": "heroes/skulltaker.json"
+    },
+    {
+      "id": "bloodsecrator",
+      "name": "Bloodsecrator",
+      "file": "heroes/bloodsecrator.json"
+    },
+    {
+      "id": "slaughterpriest",
+      "name": "Slaughterpriest",
+      "file": "heroes/slaughterpriest.json"
+    },
+    {
+      "id": "skullgrinder",
+      "name": "Skullgrinder",
+      "file": "heroes/skullgrinder.json"
+    },
+    {
+      "id": "bloodstoker",
+      "name": "Bloodstoker",
+      "file": "heroes/bloodstoker.json"
+    },
+    {
+      "id": "valkia-the-bloody",
+      "name": "Valkia the Bloody",
+      "file": "heroes/valkia-the-bloody.json"
+    },
+    {
+      "id": "scyla-anfingrimm",
+      "name": "Scyla Anfingrimm",
+      "file": "heroes/scyla-anfingrimm.json"
+    },
+    {
+      "id": "khul-ascended",
+      "name": "Khul Ascended",
+      "file": "heroes/khul-ascended.json"
+    },
+    {
+      "id": "khorgos-khul",
+      "name": "Khorgos Khul",
+      "file": "heroes/khorgos-khul.json"
+    },
+    {
+      "id": "deathbringer",
+      "name": "Deathbringer",
+      "file": "heroes/deathbringer.json"
+    }
   ],
   "terrain": [
-    "skull-altar"
+    {
+      "id": "skull-altar",
+      "name": "Skull Altar",
+      "file": "terrain/skull-altar.json"
+    }
   ],
   "enhancements": [
     {

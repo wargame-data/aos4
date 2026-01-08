@@ -33,45 +33,185 @@
     "source": "Hedonites of Slaanesh Faction Pack"
   },
   "units": [
-    "seeker-chariot",
-    "hellflayer",
-    "slaangor-fiendbloods",
-    "seekers",
-    "blissbarb-archers",
-    "blissbarb-seekers",
-    "fiends",
-    "daemonettes",
-    "myrmidesh-painbringers",
-    "symbaresh-twinsouls",
-    "hellstriders",
-    "slickblade-seekers",
-    "fane-of-slaanesh",
-    "exalted-chariot",
-    "the-thricefold-discord",
-    "the-dread-pageant"
+    {
+      "id": "seeker-chariot",
+      "name": "Seeker Chariot",
+      "file": "units/seeker-chariot.json"
+    },
+    {
+      "id": "hellflayer",
+      "name": "Hellflayer",
+      "file": "units/hellflayer.json"
+    },
+    {
+      "id": "slaangor-fiendbloods",
+      "name": "Slaangor Fiendbloods",
+      "file": "units/slaangor-fiendbloods.json"
+    },
+    {
+      "id": "seekers",
+      "name": "Seekers",
+      "file": "units/seekers.json"
+    },
+    {
+      "id": "blissbarb-archers",
+      "name": "Blissbarb Archers",
+      "file": "units/blissbarb-archers.json"
+    },
+    {
+      "id": "blissbarb-seekers",
+      "name": "Blissbarb Seekers",
+      "file": "units/blissbarb-seekers.json"
+    },
+    {
+      "id": "fiends",
+      "name": "Fiends",
+      "file": "units/fiends.json"
+    },
+    {
+      "id": "daemonettes",
+      "name": "Daemonettes",
+      "file": "units/daemonettes.json"
+    },
+    {
+      "id": "myrmidesh-painbringers",
+      "name": "Myrmidesh Painbringers",
+      "file": "units/myrmidesh-painbringers.json"
+    },
+    {
+      "id": "symbaresh-twinsouls",
+      "name": "Symbaresh Twinsouls",
+      "file": "units/symbaresh-twinsouls.json"
+    },
+    {
+      "id": "hellstriders",
+      "name": "Hellstriders",
+      "file": "units/hellstriders.json"
+    },
+    {
+      "id": "slickblade-seekers",
+      "name": "Slickblade Seekers",
+      "file": "units/slickblade-seekers.json"
+    },
+    {
+      "id": "fane-of-slaanesh",
+      "name": "Fane of Slaanesh",
+      "file": "units/fane-of-slaanesh.json"
+    },
+    {
+      "id": "exalted-chariot",
+      "name": "Exalted Chariot",
+      "file": "units/exalted-chariot.json"
+    },
+    {
+      "id": "the-thricefold-discord",
+      "name": "The Thricefold Discord",
+      "file": "units/the-thricefold-discord.json"
+    },
+    {
+      "id": "the-dread-pageant",
+      "name": "The Dread Pageant",
+      "file": "units/the-dread-pageant.json"
+    }
   ],
   "heroes": [
-    "bladebringer-herald-on-exalted-chariot",
-    "shalaxi-helbane",
-    "the-masque",
-    "sigvald-prince-of-slaanesh",
-    "dexcessa-the-talon-of-slaanesh",
-    "keeper-of-secrets",
-    "contorted-epitome",
-    "syllesske-the-vengeful-allegiance",
-    "shardspeaker-of-slaanesh",
-    "synessa-the-voice-of-slaanesh",
-    "infernal-enrapturess-herald-of-slaanesh",
-    "lord-of-hubris",
-    "glutos-orscollion-lord-of-gluttony",
-    "lord-of-pain",
-    "bladebringer-herald-on-seeker-chariot",
-    "bladebringer-herald-on-hellflayer",
-    "viceleader-herald-of-slaanesh",
-    "syllesske-the-vengeful-allegiance-scourge-of-ghyran"
+    {
+      "id": "bladebringer-herald-on-exalted-chariot",
+      "name": "Bladebringer, Herald on Exalted Chariot",
+      "file": "heroes/bladebringer-herald-on-exalted-chariot.json"
+    },
+    {
+      "id": "shalaxi-helbane",
+      "name": "Shalaxi Helbane",
+      "file": "heroes/shalaxi-helbane.json"
+    },
+    {
+      "id": "the-masque",
+      "name": "The Masque",
+      "file": "heroes/the-masque.json"
+    },
+    {
+      "id": "sigvald-prince-of-slaanesh",
+      "name": "Sigvald, Prince of Slaanesh",
+      "file": "heroes/sigvald-prince-of-slaanesh.json"
+    },
+    {
+      "id": "dexcessa-the-talon-of-slaanesh",
+      "name": "Dexcessa, the Talon of Slaanesh",
+      "file": "heroes/dexcessa-the-talon-of-slaanesh.json"
+    },
+    {
+      "id": "keeper-of-secrets",
+      "name": "Keeper of Secrets",
+      "file": "heroes/keeper-of-secrets.json"
+    },
+    {
+      "id": "contorted-epitome",
+      "name": "Contorted Epitome",
+      "file": "heroes/contorted-epitome.json"
+    },
+    {
+      "id": "syllesske-the-vengeful-allegiance",
+      "name": "Syll'Esske, the Vengeful Allegiance",
+      "file": "heroes/syllesske-the-vengeful-allegiance.json"
+    },
+    {
+      "id": "shardspeaker-of-slaanesh",
+      "name": "Shardspeaker of Slaanesh",
+      "file": "heroes/shardspeaker-of-slaanesh.json"
+    },
+    {
+      "id": "synessa-the-voice-of-slaanesh",
+      "name": "Synessa, the Voice of Slaanesh",
+      "file": "heroes/synessa-the-voice-of-slaanesh.json"
+    },
+    {
+      "id": "infernal-enrapturess-herald-of-slaanesh",
+      "name": "Infernal Enrapturess, Herald of Slaanesh",
+      "file": "heroes/infernal-enrapturess-herald-of-slaanesh.json"
+    },
+    {
+      "id": "lord-of-hubris",
+      "name": "Lord of Hubris",
+      "file": "heroes/lord-of-hubris.json"
+    },
+    {
+      "id": "glutos-orscollion-lord-of-gluttony",
+      "name": "Glutos Orscollion, Lord of Gluttony",
+      "file": "heroes/glutos-orscollion-lord-of-gluttony.json"
+    },
+    {
+      "id": "lord-of-pain",
+      "name": "Lord of Pain",
+      "file": "heroes/lord-of-pain.json"
+    },
+    {
+      "id": "bladebringer-herald-on-seeker-chariot",
+      "name": "Bladebringer, Herald on Seeker Chariot",
+      "file": "heroes/bladebringer-herald-on-seeker-chariot.json"
+    },
+    {
+      "id": "bladebringer-herald-on-hellflayer",
+      "name": "Bladebringer, Herald on Hellflayer",
+      "file": "heroes/bladebringer-herald-on-hellflayer.json"
+    },
+    {
+      "id": "viceleader-herald-of-slaanesh",
+      "name": "Viceleader, Herald of Slaanesh",
+      "file": "heroes/viceleader-herald-of-slaanesh.json"
+    },
+    {
+      "id": "syllesske-the-vengeful-allegiance-scourge-of-ghyran",
+      "name": "Syll'Esske, the Vengeful Allegiance (Scourge of Ghyran)",
+      "file": "heroes/syllesske-the-vengeful-allegiance-scourge-of-ghyran.json"
+    }
   ],
   "terrain": [
-    "fane-of-slaanesh"
+    {
+      "id": "fane-of-slaanesh",
+      "name": "Fane of Slaanesh",
+      "file": "terrain/fane-of-slaanesh.json"
+    }
   ],
   "enhancements": [
     {

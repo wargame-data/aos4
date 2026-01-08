@@ -33,70 +33,318 @@
     "source": "Cities of Sigmar Faction Pack"
   },
   "units": [
-    "ironweld-great-cannon",
-    "freeguild-command-corps",
-    "celestial-hurricanum",
-    "freeguild-steelhelms",
-    "freeguild-cavaliers",
-    "black-ark-corsairs",
-    "irondrakes",
-    "luminark-of-hysh",
-    "steam-tank",
-    "freeguild-fusiliers",
-    "longbeards",
-    "hammerers",
-    "ironbreakers",
-    "gyrobomber",
-    "gyrocopter",
-    "scourgerunner-chariot",
-    "flagellants",
-    "darkshards",
-    "dreadspears",
-    "bleakswords",
-    "executioners",
-    "kharibdyss",
-    "dark-riders",
-    "drakespawn-knights",
-    "black-guard",
-    "drakespawn-chariot",
-    "war-hydra",
-    "tolls-companions",
-    "wildercorps-hunters",
-    "hexbanes-hunters",
-    "brethren-of-the-bolt",
-    "freeguild-cavaliers-scourge-of-ghyran"
+    {
+      "id": "ironweld-great-cannon",
+      "name": "Ironweld Great Cannon",
+      "file": "units/ironweld-great-cannon.json"
+    },
+    {
+      "id": "freeguild-command-corps",
+      "name": "Freeguild Command Corps",
+      "file": "units/freeguild-command-corps.json"
+    },
+    {
+      "id": "celestial-hurricanum",
+      "name": "Celestial Hurricanum",
+      "file": "units/celestial-hurricanum.json"
+    },
+    {
+      "id": "freeguild-steelhelms",
+      "name": "Freeguild Steelhelms",
+      "file": "units/freeguild-steelhelms.json"
+    },
+    {
+      "id": "freeguild-cavaliers",
+      "name": "Freeguild Cavaliers",
+      "file": "units/freeguild-cavaliers.json"
+    },
+    {
+      "id": "black-ark-corsairs",
+      "name": "Black Ark Corsairs",
+      "file": "units/black-ark-corsairs.json"
+    },
+    {
+      "id": "irondrakes",
+      "name": "Irondrakes",
+      "file": "units/irondrakes.json"
+    },
+    {
+      "id": "luminark-of-hysh",
+      "name": "Luminark of Hysh",
+      "file": "units/luminark-of-hysh.json"
+    },
+    {
+      "id": "steam-tank",
+      "name": "Steam Tank",
+      "file": "units/steam-tank.json"
+    },
+    {
+      "id": "freeguild-fusiliers",
+      "name": "Freeguild Fusiliers",
+      "file": "units/freeguild-fusiliers.json"
+    },
+    {
+      "id": "longbeards",
+      "name": "Longbeards",
+      "file": "units/longbeards.json"
+    },
+    {
+      "id": "hammerers",
+      "name": "Hammerers",
+      "file": "units/hammerers.json"
+    },
+    {
+      "id": "ironbreakers",
+      "name": "Ironbreakers",
+      "file": "units/ironbreakers.json"
+    },
+    {
+      "id": "gyrobomber",
+      "name": "Gyrobomber",
+      "file": "units/gyrobomber.json"
+    },
+    {
+      "id": "gyrocopter",
+      "name": "Gyrocopter",
+      "file": "units/gyrocopter.json"
+    },
+    {
+      "id": "scourgerunner-chariot",
+      "name": "Scourgerunner Chariot",
+      "file": "units/scourgerunner-chariot.json"
+    },
+    {
+      "id": "flagellants",
+      "name": "Flagellants",
+      "file": "units/flagellants.json"
+    },
+    {
+      "id": "darkshards",
+      "name": "Darkshards",
+      "file": "units/darkshards.json"
+    },
+    {
+      "id": "dreadspears",
+      "name": "Dreadspears",
+      "file": "units/dreadspears.json"
+    },
+    {
+      "id": "bleakswords",
+      "name": "Bleakswords",
+      "file": "units/bleakswords.json"
+    },
+    {
+      "id": "executioners",
+      "name": "Executioners",
+      "file": "units/executioners.json"
+    },
+    {
+      "id": "kharibdyss",
+      "name": "Kharibdyss",
+      "file": "units/kharibdyss.json"
+    },
+    {
+      "id": "dark-riders",
+      "name": "Dark Riders",
+      "file": "units/dark-riders.json"
+    },
+    {
+      "id": "drakespawn-knights",
+      "name": "Drakespawn Knights",
+      "file": "units/drakespawn-knights.json"
+    },
+    {
+      "id": "black-guard",
+      "name": "Black Guard",
+      "file": "units/black-guard.json"
+    },
+    {
+      "id": "drakespawn-chariot",
+      "name": "Drakespawn Chariot",
+      "file": "units/drakespawn-chariot.json"
+    },
+    {
+      "id": "war-hydra",
+      "name": "War Hydra",
+      "file": "units/war-hydra.json"
+    },
+    {
+      "id": "tolls-companions",
+      "name": "Toll's Companions",
+      "file": "units/tolls-companions.json"
+    },
+    {
+      "id": "wildercorps-hunters",
+      "name": "Wildercorps Hunters",
+      "file": "units/wildercorps-hunters.json"
+    },
+    {
+      "id": "hexbanes-hunters",
+      "name": "Hexbane's Hunters",
+      "file": "units/hexbanes-hunters.json"
+    },
+    {
+      "id": "brethren-of-the-bolt",
+      "name": "Brethren of the Bolt",
+      "file": "units/brethren-of-the-bolt.json"
+    },
+    {
+      "id": "freeguild-cavaliers-scourge-of-ghyran",
+      "name": "Freeguild Cavaliers (Scourge of Ghyran)",
+      "file": "units/freeguild-cavaliers-scourge-of-ghyran.json"
+    }
   ],
   "heroes": [
-    "doralia-ven-denst",
-    "runelord",
-    "freeguild-marshal-on-griffon",
-    "callis-and-toll",
-    "freeguild-cavalier-marshal",
-    "fusil-major-on-ogor-warhulk",
-    "tahlia-vedra-lioness-of-the-parch",
-    "battlemage-on-griffon",
-    "battlemage-on-celestial-hurricanum",
-    "battlemage-on-luminark-of-hysh",
-    "steam-tank-commander",
-    "pontifex-zenestra-matriarch-of-the-great-wheel",
-    "galen-ven-denst",
-    "battlemage",
-    "warden-king",
-    "black-ark-fleetmaster",
-    "cogsmith",
-    "sorceress-on-black-dragon",
-    "dreadlord-on-black-dragon",
-    "sorceress",
-    "assassin",
-    "freeguild-marshal-and-relic-envoy",
-    "alchemite-warforger",
-    "pontifex-zenestra-matriarch-of-the-great-wheel-scourge-of-ghyran",
-    "edmark-valoran-the-manticore-knight",
-    "bren-tylis-the-renegade-saint",
-    "inara-sion-the-cleansing-blade",
-    "drolf-ironhead-the-grizzled-explorer",
-    "jacobus-vyne-the-jade-wizard",
-    "drasher-vorn-the-rampaging-beast"
+    {
+      "id": "doralia-ven-denst",
+      "name": "Doralia ven Denst",
+      "file": "heroes/doralia-ven-denst.json"
+    },
+    {
+      "id": "runelord",
+      "name": "Runelord",
+      "file": "heroes/runelord.json"
+    },
+    {
+      "id": "freeguild-marshal-on-griffon",
+      "name": "Freeguild Marshal on Griffon",
+      "file": "heroes/freeguild-marshal-on-griffon.json"
+    },
+    {
+      "id": "callis-and-toll",
+      "name": "Callis and Toll",
+      "file": "heroes/callis-and-toll.json"
+    },
+    {
+      "id": "freeguild-cavalier-marshal",
+      "name": "Freeguild Cavalier-Marshal",
+      "file": "heroes/freeguild-cavalier-marshal.json"
+    },
+    {
+      "id": "fusil-major-on-ogor-warhulk",
+      "name": "Fusil-Major on Ogor Warhulk",
+      "file": "heroes/fusil-major-on-ogor-warhulk.json"
+    },
+    {
+      "id": "tahlia-vedra-lioness-of-the-parch",
+      "name": "Tahlia Vedra, Lioness of the Parch",
+      "file": "heroes/tahlia-vedra-lioness-of-the-parch.json"
+    },
+    {
+      "id": "battlemage-on-griffon",
+      "name": "Battlemage on Griffon",
+      "file": "heroes/battlemage-on-griffon.json"
+    },
+    {
+      "id": "battlemage-on-celestial-hurricanum",
+      "name": "Battlemage on Celestial Hurricanum",
+      "file": "heroes/battlemage-on-celestial-hurricanum.json"
+    },
+    {
+      "id": "battlemage-on-luminark-of-hysh",
+      "name": "Battlemage on Luminark of Hysh",
+      "file": "heroes/battlemage-on-luminark-of-hysh.json"
+    },
+    {
+      "id": "steam-tank-commander",
+      "name": "Steam Tank Commander",
+      "file": "heroes/steam-tank-commander.json"
+    },
+    {
+      "id": "pontifex-zenestra-matriarch-of-the-great-wheel",
+      "name": "Pontifex Zenestra, Matriarch of the Great Wheel",
+      "file": "heroes/pontifex-zenestra-matriarch-of-the-great-wheel.json"
+    },
+    {
+      "id": "galen-ven-denst",
+      "name": "Galen ven Denst",
+      "file": "heroes/galen-ven-denst.json"
+    },
+    {
+      "id": "battlemage",
+      "name": "Battlemage",
+      "file": "heroes/battlemage.json"
+    },
+    {
+      "id": "warden-king",
+      "name": "Warden King",
+      "file": "heroes/warden-king.json"
+    },
+    {
+      "id": "black-ark-fleetmaster",
+      "name": "Black Ark Fleetmaster",
+      "file": "heroes/black-ark-fleetmaster.json"
+    },
+    {
+      "id": "cogsmith",
+      "name": "Cogsmith",
+      "file": "heroes/cogsmith.json"
+    },
+    {
+      "id": "sorceress-on-black-dragon",
+      "name": "Sorceress on Black Dragon",
+      "file": "heroes/sorceress-on-black-dragon.json"
+    },
+    {
+      "id": "dreadlord-on-black-dragon",
+      "name": "Dreadlord on Black Dragon",
+      "file": "heroes/dreadlord-on-black-dragon.json"
+    },
+    {
+      "id": "sorceress",
+      "name": "Sorceress",
+      "file": "heroes/sorceress.json"
+    },
+    {
+      "id": "assassin",
+      "name": "Assassin",
+      "file": "heroes/assassin.json"
+    },
+    {
+      "id": "freeguild-marshal-and-relic-envoy",
+      "name": "Freeguild Marshal and Relic Envoy",
+      "file": "heroes/freeguild-marshal-and-relic-envoy.json"
+    },
+    {
+      "id": "alchemite-warforger",
+      "name": "Alchemite Warforger",
+      "file": "heroes/alchemite-warforger.json"
+    },
+    {
+      "id": "pontifex-zenestra-matriarch-of-the-great-wheel-scourge-of-ghyran",
+      "name": "Pontifex Zenestra, Matriarch of the Great Wheel (Scourge of Ghyran)",
+      "file": "heroes/pontifex-zenestra-matriarch-of-the-great-wheel-scourge-of-ghyran.json"
+    },
+    {
+      "id": "edmark-valoran-the-manticore-knight",
+      "name": "Edmark Valoran, the Manticore Knight",
+      "file": "heroes/edmark-valoran-the-manticore-knight.json"
+    },
+    {
+      "id": "bren-tylis-the-renegade-saint",
+      "name": "Bren Tylis, the Renegade Saint",
+      "file": "heroes/bren-tylis-the-renegade-saint.json"
+    },
+    {
+      "id": "inara-sion-the-cleansing-blade",
+      "name": "Inara Sion, the Cleansing Blade",
+      "file": "heroes/inara-sion-the-cleansing-blade.json"
+    },
+    {
+      "id": "drolf-ironhead-the-grizzled-explorer",
+      "name": "Drolf Ironhead, the Grizzled Explorer",
+      "file": "heroes/drolf-ironhead-the-grizzled-explorer.json"
+    },
+    {
+      "id": "jacobus-vyne-the-jade-wizard",
+      "name": "Jacobus Vyne, the Jade Wizard",
+      "file": "heroes/jacobus-vyne-the-jade-wizard.json"
+    },
+    {
+      "id": "drasher-vorn-the-rampaging-beast",
+      "name": "Drasher Vorn, the Rampaging Beast",
+      "file": "heroes/drasher-vorn-the-rampaging-beast.json"
+    }
   ],
   "enhancements": [
     {

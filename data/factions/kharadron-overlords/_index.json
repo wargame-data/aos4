@@ -33,32 +33,120 @@
     "source": "Kharadron Overlords Faction Pack"
   },
   "units": [
-    "grundstok-gunhauler",
-    "grundstok-thunderers",
-    "arkanaut-company",
-    "endrinriggers",
-    "skywardens",
-    "arkanaut-ironclad",
-    "arkanaut-frigate",
-    "thundriks-profiteers",
-    "vongrim-salvagers",
-    "vongrim-harpoon-crew",
-    "zontari-endrin-dock",
-    "auto-endrin"
+    {
+      "id": "grundstok-gunhauler",
+      "name": "Grundstok Gunhauler",
+      "file": "units/grundstok-gunhauler.json"
+    },
+    {
+      "id": "grundstok-thunderers",
+      "name": "Grundstok Thunderers",
+      "file": "units/grundstok-thunderers.json"
+    },
+    {
+      "id": "arkanaut-company",
+      "name": "Arkanaut Company",
+      "file": "units/arkanaut-company.json"
+    },
+    {
+      "id": "endrinriggers",
+      "name": "Endrinriggers",
+      "file": "units/endrinriggers.json"
+    },
+    {
+      "id": "skywardens",
+      "name": "Skywardens",
+      "file": "units/skywardens.json"
+    },
+    {
+      "id": "arkanaut-ironclad",
+      "name": "Arkanaut Ironclad",
+      "file": "units/arkanaut-ironclad.json"
+    },
+    {
+      "id": "arkanaut-frigate",
+      "name": "Arkanaut Frigate",
+      "file": "units/arkanaut-frigate.json"
+    },
+    {
+      "id": "thundriks-profiteers",
+      "name": "Thundrik's Profiteers",
+      "file": "units/thundriks-profiteers.json"
+    },
+    {
+      "id": "vongrim-salvagers",
+      "name": "Vongrim Salvagers",
+      "file": "units/vongrim-salvagers.json"
+    },
+    {
+      "id": "vongrim-harpoon-crew",
+      "name": "Vongrim Harpoon Crew",
+      "file": "units/vongrim-harpoon-crew.json"
+    },
+    {
+      "id": "zontari-endrin-dock",
+      "name": "Zontari Endrin Dock",
+      "file": "units/zontari-endrin-dock.json"
+    },
+    {
+      "id": "auto-endrin",
+      "name": "Auto-Endrin",
+      "file": "units/auto-endrin.json"
+    }
   ],
   "heroes": [
-    "aether-khemist",
-    "drekki-flynt",
-    "arkanaut-admiral",
-    "brokk-grungsson-lord-magnate-of-barak-nar",
-    "aetheric-navigator",
-    "endrinmaster-with-endrinharness",
-    "codewright",
-    "endrinmaster-with-dirigible-suit",
-    "null-khemist"
+    {
+      "id": "aether-khemist",
+      "name": "Aether-Khemist",
+      "file": "heroes/aether-khemist.json"
+    },
+    {
+      "id": "drekki-flynt",
+      "name": "Drekki Flynt",
+      "file": "heroes/drekki-flynt.json"
+    },
+    {
+      "id": "arkanaut-admiral",
+      "name": "Arkanaut Admiral",
+      "file": "heroes/arkanaut-admiral.json"
+    },
+    {
+      "id": "brokk-grungsson-lord-magnate-of-barak-nar",
+      "name": "Brokk Grungsson, Lord-Magnate of Barak-Nar",
+      "file": "heroes/brokk-grungsson-lord-magnate-of-barak-nar.json"
+    },
+    {
+      "id": "aetheric-navigator",
+      "name": "Aetheric Navigator",
+      "file": "heroes/aetheric-navigator.json"
+    },
+    {
+      "id": "endrinmaster-with-endrinharness",
+      "name": "Endrinmaster with Endrinharness",
+      "file": "heroes/endrinmaster-with-endrinharness.json"
+    },
+    {
+      "id": "codewright",
+      "name": "Codewright",
+      "file": "heroes/codewright.json"
+    },
+    {
+      "id": "endrinmaster-with-dirigible-suit",
+      "name": "Endrinmaster with Dirigible Suit",
+      "file": "heroes/endrinmaster-with-dirigible-suit.json"
+    },
+    {
+      "id": "null-khemist",
+      "name": "Null-Khemist",
+      "file": "heroes/null-khemist.json"
+    }
   ],
   "terrain": [
-    "zontari-endrin-dock"
+    {
+      "id": "zontari-endrin-dock",
+      "name": "Zontari Endrin Dock",
+      "file": "terrain/zontari-endrin-dock.json"
+    }
   ],
   "enhancements": [
     {

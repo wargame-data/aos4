@@ -33,37 +33,145 @@
     "source": "Lumineth Realm-lords Faction Pack"
   },
   "units": [
-    "vanari-starshard-ballista",
-    "alarith-spirit-of-the-mountain",
-    "vanari-dawnriders",
-    "vanari-auralan-sentinels",
-    "vanari-bladelords",
-    "hurakan-windchargers",
-    "ydrilan-riverblades",
-    "hurakan-spirit-of-the-wind",
-    "alarith-stoneguard",
-    "vanari-auralan-wardens",
-    "shrine-luminor",
-    "myaris-purifiers"
+    {
+      "id": "vanari-starshard-ballista",
+      "name": "Vanari Starshard Ballista",
+      "file": "units/vanari-starshard-ballista.json"
+    },
+    {
+      "id": "alarith-spirit-of-the-mountain",
+      "name": "Alarith Spirit of the Mountain",
+      "file": "units/alarith-spirit-of-the-mountain.json"
+    },
+    {
+      "id": "vanari-dawnriders",
+      "name": "Vanari Dawnriders",
+      "file": "units/vanari-dawnriders.json"
+    },
+    {
+      "id": "vanari-auralan-sentinels",
+      "name": "Vanari Auralan Sentinels",
+      "file": "units/vanari-auralan-sentinels.json"
+    },
+    {
+      "id": "vanari-bladelords",
+      "name": "Vanari Bladelords",
+      "file": "units/vanari-bladelords.json"
+    },
+    {
+      "id": "hurakan-windchargers",
+      "name": "Hurakan Windchargers",
+      "file": "units/hurakan-windchargers.json"
+    },
+    {
+      "id": "ydrilan-riverblades",
+      "name": "Ydrilan Riverblades",
+      "file": "units/ydrilan-riverblades.json"
+    },
+    {
+      "id": "hurakan-spirit-of-the-wind",
+      "name": "Hurakan Spirit of the Wind",
+      "file": "units/hurakan-spirit-of-the-wind.json"
+    },
+    {
+      "id": "alarith-stoneguard",
+      "name": "Alarith Stoneguard",
+      "file": "units/alarith-stoneguard.json"
+    },
+    {
+      "id": "vanari-auralan-wardens",
+      "name": "Vanari Auralan Wardens",
+      "file": "units/vanari-auralan-wardens.json"
+    },
+    {
+      "id": "shrine-luminor",
+      "name": "Shrine Luminor",
+      "file": "units/shrine-luminor.json"
+    },
+    {
+      "id": "myaris-purifiers",
+      "name": "Myari's Purifiers",
+      "file": "units/myaris-purifiers.json"
+    }
   ],
   "heroes": [
-    "ellania-and-ellathor-eclipsian-warsages",
-    "lyrior-uthralle-warden-of-ymetrica",
-    "vanari-lord-regent",
-    "vanari-bannerblade",
-    "scinari-calligrave",
-    "scinari-cathallar",
-    "scinari-loreseeker",
-    "hurakan-windmage",
-    "the-light-of-eltharion",
-    "alarith-stonemage",
-    "archmage-teclis-and-celennar-spirit-of-hysh",
-    "scinari-enlightener",
-    "avalenor-the-stoneheart-king",
-    "sevireth-lord-of-the-seventh-wind"
+    {
+      "id": "ellania-and-ellathor-eclipsian-warsages",
+      "name": "Ellania and Ellathor, Eclipsian Warsages",
+      "file": "heroes/ellania-and-ellathor-eclipsian-warsages.json"
+    },
+    {
+      "id": "lyrior-uthralle-warden-of-ymetrica",
+      "name": "Lyrior Uthralle, Warden of Ymetrica",
+      "file": "heroes/lyrior-uthralle-warden-of-ymetrica.json"
+    },
+    {
+      "id": "vanari-lord-regent",
+      "name": "Vanari Lord Regent",
+      "file": "heroes/vanari-lord-regent.json"
+    },
+    {
+      "id": "vanari-bannerblade",
+      "name": "Vanari Bannerblade",
+      "file": "heroes/vanari-bannerblade.json"
+    },
+    {
+      "id": "scinari-calligrave",
+      "name": "Scinari Calligrave",
+      "file": "heroes/scinari-calligrave.json"
+    },
+    {
+      "id": "scinari-cathallar",
+      "name": "Scinari Cathallar",
+      "file": "heroes/scinari-cathallar.json"
+    },
+    {
+      "id": "scinari-loreseeker",
+      "name": "Scinari Loreseeker",
+      "file": "heroes/scinari-loreseeker.json"
+    },
+    {
+      "id": "hurakan-windmage",
+      "name": "Hurakan Windmage",
+      "file": "heroes/hurakan-windmage.json"
+    },
+    {
+      "id": "the-light-of-eltharion",
+      "name": "The Light of Eltharion",
+      "file": "heroes/the-light-of-eltharion.json"
+    },
+    {
+      "id": "alarith-stonemage",
+      "name": "Alarith Stonemage",
+      "file": "heroes/alarith-stonemage.json"
+    },
+    {
+      "id": "archmage-teclis-and-celennar-spirit-of-hysh",
+      "name": "Archmage Teclis and Celennar, Spirit of Hysh",
+      "file": "heroes/archmage-teclis-and-celennar-spirit-of-hysh.json"
+    },
+    {
+      "id": "scinari-enlightener",
+      "name": "Scinari Enlightener",
+      "file": "heroes/scinari-enlightener.json"
+    },
+    {
+      "id": "avalenor-the-stoneheart-king",
+      "name": "Avalenor, the Stoneheart King",
+      "file": "heroes/avalenor-the-stoneheart-king.json"
+    },
+    {
+      "id": "sevireth-lord-of-the-seventh-wind",
+      "name": "Sevireth, Lord of the Seventh Wind",
+      "file": "heroes/sevireth-lord-of-the-seventh-wind.json"
+    }
   ],
   "terrain": [
-    "shrine-luminor"
+    {
+      "id": "shrine-luminor",
+      "name": "Shrine Luminor",
+      "file": "terrain/shrine-luminor.json"
+    }
   ],
   "enhancements": [
     {

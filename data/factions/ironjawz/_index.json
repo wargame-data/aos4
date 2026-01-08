@@ -33,29 +33,105 @@
     "source": "Ironjawz Faction Pack"
   },
   "units": [
-    "maw-grunta-gougers",
-    "gore-gruntas",
-    "brute-ragerz",
-    "ardboyz",
-    "brutes",
-    "weirdbrute-wrekkaz",
-    "maw-grunta-with-hakkin-krew",
-    "morgoks-krushas",
-    "ironskulls-boyz",
-    "bossrokk-tower"
+    {
+      "id": "maw-grunta-gougers",
+      "name": "Maw-grunta Gougers",
+      "file": "units/maw-grunta-gougers.json"
+    },
+    {
+      "id": "gore-gruntas",
+      "name": "Gore-gruntas",
+      "file": "units/gore-gruntas.json"
+    },
+    {
+      "id": "brute-ragerz",
+      "name": "Brute Ragerz",
+      "file": "units/brute-ragerz.json"
+    },
+    {
+      "id": "ardboyz",
+      "name": "Ardboyz",
+      "file": "units/ardboyz.json"
+    },
+    {
+      "id": "brutes",
+      "name": "Brutes",
+      "file": "units/brutes.json"
+    },
+    {
+      "id": "weirdbrute-wrekkaz",
+      "name": "Weirdbrute Wrekkaz",
+      "file": "units/weirdbrute-wrekkaz.json"
+    },
+    {
+      "id": "maw-grunta-with-hakkin-krew",
+      "name": "Maw-grunta with Hakkin' Krew",
+      "file": "units/maw-grunta-with-hakkin-krew.json"
+    },
+    {
+      "id": "morgoks-krushas",
+      "name": "Morgok's Krushas",
+      "file": "units/morgoks-krushas.json"
+    },
+    {
+      "id": "ironskulls-boyz",
+      "name": "Ironskull's Boyz",
+      "file": "units/ironskulls-boyz.json"
+    },
+    {
+      "id": "bossrokk-tower",
+      "name": "Bossrokk Tower",
+      "file": "units/bossrokk-tower.json"
+    }
   ],
   "heroes": [
-    "weirdnob-shaman",
-    "megaboss-on-maw-krusha",
-    "megaboss",
-    "warchanter",
-    "ardboy-big-boss",
-    "zoggrok-anvilsmasha",
-    "gordrakk-the-fist-of-gork",
-    "tuskboss-on-maw-grunta"
+    {
+      "id": "weirdnob-shaman",
+      "name": "Weirdnob Shaman",
+      "file": "heroes/weirdnob-shaman.json"
+    },
+    {
+      "id": "megaboss-on-maw-krusha",
+      "name": "Megaboss on Maw-krusha",
+      "file": "heroes/megaboss-on-maw-krusha.json"
+    },
+    {
+      "id": "megaboss",
+      "name": "Megaboss",
+      "file": "heroes/megaboss.json"
+    },
+    {
+      "id": "warchanter",
+      "name": "Warchanter",
+      "file": "heroes/warchanter.json"
+    },
+    {
+      "id": "ardboy-big-boss",
+      "name": "Ardboy Big Boss",
+      "file": "heroes/ardboy-big-boss.json"
+    },
+    {
+      "id": "zoggrok-anvilsmasha",
+      "name": "Zoggrok Anvilsmasha",
+      "file": "heroes/zoggrok-anvilsmasha.json"
+    },
+    {
+      "id": "gordrakk-the-fist-of-gork",
+      "name": "Gordrakk, the Fist of Gork",
+      "file": "heroes/gordrakk-the-fist-of-gork.json"
+    },
+    {
+      "id": "tuskboss-on-maw-grunta",
+      "name": "Tuskboss on Maw-grunta",
+      "file": "heroes/tuskboss-on-maw-grunta.json"
+    }
   ],
   "terrain": [
-    "bossrokk-tower"
+    {
+      "id": "bossrokk-tower",
+      "name": "Bossrokk Tower",
+      "file": "terrain/bossrokk-tower.json"
+    }
   ],
   "enhancements": [
     {

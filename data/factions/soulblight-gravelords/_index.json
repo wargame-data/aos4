@@ -38,60 +38,260 @@
     "source": "Soulblight Gravelords Faction Pack"
   },
   "units": [
-    "deathrattle-skeletons",
-    "barrow-knights",
-    "vyrkos-blood-born",
-    "vargskyr",
-    "kosargi-nightguard",
-    "askurgan-trueblades",
-    "blood-knights",
-    "vargheists",
-    "terrorgheist",
-    "corpse-cart",
-    "barrow-guard",
-    "deadwalker-zombies",
-    "fell-bats",
-    "dire-wolves",
-    "zondaras-gravebreakers",
-    "the-crimson-court",
-    "the-exiled-dead",
-    "the-sepulchral-guard",
-    "the-sons-of-velmorn",
-    "revenant-draconith",
-    "cursed-sepulchre"
+    {
+      "id": "deathrattle-skeletons",
+      "name": "Deathrattle Skeletons",
+      "file": "units/deathrattle-skeletons.json"
+    },
+    {
+      "id": "barrow-knights",
+      "name": "Barrow Knights",
+      "file": "units/barrow-knights.json"
+    },
+    {
+      "id": "vyrkos-blood-born",
+      "name": "Vyrkos Blood-born",
+      "file": "units/vyrkos-blood-born.json"
+    },
+    {
+      "id": "vargskyr",
+      "name": "Vargskyr",
+      "file": "units/vargskyr.json"
+    },
+    {
+      "id": "kosargi-nightguard",
+      "name": "Kosargi Nightguard",
+      "file": "units/kosargi-nightguard.json"
+    },
+    {
+      "id": "askurgan-trueblades",
+      "name": "Askurgan Trueblades",
+      "file": "units/askurgan-trueblades.json"
+    },
+    {
+      "id": "blood-knights",
+      "name": "Blood Knights",
+      "file": "units/blood-knights.json"
+    },
+    {
+      "id": "vargheists",
+      "name": "Vargheists",
+      "file": "units/vargheists.json"
+    },
+    {
+      "id": "terrorgheist",
+      "name": "Terrorgheist",
+      "file": "units/terrorgheist.json"
+    },
+    {
+      "id": "corpse-cart",
+      "name": "Corpse Cart",
+      "file": "units/corpse-cart.json"
+    },
+    {
+      "id": "barrow-guard",
+      "name": "Barrow Guard",
+      "file": "units/barrow-guard.json"
+    },
+    {
+      "id": "deadwalker-zombies",
+      "name": "Deadwalker Zombies",
+      "file": "units/deadwalker-zombies.json"
+    },
+    {
+      "id": "fell-bats",
+      "name": "Fell Bats",
+      "file": "units/fell-bats.json"
+    },
+    {
+      "id": "dire-wolves",
+      "name": "Dire Wolves",
+      "file": "units/dire-wolves.json"
+    },
+    {
+      "id": "zondaras-gravebreakers",
+      "name": "Zondara's Gravebreakers",
+      "file": "units/zondaras-gravebreakers.json"
+    },
+    {
+      "id": "the-crimson-court",
+      "name": "The Crimson Court",
+      "file": "units/the-crimson-court.json"
+    },
+    {
+      "id": "the-exiled-dead",
+      "name": "The Exiled Dead",
+      "file": "units/the-exiled-dead.json"
+    },
+    {
+      "id": "the-sepulchral-guard",
+      "name": "The Sepulchral Guard",
+      "file": "units/the-sepulchral-guard.json"
+    },
+    {
+      "id": "the-sons-of-velmorn",
+      "name": "The Sons of Velmorn",
+      "file": "units/the-sons-of-velmorn.json"
+    },
+    {
+      "id": "revenant-draconith",
+      "name": "Revenant Draconith",
+      "file": "units/revenant-draconith.json"
+    },
+    {
+      "id": "cursed-sepulchre",
+      "name": "Cursed Sepulchre",
+      "file": "units/cursed-sepulchre.json"
+    }
   ],
   "heroes": [
-    "neferata-mortarch-of-blood",
-    "mortis-engine",
-    "nagash-supreme-lord-of-the-undead",
-    "mannfred-von-carstein-mortarch-of-night",
-    "radukar-the-beast",
-    "prince-vhordrai",
-    "ivya-volga-the-outcast",
-    "lauka-vai-mother-of-nightmares",
-    "belladamma-volga-first-of-the-vyrkos",
-    "gorslav-the-gravekeeper",
-    "torgillius-the-chamberlain",
-    "watch-captain-halgrim",
-    "radukar-the-wolf",
-    "kritza-the-rat-prince",
-    "lady-annika-the-thirsting-blade",
-    "vengorian-lord",
-    "vampire-lord-on-zombie-dragon",
-    "cado-ezechiar-the-hollow-king",
-    "vampire-lord",
-    "bloodseeker-palanquin",
-    "coven-throne",
-    "wight-king-on-skeletal-steed",
-    "wight-king",
-    "necromancer",
-    "sekhar-fang-of-nulahmia",
-    "wight-lord-on-skeletal-steed",
-    "blades-of-the-hollow-king",
-    "vampire-lord-on-nightmare-steed"
+    {
+      "id": "neferata-mortarch-of-blood",
+      "name": "Neferata, Mortarch of Blood",
+      "file": "heroes/neferata-mortarch-of-blood.json"
+    },
+    {
+      "id": "mortis-engine",
+      "name": "Mortis Engine",
+      "file": "heroes/mortis-engine.json"
+    },
+    {
+      "id": "nagash-supreme-lord-of-the-undead",
+      "name": "Nagash, Supreme Lord of the Undead",
+      "file": "heroes/nagash-supreme-lord-of-the-undead.json"
+    },
+    {
+      "id": "mannfred-von-carstein-mortarch-of-night",
+      "name": "Mannfred von Carstein, Mortarch of Night",
+      "file": "heroes/mannfred-von-carstein-mortarch-of-night.json"
+    },
+    {
+      "id": "radukar-the-beast",
+      "name": "Radukar the Beast",
+      "file": "heroes/radukar-the-beast.json"
+    },
+    {
+      "id": "prince-vhordrai",
+      "name": "Prince Vhordrai",
+      "file": "heroes/prince-vhordrai.json"
+    },
+    {
+      "id": "ivya-volga-the-outcast",
+      "name": "Ivya Volga, the Outcast",
+      "file": "heroes/ivya-volga-the-outcast.json"
+    },
+    {
+      "id": "lauka-vai-mother-of-nightmares",
+      "name": "Lauka Vai, Mother of Nightmares",
+      "file": "heroes/lauka-vai-mother-of-nightmares.json"
+    },
+    {
+      "id": "belladamma-volga-first-of-the-vyrkos",
+      "name": "Belladamma Volga, First of the Vyrkos",
+      "file": "heroes/belladamma-volga-first-of-the-vyrkos.json"
+    },
+    {
+      "id": "gorslav-the-gravekeeper",
+      "name": "Gorslav the Gravekeeper",
+      "file": "heroes/gorslav-the-gravekeeper.json"
+    },
+    {
+      "id": "torgillius-the-chamberlain",
+      "name": "Torgillius the Chamberlain",
+      "file": "heroes/torgillius-the-chamberlain.json"
+    },
+    {
+      "id": "watch-captain-halgrim",
+      "name": "Watch Captain Halgrim",
+      "file": "heroes/watch-captain-halgrim.json"
+    },
+    {
+      "id": "radukar-the-wolf",
+      "name": "Radukar the Wolf",
+      "file": "heroes/radukar-the-wolf.json"
+    },
+    {
+      "id": "kritza-the-rat-prince",
+      "name": "Kritza, the Rat Prince",
+      "file": "heroes/kritza-the-rat-prince.json"
+    },
+    {
+      "id": "lady-annika-the-thirsting-blade",
+      "name": "Lady Annika, the Thirsting Blade",
+      "file": "heroes/lady-annika-the-thirsting-blade.json"
+    },
+    {
+      "id": "vengorian-lord",
+      "name": "Vengorian Lord",
+      "file": "heroes/vengorian-lord.json"
+    },
+    {
+      "id": "vampire-lord-on-zombie-dragon",
+      "name": "Vampire Lord on Zombie Dragon",
+      "file": "heroes/vampire-lord-on-zombie-dragon.json"
+    },
+    {
+      "id": "cado-ezechiar-the-hollow-king",
+      "name": "Cado Ezechiar, the Hollow King",
+      "file": "heroes/cado-ezechiar-the-hollow-king.json"
+    },
+    {
+      "id": "vampire-lord",
+      "name": "Vampire Lord",
+      "file": "heroes/vampire-lord.json"
+    },
+    {
+      "id": "bloodseeker-palanquin",
+      "name": "Bloodseeker Palanquin",
+      "file": "heroes/bloodseeker-palanquin.json"
+    },
+    {
+      "id": "coven-throne",
+      "name": "Coven Throne",
+      "file": "heroes/coven-throne.json"
+    },
+    {
+      "id": "wight-king-on-skeletal-steed",
+      "name": "Wight King on Skeletal Steed",
+      "file": "heroes/wight-king-on-skeletal-steed.json"
+    },
+    {
+      "id": "wight-king",
+      "name": "Wight King",
+      "file": "heroes/wight-king.json"
+    },
+    {
+      "id": "necromancer",
+      "name": "Necromancer",
+      "file": "heroes/necromancer.json"
+    },
+    {
+      "id": "sekhar-fang-of-nulahmia",
+      "name": "Sekhar, Fang of Nulahmia",
+      "file": "heroes/sekhar-fang-of-nulahmia.json"
+    },
+    {
+      "id": "wight-lord-on-skeletal-steed",
+      "name": "Wight Lord on Skeletal Steed",
+      "file": "heroes/wight-lord-on-skeletal-steed.json"
+    },
+    {
+      "id": "blades-of-the-hollow-king",
+      "name": "Blades of the Hollow King",
+      "file": "heroes/blades-of-the-hollow-king.json"
+    },
+    {
+      "id": "vampire-lord-on-nightmare-steed",
+      "name": "Vampire Lord on Nightmare Steed",
+      "file": "heroes/vampire-lord-on-nightmare-steed.json"
+    }
   ],
   "terrain": [
-    "cursed-sepulchre"
+    {
+      "id": "cursed-sepulchre",
+      "name": "Cursed Sepulchre",
+      "file": "terrain/cursed-sepulchre.json"
+    }
   ],
   "enhancements": [
     {

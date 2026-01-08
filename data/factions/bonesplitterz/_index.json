@@ -33,20 +33,68 @@
     "source": "Bonesplitterz Faction Pack"
   },
   "units": [
-    "savage-boarboy-maniaks",
-    "savage-orruk-arrowboys",
-    "savage-big-stabbas",
-    "savage-orruks",
-    "savage-orruk-morboys",
-    "savage-boarboys",
-    "hedkrakkas-madmob"
+    {
+      "id": "savage-boarboy-maniaks",
+      "name": "Savage Boarboy Maniaks",
+      "file": "units/savage-boarboy-maniaks.json"
+    },
+    {
+      "id": "savage-orruk-arrowboys",
+      "name": "Savage Orruk Arrowboys",
+      "file": "units/savage-orruk-arrowboys.json"
+    },
+    {
+      "id": "savage-big-stabbas",
+      "name": "Savage Big Stabbas",
+      "file": "units/savage-big-stabbas.json"
+    },
+    {
+      "id": "savage-orruks",
+      "name": "Savage Orruks",
+      "file": "units/savage-orruks.json"
+    },
+    {
+      "id": "savage-orruk-morboys",
+      "name": "Savage Orruk Morboys",
+      "file": "units/savage-orruk-morboys.json"
+    },
+    {
+      "id": "savage-boarboys",
+      "name": "Savage Boarboys",
+      "file": "units/savage-boarboys.json"
+    },
+    {
+      "id": "hedkrakkas-madmob",
+      "name": "Hedkrakka's Madmob",
+      "file": "units/hedkrakkas-madmob.json"
+    }
   ],
   "heroes": [
-    "wardokk",
-    "wurrgog-prophet",
-    "savage-big-boss",
-    "maniak-weirdnob",
-    "kragnos-the-end-of-empires"
+    {
+      "id": "wardokk",
+      "name": "Wardokk",
+      "file": "heroes/wardokk.json"
+    },
+    {
+      "id": "wurrgog-prophet",
+      "name": "Wurrgog Prophet",
+      "file": "heroes/wurrgog-prophet.json"
+    },
+    {
+      "id": "savage-big-boss",
+      "name": "Savage Big Boss",
+      "file": "heroes/savage-big-boss.json"
+    },
+    {
+      "id": "maniak-weirdnob",
+      "name": "Maniak Weirdnob",
+      "file": "heroes/maniak-weirdnob.json"
+    },
+    {
+      "id": "kragnos-the-end-of-empires",
+      "name": "Kragnos, the End of Empires",
+      "file": "heroes/kragnos-the-end-of-empires.json"
+    }
   ],
   "enhancements": [
     {

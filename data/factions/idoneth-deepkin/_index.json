@@ -33,32 +33,120 @@
     "source": "Idoneth Deepkin Faction Pack"
   },
   "units": [
-    "akhelian-allopex",
-    "akhelian-ishlaen-guard",
-    "akhelian-morrsarr-guard",
-    "akhelian-leviadon",
-    "namarti-thralls",
-    "namarti-reavers",
-    "gloomtide-shipwreck",
-    "cyrenis-razors",
-    "elathains-soulraid"
+    {
+      "id": "akhelian-allopex",
+      "name": "Akhelian Allopex",
+      "file": "units/akhelian-allopex.json"
+    },
+    {
+      "id": "akhelian-ishlaen-guard",
+      "name": "Akhelian Ishlaen Guard",
+      "file": "units/akhelian-ishlaen-guard.json"
+    },
+    {
+      "id": "akhelian-morrsarr-guard",
+      "name": "Akhelian Morrsarr Guard",
+      "file": "units/akhelian-morrsarr-guard.json"
+    },
+    {
+      "id": "akhelian-leviadon",
+      "name": "Akhelian Leviadon",
+      "file": "units/akhelian-leviadon.json"
+    },
+    {
+      "id": "namarti-thralls",
+      "name": "Namarti Thralls",
+      "file": "units/namarti-thralls.json"
+    },
+    {
+      "id": "namarti-reavers",
+      "name": "Namarti Reavers",
+      "file": "units/namarti-reavers.json"
+    },
+    {
+      "id": "gloomtide-shipwreck",
+      "name": "Gloomtide Shipwreck",
+      "file": "units/gloomtide-shipwreck.json"
+    },
+    {
+      "id": "cyrenis-razors",
+      "name": "Cyreni's Razors",
+      "file": "units/cyrenis-razors.json"
+    },
+    {
+      "id": "elathains-soulraid",
+      "name": "Elathain's Soulraid",
+      "file": "units/elathains-soulraid.json"
+    }
   ],
   "heroes": [
-    "lotann-warden-of-the-soul-ledgers",
-    "eidolon-of-mathlann-aspect-of-the-storm",
-    "eidolon-of-mathlann-aspect-of-the-sea",
-    "akhelian-king",
-    "volturnos-high-king-of-the-deep",
-    "isharann-tidecaster",
-    "isharann-soulscryer",
-    "isharann-soulrender",
-    "akhelian-thrallmaster",
-    "ikon-of-the-sea",
-    "mathaela-oracle-of-the-abyss",
-    "ikon-of-the-storm"
+    {
+      "id": "lotann-warden-of-the-soul-ledgers",
+      "name": "Lotann, Warden of the Soul Ledgers",
+      "file": "heroes/lotann-warden-of-the-soul-ledgers.json"
+    },
+    {
+      "id": "eidolon-of-mathlann-aspect-of-the-storm",
+      "name": "Eidolon of Mathlann, Aspect of the Storm",
+      "file": "heroes/eidolon-of-mathlann-aspect-of-the-storm.json"
+    },
+    {
+      "id": "eidolon-of-mathlann-aspect-of-the-sea",
+      "name": "Eidolon of Mathlann, Aspect of the Sea",
+      "file": "heroes/eidolon-of-mathlann-aspect-of-the-sea.json"
+    },
+    {
+      "id": "akhelian-king",
+      "name": "Akhelian King",
+      "file": "heroes/akhelian-king.json"
+    },
+    {
+      "id": "volturnos-high-king-of-the-deep",
+      "name": "Volturnos, High King of the Deep",
+      "file": "heroes/volturnos-high-king-of-the-deep.json"
+    },
+    {
+      "id": "isharann-tidecaster",
+      "name": "Isharann Tidecaster",
+      "file": "heroes/isharann-tidecaster.json"
+    },
+    {
+      "id": "isharann-soulscryer",
+      "name": "Isharann Soulscryer",
+      "file": "heroes/isharann-soulscryer.json"
+    },
+    {
+      "id": "isharann-soulrender",
+      "name": "Isharann Soulrender",
+      "file": "heroes/isharann-soulrender.json"
+    },
+    {
+      "id": "akhelian-thrallmaster",
+      "name": "Akhelian Thrallmaster",
+      "file": "heroes/akhelian-thrallmaster.json"
+    },
+    {
+      "id": "ikon-of-the-sea",
+      "name": "Ikon of the Sea",
+      "file": "heroes/ikon-of-the-sea.json"
+    },
+    {
+      "id": "mathaela-oracle-of-the-abyss",
+      "name": "Mathaela, Oracle of the Abyss",
+      "file": "heroes/mathaela-oracle-of-the-abyss.json"
+    },
+    {
+      "id": "ikon-of-the-storm",
+      "name": "Ikon of the Storm",
+      "file": "heroes/ikon-of-the-storm.json"
+    }
   ],
   "terrain": [
-    "gloomtide-shipwreck"
+    {
+      "id": "gloomtide-shipwreck",
+      "name": "Gloomtide Shipwreck",
+      "file": "terrain/gloomtide-shipwreck.json"
+    }
   ],
   "enhancements": [
     {

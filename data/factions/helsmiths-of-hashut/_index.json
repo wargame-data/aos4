@@ -33,25 +33,93 @@
     "source": "Helsmiths of Hashut Faction Pack"
   },
   "units": [
-    "dominator-engine-with-immolation-cannons",
-    "infernal-razers-with-flamehurlers",
-    "anointed-sentinels",
-    "infernal-cohort-with-hashutite-spears",
-    "hobgrot-vandalz",
-    "infernal-cohort-with-hashutite-blades",
-    "infernal-razers-with-blunderbusses",
-    "bull-centaurs",
-    "deathshrieker-rocket-battery",
-    "tormentor-bombard",
-    "dominator-engine-with-bane-maces",
-    "the-blood-of-the-bull"
+    {
+      "id": "dominator-engine-with-immolation-cannons",
+      "name": "Dominator Engine with Immolation Cannons",
+      "file": "units/dominator-engine-with-immolation-cannons.json"
+    },
+    {
+      "id": "infernal-razers-with-flamehurlers",
+      "name": "Infernal Razers with Flamehurlers",
+      "file": "units/infernal-razers-with-flamehurlers.json"
+    },
+    {
+      "id": "anointed-sentinels",
+      "name": "Anointed Sentinels",
+      "file": "units/anointed-sentinels.json"
+    },
+    {
+      "id": "infernal-cohort-with-hashutite-spears",
+      "name": "Infernal Cohort with Hashutite Spears",
+      "file": "units/infernal-cohort-with-hashutite-spears.json"
+    },
+    {
+      "id": "hobgrot-vandalz",
+      "name": "Hobgrot Vandalz",
+      "file": "units/hobgrot-vandalz.json"
+    },
+    {
+      "id": "infernal-cohort-with-hashutite-blades",
+      "name": "Infernal Cohort with Hashutite Blades",
+      "file": "units/infernal-cohort-with-hashutite-blades.json"
+    },
+    {
+      "id": "infernal-razers-with-blunderbusses",
+      "name": "Infernal Razers with Blunderbusses",
+      "file": "units/infernal-razers-with-blunderbusses.json"
+    },
+    {
+      "id": "bull-centaurs",
+      "name": "Bull Centaurs",
+      "file": "units/bull-centaurs.json"
+    },
+    {
+      "id": "deathshrieker-rocket-battery",
+      "name": "Deathshrieker Rocket Battery",
+      "file": "units/deathshrieker-rocket-battery.json"
+    },
+    {
+      "id": "tormentor-bombard",
+      "name": "Tormentor Bombard",
+      "file": "units/tormentor-bombard.json"
+    },
+    {
+      "id": "dominator-engine-with-bane-maces",
+      "name": "Dominator Engine with Bane Maces",
+      "file": "units/dominator-engine-with-bane-maces.json"
+    },
+    {
+      "id": "the-blood-of-the-bull",
+      "name": "The Blood of the Bull",
+      "file": "units/the-blood-of-the-bull.json"
+    }
   ],
   "heroes": [
-    "urak-taar-the-first-daemonsmith",
-    "daemonsmith-on-infernal-taurus",
-    "daemonsmith",
-    "war-despot",
-    "ashen-elder"
+    {
+      "id": "urak-taar-the-first-daemonsmith",
+      "name": "Urak Taar, the First Daemonsmith",
+      "file": "heroes/urak-taar-the-first-daemonsmith.json"
+    },
+    {
+      "id": "daemonsmith-on-infernal-taurus",
+      "name": "Daemonsmith on Infernal Taurus",
+      "file": "heroes/daemonsmith-on-infernal-taurus.json"
+    },
+    {
+      "id": "daemonsmith",
+      "name": "Daemonsmith",
+      "file": "heroes/daemonsmith.json"
+    },
+    {
+      "id": "war-despot",
+      "name": "War Despot",
+      "file": "heroes/war-despot.json"
+    },
+    {
+      "id": "ashen-elder",
+      "name": "Ashen Elder",
+      "file": "heroes/ashen-elder.json"
+    }
   ],
   "enhancements": [
     {

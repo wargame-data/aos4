@@ -1021,20 +1021,24 @@ async function writeResults(
         loreRefs.push({ id: loreId, name: loreName, file: `/lores/manifestations/${loreId}.json` });
       }
 
-      // Extract unit and hero IDs separately
-      const unitIds: string[] = [];
-      const heroIds: string[] = [];
+      // Build unit and hero references (unified: id, name, file)
+      const unitRefs: { id: string; name: string; file: string }[] = [];
+      const heroRefs: { id: string; name: string; file: string }[] = [];
       for (const unit of result.units) {
         const isHeroUnit = "isWizard" in unit;
         if (isHeroUnit) {
-          heroIds.push(unit.id);
+          heroRefs.push({ id: unit.id, name: unit.name, file: `heroes/${unit.id}.json` });
         } else {
-          unitIds.push(unit.id);
+          unitRefs.push({ id: unit.id, name: unit.name, file: `units/${unit.id}.json` });
         }
       }
 
-      // Extract terrain IDs
-      const terrainIds = result.terrain.map((t) => t.id);
+      // Build terrain references (unified: id, name, file)
+      const terrainRefs = result.terrain.map((t) => ({
+        id: t.id,
+        name: t.name,
+        file: `terrain/${t.id}.json`,
+      }));
 
       // Build enhancement references (unified: id, name, file)
       const enhancementRefs = result.enhancements.map((e) => ({
@@ -1059,15 +1063,15 @@ async function writeResults(
         },
       };
 
-      // Add unit/hero/terrain arrays if not empty
-      if (unitIds.length > 0) {
-        factionData.units = unitIds;
+      // Add unit/hero/terrain references if not empty
+      if (unitRefs.length > 0) {
+        factionData.units = unitRefs;
       }
-      if (heroIds.length > 0) {
-        factionData.heroes = heroIds;
+      if (heroRefs.length > 0) {
+        factionData.heroes = heroRefs;
       }
-      if (terrainIds.length > 0) {
-        factionData.terrain = terrainIds;
+      if (terrainRefs.length > 0) {
+        factionData.terrain = terrainRefs;
       }
 
       // Add enhancement references if not empty

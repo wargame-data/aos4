@@ -33,42 +33,170 @@
     "source": "Nighthaunt Faction Pack"
   },
   "units": [
-    "dreadblade-harrows",
-    "pyregheists",
-    "bladegheist-revenants",
-    "spirit-hosts",
-    "chainrasps",
-    "black-coach",
-    "chainghasts",
-    "grimghast-reapers",
-    "craventhrone-guard",
-    "glaivewraith-stalkers",
-    "myrmourn-banshees",
-    "dreadscythe-harridans",
-    "hexwraiths",
-    "thorns-of-the-briar-queen",
-    "the-headsmens-curse",
-    "nexus-of-grief"
+    {
+      "id": "dreadblade-harrows",
+      "name": "Dreadblade Harrows",
+      "file": "units/dreadblade-harrows.json"
+    },
+    {
+      "id": "pyregheists",
+      "name": "Pyregheists",
+      "file": "units/pyregheists.json"
+    },
+    {
+      "id": "bladegheist-revenants",
+      "name": "Bladegheist Revenants",
+      "file": "units/bladegheist-revenants.json"
+    },
+    {
+      "id": "spirit-hosts",
+      "name": "Spirit Hosts",
+      "file": "units/spirit-hosts.json"
+    },
+    {
+      "id": "chainrasps",
+      "name": "Chainrasps",
+      "file": "units/chainrasps.json"
+    },
+    {
+      "id": "black-coach",
+      "name": "Black Coach",
+      "file": "units/black-coach.json"
+    },
+    {
+      "id": "chainghasts",
+      "name": "Chainghasts",
+      "file": "units/chainghasts.json"
+    },
+    {
+      "id": "grimghast-reapers",
+      "name": "Grimghast Reapers",
+      "file": "units/grimghast-reapers.json"
+    },
+    {
+      "id": "craventhrone-guard",
+      "name": "Craventhrone Guard",
+      "file": "units/craventhrone-guard.json"
+    },
+    {
+      "id": "glaivewraith-stalkers",
+      "name": "Glaivewraith Stalkers",
+      "file": "units/glaivewraith-stalkers.json"
+    },
+    {
+      "id": "myrmourn-banshees",
+      "name": "Myrmourn Banshees",
+      "file": "units/myrmourn-banshees.json"
+    },
+    {
+      "id": "dreadscythe-harridans",
+      "name": "Dreadscythe Harridans",
+      "file": "units/dreadscythe-harridans.json"
+    },
+    {
+      "id": "hexwraiths",
+      "name": "Hexwraiths",
+      "file": "units/hexwraiths.json"
+    },
+    {
+      "id": "thorns-of-the-briar-queen",
+      "name": "Thorns of the Briar Queen",
+      "file": "units/thorns-of-the-briar-queen.json"
+    },
+    {
+      "id": "the-headsmens-curse",
+      "name": "The Headsmen's Curse",
+      "file": "units/the-headsmens-curse.json"
+    },
+    {
+      "id": "nexus-of-grief",
+      "name": "Nexus of Grief",
+      "file": "units/nexus-of-grief.json"
+    }
   ],
   "heroes": [
-    "nagash-supreme-lord-of-the-undead",
-    "reikenor-the-grimhailer",
-    "knight-of-shrouds",
-    "kurdoss-valentian-the-craven-king",
-    "awlrach-the-drowner",
-    "lady-olynder-mortarch-of-grief",
-    "tomb-banshee",
-    "knight-of-shrouds-on-ethereal-steed",
-    "cairn-wraith",
-    "krulghast-cruciator",
-    "lord-executioner",
-    "spirit-torment",
-    "guardian-of-souls",
-    "scriptor-mortis",
-    "lord-vitriolic"
+    {
+      "id": "nagash-supreme-lord-of-the-undead",
+      "name": "Nagash, Supreme Lord of the Undead",
+      "file": "heroes/nagash-supreme-lord-of-the-undead.json"
+    },
+    {
+      "id": "reikenor-the-grimhailer",
+      "name": "Reikenor the Grimhailer",
+      "file": "heroes/reikenor-the-grimhailer.json"
+    },
+    {
+      "id": "knight-of-shrouds",
+      "name": "Knight of Shrouds",
+      "file": "heroes/knight-of-shrouds.json"
+    },
+    {
+      "id": "kurdoss-valentian-the-craven-king",
+      "name": "Kurdoss Valentian, the Craven King",
+      "file": "heroes/kurdoss-valentian-the-craven-king.json"
+    },
+    {
+      "id": "awlrach-the-drowner",
+      "name": "Awlrach the Drowner",
+      "file": "heroes/awlrach-the-drowner.json"
+    },
+    {
+      "id": "lady-olynder-mortarch-of-grief",
+      "name": "Lady Olynder, Mortarch of Grief",
+      "file": "heroes/lady-olynder-mortarch-of-grief.json"
+    },
+    {
+      "id": "tomb-banshee",
+      "name": "Tomb Banshee",
+      "file": "heroes/tomb-banshee.json"
+    },
+    {
+      "id": "knight-of-shrouds-on-ethereal-steed",
+      "name": "Knight of Shrouds on Ethereal Steed",
+      "file": "heroes/knight-of-shrouds-on-ethereal-steed.json"
+    },
+    {
+      "id": "cairn-wraith",
+      "name": "Cairn Wraith",
+      "file": "heroes/cairn-wraith.json"
+    },
+    {
+      "id": "krulghast-cruciator",
+      "name": "Krulghast Cruciator",
+      "file": "heroes/krulghast-cruciator.json"
+    },
+    {
+      "id": "lord-executioner",
+      "name": "Lord Executioner",
+      "file": "heroes/lord-executioner.json"
+    },
+    {
+      "id": "spirit-torment",
+      "name": "Spirit Torment",
+      "file": "heroes/spirit-torment.json"
+    },
+    {
+      "id": "guardian-of-souls",
+      "name": "Guardian of Souls",
+      "file": "heroes/guardian-of-souls.json"
+    },
+    {
+      "id": "scriptor-mortis",
+      "name": "Scriptor Mortis",
+      "file": "heroes/scriptor-mortis.json"
+    },
+    {
+      "id": "lord-vitriolic",
+      "name": "Lord Vitriolic",
+      "file": "heroes/lord-vitriolic.json"
+    }
   ],
   "terrain": [
-    "nexus-of-grief"
+    {
+      "id": "nexus-of-grief",
+      "name": "Nexus of Grief",
+      "file": "terrain/nexus-of-grief.json"
+    }
   ],
   "enhancements": [
     {

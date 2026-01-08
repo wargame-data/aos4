@@ -33,37 +33,153 @@
     "source": "Daughters of Khaine Faction Pack"
   },
   "units": [
-    "avatar-of-khaine",
-    "witch-aelves-with-paired-scians",
-    "khainite-shadowstalkers",
-    "sisters-of-slaughter-with-sacrificial-knives",
-    "sisters-of-slaughter-with-bladed-bucklers",
-    "witch-aelves-with-bladed-bucklers",
-    "doomfire-warlocks",
-    "blood-stalkers",
-    "blood-sisters",
-    "khinerai-heartrenders",
-    "khinerai-lifetakers",
-    "gryselles-arenai",
-    "morgwaeths-blade-coven",
-    "the-shadeborn",
-    "knives-of-the-crone"
+    {
+      "id": "avatar-of-khaine",
+      "name": "Avatar of Khaine",
+      "file": "units/avatar-of-khaine.json"
+    },
+    {
+      "id": "witch-aelves-with-paired-scians",
+      "name": "Witch Aelves with Paired Sciansá",
+      "file": "units/witch-aelves-with-paired-scians.json"
+    },
+    {
+      "id": "khainite-shadowstalkers",
+      "name": "Khainite Shadowstalkers",
+      "file": "units/khainite-shadowstalkers.json"
+    },
+    {
+      "id": "sisters-of-slaughter-with-sacrificial-knives",
+      "name": "Sisters of Slaughter with Sacrificial Knives",
+      "file": "units/sisters-of-slaughter-with-sacrificial-knives.json"
+    },
+    {
+      "id": "sisters-of-slaughter-with-bladed-bucklers",
+      "name": "Sisters of Slaughter with Bladed Bucklers",
+      "file": "units/sisters-of-slaughter-with-bladed-bucklers.json"
+    },
+    {
+      "id": "witch-aelves-with-bladed-bucklers",
+      "name": "Witch Aelves with Bladed Bucklers",
+      "file": "units/witch-aelves-with-bladed-bucklers.json"
+    },
+    {
+      "id": "doomfire-warlocks",
+      "name": "Doomfire Warlocks",
+      "file": "units/doomfire-warlocks.json"
+    },
+    {
+      "id": "blood-stalkers",
+      "name": "Blood Stalkers",
+      "file": "units/blood-stalkers.json"
+    },
+    {
+      "id": "blood-sisters",
+      "name": "Blood Sisters",
+      "file": "units/blood-sisters.json"
+    },
+    {
+      "id": "khinerai-heartrenders",
+      "name": "Khinerai Heartrenders",
+      "file": "units/khinerai-heartrenders.json"
+    },
+    {
+      "id": "khinerai-lifetakers",
+      "name": "Khinerai Lifetakers",
+      "file": "units/khinerai-lifetakers.json"
+    },
+    {
+      "id": "gryselles-arenai",
+      "name": "Gryselle's Arenai",
+      "file": "units/gryselles-arenai.json"
+    },
+    {
+      "id": "morgwaeths-blade-coven",
+      "name": "Morgwaeth's Blade-coven",
+      "file": "units/morgwaeths-blade-coven.json"
+    },
+    {
+      "id": "the-shadeborn",
+      "name": "The Shadeborn",
+      "file": "units/the-shadeborn.json"
+    },
+    {
+      "id": "knives-of-the-crone",
+      "name": "Knives of the Crone",
+      "file": "units/knives-of-the-crone.json"
+    }
   ],
   "heroes": [
-    "hag-queen",
-    "morathi-khaine",
-    "the-shadow-queen",
-    "krethusa-the-croneseer",
-    "bloodwrack-shrine",
-    "melusai-ironscale",
-    "bloodwrack-medusa",
-    "high-gladiatrix",
-    "hag-queen-on-cauldron-of-blood",
-    "slaughter-queen-on-cauldron-of-blood",
-    "slaughter-queen",
-    "maleneth-witchblade",
-    "krethusa-the-croneseer-scourge-of-ghyran",
-    "bloodwrack-shrine-scourge-of-ghyran"
+    {
+      "id": "hag-queen",
+      "name": "Hag Queen",
+      "file": "heroes/hag-queen.json"
+    },
+    {
+      "id": "morathi-khaine",
+      "name": "Morathi-Khaine",
+      "file": "heroes/morathi-khaine.json"
+    },
+    {
+      "id": "the-shadow-queen",
+      "name": "The Shadow Queen",
+      "file": "heroes/the-shadow-queen.json"
+    },
+    {
+      "id": "krethusa-the-croneseer",
+      "name": "Krethusa the Croneseer",
+      "file": "heroes/krethusa-the-croneseer.json"
+    },
+    {
+      "id": "bloodwrack-shrine",
+      "name": "Bloodwrack Shrine",
+      "file": "heroes/bloodwrack-shrine.json"
+    },
+    {
+      "id": "melusai-ironscale",
+      "name": "Melusai Ironscale",
+      "file": "heroes/melusai-ironscale.json"
+    },
+    {
+      "id": "bloodwrack-medusa",
+      "name": "Bloodwrack Medusa",
+      "file": "heroes/bloodwrack-medusa.json"
+    },
+    {
+      "id": "high-gladiatrix",
+      "name": "High Gladiatrix",
+      "file": "heroes/high-gladiatrix.json"
+    },
+    {
+      "id": "hag-queen-on-cauldron-of-blood",
+      "name": "Hag Queen on Cauldron of Blood",
+      "file": "heroes/hag-queen-on-cauldron-of-blood.json"
+    },
+    {
+      "id": "slaughter-queen-on-cauldron-of-blood",
+      "name": "Slaughter Queen on Cauldron of Blood",
+      "file": "heroes/slaughter-queen-on-cauldron-of-blood.json"
+    },
+    {
+      "id": "slaughter-queen",
+      "name": "Slaughter Queen",
+      "file": "heroes/slaughter-queen.json"
+    },
+    {
+      "id": "maleneth-witchblade",
+      "name": "Maleneth Witchblade",
+      "file": "heroes/maleneth-witchblade.json"
+    },
+    {
+      "id": "krethusa-the-croneseer-scourge-of-ghyran",
+      "name": "Krethusa the Croneseer (Scourge of Ghyran)",
+      "file": "heroes/krethusa-the-croneseer-scourge-of-ghyran.json"
+    },
+    {
+      "id": "bloodwrack-shrine-scourge-of-ghyran",
+      "name": "Bloodwrack Shrine (Scourge of Ghyran)",
+      "file": "heroes/bloodwrack-shrine-scourge-of-ghyran.json"
+    }
   ],
   "enhancements": [
     {

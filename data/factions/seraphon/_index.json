@@ -33,46 +33,190 @@
     "source": "Seraphon Faction Pack"
   },
   "units": [
-    "bastiladon-with-solar-engine",
-    "engine-of-the-gods",
-    "terrawings",
-    "aggradon-lancers",
-    "skinks",
-    "saurus-warriors",
-    "ripperdactyl-riders",
-    "raptadon-hunters",
-    "raptadon-chargers",
-    "hunters-of-huanchi-with-starstone-bolas",
-    "hunters-of-huanchi-with-dartpipes",
-    "spawn-of-chotec",
-    "bastiladon-with-ark-of-sotek",
-    "terradon-riders",
-    "stegadon",
-    "realmshaper-engine",
-    "saurus-guard",
-    "kroxigor",
-    "kroxigor-warspawned",
-    "the-starblood-stalkers",
-    "the-jaws-of-itzl"
+    {
+      "id": "bastiladon-with-solar-engine",
+      "name": "Bastiladon with Solar Engine",
+      "file": "units/bastiladon-with-solar-engine.json"
+    },
+    {
+      "id": "engine-of-the-gods",
+      "name": "Engine of the Gods",
+      "file": "units/engine-of-the-gods.json"
+    },
+    {
+      "id": "terrawings",
+      "name": "Terrawings",
+      "file": "units/terrawings.json"
+    },
+    {
+      "id": "aggradon-lancers",
+      "name": "Aggradon Lancers",
+      "file": "units/aggradon-lancers.json"
+    },
+    {
+      "id": "skinks",
+      "name": "Skinks",
+      "file": "units/skinks.json"
+    },
+    {
+      "id": "saurus-warriors",
+      "name": "Saurus Warriors",
+      "file": "units/saurus-warriors.json"
+    },
+    {
+      "id": "ripperdactyl-riders",
+      "name": "Ripperdactyl Riders",
+      "file": "units/ripperdactyl-riders.json"
+    },
+    {
+      "id": "raptadon-hunters",
+      "name": "Raptadon Hunters",
+      "file": "units/raptadon-hunters.json"
+    },
+    {
+      "id": "raptadon-chargers",
+      "name": "Raptadon Chargers",
+      "file": "units/raptadon-chargers.json"
+    },
+    {
+      "id": "hunters-of-huanchi-with-starstone-bolas",
+      "name": "Hunters of Huanchi with Starstone Bolas",
+      "file": "units/hunters-of-huanchi-with-starstone-bolas.json"
+    },
+    {
+      "id": "hunters-of-huanchi-with-dartpipes",
+      "name": "Hunters of Huanchi with Dartpipes",
+      "file": "units/hunters-of-huanchi-with-dartpipes.json"
+    },
+    {
+      "id": "spawn-of-chotec",
+      "name": "Spawn of Chotec",
+      "file": "units/spawn-of-chotec.json"
+    },
+    {
+      "id": "bastiladon-with-ark-of-sotek",
+      "name": "Bastiladon with Ark of Sotek",
+      "file": "units/bastiladon-with-ark-of-sotek.json"
+    },
+    {
+      "id": "terradon-riders",
+      "name": "Terradon Riders",
+      "file": "units/terradon-riders.json"
+    },
+    {
+      "id": "stegadon",
+      "name": "Stegadon",
+      "file": "units/stegadon.json"
+    },
+    {
+      "id": "realmshaper-engine",
+      "name": "Realmshaper Engine",
+      "file": "units/realmshaper-engine.json"
+    },
+    {
+      "id": "saurus-guard",
+      "name": "Saurus Guard",
+      "file": "units/saurus-guard.json"
+    },
+    {
+      "id": "kroxigor",
+      "name": "Kroxigor",
+      "file": "units/kroxigor.json"
+    },
+    {
+      "id": "kroxigor-warspawned",
+      "name": "Kroxigor Warspawned",
+      "file": "units/kroxigor-warspawned.json"
+    },
+    {
+      "id": "the-starblood-stalkers",
+      "name": "The Starblood Stalkers",
+      "file": "units/the-starblood-stalkers.json"
+    },
+    {
+      "id": "the-jaws-of-itzl",
+      "name": "The Jaws of Itzl",
+      "file": "units/the-jaws-of-itzl.json"
+    }
   ],
   "heroes": [
-    "lord-kroak",
-    "ripperdactyl-chief",
-    "skink-oracle-on-troglodon",
-    "slann-starmaster",
-    "saurus-scar-veteran-on-aggradon",
-    "saurus-astrolith-bearer",
-    "skink-starseer",
-    "terradon-chief",
-    "stegadon-chief",
-    "skink-starpriest",
-    "saurus-oldblood-on-carnosaur",
-    "saurus-scar-veteran-on-carnosaur",
-    "saurus-oldblood",
-    "sunblood-pack"
+    {
+      "id": "lord-kroak",
+      "name": "Lord Kroak",
+      "file": "heroes/lord-kroak.json"
+    },
+    {
+      "id": "ripperdactyl-chief",
+      "name": "Ripperdactyl Chief",
+      "file": "heroes/ripperdactyl-chief.json"
+    },
+    {
+      "id": "skink-oracle-on-troglodon",
+      "name": "Skink Oracle on Troglodon",
+      "file": "heroes/skink-oracle-on-troglodon.json"
+    },
+    {
+      "id": "slann-starmaster",
+      "name": "Slann Starmaster",
+      "file": "heroes/slann-starmaster.json"
+    },
+    {
+      "id": "saurus-scar-veteran-on-aggradon",
+      "name": "Saurus Scar-Veteran on Aggradon",
+      "file": "heroes/saurus-scar-veteran-on-aggradon.json"
+    },
+    {
+      "id": "saurus-astrolith-bearer",
+      "name": "Saurus Astrolith Bearer",
+      "file": "heroes/saurus-astrolith-bearer.json"
+    },
+    {
+      "id": "skink-starseer",
+      "name": "Skink Starseer",
+      "file": "heroes/skink-starseer.json"
+    },
+    {
+      "id": "terradon-chief",
+      "name": "Terradon Chief",
+      "file": "heroes/terradon-chief.json"
+    },
+    {
+      "id": "stegadon-chief",
+      "name": "Stegadon Chief",
+      "file": "heroes/stegadon-chief.json"
+    },
+    {
+      "id": "skink-starpriest",
+      "name": "Skink Starpriest",
+      "file": "heroes/skink-starpriest.json"
+    },
+    {
+      "id": "saurus-oldblood-on-carnosaur",
+      "name": "Saurus Oldblood on Carnosaur",
+      "file": "heroes/saurus-oldblood-on-carnosaur.json"
+    },
+    {
+      "id": "saurus-scar-veteran-on-carnosaur",
+      "name": "Saurus Scar-Veteran on Carnosaur",
+      "file": "heroes/saurus-scar-veteran-on-carnosaur.json"
+    },
+    {
+      "id": "saurus-oldblood",
+      "name": "Saurus Oldblood",
+      "file": "heroes/saurus-oldblood.json"
+    },
+    {
+      "id": "sunblood-pack",
+      "name": "Sunblood Pack",
+      "file": "heroes/sunblood-pack.json"
+    }
   ],
   "terrain": [
-    "realmshaper-engine"
+    {
+      "id": "realmshaper-engine",
+      "name": "Realmshaper Engine",
+      "file": "terrain/realmshaper-engine.json"
+    }
   ],
   "enhancements": [
     {

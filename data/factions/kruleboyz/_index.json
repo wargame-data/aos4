@@ -33,30 +33,110 @@
     "source": "Kruleboyz Faction Pack"
   },
   "units": [
-    "marshcrawla-sloggoth",
-    "kruleboyz-monsta-killaz",
-    "man-skewer-boltboyz",
-    "beast-skewer-killbow",
-    "gutrippaz",
-    "hobgrot-slittaz",
-    "daggoks-stab-ladz",
-    "da-kunnin-krew",
-    "skaregob-totem"
+    {
+      "id": "marshcrawla-sloggoth",
+      "name": "Marshcrawla Sloggoth",
+      "file": "units/marshcrawla-sloggoth.json"
+    },
+    {
+      "id": "kruleboyz-monsta-killaz",
+      "name": "Kruleboyz Monsta-killaz",
+      "file": "units/kruleboyz-monsta-killaz.json"
+    },
+    {
+      "id": "man-skewer-boltboyz",
+      "name": "Man-skewer Boltboyz",
+      "file": "units/man-skewer-boltboyz.json"
+    },
+    {
+      "id": "beast-skewer-killbow",
+      "name": "Beast-skewer Killbow",
+      "file": "units/beast-skewer-killbow.json"
+    },
+    {
+      "id": "gutrippaz",
+      "name": "Gutrippaz",
+      "file": "units/gutrippaz.json"
+    },
+    {
+      "id": "hobgrot-slittaz",
+      "name": "Hobgrot Slittaz",
+      "file": "units/hobgrot-slittaz.json"
+    },
+    {
+      "id": "daggoks-stab-ladz",
+      "name": "Daggok's Stab-ladz",
+      "file": "units/daggoks-stab-ladz.json"
+    },
+    {
+      "id": "da-kunnin-krew",
+      "name": "Da Kunnin' Krew",
+      "file": "units/da-kunnin-krew.json"
+    },
+    {
+      "id": "skaregob-totem",
+      "name": "Skaregob Totem",
+      "file": "units/skaregob-totem.json"
+    }
   ],
   "heroes": [
-    "gobsprakk-the-mouth-of-mork",
-    "killaboss-on-corpse-rippa-vulcha",
-    "killaboss-on-great-gnashtoof",
-    "killaboss-with-stab-grot",
-    "murknob-with-belcha-banna",
-    "swampcalla-shaman-with-pot-grot",
-    "swampboss-skumdrekk",
-    "breaka-boss-on-mirebrute-troggoth",
-    "snatchaboss-on-sludgeraker-beast",
-    "hobgrot-slittaboss"
+    {
+      "id": "gobsprakk-the-mouth-of-mork",
+      "name": "Gobsprakk, the Mouth of Mork",
+      "file": "heroes/gobsprakk-the-mouth-of-mork.json"
+    },
+    {
+      "id": "killaboss-on-corpse-rippa-vulcha",
+      "name": "Killaboss on Corpse-rippa Vulcha",
+      "file": "heroes/killaboss-on-corpse-rippa-vulcha.json"
+    },
+    {
+      "id": "killaboss-on-great-gnashtoof",
+      "name": "Killaboss on Great Gnashtoof",
+      "file": "heroes/killaboss-on-great-gnashtoof.json"
+    },
+    {
+      "id": "killaboss-with-stab-grot",
+      "name": "Killaboss with Stab-grot",
+      "file": "heroes/killaboss-with-stab-grot.json"
+    },
+    {
+      "id": "murknob-with-belcha-banna",
+      "name": "Murknob with Belcha-banna",
+      "file": "heroes/murknob-with-belcha-banna.json"
+    },
+    {
+      "id": "swampcalla-shaman-with-pot-grot",
+      "name": "Swampcalla Shaman with Pot-grot",
+      "file": "heroes/swampcalla-shaman-with-pot-grot.json"
+    },
+    {
+      "id": "swampboss-skumdrekk",
+      "name": "Swampboss Skumdrekk",
+      "file": "heroes/swampboss-skumdrekk.json"
+    },
+    {
+      "id": "breaka-boss-on-mirebrute-troggoth",
+      "name": "Breaka-boss on Mirebrute Troggoth",
+      "file": "heroes/breaka-boss-on-mirebrute-troggoth.json"
+    },
+    {
+      "id": "snatchaboss-on-sludgeraker-beast",
+      "name": "Snatchaboss on Sludgeraker Beast",
+      "file": "heroes/snatchaboss-on-sludgeraker-beast.json"
+    },
+    {
+      "id": "hobgrot-slittaboss",
+      "name": "Hobgrot Slittaboss",
+      "file": "heroes/hobgrot-slittaboss.json"
+    }
   ],
   "terrain": [
-    "skaregob-totem"
+    {
+      "id": "skaregob-totem",
+      "name": "Skaregob Totem",
+      "file": "terrain/skaregob-totem.json"
+    }
   ],
   "enhancements": [
     {

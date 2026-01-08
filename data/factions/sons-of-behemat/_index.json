@@ -33,16 +33,48 @@
     "source": "Sons of Behemat Faction Pack"
   },
   "units": [
-    "mancrusher-mob",
-    "mancrusher-gargant"
+    {
+      "id": "mancrusher-mob",
+      "name": "Mancrusher Mob",
+      "file": "units/mancrusher-mob.json"
+    },
+    {
+      "id": "mancrusher-gargant",
+      "name": "Mancrusher Gargant",
+      "file": "units/mancrusher-gargant.json"
+    }
   ],
   "heroes": [
-    "kragnos-the-end-of-empires",
-    "king-brodd",
-    "beast-smasher-mega-gargant",
-    "gatebreaker-mega-gargant",
-    "kraken-eater-mega-gargant",
-    "warstomper-mega-gargant"
+    {
+      "id": "kragnos-the-end-of-empires",
+      "name": "Kragnos, the End of Empires",
+      "file": "heroes/kragnos-the-end-of-empires.json"
+    },
+    {
+      "id": "king-brodd",
+      "name": "King Brodd",
+      "file": "heroes/king-brodd.json"
+    },
+    {
+      "id": "beast-smasher-mega-gargant",
+      "name": "Beast-smasher Mega-Gargant",
+      "file": "heroes/beast-smasher-mega-gargant.json"
+    },
+    {
+      "id": "gatebreaker-mega-gargant",
+      "name": "Gatebreaker Mega-Gargant",
+      "file": "heroes/gatebreaker-mega-gargant.json"
+    },
+    {
+      "id": "kraken-eater-mega-gargant",
+      "name": "Kraken-eater Mega-Gargant",
+      "file": "heroes/kraken-eater-mega-gargant.json"
+    },
+    {
+      "id": "warstomper-mega-gargant",
+      "name": "Warstomper Mega-Gargant",
+      "file": "heroes/warstomper-mega-gargant.json"
+    }
   ],
   "enhancements": [
     {

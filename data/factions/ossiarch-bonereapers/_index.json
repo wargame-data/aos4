@@ -33,32 +33,120 @@
     "source": "Ossiarch Bonereapers Faction Pack"
   },
   "units": [
-    "mortek-guard",
-    "teratic-cohort",
-    "immortis-guard",
-    "necropolis-stalkers",
-    "mortek-crawler",
-    "kavalos-deathriders",
-    "gothizzar-harvester",
-    "morghast-archai",
-    "morghast-harbingers",
-    "bone-tithe-nexus",
-    "kainans-reapers"
+    {
+      "id": "mortek-guard",
+      "name": "Mortek Guard",
+      "file": "units/mortek-guard.json"
+    },
+    {
+      "id": "teratic-cohort",
+      "name": "Teratic Cohort",
+      "file": "units/teratic-cohort.json"
+    },
+    {
+      "id": "immortis-guard",
+      "name": "Immortis Guard",
+      "file": "units/immortis-guard.json"
+    },
+    {
+      "id": "necropolis-stalkers",
+      "name": "Necropolis Stalkers",
+      "file": "units/necropolis-stalkers.json"
+    },
+    {
+      "id": "mortek-crawler",
+      "name": "Mortek Crawler",
+      "file": "units/mortek-crawler.json"
+    },
+    {
+      "id": "kavalos-deathriders",
+      "name": "Kavalos Deathriders",
+      "file": "units/kavalos-deathriders.json"
+    },
+    {
+      "id": "gothizzar-harvester",
+      "name": "Gothizzar Harvester",
+      "file": "units/gothizzar-harvester.json"
+    },
+    {
+      "id": "morghast-archai",
+      "name": "Morghast Archai",
+      "file": "units/morghast-archai.json"
+    },
+    {
+      "id": "morghast-harbingers",
+      "name": "Morghast Harbingers",
+      "file": "units/morghast-harbingers.json"
+    },
+    {
+      "id": "bone-tithe-nexus",
+      "name": "Bone-tithe Nexus",
+      "file": "units/bone-tithe-nexus.json"
+    },
+    {
+      "id": "kainans-reapers",
+      "name": "Kainan's Reapers",
+      "file": "units/kainans-reapers.json"
+    }
   ],
   "heroes": [
-    "vokmortian-master-of-the-bone-tithe",
-    "mortisan-boneshaper",
-    "nagash-supreme-lord-of-the-undead",
-    "katakros-mortarch-of-the-necropolis",
-    "arkhan-the-black-mortarch-of-sacrament",
-    "arch-kavalos-zandtos",
-    "mortisan-ossifector",
-    "mortisan-soulreaper",
-    "mortisan-soulmason",
-    "liege-kavalos"
+    {
+      "id": "vokmortian-master-of-the-bone-tithe",
+      "name": "Vokmortian, Master of the Bone-tithe",
+      "file": "heroes/vokmortian-master-of-the-bone-tithe.json"
+    },
+    {
+      "id": "mortisan-boneshaper",
+      "name": "Mortisan Boneshaper",
+      "file": "heroes/mortisan-boneshaper.json"
+    },
+    {
+      "id": "nagash-supreme-lord-of-the-undead",
+      "name": "Nagash, Supreme Lord of the Undead",
+      "file": "heroes/nagash-supreme-lord-of-the-undead.json"
+    },
+    {
+      "id": "katakros-mortarch-of-the-necropolis",
+      "name": "Katakros, Mortarch of the Necropolis",
+      "file": "heroes/katakros-mortarch-of-the-necropolis.json"
+    },
+    {
+      "id": "arkhan-the-black-mortarch-of-sacrament",
+      "name": "Arkhan the Black, Mortarch of Sacrament",
+      "file": "heroes/arkhan-the-black-mortarch-of-sacrament.json"
+    },
+    {
+      "id": "arch-kavalos-zandtos",
+      "name": "Arch-Kavalos Zandtos",
+      "file": "heroes/arch-kavalos-zandtos.json"
+    },
+    {
+      "id": "mortisan-ossifector",
+      "name": "Mortisan Ossifector",
+      "file": "heroes/mortisan-ossifector.json"
+    },
+    {
+      "id": "mortisan-soulreaper",
+      "name": "Mortisan Soulreaper",
+      "file": "heroes/mortisan-soulreaper.json"
+    },
+    {
+      "id": "mortisan-soulmason",
+      "name": "Mortisan Soulmason",
+      "file": "heroes/mortisan-soulmason.json"
+    },
+    {
+      "id": "liege-kavalos",
+      "name": "Liege-Kavalos",
+      "file": "heroes/liege-kavalos.json"
+    }
   ],
   "terrain": [
-    "bone-tithe-nexus"
+    {
+      "id": "bone-tithe-nexus",
+      "name": "Bone-tithe Nexus",
+      "file": "terrain/bone-tithe-nexus.json"
+    }
   ],
   "enhancements": [
     {

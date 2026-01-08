@@ -33,38 +33,158 @@
     "source": "Disciples of Tzeentch Faction Pack"
   },
   "units": [
-    "chaos-spawn-of-tzeentch",
-    "burning-chariot-of-tzeentch",
-    "flamers-of-tzeentch",
-    "jade-obelisk",
-    "exalted-flamer-of-tzeentch",
-    "tzaangor-enlightened",
-    "blue-horrors-and-brimstone-horrors",
-    "screamers-of-tzeentch",
-    "pink-horrors",
-    "tzaangor-skyfires",
-    "tzaangor-enlightened-on-discs-of-tzeentch",
-    "tzaangors",
-    "kairic-acolytes",
-    "eyes-of-the-nine",
-    "ephilims-pandaemonium"
+    {
+      "id": "chaos-spawn-of-tzeentch",
+      "name": "Chaos Spawn of Tzeentch",
+      "file": "units/chaos-spawn-of-tzeentch.json"
+    },
+    {
+      "id": "burning-chariot-of-tzeentch",
+      "name": "Burning Chariot of Tzeentch",
+      "file": "units/burning-chariot-of-tzeentch.json"
+    },
+    {
+      "id": "flamers-of-tzeentch",
+      "name": "Flamers of Tzeentch",
+      "file": "units/flamers-of-tzeentch.json"
+    },
+    {
+      "id": "jade-obelisk",
+      "name": "Jade Obelisk",
+      "file": "units/jade-obelisk.json"
+    },
+    {
+      "id": "exalted-flamer-of-tzeentch",
+      "name": "Exalted Flamer of Tzeentch",
+      "file": "units/exalted-flamer-of-tzeentch.json"
+    },
+    {
+      "id": "tzaangor-enlightened",
+      "name": "Tzaangor Enlightened",
+      "file": "units/tzaangor-enlightened.json"
+    },
+    {
+      "id": "blue-horrors-and-brimstone-horrors",
+      "name": "Blue Horrors and Brimstone Horrors",
+      "file": "units/blue-horrors-and-brimstone-horrors.json"
+    },
+    {
+      "id": "screamers-of-tzeentch",
+      "name": "Screamers of Tzeentch",
+      "file": "units/screamers-of-tzeentch.json"
+    },
+    {
+      "id": "pink-horrors",
+      "name": "Pink Horrors",
+      "file": "units/pink-horrors.json"
+    },
+    {
+      "id": "tzaangor-skyfires",
+      "name": "Tzaangor Skyfires",
+      "file": "units/tzaangor-skyfires.json"
+    },
+    {
+      "id": "tzaangor-enlightened-on-discs-of-tzeentch",
+      "name": "Tzaangor Enlightened on Discs of Tzeentch",
+      "file": "units/tzaangor-enlightened-on-discs-of-tzeentch.json"
+    },
+    {
+      "id": "tzaangors",
+      "name": "Tzaangors",
+      "file": "units/tzaangors.json"
+    },
+    {
+      "id": "kairic-acolytes",
+      "name": "Kairic Acolytes",
+      "file": "units/kairic-acolytes.json"
+    },
+    {
+      "id": "eyes-of-the-nine",
+      "name": "Eyes of the Nine",
+      "file": "units/eyes-of-the-nine.json"
+    },
+    {
+      "id": "ephilims-pandaemonium",
+      "name": "Ephilim's Pandaemonium",
+      "file": "units/ephilims-pandaemonium.json"
+    }
   ],
   "heroes": [
-    "kairos-fateweaver",
-    "lord-of-change",
-    "the-changeling",
-    "curseling-eye-of-tzeentch",
-    "fateskimmer-herald-of-tzeentch-on-burning-chariot",
-    "changecaster-herald-of-tzeentch",
-    "ogroid-thaumaturge",
-    "gaunt-summoner-on-disc-of-tzeentch",
-    "gaunt-summoner",
-    "tzaangor-shaman",
-    "magister",
-    "magister-on-disc-of-tzeentch",
-    "the-blue-scribes",
-    "fluxmaster-herald-of-tzeentch-on-disc",
-    "fatemaster"
+    {
+      "id": "kairos-fateweaver",
+      "name": "Kairos Fateweaver",
+      "file": "heroes/kairos-fateweaver.json"
+    },
+    {
+      "id": "lord-of-change",
+      "name": "Lord of Change",
+      "file": "heroes/lord-of-change.json"
+    },
+    {
+      "id": "the-changeling",
+      "name": "The Changeling",
+      "file": "heroes/the-changeling.json"
+    },
+    {
+      "id": "curseling-eye-of-tzeentch",
+      "name": "Curseling, Eye of Tzeentch",
+      "file": "heroes/curseling-eye-of-tzeentch.json"
+    },
+    {
+      "id": "fateskimmer-herald-of-tzeentch-on-burning-chariot",
+      "name": "Fateskimmer, Herald of Tzeentch on Burning Chariot",
+      "file": "heroes/fateskimmer-herald-of-tzeentch-on-burning-chariot.json"
+    },
+    {
+      "id": "changecaster-herald-of-tzeentch",
+      "name": "Changecaster, Herald of Tzeentch",
+      "file": "heroes/changecaster-herald-of-tzeentch.json"
+    },
+    {
+      "id": "ogroid-thaumaturge",
+      "name": "Ogroid Thaumaturge",
+      "file": "heroes/ogroid-thaumaturge.json"
+    },
+    {
+      "id": "gaunt-summoner-on-disc-of-tzeentch",
+      "name": "Gaunt Summoner on Disc of Tzeentch",
+      "file": "heroes/gaunt-summoner-on-disc-of-tzeentch.json"
+    },
+    {
+      "id": "gaunt-summoner",
+      "name": "Gaunt Summoner",
+      "file": "heroes/gaunt-summoner.json"
+    },
+    {
+      "id": "tzaangor-shaman",
+      "name": "Tzaangor Shaman",
+      "file": "heroes/tzaangor-shaman.json"
+    },
+    {
+      "id": "magister",
+      "name": "Magister",
+      "file": "heroes/magister.json"
+    },
+    {
+      "id": "magister-on-disc-of-tzeentch",
+      "name": "Magister on Disc of Tzeentch",
+      "file": "heroes/magister-on-disc-of-tzeentch.json"
+    },
+    {
+      "id": "the-blue-scribes",
+      "name": "The Blue Scribes",
+      "file": "heroes/the-blue-scribes.json"
+    },
+    {
+      "id": "fluxmaster-herald-of-tzeentch-on-disc",
+      "name": "Fluxmaster, Herald of Tzeentch on Disc",
+      "file": "heroes/fluxmaster-herald-of-tzeentch-on-disc.json"
+    },
+    {
+      "id": "fatemaster",
+      "name": "Fatemaster",
+      "file": "heroes/fatemaster.json"
+    }
   ],
   "enhancements": [
     {

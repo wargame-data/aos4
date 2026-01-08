@@ -33,39 +33,155 @@
     "source": "Maggotkin of Nurgle Faction Pack"
   },
   "units": [
-    "beasts-of-nurgle",
-    "putrid-blightkings",
-    "nurglings",
-    "pusgoyle-blightlords",
-    "plague-drones",
-    "rotmire-creed",
-    "plaguebearers",
-    "feculent-gnarlmaw",
-    "the-wurmspat",
-    "grandfathers-gardeners"
+    {
+      "id": "beasts-of-nurgle",
+      "name": "Beasts of Nurgle",
+      "file": "units/beasts-of-nurgle.json"
+    },
+    {
+      "id": "putrid-blightkings",
+      "name": "Putrid Blightkings",
+      "file": "units/putrid-blightkings.json"
+    },
+    {
+      "id": "nurglings",
+      "name": "Nurglings",
+      "file": "units/nurglings.json"
+    },
+    {
+      "id": "pusgoyle-blightlords",
+      "name": "Pusgoyle Blightlords",
+      "file": "units/pusgoyle-blightlords.json"
+    },
+    {
+      "id": "plague-drones",
+      "name": "Plague Drones",
+      "file": "units/plague-drones.json"
+    },
+    {
+      "id": "rotmire-creed",
+      "name": "Rotmire Creed",
+      "file": "units/rotmire-creed.json"
+    },
+    {
+      "id": "plaguebearers",
+      "name": "Plaguebearers",
+      "file": "units/plaguebearers.json"
+    },
+    {
+      "id": "feculent-gnarlmaw",
+      "name": "Feculent Gnarlmaw",
+      "file": "units/feculent-gnarlmaw.json"
+    },
+    {
+      "id": "the-wurmspat",
+      "name": "The Wurmspat",
+      "file": "units/the-wurmspat.json"
+    },
+    {
+      "id": "grandfathers-gardeners",
+      "name": "Grandfather's Gardeners",
+      "file": "units/grandfathers-gardeners.json"
+    }
   ],
   "heroes": [
-    "horticulous-slimux",
-    "lord-of-plagues",
-    "great-unclean-one",
-    "the-glottkin",
-    "spoilpox-scrivener-herald-of-nurgle",
-    "sloppity-bilepiper-herald-of-nurgle",
-    "rotigus",
-    "gutrot-spume",
-    "morbidex-twiceborn",
-    "bloab-rotspawned",
-    "poxbringer-herald-of-nurgle",
-    "orghotts-daemonspew",
-    "rotbringer-sorcerer",
-    "lord-of-afflictions",
-    "harbinger-of-decay",
-    "lord-of-blights",
-    "epidemius-tallyman-of-nurgle",
-    "festus-the-leechlord"
+    {
+      "id": "horticulous-slimux",
+      "name": "Horticulous Slimux",
+      "file": "heroes/horticulous-slimux.json"
+    },
+    {
+      "id": "lord-of-plagues",
+      "name": "Lord of Plagues",
+      "file": "heroes/lord-of-plagues.json"
+    },
+    {
+      "id": "great-unclean-one",
+      "name": "Great Unclean One",
+      "file": "heroes/great-unclean-one.json"
+    },
+    {
+      "id": "the-glottkin",
+      "name": "The Glottkin",
+      "file": "heroes/the-glottkin.json"
+    },
+    {
+      "id": "spoilpox-scrivener-herald-of-nurgle",
+      "name": "Spoilpox Scrivener, Herald of Nurgle",
+      "file": "heroes/spoilpox-scrivener-herald-of-nurgle.json"
+    },
+    {
+      "id": "sloppity-bilepiper-herald-of-nurgle",
+      "name": "Sloppity Bilepiper, Herald of Nurgle",
+      "file": "heroes/sloppity-bilepiper-herald-of-nurgle.json"
+    },
+    {
+      "id": "rotigus",
+      "name": "Rotigus",
+      "file": "heroes/rotigus.json"
+    },
+    {
+      "id": "gutrot-spume",
+      "name": "Gutrot Spume",
+      "file": "heroes/gutrot-spume.json"
+    },
+    {
+      "id": "morbidex-twiceborn",
+      "name": "Morbidex Twiceborn",
+      "file": "heroes/morbidex-twiceborn.json"
+    },
+    {
+      "id": "bloab-rotspawned",
+      "name": "Bloab Rotspawned",
+      "file": "heroes/bloab-rotspawned.json"
+    },
+    {
+      "id": "poxbringer-herald-of-nurgle",
+      "name": "Poxbringer, Herald of Nurgle",
+      "file": "heroes/poxbringer-herald-of-nurgle.json"
+    },
+    {
+      "id": "orghotts-daemonspew",
+      "name": "Orghotts Daemonspew",
+      "file": "heroes/orghotts-daemonspew.json"
+    },
+    {
+      "id": "rotbringer-sorcerer",
+      "name": "Rotbringer Sorcerer",
+      "file": "heroes/rotbringer-sorcerer.json"
+    },
+    {
+      "id": "lord-of-afflictions",
+      "name": "Lord of Afflictions",
+      "file": "heroes/lord-of-afflictions.json"
+    },
+    {
+      "id": "harbinger-of-decay",
+      "name": "Harbinger of Decay",
+      "file": "heroes/harbinger-of-decay.json"
+    },
+    {
+      "id": "lord-of-blights",
+      "name": "Lord of Blights",
+      "file": "heroes/lord-of-blights.json"
+    },
+    {
+      "id": "epidemius-tallyman-of-nurgle",
+      "name": "Epidemius, Tallyman of Nurgle",
+      "file": "heroes/epidemius-tallyman-of-nurgle.json"
+    },
+    {
+      "id": "festus-the-leechlord",
+      "name": "Festus the Leechlord",
+      "file": "heroes/festus-the-leechlord.json"
+    }
   ],
   "terrain": [
-    "feculent-gnarlmaw"
+    {
+      "id": "feculent-gnarlmaw",
+      "name": "Feculent Gnarlmaw",
+      "file": "terrain/feculent-gnarlmaw.json"
+    }
   ],
   "enhancements": [
     {

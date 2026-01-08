@@ -33,70 +33,310 @@
     "source": "Slaves to Darkness Faction Pack"
   },
   "units": [
-    "varanguard",
-    "ogroid-theridons",
-    "soul-grinder",
-    "gorebeast-chariot",
-    "chaos-chariot",
-    "darkoath-savagers",
-    "chaos-knights",
-    "chaos-spawn",
-    "slaughterbrute",
-    "fomoroid-crusher",
-    "chaos-legionnaires",
-    "chaos-furies",
-    "chaos-chosen",
-    "raptoryx",
-    "mutalith-vortex-beast",
-    "mindstealer-sphiranx",
-    "nexus-chaotica",
-    "darkoath-wilderfiend",
-    "chaos-warriors",
-    "darkoath-marauders",
-    "darkoath-fellriders",
-    "the-oathsworn-kin",
-    "horns-of-hashut",
-    "corvus-cabal",
-    "cypher-lords",
-    "iron-golem",
-    "splintered-fang",
-    "scions-of-the-flame",
-    "spire-tyrants",
-    "tarantulos-brood",
-    "the-unmade",
-    "untamed-beasts",
-    "godsworn-hunt",
-    "khagras-ravagers",
-    "the-gnarlspirit-pack"
+    {
+      "id": "varanguard",
+      "name": "Varanguard",
+      "file": "units/varanguard.json"
+    },
+    {
+      "id": "ogroid-theridons",
+      "name": "Ogroid Theridons",
+      "file": "units/ogroid-theridons.json"
+    },
+    {
+      "id": "soul-grinder",
+      "name": "Soul Grinder",
+      "file": "units/soul-grinder.json"
+    },
+    {
+      "id": "gorebeast-chariot",
+      "name": "Gorebeast Chariot",
+      "file": "units/gorebeast-chariot.json"
+    },
+    {
+      "id": "chaos-chariot",
+      "name": "Chaos Chariot",
+      "file": "units/chaos-chariot.json"
+    },
+    {
+      "id": "darkoath-savagers",
+      "name": "Darkoath Savagers",
+      "file": "units/darkoath-savagers.json"
+    },
+    {
+      "id": "chaos-knights",
+      "name": "Chaos Knights",
+      "file": "units/chaos-knights.json"
+    },
+    {
+      "id": "chaos-spawn",
+      "name": "Chaos Spawn",
+      "file": "units/chaos-spawn.json"
+    },
+    {
+      "id": "slaughterbrute",
+      "name": "Slaughterbrute",
+      "file": "units/slaughterbrute.json"
+    },
+    {
+      "id": "fomoroid-crusher",
+      "name": "Fomoroid Crusher",
+      "file": "units/fomoroid-crusher.json"
+    },
+    {
+      "id": "chaos-legionnaires",
+      "name": "Chaos Legionnaires",
+      "file": "units/chaos-legionnaires.json"
+    },
+    {
+      "id": "chaos-furies",
+      "name": "Chaos Furies",
+      "file": "units/chaos-furies.json"
+    },
+    {
+      "id": "chaos-chosen",
+      "name": "Chaos Chosen",
+      "file": "units/chaos-chosen.json"
+    },
+    {
+      "id": "raptoryx",
+      "name": "Raptoryx",
+      "file": "units/raptoryx.json"
+    },
+    {
+      "id": "mutalith-vortex-beast",
+      "name": "Mutalith Vortex Beast",
+      "file": "units/mutalith-vortex-beast.json"
+    },
+    {
+      "id": "mindstealer-sphiranx",
+      "name": "Mindstealer Sphiranx",
+      "file": "units/mindstealer-sphiranx.json"
+    },
+    {
+      "id": "nexus-chaotica",
+      "name": "Nexus Chaotica",
+      "file": "units/nexus-chaotica.json"
+    },
+    {
+      "id": "darkoath-wilderfiend",
+      "name": "Darkoath Wilderfiend",
+      "file": "units/darkoath-wilderfiend.json"
+    },
+    {
+      "id": "chaos-warriors",
+      "name": "Chaos Warriors",
+      "file": "units/chaos-warriors.json"
+    },
+    {
+      "id": "darkoath-marauders",
+      "name": "Darkoath Marauders",
+      "file": "units/darkoath-marauders.json"
+    },
+    {
+      "id": "darkoath-fellriders",
+      "name": "Darkoath Fellriders",
+      "file": "units/darkoath-fellriders.json"
+    },
+    {
+      "id": "the-oathsworn-kin",
+      "name": "The Oathsworn Kin",
+      "file": "units/the-oathsworn-kin.json"
+    },
+    {
+      "id": "horns-of-hashut",
+      "name": "Horns of Hashut",
+      "file": "units/horns-of-hashut.json"
+    },
+    {
+      "id": "corvus-cabal",
+      "name": "Corvus Cabal",
+      "file": "units/corvus-cabal.json"
+    },
+    {
+      "id": "cypher-lords",
+      "name": "Cypher Lords",
+      "file": "units/cypher-lords.json"
+    },
+    {
+      "id": "iron-golem",
+      "name": "Iron Golem",
+      "file": "units/iron-golem.json"
+    },
+    {
+      "id": "splintered-fang",
+      "name": "Splintered Fang",
+      "file": "units/splintered-fang.json"
+    },
+    {
+      "id": "scions-of-the-flame",
+      "name": "Scions of the Flame",
+      "file": "units/scions-of-the-flame.json"
+    },
+    {
+      "id": "spire-tyrants",
+      "name": "Spire Tyrants",
+      "file": "units/spire-tyrants.json"
+    },
+    {
+      "id": "tarantulos-brood",
+      "name": "Tarantulos Brood",
+      "file": "units/tarantulos-brood.json"
+    },
+    {
+      "id": "the-unmade",
+      "name": "The Unmade",
+      "file": "units/the-unmade.json"
+    },
+    {
+      "id": "untamed-beasts",
+      "name": "Untamed Beasts",
+      "file": "units/untamed-beasts.json"
+    },
+    {
+      "id": "godsworn-hunt",
+      "name": "Godsworn Hunt",
+      "file": "units/godsworn-hunt.json"
+    },
+    {
+      "id": "khagras-ravagers",
+      "name": "Khagra's Ravagers",
+      "file": "units/khagras-ravagers.json"
+    },
+    {
+      "id": "the-gnarlspirit-pack",
+      "name": "The Gnarlspirit Pack",
+      "file": "units/the-gnarlspirit-pack.json"
+    }
   ],
   "heroes": [
-    "archaon-the-everchosen",
-    "daemon-prince",
-    "gaunt-summoner",
-    "belakor-the-dark-master",
-    "eternus-blade-of-the-first-prince",
-    "chaos-sorcerer-lord-on-manticore",
-    "gaunt-summoner-on-disc-of-tzeentch",
-    "centaurion-marshal",
-    "chaos-lord-on-manticore",
-    "ogroid-myrmidon",
-    "chaos-lord-on-karkadrak",
-    "chaos-sorcerer-lord",
-    "darkoath-warqueen",
-    "exalted-hero-of-chaos",
-    "chaos-warshrine",
-    "chaos-lord",
-    "darkoath-chieftain",
-    "chaos-lord-on-daemonic-mount",
-    "darkoath-chieftain-on-warsteed",
-    "abraxia-spear-of-the-everchosen",
-    "gunnar-brand",
-    "singri-brand",
-    "anvil-of-apotheosis-slaves-to-darkness-hero",
-    "athol-khul"
+    {
+      "id": "archaon-the-everchosen",
+      "name": "Archaon, the Everchosen",
+      "file": "heroes/archaon-the-everchosen.json"
+    },
+    {
+      "id": "daemon-prince",
+      "name": "Daemon Prince",
+      "file": "heroes/daemon-prince.json"
+    },
+    {
+      "id": "gaunt-summoner",
+      "name": "Gaunt Summoner",
+      "file": "heroes/gaunt-summoner.json"
+    },
+    {
+      "id": "belakor-the-dark-master",
+      "name": "Be'lakor, the Dark Master",
+      "file": "heroes/belakor-the-dark-master.json"
+    },
+    {
+      "id": "eternus-blade-of-the-first-prince",
+      "name": "Eternus, Blade of the First Prince",
+      "file": "heroes/eternus-blade-of-the-first-prince.json"
+    },
+    {
+      "id": "chaos-sorcerer-lord-on-manticore",
+      "name": "Chaos Sorcerer Lord on Manticore",
+      "file": "heroes/chaos-sorcerer-lord-on-manticore.json"
+    },
+    {
+      "id": "gaunt-summoner-on-disc-of-tzeentch",
+      "name": "Gaunt Summoner on Disc of Tzeentch",
+      "file": "heroes/gaunt-summoner-on-disc-of-tzeentch.json"
+    },
+    {
+      "id": "centaurion-marshal",
+      "name": "Centaurion Marshal",
+      "file": "heroes/centaurion-marshal.json"
+    },
+    {
+      "id": "chaos-lord-on-manticore",
+      "name": "Chaos Lord on Manticore",
+      "file": "heroes/chaos-lord-on-manticore.json"
+    },
+    {
+      "id": "ogroid-myrmidon",
+      "name": "Ogroid Myrmidon",
+      "file": "heroes/ogroid-myrmidon.json"
+    },
+    {
+      "id": "chaos-lord-on-karkadrak",
+      "name": "Chaos Lord on Karkadrak",
+      "file": "heroes/chaos-lord-on-karkadrak.json"
+    },
+    {
+      "id": "chaos-sorcerer-lord",
+      "name": "Chaos Sorcerer Lord",
+      "file": "heroes/chaos-sorcerer-lord.json"
+    },
+    {
+      "id": "darkoath-warqueen",
+      "name": "Darkoath Warqueen",
+      "file": "heroes/darkoath-warqueen.json"
+    },
+    {
+      "id": "exalted-hero-of-chaos",
+      "name": "Exalted Hero of Chaos",
+      "file": "heroes/exalted-hero-of-chaos.json"
+    },
+    {
+      "id": "chaos-warshrine",
+      "name": "Chaos Warshrine",
+      "file": "heroes/chaos-warshrine.json"
+    },
+    {
+      "id": "chaos-lord",
+      "name": "Chaos Lord",
+      "file": "heroes/chaos-lord.json"
+    },
+    {
+      "id": "darkoath-chieftain",
+      "name": "Darkoath Chieftain",
+      "file": "heroes/darkoath-chieftain.json"
+    },
+    {
+      "id": "chaos-lord-on-daemonic-mount",
+      "name": "Chaos Lord on Daemonic Mount",
+      "file": "heroes/chaos-lord-on-daemonic-mount.json"
+    },
+    {
+      "id": "darkoath-chieftain-on-warsteed",
+      "name": "Darkoath Chieftain on Warsteed",
+      "file": "heroes/darkoath-chieftain-on-warsteed.json"
+    },
+    {
+      "id": "abraxia-spear-of-the-everchosen",
+      "name": "Abraxia, Spear of the Everchosen",
+      "file": "heroes/abraxia-spear-of-the-everchosen.json"
+    },
+    {
+      "id": "gunnar-brand",
+      "name": "Gunnar Brand",
+      "file": "heroes/gunnar-brand.json"
+    },
+    {
+      "id": "singri-brand",
+      "name": "Singri Brand",
+      "file": "heroes/singri-brand.json"
+    },
+    {
+      "id": "anvil-of-apotheosis-slaves-to-darkness-hero",
+      "name": "Anvil of Apotheosis: Slaves to Darkness Hero",
+      "file": "heroes/anvil-of-apotheosis-slaves-to-darkness-hero.json"
+    },
+    {
+      "id": "athol-khul",
+      "name": "Athol Khul",
+      "file": "heroes/athol-khul.json"
+    }
   ],
   "terrain": [
-    "nexus-chaotica"
+    {
+      "id": "nexus-chaotica",
+      "name": "Nexus Chaotica",
+      "file": "terrain/nexus-chaotica.json"
+    }
   ],
   "enhancements": [
     {

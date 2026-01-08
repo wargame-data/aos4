@@ -33,34 +33,130 @@
     "source": "Beasts of Chaos Faction Pack"
   },
   "units": [
-    "beasts-of-chaos-chaos-spawn",
-    "centigors",
-    "bullgors",
-    "gors",
-    "ungor-raiders",
-    "ungors",
-    "tuskgor-chariots",
-    "ghorgon",
-    "chaos-warhounds",
-    "chaos-gargant",
-    "chimera",
-    "dragon-ogors",
-    "razorgor",
-    "bestigors",
-    "cygor",
-    "cockatrice",
-    "jabberslythe",
-    "herdstone",
-    "grashraks-despoilers"
+    {
+      "id": "beasts-of-chaos-chaos-spawn",
+      "name": "Beasts of Chaos Chaos Spawn",
+      "file": "units/beasts-of-chaos-chaos-spawn.json"
+    },
+    {
+      "id": "centigors",
+      "name": "Centigors",
+      "file": "units/centigors.json"
+    },
+    {
+      "id": "bullgors",
+      "name": "Bullgors",
+      "file": "units/bullgors.json"
+    },
+    {
+      "id": "gors",
+      "name": "Gors",
+      "file": "units/gors.json"
+    },
+    {
+      "id": "ungor-raiders",
+      "name": "Ungor Raiders",
+      "file": "units/ungor-raiders.json"
+    },
+    {
+      "id": "ungors",
+      "name": "Ungors",
+      "file": "units/ungors.json"
+    },
+    {
+      "id": "tuskgor-chariots",
+      "name": "Tuskgor Chariots",
+      "file": "units/tuskgor-chariots.json"
+    },
+    {
+      "id": "ghorgon",
+      "name": "Ghorgon",
+      "file": "units/ghorgon.json"
+    },
+    {
+      "id": "chaos-warhounds",
+      "name": "Chaos Warhounds",
+      "file": "units/chaos-warhounds.json"
+    },
+    {
+      "id": "chaos-gargant",
+      "name": "Chaos Gargant",
+      "file": "units/chaos-gargant.json"
+    },
+    {
+      "id": "chimera",
+      "name": "Chimera",
+      "file": "units/chimera.json"
+    },
+    {
+      "id": "dragon-ogors",
+      "name": "Dragon Ogors",
+      "file": "units/dragon-ogors.json"
+    },
+    {
+      "id": "razorgor",
+      "name": "Razorgor",
+      "file": "units/razorgor.json"
+    },
+    {
+      "id": "bestigors",
+      "name": "Bestigors",
+      "file": "units/bestigors.json"
+    },
+    {
+      "id": "cygor",
+      "name": "Cygor",
+      "file": "units/cygor.json"
+    },
+    {
+      "id": "cockatrice",
+      "name": "Cockatrice",
+      "file": "units/cockatrice.json"
+    },
+    {
+      "id": "jabberslythe",
+      "name": "Jabberslythe",
+      "file": "units/jabberslythe.json"
+    },
+    {
+      "id": "herdstone",
+      "name": "Herdstone",
+      "file": "units/herdstone.json"
+    },
+    {
+      "id": "grashraks-despoilers",
+      "name": "Grashrak's Despoilers",
+      "file": "units/grashraks-despoilers.json"
+    }
   ],
   "heroes": [
-    "great-bray-shaman",
-    "doombull",
-    "beastlord",
-    "dragon-ogor-shaggoth"
+    {
+      "id": "great-bray-shaman",
+      "name": "Great Bray-Shaman",
+      "file": "heroes/great-bray-shaman.json"
+    },
+    {
+      "id": "doombull",
+      "name": "Doombull",
+      "file": "heroes/doombull.json"
+    },
+    {
+      "id": "beastlord",
+      "name": "Beastlord",
+      "file": "heroes/beastlord.json"
+    },
+    {
+      "id": "dragon-ogor-shaggoth",
+      "name": "Dragon Ogor Shaggoth",
+      "file": "heroes/dragon-ogor-shaggoth.json"
+    }
   ],
   "terrain": [
-    "herdstone"
+    {
+      "id": "herdstone",
+      "name": "Herdstone",
+      "file": "terrain/herdstone.json"
+    }
   ],
   "enhancements": [
     {

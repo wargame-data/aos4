@@ -33,31 +33,115 @@
     "source": "Fyreslayers Faction Pack"
   },
   "units": [
-    "auric-hearthguard",
-    "hearthguard-berzerkers-with-berzerker-broadaxes",
-    "vulkite-berzerkers-with-fyresteel-weapons",
-    "vulkyn-flameseekers",
-    "vulkite-berzerkers-with-bladed-slingshields",
-    "hearthguard-berzerkers-with-flamestrike-poleaxes",
-    "magmic-battleforge",
-    "the-chosen-axes"
+    {
+      "id": "auric-hearthguard",
+      "name": "Auric Hearthguard",
+      "file": "units/auric-hearthguard.json"
+    },
+    {
+      "id": "hearthguard-berzerkers-with-berzerker-broadaxes",
+      "name": "Hearthguard Berzerkers with Berzerker Broadaxes",
+      "file": "units/hearthguard-berzerkers-with-berzerker-broadaxes.json"
+    },
+    {
+      "id": "vulkite-berzerkers-with-fyresteel-weapons",
+      "name": "Vulkite Berzerkers with Fyresteel Weapons",
+      "file": "units/vulkite-berzerkers-with-fyresteel-weapons.json"
+    },
+    {
+      "id": "vulkyn-flameseekers",
+      "name": "Vulkyn Flameseekers",
+      "file": "units/vulkyn-flameseekers.json"
+    },
+    {
+      "id": "vulkite-berzerkers-with-bladed-slingshields",
+      "name": "Vulkite Berzerkers with Bladed Slingshields",
+      "file": "units/vulkite-berzerkers-with-bladed-slingshields.json"
+    },
+    {
+      "id": "hearthguard-berzerkers-with-flamestrike-poleaxes",
+      "name": "Hearthguard Berzerkers with Flamestrike Poleaxes",
+      "file": "units/hearthguard-berzerkers-with-flamestrike-poleaxes.json"
+    },
+    {
+      "id": "magmic-battleforge",
+      "name": "Magmic Battleforge",
+      "file": "units/magmic-battleforge.json"
+    },
+    {
+      "id": "the-chosen-axes",
+      "name": "The Chosen Axes",
+      "file": "units/the-chosen-axes.json"
+    }
   ],
   "heroes": [
-    "auric-runesmiter-on-magmadroth",
-    "grimhold-exile",
-    "auric-flamekeeper",
-    "auric-runefather-on-magmadroth",
-    "auric-runeson-on-magmadroth",
-    "auric-runeson",
-    "auric-runesmiter",
-    "auric-runemaster",
-    "battlesmith",
-    "grimwrath-berzerker",
-    "auric-runefather",
-    "doomseeker"
+    {
+      "id": "auric-runesmiter-on-magmadroth",
+      "name": "Auric Runesmiter on Magmadroth",
+      "file": "heroes/auric-runesmiter-on-magmadroth.json"
+    },
+    {
+      "id": "grimhold-exile",
+      "name": "Grimhold Exile",
+      "file": "heroes/grimhold-exile.json"
+    },
+    {
+      "id": "auric-flamekeeper",
+      "name": "Auric Flamekeeper",
+      "file": "heroes/auric-flamekeeper.json"
+    },
+    {
+      "id": "auric-runefather-on-magmadroth",
+      "name": "Auric Runefather on Magmadroth",
+      "file": "heroes/auric-runefather-on-magmadroth.json"
+    },
+    {
+      "id": "auric-runeson-on-magmadroth",
+      "name": "Auric Runeson on Magmadroth",
+      "file": "heroes/auric-runeson-on-magmadroth.json"
+    },
+    {
+      "id": "auric-runeson",
+      "name": "Auric Runeson",
+      "file": "heroes/auric-runeson.json"
+    },
+    {
+      "id": "auric-runesmiter",
+      "name": "Auric Runesmiter",
+      "file": "heroes/auric-runesmiter.json"
+    },
+    {
+      "id": "auric-runemaster",
+      "name": "Auric Runemaster",
+      "file": "heroes/auric-runemaster.json"
+    },
+    {
+      "id": "battlesmith",
+      "name": "Battlesmith",
+      "file": "heroes/battlesmith.json"
+    },
+    {
+      "id": "grimwrath-berzerker",
+      "name": "Grimwrath Berzerker",
+      "file": "heroes/grimwrath-berzerker.json"
+    },
+    {
+      "id": "auric-runefather",
+      "name": "Auric Runefather",
+      "file": "heroes/auric-runefather.json"
+    },
+    {
+      "id": "doomseeker",
+      "name": "Doomseeker",
+      "file": "heroes/doomseeker.json"
+    }
   ],
   "terrain": [
-    "magmic-battleforge"
+    {
+      "id": "magmic-battleforge",
+      "name": "Magmic Battleforge",
+      "file": "terrain/magmic-battleforge.json"
+    }
   ],
   "enhancements": [
     {
