@@ -116,6 +116,15 @@ export class LoreMapper extends BaseMapper<LoreMapperInput, Lore> {
   }
 
   private determineLoreType(group: BSSelectionEntryGroup): Lore["loreType"] {
+    // Primary: Check profile types in the entries
+    if (this.hasPrayerProfiles(group)) {
+      return "prayer";
+    }
+    if (this.hasSpellProfiles(group)) {
+      return "spell";
+    }
+
+    // Fallback: Check by name for manifestations or when no profiles found
     const name = group.$.name.toLowerCase();
 
     if (name.includes("prayer") || name.includes("blessing") || name.includes("rites")) {
@@ -127,6 +136,42 @@ export class LoreMapper extends BaseMapper<LoreMapperInput, Lore> {
     }
 
     return "spell";
+  }
+
+  private hasPrayerProfiles(group: BSSelectionEntryGroup): boolean {
+    if (group.selectionEntries) {
+      for (const entry of group.selectionEntries) {
+        if (entry.profiles) {
+          for (const profile of entry.profiles) {
+            if (
+              profile.$.typeId === PRAYER_PROFILE_TYPE_ID ||
+              profile.$.typeName?.toLowerCase().includes("prayer")
+            ) {
+              return true;
+            }
+          }
+        }
+      }
+    }
+    return false;
+  }
+
+  private hasSpellProfiles(group: BSSelectionEntryGroup): boolean {
+    if (group.selectionEntries) {
+      for (const entry of group.selectionEntries) {
+        if (entry.profiles) {
+          for (const profile of entry.profiles) {
+            if (
+              profile.$.typeId === SPELL_PROFILE_TYPE_ID ||
+              profile.$.typeName?.toLowerCase().includes("spell")
+            ) {
+              return true;
+            }
+          }
+        }
+      }
+    }
+    return false;
   }
 
   private extractSpells(group: BSSelectionEntryGroup): Spell[] {

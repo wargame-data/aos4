@@ -1,0 +1,25 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "manifestations-of-khaine",
+  "name": "Manifestations of Khaine",
+  "loreType": "prayer",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "prayers": [
+    {
+      "name": "Summon Heart of Fury",
+      "chantingValue": 5,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Heart of Fury** wholly within 18\" of the chanter and visible to them.",
+      "keywords": [
+        "**^^PRAYER^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Heart of Fury** on the battlefield, pick a friendly **^^Daughters of Khaine Priest^^** to chant this prayer, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "scriptures-of-sigmar",
+  "name": "Scriptures of Sigmar",
+  "loreType": "prayer",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "prayers": [
+    {
+      "name": "Unfaltering Aim",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Add 1 to hit rolls for the target’s shooting attacks for the rest of the turn. In addition, if the chanting roll was 10+, add 1 to wound rolls for the target’s shooting attacks for the rest of the turn.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Cities of Sigmar Priest^^** to chant this prayer, pick a visible friendly **^^Cities of Sigmar^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Wrath and Ruin",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Roll 6 dice. If the chanting roll was 8+, roll 9 dice instead. For each 5+, inflict 1 mortal damage on the target. If 3 or more damage points are allocated to the target as a result of those dice rolls, ignore positive modifiers to save rolls for the target until the start of your next turn.",
+      "keywords": [
+        "**^^PRAYER^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Cities of Sigmar Priest^^** to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Oath and Steel",
+      "chantingValue": 5,
+      "timing": "Your Hero Phase",
+      "effect": "Subtract 1 from wound rolls for attacks that target that unit until the start of your next turn. In addition, if the chanting roll was 10+, add 1 to save rolls for the target until the start of your next turn.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Cities of Sigmar Priest^^** to chant this prayer, pick a visible friendly **^^Cities of Sigmar^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6. Add 1 to the roll if the chanter is **^^Duardin^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    }
+  ]
+}

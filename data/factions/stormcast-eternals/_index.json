@@ -556,5 +556,67 @@
       "name": "Primal Energy",
       "file": "/lores/manifestations/primal-energy.json"
     }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "bundo-whalebiter",
+      "name": "Bundo Whalebiter",
+      "file": "/regiments-of-renown/bundo-whalebiter.json"
+    },
+    {
+      "id": "elthwins-thorns",
+      "name": "Elthwin's Thorns",
+      "file": "/regiments-of-renown/elthwins-thorns.json"
+    },
+    {
+      "id": "fjoris-flamebearers",
+      "name": "Fjori's Flamebearers",
+      "file": "/regiments-of-renown/fjoris-flamebearers.json"
+    },
+    {
+      "id": "gotrek-gurnisson",
+      "name": "Gotrek Gurnisson",
+      "file": "/regiments-of-renown/gotrek-gurnisson.json"
+    },
+    {
+      "id": "norgrimms-rune-throng",
+      "name": "Norgrimm's Rune Throng",
+      "file": "/regiments-of-renown/norgrimms-rune-throng.json"
+    },
+    {
+      "id": "saviours-of-cinderfall",
+      "name": "Saviours of Cinderfall",
+      "file": "/regiments-of-renown/saviours-of-cinderfall.json"
+    },
+    {
+      "id": "stumblefoot-gargant",
+      "name": "Stumblefoot Gargant",
+      "file": "/regiments-of-renown/stumblefoot-gargant.json"
+    },
+    {
+      "id": "snerks-trogg-fer-hire",
+      "name": "Snerk's Trogg-fer-Hire",
+      "file": "/regiments-of-renown/snerks-trogg-fer-hire.json"
+    },
+    {
+      "id": "bloodthirsty-shiver",
+      "name": "Bloodthirsty Shiver",
+      "file": "/regiments-of-renown/bloodthirsty-shiver.json"
+    },
+    {
+      "id": "namarti-shore-raid",
+      "name": "Namarti Shore Raid",
+      "file": "/regiments-of-renown/namarti-shore-raid.json"
+    },
+    {
+      "id": "drekkis-privateers",
+      "name": "Drekki's Privateers",
+      "file": "/regiments-of-renown/drekkis-privateers.json"
+    },
+    {
+      "id": "sky-port-profiteers",
+      "name": "Sky-Port Profiteers",
+      "file": "/regiments-of-renown/sky-port-profiteers.json"
+    }
   ]
 }

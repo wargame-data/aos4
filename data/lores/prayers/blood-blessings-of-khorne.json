@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "blood-blessings-of-khorne",
+  "name": "Blood Blessings of Khorne",
+  "loreType": "prayer",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "prayers": [
+    {
+      "name": "Blood Boil",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target. In addition, if the chanting roll was 8+, subtract 1 from wound rolls for the target until the start of your next turn.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Uncontrollable Rage",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, the effects of the 'Blood-drenched' ability (see 'Battle Traits') apply to the target. In addition, if the chanting roll was 8+, ignore the effect of 'Wild-eyed Brutality' on the target.",
+      "keywords": [
+        "**^^PRAYER^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, pick a visible friendly unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Final Act of Violence",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, each time a model in the target unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. If the chanting roll as 8+, roll 2 dice instead. For each 5+, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, pick a visible friendly **^^Blades of Khorne^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ]
+}

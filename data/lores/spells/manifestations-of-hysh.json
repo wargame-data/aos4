@@ -1,0 +1,51 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "manifestations-of-hysh",
+  "name": "Manifestations of Hysh",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Summon Hyshian Twinstones",
+      "castingValue": 5,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Hyshian Twinstones** endless spell wholly within 6\" of the caster",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Hyshian Twinstones** endless spell on the battlefield, pick a friendly **^^Lumineth Realm‑lords Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Summon Rune of Petrification",
+      "castingValue": 7,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Rune of Petrification** wholly within 18\" of the caster and visible to them.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Rune of Petrification** on the battlefield, pick a friendly **^^Lumineth Realm‑lords Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Summon Sanctum of Amyntok",
+      "castingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Sanctum of Amyntok** within the target’s combat range, visible to the caster and more than 3\" from all enemy units. A **Sanctum of Amyntok** has 3 parts that must be set up with the tip of each part touching the tip of another part so that the three parts form a ring with the target inside.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Sanctum of Amyntok** on the battlefield, pick a friendly **^^Lumineth Realm‑lords Wizard^^** to cast this spell, pick a visible friendly **^^Lumineth Realm‑lords Infantry Hero^^** wholly within 12\" of them and more than 3\" from all other units and terrain features to be the target, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "everwinter-prayers",
+  "name": "Everwinter Prayers",
+  "loreType": "prayer",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "prayers": [
+    {
+      "name": "Call of the Blizzard",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Place a **blizzard token** next to the target. Terrain features that have a **blizzard token** gain the ‘Obscuring’ terrain ability. In addition, if the chanting roll was 8+, until the start of your next turn, friendly **^^Beastclaw Raiders^^** units have **^^Ward (5+)^^** while they are within 3\" of any terrain features that have **blizzard tokens**.",
+      "keywords": [
+        "**^^PRAYER^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Ogor Mawtribes Priest^^** to chant this prayer, pick a terrain feature within 18\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Keening Gale",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "For the rest of the turn, the target can use a **^^Run^^** ability and still use **^^Charge^^** abilities later in the turn. In addition, if the chanting roll was 8+, you can re-roll run rolls and charge rolls for the target for the rest of the turn.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Ogor Mawtribes Priest^^** to chant this prayer, pick a visible friendly **^^Ogor Mawtribes Monster^^** or **Mournfang Pack** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Pulverising Hailstorm",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If the chanting roll was 8+, double the amount of mortal damage inflicted.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Ogor Mawtribes Priest^^** to chant this prayer, pick a point on the battlefield within 12\" of them, then pick each visible enemy unit within 3\" of that point to be the targets. Then, make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ]
+}

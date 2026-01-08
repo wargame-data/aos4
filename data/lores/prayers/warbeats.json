@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "warbeats",
+  "name": "Warbeats",
+  "loreType": "prayer",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "prayers": [
+    {
+      "name": "Fixin' Beat",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "**Heal (D6)** the target. If the chanting roll was 8+, **Heal (D3+3)** the target instead.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Ironjawz Priest^^** to chant this prayer, pick a visible friendly **^^Ironjawz^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Get 'Em Beat",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "For the rest of the turn, add 1 to charge rolls for the target. In addition, if the chanting roll was 8+, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3.",
+      "keywords": [
+        "**^^PRAYER^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Ironjawz Priest^^** to chant this prayer, pick a visible friendly **^^Ironjawz^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Killa Beat",
+      "chantingValue": 5,
+      "timing": "Your Hero Phase",
+      "effect": "Add 1 to the Damage characteristic of the target’s melee weapons for the rest of the turn. If the chanting roll was 10+, you can pick up to 2 eligible units to be the targets instead of 1.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Ironjawz Priest^^** to chant this prayer, pick a visible friendly **^^Ironjawz^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ]
+}

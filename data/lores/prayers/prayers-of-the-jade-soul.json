@@ -1,0 +1,85 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "prayers-of-the-jade-soul",
+  "name": "Prayers of the Jade Soul",
+  "loreType": "prayer",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "prayers": [
+    {
+      "name": "Spring in Their Step",
+      "chantingValue": 3,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, add 1 to charge rolls for friendly units while they are within 3\" of the target. If the chanting roll was 6+, add 2 to charge rolls for those units instead of 1.",
+      "keywords": [
+        "**^^PRAYER^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible terrain feature within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Rooted Delusion",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, the target has **^^Strike-last^^**. In addition, if the chanting roll was 6+, subtract 1 from wound rolls for the target's attacks until the start of your next turn.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible enemy unit within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Control"
+    },
+    {
+      "name": "Jade Revival",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Return a number of slain models to the target unit with a combined Health characteristic of up to 4. If the chanting roll was 8+, return a number of slain models to the target with a combined Health characteristic of up to 8 instead.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible friendly unit that is not in combat and is wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
+    },
+    {
+      "name": "Regenerating Blossom",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "**Heal (D3)** each unit (friendly and enemy) within 3\" of the target. If the chanting roll was 8+, **Heal (3)** each unit (friendly and enemy) within 3\" of the target instead.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible terrain feature within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "The Angry Wilds",
+      "chantingValue": 5,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, each time your opponent declares a command for the target, unless they spend 1 additional command point to use that command, the command has no effect, it still counts as having been used, and the command points spent to use the command are still lost. If the chanting roll was 10+, the target cannot use commands until the start of your next turn.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Soporific Soothing",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, the target's attacks cannot score critical hits (treat them as regular hits instead). In addition, if the chanting roll was 9+, combat attacks that target that enemy unit score critical hits on unmodified hit rolls of 5+.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible enemy unit within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ]
+}

@@ -11,13 +11,6 @@
     "lastUpdated": "2026-01-08",
     "source": "Orruk Warclans Faction Pack"
   },
-  "heroes": [
-    {
-      "id": "kragnos-the-end-of-empires",
-      "name": "Kragnos, the End of Empires",
-      "file": "heroes/kragnos-the-end-of-empires.json"
-    }
-  ],
   "lores": [
     {
       "id": "aetherwrought-machineries",

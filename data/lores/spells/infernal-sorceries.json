@@ -1,0 +1,51 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "infernal-sorceries",
+  "name": "Infernal Sorceries",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Summon Mortalis Terminexus",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Mortalis Terminexus** wholly within 18\" of the caster and visible to them.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Mortalis Terminexus** on the battlefield, pick a friendly **^^Nighthaunt Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Summon Shyish Reaper",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Shyish Reaper** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Shyish Reaper** on the battlefield, pick a friendly **^^Nighthaunt Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Summon Vault of Souls",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Vault of Souls** wholly within 18\" of the caster and visible to them.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Vault of Souls** on the battlefield, pick a friendly **^^Nighthaunt Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ]
+}

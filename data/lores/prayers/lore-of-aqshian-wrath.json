@@ -1,0 +1,85 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "lore-of-aqshian-wrath",
+  "name": "Lore of Aqshian Wrath",
+  "loreType": "prayer",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "prayers": [
+    {
+      "name": "Burning Insistence",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Add 3 to the target's control score until the start of your next turn. If the chanting roll was 8+, add 10 to the target's control score until the start of your next turn instead.",
+      "keywords": [
+        "**^^PRAYER^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible friendly unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Control"
+    },
+    {
+      "name": "Cauterisation",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn:\n• The target's melee weapons cannot be affected by weapon abilities other than the **Companion** weapon ability.\n• If the chanting roll was 10+, for each unmodified hit roll of 1 for a combat attack made by the target, inflict 1 mortal damage on the target after the **^^Fight^^** ability has been resolved.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible enemy unit wholly within 18\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Crumbling Impact",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, each time an enemy unit ends a move made as part of a **^^Charge^^** ability within 3\" of the target, inflict D3 mortal damage on that unit after the **^^Charge^^** ability has been resolved. If the chanting roll was 8+, inflict D6 mortal damage on that unit instead.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible friendly unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Invocation to Wrath",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Add 1 to wound rolls for the target's combat attacks until the start of your next turn. If the chanting roll was 8+, you can pick up to 2 eligible units to be the targets instead of 1",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible friendly unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Leaping Embers",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Add 2 to charge rolls for the target until the start of your next turn. If the chanting roll was 8+, add 4 to charge rolls for the target until the start of your next turn instead.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible friendly unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Trail of Lava",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn:\n• The target can use a **^^Retreat^^** ability and still use **^^Shoot^^** and/or **^^Charge^^** abilities later in the turn. If the chanting roll was 8+, after the **^^Retreat^^** ability has been resolved, inflict D3 mortal damage on each enemy unit that was in combat with the target at the start of the move.\n• No mortal damage is inflicted on the target by\n**^^Retreat^^** abilities.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible friendly unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    }
+  ]
+}

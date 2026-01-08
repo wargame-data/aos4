@@ -1,0 +1,51 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "judgements-of-khorne",
+  "name": "Judgements of Khorne",
+  "loreType": "prayer",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "prayers": [
+    {
+      "name": "Summon Bleeding Icon",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Bleeding Icon** wholly within 12\" of the chanter and visible to them.",
+      "keywords": [
+        "**^^PRAYER^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Bleeding Icon** on the battlefield, pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Summon Hexgorger Skulls",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Hexgorger Skulls** invocation wholly within 12\" of the chanter, visible to them and more than 9\" from all enemy units. A **Hexgorger Skulls** invocation has 2 parts that must be set up within 8\" of each other.",
+      "keywords": [
+        "**^^PRAYER^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Hexgorger Skulls** invocation on the battlefield, pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Summon Wrath-axe",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Wrath-axe** wholly within 12\" of the chanter, visible to them and more than 9\" from all enemy units.",
+      "keywords": [
+        "**^^PRAYER^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Wrath-axe** on the battlefield, pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ]
+}

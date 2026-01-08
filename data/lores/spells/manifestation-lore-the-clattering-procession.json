@@ -1,0 +1,25 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "manifestation-lore-the-clattering-procession",
+  "name": "Manifestation Lore: The Clattering Procession",
+  "loreType": "spell",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "spells": [
+    {
+      "name": "Summon Shyish Reaper",
+      "castingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Shyish Reaper** wholly within 9\" of the caster, visible to them and more than 9\" from all enemy units.",
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Shyish Reaper** on the battlefield, pick a friendly **^^Clattering Procession Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ]
+}

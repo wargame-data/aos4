@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "prayers-of-the-khainite-cult",
+  "name": "Prayers of the Khainite Cult",
+  "loreType": "prayer",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "prayers": [
+    {
+      "name": "Sacrament of Blood",
+      "chantingValue": 5,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, add 1 to the current battle round number when determining which effects of the ‘Blood Rites’ ability apply to the target. If the chanting roll was 10+, until the start of your next turn, treat the current battle round number as 5 when determining which effects of the ‘Blood Rites’ ability apply to the target instead.",
+      "keywords": [
+        "**^^PRAYER^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Daughters of Khaine Priest^^** to chant this prayer, pick a visible friendly **^^Daughters of Khaine^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Covenant of the Iron Heart",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Ignore negative modifiers to the target’s control score until the start of your next turn. In addition, if the chanting roll was 8+, add 5 to the target’s control score until the start of your next turn.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Daughters of Khaine Priest^^** to chant this prayer, pick a visible friendly **^^Daughters of Khaine^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Control"
+    },
+    {
+      "name": "Martyr's Sacrifice",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Until the start of your next turn, each time a model in the target unit is slain by a combat attack, before removing the model from play, pick an enemy unit in combat with the target and roll a dice. If the chanting roll was 8+, roll 2 dice instead of 1. For each 5+, inflict 1 mortal damage on that enemy unit after the **^^Fight^^** ability has been resolved.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Daughters of Khaine Priest^^** to chant this prayer, pick a visible friendly **^^Daughters of Khaine^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ]
+}

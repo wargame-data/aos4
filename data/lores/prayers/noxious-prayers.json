@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "noxious-prayers",
+  "name": "Noxious Prayers",
+  "loreType": "prayer",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "prayers": [
+    {
+      "name": "Filth-crust",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Add 1 to wound rolls for the target’s combat attacks until the start of your next turn. In addition, if the chanting roll was 8+, the target’s melee weapons have **Crit (Mortal)** until the start of your next turn.",
+      "keywords": [
+        "**^^PRAYER^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Skaven Priest^^** to chant this prayer, pick a visible friendly **^^Skaven Infantry^^** unit wholly within 13\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Bile-torrent",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target. If the chanting roll was 8+, inflict 1 mortal damage on the target for each 4+ instead.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Skaven Priest^^** to chant this prayer, pick a visible enemy unit within 13\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Rabid-tough",
+      "chantingValue": 5,
+      "timing": "Your Hero Phase",
+      "effect": "Subtract 1 from wound rolls for attacks that target that unit until the start of your next turn. In addition, if the chanting roll was 8+, add 1 to save rolls for the target until the start of your next turn",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Skaven Priest^^** to chant this prayer, pick a visible friendly **^^Skaven Infantry^^** unit wholly within 13\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    }
+  ]
+}

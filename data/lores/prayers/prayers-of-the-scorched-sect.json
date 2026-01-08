@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "prayers-of-the-scorched-sect",
+  "name": "Prayers of the Scorched Sect",
+  "loreType": "prayer",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "prayers": [
+    {
+      "name": "Black Flames of Hashut",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target. If the chanting roll was 8+, inflict 1 mortal damage on the target for each 4+ instead.",
+      "keywords": [
+        "**^^PRAYER^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "declare": "Pick a friendly **^^Helsmiths of Hashut Priest^^** to chant this prayer, pick a visible enemy unit within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Furnace Blessing",
+      "chantingValue": 4,
+      "timing": "Your Hero Phase",
+      "effect": "Add 1 to the Rend characteristic of the target's melee weapons for the rest of the turn. If the chanting roll was 8+, that unit's melee weapons also have **Crit (Mortal)** for the rest of the turn.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Helsmiths of Hashut Priest^^** to chant this prayer, pick a visible friendly **^^Helsmiths of Hashut^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Storm of Obsidian Shards",
+      "chantingValue": 5,
+      "timing": "Your Hero Phase",
+      "effect": "Inflict D3 mortal damage on the target and subtract 3 from the target's control score for the rest of the turn. If the chanting roll was 10+, you can pick another eligible unit to be a second target.",
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "declare": "Pick a friendly **^^Helsmiths of Hashut Priest^^** to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ]
+}

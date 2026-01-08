@@ -503,17 +503,48 @@ export function extractPointsFromEntryLinks(
   return pointsMap;
 }
 
+// Profile type IDs for spells and prayers
+const SPELL_PROFILE_TYPE_ID = "7312-8367-c171-f2ef";
+const PRAYER_PROFILE_TYPE_ID = "5946-234-d7b4-6195";
+
 /**
- * Check if a selection entry group is a lore (spell, prayer, or manifestation)
+ * Check if a selection entry group contains spell or prayer profiles.
+ * This is used to identify lore groups by their content rather than by name.
+ */
+function hasSpellOrPrayerProfiles(group: BSSelectionEntryGroup): boolean {
+  if (group.selectionEntries) {
+    for (const entry of group.selectionEntries) {
+      if (entry.profiles) {
+        for (const profile of entry.profiles) {
+          if (
+            profile.$.typeId === SPELL_PROFILE_TYPE_ID ||
+            profile.$.typeId === PRAYER_PROFILE_TYPE_ID ||
+            profile.$.typeName?.toLowerCase().includes("spell") ||
+            profile.$.typeName?.toLowerCase().includes("prayer")
+          ) {
+            return true;
+          }
+        }
+      }
+    }
+  }
+  return false;
+}
+
+/**
+ * Check if a selection entry group is a lore (spell, prayer, or manifestation).
+ * Uses structural detection (checking for spell/prayer profiles) as the primary method,
+ * with name-based detection as a fallback for manifestations.
  */
 export function isLoreGroup(group: BSSelectionEntryGroup): boolean {
+  // Primary: Check if the group contains spell or prayer profiles
+  if (hasSpellOrPrayerProfiles(group)) {
+    return true;
+  }
+
+  // Fallback: Check by name for manifestations (which may not have spell/prayer profiles)
   const name = group.$.name.toLowerCase();
-  return (
-    name.includes("lore") ||
-    name.includes("manifestation") ||
-    name.includes("prayer lore") ||
-    name.includes("spell lore")
-  );
+  return name.includes("manifestation");
 }
 
 /**

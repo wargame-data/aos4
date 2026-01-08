@@ -1,0 +1,25 @@
+{
+  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "id": "manifestation-lore-lofnir-drothkeepers",
+  "name": "Manifestation Lore: Lofnir Drothkeepers",
+  "loreType": "prayer",
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  },
+  "prayers": [
+    {
+      "name": "Summon Molten Infernoth",
+      "chantingValue": 6,
+      "timing": "Your Hero Phase",
+      "effect": "Set up a **Molten Infernoth** wholly within 12\" of the chanter, visible to them and more than 9\" from all enemy units.",
+      "keywords": [
+        "**^^PRAYER^^**",
+        "**^^SUMMON^^**"
+      ],
+      "declare": "If there is not a friendly **Molten Infernoth** on the battlefield, pick a friendly **^^Fyreslayers Priest^^** to chant this prayer, then make a chanting roll of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ]
+}
