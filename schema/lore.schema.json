@@ -27,6 +27,9 @@
       "type": "string",
       "pattern": "^[a-z0-9-]+$"
     },
+    "shared": {
+      "type": "boolean"
+    },
     "spells": {
       "type": "array",
       "items": {

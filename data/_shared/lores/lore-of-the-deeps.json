@@ -45,5 +45,6 @@
       "color": "Yellow",
       "abilityCategory": "Movement"
     }
-  ]
+  ],
+  "factionId": "idoneth-deepkin"
 }

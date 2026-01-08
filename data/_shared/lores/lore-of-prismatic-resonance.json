@@ -47,5 +47,6 @@
       "color": "Yellow",
       "abilityCategory": "Defensive"
     }
-  ]
+  ],
+  "factionId": "lumineth-realm-lords"
 }

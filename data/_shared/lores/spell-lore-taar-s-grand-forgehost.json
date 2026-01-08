@@ -33,5 +33,6 @@
       "color": "Yellow",
       "abilityCategory": "Defensive"
     }
-  ]
+  ],
+  "factionId": "helsmiths-of-hashut"
 }

@@ -46,5 +46,6 @@
       "color": "Yellow",
       "abilityCategory": "Special"
     }
-  ]
+  ],
+  "factionId": "disciples-of-tzeentch"
 }
