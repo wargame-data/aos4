@@ -15,7 +15,7 @@
     "description": "You complete this battle tactic at the end of your turn if a friendly scout unit that was not set up this turn is contesting a non-Faction Terrain terrain feature that you control that is wholly within enemy territory and more than 6\" from friendly territory."
   },
   "_meta": {
-    "lastUpdated": "2026-01-07",
+    "lastUpdated": "2026-01-08",
     "source": "BSData import"
   },
   "cardRules": "At the start of the battle, pick each friendly non-Hero Infantry and non-Hero Cavalry unit that was not set up in reserve with a Deploy ability to become a scout unit. You cannot complete these battle tactics with scout units that are in combat. Replacement units that replace scout units are also scout units."

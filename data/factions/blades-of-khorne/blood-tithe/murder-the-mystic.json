@@ -6,7 +6,7 @@
   "bloodTithePoints": 2,
   "effect": "Make a **banishment roll** of 2D6 for each target. If the banishment roll equals or exceeds the banishment value listed on that Manifestation's warscroll, inflict D3 mortal damage on each enemy unit within 3\" of it and then it is **banished** and removed from play.",
   "_meta": {
-    "lastUpdated": "2026-01-07",
+    "lastUpdated": "2026-01-08",
     "source": "BSData import"
   },
   "unlockCondition": "You can only unlock this ability if you have unlocked 'Divine Scorn'.",

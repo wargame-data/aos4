@@ -6,7 +6,7 @@
   "bloodTithePoints": 1,
   "effect": "Roll a dice. On a 1-2, inflict 1 mortal damage on each target. On a 3+, inflict 1 mortal damage on each enemy target.",
   "_meta": {
-    "lastUpdated": "2026-01-07",
+    "lastUpdated": "2026-01-08",
     "source": "BSData import"
   },
   "parentAbilityId": "murderlust",

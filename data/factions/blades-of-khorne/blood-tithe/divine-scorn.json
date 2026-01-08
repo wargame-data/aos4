@@ -6,7 +6,7 @@
   "bloodTithePoints": 1,
   "effect": "Roll a dice for each target. On a 3+, subtract 1 from the target's power level, to a minimum of 0, until the start of the next turn.",
   "_meta": {
-    "lastUpdated": "2026-01-07",
+    "lastUpdated": "2026-01-08",
     "source": "BSData import"
   },
   "parentAbilityId": "murderlust",

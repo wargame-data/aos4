@@ -15,7 +15,7 @@
     "description": "You complete this battle tactic at the end of your turn if there is a different friendly unit wholly within each large quarter of the battlefield, you control more objectives than your opponent, and there are no enemy units contesting any objectives that you control."
   },
   "_meta": {
-    "lastUpdated": "2026-01-07",
+    "lastUpdated": "2026-01-08",
     "source": "BSData import"
   }
 }

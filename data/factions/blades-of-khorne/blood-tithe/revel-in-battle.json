@@ -6,7 +6,7 @@
   "bloodTithePoints": 3,
   "effect": "Other than the **Companion** weapon ability, weapon abilities for combat attacks made by enemy units that charged this turn and that target a friendly Blades of Khorne unit have no effect.",
   "_meta": {
-    "lastUpdated": "2026-01-07",
+    "lastUpdated": "2026-01-08",
     "source": "BSData import"
   },
   "unlockCondition": "You can only unlock this ability if you have unlocked 'Punish the Pacifist'.",

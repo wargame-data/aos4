@@ -15,7 +15,7 @@
     "description": "You complete this battle tactic at the end of your turn if at least three different friendly units are each wholly within 9\" of a different corner of the battlefield and only 1 of those corners is wholly within friendly territory. No more than 1 of those units can have been set up this turn."
   },
   "_meta": {
-    "lastUpdated": "2026-01-07",
+    "lastUpdated": "2026-01-08",
     "source": "BSData import"
   }
 }
