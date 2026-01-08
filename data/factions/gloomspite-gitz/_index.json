@@ -8,18 +8,22 @@
   ],
   "battleFormations": [
     {
+      "id": "squigalanche",
       "name": "Squigalanche",
       "file": "battle-formations/squigalanche.json"
     },
     {
+      "id": "troggherd",
       "name": "Troggherd",
       "file": "battle-formations/troggherd.json"
     },
     {
+      "id": "gitmob-pack",
       "name": "Gitmob Pack",
       "file": "battle-formations/gitmob-pack.json"
     },
     {
+      "id": "gloomspite-horde",
       "name": "Gloomspite Horde",
       "file": "battle-formations/gloomspite-horde.json"
     }
@@ -28,18 +32,155 @@
     "lastUpdated": "2026-01-08",
     "source": "Gloomspite Gitz Faction Pack"
   },
+  "units": [
+    "dankhold-troggoth",
+    "rockgut-troggoths",
+    "mangler-squigs",
+    "squig-herd",
+    "moonclan-stabbas",
+    "gobbapalooza",
+    "loonsmasha-fanatics",
+    "boingrot-bounderz",
+    "moonclan-shootas",
+    "sporesplatta-fanatics",
+    "spider-riders",
+    "squig-hoppers",
+    "sneaky-snufflers",
+    "fellwater-troggoths",
+    "snarlfang-riders",
+    "arachnarok-spider-with-flinger",
+    "arachnarok-spider-with-spiderfang-warparty",
+    "skitterstrand-arachnarok",
+    "bad-moon-loonshrine",
+    "aleguzzler-gargant",
+    "grinkraks-looncourt",
+    "zarbags-gitz",
+    "rippas-snarlfangs",
+    "doom-diver-catapult",
+    "wolfgit-retinue",
+    "sunsteala-wheelas",
+    "snarlpack-cavalry",
+    "borgits-beastgrabbaz"
+  ],
+  "heroes": [
+    "skragrott-the-loonking",
+    "squigboss-with-gnasha-squig",
+    "rabble-rowza",
+    "fungoid-cave-shaman",
+    "webspinner-shaman-on-arachnarok-spider",
+    "loonboss-on-giant-cave-squig",
+    "loonboss-on-mangler-squigs",
+    "kragnos-the-end-of-empires",
+    "trugg-the-troggoth-king",
+    "dankhold-troggboss",
+    "loonboss",
+    "webspinner-shaman",
+    "scuttleboss-on-gigantic-spider",
+    "loonboss-with-giant-cave-squig",
+    "madcap-shaman",
+    "mollog",
+    "droggz-da-sunchompa",
+    "snarlboss",
+    "frazzlegit-shaman-on-war-wheela",
+    "snarlboss-on-war-wheela"
+  ],
+  "terrain": [
+    "bad-moon-loonshrine"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "blessings-of-the-bad-moon",
+      "name": "Blessings of the Bad Moon",
+      "file": "enhancements/blessings-of-the-bad-moon.json"
+    },
+    {
+      "id": "troglodytic-treasures",
+      "name": "Troglodytic Treasures",
+      "file": "enhancements/troglodytic-treasures.json"
+    }
+  ],
   "lores": [
     {
       "id": "lore-of-the-clammy-dank",
-      "type": "spell"
+      "name": "Lore of the Clammy Dank",
+      "file": "/lores/spells/lore-of-the-clammy-dank.json"
     },
     {
       "id": "lore-of-frazzlegit",
-      "type": "spell"
+      "name": "Lore of Frazzlegit",
+      "file": "/lores/spells/lore-of-frazzlegit.json"
     },
     {
       "id": "dank-manifestations",
-      "type": "manifestation"
+      "name": "Dank Manifestations",
+      "file": "/lores/manifestations/dank-manifestations.json"
+    }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "big-drogg-fort-kicker",
+      "name": "Big Drogg Fort-kicker",
+      "file": "/regiments-of-renown/big-drogg-fort-kicker.json"
+    },
+    {
+      "id": "bundo-whalebiter",
+      "name": "Bundo Whalebiter",
+      "file": "/regiments-of-renown/bundo-whalebiter.json"
+    },
+    {
+      "id": "one-eyed-grunnock",
+      "name": "One-eyed Grunnock",
+      "file": "/regiments-of-renown/one-eyed-grunnock.json"
+    },
+    {
+      "id": "odo-godswallow",
+      "name": "Odo Godswallow",
+      "file": "/regiments-of-renown/odo-godswallow.json"
+    },
+    {
+      "id": "big-grikks-kruleshots",
+      "name": "Big Grikk's Kruleshots",
+      "file": "/regiments-of-renown/big-grikks-kruleshots.json"
+    },
+    {
+      "id": "enforcers-of-the-tithe",
+      "name": "Enforcers of the Tithe",
+      "file": "/regiments-of-renown/enforcers-of-the-tithe.json"
+    },
+    {
+      "id": "exile-scavengers",
+      "name": "Exile Scavengers",
+      "file": "/regiments-of-renown/exile-scavengers.json"
+    },
+    {
+      "id": "nurgles-gift",
+      "name": "Nurgle's Gift",
+      "file": "/regiments-of-renown/nurgles-gift.json"
+    },
+    {
+      "id": "stumblefoot-gargant",
+      "name": "Stumblefoot Gargant",
+      "file": "/regiments-of-renown/stumblefoot-gargant.json"
+    },
+    {
+      "id": "goroan-scions",
+      "name": "Goroan Scions",
+      "file": "/regiments-of-renown/goroan-scions.json"
+    },
+    {
+      "id": "da-hurtlin-hogz",
+      "name": "Da Hurtlin' Hogz",
+      "file": "/regiments-of-renown/da-hurtlin-hogz.json"
     }
   ]
 }

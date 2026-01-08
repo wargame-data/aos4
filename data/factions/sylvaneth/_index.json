@@ -8,18 +8,22 @@
   ],
   "battleFormations": [
     {
+      "id": "lords-of-the-clan",
       "name": "Lords of the Clan",
       "file": "battle-formations/lords-of-the-clan.json"
     },
     {
+      "id": "forest-folk",
       "name": "Forest Folk",
       "file": "battle-formations/forest-folk.json"
     },
     {
+      "id": "free-spirits",
       "name": "Free Spirits",
       "file": "battle-formations/free-spirits.json"
     },
     {
+      "id": "outcasts",
       "name": "Outcasts",
       "file": "battle-formations/outcasts.json"
     }
@@ -28,14 +32,147 @@
     "lastUpdated": "2026-01-08",
     "source": "Sylvaneth Faction Pack"
   },
+  "units": [
+    "kurnoth-hunters-with-kurnoth-greatbows",
+    "the-twistweald",
+    "spite-revenants",
+    "spiterider-lancers",
+    "gossamid-archers",
+    "kurnoth-hunters-with-kurnoth-greatswords",
+    "kurnoth-hunters-with-kurnoth-scythes",
+    "dryads",
+    "revenant-seekers",
+    "tree-revenants",
+    "awakened-wyldwood",
+    "yltharis-guardians",
+    "skaeths-wild-hunt",
+    "kurnoths-heralds"
+  ],
+  "heroes": [
+    "branchwych",
+    "alarielle-the-everqueen",
+    "the-lady-of-vines",
+    "drycha-hamadreth",
+    "belthanos-first-thorn-of-kurnoth",
+    "warsong-revenant",
+    "arch-revenant",
+    "spirit-of-durthu",
+    "treelord",
+    "treelord-ancient",
+    "kelthannor-the-forest-prince"
+  ],
+  "terrain": [
+    "awakened-wyldwood"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "aspects-of-renewal",
+      "name": "Aspects of Renewal",
+      "file": "enhancements/aspects-of-renewal.json"
+    },
+    {
+      "id": "relics-of-nature",
+      "name": "Relics of Nature",
+      "file": "enhancements/relics-of-nature.json"
+    },
+    {
+      "id": "treasures-of-the-warglade",
+      "name": "Treasures of the Warglade",
+      "file": "enhancements/treasures-of-the-warglade.json"
+    }
+  ],
   "lores": [
     {
       "id": "lore-of-the-deepwood",
-      "type": "spell"
+      "name": "Lore of the Deepwood",
+      "file": "/lores/spells/lore-of-the-deepwood.json"
     },
     {
       "id": "manifestations-of-the-deepwood",
-      "type": "manifestation"
+      "name": "Manifestations of the Deepwood",
+      "file": "/lores/manifestations/manifestations-of-the-deepwood.json"
+    }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "bundo-whalebiter",
+      "name": "Bundo Whalebiter",
+      "file": "/regiments-of-renown/bundo-whalebiter.json"
+    },
+    {
+      "id": "fjoris-flamebearers",
+      "name": "Fjori's Flamebearers",
+      "file": "/regiments-of-renown/fjoris-flamebearers.json"
+    },
+    {
+      "id": "gotrek-gurnisson",
+      "name": "Gotrek Gurnisson",
+      "file": "/regiments-of-renown/gotrek-gurnisson.json"
+    },
+    {
+      "id": "norgrimms-rune-throng",
+      "name": "Norgrimm's Rune Throng",
+      "file": "/regiments-of-renown/norgrimms-rune-throng.json"
+    },
+    {
+      "id": "saviours-of-cinderfall",
+      "name": "Saviours of Cinderfall",
+      "file": "/regiments-of-renown/saviours-of-cinderfall.json"
+    },
+    {
+      "id": "the-blacktalons",
+      "name": "The Blacktalons",
+      "file": "/regiments-of-renown/the-blacktalons.json"
+    },
+    {
+      "id": "the-horizon-seekers",
+      "name": "The Horizon Seekers",
+      "file": "/regiments-of-renown/the-horizon-seekers.json"
+    },
+    {
+      "id": "valnirs-stormwing",
+      "name": "Valnir's Stormwing",
+      "file": "/regiments-of-renown/valnirs-stormwing.json"
+    },
+    {
+      "id": "nurgles-gift",
+      "name": "Nurgle's Gift",
+      "file": "/regiments-of-renown/nurgles-gift.json"
+    },
+    {
+      "id": "stumblefoot-gargant",
+      "name": "Stumblefoot Gargant",
+      "file": "/regiments-of-renown/stumblefoot-gargant.json"
+    },
+    {
+      "id": "bloodthirsty-shiver",
+      "name": "Bloodthirsty Shiver",
+      "file": "/regiments-of-renown/bloodthirsty-shiver.json"
+    },
+    {
+      "id": "namarti-shore-raid",
+      "name": "Namarti Shore Raid",
+      "file": "/regiments-of-renown/namarti-shore-raid.json"
+    },
+    {
+      "id": "drekkis-privateers",
+      "name": "Drekki's Privateers",
+      "file": "/regiments-of-renown/drekkis-privateers.json"
+    },
+    {
+      "id": "sky-port-profiteers",
+      "name": "Sky-Port Profiteers",
+      "file": "/regiments-of-renown/sky-port-profiteers.json"
     }
   ]
 }

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "saviours-of-cinderfall",
+  "name": "Saviours of Cinderfall",
+  "points": 290,
+  "units": [
+    {
+      "name": "Callis and Toll",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Toll's Companions",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Duty Bound",
+      "type": "passive",
+      "effect": "While every model in the same unit in the Regiment of Renown is contesting the same objective, add 1 to save rolls and ward rolls for that unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Sigmar's Justice",
+      "type": "once-per-battle",
+      "effect": "For the rest of the battle, add 1 to wound rolls for combat attacks made by units in this Regiment of Renown that target a unit that is **marked for justice**.",
+      "declare": "Pick an enemy unit to be **marked for justice**. You can pick a unit that is in reserve.",
+      "color": "Black",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  }
+}

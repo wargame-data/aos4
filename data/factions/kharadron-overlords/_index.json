@@ -8,18 +8,22 @@
   ],
   "battleFormations": [
     {
+      "id": "veteran-ground-troops",
       "name": "Veteran Ground Troops",
       "file": "battle-formations/veteran-ground-troops.json"
     },
     {
+      "id": "rapid-redeployment-squadron",
       "name": "Rapid Redeployment Squadron",
       "file": "battle-formations/rapid-redeployment-squadron.json"
     },
     {
+      "id": "endrineers-guild-expeditionary-force",
       "name": "Endrineers Guild Expeditionary Force",
       "file": "battle-formations/endrineers-guild-expeditionary-force.json"
     },
     {
+      "id": "pioneers-and-scavengers",
       "name": "Pioneers and Scavengers",
       "file": "battle-formations/pioneers-and-scavengers.json"
     }
@@ -27,5 +31,142 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Kharadron Overlords Faction Pack"
-  }
+  },
+  "units": [
+    "grundstok-gunhauler",
+    "grundstok-thunderers",
+    "arkanaut-company",
+    "endrinriggers",
+    "skywardens",
+    "arkanaut-ironclad",
+    "arkanaut-frigate",
+    "thundriks-profiteers",
+    "vongrim-salvagers",
+    "vongrim-harpoon-crew",
+    "zontari-endrin-dock",
+    "auto-endrin"
+  ],
+  "heroes": [
+    "aether-khemist",
+    "drekki-flynt",
+    "arkanaut-admiral",
+    "brokk-grungsson-lord-magnate-of-barak-nar",
+    "aetheric-navigator",
+    "endrinmaster-with-endrinharness",
+    "codewright",
+    "endrinmaster-with-dirigible-suit",
+    "null-khemist"
+  ],
+  "terrain": [
+    "zontari-endrin-dock"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "great-endrinworks",
+      "name": "Great Endrinworks",
+      "file": "enhancements/great-endrinworks.json"
+    },
+    {
+      "id": "ingenious-innovations",
+      "name": "Ingenious Innovations",
+      "file": "enhancements/ingenious-innovations.json"
+    },
+    {
+      "id": "inventions-of-the-sky-ports",
+      "name": "Inventions of the Sky-ports",
+      "file": "enhancements/inventions-of-the-sky-ports.json"
+    },
+    {
+      "id": "lords-of-the-sky-fleets",
+      "name": "Lords of the Sky-fleets",
+      "file": "enhancements/lords-of-the-sky-fleets.json"
+    }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "bundo-whalebiter",
+      "name": "Bundo Whalebiter",
+      "file": "/regiments-of-renown/bundo-whalebiter.json"
+    },
+    {
+      "id": "elthwins-thorns",
+      "name": "Elthwin's Thorns",
+      "file": "/regiments-of-renown/elthwins-thorns.json"
+    },
+    {
+      "id": "fjoris-flamebearers",
+      "name": "Fjori's Flamebearers",
+      "file": "/regiments-of-renown/fjoris-flamebearers.json"
+    },
+    {
+      "id": "gotrek-gurnisson",
+      "name": "Gotrek Gurnisson",
+      "file": "/regiments-of-renown/gotrek-gurnisson.json"
+    },
+    {
+      "id": "norgrimms-rune-throng",
+      "name": "Norgrimm's Rune Throng",
+      "file": "/regiments-of-renown/norgrimms-rune-throng.json"
+    },
+    {
+      "id": "saviours-of-cinderfall",
+      "name": "Saviours of Cinderfall",
+      "file": "/regiments-of-renown/saviours-of-cinderfall.json"
+    },
+    {
+      "id": "the-blacktalons",
+      "name": "The Blacktalons",
+      "file": "/regiments-of-renown/the-blacktalons.json"
+    },
+    {
+      "id": "the-horizon-seekers",
+      "name": "The Horizon Seekers",
+      "file": "/regiments-of-renown/the-horizon-seekers.json"
+    },
+    {
+      "id": "valnirs-stormwing",
+      "name": "Valnir's Stormwing",
+      "file": "/regiments-of-renown/valnirs-stormwing.json"
+    },
+    {
+      "id": "enforcers-of-the-tithe",
+      "name": "Enforcers of the Tithe",
+      "file": "/regiments-of-renown/enforcers-of-the-tithe.json"
+    },
+    {
+      "id": "nurgles-gift",
+      "name": "Nurgle's Gift",
+      "file": "/regiments-of-renown/nurgles-gift.json"
+    },
+    {
+      "id": "stumblefoot-gargant",
+      "name": "Stumblefoot Gargant",
+      "file": "/regiments-of-renown/stumblefoot-gargant.json"
+    },
+    {
+      "id": "bloodthirsty-shiver",
+      "name": "Bloodthirsty Shiver",
+      "file": "/regiments-of-renown/bloodthirsty-shiver.json"
+    },
+    {
+      "id": "namarti-shore-raid",
+      "name": "Namarti Shore Raid",
+      "file": "/regiments-of-renown/namarti-shore-raid.json"
+    },
+    {
+      "id": "the-scarlet-jury",
+      "name": "The Scarlet Jury",
+      "file": "/regiments-of-renown/the-scarlet-jury.json"
+    }
+  ]
 }

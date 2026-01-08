@@ -8,18 +8,22 @@
   ],
   "battleFormations": [
     {
+      "id": "weirdfist",
       "name": "Weirdfist",
       "file": "battle-formations/weirdfist.json"
     },
     {
+      "id": "ironjawz-brawl",
       "name": "Ironjawz Brawl",
       "file": "battle-formations/ironjawz-brawl.json"
     },
     {
+      "id": "grunta-stampede",
       "name": "Grunta Stampede",
       "file": "battle-formations/grunta-stampede.json"
     },
     {
+      "id": "ironfist",
       "name": "Ironfist",
       "file": "battle-formations/ironfist.json"
     }
@@ -28,18 +32,150 @@
     "lastUpdated": "2026-01-08",
     "source": "Ironjawz Faction Pack"
   },
+  "units": [
+    "maw-grunta-gougers",
+    "gore-gruntas",
+    "brute-ragerz",
+    "ardboyz",
+    "brutes",
+    "weirdbrute-wrekkaz",
+    "maw-grunta-with-hakkin-krew",
+    "morgoks-krushas",
+    "ironskulls-boyz",
+    "bossrokk-tower"
+  ],
+  "heroes": [
+    "weirdnob-shaman",
+    "megaboss-on-maw-krusha",
+    "megaboss",
+    "warchanter",
+    "ardboy-big-boss",
+    "zoggrok-anvilsmasha",
+    "gordrakk-the-fist-of-gork",
+    "tuskboss-on-maw-grunta"
+  ],
+  "terrain": [
+    "bossrokk-tower"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "monstrous-traits",
+      "name": "Monstrous Traits",
+      "file": "enhancements/monstrous-traits.json"
+    },
+    {
+      "id": "brutal-warlords",
+      "name": "Brutal Warlords",
+      "file": "enhancements/brutal-warlords.json"
+    },
+    {
+      "id": "da-bosss-hoard",
+      "name": "Da Boss's Hoard",
+      "file": "enhancements/da-bosss-hoard.json"
+    }
+  ],
   "lores": [
     {
       "id": "lore-of-the-weird",
-      "type": "spell"
+      "name": "Lore of the Weird",
+      "file": "/lores/spells/lore-of-the-weird.json"
     },
     {
       "id": "warbeats",
-      "type": "prayer"
+      "name": "Warbeats",
+      "file": "/lores/prayers/warbeats.json"
     },
     {
       "id": "manifestations-of-gorkamorka",
-      "type": "manifestation"
+      "name": "Manifestations of Gorkamorka",
+      "file": "/lores/manifestations/manifestations-of-gorkamorka.json"
+    }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "big-drogg-fort-kicker",
+      "name": "Big Drogg Fort-kicker",
+      "file": "/regiments-of-renown/big-drogg-fort-kicker.json"
+    },
+    {
+      "id": "bundo-whalebiter",
+      "name": "Bundo Whalebiter",
+      "file": "/regiments-of-renown/bundo-whalebiter.json"
+    },
+    {
+      "id": "one-eyed-grunnock",
+      "name": "One-eyed Grunnock",
+      "file": "/regiments-of-renown/one-eyed-grunnock.json"
+    },
+    {
+      "id": "odo-godswallow",
+      "name": "Odo Godswallow",
+      "file": "/regiments-of-renown/odo-godswallow.json"
+    },
+    {
+      "id": "big-grikks-kruleshots",
+      "name": "Big Grikk's Kruleshots",
+      "file": "/regiments-of-renown/big-grikks-kruleshots.json"
+    },
+    {
+      "id": "braggits-bottle-snatchaz",
+      "name": "Braggit's Bottle-snatchaz",
+      "file": "/regiments-of-renown/braggits-bottle-snatchaz.json"
+    },
+    {
+      "id": "exile-scavengers",
+      "name": "Exile Scavengers",
+      "file": "/regiments-of-renown/exile-scavengers.json"
+    },
+    {
+      "id": "nurgles-gift",
+      "name": "Nurgle's Gift",
+      "file": "/regiments-of-renown/nurgles-gift.json"
+    },
+    {
+      "id": "stumblefoot-gargant",
+      "name": "Stumblefoot Gargant",
+      "file": "/regiments-of-renown/stumblefoot-gargant.json"
+    },
+    {
+      "id": "snerks-trogg-fer-hire",
+      "name": "Snerk's Trogg-fer-Hire",
+      "file": "/regiments-of-renown/snerks-trogg-fer-hire.json"
+    },
+    {
+      "id": "goroan-scions",
+      "name": "Goroan Scions",
+      "file": "/regiments-of-renown/goroan-scions.json"
+    },
+    {
+      "id": "da-kountin-krew",
+      "name": "Da Kountin' Krew",
+      "file": "/regiments-of-renown/da-kountin-krew.json"
+    },
+    {
+      "id": "the-shinestealaz",
+      "name": "The Shinestealaz",
+      "file": "/regiments-of-renown/the-shinestealaz.json"
+    },
+    {
+      "id": "skulkriks-loonladz",
+      "name": "Skulkrik's Loonladz",
+      "file": "/regiments-of-renown/skulkriks-loonladz.json"
+    },
+    {
+      "id": "the-scarlet-jury",
+      "name": "The Scarlet Jury",
+      "file": "/regiments-of-renown/the-scarlet-jury.json"
     }
   ]
 }

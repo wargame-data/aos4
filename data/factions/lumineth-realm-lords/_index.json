@@ -8,18 +8,22 @@
   ],
   "battleFormations": [
     {
+      "id": "vanari-battlehost",
       "name": "Vanari Battlehost",
       "file": "battle-formations/vanari-battlehost.json"
     },
     {
+      "id": "scinari-council",
       "name": "Scinari Council",
       "file": "battle-formations/scinari-council.json"
     },
     {
+      "id": "alarith-temple",
       "name": "Alarith Temple",
       "file": "battle-formations/alarith-temple.json"
     },
     {
+      "id": "hurakan-temple",
       "name": "Hurakan Temple",
       "file": "battle-formations/hurakan-temple.json"
     }
@@ -28,18 +32,163 @@
     "lastUpdated": "2026-01-08",
     "source": "Lumineth Realm-lords Faction Pack"
   },
+  "units": [
+    "vanari-starshard-ballista",
+    "alarith-spirit-of-the-mountain",
+    "vanari-dawnriders",
+    "vanari-auralan-sentinels",
+    "vanari-bladelords",
+    "hurakan-windchargers",
+    "ydrilan-riverblades",
+    "hurakan-spirit-of-the-wind",
+    "alarith-stoneguard",
+    "vanari-auralan-wardens",
+    "shrine-luminor",
+    "myaris-purifiers"
+  ],
+  "heroes": [
+    "ellania-and-ellathor-eclipsian-warsages",
+    "lyrior-uthralle-warden-of-ymetrica",
+    "vanari-lord-regent",
+    "vanari-bannerblade",
+    "scinari-calligrave",
+    "scinari-cathallar",
+    "scinari-loreseeker",
+    "hurakan-windmage",
+    "the-light-of-eltharion",
+    "alarith-stonemage",
+    "archmage-teclis-and-celennar-spirit-of-hysh",
+    "scinari-enlightener",
+    "avalenor-the-stoneheart-king",
+    "sevireth-lord-of-the-seventh-wind"
+  ],
+  "terrain": [
+    "shrine-luminor"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "aspects-of-enlightenment",
+      "name": "Aspects of Enlightenment",
+      "file": "enhancements/aspects-of-enlightenment.json"
+    },
+    {
+      "id": "heirlooms-of-hysh",
+      "name": "Heirlooms of Hysh",
+      "file": "enhancements/heirlooms-of-hysh.json"
+    },
+    {
+      "id": "lords-of-brilliance",
+      "name": "Lords of Brilliance",
+      "file": "enhancements/lords-of-brilliance.json"
+    }
+  ],
   "lores": [
     {
       "id": "lore-of-hysh",
-      "type": "spell"
+      "name": "Lore of Hysh",
+      "file": "/lores/spells/lore-of-hysh.json"
     },
     {
       "id": "lore-of-prismatic-resonance",
-      "type": "spell"
+      "name": "Lore of Prismatic Resonance",
+      "file": "/lores/spells/lore-of-prismatic-resonance.json"
     },
     {
       "id": "manifestations-of-hysh",
-      "type": "manifestation"
+      "name": "Manifestations of Hysh",
+      "file": "/lores/manifestations/manifestations-of-hysh.json"
+    }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "bundo-whalebiter",
+      "name": "Bundo Whalebiter",
+      "file": "/regiments-of-renown/bundo-whalebiter.json"
+    },
+    {
+      "id": "elthwins-thorns",
+      "name": "Elthwin's Thorns",
+      "file": "/regiments-of-renown/elthwins-thorns.json"
+    },
+    {
+      "id": "fjoris-flamebearers",
+      "name": "Fjori's Flamebearers",
+      "file": "/regiments-of-renown/fjoris-flamebearers.json"
+    },
+    {
+      "id": "gotrek-gurnisson",
+      "name": "Gotrek Gurnisson",
+      "file": "/regiments-of-renown/gotrek-gurnisson.json"
+    },
+    {
+      "id": "norgrimms-rune-throng",
+      "name": "Norgrimm's Rune Throng",
+      "file": "/regiments-of-renown/norgrimms-rune-throng.json"
+    },
+    {
+      "id": "saviours-of-cinderfall",
+      "name": "Saviours of Cinderfall",
+      "file": "/regiments-of-renown/saviours-of-cinderfall.json"
+    },
+    {
+      "id": "the-blacktalons",
+      "name": "The Blacktalons",
+      "file": "/regiments-of-renown/the-blacktalons.json"
+    },
+    {
+      "id": "the-horizon-seekers",
+      "name": "The Horizon Seekers",
+      "file": "/regiments-of-renown/the-horizon-seekers.json"
+    },
+    {
+      "id": "valnirs-stormwing",
+      "name": "Valnir's Stormwing",
+      "file": "/regiments-of-renown/valnirs-stormwing.json"
+    },
+    {
+      "id": "exile-scavengers",
+      "name": "Exile Scavengers",
+      "file": "/regiments-of-renown/exile-scavengers.json"
+    },
+    {
+      "id": "nurgles-gift",
+      "name": "Nurgle's Gift",
+      "file": "/regiments-of-renown/nurgles-gift.json"
+    },
+    {
+      "id": "snerks-trogg-fer-hire",
+      "name": "Snerk's Trogg-fer-Hire",
+      "file": "/regiments-of-renown/snerks-trogg-fer-hire.json"
+    },
+    {
+      "id": "bloodthirsty-shiver",
+      "name": "Bloodthirsty Shiver",
+      "file": "/regiments-of-renown/bloodthirsty-shiver.json"
+    },
+    {
+      "id": "namarti-shore-raid",
+      "name": "Namarti Shore Raid",
+      "file": "/regiments-of-renown/namarti-shore-raid.json"
+    },
+    {
+      "id": "drekkis-privateers",
+      "name": "Drekki's Privateers",
+      "file": "/regiments-of-renown/drekkis-privateers.json"
+    },
+    {
+      "id": "sky-port-profiteers",
+      "name": "Sky-Port Profiteers",
+      "file": "/regiments-of-renown/sky-port-profiteers.json"
     }
   ]
 }

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "enforcers-of-the-tithe",
+  "name": "Enforcers of the Tithe",
+  "points": 470,
+  "units": [
+    {
+      "name": "Mortisan Ossifector",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Gothizzar Harvester",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Mortek Guard",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Collect the Tithe",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. If the roll equals or exceeds the target’s Health characteristic, 1 model in the target unit is slain, then give the unit using this ability 1 bone-tithe point.",
+      "phase": "combat",
+      "declare": "Pick the **Gothizzar Harvester** in this Regiment of Renown to use this ability, then pick a non-**^^Hero^^** Infantry unit (friendly or enemy) within its combat range to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Soul Tax",
+      "type": "spell",
+      "effect": "Until the start of your next turn:\n• The target has a maximum control score of 1.\n• Add 1 to hit rolls and wound rolls for the **recipient**’s combat attacks.",
+      "phase": "hero",
+      "declare": "Pick the **Mortisan Ossifector** in this Regiment of Renown to cast this spell, then:\n• Pick a friendly unit, excluding units in this Regiment of Renown, to be the target.\n• Pick a unit in this Regiment of Renown to be the **recipient**. The target and the **recipient** must be wholly within 12\" of and visible to the caster. Then, make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Rebuild on the March",
+      "type": "passive",
+      "effect": "Reset the **Gothizzar Harvester**’s bone-tithe points to 0. Then, set up a replacement of the target unit with half the number of models (rounding up) wholly within 9\" of the **Gothizzar Harvester** and more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Pick the **Gothizzar Harvester** in this Regiment of Renown to use this ability if it has 6 bone-tithe points. Then, pick another unit in this Regiment of Renown that has been destroyed to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Rallying"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  }
+}

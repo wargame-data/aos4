@@ -8,18 +8,22 @@
   ],
   "battleFormations": [
     {
+      "id": "kop-rukk",
       "name": "Kop Rukk",
       "file": "battle-formations/kop-rukk.json"
     },
     {
+      "id": "kunnin-rukk",
       "name": "Kunnin' Rukk",
       "file": "battle-formations/kunnin-rukk.json"
     },
     {
+      "id": "snaga-rukk",
       "name": "Snaga Rukk",
       "file": "battle-formations/snaga-rukk.json"
     },
     {
+      "id": "brutal-rukk",
       "name": "Brutal Rukk",
       "file": "battle-formations/brutal-rukk.json"
     }
@@ -28,14 +32,54 @@
     "lastUpdated": "2026-01-08",
     "source": "Bonesplitterz Faction Pack"
   },
+  "units": [
+    "savage-boarboy-maniaks",
+    "savage-orruk-arrowboys",
+    "savage-big-stabbas",
+    "savage-orruks",
+    "savage-orruk-morboys",
+    "savage-boarboys",
+    "hedkrakkas-madmob"
+  ],
+  "heroes": [
+    "wardokk",
+    "wurrgog-prophet",
+    "savage-big-boss",
+    "maniak-weirdnob",
+    "kragnos-the-end-of-empires"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "boss-bones-and-other-gubbinz",
+      "name": "Boss Bones and Other Gubbinz",
+      "file": "enhancements/boss-bones-and-other-gubbinz.json"
+    },
+    {
+      "id": "da-beast-wivin",
+      "name": "Da Beast Wivin",
+      "file": "enhancements/da-beast-wivin.json"
+    }
+  ],
   "lores": [
     {
       "id": "lore-of-the-savage-beast",
-      "type": "spell"
+      "name": "Lore of the Savage Beast",
+      "file": "/lores/spells/lore-of-the-savage-beast.json"
     },
     {
       "id": "prayers-of-the-living-wilds",
-      "type": "prayer"
+      "name": "Prayers of the Living Wilds",
+      "file": "/lores/prayers/prayers-of-the-living-wilds.json"
     }
   ]
 }

@@ -8,18 +8,22 @@
   ],
   "battleFormations": [
     {
+      "id": "slaughter-troupe",
       "name": "Slaughter Troupe",
       "file": "battle-formations/slaughter-troupe.json"
     },
     {
+      "id": "sc-thcoven",
       "name": "Scáthcoven",
       "file": "battle-formations/sc-thcoven.json"
     },
     {
+      "id": "shadow-patrol",
       "name": "Shadow Patrol",
       "file": "battle-formations/shadow-patrol.json"
     },
     {
+      "id": "cauldron-guard",
       "name": "Cauldron Guard",
       "file": "battle-formations/cauldron-guard.json"
     }
@@ -28,22 +32,173 @@
     "lastUpdated": "2026-01-08",
     "source": "Daughters of Khaine Faction Pack"
   },
+  "units": [
+    "avatar-of-khaine",
+    "witch-aelves-with-paired-scians",
+    "khainite-shadowstalkers",
+    "sisters-of-slaughter-with-sacrificial-knives",
+    "sisters-of-slaughter-with-bladed-bucklers",
+    "witch-aelves-with-bladed-bucklers",
+    "doomfire-warlocks",
+    "blood-stalkers",
+    "blood-sisters",
+    "khinerai-heartrenders",
+    "khinerai-lifetakers",
+    "gryselles-arenai",
+    "morgwaeths-blade-coven",
+    "the-shadeborn",
+    "knives-of-the-crone"
+  ],
+  "heroes": [
+    "hag-queen",
+    "morathi-khaine",
+    "the-shadow-queen",
+    "krethusa-the-croneseer",
+    "bloodwrack-shrine",
+    "melusai-ironscale",
+    "bloodwrack-medusa",
+    "high-gladiatrix",
+    "hag-queen-on-cauldron-of-blood",
+    "slaughter-queen-on-cauldron-of-blood",
+    "slaughter-queen",
+    "maleneth-witchblade",
+    "krethusa-the-croneseer-scourge-of-ghyran",
+    "bloodwrack-shrine-scourge-of-ghyran"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "gifts-of-morathi",
+      "name": "Gifts of Morathi",
+      "file": "enhancements/gifts-of-morathi.json"
+    },
+    {
+      "id": "paragons-of-murder",
+      "name": "Paragons of Murder",
+      "file": "enhancements/paragons-of-murder.json"
+    }
+  ],
   "lores": [
     {
       "id": "lore-of-shadows",
-      "type": "spell"
+      "name": "Lore of Shadows",
+      "file": "/lores/spells/lore-of-shadows.json"
     },
     {
       "id": "prayers-of-the-khainite-cult",
-      "type": "prayer"
+      "name": "Prayers of the Khainite Cult",
+      "file": "/lores/prayers/prayers-of-the-khainite-cult.json"
     },
     {
       "id": "bloodshadow-rites",
-      "type": "prayer"
+      "name": "Bloodshadow Rites",
+      "file": "/lores/prayers/bloodshadow-rites.json"
     },
     {
       "id": "manifestations-of-khaine",
-      "type": "manifestation"
+      "name": "Manifestations of Khaine",
+      "file": "/lores/manifestations/manifestations-of-khaine.json"
+    }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "bundo-whalebiter",
+      "name": "Bundo Whalebiter",
+      "file": "/regiments-of-renown/bundo-whalebiter.json"
+    },
+    {
+      "id": "elthwins-thorns",
+      "name": "Elthwin's Thorns",
+      "file": "/regiments-of-renown/elthwins-thorns.json"
+    },
+    {
+      "id": "fjoris-flamebearers",
+      "name": "Fjori's Flamebearers",
+      "file": "/regiments-of-renown/fjoris-flamebearers.json"
+    },
+    {
+      "id": "gotrek-gurnisson",
+      "name": "Gotrek Gurnisson",
+      "file": "/regiments-of-renown/gotrek-gurnisson.json"
+    },
+    {
+      "id": "norgrimms-rune-throng",
+      "name": "Norgrimm's Rune Throng",
+      "file": "/regiments-of-renown/norgrimms-rune-throng.json"
+    },
+    {
+      "id": "saviours-of-cinderfall",
+      "name": "Saviours of Cinderfall",
+      "file": "/regiments-of-renown/saviours-of-cinderfall.json"
+    },
+    {
+      "id": "the-blacktalons",
+      "name": "The Blacktalons",
+      "file": "/regiments-of-renown/the-blacktalons.json"
+    },
+    {
+      "id": "the-horizon-seekers",
+      "name": "The Horizon Seekers",
+      "file": "/regiments-of-renown/the-horizon-seekers.json"
+    },
+    {
+      "id": "valnirs-stormwing",
+      "name": "Valnir's Stormwing",
+      "file": "/regiments-of-renown/valnirs-stormwing.json"
+    },
+    {
+      "id": "enforcers-of-the-tithe",
+      "name": "Enforcers of the Tithe",
+      "file": "/regiments-of-renown/enforcers-of-the-tithe.json"
+    },
+    {
+      "id": "exile-scavengers",
+      "name": "Exile Scavengers",
+      "file": "/regiments-of-renown/exile-scavengers.json"
+    },
+    {
+      "id": "nurgles-gift",
+      "name": "Nurgle's Gift",
+      "file": "/regiments-of-renown/nurgles-gift.json"
+    },
+    {
+      "id": "stumblefoot-gargant",
+      "name": "Stumblefoot Gargant",
+      "file": "/regiments-of-renown/stumblefoot-gargant.json"
+    },
+    {
+      "id": "snerks-trogg-fer-hire",
+      "name": "Snerk's Trogg-fer-Hire",
+      "file": "/regiments-of-renown/snerks-trogg-fer-hire.json"
+    },
+    {
+      "id": "bloodthirsty-shiver",
+      "name": "Bloodthirsty Shiver",
+      "file": "/regiments-of-renown/bloodthirsty-shiver.json"
+    },
+    {
+      "id": "namarti-shore-raid",
+      "name": "Namarti Shore Raid",
+      "file": "/regiments-of-renown/namarti-shore-raid.json"
+    },
+    {
+      "id": "drekkis-privateers",
+      "name": "Drekki's Privateers",
+      "file": "/regiments-of-renown/drekkis-privateers.json"
+    },
+    {
+      "id": "sky-port-profiteers",
+      "name": "Sky-Port Profiteers",
+      "file": "/regiments-of-renown/sky-port-profiteers.json"
     }
   ]
 }

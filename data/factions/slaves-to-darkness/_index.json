@@ -8,18 +8,22 @@
   ],
   "battleFormations": [
     {
+      "id": "darkoath-horde",
       "name": "Darkoath Horde",
       "file": "battle-formations/darkoath-horde.json"
     },
     {
+      "id": "legion-of-chaos",
       "name": "Legion of Chaos",
       "file": "battle-formations/legion-of-chaos.json"
     },
     {
+      "id": "despoilers",
       "name": "Despoilers",
       "file": "battle-formations/despoilers.json"
     },
     {
+      "id": "godswrath-warband",
       "name": "Godswrath Warband",
       "file": "battle-formations/godswrath-warband.json"
     }
@@ -28,14 +32,191 @@
     "lastUpdated": "2026-01-08",
     "source": "Slaves to Darkness Faction Pack"
   },
+  "units": [
+    "varanguard",
+    "ogroid-theridons",
+    "soul-grinder",
+    "gorebeast-chariot",
+    "chaos-chariot",
+    "darkoath-savagers",
+    "chaos-knights",
+    "chaos-spawn",
+    "slaughterbrute",
+    "fomoroid-crusher",
+    "chaos-legionnaires",
+    "chaos-furies",
+    "chaos-chosen",
+    "raptoryx",
+    "mutalith-vortex-beast",
+    "mindstealer-sphiranx",
+    "nexus-chaotica",
+    "darkoath-wilderfiend",
+    "chaos-warriors",
+    "darkoath-marauders",
+    "darkoath-fellriders",
+    "the-oathsworn-kin",
+    "horns-of-hashut",
+    "corvus-cabal",
+    "cypher-lords",
+    "iron-golem",
+    "splintered-fang",
+    "scions-of-the-flame",
+    "spire-tyrants",
+    "tarantulos-brood",
+    "the-unmade",
+    "untamed-beasts",
+    "godsworn-hunt",
+    "khagras-ravagers",
+    "the-gnarlspirit-pack"
+  ],
+  "heroes": [
+    "archaon-the-everchosen",
+    "daemon-prince",
+    "gaunt-summoner",
+    "belakor-the-dark-master",
+    "eternus-blade-of-the-first-prince",
+    "chaos-sorcerer-lord-on-manticore",
+    "gaunt-summoner-on-disc-of-tzeentch",
+    "centaurion-marshal",
+    "chaos-lord-on-manticore",
+    "ogroid-myrmidon",
+    "chaos-lord-on-karkadrak",
+    "chaos-sorcerer-lord",
+    "darkoath-warqueen",
+    "exalted-hero-of-chaos",
+    "chaos-warshrine",
+    "chaos-lord",
+    "darkoath-chieftain",
+    "chaos-lord-on-daemonic-mount",
+    "darkoath-chieftain-on-warsteed",
+    "abraxia-spear-of-the-everchosen",
+    "gunnar-brand",
+    "singri-brand",
+    "anvil-of-apotheosis-slaves-to-darkness-hero",
+    "athol-khul"
+  ],
+  "terrain": [
+    "nexus-chaotica"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "ensorcelled-banners",
+      "name": "Ensorcelled Banners",
+      "file": "enhancements/ensorcelled-banners.json"
+    },
+    {
+      "id": "fell-artefacts",
+      "name": "Fell Artefacts",
+      "file": "enhancements/fell-artefacts.json"
+    },
+    {
+      "id": "infernal-treasures",
+      "name": "Infernal Treasures",
+      "file": "enhancements/infernal-treasures.json"
+    },
+    {
+      "id": "ruinous-overlords",
+      "name": "Ruinous Overlords",
+      "file": "enhancements/ruinous-overlords.json"
+    }
+  ],
   "lores": [
     {
       "id": "lore-of-the-damned",
-      "type": "spell"
+      "name": "Lore of the Damned",
+      "file": "/lores/spells/lore-of-the-damned.json"
     },
     {
       "id": "manifestations-of-malevolence",
-      "type": "manifestation"
+      "name": "Manifestations of Malevolence",
+      "file": "/lores/manifestations/manifestations-of-malevolence.json"
+    }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "one-eyed-grunnock",
+      "name": "One-eyed Grunnock",
+      "file": "/regiments-of-renown/one-eyed-grunnock.json"
+    },
+    {
+      "id": "phulgoths-shudderhood",
+      "name": "Phulgoth's Shudderhood",
+      "file": "/regiments-of-renown/phulgoths-shudderhood.json"
+    },
+    {
+      "id": "the-coven-of-thryx",
+      "name": "The Coven of Thryx",
+      "file": "/regiments-of-renown/the-coven-of-thryx.json"
+    },
+    {
+      "id": "volt-klaws-enginecoven",
+      "name": "Volt-Klaw's Enginecoven",
+      "file": "/regiments-of-renown/volt-klaws-enginecoven.json"
+    },
+    {
+      "id": "krittoks-clawpack",
+      "name": "Krittok's Clawpack",
+      "file": "/regiments-of-renown/krittoks-clawpack.json"
+    },
+    {
+      "id": "exile-scavengers",
+      "name": "Exile Scavengers",
+      "file": "/regiments-of-renown/exile-scavengers.json"
+    },
+    {
+      "id": "squires-of-the-everchosen",
+      "name": "Squires of the Everchosen",
+      "file": "/regiments-of-renown/squires-of-the-everchosen.json"
+    },
+    {
+      "id": "nurgles-gift",
+      "name": "Nurgle's Gift",
+      "file": "/regiments-of-renown/nurgles-gift.json"
+    },
+    {
+      "id": "stumblefoot-gargant",
+      "name": "Stumblefoot Gargant",
+      "file": "/regiments-of-renown/stumblefoot-gargant.json"
+    },
+    {
+      "id": "snerks-trogg-fer-hire",
+      "name": "Snerk's Trogg-fer-Hire",
+      "file": "/regiments-of-renown/snerks-trogg-fer-hire.json"
+    },
+    {
+      "id": "the-exiled-one",
+      "name": "The Exiled One",
+      "file": "/regiments-of-renown/the-exiled-one.json"
+    },
+    {
+      "id": "the-red-revelation",
+      "name": "The Red Revelation",
+      "file": "/regiments-of-renown/the-red-revelation.json"
+    },
+    {
+      "id": "the-scarlet-jury",
+      "name": "The Scarlet Jury",
+      "file": "/regiments-of-renown/the-scarlet-jury.json"
+    },
+    {
+      "id": "seeker-of-the-dread-dirge",
+      "name": "Seeker of the Dread Dirge",
+      "file": "/regiments-of-renown/seeker-of-the-dread-dirge.json"
+    },
+    {
+      "id": "the-curse-steel-battery",
+      "name": "The Curse-Steel Battery",
+      "file": "/regiments-of-renown/the-curse-steel-battery.json"
     }
   ]
 }

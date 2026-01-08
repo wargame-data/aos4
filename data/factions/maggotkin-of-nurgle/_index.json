@@ -8,18 +8,22 @@
   ],
   "battleFormations": [
     {
+      "id": "affliction-cyst",
       "name": "Affliction Cyst",
       "file": "battle-formations/affliction-cyst.json"
     },
     {
+      "id": "tallyband-of-nurgle",
       "name": "Tallyband of Nurgle",
       "file": "battle-formations/tallyband-of-nurgle.json"
     },
     {
+      "id": "nurgles-menagerie",
       "name": "Nurgle's Menagerie",
       "file": "battle-formations/nurgles-menagerie.json"
     },
     {
+      "id": "plague-cyst",
       "name": "Plague Cyst",
       "file": "battle-formations/plague-cyst.json"
     }
@@ -28,14 +32,155 @@
     "lastUpdated": "2026-01-08",
     "source": "Maggotkin of Nurgle Faction Pack"
   },
+  "units": [
+    "beasts-of-nurgle",
+    "putrid-blightkings",
+    "nurglings",
+    "pusgoyle-blightlords",
+    "plague-drones",
+    "rotmire-creed",
+    "plaguebearers",
+    "feculent-gnarlmaw",
+    "the-wurmspat",
+    "grandfathers-gardeners"
+  ],
+  "heroes": [
+    "horticulous-slimux",
+    "lord-of-plagues",
+    "great-unclean-one",
+    "the-glottkin",
+    "spoilpox-scrivener-herald-of-nurgle",
+    "sloppity-bilepiper-herald-of-nurgle",
+    "rotigus",
+    "gutrot-spume",
+    "morbidex-twiceborn",
+    "bloab-rotspawned",
+    "poxbringer-herald-of-nurgle",
+    "orghotts-daemonspew",
+    "rotbringer-sorcerer",
+    "lord-of-afflictions",
+    "harbinger-of-decay",
+    "lord-of-blights",
+    "epidemius-tallyman-of-nurgle",
+    "festus-the-leechlord"
+  ],
+  "terrain": [
+    "feculent-gnarlmaw"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "avatars-of-corruption",
+      "name": "Avatars of Corruption",
+      "file": "enhancements/avatars-of-corruption.json"
+    },
+    {
+      "id": "boons-of-nurgle",
+      "name": "Boons of Nurgle",
+      "file": "enhancements/boons-of-nurgle.json"
+    },
+    {
+      "id": "grandfathers-gifts",
+      "name": "Grandfather's Gifts",
+      "file": "enhancements/grandfathers-gifts.json"
+    }
+  ],
   "lores": [
     {
       "id": "lore-of-malignance",
-      "type": "spell"
+      "name": "Lore of Malignance",
+      "file": "/lores/spells/lore-of-malignance.json"
     },
     {
       "id": "benedictions-of-sickness",
-      "type": "prayer"
+      "name": "Benedictions of Sickness",
+      "file": "/lores/prayers/benedictions-of-sickness.json"
+    }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "one-eyed-grunnock",
+      "name": "One-eyed Grunnock",
+      "file": "/regiments-of-renown/one-eyed-grunnock.json"
+    },
+    {
+      "id": "brands-oathbound",
+      "name": "Brand's Oathbound",
+      "file": "/regiments-of-renown/brands-oathbound.json"
+    },
+    {
+      "id": "hargaxs-pit-beasts",
+      "name": "Hargax's Pit-beasts",
+      "file": "/regiments-of-renown/hargaxs-pit-beasts.json"
+    },
+    {
+      "id": "the-coven-of-thryx",
+      "name": "The Coven of Thryx",
+      "file": "/regiments-of-renown/the-coven-of-thryx.json"
+    },
+    {
+      "id": "volt-klaws-enginecoven",
+      "name": "Volt-Klaw's Enginecoven",
+      "file": "/regiments-of-renown/volt-klaws-enginecoven.json"
+    },
+    {
+      "id": "krittoks-clawpack",
+      "name": "Krittok's Clawpack",
+      "file": "/regiments-of-renown/krittoks-clawpack.json"
+    },
+    {
+      "id": "lord-skaldiors-chosen",
+      "name": "Lord Skaldior's Chosen",
+      "file": "/regiments-of-renown/lord-skaldiors-chosen.json"
+    },
+    {
+      "id": "godmarked-ascendant",
+      "name": "Godmarked Ascendant",
+      "file": "/regiments-of-renown/godmarked-ascendant.json"
+    },
+    {
+      "id": "squires-of-the-everchosen",
+      "name": "Squires of the Everchosen",
+      "file": "/regiments-of-renown/squires-of-the-everchosen.json"
+    },
+    {
+      "id": "stumblefoot-gargant",
+      "name": "Stumblefoot Gargant",
+      "file": "/regiments-of-renown/stumblefoot-gargant.json"
+    },
+    {
+      "id": "snerks-trogg-fer-hire",
+      "name": "Snerk's Trogg-fer-Hire",
+      "file": "/regiments-of-renown/snerks-trogg-fer-hire.json"
+    },
+    {
+      "id": "the-exiled-one",
+      "name": "The Exiled One",
+      "file": "/regiments-of-renown/the-exiled-one.json"
+    },
+    {
+      "id": "the-red-revelation",
+      "name": "The Red Revelation",
+      "file": "/regiments-of-renown/the-red-revelation.json"
+    },
+    {
+      "id": "seeker-of-the-dread-dirge",
+      "name": "Seeker of the Dread Dirge",
+      "file": "/regiments-of-renown/seeker-of-the-dread-dirge.json"
+    },
+    {
+      "id": "the-curse-steel-battery",
+      "name": "The Curse-Steel Battery",
+      "file": "/regiments-of-renown/the-curse-steel-battery.json"
     }
   ]
 }

@@ -8,18 +8,22 @@
   ],
   "battleFormations": [
     {
+      "id": "arcanite-cabal",
       "name": "Arcanite Cabal",
       "file": "battle-formations/arcanite-cabal.json"
     },
     {
+      "id": "change-host",
       "name": "Change Host",
       "file": "battle-formations/change-host.json"
     },
     {
+      "id": "tzaangor-coven",
       "name": "Tzaangor Coven",
       "file": "battle-formations/tzaangor-coven.json"
     },
     {
+      "id": "wyrdflame-host",
       "name": "Wyrdflame Host",
       "file": "battle-formations/wyrdflame-host.json"
     }
@@ -28,18 +32,154 @@
     "lastUpdated": "2026-01-08",
     "source": "Disciples of Tzeentch Faction Pack"
   },
+  "units": [
+    "chaos-spawn-of-tzeentch",
+    "burning-chariot-of-tzeentch",
+    "flamers-of-tzeentch",
+    "jade-obelisk",
+    "exalted-flamer-of-tzeentch",
+    "tzaangor-enlightened",
+    "blue-horrors-and-brimstone-horrors",
+    "screamers-of-tzeentch",
+    "pink-horrors",
+    "tzaangor-skyfires",
+    "tzaangor-enlightened-on-discs-of-tzeentch",
+    "tzaangors",
+    "kairic-acolytes",
+    "eyes-of-the-nine",
+    "ephilims-pandaemonium"
+  ],
+  "heroes": [
+    "kairos-fateweaver",
+    "lord-of-change",
+    "the-changeling",
+    "curseling-eye-of-tzeentch",
+    "fateskimmer-herald-of-tzeentch-on-burning-chariot",
+    "changecaster-herald-of-tzeentch",
+    "ogroid-thaumaturge",
+    "gaunt-summoner-on-disc-of-tzeentch",
+    "gaunt-summoner",
+    "tzaangor-shaman",
+    "magister",
+    "magister-on-disc-of-tzeentch",
+    "the-blue-scribes",
+    "fluxmaster-herald-of-tzeentch-on-disc",
+    "fatemaster"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "esoteric-treasures",
+      "name": "Esoteric Treasures",
+      "file": "enhancements/esoteric-treasures.json"
+    },
+    {
+      "id": "fated-artefacts",
+      "name": "Fated Artefacts",
+      "file": "enhancements/fated-artefacts.json"
+    }
+  ],
   "lores": [
     {
       "id": "lore-of-fate",
-      "type": "spell"
+      "name": "Lore of Fate",
+      "file": "/lores/spells/lore-of-fate.json"
     },
     {
       "id": "lore-of-change",
-      "type": "spell"
+      "name": "Lore of Change",
+      "file": "/lores/spells/lore-of-change.json"
     },
     {
       "id": "manifestations-of-tzeentch",
-      "type": "manifestation"
+      "name": "Manifestations of Tzeentch",
+      "file": "/lores/manifestations/manifestations-of-tzeentch.json"
+    }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "one-eyed-grunnock",
+      "name": "One-eyed Grunnock",
+      "file": "/regiments-of-renown/one-eyed-grunnock.json"
+    },
+    {
+      "id": "brands-oathbound",
+      "name": "Brand's Oathbound",
+      "file": "/regiments-of-renown/brands-oathbound.json"
+    },
+    {
+      "id": "hargaxs-pit-beasts",
+      "name": "Hargax's Pit-beasts",
+      "file": "/regiments-of-renown/hargaxs-pit-beasts.json"
+    },
+    {
+      "id": "phulgoths-shudderhood",
+      "name": "Phulgoth's Shudderhood",
+      "file": "/regiments-of-renown/phulgoths-shudderhood.json"
+    },
+    {
+      "id": "volt-klaws-enginecoven",
+      "name": "Volt-Klaw's Enginecoven",
+      "file": "/regiments-of-renown/volt-klaws-enginecoven.json"
+    },
+    {
+      "id": "krittoks-clawpack",
+      "name": "Krittok's Clawpack",
+      "file": "/regiments-of-renown/krittoks-clawpack.json"
+    },
+    {
+      "id": "lord-skaldiors-chosen",
+      "name": "Lord Skaldior's Chosen",
+      "file": "/regiments-of-renown/lord-skaldiors-chosen.json"
+    },
+    {
+      "id": "godmarked-ascendant",
+      "name": "Godmarked Ascendant",
+      "file": "/regiments-of-renown/godmarked-ascendant.json"
+    },
+    {
+      "id": "squires-of-the-everchosen",
+      "name": "Squires of the Everchosen",
+      "file": "/regiments-of-renown/squires-of-the-everchosen.json"
+    },
+    {
+      "id": "stumblefoot-gargant",
+      "name": "Stumblefoot Gargant",
+      "file": "/regiments-of-renown/stumblefoot-gargant.json"
+    },
+    {
+      "id": "snerks-trogg-fer-hire",
+      "name": "Snerk's Trogg-fer-Hire",
+      "file": "/regiments-of-renown/snerks-trogg-fer-hire.json"
+    },
+    {
+      "id": "the-exiled-one",
+      "name": "The Exiled One",
+      "file": "/regiments-of-renown/the-exiled-one.json"
+    },
+    {
+      "id": "the-red-revelation",
+      "name": "The Red Revelation",
+      "file": "/regiments-of-renown/the-red-revelation.json"
+    },
+    {
+      "id": "seeker-of-the-dread-dirge",
+      "name": "Seeker of the Dread Dirge",
+      "file": "/regiments-of-renown/seeker-of-the-dread-dirge.json"
+    },
+    {
+      "id": "the-curse-steel-battery",
+      "name": "The Curse-Steel Battery",
+      "file": "/regiments-of-renown/the-curse-steel-battery.json"
     }
   ]
 }

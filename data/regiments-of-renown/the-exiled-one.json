@@ -1,0 +1,28 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "the-exiled-one",
+  "name": "The Exiled One",
+  "points": 390,
+  "units": [
+    {
+      "name": "Skarbrand",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Hatred for All",
+      "type": "passive",
+      "effect": "Resolve combat attacks for this unit against the target.",
+      "phase": "combat",
+      "declare": "You must use this ability if this unit is not in combat and there are any other visible friendly units within this unit's combat range. You must pick 1 of those friendly units to be the target.",
+      "color": "Red",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  }
+}

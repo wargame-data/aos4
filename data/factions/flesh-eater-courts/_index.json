@@ -8,18 +8,22 @@
   ],
   "battleFormations": [
     {
+      "id": "royal-menagerie",
       "name": "Royal Menagerie",
       "file": "battle-formations/royal-menagerie.json"
     },
     {
+      "id": "knightly-echelon",
       "name": "Knightly Echelon",
       "file": "battle-formations/knightly-echelon.json"
     },
     {
+      "id": "the-royal-hunt",
       "name": "The Royal Hunt",
       "file": "battle-formations/the-royal-hunt.json"
     },
     {
+      "id": "lords-of-the-manor",
       "name": "Lords of the Manor",
       "file": "battle-formations/lords-of-the-manor.json"
     }
@@ -28,18 +32,161 @@
     "lastUpdated": "2026-01-08",
     "source": "Flesh-eater Courts Faction Pack"
   },
+  "units": [
+    "cryptguard",
+    "morbheg-knights",
+    "varghulf-courtier",
+    "crypt-horrors",
+    "crypt-flayers",
+    "crypt-ghouls",
+    "royal-zombie-dragon",
+    "royal-terrorgheist",
+    "royal-beastflayers",
+    "charnel-throne",
+    "the-skinnerkin",
+    "the-grymwatch"
+  ],
+  "heroes": [
+    "nagash-supreme-lord-of-the-undead",
+    "grand-justice-gormayne",
+    "abhorrant-ghoul-king-on-royal-zombie-dragon",
+    "abhorrant-ghoul-king-on-royal-terrorgheist",
+    "ushoran-mortarch-of-delusion",
+    "abhorrant-cardinal",
+    "abhorrant-gorewarden",
+    "marrowscroll-herald",
+    "crypt-infernal-courtier",
+    "abhorrant-archregent",
+    "abhorrant-ghoul-king",
+    "crypt-haunter-courtier",
+    "royal-decapitator",
+    "crypt-ghast-courtier",
+    "abhorrant-ghoul-king-scourge-of-ghyran",
+    "abhorrant-gorewarden-scourge-of-ghyran",
+    "high-falconer-felgryn"
+  ],
+  "terrain": [
+    "charnel-throne"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "monstrous-traits",
+      "name": "Monstrous Traits",
+      "file": "enhancements/monstrous-traits.json"
+    },
+    {
+      "id": "royal-traits",
+      "name": "Royal Traits",
+      "file": "enhancements/royal-traits.json"
+    },
+    {
+      "id": "royal-treasury",
+      "name": "Royal Treasury",
+      "file": "enhancements/royal-treasury.json"
+    }
+  ],
   "lores": [
     {
       "id": "lore-of-madness",
-      "type": "spell"
+      "name": "Lore of Madness",
+      "file": "/lores/spells/lore-of-madness.json"
     },
     {
       "id": "rites-of-delusion",
-      "type": "prayer"
+      "name": "Rites of Delusion",
+      "file": "/lores/prayers/rites-of-delusion.json"
     },
     {
       "id": "manifested-insanity",
-      "type": "manifestation"
+      "name": "Manifested Insanity",
+      "file": "/lores/manifestations/manifested-insanity.json"
+    }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "big-drogg-fort-kicker",
+      "name": "Big Drogg Fort-kicker",
+      "file": "/regiments-of-renown/big-drogg-fort-kicker.json"
+    },
+    {
+      "id": "neferatas-royal-echelon",
+      "name": "Neferata's Royal Echelon",
+      "file": "/regiments-of-renown/neferatas-royal-echelon.json"
+    },
+    {
+      "id": "scions-of-the-necropolis",
+      "name": "Scions of the Necropolis",
+      "file": "/regiments-of-renown/scions-of-the-necropolis.json"
+    },
+    {
+      "id": "the-liches-hand",
+      "name": "The Liche's Hand",
+      "file": "/regiments-of-renown/the-liches-hand.json"
+    },
+    {
+      "id": "the-sorrowmourn-choir",
+      "name": "The Sorrowmourn Choir",
+      "file": "/regiments-of-renown/the-sorrowmourn-choir.json"
+    },
+    {
+      "id": "the-sterneiste-garrison",
+      "name": "The Sterneiste Garrison",
+      "file": "/regiments-of-renown/the-sterneiste-garrison.json"
+    },
+    {
+      "id": "veremords-shamblers",
+      "name": "Veremord's Shamblers",
+      "file": "/regiments-of-renown/veremords-shamblers.json"
+    },
+    {
+      "id": "enforcers-of-the-tithe",
+      "name": "Enforcers of the Tithe",
+      "file": "/regiments-of-renown/enforcers-of-the-tithe.json"
+    },
+    {
+      "id": "the-lost-song-spirits",
+      "name": "The Lost-Song Spirits",
+      "file": "/regiments-of-renown/the-lost-song-spirits.json"
+    },
+    {
+      "id": "nurgles-gift",
+      "name": "Nurgle's Gift",
+      "file": "/regiments-of-renown/nurgles-gift.json"
+    },
+    {
+      "id": "stumblefoot-gargant",
+      "name": "Stumblefoot Gargant",
+      "file": "/regiments-of-renown/stumblefoot-gargant.json"
+    },
+    {
+      "id": "blades-of-the-hollow-king",
+      "name": "Blades of the Hollow King",
+      "file": "/regiments-of-renown/blades-of-the-hollow-king.json"
+    },
+    {
+      "id": "the-beast-of-castle-sterneiste",
+      "name": "The Beast of Castle Sterneiste",
+      "file": "/regiments-of-renown/the-beast-of-castle-sterneiste.json"
+    },
+    {
+      "id": "craventhrone-executioners",
+      "name": "Craventhrone Executioners",
+      "file": "/regiments-of-renown/craventhrone-executioners.json"
+    },
+    {
+      "id": "casket-of-resurrections",
+      "name": "Casket of Resurrections",
+      "file": "/regiments-of-renown/casket-of-resurrections.json"
     }
   ]
 }

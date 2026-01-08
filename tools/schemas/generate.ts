@@ -14,6 +14,8 @@ import { battleFormationSchema } from "./schemas/battle-formation.schema.js";
 import { enhancementCollectionSchema } from "./schemas/enhancement.schema.js";
 import { regimentOfRenownSchema } from "./schemas/regiment-of-renown.schema.js";
 import { factionSchema } from "./schemas/faction.schema.js";
+import { armyOfRenownSchema } from "./schemas/army-of-renown.schema.js";
+import { battleTraitsSchema } from "./schemas/battle-traits.schema.js";
 import { battleTacticCardSchema } from "./schemas/battle-tactic-card.schema.js";
 import { bloodTitheAbilitySchema } from "./schemas/blood-tithe-ability.schema.js";
 import { terrainSchema } from "./schemas/terrain.schema.js";
@@ -93,6 +95,18 @@ const schemas: SchemaConfig[] = [
     filename: "faction.schema.json",
     title: "Faction",
     description: "Faction metadata for Age of Sigmar 4th Edition",
+  },
+  {
+    schema: armyOfRenownSchema,
+    filename: "army-of-renown.schema.json",
+    title: "Army of Renown",
+    description: "An Army of Renown index for Age of Sigmar 4th Edition",
+  },
+  {
+    schema: battleTraitsSchema,
+    filename: "battle-traits.schema.json",
+    title: "Battle Traits",
+    description: "Battle traits for an Army of Renown",
   },
   {
     schema: battleTacticCardSchema,

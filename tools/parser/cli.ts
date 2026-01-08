@@ -24,7 +24,7 @@ import { ManifestationMapper, type Manifestation } from "./mappers/manifestation
 import { TerrainMapper, type FactionTerrain } from "./mappers/terrain.mapper.js";
 import { mapBattleFormations, type BattleFormation } from "./mappers/battle-formation.mapper.js";
 import { mapHeroicTraits, mapArtefactsOfPower, mapAllEnhancements, type EnhancementCollection } from "./mappers/enhancement.mapper.js";
-import { mapRegimentsOfRenown, type RegimentOfRenown } from "./mappers/regiment-of-renown.mapper.js";
+import { mapRegimentsOfRenown, buildFactionToRegimentsMap, stripAllowedFactions, type RegimentOfRenown, type RegimentOfRenownWithFactions, type RegimentReference } from "./mappers/regiment-of-renown.mapper.js";
 import { mapBattleTacticCards, type BattleTacticCard } from "./mappers/battle-tactic.mapper.js";
 import { mapBloodTitheAbilities, type BloodTitheAbility, clearBloodTitheMapping } from "./mappers/blood-tithe.mapper.js";
 import type { MapperOptions } from "./mappers/base.js";
@@ -202,9 +202,12 @@ async function syncCommand(options: CLIOptions): Promise<void> {
     }
   }
 
+  // Build faction-to-regiments mapping for populating faction indexes
+  const factionToRegimentsMap = buildFactionToRegimentsMap(regiments);
+
   // Write results
   if (!options.dryRun) {
-    await writeResults(results, options, log);
+    await writeResults(results, options, log, factionToRegimentsMap);
 
     // Process lores: write all lores to central directory (data/lores/{type}s/)
     if (lores.length > 0) {
@@ -223,11 +226,12 @@ async function syncCommand(options: CLIOptions): Promise<void> {
       log.info(`  lores: ${loreResults.length} files written (${spellCount} spells, ${prayerCount} prayers, ${manifestationCount} manifestations)`);
     }
 
-    // Write regiments of renown
+    // Write regiments of renown (strip allowedFactions from output)
     if (regiments.length > 0) {
       const outputDir = options.output || FACTIONS_DIR;
       ensureRegimentsOfRenownDir(join(outputDir, ".."));
-      const regimentResults = writeRegimentsOfRenown(regiments, { dryRun: false }, join(outputDir, ".."));
+      const regimentsForOutput = stripAllowedFactions(regiments);
+      const regimentResults = writeRegimentsOfRenown(regimentsForOutput, { dryRun: false }, join(outputDir, ".."));
       log.info(`  regiments of renown: ${regimentResults.length} files written`);
     }
 
@@ -701,7 +705,7 @@ async function parseRegimentsOfRenown(
   _catalogueFiles: string[],
   options: CLIOptions,
   log: Logger
-): Promise<RegimentOfRenown[]> {
+): Promise<RegimentOfRenownWithFactions[]> {
   const gameSystemFile = join(bsdataPath, "Age of Sigmar 4.0.gst");
   const regimentsCatFile = join(bsdataPath, "Regiments of Renown.cat");
 
@@ -936,7 +940,8 @@ async function validateResults(
 async function writeResults(
   results: FactionParseResult[],
   options: CLIOptions,
-  log: Logger
+  log: Logger,
+  factionToRegimentsMap?: Map<string, RegimentReference[]>
 ): Promise<void> {
   const outputDir = options.output || FACTIONS_DIR;
 
@@ -993,24 +998,50 @@ async function writeResults(
       const armyKeyword = Object.entries(KEYWORD_TO_FACTION)
         .find(([, factionId]) => factionId === result.factionId)?.[0];
 
-      // Build battle formation references
+      // Build battle formation references (unified: id, name, file)
       const battleFormationRefs = result.battleFormations.map((bf) => ({
+        id: bf.id,
         name: bf.name,
         file: `battle-formations/${bf.id}.json`,
       }));
 
-      // Build lore references from extracted lore names
-      const loreRefs: { id: string; type: "spell" | "prayer" | "manifestation" }[] = [];
+      // Build lore references from extracted lore names (unified: id, name, file)
+      const loreRefs: { id: string; name: string; file: string }[] = [];
 
       for (const loreName of result.spellLoreNames) {
-        loreRefs.push({ id: toKebabCase(loreName), type: "spell" });
+        const loreId = toKebabCase(loreName);
+        loreRefs.push({ id: loreId, name: loreName, file: `/lores/spells/${loreId}.json` });
       }
       for (const loreName of result.prayerLoreNames) {
-        loreRefs.push({ id: toKebabCase(loreName), type: "prayer" });
+        const loreId = toKebabCase(loreName);
+        loreRefs.push({ id: loreId, name: loreName, file: `/lores/prayers/${loreId}.json` });
       }
       for (const loreName of result.manifestationLoreNames) {
-        loreRefs.push({ id: toKebabCase(loreName), type: "manifestation" });
+        const loreId = toKebabCase(loreName);
+        loreRefs.push({ id: loreId, name: loreName, file: `/lores/manifestations/${loreId}.json` });
       }
+
+      // Extract unit and hero IDs separately
+      const unitIds: string[] = [];
+      const heroIds: string[] = [];
+      for (const unit of result.units) {
+        const isHeroUnit = "isWizard" in unit;
+        if (isHeroUnit) {
+          heroIds.push(unit.id);
+        } else {
+          unitIds.push(unit.id);
+        }
+      }
+
+      // Extract terrain IDs
+      const terrainIds = result.terrain.map((t) => t.id);
+
+      // Build enhancement references (unified: id, name, file)
+      const enhancementRefs = result.enhancements.map((e) => ({
+        id: e.id,
+        name: e.name,
+        file: `enhancements/${e.id}.json`,
+      }));
 
       // Clean up faction name (remove "- Library" suffix)
       const cleanFactionName = result.factionName.replace(/\s*-\s*Library$/i, "");
@@ -1028,9 +1059,38 @@ async function writeResults(
         },
       };
 
+      // Add unit/hero/terrain arrays if not empty
+      if (unitIds.length > 0) {
+        factionData.units = unitIds;
+      }
+      if (heroIds.length > 0) {
+        factionData.heroes = heroIds;
+      }
+      if (terrainIds.length > 0) {
+        factionData.terrain = terrainIds;
+      }
+
+      // Add enhancement references if not empty
+      if (enhancementRefs.length > 0) {
+        factionData.enhancements = enhancementRefs;
+      }
+
       // Only add lores if there are any
       if (loreRefs.length > 0) {
         factionData.lores = loreRefs;
+      }
+
+      // Add regiments of renown references if map is provided (unified: id, name, file)
+      if (factionToRegimentsMap) {
+        // Look up by faction name (the map is keyed by catalogue faction names)
+        const regimentRefs = factionToRegimentsMap.get(cleanFactionName);
+        if (regimentRefs && regimentRefs.length > 0) {
+          factionData.regimentsOfRenown = regimentRefs.map((ref) => ({
+            id: ref.id,
+            name: ref.name,
+            file: `/regiments-of-renown/${ref.id}.json`,
+          }));
+        }
       }
 
       const indexResult = writeFactionIndex(result.factionId, factionData, { dryRun: false }, outputDir);

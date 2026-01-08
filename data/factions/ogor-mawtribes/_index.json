@@ -8,18 +8,22 @@
   ],
   "battleFormations": [
     {
+      "id": "blackpowder-fanatics",
       "name": "Blackpowder Fanatics",
       "file": "battle-formations/blackpowder-fanatics.json"
     },
     {
+      "id": "prophets-of-the-gulping-god",
       "name": "Prophets of the Gulping God",
       "file": "battle-formations/prophets-of-the-gulping-god.json"
     },
     {
+      "id": "beast-handlers",
       "name": "Beast Handlers",
       "file": "battle-formations/beast-handlers.json"
     },
     {
+      "id": "heralds-of-the-everwinter",
       "name": "Heralds of the Everwinter",
       "file": "battle-formations/heralds-of-the-everwinter.json"
     }
@@ -28,14 +32,177 @@
     "lastUpdated": "2026-01-08",
     "source": "Ogor Mawtribes Faction Pack"
   },
+  "units": [
+    "gnoblar-scraplauncher",
+    "maneaters",
+    "gnoblars",
+    "icefall-yhetees",
+    "ogor-gluttons",
+    "gorger-mawpack",
+    "thundertusk-beastriders",
+    "ironblaster",
+    "stonehorn-beastriders",
+    "frost-sabres",
+    "leadbelchers",
+    "mournfang-pack",
+    "mawpit",
+    "great-mawpot",
+    "ironguts"
+  ],
+  "heroes": [
+    "bloodpelt-hunter",
+    "kragnos-the-end-of-empires",
+    "slaughtermaster",
+    "butcher",
+    "firebelly",
+    "frostlord-on-stonehorn",
+    "frostlord-on-thundertusk",
+    "huskard-on-stonehorn",
+    "huskard-on-thundertusk",
+    "tyrant",
+    "icebrow-hunter",
+    "hrothgorn-mantrapper",
+    "gorlok-blackpowder",
+    "mantrapper"
+  ],
+  "terrain": [
+    "mawpit",
+    "great-mawpot"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "big-names",
+      "name": "Big Names",
+      "file": "enhancements/big-names.json"
+    },
+    {
+      "id": "plunder-of-the-mawtribes",
+      "name": "Plunder of the Mawtribes",
+      "file": "enhancements/plunder-of-the-mawtribes.json"
+    },
+    {
+      "id": "traits-of-endless-hunger",
+      "name": "Traits of Endless Hunger",
+      "file": "enhancements/traits-of-endless-hunger.json"
+    }
+  ],
   "lores": [
     {
       "id": "lore-of-maw-magic",
-      "type": "spell"
+      "name": "Lore of Maw-magic",
+      "file": "/lores/spells/lore-of-maw-magic.json"
     },
     {
       "id": "everwinter-prayers",
-      "type": "prayer"
+      "name": "Everwinter Prayers",
+      "file": "/lores/prayers/everwinter-prayers.json"
+    }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "big-drogg-fort-kicker",
+      "name": "Big Drogg Fort-kicker",
+      "file": "/regiments-of-renown/big-drogg-fort-kicker.json"
+    },
+    {
+      "id": "bundo-whalebiter",
+      "name": "Bundo Whalebiter",
+      "file": "/regiments-of-renown/bundo-whalebiter.json"
+    },
+    {
+      "id": "one-eyed-grunnock",
+      "name": "One-eyed Grunnock",
+      "file": "/regiments-of-renown/one-eyed-grunnock.json"
+    },
+    {
+      "id": "odo-godswallow",
+      "name": "Odo Godswallow",
+      "file": "/regiments-of-renown/odo-godswallow.json"
+    },
+    {
+      "id": "big-grikks-kruleshots",
+      "name": "Big Grikk's Kruleshots",
+      "file": "/regiments-of-renown/big-grikks-kruleshots.json"
+    },
+    {
+      "id": "braggits-bottle-snatchaz",
+      "name": "Braggit's Bottle-snatchaz",
+      "file": "/regiments-of-renown/braggits-bottle-snatchaz.json"
+    },
+    {
+      "id": "enforcers-of-the-tithe",
+      "name": "Enforcers of the Tithe",
+      "file": "/regiments-of-renown/enforcers-of-the-tithe.json"
+    },
+    {
+      "id": "exile-scavengers",
+      "name": "Exile Scavengers",
+      "file": "/regiments-of-renown/exile-scavengers.json"
+    },
+    {
+      "id": "nurgles-gift",
+      "name": "Nurgle's Gift",
+      "file": "/regiments-of-renown/nurgles-gift.json"
+    },
+    {
+      "id": "stumblefoot-gargant",
+      "name": "Stumblefoot Gargant",
+      "file": "/regiments-of-renown/stumblefoot-gargant.json"
+    },
+    {
+      "id": "snerks-trogg-fer-hire",
+      "name": "Snerk's Trogg-fer-Hire",
+      "file": "/regiments-of-renown/snerks-trogg-fer-hire.json"
+    },
+    {
+      "id": "goroan-scions",
+      "name": "Goroan Scions",
+      "file": "/regiments-of-renown/goroan-scions.json"
+    },
+    {
+      "id": "da-hurtlin-hogz",
+      "name": "Da Hurtlin' Hogz",
+      "file": "/regiments-of-renown/da-hurtlin-hogz.json"
+    },
+    {
+      "id": "da-kountin-krew",
+      "name": "Da Kountin' Krew",
+      "file": "/regiments-of-renown/da-kountin-krew.json"
+    },
+    {
+      "id": "the-shinestealaz",
+      "name": "The Shinestealaz",
+      "file": "/regiments-of-renown/the-shinestealaz.json"
+    },
+    {
+      "id": "skulkriks-loonladz",
+      "name": "Skulkrik's Loonladz",
+      "file": "/regiments-of-renown/skulkriks-loonladz.json"
+    },
+    {
+      "id": "drekkis-privateers",
+      "name": "Drekki's Privateers",
+      "file": "/regiments-of-renown/drekkis-privateers.json"
+    },
+    {
+      "id": "sky-port-profiteers",
+      "name": "Sky-Port Profiteers",
+      "file": "/regiments-of-renown/sky-port-profiteers.json"
+    },
+    {
+      "id": "the-scarlet-jury",
+      "name": "The Scarlet Jury",
+      "file": "/regiments-of-renown/the-scarlet-jury.json"
     }
   ]
 }

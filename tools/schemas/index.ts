@@ -30,9 +30,16 @@ export {
 export {
   factionSchema,
   type Faction,
-  type LoreReference,
-  type BattleFormationReference,
+  type Reference,
 } from "./schemas/faction.schema.js";
+export {
+  armyOfRenownSchema,
+  type ArmyOfRenown,
+} from "./schemas/army-of-renown.schema.js";
+export {
+  battleTraitsSchema,
+  type BattleTraits,
+} from "./schemas/battle-traits.schema.js";
 export {
   battleTacticCardSchema,
   type BattleTacticCard,

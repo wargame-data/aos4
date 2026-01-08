@@ -1,0 +1,48 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "the-red-revelation",
+  "name": "The Red Revelation",
+  "points": 380,
+  "units": [
+    {
+      "name": "Slaughterpriest",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Skullreapers",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Bloodreavers",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Frenzied Violence",
+      "type": "prayer",
+      "effect": "Until the start of your next turn, the target unit has **^^Ward (5+)^^** while every model in that unit is wholly within the combat range of an enemy unit. If the chanting roll was 10+, you can pick another eligible unit to be a second target.",
+      "phase": "hero",
+      "declare": "Pick the **Slaughterpriest** in this Regiment of Renown to chant this prayer, pick a visible unit in this Regiment of Renown wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+      "chantingValue": 4,
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Glimpse the God",
+      "type": "once-per-turn",
+      "effect": "If any damage points were allocated to an enemy unit by the target's combat attacks this turn, that enemy unit was destroyed this turn, and no damage points were allocated to that enemy unit this turn by combat attacks made by a friendly unit that is not in this Regiment of Renown, for the rest of the battle, add 2 to the Attacks characteristic of the target's **Blood-hungry** weapons.",
+      "phase": "any",
+      "declare": "Pick each unit in this Regiment of Renown that used a **^^Fight^^** ability this turn to be a target.",
+      "color": "Purple",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  }
+}

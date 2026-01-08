@@ -8,18 +8,22 @@
   ],
   "battleFormations": [
     {
+      "id": "almighty-beastherd",
       "name": "Almighty Beastherd",
       "file": "battle-formations/almighty-beastherd.json"
     },
     {
+      "id": "hungering-warherd",
       "name": "Hungering Warherd",
       "file": "battle-formations/hungering-warherd.json"
     },
     {
+      "id": "thunderscorn-stormherd",
       "name": "Thunderscorn Stormherd",
       "file": "battle-formations/thunderscorn-stormherd.json"
     },
     {
+      "id": "marauding-brayherd",
       "name": "Marauding Brayherd",
       "file": "battle-formations/marauding-brayherd.json"
     }
@@ -28,14 +32,68 @@
     "lastUpdated": "2026-01-08",
     "source": "Beasts of Chaos Faction Pack"
   },
+  "units": [
+    "beasts-of-chaos-chaos-spawn",
+    "centigors",
+    "bullgors",
+    "gors",
+    "ungor-raiders",
+    "ungors",
+    "tuskgor-chariots",
+    "ghorgon",
+    "chaos-warhounds",
+    "chaos-gargant",
+    "chimera",
+    "dragon-ogors",
+    "razorgor",
+    "bestigors",
+    "cygor",
+    "cockatrice",
+    "jabberslythe",
+    "herdstone",
+    "grashraks-despoilers"
+  ],
+  "heroes": [
+    "great-bray-shaman",
+    "doombull",
+    "beastlord",
+    "dragon-ogor-shaggoth"
+  ],
+  "terrain": [
+    "herdstone"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "alphabeast-instincts",
+      "name": "Alphabeast Instincts",
+      "file": "enhancements/alphabeast-instincts.json"
+    },
+    {
+      "id": "anarchic-relics",
+      "name": "Anarchic Relics",
+      "file": "enhancements/anarchic-relics.json"
+    }
+  ],
   "lores": [
     {
       "id": "lore-of-the-twisted-wilds",
-      "type": "spell"
+      "name": "Lore of the Twisted Wilds",
+      "file": "/lores/spells/lore-of-the-twisted-wilds.json"
     },
     {
       "id": "bestial-manifestations",
-      "type": "manifestation"
+      "name": "Bestial Manifestations",
+      "file": "/lores/manifestations/bestial-manifestations.json"
     }
   ]
 }

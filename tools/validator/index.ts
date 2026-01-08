@@ -76,6 +76,16 @@ function determineSchemaForFile(filePath: string): string | null {
   if (relativePath.includes("/terrain/")) {
     return "https://aos-data.org/schema/terrain.schema.json";
   }
+  // Check armies-of-renown before general _index.json check
+  if (relativePath.includes("/armies-of-renown/")) {
+    if (basename(filePath) === "_index.json") {
+      return "https://aos-data.org/schema/army-of-renown.schema.json";
+    }
+    if (basename(filePath) === "battle-traits.json") {
+      return "https://aos-data.org/schema/battle-traits.schema.json";
+    }
+    // AoR enhancements still use enhancement schema (handled by /enhancements/ check above)
+  }
   if (basename(filePath) === "_index.json") {
     return "https://aos-data.org/schema/faction.schema.json";
   }

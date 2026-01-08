@@ -10,5 +10,8 @@
   "_meta": {
     "lastUpdated": "2026-01-08",
     "source": "Orruk Warclans Faction Pack"
-  }
+  },
+  "heroes": [
+    "kragnos-the-end-of-empires"
+  ]
 }

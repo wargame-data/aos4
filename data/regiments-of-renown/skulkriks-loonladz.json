@@ -1,0 +1,34 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "skulkriks-loonladz",
+  "name": "Skulkrik's Loonladz",
+  "points": 310,
+  "units": [
+    {
+      "name": "Loonboss",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Moonclan Stabbas",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Loonsmasha Fanatics",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "On Da Moon's Trail",
+      "type": "passive",
+      "effect": "The melee weapons of units in this Regiment of Renown have **Anti-charge (+1 Rend)** while they are contesting an objective you control."
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  }
+}

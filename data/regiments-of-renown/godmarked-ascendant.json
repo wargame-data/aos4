@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "godmarked-ascendant",
+  "name": "Godmarked Ascendant",
+  "points": 260,
+  "units": [
+    {
+      "name": "Daemon Prince",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Godmarked Legion",
+      "type": "passive",
+      "effect": "The unit in this Regiment of Renown gains the 'Gifts of Chaos' ability and one of the following faction keywords that matches your army's faction.\n• **^^Blades of Khorne^^**\n• **^^Disciples of Tzeentch^^**\n• **^^Maggotkin of Nurgle^^**\n• **^^Hedonites of Slaanesh^^**",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  }
+}

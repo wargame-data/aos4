@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "odo-godswallow",
+  "name": "Odo Godswallow",
+  "points": 420,
+  "units": [
+    {
+      "name": "Beast-smasher Mega-Gargant",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Mighty Walloper",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Monster^^** in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  }
+}

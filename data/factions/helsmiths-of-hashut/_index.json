@@ -8,18 +8,22 @@
   ],
   "battleFormations": [
     {
+      "id": "hashutite-host",
       "name": "Hashutite Host",
       "file": "battle-formations/hashutite-host.json"
     },
     {
+      "id": "castigation-battery",
       "name": "Castigation Battery",
       "file": "battle-formations/castigation-battery.json"
     },
     {
+      "id": "the-bullfathers-horns",
       "name": "The Bullfather's Horns",
       "file": "battle-formations/the-bullfathers-horns.json"
     },
     {
+      "id": "daemonsmith-cabal",
       "name": "Daemonsmith Cabal",
       "file": "battle-formations/daemonsmith-cabal.json"
     }
@@ -28,14 +32,116 @@
     "lastUpdated": "2026-01-08",
     "source": "Helsmiths of Hashut Faction Pack"
   },
+  "units": [
+    "dominator-engine-with-immolation-cannons",
+    "infernal-razers-with-flamehurlers",
+    "anointed-sentinels",
+    "infernal-cohort-with-hashutite-spears",
+    "hobgrot-vandalz",
+    "infernal-cohort-with-hashutite-blades",
+    "infernal-razers-with-blunderbusses",
+    "bull-centaurs",
+    "deathshrieker-rocket-battery",
+    "tormentor-bombard",
+    "dominator-engine-with-bane-maces",
+    "the-blood-of-the-bull"
+  ],
+  "heroes": [
+    "urak-taar-the-first-daemonsmith",
+    "daemonsmith-on-infernal-taurus",
+    "daemonsmith",
+    "war-despot",
+    "ashen-elder"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "accursed-devices",
+      "name": "Accursed Devices",
+      "file": "enhancements/accursed-devices.json"
+    },
+    {
+      "id": "dark-gifts-of-hashut",
+      "name": "Dark Gifts of Hashut",
+      "file": "enhancements/dark-gifts-of-hashut.json"
+    },
+    {
+      "id": "tyrants-and-overseers",
+      "name": "Tyrants and Overseers",
+      "file": "enhancements/tyrants-and-overseers.json"
+    }
+  ],
   "lores": [
     {
       "id": "lore-of-infernal-power",
-      "type": "spell"
+      "name": "Lore of Infernal Power",
+      "file": "/lores/spells/lore-of-infernal-power.json"
     },
     {
       "id": "prayers-of-the-scorched-sect",
-      "type": "prayer"
+      "name": "Prayers of the Scorched Sect",
+      "file": "/lores/prayers/prayers-of-the-scorched-sect.json"
+    }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "one-eyed-grunnock",
+      "name": "One-eyed Grunnock",
+      "file": "/regiments-of-renown/one-eyed-grunnock.json"
+    },
+    {
+      "id": "brands-oathbound",
+      "name": "Brand's Oathbound",
+      "file": "/regiments-of-renown/brands-oathbound.json"
+    },
+    {
+      "id": "hargaxs-pit-beasts",
+      "name": "Hargax's Pit-beasts",
+      "file": "/regiments-of-renown/hargaxs-pit-beasts.json"
+    },
+    {
+      "id": "phulgoths-shudderhood",
+      "name": "Phulgoth's Shudderhood",
+      "file": "/regiments-of-renown/phulgoths-shudderhood.json"
+    },
+    {
+      "id": "lord-skaldiors-chosen",
+      "name": "Lord Skaldior's Chosen",
+      "file": "/regiments-of-renown/lord-skaldiors-chosen.json"
+    },
+    {
+      "id": "enforcers-of-the-tithe",
+      "name": "Enforcers of the Tithe",
+      "file": "/regiments-of-renown/enforcers-of-the-tithe.json"
+    },
+    {
+      "id": "nurgles-gift",
+      "name": "Nurgle's Gift",
+      "file": "/regiments-of-renown/nurgles-gift.json"
+    },
+    {
+      "id": "stumblefoot-gargant",
+      "name": "Stumblefoot Gargant",
+      "file": "/regiments-of-renown/stumblefoot-gargant.json"
+    },
+    {
+      "id": "the-exiled-one",
+      "name": "The Exiled One",
+      "file": "/regiments-of-renown/the-exiled-one.json"
+    },
+    {
+      "id": "the-red-revelation",
+      "name": "The Red Revelation",
+      "file": "/regiments-of-renown/the-red-revelation.json"
     }
   ]
 }

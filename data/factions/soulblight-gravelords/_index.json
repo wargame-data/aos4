@@ -8,22 +8,27 @@
   ],
   "battleFormations": [
     {
+      "id": "deathstench-drove",
       "name": "Deathstench Drove",
       "file": "battle-formations/deathstench-drove.json"
     },
     {
+      "id": "bacchanal-of-blood",
       "name": "Bacchanal of Blood",
       "file": "battle-formations/bacchanal-of-blood.json"
     },
     {
+      "id": "deathmarch",
       "name": "Deathmarch",
       "file": "battle-formations/deathmarch.json"
     },
     {
+      "id": "legion-of-shyish",
       "name": "Legion of Shyish",
       "file": "battle-formations/legion-of-shyish.json"
     },
     {
+      "id": "legions-of-ulfenkarn",
       "name": "Legions of Ulfenkarn",
       "file": "battle-formations/legions-of-ulfenkarn.json"
     }
@@ -32,14 +37,181 @@
     "lastUpdated": "2026-01-08",
     "source": "Soulblight Gravelords Faction Pack"
   },
+  "units": [
+    "deathrattle-skeletons",
+    "barrow-knights",
+    "vyrkos-blood-born",
+    "vargskyr",
+    "kosargi-nightguard",
+    "askurgan-trueblades",
+    "blood-knights",
+    "vargheists",
+    "terrorgheist",
+    "corpse-cart",
+    "barrow-guard",
+    "deadwalker-zombies",
+    "fell-bats",
+    "dire-wolves",
+    "zondaras-gravebreakers",
+    "the-crimson-court",
+    "the-exiled-dead",
+    "the-sepulchral-guard",
+    "the-sons-of-velmorn",
+    "revenant-draconith",
+    "cursed-sepulchre"
+  ],
+  "heroes": [
+    "neferata-mortarch-of-blood",
+    "mortis-engine",
+    "nagash-supreme-lord-of-the-undead",
+    "mannfred-von-carstein-mortarch-of-night",
+    "radukar-the-beast",
+    "prince-vhordrai",
+    "ivya-volga-the-outcast",
+    "lauka-vai-mother-of-nightmares",
+    "belladamma-volga-first-of-the-vyrkos",
+    "gorslav-the-gravekeeper",
+    "torgillius-the-chamberlain",
+    "watch-captain-halgrim",
+    "radukar-the-wolf",
+    "kritza-the-rat-prince",
+    "lady-annika-the-thirsting-blade",
+    "vengorian-lord",
+    "vampire-lord-on-zombie-dragon",
+    "cado-ezechiar-the-hollow-king",
+    "vampire-lord",
+    "bloodseeker-palanquin",
+    "coven-throne",
+    "wight-king-on-skeletal-steed",
+    "wight-king",
+    "necromancer",
+    "sekhar-fang-of-nulahmia",
+    "wight-lord-on-skeletal-steed",
+    "blades-of-the-hollow-king",
+    "vampire-lord-on-nightmare-steed"
+  ],
+  "terrain": [
+    "cursed-sepulchre"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "deathly-heirlooms",
+      "name": "Deathly Heirlooms",
+      "file": "enhancements/deathly-heirlooms.json"
+    },
+    {
+      "id": "the-cursed-bloodlines",
+      "name": "The Cursed Bloodlines",
+      "file": "enhancements/the-cursed-bloodlines.json"
+    },
+    {
+      "id": "undying-tyrants",
+      "name": "Undying Tyrants",
+      "file": "enhancements/undying-tyrants.json"
+    }
+  ],
   "lores": [
     {
       "id": "lore-of-undeath",
-      "type": "spell"
+      "name": "Lore of Undeath",
+      "file": "/lores/spells/lore-of-undeath.json"
     },
     {
       "id": "manifestations-of-the-grave",
-      "type": "manifestation"
+      "name": "Manifestations of the Grave",
+      "file": "/lores/manifestations/manifestations-of-the-grave.json"
+    }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "big-drogg-fort-kicker",
+      "name": "Big Drogg Fort-kicker",
+      "file": "/regiments-of-renown/big-drogg-fort-kicker.json"
+    },
+    {
+      "id": "jerrions-delegation",
+      "name": "Jerrion's Delegation",
+      "file": "/regiments-of-renown/jerrions-delegation.json"
+    },
+    {
+      "id": "scions-of-the-necropolis",
+      "name": "Scions of the Necropolis",
+      "file": "/regiments-of-renown/scions-of-the-necropolis.json"
+    },
+    {
+      "id": "the-liches-hand",
+      "name": "The Liche's Hand",
+      "file": "/regiments-of-renown/the-liches-hand.json"
+    },
+    {
+      "id": "the-sorrowmourn-choir",
+      "name": "The Sorrowmourn Choir",
+      "file": "/regiments-of-renown/the-sorrowmourn-choir.json"
+    },
+    {
+      "id": "the-summerkings-entourage",
+      "name": "The Summerking's Entourage",
+      "file": "/regiments-of-renown/the-summerkings-entourage.json"
+    },
+    {
+      "id": "enforcers-of-the-tithe",
+      "name": "Enforcers of the Tithe",
+      "file": "/regiments-of-renown/enforcers-of-the-tithe.json"
+    },
+    {
+      "id": "exile-scavengers",
+      "name": "Exile Scavengers",
+      "file": "/regiments-of-renown/exile-scavengers.json"
+    },
+    {
+      "id": "the-lost-song-spirits",
+      "name": "The Lost-Song Spirits",
+      "file": "/regiments-of-renown/the-lost-song-spirits.json"
+    },
+    {
+      "id": "stumblefoot-gargant",
+      "name": "Stumblefoot Gargant",
+      "file": "/regiments-of-renown/stumblefoot-gargant.json"
+    },
+    {
+      "id": "snerks-trogg-fer-hire",
+      "name": "Snerk's Trogg-fer-Hire",
+      "file": "/regiments-of-renown/snerks-trogg-fer-hire.json"
+    },
+    {
+      "id": "sky-port-profiteers",
+      "name": "Sky-Port Profiteers",
+      "file": "/regiments-of-renown/sky-port-profiteers.json"
+    },
+    {
+      "id": "the-scarlet-jury",
+      "name": "The Scarlet Jury",
+      "file": "/regiments-of-renown/the-scarlet-jury.json"
+    },
+    {
+      "id": "craventhrone-executioners",
+      "name": "Craventhrone Executioners",
+      "file": "/regiments-of-renown/craventhrone-executioners.json"
+    },
+    {
+      "id": "casket-of-resurrections",
+      "name": "Casket of Resurrections",
+      "file": "/regiments-of-renown/casket-of-resurrections.json"
+    },
+    {
+      "id": "the-horror-of-hallows-watch",
+      "name": "The Horror of Hallow's Watch",
+      "file": "/regiments-of-renown/the-horror-of-hallows-watch.json"
     }
   ]
 }

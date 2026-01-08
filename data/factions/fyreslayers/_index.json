@@ -8,18 +8,22 @@
   ],
   "battleFormations": [
     {
+      "id": "forge-brethren",
       "name": "Forge Brethren",
       "file": "battle-formations/forge-brethren.json"
     },
     {
+      "id": "scales-of-vulcatrix",
       "name": "Scales of Vulcatrix",
       "file": "battle-formations/scales-of-vulcatrix.json"
     },
     {
+      "id": "warrior-kinband",
       "name": "Warrior Kinband",
       "file": "battle-formations/warrior-kinband.json"
     },
     {
+      "id": "lords-of-the-lodge",
       "name": "Lords of the Lodge",
       "file": "battle-formations/lords-of-the-lodge.json"
     }
@@ -28,18 +32,157 @@
     "lastUpdated": "2026-01-08",
     "source": "Fyreslayers Faction Pack"
   },
+  "units": [
+    "auric-hearthguard",
+    "hearthguard-berzerkers-with-berzerker-broadaxes",
+    "vulkite-berzerkers-with-fyresteel-weapons",
+    "vulkyn-flameseekers",
+    "vulkite-berzerkers-with-bladed-slingshields",
+    "hearthguard-berzerkers-with-flamestrike-poleaxes",
+    "magmic-battleforge",
+    "the-chosen-axes"
+  ],
+  "heroes": [
+    "auric-runesmiter-on-magmadroth",
+    "grimhold-exile",
+    "auric-flamekeeper",
+    "auric-runefather-on-magmadroth",
+    "auric-runeson-on-magmadroth",
+    "auric-runeson",
+    "auric-runesmiter",
+    "auric-runemaster",
+    "battlesmith",
+    "grimwrath-berzerker",
+    "auric-runefather",
+    "doomseeker"
+  ],
+  "terrain": [
+    "magmic-battleforge"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "heirlooms-of-the-lodge",
+      "name": "Heirlooms of the Lodge",
+      "file": "enhancements/heirlooms-of-the-lodge.json"
+    },
+    {
+      "id": "inheritance-of-grimnir",
+      "name": "Inheritance of Grimnir",
+      "file": "enhancements/inheritance-of-grimnir.json"
+    },
+    {
+      "id": "marks-of-vulkatrix",
+      "name": "Marks of Vulkatrix",
+      "file": "enhancements/marks-of-vulkatrix.json"
+    }
+  ],
   "lores": [
     {
       "id": "zharrgrim-blessings",
-      "type": "prayer"
+      "name": "Zharrgrim Blessings",
+      "file": "/lores/prayers/zharrgrim-blessings.json"
     },
     {
       "id": "vulkyn-gifts",
-      "type": "prayer"
+      "name": "Vulkyn Gifts",
+      "file": "/lores/prayers/vulkyn-gifts.json"
     },
     {
       "id": "magmic-invocations",
-      "type": "manifestation"
+      "name": "Magmic Invocations",
+      "file": "/lores/manifestations/magmic-invocations.json"
+    }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "bundo-whalebiter",
+      "name": "Bundo Whalebiter",
+      "file": "/regiments-of-renown/bundo-whalebiter.json"
+    },
+    {
+      "id": "elthwins-thorns",
+      "name": "Elthwin's Thorns",
+      "file": "/regiments-of-renown/elthwins-thorns.json"
+    },
+    {
+      "id": "gotrek-gurnisson",
+      "name": "Gotrek Gurnisson",
+      "file": "/regiments-of-renown/gotrek-gurnisson.json"
+    },
+    {
+      "id": "norgrimms-rune-throng",
+      "name": "Norgrimm's Rune Throng",
+      "file": "/regiments-of-renown/norgrimms-rune-throng.json"
+    },
+    {
+      "id": "saviours-of-cinderfall",
+      "name": "Saviours of Cinderfall",
+      "file": "/regiments-of-renown/saviours-of-cinderfall.json"
+    },
+    {
+      "id": "the-blacktalons",
+      "name": "The Blacktalons",
+      "file": "/regiments-of-renown/the-blacktalons.json"
+    },
+    {
+      "id": "the-horizon-seekers",
+      "name": "The Horizon Seekers",
+      "file": "/regiments-of-renown/the-horizon-seekers.json"
+    },
+    {
+      "id": "valnirs-stormwing",
+      "name": "Valnir's Stormwing",
+      "file": "/regiments-of-renown/valnirs-stormwing.json"
+    },
+    {
+      "id": "enforcers-of-the-tithe",
+      "name": "Enforcers of the Tithe",
+      "file": "/regiments-of-renown/enforcers-of-the-tithe.json"
+    },
+    {
+      "id": "exile-scavengers",
+      "name": "Exile Scavengers",
+      "file": "/regiments-of-renown/exile-scavengers.json"
+    },
+    {
+      "id": "nurgles-gift",
+      "name": "Nurgle's Gift",
+      "file": "/regiments-of-renown/nurgles-gift.json"
+    },
+    {
+      "id": "stumblefoot-gargant",
+      "name": "Stumblefoot Gargant",
+      "file": "/regiments-of-renown/stumblefoot-gargant.json"
+    },
+    {
+      "id": "bloodthirsty-shiver",
+      "name": "Bloodthirsty Shiver",
+      "file": "/regiments-of-renown/bloodthirsty-shiver.json"
+    },
+    {
+      "id": "namarti-shore-raid",
+      "name": "Namarti Shore Raid",
+      "file": "/regiments-of-renown/namarti-shore-raid.json"
+    },
+    {
+      "id": "drekkis-privateers",
+      "name": "Drekki's Privateers",
+      "file": "/regiments-of-renown/drekkis-privateers.json"
+    },
+    {
+      "id": "sky-port-profiteers",
+      "name": "Sky-Port Profiteers",
+      "file": "/regiments-of-renown/sky-port-profiteers.json"
     }
   ]
 }

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "valnirs-stormwing",
+  "name": "Valnir's Stormwing",
+  "points": 350,
+  "units": [
+    {
+      "name": "Knight-Draconis",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Stormdrake Guard",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Hour of Retribution",
+      "type": "once-per-battle",
+      "effect": "For the rest of the turn:\n• Add 1 to wound rolls for attacks made by units in this Regiment of Renown.\n• Add 1 to save rolls for units in this Regiment of Renown.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  }
+}

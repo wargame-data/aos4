@@ -207,6 +207,27 @@
         "additionalProperties": false
       }
     },
+    "units": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$"
+      }
+    },
+    "heroes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$"
+      }
+    },
+    "terrain": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$"
+      }
+    },
     "lores": {
       "type": "array",
       "items": {
@@ -216,18 +237,17 @@
             "type": "string",
             "pattern": "^[a-z0-9-]+$"
           },
-          "type": {
-            "type": "string",
-            "enum": [
-              "spell",
-              "prayer",
-              "manifestation"
-            ]
+          "name": {
+            "type": "string"
+          },
+          "file": {
+            "type": "string"
           }
         },
         "required": [
           "id",
-          "type"
+          "name",
+          "file"
         ],
         "additionalProperties": false
       }
@@ -237,6 +257,10 @@
       "items": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
           "name": {
             "type": "string"
           },
@@ -245,6 +269,79 @@
           }
         },
         "required": [
+          "id",
+          "name",
+          "file"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "enhancements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "file": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "file"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "regimentsOfRenown": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "file": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "file"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "armiesOfRenown": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "file": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
           "name",
           "file"
         ],

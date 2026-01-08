@@ -8,18 +8,22 @@
   ],
   "battleFormations": [
     {
+      "id": "kavalos-lance",
       "name": "Kavalos Lance",
       "file": "battle-formations/kavalos-lance.json"
     },
     {
+      "id": "mortek-ballistari",
       "name": "Mortek Ballistari",
       "file": "battle-formations/mortek-ballistari.json"
     },
     {
+      "id": "mortek-phalanx",
       "name": "Mortek Phalanx",
       "file": "battle-formations/mortek-phalanx.json"
     },
     {
+      "id": "mortisan-council",
       "name": "Mortisan Council",
       "file": "battle-formations/mortisan-council.json"
     }
@@ -28,18 +32,163 @@
     "lastUpdated": "2026-01-08",
     "source": "Ossiarch Bonereapers Faction Pack"
   },
+  "units": [
+    "mortek-guard",
+    "teratic-cohort",
+    "immortis-guard",
+    "necropolis-stalkers",
+    "mortek-crawler",
+    "kavalos-deathriders",
+    "gothizzar-harvester",
+    "morghast-archai",
+    "morghast-harbingers",
+    "bone-tithe-nexus",
+    "kainans-reapers"
+  ],
+  "heroes": [
+    "vokmortian-master-of-the-bone-tithe",
+    "mortisan-boneshaper",
+    "nagash-supreme-lord-of-the-undead",
+    "katakros-mortarch-of-the-necropolis",
+    "arkhan-the-black-mortarch-of-sacrament",
+    "arch-kavalos-zandtos",
+    "mortisan-ossifector",
+    "mortisan-soulreaper",
+    "mortisan-soulmason",
+    "liege-kavalos"
+  ],
+  "terrain": [
+    "bone-tithe-nexus"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "relics-of-the-empire",
+      "name": "Relics of the Empire",
+      "file": "enhancements/relics-of-the-empire.json"
+    },
+    {
+      "id": "teachings-of-the-tithe-reapers",
+      "name": "Teachings of the Tithe-reapers",
+      "file": "enhancements/teachings-of-the-tithe-reapers.json"
+    }
+  ],
   "lores": [
     {
       "id": "lore-of-ossian-sorcery",
-      "type": "spell"
+      "name": "Lore of Ossian Sorcery",
+      "file": "/lores/spells/lore-of-ossian-sorcery.json"
     },
     {
       "id": "lore-of-necrotheurgy",
-      "type": "spell"
+      "name": "Lore of Necrotheurgy",
+      "file": "/lores/spells/lore-of-necrotheurgy.json"
     },
     {
       "id": "horrors-of-the-necropolis",
-      "type": "manifestation"
+      "name": "Horrors of the Necropolis",
+      "file": "/lores/manifestations/horrors-of-the-necropolis.json"
+    }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "big-drogg-fort-kicker",
+      "name": "Big Drogg Fort-kicker",
+      "file": "/regiments-of-renown/big-drogg-fort-kicker.json"
+    },
+    {
+      "id": "jerrions-delegation",
+      "name": "Jerrion's Delegation",
+      "file": "/regiments-of-renown/jerrions-delegation.json"
+    },
+    {
+      "id": "neferatas-royal-echelon",
+      "name": "Neferata's Royal Echelon",
+      "file": "/regiments-of-renown/neferatas-royal-echelon.json"
+    },
+    {
+      "id": "the-sorrowmourn-choir",
+      "name": "The Sorrowmourn Choir",
+      "file": "/regiments-of-renown/the-sorrowmourn-choir.json"
+    },
+    {
+      "id": "the-sterneiste-garrison",
+      "name": "The Sterneiste Garrison",
+      "file": "/regiments-of-renown/the-sterneiste-garrison.json"
+    },
+    {
+      "id": "the-summerkings-entourage",
+      "name": "The Summerking's Entourage",
+      "file": "/regiments-of-renown/the-summerkings-entourage.json"
+    },
+    {
+      "id": "veremords-shamblers",
+      "name": "Veremord's Shamblers",
+      "file": "/regiments-of-renown/veremords-shamblers.json"
+    },
+    {
+      "id": "exile-scavengers",
+      "name": "Exile Scavengers",
+      "file": "/regiments-of-renown/exile-scavengers.json"
+    },
+    {
+      "id": "the-lost-song-spirits",
+      "name": "The Lost-Song Spirits",
+      "file": "/regiments-of-renown/the-lost-song-spirits.json"
+    },
+    {
+      "id": "stumblefoot-gargant",
+      "name": "Stumblefoot Gargant",
+      "file": "/regiments-of-renown/stumblefoot-gargant.json"
+    },
+    {
+      "id": "snerks-trogg-fer-hire",
+      "name": "Snerk's Trogg-fer-Hire",
+      "file": "/regiments-of-renown/snerks-trogg-fer-hire.json"
+    },
+    {
+      "id": "blades-of-the-hollow-king",
+      "name": "Blades of the Hollow King",
+      "file": "/regiments-of-renown/blades-of-the-hollow-king.json"
+    },
+    {
+      "id": "the-beast-of-castle-sterneiste",
+      "name": "The Beast of Castle Sterneiste",
+      "file": "/regiments-of-renown/the-beast-of-castle-sterneiste.json"
+    },
+    {
+      "id": "sky-port-profiteers",
+      "name": "Sky-Port Profiteers",
+      "file": "/regiments-of-renown/sky-port-profiteers.json"
+    },
+    {
+      "id": "the-scarlet-jury",
+      "name": "The Scarlet Jury",
+      "file": "/regiments-of-renown/the-scarlet-jury.json"
+    },
+    {
+      "id": "craventhrone-executioners",
+      "name": "Craventhrone Executioners",
+      "file": "/regiments-of-renown/craventhrone-executioners.json"
+    },
+    {
+      "id": "casket-of-resurrections",
+      "name": "Casket of Resurrections",
+      "file": "/regiments-of-renown/casket-of-resurrections.json"
+    },
+    {
+      "id": "the-horror-of-hallows-watch",
+      "name": "The Horror of Hallow's Watch",
+      "file": "/regiments-of-renown/the-horror-of-hallows-watch.json"
     }
   ]
 }

@@ -17,7 +17,6 @@ export const regimentOfRenownSchema = z
     id: idSchema,
     name: z.string(),
     points: z.number().int().min(0),
-    allowedFactions: z.array(z.string()),
     units: z.array(unitCompositionSchema),
     abilities: z.array(abilitySchema).optional(),
     _meta: metaSchema.optional(),

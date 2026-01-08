@@ -33,20 +33,26 @@ export interface RegimentUnit {
 }
 
 /**
- * aos-data Regiment of Renown type
+ * aos-data Regiment of Renown type (output format - no allowedFactions)
  */
 export interface RegimentOfRenown {
   $schema?: string;
   id: string;
   name: string;
   points: number;
-  allowedFactions: string[];
   units: RegimentUnit[];
   abilities: Ability[];
   _meta: {
     lastUpdated: string;
     source: string;
   };
+}
+
+/**
+ * Internal regiment type with allowed factions for building reverse mapping
+ */
+export interface RegimentOfRenownWithFactions extends RegimentOfRenown {
+  allowedFactions: string[];
 }
 
 /**
@@ -62,7 +68,7 @@ export interface RegimentInput {
 /**
  * Maps BSData regiment of renown entries to aos-data format
  */
-export class RegimentOfRenownMapper extends BaseMapper<RegimentInput, RegimentOfRenown> {
+export class RegimentOfRenownMapper extends BaseMapper<RegimentInput, RegimentOfRenownWithFactions> {
   private abilityMapper: AbilityMapper;
 
   constructor(options: MapperOptions) {
@@ -70,7 +76,7 @@ export class RegimentOfRenownMapper extends BaseMapper<RegimentInput, RegimentOf
     this.abilityMapper = new AbilityMapper(options);
   }
 
-  map(input: RegimentInput): RegimentOfRenown {
+  map(input: RegimentInput): RegimentOfRenownWithFactions {
     const { forceEntry, abilityEntry, unitLinks, factionCatalogueMap } = input;
 
     // Extract display name (remove "Regiment of Renown: " prefix if present)
@@ -79,7 +85,7 @@ export class RegimentOfRenownMapper extends BaseMapper<RegimentInput, RegimentOf
       ? rawName.replace("Regiment of Renown:", "").trim()
       : rawName;
 
-    const regiment: RegimentOfRenown = {
+    const regiment: RegimentOfRenownWithFactions = {
       $schema: "https://aos-data.org/schema/regiment-of-renown.schema.json",
       id: toKebabCase(displayName),
       name: displayName,
@@ -392,14 +398,15 @@ export function buildFactionCatalogueMap(catalogues: BSCatalogue[]): Map<string,
 
 /**
  * Extract all regiments of renown by combining data from game system and catalogue
+ * Returns regiments WITH allowedFactions for internal processing
  */
 export function mapRegimentsOfRenown(
   gameSystem: BSGameSystem,
   regimentsCatalogue: BSCatalogue,
   factionCatalogues: BSCatalogue[],
   options: MapperOptions
-): RegimentOfRenown[] {
-  const regiments: RegimentOfRenown[] = [];
+): RegimentOfRenownWithFactions[] {
+  const regiments: RegimentOfRenownWithFactions[] = [];
   const mapper = new RegimentOfRenownMapper(options);
 
   // Build faction catalogue map
@@ -441,4 +448,42 @@ export function mapRegimentsOfRenown(
   }
 
   return regiments;
+}
+
+/**
+ * Regiment reference for faction index
+ */
+export interface RegimentReference {
+  id: string;
+  name: string;
+}
+
+/**
+ * Build a reverse mapping from faction name to regiment references.
+ * This is used to populate the regimentsOfRenown array in faction _index.json.
+ */
+export function buildFactionToRegimentsMap(
+  regiments: RegimentOfRenownWithFactions[]
+): Map<string, RegimentReference[]> {
+  const factionToRegiments = new Map<string, RegimentReference[]>();
+
+  for (const regiment of regiments) {
+    for (const factionName of regiment.allowedFactions) {
+      const existing = factionToRegiments.get(factionName) || [];
+      existing.push({ id: regiment.id, name: regiment.name });
+      factionToRegiments.set(factionName, existing);
+    }
+  }
+
+  return factionToRegiments;
+}
+
+/**
+ * Strip allowedFactions from regiment data for writing to files.
+ * The output conforms to RegimentOfRenown interface (no allowedFactions).
+ */
+export function stripAllowedFactions(
+  regiments: RegimentOfRenownWithFactions[]
+): RegimentOfRenown[] {
+  return regiments.map(({ allowedFactions, ...rest }) => rest);
 }

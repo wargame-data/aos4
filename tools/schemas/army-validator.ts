@@ -86,6 +86,7 @@ export function validateRegimentOfRenownExists(
 
 /**
  * Check if a Regiment of Renown is allowed for the given faction.
+ * Now checks the faction's regimentsOfRenown array instead of the regiment's allowedFactions.
  */
 export function validateRegimentOfRenownFaction(
   rorId: string,
@@ -98,12 +99,8 @@ export function validateRegimentOfRenownFaction(
   const faction = data.factions.get(factionId);
   if (!faction) return false;
 
-  // Check if faction name is in allowedFactions
-  return ror.allowedFactions.some(
-    (allowed) =>
-      allowed.toLowerCase() === faction.name.toLowerCase() ||
-      allowed.toLowerCase() === factionId.toLowerCase()
-  );
+  // Check if faction's regimentsOfRenown array includes this regiment
+  return faction.regimentsOfRenown?.some((ref) => ref.id === rorId) ?? false;
 }
 
 /**
@@ -542,8 +539,8 @@ export function validateManifestationLoreFaction(
   const faction = data.factions.get(factionId);
   if (!faction) return false;
 
-  // Check if the faction has this lore in its lores array
-  if (faction.lores?.some((ref) => ref.id === loreId && ref.type === "manifestation")) {
+  // Check if the faction has this lore in its lores array (manifestation lores have /manifestations/ in path)
+  if (faction.lores?.some((ref) => ref.id === loreId && ref.file.includes("/manifestations/"))) {
     return true;
   }
 

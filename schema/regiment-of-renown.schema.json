@@ -19,12 +19,6 @@
       "type": "integer",
       "minimum": 0
     },
-    "allowedFactions": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
     "units": {
       "type": "array",
       "items": {
@@ -242,7 +236,6 @@
     "id",
     "name",
     "points",
-    "allowedFactions",
     "units"
   ],
   "additionalProperties": false

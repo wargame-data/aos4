@@ -1,0 +1,45 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "volt-klaws-enginecoven",
+  "name": "Volt-Klaw's Enginecoven",
+  "points": 410,
+  "units": [
+    {
+      "name": "Ratling Warpblaster",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Warlock Galvaneer",
+      "count": 1,
+      "required": true
+    },
+    {
+      "name": "Warpvolt Scourgers",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Behold My Genius!",
+      "type": "once-per-battle",
+      "effect": "Until the start of your next turn:\n• Add 1 to hit rolls for the targets' shooting attacks.\n• Add 3\" to the Range characteristic of the targets' ranged weapons.",
+      "phase": "shooting",
+      "declare": "Pick all friendly **^^Volt-Klaw's Enginecoven^^** units to be the targets.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Hide-shelter!",
+      "type": "passive",
+      "effect": "While a friendly **^^Volt-Klaw's Enginecoven Infantry^^** unit is within the combat range of a friendly **^^Volt-Klaw's Enginecoven^^ Ratling Warpblaster**, it is not visible to enemy units more than 13\" away.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  }
+}

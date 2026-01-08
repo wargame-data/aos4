@@ -8,22 +8,27 @@
   ],
   "battleFormations": [
     {
+      "id": "vanguard-wing",
       "name": "Vanguard Wing",
       "file": "battle-formations/vanguard-wing.json"
     },
     {
+      "id": "sentinels-of-the-bleak-citadels",
       "name": "Sentinels of the Bleak Citadels",
       "file": "battle-formations/sentinels-of-the-bleak-citadels.json"
     },
     {
+      "id": "thunderhead-host",
       "name": "Thunderhead Host",
       "file": "battle-formations/thunderhead-host.json"
     },
     {
+      "id": "lightning-echelon",
       "name": "Lightning Echelon",
       "file": "battle-formations/lightning-echelon.json"
     },
     {
+      "id": "sacrosanct-convocation",
       "name": "Sacrosanct Convocation",
       "file": "battle-formations/sacrosanct-convocation.json"
     }
@@ -32,18 +37,209 @@
     "lastUpdated": "2026-01-08",
     "source": "Stormcast Eternals Faction Pack"
   },
+  "units": [
+    "liberators",
+    "aetherwings",
+    "vanquishers",
+    "neaves-companions",
+    "vindictors",
+    "dracothian-guard-tempestors",
+    "gryph-hounds",
+    "annihilators",
+    "annihilators-with-meteoric-grandhammers",
+    "dracothian-guard-concussors",
+    "dracothian-guard-desolators",
+    "dracothian-guard-fulminators",
+    "stormstrike-chariot",
+    "praetors",
+    "prosecutors",
+    "stormdrake-guard",
+    "vanguard-hunters",
+    "vanguard-palladors-with-shock-handaxes",
+    "vanguard-palladors-with-starstrike-javelins",
+    "vanguard-raptors-with-longstrike-crossbows",
+    "vanguard-raptors-with-hurricane-crossbows",
+    "vigilors",
+    "questor-soulsworn",
+    "reclusians",
+    "judicators-with-boltstorm-crossbows",
+    "evocators-on-celestial-dracolines",
+    "celestar-ballista",
+    "evocators",
+    "castigators",
+    "decimators",
+    "judicators-with-skybolt-bows",
+    "sequitors",
+    "retributors",
+    "protectors",
+    "domitans-stormcoven",
+    "the-farstriders",
+    "xandires-truthseekers",
+    "stormsires-cursebreakers",
+    "steelhearts-champions",
+    "stormstrike-palladors",
+    "stormcoven",
+    "stormreach-portal",
+    "the-emberwatch"
+  ],
+  "heroes": [
+    "lord-aquilor",
+    "celestant-prime-hammer-of-sigmar",
+    "lord-commander-bastian-carthalos",
+    "lord-veritant",
+    "knight-draconis",
+    "knight-judicator-with-gryph-hounds",
+    "knight-questor",
+    "knight-relictor",
+    "lord-celestant-on-dracoth",
+    "knight-vexillor",
+    "lord-celestant",
+    "drakesworn-templar",
+    "knight-arcanum",
+    "lord-imperatant",
+    "lorai-child-of-the-abyss",
+    "neave-blacktalon",
+    "gardus-steel-soul",
+    "vandus-hammerhand",
+    "yndrasta-the-celestial-spear",
+    "lord-celestant-on-stardrake",
+    "karazai-the-scarred",
+    "krondys-son-of-dracothion",
+    "lord-vigilant-on-gryph-stalker",
+    "lord-terminos",
+    "ionus-cryptborn-warden-of-lost-souls",
+    "gavriel-sureheart",
+    "lord-arcanum-on-tauralon",
+    "aventis-firestrike-magister-of-hammerhal",
+    "astreia-solbright",
+    "lord-arcanum-on-celestial-dracoline",
+    "lord-arcanum-on-gryph-charger",
+    "lord-castellant",
+    "lord-exorcist",
+    "knight-heraldor",
+    "lord-arcanum",
+    "knight-incantor",
+    "knight-venator",
+    "knight-zephyros",
+    "lord-ordinator",
+    "lord-relictor",
+    "tornus-the-redeemed",
+    "iridan-the-witness",
+    "knight-azyros",
+    "lord-vigilant-on-morrgryph"
+  ],
+  "terrain": [
+    "stormreach-portal"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "artefacts-of-the-tempest",
+      "name": "Artefacts of the Tempest",
+      "file": "enhancements/artefacts-of-the-tempest.json"
+    },
+    {
+      "id": "aspects-of-azyr",
+      "name": "Aspects of Azyr",
+      "file": "enhancements/aspects-of-azyr.json"
+    },
+    {
+      "id": "relics-of-sigmaron",
+      "name": "Relics of Sigmaron",
+      "file": "enhancements/relics-of-sigmaron.json"
+    },
+    {
+      "id": "stormforged-qualities",
+      "name": "Stormforged Qualities",
+      "file": "enhancements/stormforged-qualities.json"
+    }
+  ],
   "lores": [
     {
       "id": "lore-of-the-storm",
-      "type": "spell"
+      "name": "Lore of the Storm",
+      "file": "/lores/spells/lore-of-the-storm.json"
     },
     {
       "id": "prayers-of-the-stormhosts",
-      "type": "prayer"
+      "name": "Prayers of the Stormhosts",
+      "file": "/lores/prayers/prayers-of-the-stormhosts.json"
     },
     {
       "id": "manifestations-of-the-storm",
-      "type": "manifestation"
+      "name": "Manifestations of the Storm",
+      "file": "/lores/manifestations/manifestations-of-the-storm.json"
+    }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "bundo-whalebiter",
+      "name": "Bundo Whalebiter",
+      "file": "/regiments-of-renown/bundo-whalebiter.json"
+    },
+    {
+      "id": "elthwins-thorns",
+      "name": "Elthwin's Thorns",
+      "file": "/regiments-of-renown/elthwins-thorns.json"
+    },
+    {
+      "id": "fjoris-flamebearers",
+      "name": "Fjori's Flamebearers",
+      "file": "/regiments-of-renown/fjoris-flamebearers.json"
+    },
+    {
+      "id": "gotrek-gurnisson",
+      "name": "Gotrek Gurnisson",
+      "file": "/regiments-of-renown/gotrek-gurnisson.json"
+    },
+    {
+      "id": "norgrimms-rune-throng",
+      "name": "Norgrimm's Rune Throng",
+      "file": "/regiments-of-renown/norgrimms-rune-throng.json"
+    },
+    {
+      "id": "saviours-of-cinderfall",
+      "name": "Saviours of Cinderfall",
+      "file": "/regiments-of-renown/saviours-of-cinderfall.json"
+    },
+    {
+      "id": "stumblefoot-gargant",
+      "name": "Stumblefoot Gargant",
+      "file": "/regiments-of-renown/stumblefoot-gargant.json"
+    },
+    {
+      "id": "snerks-trogg-fer-hire",
+      "name": "Snerk's Trogg-fer-Hire",
+      "file": "/regiments-of-renown/snerks-trogg-fer-hire.json"
+    },
+    {
+      "id": "bloodthirsty-shiver",
+      "name": "Bloodthirsty Shiver",
+      "file": "/regiments-of-renown/bloodthirsty-shiver.json"
+    },
+    {
+      "id": "namarti-shore-raid",
+      "name": "Namarti Shore Raid",
+      "file": "/regiments-of-renown/namarti-shore-raid.json"
+    },
+    {
+      "id": "drekkis-privateers",
+      "name": "Drekki's Privateers",
+      "file": "/regiments-of-renown/drekkis-privateers.json"
+    },
+    {
+      "id": "sky-port-profiteers",
+      "name": "Sky-Port Profiteers",
+      "file": "/regiments-of-renown/sky-port-profiteers.json"
     }
   ]
 }

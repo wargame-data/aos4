@@ -302,7 +302,7 @@ export function ensureEnhancementsDir(factionId: string, baseDir?: string): void
  */
 export function getRegimentsOfRenownDir(baseDir?: string): string {
   const dir = baseDir || DATA_DIR;
-  return join(dir, "_shared", "regiments-of-renown");
+  return join(dir, "regiments-of-renown");
 }
 
 /**
@@ -384,7 +384,7 @@ export function writeManifestations(
  */
 export function getBattleTacticsDir(baseDir?: string): string {
   const dir = baseDir || DATA_DIR;
-  return join(dir, "_shared", "battle-tactics");
+  return join(dir, "battle-tactics");
 }
 
 /**

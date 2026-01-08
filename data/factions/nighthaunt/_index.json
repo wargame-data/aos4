@@ -8,18 +8,22 @@
   ],
   "battleFormations": [
     {
+      "id": "quicksilver-gheists",
       "name": "Quicksilver Gheists",
       "file": "battle-formations/quicksilver-gheists.json"
     },
     {
+      "id": "death-stalkers",
       "name": "Death Stalkers",
       "file": "battle-formations/death-stalkers.json"
     },
     {
+      "id": "royal-procession",
       "name": "Royal Procession",
       "file": "battle-formations/royal-procession.json"
     },
     {
+      "id": "shrieker-host",
       "name": "Shrieker Host",
       "file": "battle-formations/shrieker-host.json"
     }
@@ -28,14 +32,153 @@
     "lastUpdated": "2026-01-08",
     "source": "Nighthaunt Faction Pack"
   },
+  "units": [
+    "dreadblade-harrows",
+    "pyregheists",
+    "bladegheist-revenants",
+    "spirit-hosts",
+    "chainrasps",
+    "black-coach",
+    "chainghasts",
+    "grimghast-reapers",
+    "craventhrone-guard",
+    "glaivewraith-stalkers",
+    "myrmourn-banshees",
+    "dreadscythe-harridans",
+    "hexwraiths",
+    "thorns-of-the-briar-queen",
+    "the-headsmens-curse",
+    "nexus-of-grief"
+  ],
+  "heroes": [
+    "nagash-supreme-lord-of-the-undead",
+    "reikenor-the-grimhailer",
+    "knight-of-shrouds",
+    "kurdoss-valentian-the-craven-king",
+    "awlrach-the-drowner",
+    "lady-olynder-mortarch-of-grief",
+    "tomb-banshee",
+    "knight-of-shrouds-on-ethereal-steed",
+    "cairn-wraith",
+    "krulghast-cruciator",
+    "lord-executioner",
+    "spirit-torment",
+    "guardian-of-souls",
+    "scriptor-mortis",
+    "lord-vitriolic"
+  ],
+  "terrain": [
+    "nexus-of-grief"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "relics-of-dolorum",
+      "name": "Relics of Dolorum",
+      "file": "enhancements/relics-of-dolorum.json"
+    },
+    {
+      "id": "relics-of-the-underworlds",
+      "name": "Relics of the Underworlds",
+      "file": "enhancements/relics-of-the-underworlds.json"
+    },
+    {
+      "id": "shades-of-death",
+      "name": "Shades of Death",
+      "file": "enhancements/shades-of-death.json"
+    }
+  ],
   "lores": [
     {
       "id": "lore-of-the-underworlds",
-      "type": "spell"
+      "name": "Lore of the Underworlds",
+      "file": "/lores/spells/lore-of-the-underworlds.json"
     },
     {
       "id": "infernal-sorceries",
-      "type": "manifestation"
+      "name": "Infernal Sorceries",
+      "file": "/lores/manifestations/infernal-sorceries.json"
+    }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "big-drogg-fort-kicker",
+      "name": "Big Drogg Fort-kicker",
+      "file": "/regiments-of-renown/big-drogg-fort-kicker.json"
+    },
+    {
+      "id": "jerrions-delegation",
+      "name": "Jerrion's Delegation",
+      "file": "/regiments-of-renown/jerrions-delegation.json"
+    },
+    {
+      "id": "neferatas-royal-echelon",
+      "name": "Neferata's Royal Echelon",
+      "file": "/regiments-of-renown/neferatas-royal-echelon.json"
+    },
+    {
+      "id": "scions-of-the-necropolis",
+      "name": "Scions of the Necropolis",
+      "file": "/regiments-of-renown/scions-of-the-necropolis.json"
+    },
+    {
+      "id": "the-liches-hand",
+      "name": "The Liche's Hand",
+      "file": "/regiments-of-renown/the-liches-hand.json"
+    },
+    {
+      "id": "the-sterneiste-garrison",
+      "name": "The Sterneiste Garrison",
+      "file": "/regiments-of-renown/the-sterneiste-garrison.json"
+    },
+    {
+      "id": "the-summerkings-entourage",
+      "name": "The Summerking's Entourage",
+      "file": "/regiments-of-renown/the-summerkings-entourage.json"
+    },
+    {
+      "id": "veremords-shamblers",
+      "name": "Veremord's Shamblers",
+      "file": "/regiments-of-renown/veremords-shamblers.json"
+    },
+    {
+      "id": "the-lost-song-spirits",
+      "name": "The Lost-Song Spirits",
+      "file": "/regiments-of-renown/the-lost-song-spirits.json"
+    },
+    {
+      "id": "stumblefoot-gargant",
+      "name": "Stumblefoot Gargant",
+      "file": "/regiments-of-renown/stumblefoot-gargant.json"
+    },
+    {
+      "id": "blades-of-the-hollow-king",
+      "name": "Blades of the Hollow King",
+      "file": "/regiments-of-renown/blades-of-the-hollow-king.json"
+    },
+    {
+      "id": "the-beast-of-castle-sterneiste",
+      "name": "The Beast of Castle Sterneiste",
+      "file": "/regiments-of-renown/the-beast-of-castle-sterneiste.json"
+    },
+    {
+      "id": "the-scarlet-jury",
+      "name": "The Scarlet Jury",
+      "file": "/regiments-of-renown/the-scarlet-jury.json"
+    },
+    {
+      "id": "the-horror-of-hallows-watch",
+      "name": "The Horror of Hallow's Watch",
+      "file": "/regiments-of-renown/the-horror-of-hallows-watch.json"
     }
   ]
 }

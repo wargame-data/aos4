@@ -8,18 +8,22 @@
   ],
   "battleFormations": [
     {
+      "id": "thunderquake-starhost",
       "name": "Thunderquake Starhost",
       "file": "battle-formations/thunderquake-starhost.json"
     },
     {
+      "id": "eternal-starhost",
       "name": "Eternal Starhost",
       "file": "battle-formations/eternal-starhost.json"
     },
     {
+      "id": "shadowstrike-starhost",
       "name": "Shadowstrike Starhost",
       "file": "battle-formations/shadowstrike-starhost.json"
     },
     {
+      "id": "sunclaw-starhost",
       "name": "Sunclaw Starhost",
       "file": "battle-formations/sunclaw-starhost.json"
     }
@@ -28,14 +32,172 @@
     "lastUpdated": "2026-01-08",
     "source": "Seraphon Faction Pack"
   },
+  "units": [
+    "bastiladon-with-solar-engine",
+    "engine-of-the-gods",
+    "terrawings",
+    "aggradon-lancers",
+    "skinks",
+    "saurus-warriors",
+    "ripperdactyl-riders",
+    "raptadon-hunters",
+    "raptadon-chargers",
+    "hunters-of-huanchi-with-starstone-bolas",
+    "hunters-of-huanchi-with-dartpipes",
+    "spawn-of-chotec",
+    "bastiladon-with-ark-of-sotek",
+    "terradon-riders",
+    "stegadon",
+    "realmshaper-engine",
+    "saurus-guard",
+    "kroxigor",
+    "kroxigor-warspawned",
+    "the-starblood-stalkers",
+    "the-jaws-of-itzl"
+  ],
+  "heroes": [
+    "lord-kroak",
+    "ripperdactyl-chief",
+    "skink-oracle-on-troglodon",
+    "slann-starmaster",
+    "saurus-scar-veteran-on-aggradon",
+    "saurus-astrolith-bearer",
+    "skink-starseer",
+    "terradon-chief",
+    "stegadon-chief",
+    "skink-starpriest",
+    "saurus-oldblood-on-carnosaur",
+    "saurus-scar-veteran-on-carnosaur",
+    "saurus-oldblood",
+    "sunblood-pack"
+  ],
+  "terrain": [
+    "realmshaper-engine"
+  ],
+  "enhancements": [
+    {
+      "id": "heroic-traits",
+      "name": "Heroic Traits",
+      "file": "enhancements/heroic-traits.json"
+    },
+    {
+      "id": "artefacts-of-power",
+      "name": "Artefacts of Power",
+      "file": "enhancements/artefacts-of-power.json"
+    },
+    {
+      "id": "monstrous-traits",
+      "name": "Monstrous Traits",
+      "file": "enhancements/monstrous-traits.json"
+    },
+    {
+      "id": "celestial-disciplines",
+      "name": "Celestial Disciplines",
+      "file": "enhancements/celestial-disciplines.json"
+    },
+    {
+      "id": "servants-of-the-cosmic-order",
+      "name": "Servants of the Cosmic Order",
+      "file": "enhancements/servants-of-the-cosmic-order.json"
+    },
+    {
+      "id": "treasures-of-the-old-ones",
+      "name": "Treasures of the Old Ones",
+      "file": "enhancements/treasures-of-the-old-ones.json"
+    }
+  ],
   "lores": [
     {
       "id": "lore-of-celestial-manipulation",
-      "type": "spell"
+      "name": "Lore of Celestial Manipulation",
+      "file": "/lores/spells/lore-of-celestial-manipulation.json"
     },
     {
       "id": "lore-of-primal-jungles",
-      "type": "spell"
+      "name": "Lore of Primal Jungles",
+      "file": "/lores/spells/lore-of-primal-jungles.json"
+    }
+  ],
+  "regimentsOfRenown": [
+    {
+      "id": "bundo-whalebiter",
+      "name": "Bundo Whalebiter",
+      "file": "/regiments-of-renown/bundo-whalebiter.json"
+    },
+    {
+      "id": "elthwins-thorns",
+      "name": "Elthwin's Thorns",
+      "file": "/regiments-of-renown/elthwins-thorns.json"
+    },
+    {
+      "id": "fjoris-flamebearers",
+      "name": "Fjori's Flamebearers",
+      "file": "/regiments-of-renown/fjoris-flamebearers.json"
+    },
+    {
+      "id": "gotrek-gurnisson",
+      "name": "Gotrek Gurnisson",
+      "file": "/regiments-of-renown/gotrek-gurnisson.json"
+    },
+    {
+      "id": "norgrimms-rune-throng",
+      "name": "Norgrimm's Rune Throng",
+      "file": "/regiments-of-renown/norgrimms-rune-throng.json"
+    },
+    {
+      "id": "saviours-of-cinderfall",
+      "name": "Saviours of Cinderfall",
+      "file": "/regiments-of-renown/saviours-of-cinderfall.json"
+    },
+    {
+      "id": "the-blacktalons",
+      "name": "The Blacktalons",
+      "file": "/regiments-of-renown/the-blacktalons.json"
+    },
+    {
+      "id": "the-horizon-seekers",
+      "name": "The Horizon Seekers",
+      "file": "/regiments-of-renown/the-horizon-seekers.json"
+    },
+    {
+      "id": "valnirs-stormwing",
+      "name": "Valnir's Stormwing",
+      "file": "/regiments-of-renown/valnirs-stormwing.json"
+    },
+    {
+      "id": "exile-scavengers",
+      "name": "Exile Scavengers",
+      "file": "/regiments-of-renown/exile-scavengers.json"
+    },
+    {
+      "id": "stumblefoot-gargant",
+      "name": "Stumblefoot Gargant",
+      "file": "/regiments-of-renown/stumblefoot-gargant.json"
+    },
+    {
+      "id": "snerks-trogg-fer-hire",
+      "name": "Snerk's Trogg-fer-Hire",
+      "file": "/regiments-of-renown/snerks-trogg-fer-hire.json"
+    },
+    {
+      "id": "bloodthirsty-shiver",
+      "name": "Bloodthirsty Shiver",
+      "file": "/regiments-of-renown/bloodthirsty-shiver.json"
+    },
+    {
+      "id": "namarti-shore-raid",
+      "name": "Namarti Shore Raid",
+      "file": "/regiments-of-renown/namarti-shore-raid.json"
+    },
+    {
+      "id": "drekkis-privateers",
+      "name": "Drekki's Privateers",
+      "file": "/regiments-of-renown/drekkis-privateers.json"
+    },
+    {
+      "id": "sky-port-profiteers",
+      "name": "Sky-Port Profiteers",
+      "file": "/regiments-of-renown/sky-port-profiteers.json"
     }
   ]
 }

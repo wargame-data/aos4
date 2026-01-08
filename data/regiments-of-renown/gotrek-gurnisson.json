@@ -1,0 +1,18 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "gotrek-gurnisson",
+  "name": "Gotrek Gurnisson",
+  "points": 320,
+  "units": [
+    {
+      "name": "Gotrek Gurnisson",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [],
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  }
+}

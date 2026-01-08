@@ -1,0 +1,28 @@
+{
+  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "id": "casket-of-resurrections",
+  "name": "Casket of Resurrections",
+  "points": 200,
+  "units": [
+    {
+      "name": "Black Coach",
+      "count": 1,
+      "required": true
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Dark Resurrection",
+      "type": "passive",
+      "effect": "Set up a replacement unit identical to the target wholly within 12\" of this unit. The replacement unit can only be set up in combat with enemy units that are in combat with this unit.",
+      "phase": "any",
+      "declare": "If any damage points were allocated to an enemy unit by this unit's combat attacks this turn, pick a friendly non-**^^Unique Death Infantry Hero^^** that has been destroyed to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-08",
+    "source": "BSData import"
+  }
+}

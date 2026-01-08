@@ -1,18 +1,12 @@
 import { z } from "zod";
 import { abilitySchema } from "./ability.schema.js";
-import { idSchema, grandAllianceSchema, loreTypeSchema, metaSchema } from "../base.js";
+import { idSchema, grandAllianceSchema, metaSchema } from "../base.js";
 
-// Lore reference - file path derived from: data/lores/{type}s/{id}.json
-const loreReferenceSchema = z
+// Unified reference schema - all references use { id, name, file }
+// File paths: relative for local files, /absolute for centralized data
+const referenceSchema = z
   .object({
     id: idSchema,
-    type: loreTypeSchema,
-  })
-  .strict();
-
-// Battle formation reference
-const battleFormationReferenceSchema = z
-  .object({
     name: z.string(),
     file: z.string(),
   })
@@ -26,12 +20,17 @@ export const factionSchema = z
     grandAlliance: grandAllianceSchema,
     armyKeywords: z.array(z.string()).optional(),
     armyAbilities: z.array(abilitySchema).optional(),
-    lores: z.array(loreReferenceSchema).optional(),
-    battleFormations: z.array(battleFormationReferenceSchema).optional(),
+    units: z.array(idSchema).optional(),
+    heroes: z.array(idSchema).optional(),
+    terrain: z.array(idSchema).optional(),
+    lores: z.array(referenceSchema).optional(),
+    battleFormations: z.array(referenceSchema).optional(),
+    enhancements: z.array(referenceSchema).optional(),
+    regimentsOfRenown: z.array(referenceSchema).optional(),
+    armiesOfRenown: z.array(referenceSchema).optional(),
     _meta: metaSchema.optional(),
   })
   .strict();
 
-export type LoreReference = z.infer<typeof loreReferenceSchema>;
-export type BattleFormationReference = z.infer<typeof battleFormationReferenceSchema>;
+export type Reference = z.infer<typeof referenceSchema>;
 export type Faction = z.infer<typeof factionSchema>;
