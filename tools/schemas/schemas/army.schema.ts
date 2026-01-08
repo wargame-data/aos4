@@ -73,6 +73,8 @@ export const armySchema = z
     gameFormat: gameFormatSchema.optional(),
     /** Selected battle tactic card IDs (typically 2 cards) */
     battleTactics: z.array(idSchema).max(2).optional(),
+    /** Whether to allow LEGENDS units in the army (default: false) */
+    allowLegends: z.boolean().optional(),
   })
   .strict()
   .refine(

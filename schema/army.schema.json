@@ -199,6 +199,9 @@
         "pattern": "^[a-z0-9-]+$"
       },
       "maxItems": 2
+    },
+    "allowLegends": {
+      "type": "boolean"
     }
   },
   "required": [
