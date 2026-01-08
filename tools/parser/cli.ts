@@ -1036,6 +1036,10 @@ async function writeResults(
       const unitRefs: { id: string; name: string; file: string }[] = [];
       const heroRefs: { id: string; name: string; file: string }[] = [];
       for (const unit of result.units) {
+        // Only include units that belong to this faction
+        if (unit.faction !== result.factionId) {
+          continue;
+        }
         const isHeroUnit = "isWizard" in unit;
         if (isHeroUnit) {
           heroRefs.push({ id: unit.id, name: unit.name, file: `heroes/${unit.id}.json` });
