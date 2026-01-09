@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://aos-data.org/schema/weapon.schema.json",
+  "$id": "https://wargamedata.com/aos4/schema/weapon.schema.json",
   "title": "Weapon",
   "description": "A weapon profile for an Age of Sigmar unit",
   "type": "object",

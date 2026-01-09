@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://aos-data.org/schema/points-pack.schema.json",
+  "$id": "https://wargamedata.com/aos4/schema/points-pack.schema.json",
   "title": "Points Pack",
   "description": "A points pack mapping catalog items to points costs",
   "type": "object",

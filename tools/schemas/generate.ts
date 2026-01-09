@@ -6,31 +6,12 @@ import type { ZodTypeAny } from "zod";
 // Import all schemas
 import { weaponSchema } from "./schemas/weapon.schema.js";
 import { abilitySchema } from "./schemas/ability.schema.js";
-import { unitSchema } from "./schemas/unit.schema.js";
-import { heroSchema } from "./schemas/hero.schema.js";
-import { manifestationSchema } from "./schemas/manifestation.schema.js";
-import { loreSchema } from "./schemas/lore.schema.js";
-import { battleFormationSchema } from "./schemas/battle-formation.schema.js";
-import { enhancementCollectionSchema } from "./schemas/enhancement.schema.js";
-import { regimentOfRenownSchema } from "./schemas/regiment-of-renown.schema.js";
-import { factionSchema } from "./schemas/faction.schema.js";
-import { armyOfRenownSchema } from "./schemas/army-of-renown.schema.js";
-import { battleTraitsSchema } from "./schemas/battle-traits.schema.js";
-import { battleTacticCardSchema } from "./schemas/battle-tactic-card.schema.js";
-import { bloodTitheAbilitySchema } from "./schemas/blood-tithe-ability.schema.js";
-import { terrainSchema } from "./schemas/terrain.schema.js";
-// Army composition schemas
-import { unitSelectionSchema } from "./schemas/unit-selection.schema.js";
-import { regimentSchema } from "./schemas/regiment.schema.js";
-import { armySchema } from "./schemas/army.schema.js";
-
-// New catalog schemas
 import { warscrollSchema } from "./schemas/warscroll.schema.js";
 import { spellSchema, prayerSchema } from "./schemas/spell.schema.js";
 import { pointsPackSchema } from "./schemas/points-pack.schema.js";
 
 const SCHEMA_DIR = join(process.cwd(), "schema");
-const BASE_URL = "https://aos-data.org/schema";
+const BASE_URL = "https://wargamedata.com/aos4/schema";
 
 interface SchemaConfig {
   schema: ZodTypeAny;
@@ -52,105 +33,6 @@ const schemas: SchemaConfig[] = [
     title: "Ability",
     description: "An ability for an Age of Sigmar unit or hero",
   },
-  {
-    schema: unitSchema,
-    filename: "unit.schema.json",
-    title: "Unit",
-    description: "A unit warscroll for Age of Sigmar 4th Edition",
-  },
-  {
-    schema: heroSchema,
-    filename: "hero.schema.json",
-    title: "Hero",
-    description: "A hero warscroll for Age of Sigmar 4th Edition",
-  },
-  {
-    schema: manifestationSchema,
-    filename: "manifestation.schema.json",
-    title: "Manifestation",
-    description:
-      "A manifestation (endless spell) warscroll for Age of Sigmar 4th Edition",
-  },
-  {
-    schema: loreSchema,
-    filename: "lore.schema.json",
-    title: "Lore",
-    description: "A spell lore, prayer lore, or manifestation lore for Age of Sigmar",
-  },
-  {
-    schema: battleFormationSchema,
-    filename: "battle-formation.schema.json",
-    title: "Battle Formation",
-    description: "A battle formation (subfaction) for Age of Sigmar 4th Edition",
-  },
-  {
-    schema: enhancementCollectionSchema,
-    filename: "enhancement.schema.json",
-    title: "Enhancement Collection",
-    description: "A collection of enhancements (heroic traits or artefacts) for Age of Sigmar",
-  },
-  {
-    schema: regimentOfRenownSchema,
-    filename: "regiment-of-renown.schema.json",
-    title: "Regiment of Renown",
-    description: "A Regiment of Renown for Age of Sigmar 4th Edition",
-  },
-  {
-    schema: factionSchema,
-    filename: "faction.schema.json",
-    title: "Faction",
-    description: "Faction metadata for Age of Sigmar 4th Edition",
-  },
-  {
-    schema: armyOfRenownSchema,
-    filename: "army-of-renown.schema.json",
-    title: "Army of Renown",
-    description: "An Army of Renown index for Age of Sigmar 4th Edition",
-  },
-  {
-    schema: battleTraitsSchema,
-    filename: "battle-traits.schema.json",
-    title: "Battle Traits",
-    description: "Battle traits for an Army of Renown",
-  },
-  {
-    schema: battleTacticCardSchema,
-    filename: "battle-tactic-card.schema.json",
-    title: "Battle Tactic Card",
-    description: "A battle tactic card with tiered objectives for Age of Sigmar 4th Edition",
-  },
-  {
-    schema: bloodTitheAbilitySchema,
-    filename: "blood-tithe-ability.schema.json",
-    title: "Blood Tithe Ability",
-    description: "A Blood Tithe ability for Blades of Khorne faction",
-  },
-  {
-    schema: terrainSchema,
-    filename: "terrain.schema.json",
-    title: "Faction Terrain",
-    description: "A faction terrain piece for Age of Sigmar 4th Edition",
-  },
-  // Army composition schemas
-  {
-    schema: unitSelectionSchema,
-    filename: "unit-selection.schema.json",
-    title: "Unit Selection",
-    description: "A unit or hero selection in an army list with count information",
-  },
-  {
-    schema: regimentSchema,
-    filename: "regiment.schema.json",
-    title: "Regiment",
-    description: "A regiment in an army list with leader and unit selections",
-  },
-  {
-    schema: armySchema,
-    filename: "army.schema.json",
-    title: "Army",
-    description: "A complete army list for Age of Sigmar 4th Edition",
-  },
-  // New catalog schemas
   {
     schema: warscrollSchema,
     filename: "warscroll.schema.json",

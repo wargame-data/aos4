@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://aos-data.org/schema/warscroll.schema.json",
+  "$id": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "title": "Warscroll",
   "description": "A unified warscroll for units and heroes in the catalog",
   "type": "object",
@@ -11,6 +11,9 @@
     "id": {
       "type": "string",
       "pattern": "^(warscroll|spell|prayer|enhancement|terrain|formation|manifestation)\\.[a-z0-9_]+\\.[a-z0-9_]+$"
+    },
+    "bsdataId": {
+      "type": "string"
     },
     "type": {
       "type": "string",
@@ -575,6 +578,7 @@
   },
   "required": [
     "id",
+    "bsdataId",
     "type",
     "name",
     "faction",

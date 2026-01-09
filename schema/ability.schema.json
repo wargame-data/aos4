@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://aos-data.org/schema/ability.schema.json",
+  "$id": "https://wargamedata.com/aos4/schema/ability.schema.json",
   "title": "Ability",
   "description": "An ability for an Age of Sigmar unit or hero",
   "type": "object",
