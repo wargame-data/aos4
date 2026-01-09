@@ -71,7 +71,7 @@
   "abilities": [
     {
       "name": "Starstone Bolas",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.",
       "phase": "shooting",
       "declare": "Pick an enemy unit that was targeted by this unit’s **Starstone Bolas** this turn to be the target.",
@@ -80,7 +80,7 @@
     },
     {
       "name": "Hidden Hunters",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit in reserve **in ambush**. It has now been deployed.",
       "declare": "Pick this unit if it has not been deployed.",
       "keywords": [
@@ -91,7 +91,7 @@
     },
     {
       "name": "Chameleon Ambush",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
       "phase": "movement",
       "declare": "Pick this unit if it is **in ambush**.",

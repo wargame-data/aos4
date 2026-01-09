@@ -16,18 +16,21 @@ import { glob } from "glob";
 import { join, basename } from "path";
 import { existsSync } from "fs";
 
-import { parseCat, buildCatalogueIdMap } from "./xml/reader.js";
+import { parseCat, buildCatalogueIdMap, buildCatalogueInfoMap, type CatalogueInfo } from "./xml/reader.js";
 import { findUnits, getFactionId } from "./xml/traverser.js";
 import { PublicationResolver } from "./xml/publications.js";
 import { WarscrollMapper } from "./mappers/warscroll.mapper.js";
 import { mapIndividualSpells, mapIndividualPrayers } from "./mappers/spell.mapper.js";
 import { mapEnhancements } from "./mappers/enhancement.mapper.js";
+import { mapBattleFormations } from "./mappers/battle-formation.mapper.js";
+import { loadGstIds, validateGstIds, printValidationResult } from "./xml/gst-loader.js";
 import {
   ensureCatalogStructure,
   writeWarscrolls,
   writeIndividualSpells,
   writeIndividualPrayers,
   writeEnhancements,
+  writeBattleFormations,
 } from "./output/writer.js";
 import {
   getGrandAlliance,
@@ -37,6 +40,7 @@ import type { MapperOptions } from "./mappers/base.js";
 import type { Warscroll } from "../schemas/schemas/warscroll.schema.js";
 import type { Spell, Prayer } from "../schemas/schemas/spell.schema.js";
 import type { Enhancement } from "../schemas/schemas/enhancement.schema.js";
+import type { BattleFormation } from "../schemas/schemas/battle-formation.schema.js";
 
 // Default BSData cache path
 const DEFAULT_BSDATA_PATH = ".cache/bsdata/age-of-sigmar-4th";
@@ -52,6 +56,7 @@ interface CatalogResult {
   spells: Spell[];
   prayers: Prayer[];
   enhancements: Enhancement[];
+  battleFormations: BattleFormation[];
   factionCounts: Map<string, number>;
   errors: string[];
 }
@@ -213,10 +218,9 @@ async function findFactionCatalogueFiles(bsdataPath: string): Promise<string[]> 
   const pattern = join(bsdataPath, "*.cat");
   const allFiles = await glob(pattern);
 
-  // Filter to only include main faction files
+  // Filter to only include main faction files (not Library, Legends, or Lores)
   return allFiles.filter((f) => {
     const name = basename(f).toLowerCase();
-    // Exclude Library files, Legends, Lores, and other non-faction files
     return (
       !name.includes("library") &&
       !name.includes("legends") &&
@@ -230,6 +234,7 @@ async function findFactionCatalogueFiles(bsdataPath: string): Promise<string[]> 
 
 /**
  * Parse all faction catalogues for enhancements
+ * Subfaction-specific enhancements are detected via primary-catalogue conditions
  */
 async function parseEnhancements(
   bsdataPath: string,
@@ -238,6 +243,9 @@ async function parseEnhancements(
   const factionFiles = await findFactionCatalogueFiles(bsdataPath);
   const allEnhancements: Enhancement[] = [];
   const errors: string[] = [];
+
+  // Build catalogue info map for subfaction detection
+  const catalogueInfoMap = await buildCatalogueInfoMap(bsdataPath);
 
   console.log(`\nParsing ${factionFiles.length} faction files for enhancements...`);
 
@@ -258,7 +266,7 @@ async function parseEnhancements(
         catalogueName: catalogue.$.name,
       };
 
-      const enhancements = mapEnhancements(catalogue, mapperOptions);
+      const enhancements = mapEnhancements(catalogue, mapperOptions, catalogueInfoMap);
 
       if (enhancements.length > 0) {
         allEnhancements.push(...enhancements);
@@ -274,6 +282,54 @@ async function parseEnhancements(
   }
 
   return { enhancements: allEnhancements, errors };
+}
+
+/**
+ * Parse all faction catalogues for battle formations
+ */
+async function parseBattleFormations(
+  bsdataPath: string,
+  options: ParseOptions
+): Promise<{ battleFormations: BattleFormation[]; errors: string[] }> {
+  const factionFiles = await findFactionCatalogueFiles(bsdataPath);
+  const allBattleFormations: BattleFormation[] = [];
+  const errors: string[] = [];
+
+  console.log(`\nParsing ${factionFiles.length} faction files for battle formations...`);
+
+  for (const file of factionFiles) {
+    try {
+      const catalogue = await parseCat(file);
+      const factionId = catalogueNameToFactionId(catalogue.$.name);
+      const grandAlliance = getGrandAlliance(factionId);
+
+      if (options.verbose) {
+        console.log(`  Parsing ${basename(file)} for battle formations...`);
+      }
+
+      const mapperOptions: MapperOptions = {
+        strict: false,
+        factionId,
+        grandAlliance,
+        catalogueName: catalogue.$.name,
+      };
+
+      const battleFormations = mapBattleFormations(catalogue, mapperOptions);
+
+      if (battleFormations.length > 0) {
+        allBattleFormations.push(...battleFormations);
+        console.log(`  ${factionId}: ${battleFormations.length} battle formations`);
+      }
+    } catch (error) {
+      const msg = `Failed to parse battle formations from ${file}: ${error}`;
+      errors.push(msg);
+      if (options.verbose) {
+        console.error(`  Error: ${msg}`);
+      }
+    }
+  }
+
+  return { battleFormations: allBattleFormations, errors };
 }
 
 /**
@@ -311,6 +367,12 @@ function writeCatalogResults(result: CatalogResult, options: ParseOptions): void
     const enhancementResults = writeEnhancements(result.enhancements);
     console.log(`  Enhancements: ${enhancementResults.length} files`);
   }
+
+  // Write battle formations
+  if (result.battleFormations.length > 0) {
+    const battleFormationResults = writeBattleFormations(result.battleFormations);
+    console.log(`  Battle Formations: ${battleFormationResults.length} files`);
+  }
 }
 
 /**
@@ -332,6 +394,7 @@ function printSummary(result: CatalogResult): void {
   console.log(`Spells: ${result.spells.length}`);
   console.log(`Prayers: ${result.prayers.length}`);
   console.log(`Enhancements: ${result.enhancements.length}`);
+  console.log(`Battle Formations: ${result.battleFormations.length}`);
   console.log(`Errors: ${result.errors.length}`);
 
   if (result.errors.length > 0) {
@@ -372,6 +435,31 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
+  // Validate GST IDs at startup
+  const gstPath = join(options.bsdataPath, "Age of Sigmar 4.0.gst");
+  if (existsSync(gstPath)) {
+    console.log("Validating GST IDs...");
+    try {
+      const gstIds = await loadGstIds(gstPath);
+      const validation = validateGstIds(gstIds);
+
+      if (!validation.valid) {
+        console.error("\nGST ID validation failed:");
+        printValidationResult(validation);
+        console.error("\nSome IDs in gst-ids.ts may need to be updated.");
+        // Continue anyway but warn
+      } else {
+        console.log("GST ID validation passed");
+        if (validation.warnings.length > 0 && options.verbose) {
+          console.log(`  ${validation.warnings.length} warnings (new IDs in GST)`);
+        }
+      }
+    } catch (error) {
+      console.warn(`Warning: Could not validate GST IDs: ${error}`);
+    }
+    console.log("");
+  }
+
   // Parse warscrolls from Library files
   const { warscrolls, factionCounts, errors: warscrollErrors } = await parseWarscrolls(
     options.bsdataPath,
@@ -390,14 +478,21 @@ async function main(): Promise<void> {
     options
   );
 
+  // Parse battle formations from faction catalogues
+  const { battleFormations, errors: battleFormationErrors } = await parseBattleFormations(
+    options.bsdataPath,
+    options
+  );
+
   // Combine results
   const result: CatalogResult = {
     warscrolls,
     spells,
     prayers,
     enhancements,
+    battleFormations,
     factionCounts,
-    errors: [...warscrollErrors, ...loreErrors, ...enhancementErrors],
+    errors: [...warscrollErrors, ...loreErrors, ...enhancementErrors, ...battleFormationErrors],
   };
 
   // Write results

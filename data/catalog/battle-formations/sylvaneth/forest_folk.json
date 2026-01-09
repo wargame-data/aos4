@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.sylvaneth.forest_folk",
+  "bsdataId": "f1ec-31e8-5064-fe66",
+  "type": "battle-formation",
+  "name": "Forest Folk",
+  "faction": "sylvaneth",
+  "ability": {
+    "name": "Lacerating Strike",
+    "type": "passive",
+    "effect": "Add 1 to the Rend characteristic of melee weapons used by friendly **^^Sylvaneth^^** non-**^^Kurnothi Infantry^^** units that charged in the same turn.",
+    "color": "Red",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

@@ -59,7 +59,7 @@
   "abilities": [
     {
       "name": "Warpstone Snipers",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit has not used a **^^Move^^** ability this turn and was not set up this turn, add 6\" to the Range characteristic of this unit's **Warplock Jezzails** for the rest of the turn.",
       "phase": "shooting",
       "color": "Blue",

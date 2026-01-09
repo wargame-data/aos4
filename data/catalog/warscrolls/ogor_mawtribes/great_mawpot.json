@@ -41,7 +41,7 @@
     },
     {
       "name": "Battlebroth",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If the **Great Mawpot** is full, **Heal (D3)** each friendly unit wholly within 18\" of it. After you have done so, the **Great Mawpot** is empty.",
       "phase": "hero",
       "color": "Yellow",
@@ -49,7 +49,7 @@
     },
     {
       "name": "Vessel of the Gulping God",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Add 1 to the power level of the target for the rest of the turn.",
       "phase": "hero",
       "declare": "If the **Great Mawpot** is full, pick a friendly **^^Ogor Wizard^^** within 3\" of it to be the target.",

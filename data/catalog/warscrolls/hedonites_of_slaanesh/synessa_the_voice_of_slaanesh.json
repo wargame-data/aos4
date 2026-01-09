@@ -68,7 +68,7 @@
   "abilities": [
     {
       "name": "Voice of Slaanesh",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If the target is a friendly unit, add 5 to the target’s control score for the rest of the turn. If the target is an enemy unit, subtract 5 from the target’s control score for the rest of the turn.",
       "phase": "any",
       "declare": "Pick a visible unit within 18\" of this unit to be the target.",

@@ -58,7 +58,7 @@
     },
     {
       "name": "Mobile Repairs",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 2+, **Heal (3)** the target.",
       "phase": "hero",
       "declare": "Pick a friendly **^^Skyvessel^^** or **Zontari Endrin Dock** within this unit’s combat range to be the target.",

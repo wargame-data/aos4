@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.ogor_mawtribes.heralds_of_the_everwinter",
+  "bsdataId": "59b2-61e4-7146-687a",
+  "type": "battle-formation",
+  "name": "Heralds of the Everwinter",
+  "faction": "ogor_mawtribes",
+  "ability": {
+    "name": "Eyes of the Storm",
+    "type": "passive",
+    "effect": "Subtract 1 from hit rolls for shooting attacks that target friendly **^^Ogor Mawtribes Infantry^^** units while they are wholly within 12\" of any friendly **^^Beastclaw Raiders Heroes^^**.",
+    "color": "Green",
+    "abilityCategory": "Defensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

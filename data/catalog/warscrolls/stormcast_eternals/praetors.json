@@ -48,7 +48,7 @@
   "abilities": [
     {
       "name": "Soul-bonded",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Pick a friendly **^^Stormcast Eternals Hero^^** to be this unit’s soul-bonded charge for the rest of the battle. This unit can use this ability while it is in reserve.",
       "color": "Black",
       "abilityCategory": "Special"

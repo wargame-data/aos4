@@ -56,7 +56,7 @@
   "abilities": [
     {
       "name": "Restless Dead",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "You can return D3 slain models to this unit.",
       "phase": "any",
       "color": "Purple",

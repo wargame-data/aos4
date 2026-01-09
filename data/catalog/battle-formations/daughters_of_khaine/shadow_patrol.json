@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.daughters_of_khaine.shadow_patrol",
+  "bsdataId": "f55c-dbef-7ca9-430b",
+  "type": "battle-formation",
+  "name": "Shadow Patrol",
+  "faction": "daughters_of_khaine",
+  "ability": {
+    "name": "Shadowpaths",
+    "type": "once-per-turn",
+    "effect": "Roll a dice. On a 3+, remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units",
+    "phase": "movement",
+    "declare": "Pick a friendly **^^Daughters of Khaine Infantry^^** unit that is not in combat to use this ability",
+    "color": "Gray",
+    "abilityCategory": "Movement"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

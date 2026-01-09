@@ -61,7 +61,7 @@
   "abilities": [
     {
       "name": "More-more Warpvolt Doom!",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a D3 for each other enemy unit within the target's combat range. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
       "phase": "shooting",
       "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit's **Warpvolt Obliterator** to be the target.",

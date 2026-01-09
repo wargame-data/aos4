@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.helsmiths_of_hashut.the_bullfathers_horns",
+  "bsdataId": "4f34-00b0-01a8-a65d",
+  "type": "battle-formation",
+  "name": "The Bullfather's Horns",
+  "faction": "helsmiths_of_hashut",
+  "ability": {
+    "name": "Bulls of the Ziggurat",
+    "type": "passive",
+    "effect": "Add 2\" to the Move characteristic of friendly **^^Helsmiths of Hashut Cavalry and Monster^^** units while they have 3 **daemonic power points**.",
+    "color": "Gray",
+    "abilityCategory": "Movement"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

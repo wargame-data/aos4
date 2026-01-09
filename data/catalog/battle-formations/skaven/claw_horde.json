@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.skaven.claw_horde",
+  "bsdataId": "e82a-516-f411-8eaa",
+  "type": "battle-formation",
+  "name": "Claw-horde",
+  "faction": "skaven",
+  "ability": {
+    "name": "Claw-picked",
+    "type": "once-per-turn",
+    "effect": "Add 1 to the Rend characteristic of the targets’ melee weapons for the rest of the turn.",
+    "phase": "combat",
+    "declare": "Pick up to 3 friendly **^^Verminus^^** units that charged this turn to be the targets.",
+    "color": "Red",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

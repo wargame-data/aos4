@@ -52,7 +52,7 @@
   "abilities": [
     {
       "name": "The Scent of Blood",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase.",
       "color": "Black",
       "abilityCategory": "Movement"

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.maggotkin_of_nurgle.nurgles_menagerie",
+  "bsdataId": "9439-707a-2faa-81f",
+  "type": "battle-formation",
+  "name": "Nurgle's Menagerie",
+  "faction": "maggotkin_of_nurgle",
+  "ability": {
+    "name": "Tenders of the Garden Grotesque",
+    "type": "passive",
+    "effect": "During army composition, you can include 2 **Feculent Gnarlmaws** in your army instead of 1.",
+    "color": "Black",
+    "abilityCategory": "Special"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

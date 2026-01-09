@@ -51,7 +51,7 @@
   "abilities": [
     {
       "name": "Magical Mending",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "**Heal (D6)** the target.",
       "phase": "any",
       "declare": "Pick a visible friendly **^^Manifestation^^** wholly within 12\" of this unit to be the target.",

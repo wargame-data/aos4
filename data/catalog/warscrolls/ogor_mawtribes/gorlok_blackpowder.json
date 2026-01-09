@@ -72,7 +72,7 @@
     },
     {
       "name": "Tiny Braggarts",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Pick 1 of this unit’s tokens that is on the battlefield and roll a dice. On a 1, remove that token from the battlefield. On a 2+, apply its effect for the rest of the turn:\n***Peggz***: The abilities of enemy artefacts of power that target this unit have no effect on this unit.\n***Kagey:*** This unit has **^^Strike-first^^**.\n***Mange:*** Each time an unmodified hit roll for a combat attack that targets this unit is 1, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.\n***Shreek:*** Other than the **Companion** weapon ability, weapon abilities for attacks that target this unit have no effect.",
       "phase": "combat",
       "color": "Red",

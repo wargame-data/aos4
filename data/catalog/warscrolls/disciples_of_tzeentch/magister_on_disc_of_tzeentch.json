@@ -83,7 +83,7 @@
     },
     {
       "name": "Magic-touched",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit successfully cast a spell this phase, for the rest of the turn:\n• Add 1 to this unit’s power level.\n• If 2 or more dice in a casting roll for this unit have the same value, the spell fails, its effect is not resolved and D6 mortal damage is inflicted on this unit.",
       "phase": "hero",
       "color": "Yellow",

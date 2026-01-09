@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.flesh_eater_courts.knightly_echelon",
+  "bsdataId": "8efa-7855-fa42-107f",
+  "type": "battle-formation",
+  "name": "Knightly Echelon",
+  "faction": "flesh_eater_courts",
+  "ability": {
+    "name": "Sound the Charge",
+    "type": "passive",
+    "effect": "Add 1 to the Rend characteristic of melee weapons used by friendly **^^Knights^^** that charged in the same turn while they are wholly within 12\" of any friendly **^^Flesh-eater Courts Heroes^^**.",
+    "color": "Red",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

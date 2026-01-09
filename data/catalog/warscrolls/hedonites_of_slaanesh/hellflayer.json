@@ -73,7 +73,7 @@
   "abilities": [
     {
       "name": "Soulscent",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any models are slain by this ability, this unit has **^^Ward (5+)^^** for the rest of the turn.",
       "phase": "movement",
       "declare": "Pick up to 3 enemy units that this unit passed across this phase to be the targets.",

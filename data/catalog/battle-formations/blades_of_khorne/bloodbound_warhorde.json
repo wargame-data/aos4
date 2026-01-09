@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.blades_of_khorne.bloodbound_warhorde",
+  "bsdataId": "43b-c649-d523-c32d",
+  "type": "battle-formation",
+  "name": "Bloodbound Warhorde",
+  "faction": "blades_of_khorne",
+  "ability": {
+    "name": "Tireless Conquerors",
+    "type": "passive",
+    "effect": "Add 1 to hit rolls for combat attacks made by friendly **^^Bloodbound^^** units that target an enemy unit that is contesting an objective you do not control.",
+    "color": "Red",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

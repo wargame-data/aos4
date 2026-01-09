@@ -69,7 +69,7 @@
   "abilities": [
     {
       "name": "Corpse Candles",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If you picked this unit, allocate 1 damage point to this unit and add 1 to casting rolls for this unit for the rest of the turn (ward rolls cannot be made for that damage point). If you picked an enemy unit, roll a dice. On a 3+, inflict 1 mortal damage on that enemy unit and for the rest of the turn:\n• Add 1 to casting rolls for this unit.\n• Add 1 to this unit’s power level.",
       "phase": "hero",
       "declare": "Pick either this unit or a visible enemy unit within 12\" of this unit to be the target.",

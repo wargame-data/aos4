@@ -88,7 +88,7 @@
     },
     {
       "name": "Peal of Doom",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice and apply the corresponding effect:\n**1 *Magical Backlash:*** Inflict D3 mortal damage on this unit.\n**2-4 *Wall of Unholy Sound:*** Until the start of your next turn, subtract 1 from hit rolls for combat attacks made by enemy units while they are within 13\" of this unit.\n**5-6 *Apocalyptic Doom:*** Roll a D3 for each enemy unit within 13\" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
       "phase": "hero",
       "color": "Yellow",

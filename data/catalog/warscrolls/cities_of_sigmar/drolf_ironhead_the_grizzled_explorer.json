@@ -60,7 +60,7 @@
   "abilities": [
     {
       "name": "Expert Ranger",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Remove this unit from the battlefield and set it up again within 3\" of the target and not in combat.",
       "phase": "movement",
       "declare": "If this unit is not in combat, pick a non-**^^Faction Terrain^^** terrain feature within 3\" of this unit to be the target.",

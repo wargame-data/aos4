@@ -63,7 +63,7 @@
     },
     {
       "name": "Dinner is Served",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "**Heal (X)** the target, where **X** is the number of **prime cut points** this unit has. Then, reset this unit’s **prime cut points** to 0.",
       "phase": "any",
       "declare": "Pick a friendly **^^Flesh-eater Courts Hero^^** wholly within 12\" of this unit to be the target.",

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.sylvaneth.lords_of_the_clan",
+  "bsdataId": "c221-6b4b-f446-59c6",
+  "type": "battle-formation",
+  "name": "Lords of the Clan",
+  "faction": "sylvaneth",
+  "ability": {
+    "name": "Healing Song",
+    "type": "passive",
+    "effect": "When using the ‘Endless Growth’ ability, friendly **^^Sylvaneth Monsters^^** can **Heal (3)** instead of **Heal (D3)**.",
+    "color": "Green",
+    "abilityCategory": "Defensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

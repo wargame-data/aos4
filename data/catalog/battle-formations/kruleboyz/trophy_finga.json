@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.kruleboyz.trophy_finga",
+  "bsdataId": "b089-2546-34b5-8117",
+  "type": "battle-formation",
+  "name": "Trophy Finga",
+  "faction": "kruleboyz",
+  "ability": {
+    "name": "Meanest Beasts",
+    "type": "passive",
+    "effect": "**Companion** weapons used by friendly **^^Kruleboyz^^** units have **Crit (2 Hits)**.",
+    "color": "Red",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

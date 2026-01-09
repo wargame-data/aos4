@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.daughters_of_khaine.sc_thcoven",
+  "bsdataId": "a49a-c8ce-5c7-246",
+  "type": "battle-formation",
+  "name": "Scáthcoven",
+  "faction": "daughters_of_khaine",
+  "ability": {
+    "name": "Speed of the Scáthborn",
+    "type": "passive",
+    "effect": "If the unmodified charge roll for a friendly **^^Melusai^^** or **^^Khinerai^^** unit is 8+, that unit has Strike-first for the rest of the turn.",
+    "color": "Red",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

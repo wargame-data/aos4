@@ -63,7 +63,7 @@
   "abilities": [
     {
       "name": "Gut-wrenching Howl",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 4+, the target has **^^Strike-Last^^** for the rest of the turn.",
       "phase": "combat",
       "declare": "Pick an enemy unit in combat with this unit’s **Curseblood** to be the target.",

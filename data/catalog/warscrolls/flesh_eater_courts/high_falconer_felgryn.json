@@ -64,7 +64,7 @@
   "abilities": [
     {
       "name": "Be Mine Eyes",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Place this unit's **Grype** next to the target. If the target is destroyed while this unit's Grype is next to it, remove this unit's **Grype** from the battlefield.",
       "phase": "hero",
       "declare": "This unit's **Grype** is a token. If this unit's **Grype** is not next to an enemy unit, pick an enemy unit within 18\" of this unit and not in combat to be the target.",

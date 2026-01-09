@@ -62,7 +62,7 @@
   "abilities": [
     {
       "name": "Headshot",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit has not used a Move ability this turn and was not set up this turn, for the rest of the turn, this unit can ignore the effects of the ‘Guarded Hero’ ability (Core Rules, 25.0) when picking targets for its shooting attacks.",
       "phase": "shooting",
       "color": "Blue",

@@ -56,7 +56,7 @@
     },
     {
       "name": "Akhelian Insights",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Melee weapons used by friendly **^^Namarti^^** units have **Crit (2 Hits)** while they are wholly within 12\" of this unit.",
       "phase": "combat",
       "color": "Red",

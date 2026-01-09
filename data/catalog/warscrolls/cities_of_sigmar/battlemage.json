@@ -49,7 +49,7 @@
   "abilities": [
     {
       "name": "Magic of the Realms",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Pick a **^^Spell^^** ability that this unit can use. For the rest of the battle, add 1 to casting rolls for this unit when it uses that **^^Spell^^** ability.",
       "color": "Black",
       "abilityCategory": "Special"

@@ -48,7 +48,7 @@
   "abilities": [
     {
       "name": "Brace for Impact",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice for each model in this unit. If any of the rolls are a 6, the target has **^^Strike-last^^** for the rest of the turn.",
       "phase": "charge",
       "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
@@ -57,7 +57,7 @@
     },
     {
       "name": "Blazing Impact",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "movement",
       "declare": "If this unit was set up this turn using the ‘Scions of the Storm’ ability, pick up to 3 enemy units within 10\" of it to be the targets.",

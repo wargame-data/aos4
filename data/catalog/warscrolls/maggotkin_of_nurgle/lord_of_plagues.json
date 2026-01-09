@@ -52,7 +52,7 @@
   "abilities": [
     {
       "name": "Sevenfold Slaughter",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 2+, add 1 to the Attacks characteristic of the target’s **Blighted Weapons** for the rest of the turn.",
       "phase": "combat",
       "declare": "Pick a friendly **Putrid Blightkings** unit that charged this turn and is wholly within 12\" of this unit to be the target.",

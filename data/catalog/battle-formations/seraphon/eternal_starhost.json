@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.seraphon.eternal_starhost",
+  "bsdataId": "5cc-6d3e-8b37-912f",
+  "type": "battle-formation",
+  "name": "Eternal Starhost",
+  "faction": "seraphon",
+  "ability": {
+    "name": "Celestial Translocation",
+    "type": "once-per-turn",
+    "effect": "Roll a dice. On a 3+, remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+    "phase": "movement",
+    "declare": "Pick a friendly **^^Seraphon^^** unit wholly within 12\" of a friendly **^^Seraphon Wizard^^** to use this ability",
+    "color": "Gray",
+    "abilityCategory": "Movement"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

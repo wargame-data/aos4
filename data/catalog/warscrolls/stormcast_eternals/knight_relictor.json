@@ -49,7 +49,7 @@
   "abilities": [
     {
       "name": "Relic Censer",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 2+, subtract 1 from ward rolls made by the target for the rest of the turn.",
       "phase": "shooting",
       "declare": "Pick an enemy unit within 12\" of this unit to be the target.",

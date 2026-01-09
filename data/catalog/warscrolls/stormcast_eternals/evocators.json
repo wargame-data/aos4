@@ -60,7 +60,7 @@
     },
     {
       "name": "Empower",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Add 1 to wound rolls for the target’s combat attacks for the rest of the turn.",
       "phase": "combat",
       "declare": "If this unit is contesting an objective you control, pick a visible friendly non-**^^Hero Stormcast Eternals Infantry^^** unit within 12\" of this unit to be the target.",

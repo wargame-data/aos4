@@ -70,7 +70,7 @@
     },
     {
       "name": "Great Cauldron",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "You can spend 1 or more of this unit’s **grisly remains points**. For each point spent, pick a friendly **^^Gutbusters^^** unit wholly within 12\" of this unit to be the target, then pick 1 of the following effects: ***Bloodgruel:*** The target has **^^Ward (5+)^^** for the rest of the turn.\n***Spinemarrow:*** Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
       "phase": "hero",
       "color": "Yellow",

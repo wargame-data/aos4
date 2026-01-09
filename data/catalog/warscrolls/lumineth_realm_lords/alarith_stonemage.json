@@ -51,7 +51,7 @@
   "abilities": [
     {
       "name": "Stonemage Stance",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s melee weapons for the rest of the turn.",
       "phase": "combat",
       "declare": "Pick a friendly **^^Alarith Aelf^^** unit wholly within 12\" of this unit to be the target.",

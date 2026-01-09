@@ -81,7 +81,7 @@
     },
     {
       "name": "Cosmic Engine",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If it will reserve the power, place a **cosmic power token** next to this unit.\nIf it will harness the power, roll a dice and add the number of **cosmic power tokens** this unit has to the roll. Then, remove all **cosmic power tokens** this unit has and pick 1 of the following effects (if possible).\n***Healing Light:*** On a 3+, you can **Heal (D3)** all friendly **^^Seraphon^^** units wholly within 12\" of this unit.\n***Starlight Summons:*** On a 5+, you can pick up to 3 friendly **^^Seraphon^^** units wholly within 12\" of this unit. Return 1 slain model to each unit.\n***Time Slows:*** On a 6+, you can pick up to 3 friendly **^^Seraphon^^** units wholly within 12\" of this unit. Those units have **^^Strike-first^^** for the rest of the turn.",
       "phase": "hero",
       "declare": "Pick if this unit will harness or reserve the power of its cosmic engine.",

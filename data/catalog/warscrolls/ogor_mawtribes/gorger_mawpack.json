@@ -53,7 +53,7 @@
   "abilities": [
     {
       "name": "Troglodytic Lurkers",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit in reserve **lurking on the fringes**. It has now been deployed.",
       "declare": "Pick this unit if it has not been deployed.",
       "keywords": [
@@ -64,7 +64,7 @@
     },
     {
       "name": "Frenzied Hunters",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit on the battlefield wholly within 9\" of a battlefield edge and more than 9\" from all enemy units.",
       "phase": "movement",
       "declare": "Pick this unit if it is **lurking on the fringes**.",

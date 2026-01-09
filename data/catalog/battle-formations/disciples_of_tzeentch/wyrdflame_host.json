@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.disciples_of_tzeentch.wyrdflame_host",
+  "bsdataId": "4554-394c-c1fb-c8e4",
+  "type": "battle-formation",
+  "name": "Wyrdflame Host",
+  "faction": "disciples_of_tzeentch",
+  "ability": {
+    "name": "Mutagenic Inferno",
+    "type": "passive",
+    "effect": "Subtract 1 from wound rolls for attacks made by **^^Burning^^** enemy units.",
+    "color": "Green",
+    "abilityCategory": "Defensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

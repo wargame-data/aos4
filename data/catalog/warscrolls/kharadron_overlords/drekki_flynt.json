@@ -66,7 +66,7 @@
   "abilities": [
     {
       "name": "Captain of the Aelsling",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "The target has the **^^Aelsling^^** keyword. Add 1 to the Damage characteristic of the target’s **Boarding Weapons** for the rest of the battle.",
       "declare": "Pick an **Arkanaut Frigate** in this unit’s regiment to be the target. This unit can use this ability while in reserve, and the target can also be in reserve.",
       "color": "Black",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Auxiliary Skyhook",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a D3. On a 2+:\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Subtract 1 from wound rolls made for the target's attacks for the rest of the turn.",
       "phase": "combat",
       "declare": "Pick an enemy **^^Monster^^** in combat with this unit to be the target.",

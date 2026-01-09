@@ -56,7 +56,7 @@
   "abilities": [
     {
       "name": "Circling in the Skies Above",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit in reserve **in the skies**. It has now been deployed.",
       "declare": "Pick this unit if it has not been deployed.",
       "keywords": [
@@ -67,7 +67,7 @@
     },
     {
       "name": "Death from Above",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
       "phase": "movement",
       "declare": "Pick this unit if it is **in the skies**.",
@@ -76,7 +76,7 @@
     },
     {
       "name": "Fire and Flight",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit used a **^^Shoot^^** ability this phase, this unit can move D6\". It cannot move into combat during any part of that move.",
       "phase": "shooting",
       "color": "Blue",

@@ -59,7 +59,7 @@
   "abilities": [
     {
       "name": "Unleashed Warp-fury",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Inflict D3 mortal damage on this unit. Then, add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.",
       "phase": "combat",
       "color": "Red",

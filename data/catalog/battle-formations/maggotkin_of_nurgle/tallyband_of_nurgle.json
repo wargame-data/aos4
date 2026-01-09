@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.maggotkin_of_nurgle.tallyband_of_nurgle",
+  "bsdataId": "da47-dbe7-6c0d-6cd7",
+  "type": "battle-formation",
+  "name": "Tallyband of Nurgle",
+  "faction": "maggotkin_of_nurgle",
+  "ability": {
+    "name": "Disease and Pestilence Personified",
+    "type": "passive",
+    "effect": "From the second battle round onwards, add 1 to the amount of mortal damage inflicted, if any, by the ‘Wracked with Disease’ ability.",
+    "color": "Purple",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

@@ -79,7 +79,7 @@
     },
     {
       "name": "Kountin' Krew",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "For the rest of the battle, the target’s **Slitta-knives** have **Crit (Mortal)** while they are wholly within 12\" of this unit.",
       "declare": "Pick a friendly **Hobgrot Slittaz** unit within this unit’s combat range to be the target.",
       "color": "Black",
@@ -99,7 +99,7 @@
     },
     {
       "name": "Bet-master",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Add 1 to wound rolls for attacks made by this unit and friendly **Hobgrot Slittaz** units that target **the bet**.",
       "declare": "Pick an enemy unit on the battlefield to be **the bet**.",
       "color": "Black",

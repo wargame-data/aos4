@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.disciples_of_tzeentch.arcanite_cabal",
+  "bsdataId": "2f88-907-9064-fdd6",
+  "type": "battle-formation",
+  "name": "Arcanite Cabal",
+  "faction": "disciples_of_tzeentch",
+  "ability": {
+    "name": "Sinister Counter-hexes",
+    "type": "passive",
+    "effect": "Add 1 to unbinding rolls for friendly **^^Arcanite^^** units. In addition, if a friendly **^^Arcanite^^** unit unbinds a spell, no command points are spent for that unit to use the ‘Magical Intervention’ command in that phase.",
+    "color": "Yellow",
+    "abilityCategory": "Special"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

@@ -72,7 +72,7 @@
     },
     {
       "name": "Doomfang",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "This unit has **^^Strike-first^^** for the rest of the turn but it cannot use commands this phase.",
       "phase": "combat",
       "color": "Red",

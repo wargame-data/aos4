@@ -60,7 +60,7 @@
   "abilities": [
     {
       "name": "Shadow Leap",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
       "phase": "movement",
       "keywords": [

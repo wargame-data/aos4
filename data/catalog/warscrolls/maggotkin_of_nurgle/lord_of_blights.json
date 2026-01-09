@@ -52,7 +52,7 @@
   "abilities": [
     {
       "name": "Thrice-ripened Death's Heads",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll D3. On 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "combat",
       "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.disciples_of_tzeentch.tzaangor_coven",
+  "bsdataId": "90bb-e246-3385-a581",
+  "type": "battle-formation",
+  "name": "Tzaangor Coven",
+  "faction": "disciples_of_tzeentch",
+  "ability": {
+    "name": "Screeching Warflock",
+    "type": "passive",
+    "effect": "Each time a friendly **^^Warflock^^** unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
+    "color": "Yellow",
+    "abilityCategory": "Rallying"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

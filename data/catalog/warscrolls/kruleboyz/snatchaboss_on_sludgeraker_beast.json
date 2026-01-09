@@ -90,7 +90,7 @@
     },
     {
       "name": "Sludgeraker Venom",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "That unit has the **^^Sludgeraker Venom^^** keyword for the rest of the turn.",
       "phase": "hero",
       "declare": "Pick a friendly **^^Kruleboyz^^** unit wholly within 12\" of this unit to be the target.",

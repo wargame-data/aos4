@@ -50,7 +50,7 @@
   "abilities": [
     {
       "name": "Nerve-shredding Screeches",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a D3. If the roll exceeds the target’s Control characteristic, the target cannot use commands for the rest of the turn.",
       "phase": "shooting",
       "declare": "Pick an enemy unit within 10\" of this unit to be the target.",

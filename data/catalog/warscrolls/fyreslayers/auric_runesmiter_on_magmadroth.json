@@ -98,7 +98,7 @@
     },
     {
       "name": "Runic Empowerment",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, add 1 to wound rolls for the target’s attacks for the rest of the turn.",
       "phase": "hero",
       "declare": "Pick a friendly **^^Fyreslayers^^** unit wholly within 12\" of this unit to be the target.",

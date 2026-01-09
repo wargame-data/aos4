@@ -60,7 +60,7 @@
     },
     {
       "name": "Smouldering Braziers",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "any",
       "declare": "Pick an enemy unit in combat with this unit to be the target.",

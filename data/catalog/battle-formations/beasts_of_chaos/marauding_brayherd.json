@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.beasts_of_chaos.marauding_brayherd",
+  "bsdataId": "52ec-3be5-3c7a-c709",
+  "type": "battle-formation",
+  "name": "Marauding Brayherd",
+  "faction": "beasts_of_chaos",
+  "ability": {
+    "name": "Fiends of the Wilds",
+    "type": "reaction",
+    "effect": "Change one of the dice in the charge roll to a 4.",
+    "color": "Orange",
+    "abilityCategory": "Movement"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

@@ -81,7 +81,7 @@
   "abilities": [
     {
       "name": "Gorge on Excess",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "**Heal (6)** the target.",
       "phase": "any",
       "declare": "Pick a friendly **^^Sybarite^^** unit wholly within 12\" of this unit to be the target.",

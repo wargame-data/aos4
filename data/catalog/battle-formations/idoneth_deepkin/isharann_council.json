@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.idoneth_deepkin.isharann_council",
+  "bsdataId": "60a1-aebc-163f-781b",
+  "type": "battle-formation",
+  "name": "Isharann Council",
+  "faction": "idoneth_deepkin",
+  "ability": {
+    "name": "Wisdom of the Deep",
+    "type": "passive",
+    "effect": "Add 1 to casting rolls, Isharann ritual rolls and lurelight rolls for friendly **^^Isharann^^** units while they are within the combat ranges of any other friendly **^^Isharann^^** units",
+    "color": "Yellow",
+    "abilityCategory": "Special"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

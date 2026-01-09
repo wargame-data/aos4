@@ -79,7 +79,7 @@
     },
     {
       "name": "Gorbolga the Accurs'd",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit is in combat, roll a dice and apply the corresponding effect:\n**1 *Uncontrollable Power:*** Allocate 1 damage point to this unit.\n**2 *The Spear Slumbers:*** No effect.\n**3-5 *White-hot Varanite:*** Add 1 to the Damage characteristic of this unit’s **Gorbolga** for the rest of the turn.\n**6 *Rampant Mutation:*** The effect of ‘White-hot Varanite’ applies and this unit’s **Gorbolga** has **Crit (Mortal)** for the rest of the turn.",
       "phase": "combat",
       "color": "Red",

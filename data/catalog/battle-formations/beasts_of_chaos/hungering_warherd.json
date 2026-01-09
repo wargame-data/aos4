@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.beasts_of_chaos.hungering_warherd",
+  "bsdataId": "ce64-e8cd-1689-d0ea",
+  "type": "battle-formation",
+  "name": "Hungering Warherd",
+  "faction": "beasts_of_chaos",
+  "ability": {
+    "name": "Bloodgreed",
+    "type": "once-per-turn",
+    "effect": "**Heal (3)** each target.",
+    "phase": "any",
+    "declare": "Pick each friendly **^^Warherd^^** unit that used a **^^Fight^^** ability this turn to be the targets.",
+    "color": "Purple",
+    "abilityCategory": "Defensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

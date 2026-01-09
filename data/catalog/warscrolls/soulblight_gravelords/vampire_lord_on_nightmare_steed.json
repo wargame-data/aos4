@@ -66,7 +66,7 @@
   "abilities": [
     {
       "name": "Strike at the Heart",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Add 1 to the Rend characteristic of that unit's **Templar Weapons** for the rest of the turn.",
       "phase": "combat",
       "declare": "Pick a friendly **Blood Knights** unit that charged this turn and is wholly within 12\" of this unit to be the target.",

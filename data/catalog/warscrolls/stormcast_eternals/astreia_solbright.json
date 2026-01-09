@@ -80,7 +80,7 @@
     },
     {
       "name": "Thunderous Pounce",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Add 2 to charge rolls for friendly **^^Sacrosanct Chamber Cavalry^^** units while they are wholly within 12\" of this unit.",
       "phase": "charge",
       "color": "Orange",
@@ -88,7 +88,7 @@
     },
     {
       "name": "Soul Energy of the First Host",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Add 1 to wound rolls for the target’s attacks for the rest of the turn.",
       "phase": "combat",
       "declare": "Pick a visible friendly **^^Sacrosanct Chamber^^** unit wholly within 12\" of this unit to be the target.",

@@ -82,7 +82,7 @@
     },
     {
       "name": "Mutant Regeneration",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "**Heal (D3)** this unit.",
       "phase": "hero",
       "color": "Yellow",

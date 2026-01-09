@@ -53,7 +53,7 @@
   "abilities": [
     {
       "name": "Lord of the Marches",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up the target units in reserve **patrolling the borders**. They have now been deployed.",
       "declare": "Pick this unit and up to 2 friendly **^^Flesh-eater Courts^^** units in this unit's regiment that have not been deployed to be the targets.",
       "keywords": [
@@ -64,7 +64,7 @@
     },
     {
       "name": "Trespassers!",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit more than 6\" from the target and more than 9\" from all other enemy units. Then, set up the units that were **patrolling the borders** with this unit wholly within 12\" of this unit and more than 9\" from all enemy units.",
       "phase": "movement",
       "declare": "Pick this unit if it is **patrolling the borders**, then pick an enemy unit to be the target.",

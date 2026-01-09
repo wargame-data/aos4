@@ -62,7 +62,7 @@
   "abilities": [
     {
       "name": "Rolling Doom",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "This unit can move a distance up to its **^^Move^^** characteristic. This unit can pass through other models and the combat ranges of enemy units, but it cannot end that move in combat.\nThen, pick up to 3 enemy units that this unit passed across during that move to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n**Designer’s Note:** *This unit can use this ability even if it is in combat.*",
       "phase": "movement",
       "keywords": [

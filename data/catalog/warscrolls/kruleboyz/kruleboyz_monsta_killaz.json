@@ -59,7 +59,7 @@
     },
     {
       "name": "Bait and Trap",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. Add 1 to the roll if the target is damaged. On a 3+, the target has **^^Strike-last^^** for the rest of the turn.",
       "phase": "combat",
       "declare": "Pick an enemy **^^Monster^^** in combat with this unit to be the target.",

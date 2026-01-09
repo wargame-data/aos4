@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.kharadron_overlords.rapid_redeployment_squadron",
+  "bsdataId": "a831-d056-c20b-ac69",
+  "type": "battle-formation",
+  "name": "Rapid Redeployment Squadron",
+  "faction": "kharadron_overlords",
+  "ability": {
+    "name": "Extra Rappel Anchors",
+    "type": "passive",
+    "effect": "Friendly **Grundstok Gunhaulers** can transport up to 2 friendly **^^Kharadron Overlords Infantry^^** units instead of 1 and with a combined model count of up to 6 instead of 5 (see Battle Traits).",
+    "color": "Gray",
+    "abilityCategory": "Movement"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

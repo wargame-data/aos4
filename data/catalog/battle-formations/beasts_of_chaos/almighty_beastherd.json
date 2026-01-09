@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.beasts_of_chaos.almighty_beastherd",
+  "bsdataId": "1fd1-026f-82ae-3054",
+  "type": "battle-formation",
+  "name": "Almighty Beastherd",
+  "faction": "beasts_of_chaos",
+  "ability": {
+    "name": "Arch-despoilers",
+    "type": "passive",
+    "effect": "Add 1 to hit rolls for combat attacks made by friendly **^^Beasts of Chaos^^** units that target an enemy unit that is contesting an objective you do not control.",
+    "color": "Red",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

@@ -56,7 +56,7 @@
   "abilities": [
     {
       "name": "Unfeeling Fortitude",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, this unit has **^^Ward (5+)^^** until the start of your next turn.",
       "phase": "hero",
       "color": "Yellow",

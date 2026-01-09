@@ -64,7 +64,7 @@
   "abilities": [
     {
       "name": "Chief's Deadly Cargo",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice and add 2 to the roll if this unit is within the combat ranges of any friendly **Terradon Riders** units.\nOn a 5+:\n• Inflict D3 mortal damage on the target.\n• If any damage points are allocated by this ability and the target does not have **^^Fly^^**, the target cannot use **^^Run^^** abilities until the start of your next turn.",
       "phase": "movement",
       "declare": "Pick an enemy unit that this unit passed across this phase to be the target.",

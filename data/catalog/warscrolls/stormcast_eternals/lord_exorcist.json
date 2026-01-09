@@ -51,7 +51,7 @@
   "abilities": [
     {
       "name": "Purifying Blast",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 2+:\n• If the target has any ritual points, remove a number of ritual points from it equal to the roll.\n• If the target has no ritual points, inflict D3 mortal damage on it.",
       "phase": "hero",
       "declare": "Pick a visible enemy **^^Priest^^** within 18\" of this unit to be the target.",

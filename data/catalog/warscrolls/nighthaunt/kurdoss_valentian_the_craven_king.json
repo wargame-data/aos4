@@ -53,7 +53,7 @@
   "abilities": [
     {
       "name": "Hail Kurdoss! King of Nothing!",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "The target can immediately use a **^^Shoot^^** ability as if it were your shooting phase, but all of its attacks must target an enemy unit in combat with this unit. The target cannot use **^^Charge^^** abilities for the rest of the turn.",
       "phase": "charge",
       "declare": "If this unit charged this phase, pick a friendly **Craventhrone Guard** unit that is not in combat to be the target.",

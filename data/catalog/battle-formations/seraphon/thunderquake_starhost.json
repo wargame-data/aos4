@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.seraphon.thunderquake_starhost",
+  "bsdataId": "b97a-6930-afde-a025",
+  "type": "battle-formation",
+  "name": "Thunderquake Starhost",
+  "faction": "seraphon",
+  "ability": {
+    "name": "Scaly Monstrosities",
+    "type": "passive",
+    "effect": "Add 2 to the Health characteristic of friendly **^^Seraphon Monster^^** units",
+    "color": "Green",
+    "abilityCategory": "Defensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

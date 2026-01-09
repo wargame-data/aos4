@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.bonesplitterz.brutal_rukk",
+  "bsdataId": "4393-a1a2-c208-e94a",
+  "type": "battle-formation",
+  "name": "Brutal Rukk",
+  "faction": "bonesplitterz",
+  "ability": {
+    "name": "Tireless Trackers",
+    "type": "passive",
+    "effect": "Half the friendly non-**^^Hero Bonesplitterz Infantry^^** units on the battlefield (rounding up) can immediately use the ‘Normal Move’ ability as if it were your movement phase.",
+    "color": "Black",
+    "abilityCategory": "Movement"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

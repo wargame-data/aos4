@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.hedonites_of_slaanesh.depraved_carnival",
+  "bsdataId": "c895-e297-46ec-513f",
+  "type": "battle-formation",
+  "name": "Depraved Carnival",
+  "faction": "hedonites_of_slaanesh",
+  "ability": {
+    "name": "The Ecstatic Throngs",
+    "type": "passive",
+    "effect": "Add 1 to hit rolls for friendly **^^Sybarite Infantry^^** units while they are damaged or if they had any models slain in the same turn.",
+    "color": "Red",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.ossiarch_bonereapers.mortisan_council",
+  "bsdataId": "8d69-f531-8cf1-3481",
+  "type": "battle-formation",
+  "name": "Mortisan Council",
+  "faction": "ossiarch_bonereapers",
+  "ability": {
+    "name": "Necrotic Symphony",
+    "type": "passive",
+    "effect": "Add 1 to casting rolls for friendly **^^Ossiarch Bonereapers Infantry Wizards^^**.",
+    "color": "Yellow",
+    "abilityCategory": "Special"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

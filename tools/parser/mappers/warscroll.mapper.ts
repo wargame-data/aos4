@@ -12,7 +12,8 @@ import type {
 } from "../xml/types.js";
 import { BaseMapper, type MapperOptions } from "./base.js";
 import { detectFactionFromKeywords, SCHEMA_URLS } from "../config.js";
-import { findCharacteristic } from "../xml/reader.js";
+import { findCharacteristic, findCharacteristicById } from "../xml/reader.js";
+import { PROFILE_TYPES, UNIT_CHARACTERISTICS, MANIFESTATION_CHARACTERISTICS } from "../xml/gst-ids.js";
 import {
   findProfilesRecursive,
   getAllProfiles,
@@ -255,13 +256,31 @@ export class WarscrollMapper extends BaseMapper<WarscrollMapperInput, Warscroll>
     entry: BSSelectionEntry,
     catalogue: BSCatalogue
   ): BSProfile | null {
-    // First check direct profiles
+    // First check direct profiles by typeId (primary detection)
     const allProfiles = getAllProfiles(catalogue, entry);
+
+    // Check for Unit profile first
     const unitProfile = allProfiles.find(
+      (p) => p.$.typeId === PROFILE_TYPES.UNIT
+    );
+    if (unitProfile) return unitProfile;
+
+    // Check for Manifestation profile (they have similar stats)
+    const manifestationProfile = allProfiles.find(
+      (p) => p.$.typeId === PROFILE_TYPES.MANIFESTATION
+    );
+    if (manifestationProfile) return manifestationProfile;
+
+    // Fallback: check by typeName for backwards compatibility
+    const unitProfileByName = allProfiles.find(
       (p) => p.$.typeName.toLowerCase() === "unit"
     );
+    if (unitProfileByName) return unitProfileByName;
 
-    if (unitProfile) return unitProfile;
+    const manifestationProfileByName = allProfiles.find(
+      (p) => p.$.typeName.toLowerCase() === "manifestation"
+    );
+    if (manifestationProfileByName) return manifestationProfileByName;
 
     // Check recursive profiles
     const recursiveProfiles = findProfilesRecursive(entry, "Unit");
@@ -295,13 +314,45 @@ export class WarscrollMapper extends BaseMapper<WarscrollMapperInput, Warscroll>
       };
     }
 
-    const characteristics = {
-      Move: findCharacteristic(profile, "Move"),
-      Health: findCharacteristic(profile, "Health"),
-      Save: findCharacteristic(profile, "Save"),
-      Control: findCharacteristic(profile, "Control"),
-      Banishment: findCharacteristic(profile, "Banishment"),
+    // Check if this is a Manifestation profile (different characteristic IDs)
+    const isManifestation = profile.$.typeId === PROFILE_TYPES.MANIFESTATION;
+
+    // Use ID-based extraction with name-based fallback
+    // Use appropriate characteristic IDs based on profile type
+    let characteristics: {
+      Move: string;
+      Health: string;
+      Save: string;
+      Control: string;
+      Banishment?: string;
     };
+
+    if (isManifestation) {
+      characteristics = {
+        Move: findCharacteristicById(profile, MANIFESTATION_CHARACTERISTICS.MOVE) ||
+          findCharacteristic(profile, "Move"),
+        Health: findCharacteristicById(profile, MANIFESTATION_CHARACTERISTICS.HEALTH) ||
+          findCharacteristic(profile, "Health"),
+        Save: findCharacteristicById(profile, MANIFESTATION_CHARACTERISTICS.SAVE) ||
+          findCharacteristic(profile, "Save"),
+        // Manifestations use Banishment instead of Control
+        Control: "", // Will be 0 after transform
+        Banishment: findCharacteristicById(profile, MANIFESTATION_CHARACTERISTICS.BANISHMENT) ||
+          findCharacteristic(profile, "Banishment"),
+      };
+    } else {
+      characteristics = {
+        Move: findCharacteristicById(profile, UNIT_CHARACTERISTICS.MOVE) ||
+          findCharacteristic(profile, "Move"),
+        Health: findCharacteristicById(profile, UNIT_CHARACTERISTICS.HEALTH) ||
+          findCharacteristic(profile, "Health"),
+        Save: findCharacteristicById(profile, UNIT_CHARACTERISTICS.SAVE) ||
+          findCharacteristic(profile, "Save"),
+        Control: findCharacteristicById(profile, UNIT_CHARACTERISTICS.CONTROL) ||
+          findCharacteristic(profile, "Control"),
+        Banishment: findCharacteristic(profile, "Banishment"),
+      };
+    }
 
     return transformStats(characteristics);
   }

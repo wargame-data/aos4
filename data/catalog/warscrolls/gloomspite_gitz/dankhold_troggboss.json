@@ -65,7 +65,7 @@
     },
     {
       "name": "Greater Regeneration",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "**Heal (D6)** this unit.",
       "phase": "any",
       "color": "Black",

@@ -49,7 +49,7 @@
   "abilities": [
     {
       "name": "A Twisted Fate",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit in reserve **as a potential fate**. It has now been deployed.\n**Designer’s Note:** *If deployed using this ability, this unit can only be set up on the battlefield using the ‘Transformed to Spawn’ spell.*",
       "keywords": [
         "**^^DEPLOY^^**"

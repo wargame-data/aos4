@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.skaven.fleshmeld_menagerie",
+  "bsdataId": "5fa8-3412-cbc2-bcdc",
+  "type": "battle-formation",
+  "name": "Fleshmeld Menagerie",
+  "faction": "skaven",
+  "ability": {
+    "name": "Prized Creations",
+    "type": "once-per-turn",
+    "effect": "Roll a dice for each target and apply the corresponding effect:\n**1-2 *Self-destructive Fury:*** Inflict D3 mortal damage on the target.\n**3-4 *Rabid Infusion:*** Add 1 to the Attacks characteristic of the target’s melee weapons until the start of your next turn.\n**5-6 *Blinded by Frenzy:*** In addition to the effect of ‘Rabid Infusion’, the target has **^^Ward (5+)^^** until the start of your next turn.",
+    "phase": "hero",
+    "declare": "Pick up to 3 friendly non-**^^Hero Moulder^^** units to be the targets.",
+    "color": "Yellow",
+    "abilityCategory": "Special"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

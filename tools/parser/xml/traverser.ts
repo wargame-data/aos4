@@ -18,6 +18,15 @@ import type {
   BSModifier,
   BSRepeat,
 } from "./types.js";
+import {
+  PROFILE_TYPES,
+  CATEGORIES,
+  WIZARD_LEVEL_MAP,
+  PRIEST_LEVEL_MAP,
+  WARD_CATEGORY_MAP,
+  isWeaponProfileType,
+  isAbilityProfileType,
+} from "./gst-ids.js";
 
 /**
  * Find all top-level selection entries in a catalogue.
@@ -503,13 +512,10 @@ export function extractPointsFromEntryLinks(
   return pointsMap;
 }
 
-// Profile type IDs for spells and prayers
-const SPELL_PROFILE_TYPE_ID = "7312-8367-c171-f2ef";
-const PRAYER_PROFILE_TYPE_ID = "5946-234-d7b4-6195";
-
 /**
  * Check if a selection entry group contains spell or prayer profiles.
  * This is used to identify lore groups by their content rather than by name.
+ * Uses profile type IDs from the GST file for reliable detection.
  */
 function hasSpellOrPrayerProfiles(group: BSSelectionEntryGroup): boolean {
   if (group.selectionEntries) {
@@ -517,10 +523,8 @@ function hasSpellOrPrayerProfiles(group: BSSelectionEntryGroup): boolean {
       if (entry.profiles) {
         for (const profile of entry.profiles) {
           if (
-            profile.$.typeId === SPELL_PROFILE_TYPE_ID ||
-            profile.$.typeId === PRAYER_PROFILE_TYPE_ID ||
-            profile.$.typeName?.toLowerCase().includes("spell") ||
-            profile.$.typeName?.toLowerCase().includes("prayer")
+            profile.$.typeId === PROFILE_TYPES.ABILITY_SPELL ||
+            profile.$.typeId === PROFILE_TYPES.ABILITY_PRAYER
           ) {
             return true;
           }
@@ -1366,6 +1370,114 @@ export function buildLoreGroupToFactionMap(catalogue: BSCatalogue): Map<string, 
 }
 
 /**
+ * Build a map from enhancement group ID to catalogue ID.
+ * This allows us to determine which subfaction an enhancement group belongs to.
+ *
+ * Enhancement groups in Library catalogues use modifiers with primary-catalogue
+ * conditions to restrict visibility to specific subfaction catalogues.
+ *
+ * Example XML pattern:
+ * <selectionEntryGroup name="Artefacts of Power: Ironsunz" id="abc123">
+ *   <modifiers>
+ *     <modifier type="set" value="false" field="hidden">
+ *       <conditions>
+ *         <condition scope="primary-catalogue" childId="704d-d7c8-b9a9-f8b6"/>
+ *       </conditions>
+ *     </modifier>
+ *   </modifiers>
+ * </selectionEntryGroup>
+ */
+export function buildEnhancementGroupToSubfactionMap(catalogue: BSCatalogue): Map<string, string> {
+  const groupToSubfaction = new Map<string, string>();
+
+  /**
+   * Extract primary-catalogue ID from a group's modifiers
+   */
+  function extractPrimaryCatalogueFromGroup(group: BSSelectionEntryGroup): string | null {
+    if (!group.modifiers) return null;
+
+    for (const modifier of group.modifiers) {
+      const catalogueId = findPrimaryCatalogueInModifier(modifier);
+      if (catalogueId) return catalogueId;
+    }
+
+    return null;
+  }
+
+  /**
+   * Process a selection entry group and its nested groups
+   */
+  function processGroup(group: BSSelectionEntryGroup): void {
+    // Check if this group has primary-catalogue conditions
+    const catalogueId = extractPrimaryCatalogueFromGroup(group);
+    if (catalogueId && group.$.id) {
+      groupToSubfaction.set(group.$.id, catalogueId);
+    }
+
+    // Process nested selection entry groups
+    if (group.selectionEntryGroups) {
+      for (const subGroup of group.selectionEntryGroups) {
+        processGroup(subGroup);
+      }
+    }
+
+    // Process selection entries that might have groups
+    if (group.selectionEntries) {
+      for (const entry of group.selectionEntries) {
+        processEntry(entry);
+      }
+    }
+  }
+
+  /**
+   * Process a selection entry's nested groups
+   */
+  function processEntry(entry: BSSelectionEntry): void {
+    if (entry.selectionEntryGroups) {
+      for (const group of entry.selectionEntryGroups) {
+        processGroup(group);
+      }
+    }
+
+    if (entry.selectionEntries) {
+      for (const child of entry.selectionEntries) {
+        processEntry(child);
+      }
+    }
+  }
+
+  // Process shared selection entry groups (where enhancements typically live)
+  if (catalogue.sharedSelectionEntryGroups) {
+    for (const group of catalogue.sharedSelectionEntryGroups) {
+      processGroup(group);
+    }
+  }
+
+  // Process direct selection entry groups
+  if (catalogue.selectionEntryGroups) {
+    for (const group of catalogue.selectionEntryGroups) {
+      processGroup(group);
+    }
+  }
+
+  // Process shared selection entries
+  if (catalogue.sharedSelectionEntries) {
+    for (const entry of catalogue.sharedSelectionEntries) {
+      processEntry(entry);
+    }
+  }
+
+  // Process direct selection entries
+  if (catalogue.selectionEntries) {
+    for (const entry of catalogue.selectionEntries) {
+      processEntry(entry);
+    }
+  }
+
+  return groupToSubfaction;
+}
+
+/**
  * Extract the primary-catalogue childId from an entryLink's modifiers/conditions.
  */
 function extractPrimaryCatalogueFromLink(link: BSEntryLink): string | null {
@@ -1431,6 +1543,8 @@ export interface EnhancementGroupInfo {
   parentGroupName: string;
   /** Sub-group name containing the actual enhancements (e.g., "Artefacts of the Tempest") */
   subGroupName: string;
+  /** Sub-group ID for subfaction lookup */
+  subGroupId: string;
   /** Restrictions text from <rule name="Enhancement Restrictions"> */
   restrictions?: string;
   /** Individual enhancement entries */
@@ -1492,6 +1606,7 @@ export function findEnhancementGroupsWithInfo(catalogue: BSCatalogue): Enhanceme
           result.push({
             parentGroupName: parentName,
             subGroupName,
+            subGroupId: subGroup.$.id,
             restrictions,
             entries,
           });
@@ -1507,6 +1622,7 @@ export function findEnhancementGroupsWithInfo(catalogue: BSCatalogue): Enhanceme
               result.push({
                 parentGroupName: parentName,
                 subGroupName: nestedGroup.$.name,
+                subGroupId: nestedGroup.$.id,
                 restrictions: nestedRestrictions,
                 entries: nestedEntries,
               });
@@ -1522,6 +1638,7 @@ export function findEnhancementGroupsWithInfo(catalogue: BSCatalogue): Enhanceme
       result.push({
         parentGroupName: parentName,
         subGroupName: parentName, // Use parent name when there's no sub-group
+        subGroupId: parentGroup.$.id,
         restrictions,
         entries: parentGroup.selectionEntries,
       });
@@ -1529,4 +1646,343 @@ export function findEnhancementGroupsWithInfo(catalogue: BSCatalogue): Enhanceme
   }
 
   return result;
+}
+
+// ============================================================================
+// ID-Based Detection Functions
+// ============================================================================
+// These functions use profile type IDs and category IDs from the GST file
+// for reliable type detection instead of string matching on names.
+
+/**
+ * Find profiles by type ID within a selection entry.
+ * This is the preferred method over findProfiles() which uses type names.
+ */
+export function findProfilesByTypeId(
+  entry: BSSelectionEntry,
+  typeId: string
+): BSProfile[] {
+  const profiles: BSProfile[] = [];
+
+  if (entry.profiles) {
+    profiles.push(
+      ...entry.profiles.filter((p) => p.$.typeId === typeId)
+    );
+  }
+
+  return profiles;
+}
+
+/**
+ * Recursively find all profiles by type ID in an entry and its children.
+ */
+export function findProfilesByTypeIdRecursive(
+  entry: BSSelectionEntry,
+  typeId: string
+): BSProfile[] {
+  const profiles: BSProfile[] = [];
+
+  // Direct profiles
+  if (entry.profiles) {
+    profiles.push(
+      ...entry.profiles.filter((p) => p.$.typeId === typeId)
+    );
+  }
+
+  // Child selection entries
+  if (entry.selectionEntries) {
+    for (const child of entry.selectionEntries) {
+      profiles.push(...findProfilesByTypeIdRecursive(child, typeId));
+    }
+  }
+
+  // Selection entry groups
+  if (entry.selectionEntryGroups) {
+    for (const group of entry.selectionEntryGroups) {
+      profiles.push(...findProfilesByTypeIdInGroup(group, typeId));
+    }
+  }
+
+  return profiles;
+}
+
+/**
+ * Find profiles by type ID within a selection entry group.
+ */
+function findProfilesByTypeIdInGroup(
+  group: BSSelectionEntryGroup,
+  typeId: string
+): BSProfile[] {
+  const profiles: BSProfile[] = [];
+
+  if (group.selectionEntries) {
+    for (const entry of group.selectionEntries) {
+      profiles.push(...findProfilesByTypeIdRecursive(entry, typeId));
+    }
+  }
+
+  if (group.selectionEntryGroups) {
+    for (const subGroup of group.selectionEntryGroups) {
+      profiles.push(...findProfilesByTypeIdInGroup(subGroup, typeId));
+    }
+  }
+
+  return profiles;
+}
+
+/**
+ * Check if an entry has a specific category by ID.
+ * This is the preferred method over hasCategory() which uses category names.
+ */
+export function hasCategoryId(
+  entry: BSSelectionEntry,
+  categoryId: string
+): boolean {
+  return (
+    entry.categoryLinks?.some(
+      (link) => link && link.$ && link.$.targetId === categoryId
+    ) || false
+  );
+}
+
+/**
+ * Get all category IDs from an entry's category links.
+ */
+export function getCategoryIds(entry: BSSelectionEntry): string[] {
+  return (
+    entry.categoryLinks
+      ?.filter((link) => link && link.$ && link.$.targetId)
+      .map((link) => link.$.targetId) || []
+  );
+}
+
+/**
+ * Classify an entry as hero, unit, or manifestation using category IDs.
+ * This is the preferred method over name-based detection.
+ */
+export function classifyEntryById(
+  entry: BSSelectionEntry
+): "hero" | "unit" | "manifestation" {
+  const categoryIds = getCategoryIds(entry);
+
+  // Check by category ID, NOT by name
+  if (categoryIds.includes(CATEGORIES.MANIFESTATION)) {
+    return "manifestation";
+  }
+  if (categoryIds.includes(CATEGORIES.HERO)) {
+    return "hero";
+  }
+  return "unit";
+}
+
+/**
+ * Get wizard level from category IDs.
+ * Returns the wizard level (1, 2, 3, 4, or 9) or null if not a wizard.
+ * Note: Only levels 1, 2, 3, 4, 9 exist in AOS 4th edition.
+ */
+export function getWizardLevelById(entry: BSSelectionEntry): number | null {
+  const categoryIds = getCategoryIds(entry);
+
+  for (const categoryId of categoryIds) {
+    if (categoryId in WIZARD_LEVEL_MAP) {
+      return WIZARD_LEVEL_MAP[categoryId as keyof typeof WIZARD_LEVEL_MAP];
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Get priest level from category IDs.
+ * Returns the priest level (1 or 2) or null if not a priest.
+ * Note: Only levels 1, 2 exist in AOS 4th edition.
+ */
+export function getPriestLevelById(entry: BSSelectionEntry): number | null {
+  const categoryIds = getCategoryIds(entry);
+
+  for (const categoryId of categoryIds) {
+    if (categoryId in PRIEST_LEVEL_MAP) {
+      return PRIEST_LEVEL_MAP[categoryId as keyof typeof PRIEST_LEVEL_MAP];
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Get ward value from category IDs.
+ * Returns the ward value (e.g., "6+", "5+") or null if no ward.
+ */
+export function getWardValueById(entry: BSSelectionEntry): string | null {
+  const categoryIds = getCategoryIds(entry);
+
+  for (const [categoryId, wardValue] of Object.entries(WARD_CATEGORY_MAP)) {
+    if (categoryIds.includes(categoryId)) {
+      return wardValue;
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Check if an entry is a hero using category ID.
+ */
+export function isHeroById(entry: BSSelectionEntry): boolean {
+  return hasCategoryId(entry, CATEGORIES.HERO);
+}
+
+/**
+ * Check if an entry is unique using category ID.
+ */
+export function isUniqueById(entry: BSSelectionEntry): boolean {
+  return hasCategoryId(entry, CATEGORIES.UNIQUE);
+}
+
+/**
+ * Check if an entry is a warmaster using category ID.
+ */
+export function isWarmasterById(entry: BSSelectionEntry): boolean {
+  return hasCategoryId(entry, CATEGORIES.WARMASTER);
+}
+
+/**
+ * Check if an entry can fly using category ID.
+ */
+export function canFlyById(entry: BSSelectionEntry): boolean {
+  return hasCategoryId(entry, CATEGORIES.FLY);
+}
+
+/**
+ * Find units using ID-based detection.
+ * Units are entries with type="unit" that have a Unit profile (by typeId)
+ * and are not heroes or manifestations.
+ */
+export function findUnitsById(catalogue: BSCatalogue): BSSelectionEntry[] {
+  const allEntries = findSelectionEntries(catalogue);
+  return allEntries.filter((e) => {
+    if (!e || !e.$ || e.$.type !== "unit" || isHidden(e)) {
+      return false;
+    }
+    // Must have a Unit profile (by typeId, not typeName)
+    const hasUnitProfile = e.profiles?.some(p => p.$.typeId === PROFILE_TYPES.UNIT);
+    if (!hasUnitProfile) {
+      return false;
+    }
+    // Exclude heroes and manifestations by category ID
+    const categoryIds = getCategoryIds(e);
+    const isHero = categoryIds.includes(CATEGORIES.HERO);
+    const isManifestation = categoryIds.includes(CATEGORIES.MANIFESTATION);
+    return !isHero && !isManifestation;
+  });
+}
+
+/**
+ * Find heroes using ID-based detection.
+ * Heroes are entries with type="unit" that have a Unit profile
+ * and the HERO category.
+ */
+export function findHeroesById(catalogue: BSCatalogue): BSSelectionEntry[] {
+  const allEntries = findSelectionEntries(catalogue);
+  return allEntries.filter((e) => {
+    if (!e || !e.$ || e.$.type !== "unit" || isHidden(e)) {
+      return false;
+    }
+    // Must have a Unit profile (by typeId)
+    const hasUnitProfile = e.profiles?.some(p => p.$.typeId === PROFILE_TYPES.UNIT);
+    if (!hasUnitProfile) {
+      return false;
+    }
+    // Must have HERO category
+    return hasCategoryId(e, CATEGORIES.HERO);
+  });
+}
+
+/**
+ * Find manifestations using ID-based detection.
+ * Manifestations are entries that have either:
+ * - A Manifestation profile (by typeId), OR
+ * - The MANIFESTATION category
+ */
+export function findManifestationsById(catalogue: BSCatalogue): BSSelectionEntry[] {
+  const allEntries = findSelectionEntries(catalogue);
+  return allEntries.filter((e) => {
+    if (!e || !e.$ || isHidden(e)) {
+      return false;
+    }
+    // Has a Manifestation profile (by typeId)
+    const hasManifestationProfile = e.profiles?.some(
+      p => p.$.typeId === PROFILE_TYPES.MANIFESTATION
+    );
+    // OR has MANIFESTATION category
+    const hasManifestationCategory = hasCategoryId(e, CATEGORIES.MANIFESTATION);
+    return hasManifestationProfile || hasManifestationCategory;
+  });
+}
+
+/**
+ * Get the unit type (infantry, cavalry, monster, etc.) by category ID.
+ */
+export function getUnitTypeById(
+  entry: BSSelectionEntry
+): "infantry" | "cavalry" | "monster" | "beast" | "war_machine" | null {
+  const categoryIds = getCategoryIds(entry);
+
+  if (categoryIds.includes(CATEGORIES.INFANTRY)) return "infantry";
+  if (categoryIds.includes(CATEGORIES.CAVALRY)) return "cavalry";
+  if (categoryIds.includes(CATEGORIES.MONSTER)) return "monster";
+  if (categoryIds.includes(CATEGORIES.BEAST)) return "beast";
+  if (categoryIds.includes(CATEGORIES.WAR_MACHINE)) return "war_machine";
+
+  return null;
+}
+
+/**
+ * Find all weapon profiles in an entry using type IDs.
+ */
+export function findWeaponProfilesById(entry: BSSelectionEntry): BSProfile[] {
+  const meleeWeapons = findProfilesByTypeIdRecursive(entry, PROFILE_TYPES.MELEE_WEAPON);
+  const rangedWeapons = findProfilesByTypeIdRecursive(entry, PROFILE_TYPES.RANGED_WEAPON);
+  return [...meleeWeapons, ...rangedWeapons];
+}
+
+/**
+ * Find all ability profiles in an entry using type IDs.
+ * Returns profiles of all ability types (passive, activated, spell, prayer, command).
+ */
+export function findAbilityProfilesById(entry: BSSelectionEntry): BSProfile[] {
+  const abilities: BSProfile[] = [];
+
+  // Get all ability types
+  const abilityTypeIds = [
+    PROFILE_TYPES.ABILITY_PASSIVE,
+    PROFILE_TYPES.ABILITY_ACTIVATED,
+    PROFILE_TYPES.ABILITY_SPELL,
+    PROFILE_TYPES.ABILITY_PRAYER,
+    PROFILE_TYPES.ABILITY_COMMAND,
+    PROFILE_TYPES.ABILITY_BLOOD_TITHE,
+  ];
+
+  for (const typeId of abilityTypeIds) {
+    abilities.push(...findProfilesByTypeIdRecursive(entry, typeId));
+  }
+
+  return abilities;
+}
+
+/**
+ * Find battle formations in a catalogue.
+ * Battle formations are in selection entry groups named "Battle Formations: <Faction>".
+ */
+export function findBattleFormationEntries(catalogue: BSCatalogue): BSSelectionEntry[] {
+  const formations: BSSelectionEntry[] = [];
+  const groups = findBattleFormationGroups(catalogue);
+
+  for (const group of groups) {
+    if (group.selectionEntries) {
+      formations.push(...group.selectionEntries);
+    }
+  }
+
+  return formations;
 }

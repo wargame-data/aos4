@@ -70,7 +70,7 @@
     },
     {
       "name": "Realmweb Lurker",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit in reserve **skittering through tunnels in reality**. It has now been deployed.",
       "declare": "Pick this unit if it has not been deployed.",
       "keywords": [
@@ -92,7 +92,7 @@
     },
     {
       "name": "Ambush from Beyond",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
       "phase": "movement",
       "declare": "Pick this unit if it is **skittering through tunnels** in reality.",

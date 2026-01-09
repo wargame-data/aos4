@@ -36,7 +36,7 @@
   "abilities": [
     {
       "name": "Deploy Wyldwood",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this terrain feature wholly within friendly territory, more than 3\" from all objectives and other terrain features. This terrain feature has now been deployed.",
       "keywords": [
         "**^^DEPLOY TERRAIN^^**"

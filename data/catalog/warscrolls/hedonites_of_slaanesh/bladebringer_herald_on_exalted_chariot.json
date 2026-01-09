@@ -63,7 +63,7 @@
   "abilities": [
     {
       "name": "Soulgorgers",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn. This ability also affects **Companion** weapons.",
       "phase": "movement",
       "declare": "Pick up to 3 friendly non-Unique **^^Hedonites of Slaanesh War Machines^^** wholly within 12\" of this unit to be the targets.",
@@ -72,7 +72,7 @@
     },
     {
       "name": "Mutilating Blades",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "charge",
       "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",

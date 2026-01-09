@@ -1,0 +1,25 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.nighthaunt.quicksilver_gheists",
+  "bsdataId": "4194-8ce-eb86-80c2",
+  "type": "battle-formation",
+  "name": "Quicksilver Gheists",
+  "faction": "nighthaunt",
+  "ability": {
+    "name": "Vanish and Reappear",
+    "type": "once-per-turn",
+    "effect": "Roll a dice. The unit using this ability can move a distance up to its Move characteristic added to the roll. It can pass through other models and the combat ranges of enemy units, and it can end that move in combat.",
+    "phase": "movement",
+    "declare": "Pick a friendly **^^Nighthaunt^^** unit that is in combat to use this ability.",
+    "keywords": [
+      "**^^core^^**",
+      "**^^move^^**"
+    ],
+    "color": "Gray",
+    "abilityCategory": "Movement"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

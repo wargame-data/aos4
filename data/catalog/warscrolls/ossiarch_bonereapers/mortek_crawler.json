@@ -63,7 +63,7 @@
   "abilities": [
     {
       "name": "Deathly Barrage",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. Add 1 to the roll if this unit is wholly within 12\" of a friendly **Mortisan Ossifector**, and add 1 to the roll if any other friendly **Mortek Crawler** units picked that enemy unit to be the target of this ability this turn. On a 4+, the target has **^^Strike-Last^^** for the rest of the turn",
       "phase": "shooting",
       "declare": "Pick an enemy unit that was targeted by all of this unit’s shooting attacks this phase to be the target.",

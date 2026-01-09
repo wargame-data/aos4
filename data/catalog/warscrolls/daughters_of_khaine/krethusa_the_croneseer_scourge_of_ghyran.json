@@ -79,7 +79,7 @@
     },
     {
       "name": "The Croneseer",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Give this unit D3 ritual points.",
       "phase": "hero",
       "color": "Yellow",

@@ -64,7 +64,7 @@
   "abilities": [
     {
       "name": "Hunting Beast",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 1, remove **Thrafnir** from the battlefield. On a 2+, place **Thrafnir** next to the target. Until the start of your next turn, the target is being **stalked by Thrafnir**. While a unit is being **stalked by Thrafnir**, add 1 to the Damage characteristic of this unit’s **Trap Launcher** for attacks that target that unit.",
       "phase": "movement",
       "declare": "If this unit’s **Thrafnir** is on the battlefield, pick an enemy unit within 12\" of this unit to be the target.",

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.fyreslayers.lords_of_the_lodge",
+  "bsdataId": "3644-d3dc-68eb-a10b",
+  "type": "battle-formation",
+  "name": "Lords of the Lodge",
+  "faction": "fyreslayers",
+  "ability": {
+    "name": "Martial Pride and Stubborn Will",
+    "type": "passive",
+    "effect": "Add 3 to the control scores of friendly **^^Fyreslayers Heroes^^**. In addition, the control scores of **^^Fyreslayers Heroes^^** cannot be modified by enemy abilities.",
+    "color": "Purple",
+    "abilityCategory": "Control"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

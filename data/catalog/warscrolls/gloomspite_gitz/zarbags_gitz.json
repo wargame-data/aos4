@@ -60,7 +60,7 @@
   "abilities": [
     {
       "name": "Sniffer Spite",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit’s **Zarbag** is on the battlefield and within 3\" of a terrain feature, roll a dice. On a 4+, add 1 to this unit’s power level for the rest of the turn.",
       "phase": "hero",
       "color": "Yellow",

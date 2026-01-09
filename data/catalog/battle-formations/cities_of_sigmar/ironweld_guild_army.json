@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.cities_of_sigmar.ironweld_guild_army",
+  "bsdataId": "9cd5-6e01-a51e-4b41",
+  "type": "battle-formation",
+  "name": "Ironweld Guild Army",
+  "faction": "cities_of_sigmar",
+  "ability": {
+    "name": "Faith and Firepower",
+    "type": "passive",
+    "effect": "Add 3\" to the Range characteristic of ranged weapons used by friendly **^^Cities of Sigmar^^** units.",
+    "color": "Blue",
+    "abilityCategory": "Shooting"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

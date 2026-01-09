@@ -101,7 +101,7 @@
     },
     {
       "name": "Troglodon Regeneration",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "**Heal (D3)** this unit.",
       "phase": "any",
       "color": "Purple",

@@ -65,7 +65,7 @@
     },
     {
       "name": "Venomite Swarm",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "This unit’s **Sotek’s Venomites** is a token. If this unit’s **Sotek’s Venomites** is on the battlefield, roll a D3. On a 1, remove this unit’s **Sotek’s Venomites** from the battlefield. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "combat",
       "declare": "Pick an enemy unit in combat with this unit to be the target.",

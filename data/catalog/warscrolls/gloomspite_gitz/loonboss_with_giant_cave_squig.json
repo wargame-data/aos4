@@ -63,7 +63,7 @@
   "abilities": [
     {
       "name": "Gobbled Up",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. If the roll equals or exceeds the target’s Health characteristic, 1 model in the target unit is slain.",
       "phase": "any",
       "declare": "Pick an enemy unit within 1\" of this unit to be the target.",

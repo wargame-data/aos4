@@ -2,6 +2,7 @@
  * Ability Mapper
  *
  * Maps BSData ability profiles to aos-data ability schema format.
+ * Uses profile type IDs from the GST file for reliable detection.
  */
 
 import type {
@@ -12,7 +13,16 @@ import type {
   BSConditionGroup,
 } from "../xml/types.js";
 import { BaseMapper, type MapperOptions } from "./base.js";
-import { findCharacteristic, findAttribute } from "../xml/reader.js";
+import { findCharacteristic, findCharacteristicById, findAttribute } from "../xml/reader.js";
+import {
+  PROFILE_TYPES,
+  PASSIVE_ABILITY_CHARACTERISTICS,
+  ACTIVATED_ABILITY_CHARACTERISTICS,
+  SPELL_CHARACTERISTICS,
+  PRAYER_CHARACTERISTICS,
+  COMMAND_ABILITY_CHARACTERISTICS,
+  getAbilityTypeFromProfileId,
+} from "../xml/gst-ids.js";
 
 /**
  * Color values for abilities (from BSData attributes)
@@ -191,12 +201,34 @@ export class AbilityMapper extends BaseMapper<BSProfile | BSRule, Ability> {
     profile: BSProfile,
     typeName: string
   ): Ability["type"] {
-    // Check profile type name
+    // Primary: Check by profile type ID from GST
+    const typeFromId = getAbilityTypeFromProfileId(profile.$.typeId);
+    if (typeFromId) {
+      // Map GST ability types to our schema types
+      switch (typeFromId) {
+        case "spell":
+          return "spell";
+        case "prayer":
+          return "prayer";
+        case "command":
+          return "command";
+        case "passive":
+          return "passive";
+        case "activated":
+          // Activated abilities need further analysis of timing
+          break;
+        case "blood_tithe":
+          // Blood Tithe abilities are typically activated
+          break;
+      }
+    }
+
+    // Fallback: Check profile type name
     if (typeName.includes("spell")) return "spell";
     if (typeName.includes("prayer")) return "prayer";
     if (typeName.includes("command")) return "command";
 
-    // Check timing characteristic
+    // Check timing characteristic to determine activated ability type
     const timing =
       findCharacteristic(profile, "Timing") ||
       findCharacteristic(profile, "Type") ||
@@ -209,11 +241,15 @@ export class AbilityMapper extends BaseMapper<BSProfile | BSRule, Ability> {
     if (timingLower.includes("once per turn")) return "once-per-turn";
     if (timingLower.includes("command")) return "command";
 
-    // Check for spell/prayer indicators
+    // Check for spell/prayer indicators by characteristic presence
     if (findCharacteristic(profile, "Casting Value")) return "spell";
     if (findCharacteristic(profile, "Chanting Value")) return "prayer";
 
-    // Default to passive
+    // Default to passive for passive profiles, once-per-turn for activated
+    if (typeFromId === "activated" || typeFromId === "blood_tithe") {
+      return "once-per-turn";
+    }
+
     return "passive";
   }
 
@@ -482,9 +518,28 @@ export function mapAbilities(
 }
 
 /**
- * Check if a profile is an ability profile
+ * All ability profile type IDs for checking
+ */
+const ABILITY_PROFILE_TYPE_IDS = [
+  PROFILE_TYPES.ABILITY_PASSIVE,
+  PROFILE_TYPES.ABILITY_ACTIVATED,
+  PROFILE_TYPES.ABILITY_SPELL,
+  PROFILE_TYPES.ABILITY_PRAYER,
+  PROFILE_TYPES.ABILITY_COMMAND,
+  PROFILE_TYPES.ABILITY_BLOOD_TITHE,
+] as const;
+
+/**
+ * Check if a profile is an ability profile using type ID.
+ * Falls back to name-based detection if typeId doesn't match.
  */
 export function isAbilityProfile(profile: BSProfile): boolean {
+  // Primary: Check by typeId
+  if ((ABILITY_PROFILE_TYPE_IDS as readonly string[]).includes(profile.$.typeId)) {
+    return true;
+  }
+
+  // Fallback: Check by typeName for backwards compatibility
   const typeName = profile.$.typeName.toLowerCase();
   return (
     typeName.includes("ability") ||
@@ -495,17 +550,57 @@ export function isAbilityProfile(profile: BSProfile): boolean {
 }
 
 /**
- * Check if a profile is a spell profile
+ * Check if a profile is a spell profile using type ID.
  */
 export function isSpellProfile(profile: BSProfile): boolean {
+  // Primary: Check by typeId
+  if (profile.$.typeId === PROFILE_TYPES.ABILITY_SPELL) {
+    return true;
+  }
+
+  // Fallback: Check by typeName
   const typeName = profile.$.typeName.toLowerCase();
   return typeName.includes("spell");
 }
 
 /**
- * Check if a profile is a prayer profile
+ * Check if a profile is a prayer profile using type ID.
  */
 export function isPrayerProfile(profile: BSProfile): boolean {
+  // Primary: Check by typeId
+  if (profile.$.typeId === PROFILE_TYPES.ABILITY_PRAYER) {
+    return true;
+  }
+
+  // Fallback: Check by typeName
   const typeName = profile.$.typeName.toLowerCase();
   return typeName.includes("prayer");
+}
+
+/**
+ * Check if a profile is a command ability using type ID.
+ */
+export function isCommandProfile(profile: BSProfile): boolean {
+  // Primary: Check by typeId
+  if (profile.$.typeId === PROFILE_TYPES.ABILITY_COMMAND) {
+    return true;
+  }
+
+  // Fallback: Check by typeName
+  const typeName = profile.$.typeName.toLowerCase();
+  return typeName.includes("command");
+}
+
+/**
+ * Check if a profile is an activated ability using type ID.
+ */
+export function isActivatedAbilityProfile(profile: BSProfile): boolean {
+  return profile.$.typeId === PROFILE_TYPES.ABILITY_ACTIVATED;
+}
+
+/**
+ * Check if a profile is a passive ability using type ID.
+ */
+export function isPassiveAbilityProfile(profile: BSProfile): boolean {
+  return profile.$.typeId === PROFILE_TYPES.ABILITY_PASSIVE;
 }

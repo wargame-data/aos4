@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.helsmiths_of_hashut.hashutite_host",
+  "bsdataId": "0adf-5c49-e0f5-7ec1",
+  "type": "battle-formation",
+  "name": "Hashutite Host",
+  "faction": "helsmiths_of_hashut",
+  "ability": {
+    "name": "Amassed Legions",
+    "type": "passive",
+    "effect": "Each time a friendly **^^Helsmiths of Hashut Infantry^^** unit with 3 **daemonic power points** uses the 'Rally' command, you can make 3 additional rally rolls of D6.",
+    "color": "Yellow",
+    "abilityCategory": "Rallying"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

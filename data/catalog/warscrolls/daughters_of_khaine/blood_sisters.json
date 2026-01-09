@@ -53,7 +53,7 @@
   "abilities": [
     {
       "name": "Crystal Touch",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. If the roll exceeds the target’s Health characteristic, the target has **^^Strike-last^^** for the rest of the turn.",
       "phase": "combat",
       "declare": "Pick an enemy unit in combat with this unit to be the target.",

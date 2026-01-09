@@ -34,7 +34,7 @@
   "abilities": [
     {
       "name": "Rise from the Depths",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this faction terrain either as 1 terrain feature consisting of 2 scenery pieces (that must be set up within 3\" of each other) or as 2 separate terrain features. Set up each terrain feature wholly within friendly territory and more than 3\" from all objectives and other terrain features. After you have done so, it has been deployed.\nIf this faction terrain is set up as 1 terrain feature consisting of 2 scenery pieces, it has a Health characteristic of 14 instead of 7.",
       "declare": "This ability must be used instead of the 'Deploy Faction Terrain' ability.",
       "keywords": [

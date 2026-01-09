@@ -80,7 +80,7 @@
     },
     {
       "name": "Hurled Body",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. If the roll is at least double the target’s Health characteristic, 1 model in that unit is slain and you can pick a visible enemy unit within 12\" of this unit. Inflict an amount of mortal damage on that unit equal to the target’s Health characteristic.",
       "phase": "combat",
       "declare": "Pick an enemy unit in combat with this unit to be the target.",

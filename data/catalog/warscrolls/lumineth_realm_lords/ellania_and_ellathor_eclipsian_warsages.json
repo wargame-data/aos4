@@ -88,7 +88,7 @@
     },
     {
       "name": "Equal Prodigies",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If Ellania takes the lead, until the start of your next turn, add 1 to this unit’s power level and it has **^^Ward (4+)^^**. If Ellathor takes the lead, until the start of your next turn, add the current battle round number to the Damage characteristic of **Altairi**.",
       "phase": "hero",
       "declare": "Pick whether Ellania will take the lead or Ellathor will take the lead.",
@@ -97,7 +97,7 @@
     },
     {
       "name": "Sudden Translocation",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "This unit can use this ability if any enemy models were slain by it this turn. **Heal (D6)** this unit. Then, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units. When using the ‘Equal Prodigies’ ability in your next turn, you must pick Ellania to take the lead.",
       "phase": "any",
       "color": "Purple",

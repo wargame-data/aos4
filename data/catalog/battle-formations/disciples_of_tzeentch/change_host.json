@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.disciples_of_tzeentch.change_host",
+  "bsdataId": "57ac-5d1b-3573-864c",
+  "type": "battle-formation",
+  "name": "Change Host",
+  "faction": "disciples_of_tzeentch",
+  "ability": {
+    "name": "Twist of Fate",
+    "type": "once-per-battle",
+    "effect": "Roll a dice. On a 3+, remove the target from the battlefield and set it up again on the battlefield. Each model in the target unit must be set up in combat with any of the enemy units that the target was in combat with before it was removed from the battlefield.",
+    "declare": "Pick a friendly **^^Disciples of Tzeentch Daemon^^** unit that is in combat to be the target.",
+    "color": "Purple",
+    "abilityCategory": "Movement"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

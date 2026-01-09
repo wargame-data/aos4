@@ -54,7 +54,7 @@
   "abilities": [
     {
       "name": "Web Slingshot",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 2+, remove this unit from the battlefield and set it up again wholly within 3\" of the target and more than 9\" from all enemy units.",
       "phase": "hero",
       "declare": "Pick a friendly **^^Spiderfang^^** unit or terrain feature within 18\" of this unit to be the target.",

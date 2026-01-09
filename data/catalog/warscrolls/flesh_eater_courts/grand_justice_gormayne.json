@@ -50,7 +50,7 @@
   "abilities": [
     {
       "name": "Arrest those Miscreants",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, until the start of your next turn, the target has **^^Strike-last^^** while it is combat with any friendly **^^Flesh-eater Courts Heroes^^** and any friendly **^^Serfs^^** or **^^Knights^^** units.",
       "phase": "charge",
       "declare": "Pick a visible enemy unit within 18\" of this unit to be the target.",

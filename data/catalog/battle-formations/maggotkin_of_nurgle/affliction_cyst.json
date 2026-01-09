@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.maggotkin_of_nurgle.affliction_cyst",
+  "bsdataId": "2988-a12d-acab-ca65",
+  "type": "battle-formation",
+  "name": "Affliction Cyst",
+  "faction": "maggotkin_of_nurgle",
+  "ability": {
+    "name": "From Noxious Skies",
+    "type": "once-per-battle",
+    "effect": "Remove the targets from the battlefield and set them up again on the battlefield more than 9\" from all enemy units.",
+    "declare": "Pick up to 2 friendly **^^Maggotkin of Nurgle^^** units that have **^^Fly^^**.",
+    "color": "Black",
+    "abilityCategory": "Movement"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

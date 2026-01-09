@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.fyreslayers.scales_of_vulcatrix",
+  "bsdataId": "9904-e6cf-27df-81a6",
+  "type": "battle-formation",
+  "name": "Scales of Vulcatrix",
+  "faction": "fyreslayers",
+  "ability": {
+    "name": "Ancient Bloodlines",
+    "type": "passive",
+    "effect": "Add 2 to the Health characteristic of friendly Magmadroth units.",
+    "color": "Green",
+    "abilityCategory": "Defensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

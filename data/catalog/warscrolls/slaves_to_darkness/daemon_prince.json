@@ -52,7 +52,7 @@
   "abilities": [
     {
       "name": "Immortal Champion",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 4+, this unit has **^^Strike-first^^** for the rest of the turn.",
       "phase": "combat",
       "color": "Red",

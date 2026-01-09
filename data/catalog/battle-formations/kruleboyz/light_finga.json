@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.kruleboyz.light_finga",
+  "bsdataId": "806a-a14d-82fc-87ef",
+  "type": "battle-formation",
+  "name": "Light Finga",
+  "faction": "kruleboyz",
+  "ability": {
+    "name": "Ded Sneaky",
+    "type": "passive",
+    "effect": "You can use the ‘Sneaky Sneakin'’ **^^Dirty Trick^^** ability twice per turn instead of only once per turn.",
+    "color": "Gray",
+    "abilityCategory": "Movement"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

@@ -92,7 +92,7 @@
     },
     {
       "name": "Tunneling Team",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit in reserve **drilling beneath the surface**. It has now been deployed.",
       "keywords": [
         "**^^DEPLOY^^**"
@@ -102,7 +102,7 @@
     },
     {
       "name": "Tunnelpack Ambush",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
       "phase": "movement",
       "declare": "Pick this unit if it is **drilling beneath the surface**.",

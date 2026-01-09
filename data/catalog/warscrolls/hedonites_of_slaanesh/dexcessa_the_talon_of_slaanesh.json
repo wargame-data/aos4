@@ -53,7 +53,7 @@
   "abilities": [
     {
       "name": "Joyous Battle Fury",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If any enemy models were slain by this unit’s combat attacks this turn, **Heal (D3)** this unit, then place a **battle fury token** next to it.\nAdd 1 to the Attacks characteristic of this unit’s **Impaling Talons** for each **battle fury token** it has until the end of the next turn.",
       "phase": "any",
       "color": "Purple",

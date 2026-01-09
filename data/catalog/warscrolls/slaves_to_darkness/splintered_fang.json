@@ -53,7 +53,7 @@
   "abilities": [
     {
       "name": "Slithering Serpents",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a D3. On a 1, remove this unit’s **Serpents** from the battlefield. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "any",
       "declare": "If this unit’s **Serpents** are on the battlefield, pick an enemy unit in combat with this unit to be the target.",

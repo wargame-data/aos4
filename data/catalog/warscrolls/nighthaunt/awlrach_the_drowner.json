@@ -53,7 +53,7 @@
   "abilities": [
     {
       "name": "Drifting on Spectral Tides",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, this unit can immediately use the 'Normal Move' or the 'Retreat' ability as if it were your movement phase.",
       "phase": "any",
       "color": "Purple",

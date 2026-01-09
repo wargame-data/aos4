@@ -54,7 +54,7 @@
   "abilities": [
     {
       "name": "Wall of Blades",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit did not charge this turn and is in combat with an enemy unit that charged this turn, roll a dice. Add 1 to the roll if that enemy unit is **^^Cavalry^^**. On a 4+, this unit has **^^Strike-first^^** for the rest of the turn.",
       "phase": "combat",
       "color": "Red",

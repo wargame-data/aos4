@@ -67,7 +67,7 @@
   "abilities": [
     {
       "name": "Phase Ink",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, the target has **^^Strike-last^^** for the rest of the turn.",
       "phase": "combat",
       "declare": "If this unit’s **Cephanyr** is on the battlefield, pick an enemy unit in combat with this unit to be the target.",

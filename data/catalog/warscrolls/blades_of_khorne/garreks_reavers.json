@@ -58,7 +58,7 @@
     },
     {
       "name": "Grisly Trophies",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit is in a **Blades of Khorne** army and any enemy models were slain this turn by this unit’s attacks, you gain 1 **blood tithe point**.",
       "phase": "any",
       "color": "Purple",

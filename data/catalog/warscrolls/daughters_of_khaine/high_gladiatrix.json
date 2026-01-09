@@ -49,7 +49,7 @@
   "abilities": [
     {
       "name": "Paragon of Slaughter",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 2+, add 1 to the Rend characteristic of melee weapons used by the target for the rest of the turn.",
       "phase": "combat",
       "declare": "If this unit is in combat, pick a visible friendly **^^Daughters of Khaine Aelf^^** non-**^^Hero Infantry^^** unit wholly within 12\" of this unit to be the target.",

@@ -75,7 +75,7 @@
   "abilities": [
     {
       "name": "Creeping Summons",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 2+, you can return D3 slain **Spider Swarms** to this unit.",
       "phase": "any",
       "color": "Purple",

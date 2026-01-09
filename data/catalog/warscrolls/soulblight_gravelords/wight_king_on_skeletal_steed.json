@@ -65,7 +65,7 @@
   "abilities": [
     {
       "name": "Immortal Conqueror",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "For the rest of the turn, add 1 to hit rolls for attacks made by friendly **^^Deathrattle^^** units while they are wholly within 6\" of that objective or terrain feature.",
       "phase": "hero",
       "declare": "Pick an objective or terrain feature within enemy territory.",

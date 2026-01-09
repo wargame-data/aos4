@@ -85,7 +85,7 @@
   "abilities": [
     {
       "name": "Overwhelming Volleystorm",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 2+, the target cannot use the ‘All-out Defence’ command in the following combat phase.",
       "phase": "shooting",
       "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Volleystorm Crossbows** to be the target.",

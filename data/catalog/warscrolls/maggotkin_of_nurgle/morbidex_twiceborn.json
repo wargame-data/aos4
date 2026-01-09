@@ -82,7 +82,7 @@
     },
     {
       "name": "Gigantic Nurgling-kin",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "**Heal (X) this unit**, where X is half the number of damage points this unit has (rounding up).",
       "phase": "any",
       "color": "Purple",

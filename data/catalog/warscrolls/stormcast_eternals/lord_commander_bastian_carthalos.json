@@ -68,7 +68,7 @@
     },
     {
       "name": "Castellan of Azyr",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Each target can use the ‘Normal Move’ ability as if it were your movement phase.",
       "declare": "Pick up to 3 friendly **^^Stormcast Eternals Infantry^^** units to be the targets.",
       "color": "Black",
@@ -76,7 +76,7 @@
     },
     {
       "name": "Mantle of the First Storm",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If any enemy models were slain by this unit’s attacks this turn, **Heal (4)** this unit.",
       "phase": "any",
       "color": "Purple",

@@ -66,7 +66,7 @@
   "abilities": [
     {
       "name": "Relentless as the Driving Current",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit is in combat, it can move 2D6\". It can pass through models in enemy units but must end that move in combat.",
       "phase": "combat",
       "color": "Red",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Travel the Waterways",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Remove this unit from the battlefield and set it up again on the battlefield wholly within 6\" of a battlefield edge and more than 9\" from all enemy units.",
       "phase": "movement",
       "keywords": [

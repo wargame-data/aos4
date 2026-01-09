@@ -77,7 +77,7 @@
     },
     {
       "name": "Gestalt Sorcery",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit includes any models carrying a **Scroll of Dark Arts**, roll a dice. Add 1 to the roll for each other friendly **Kairic Acolytes** unit within this unit’s combat range. On a 5+, add 1 to the Rend characteristic of this unit’s **Sorcerous Bolts** for the rest of the turn.",
       "phase": "shooting",
       "color": "Blue",

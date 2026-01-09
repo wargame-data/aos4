@@ -91,7 +91,7 @@
     },
     {
       "name": "Thunderhead Crown",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "**Heal (3)** this unit.",
       "phase": "hero",
       "color": "Yellow",

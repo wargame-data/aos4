@@ -54,7 +54,7 @@
   "abilities": [
     {
       "name": "The Light of Sigmar",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, pick 1 of the following effects:\n• For the rest of the turn, subtract 1 from hit rolls for attacks made by enemy units while they are in combat with this unit.\n• Heal (D3) each friendly **^^Stormcast Eternals^^** unit within this unit’s combat range.",
       "phase": "combat",
       "color": "Red",

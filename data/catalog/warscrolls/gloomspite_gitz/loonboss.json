@@ -49,7 +49,7 @@
   "abilities": [
     {
       "name": "I'm da Boss",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 2+, pick 1 of the following effects:\n***Get Back ’Ere!:*** If the target is not in combat, you can return D6 slain models to it.\n***Stab ’Em Good!:*** Add 1 to wound rolls for the target’s attacks until the start of your next turn",
       "phase": "hero",
       "declare": "Pick a visible friendly **Moonclan Stabbas** unit wholly within 12\" of this unit to be the target.",

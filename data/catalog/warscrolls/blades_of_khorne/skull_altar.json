@@ -41,7 +41,7 @@
     },
     {
       "name": "Ascend the Altar",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Place the target on this terrain feature. The target is now an Invoker (see ‘Words of Hate’).",
       "phase": "hero",
       "declare": "If this terrain feature does not have an **Invoker**, pick a friendly **^^Blades of Khorne Infantry Priest^^** within 3\" of it to be the target.",
@@ -59,7 +59,7 @@
     },
     {
       "name": "Descend the Altar",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this terrain feature has an **Invoker** that was not placed on it this turn, set up the **Invoker** on the battlefield wholly within 6\" of this terrain feature and not in combat. That unit is no longer an **Invoker**.",
       "phase": "movement",
       "color": "Gray",

@@ -74,7 +74,7 @@
     },
     {
       "name": "Kurnothi War-horn",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "For the rest of the turn, each target can use **^^Charge^^** abilities even if they used a **^^Run^^** ability in the same turn.",
       "phase": "charge",
       "declare": "Pick up to 3 friendly **^^Sylvaneth^^** units to be the target.",

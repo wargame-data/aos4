@@ -68,7 +68,7 @@
     },
     {
       "name": "Veins of Black Lightning",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll 2D6. Add 1 to the roll if a friendly **Be’lakor** is on the battlefield. On an 8+, set up a replacement unit on the battlefield more than 9\" from all enemy units.",
       "phase": "movement",
       "declare": "This unit can use this ability if it has been destroyed.",

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.bonesplitterz.kunnin_rukk",
+  "bsdataId": "148d-fb8e-5e0f-1daa",
+  "type": "battle-formation",
+  "name": "Kunnin' Rukk",
+  "faction": "bonesplitterz",
+  "ability": {
+    "name": "Squint-eye Taktiks",
+    "type": "once-per-turn",
+    "effect": "For the rest of the turn, hit rolls for shooting attacks made by friendly **^^Savage Orruk Arrowboys^^** units that target the target unit score critical hits on unmodified hit rolls of 5+.",
+    "phase": "shooting",
+    "declare": "Pick an enemy unit on the battlefield to be the target.",
+    "color": "Blue",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

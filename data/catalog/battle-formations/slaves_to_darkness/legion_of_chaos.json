@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.slaves_to_darkness.legion_of_chaos",
+  "bsdataId": "8439-3857-4c34-b965",
+  "type": "battle-formation",
+  "name": "Legion of Chaos",
+  "faction": "slaves_to_darkness",
+  "ability": {
+    "name": "United in Darkness",
+    "type": "passive",
+    "effect": "While there is at least 1 friendly **^^Warriors of Chaos Hero^^** and 1 other friendly **^^Daemon Hero^^** or **^^Darkoath Hero^^** on the battlefield, add 2 to the control scores of friendly **^^Slaves to Darkness^^** units while they are contesting an objective that is wholly outside friendly territory.",
+    "color": "Purple",
+    "abilityCategory": "Control"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

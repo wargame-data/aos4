@@ -65,7 +65,7 @@
   "abilities": [
     {
       "name": "Storm of Iron-tipped Bolts",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit has not used a **^^Move^^** ability this turn and was not set up this turn, add 1 to the Attacks characteristic of this unit’s **Master‑crafted Repeater Crossbows** for the rest of the turn.",
       "phase": "shooting",
       "color": "Blue",

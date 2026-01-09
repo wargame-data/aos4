@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.ogor_mawtribes.beast_handlers",
+  "bsdataId": "deba-7834-7ac4-ffae",
+  "type": "battle-formation",
+  "name": "Beast Handlers",
+  "faction": "ogor_mawtribes",
+  "ability": {
+    "name": "Brutal Stock",
+    "type": "passive",
+    "effect": "Each time a friendly **^^Beastclaw Raiders Monster^^** uses the ‘Trampling Charge’ ability, add 1 to the amount of mortal damage inflicted, if any.",
+    "color": "Orange",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

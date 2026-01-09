@@ -47,7 +47,7 @@
   "abilities": [
     {
       "name": "Crescent Shield",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Pick 1 of the following effects to apply to this unit for the rest of the turn:\n***Defensive Stance:*** This unit has **^^Ward (4+)^^**.\n***Aggressive Stance:*** Add 1 to the Attacks characteristic of this unit’s melee weapons, and add 1 to wound rolls for this unit’s combat attacks.",
       "phase": "combat",
       "color": "Red",

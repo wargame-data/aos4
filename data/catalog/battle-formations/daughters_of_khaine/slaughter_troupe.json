@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.daughters_of_khaine.slaughter_troupe",
+  "bsdataId": "b43a-499e-edb0-fff7",
+  "type": "battle-formation",
+  "name": "Slaughter Troupe",
+  "faction": "daughters_of_khaine",
+  "ability": {
+    "name": "Gladiatorial Acrobatics",
+    "type": "reaction",
+    "effect": "Change one of the dice in the charge roll to a 4.",
+    "color": "Orange",
+    "abilityCategory": "Movement"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

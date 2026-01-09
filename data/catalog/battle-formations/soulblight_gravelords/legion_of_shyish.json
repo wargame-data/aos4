@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.soulblight_gravelords.legion_of_shyish",
+  "bsdataId": "7da0-d119-9214-b8df",
+  "type": "battle-formation",
+  "name": "Legion of Shyish",
+  "faction": "soulblight_gravelords",
+  "ability": {
+    "name": "Horror Unending",
+    "type": "passive",
+    "effect": "You can pick 1 additional target when using the ‘Deathly Invocation’ ability.",
+    "color": "Yellow",
+    "abilityCategory": "Special"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

@@ -75,7 +75,7 @@
     },
     {
       "name": "Trampled to Dust",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "charge",
       "declare": "Pick an enemy unit that this unit passed across this turn to be the target.",

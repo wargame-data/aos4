@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.sons_of_behemat.taker_tribe",
+  "bsdataId": "e5bd-6d0e-f80b-3f6a",
+  "type": "battle-formation",
+  "name": "Taker Tribe",
+  "faction": "sons_of_behemat",
+  "ability": {
+    "name": "More Stuff for Me Collection",
+    "type": "once-per-battle",
+    "effect": "Give that **^^Hero^^** 1 artefact of power from ‘Titanic Trophies’.\n**Designer’s Note:** *This artefact of power is given to the unit during the deployment phase, not during army composition.*",
+    "declare": "Pick a friendly non-**^^Unique Sons of Behemat Hero^^** that does not have an artefact of power.",
+    "color": "Black",
+    "abilityCategory": "Special"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

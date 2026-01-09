@@ -9,6 +9,7 @@ import { abilitySchema } from "./schemas/ability.schema.js";
 import { warscrollSchema } from "./schemas/warscroll.schema.js";
 import { spellSchema, prayerSchema } from "./schemas/spell.schema.js";
 import { enhancementSchema } from "./schemas/enhancement.schema.js";
+import { battleFormationSchema } from "./schemas/battle-formation.schema.js";
 import { pointsPackSchema } from "./schemas/points-pack.schema.js";
 
 const SCHEMA_DIR = join(process.cwd(), "schema");
@@ -57,6 +58,12 @@ const schemas: SchemaConfig[] = [
     filename: "enhancement.schema.json",
     title: "Enhancement",
     description: "An enhancement (artefact, command trait, mount trait) for the catalog",
+  },
+  {
+    schema: battleFormationSchema,
+    filename: "battle-formation.schema.json",
+    title: "Battle Formation",
+    description: "A battle formation that provides army-wide abilities",
   },
   {
     schema: pointsPackSchema,

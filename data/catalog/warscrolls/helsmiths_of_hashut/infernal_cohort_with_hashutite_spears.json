@@ -56,7 +56,7 @@
   "abilities": [
     {
       "name": "Conquered Lands",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, give the target 1 **daemonic power point**.\n**Designer's Note:** *You cannot make more than one roll for each objective in each turn regardless of how many friendly units with this ability are contesting that objective.*",
       "phase": "hero",
       "declare": "If this unit is contesting an objective you control, pick a friendly non-**^^Hobgrot Helsmiths of Hashut^^** unit wholly within 12\" of this unit to be the target.",

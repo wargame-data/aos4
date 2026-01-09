@@ -75,7 +75,7 @@
     },
     {
       "name": "Summon Wisper",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If there is not a friendly **Wisper** on the battlefield, set up a friendly **Wisper** wholly within 12\" of this unit, visible to it and more than 9\" from all enemy units. This unit has summoned that **^^Manifestation^^**.",
       "phase": "movement",
       "color": "Gray",

@@ -73,7 +73,7 @@
   "abilities": [
     {
       "name": "Quest's End",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "For the rest of the battle, this unit has **^^Strike-first^^** and **^^Ward (4+)^^**.",
       "phase": "any",
       "declare": "This unit can only use this ability if you control the object of this unit’s quest and this unit is contesting it.",
@@ -82,7 +82,7 @@
     },
     {
       "name": "The Looncourt's Quest",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Pick an objective or terrain feature within enemy territory to be the **object of this unit’s quest**.",
       "color": "Black",
       "abilityCategory": "Special"

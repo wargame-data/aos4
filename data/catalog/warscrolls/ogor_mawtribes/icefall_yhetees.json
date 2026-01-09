@@ -48,7 +48,7 @@
   "abilities": [
     {
       "name": "Bounding Leaps",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "This unit can move up to 3\". It can move into combat.",
       "phase": "combat",
       "color": "Red",

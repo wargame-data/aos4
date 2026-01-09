@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.kharadron_overlords.endrineers_guild_expeditionary_force",
+  "bsdataId": "b0e7-29b-1533-9456",
+  "type": "battle-formation",
+  "name": "Endrineers Guild Expeditionary Force",
+  "faction": "kharadron_overlords",
+  "ability": {
+    "name": "Special Procurement",
+    "type": "once-per-battle",
+    "effect": "Give that **^^Hero^^** 1 artefact of power from the ‘Inventions of the Sky-ports’ or the 'Ingenious Innovations'.",
+    "declare": "Pick a friendly non-**^^Unique Kharadron Overlords Hero^^** that does not have an artefact of power.",
+    "color": "Black",
+    "abilityCategory": "Special"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

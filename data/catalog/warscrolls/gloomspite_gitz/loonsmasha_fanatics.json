@@ -53,7 +53,7 @@
     },
     {
       "name": "Hidden Loons",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit in reserve **hidden among the mobs**. It has now been deployed.",
       "declare": "Pick this unit if it has not been deployed.",
       "keywords": [
@@ -64,7 +64,7 @@
     },
     {
       "name": "Release the Fanatics!",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit anywhere on the battlefield wholly within 6\" of the target and more than 9\" from all enemy units.",
       "phase": "movement",
       "declare": "Pick this unit if it is **hidden among the mobs**. Then, pick a friendly **Moonclan Shootas** or **Moonclan Stabbas** unit that has 10 or more models to be the target.",

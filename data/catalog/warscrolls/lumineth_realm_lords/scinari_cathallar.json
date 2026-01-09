@@ -51,7 +51,7 @@
   "abilities": [
     {
       "name": "Darkness of the Soul",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, subtract D6 from the target’s control score for the rest of the turn.",
       "phase": "hero",
       "declare": "Pick an enemy unit within 12\" of this unit to be the target.",

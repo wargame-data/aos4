@@ -66,7 +66,7 @@
   "abilities": [
     {
       "name": "Wave Rider",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a D3. On a 2+:\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Add 1 to the Rend characteristic of this unit’s **Akhelian Royal Weapons** for attacks that target that enemy unit for the rest of the turn.",
       "phase": "charge",
       "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",

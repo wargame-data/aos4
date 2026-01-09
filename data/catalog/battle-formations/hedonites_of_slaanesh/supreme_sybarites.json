@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.hedonites_of_slaanesh.supreme_sybarites",
+  "bsdataId": "6f63-45c7-28bd-68fd",
+  "type": "battle-formation",
+  "name": "Supreme Sybarites",
+  "faction": "hedonites_of_slaanesh",
+  "ability": {
+    "name": "Godly Ambitions",
+    "type": "passive",
+    "effect": "Add 3 to the control scores of friendly non-**^^Hero Hedonites of Slaanesh^^** units while they are within the combat ranges of any friendly **^^Hedonites of Slaanesh Heroes^^**.",
+    "color": "Purple",
+    "abilityCategory": "Control"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

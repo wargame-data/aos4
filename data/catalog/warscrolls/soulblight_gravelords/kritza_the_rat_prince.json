@@ -53,7 +53,7 @@
   "abilities": [
     {
       "name": "Scurrying Retreat",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit is in combat, roll a dice. On a 3+, this unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.",
       "phase": "combat",
       "color": "Red",
@@ -61,7 +61,7 @@
     },
     {
       "name": "The Verminous Court",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, the target no longer has that artefact of power.",
       "phase": "combat",
       "declare": "Pick an enemy unit in combat with this unit to be the target, then pick an artefact of power that the target has.",

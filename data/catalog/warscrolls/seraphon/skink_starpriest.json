@@ -49,7 +49,7 @@
   "abilities": [
     {
       "name": "Serpent Staff",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 2+, the target’s melee weapons have **Crit (Auto-wound)** until the start of your next turn.",
       "phase": "hero",
       "declare": "Pick a visible friendly **^^Seraphon^^** unit wholly within 18\" of this unit to be the target.",

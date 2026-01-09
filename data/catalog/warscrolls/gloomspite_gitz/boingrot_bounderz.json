@@ -67,7 +67,7 @@
   "abilities": [
     {
       "name": "Boing! Smash!",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice for each model in this unit. For each 4+, inflict 1 mortal damage on the target.",
       "phase": "charge",
       "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",

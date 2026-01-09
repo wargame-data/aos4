@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.stormcast_eternals.thunderhead_host",
+  "bsdataId": "d73b-eea-9bf8-3b47",
+  "type": "battle-formation",
+  "name": "Thunderhead Host",
+  "faction": "stormcast_eternals",
+  "ability": {
+    "name": "Synchronised Strikes",
+    "type": "passive",
+    "effect": "Add 1 to hit rolls for combat attacks made by friendly **^^Warrior Chamber^^** units while they are wholly within 12\" of any friendly non-**^^Hero^^** non-**^^Beast Stormcast Eternals^^** units that do not have the **^^Warrior Chamber^^** keyword.",
+    "color": "Red",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

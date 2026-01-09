@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.ogor_mawtribes.prophets_of_the_gulping_god",
+  "bsdataId": "b5d5-6c0b-1c48-654a",
+  "type": "battle-formation",
+  "name": "Prophets of the Gulping God",
+  "faction": "ogor_mawtribes",
+  "ability": {
+    "name": "Master Butchers",
+    "type": "passive",
+    "effect": "Add 1 to casting rolls for friendly **^^Ogor Mawtribes Wizards^^**.",
+    "color": "Yellow",
+    "abilityCategory": "Special"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.slaves_to_darkness.despoilers",
+  "bsdataId": "7123-e80f-6ab5-a002",
+  "type": "battle-formation",
+  "name": "Despoilers",
+  "faction": "slaves_to_darkness",
+  "ability": {
+    "name": "Feral Ruin",
+    "type": "reaction",
+    "effect": "Pick a friendly non-**^^Hero Slaves to Darkness Monster^^** or **^^Beast^^** unit that has not used a **^^Fight^^** ability this turn and is wholly within 12\" of this unit to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved.",
+    "declare": "The **Daemon Prince** unit using that **^^Fight^^** ability.",
+    "color": "Red",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

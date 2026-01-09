@@ -87,7 +87,7 @@
     },
     {
       "name": "Harrying Aetherwing",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Until the start of your next turn, place **Taros** next to the target. While **Taros** is placed next to an enemy unit, that enemy unit cannot use commands.",
       "phase": "shooting",
       "declare": "If any attacks made with this unit’s **Stormcaller Bow** scored a critical hit this phase, pick an enemy unit targeted by those attacks to be the target.",

@@ -91,7 +91,7 @@
     },
     {
       "name": "Entangling Grasp",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, the target cannot use **^^Run^^** or **^^Retreat^^** abilities until the start of your next turn.",
       "phase": "shooting",
       "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Strangleroots** to be the target.",

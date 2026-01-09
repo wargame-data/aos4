@@ -50,7 +50,7 @@
   "abilities": [
     {
       "name": "Warning Cry",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
       "phase": "shooting",
       "declare": "Pick an enemy unit within 12\" of this unit that was set up this turn. Then, pick up to 3 friendly **^^Stormcast Eternals^^** units armed with ranged weapons that are within 12\" of that enemy unit to be the targets.",

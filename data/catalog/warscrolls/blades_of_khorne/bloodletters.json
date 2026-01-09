@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Ceaseless Violence",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit is in combat, it can move 3\". It can pass through the combat ranges of enemy units and must end that move in combat.",
       "phase": "combat",
       "color": "Red",

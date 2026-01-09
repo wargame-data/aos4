@@ -55,7 +55,7 @@
     },
     {
       "name": "Breath of the Mire-drakes",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice for each target. On a 1, this ability has no effect. On a 2-5, inflict 1 mortal damage on the target. On a 6, inflict D3 mortal damage on the target.",
       "phase": "combat",
       "declare": "Pick each enemy unit in combat with this unit to be the targets.",

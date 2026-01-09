@@ -57,7 +57,7 @@
   "abilities": [
     {
       "name": "Gor Stampede",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, the target has **^^Strike-last^^** for the rest of the turn",
       "phase": "charge",
       "declare": "If this unit charged this phase, pick an enemy non-**^^Hero Infantry^^** unit that has fewer models than this unit and is within 1\" of it to be the target.",

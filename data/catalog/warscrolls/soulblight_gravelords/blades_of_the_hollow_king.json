@@ -79,7 +79,7 @@
   "abilities": [
     {
       "name": "Solia, the Tutor",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Pick 1 of the following to apply for the rest of the turn:\n• This unit has **^^Ward (5+)^^**\n• This unit's **Ezechiarian Greatsword** has **Crit (Mortal)**",
       "phase": "combat",
       "declare": "This unit can use this ability while its **Cado Ezechiar** is on the battlefield.",
@@ -88,7 +88,7 @@
     },
     {
       "name": "Aurelias",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Pick 1 of the following to apply for the rest of the turn:\n• Add 1 to this unit's power level.\n• Each time a casting roll is made for this unit, you can re-roll 1 of the dice.",
       "phase": "hero",
       "declare": "This unit can use this ability while its **Aurelias** is on the battlefield.",

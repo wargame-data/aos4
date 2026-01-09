@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.gloomspite_gitz.troggherd",
+  "bsdataId": "4a89-e3d3-88cf-855b",
+  "type": "battle-formation",
+  "name": "Troggherd",
+  "faction": "gloomspite_gitz",
+  "ability": {
+    "name": "Herd Healing",
+    "type": "passive",
+    "effect": "Each time a friendly **^^Troggoth^^** unit uses a **^^Fight^^** ability, after that ability has been resolved, **Heal (D3)** that unit.",
+    "color": "Green",
+    "abilityCategory": "Defensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

@@ -67,7 +67,7 @@
     },
     {
       "name": "All Part of da Plan",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Add 3 to the target’s control score until the start of your next turn.",
       "phase": "hero",
       "declare": "Pick another friendly **^^Kruleboyz^^** unit wholly within 9\" of this unit to be the target.",

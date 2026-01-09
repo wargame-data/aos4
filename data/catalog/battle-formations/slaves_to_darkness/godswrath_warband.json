@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.slaves_to_darkness.godswrath_warband",
+  "bsdataId": "756c-d9af-32e5-e075",
+  "type": "battle-formation",
+  "name": "Godswrath Warband",
+  "faction": "slaves_to_darkness",
+  "ability": {
+    "name": "Ironclad Onslaught",
+    "type": "once-per-turn",
+    "effect": "Place a **defiled token** next to the target objective. Then, roll a D3 for each enemy unit contesting an objective that has a friendly **defiled token**. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
+    "declare": "Pick an objective that is contested by any friendly units to be the target.",
+    "color": "Purple",
+    "abilityCategory": "Special"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

@@ -63,7 +63,7 @@
   "abilities": [
     {
       "name": "Lord of Flesh-grafting",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "**Heal (3)** the target.",
       "phase": "any",
       "declare": "Pick another friendly **^^Moulder^^** unit wholly within 13\" of this unit to be the target.",
@@ -72,7 +72,7 @@
     },
     {
       "name": "Tyrannical Packmaster",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Add 1 to charge rolls for the target for the rest of the turn.",
       "phase": "charge",
       "declare": "Pick another friendly **^^Moulder^^** unit within this unit’s combat range to be the target.",

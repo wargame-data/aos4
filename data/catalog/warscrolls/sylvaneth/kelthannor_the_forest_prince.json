@@ -66,7 +66,7 @@
   "abilities": [
     {
       "name": "Debilitating Shot",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target’s weapons until the start of your next turn.",
       "phase": "shooting",
       "declare": "Pick an enemy unit that has no more than 1 model and that had any damage points allocated to it this phase by this unit’s shooting attacks to be the target.",
@@ -75,7 +75,7 @@
     },
     {
       "name": "Clarion of the Forest Prince",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "The target can move 3\". It can move through and end that move within the combat ranges of enemy units that it was in combat with at the start of that move, but not those of other enemy units. It does not have to end the move in combat.",
       "phase": "hero",
       "declare": "Pick a friendly non-**^^War Machine^^** unit wholly within 12\" of this unit to be the target.",

@@ -58,7 +58,7 @@
     },
     {
       "name": "Tanglethorn Thicket",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice for each model in this unit. For each 3+, inflict 1 mortal damage on the target.",
       "phase": "combat",
       "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",

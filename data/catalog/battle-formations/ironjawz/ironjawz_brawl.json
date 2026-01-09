@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.ironjawz.ironjawz_brawl",
+  "bsdataId": "f065-c325-c819-c441",
+  "type": "battle-formation",
+  "name": "Ironjawz Brawl",
+  "faction": "ironjawz",
+  "ability": {
+    "name": "Natural Disaster",
+    "type": "passive",
+    "effect": "If you make an unmodified charge roll of 8+ for a friendly non-**^^Hero Ironjawz^^** unit, add 1 to the Attacks characteristic of that unit’s melee weapons for the rest of the turn.",
+    "color": "Orange",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

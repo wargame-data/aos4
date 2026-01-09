@@ -55,7 +55,7 @@
   "abilities": [
     {
       "name": "Fury of the Wildlands",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If any enemy models have been slain by this unit’s combat attacks this turn, until the end of the next turn:\n• This unit cannot use **^^Retreat^^** abilities.\n• Add 1 to hit rolls for this unit’s combat attacks.",
       "phase": "any",
       "declare": "You must use this ability.",
@@ -64,7 +64,7 @@
     },
     {
       "name": "Ebon Claw",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Allocate D3 damage points to this unit (ward rolls cannot be made for those damage points). Then, add the number of damage points allocated to this unit by this ability this turn to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.",
       "phase": "hero",
       "color": "Yellow",

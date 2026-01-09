@@ -1,0 +1,17 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.cities_of_sigmar.dawnbringer_crusade",
+  "bsdataId": "225e-a217-d55-2cb0",
+  "type": "battle-formation",
+  "name": "Dawnbringer Crusade",
+  "faction": "cities_of_sigmar",
+  "ability": {
+    "name": "'Forward, Dawners!'",
+    "type": "passive",
+    "effect": "Add 2\" to the **^^Move^^** characteristic of friendly **^^Cities of Sigmar^^** units in the first battle round."
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

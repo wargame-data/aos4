@@ -83,7 +83,7 @@
     },
     {
       "name": "Judgement from Afar",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Add 1 to hit rolls for combat attacks made by friendly **^^Warflock^^** units that target that enemy unit for the rest of the turn.",
       "phase": "shooting",
       "declare": "Pick an enemy unit that had any damage points allocated to it by this unit’s attacks this phase to be the target.",

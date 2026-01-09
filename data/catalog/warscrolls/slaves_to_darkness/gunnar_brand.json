@@ -53,7 +53,7 @@
   "abilities": [
     {
       "name": "Carve a Path to Glory",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "This unit can use 2 **^^Fight^^** abilities this phase. After the first is used, however, this unit has **^^Strike-last^^** for the rest of the turn. When using the second **^^Fight^^** ability, this unit must pick an enemy **^^Hero^^** to be the target of all of its attacks.",
       "phase": "combat",
       "declare": "This unit can only use this ability if it is in combat with an enemy **^^Hero^^**.",

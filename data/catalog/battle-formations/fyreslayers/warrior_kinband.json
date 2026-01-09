@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.fyreslayers.warrior_kinband",
+  "bsdataId": "57e1-db1e-6cbb-cf26",
+  "type": "battle-formation",
+  "name": "Warrior Kinband",
+  "faction": "fyreslayers",
+  "ability": {
+    "name": "Berserk Kindred",
+    "type": "passive",
+    "effect": "Add 1 to wound rolls for combat attacks made by friendly **^^Fyreslayers Infantry^^** units that charged in the same turn.",
+    "color": "Red",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

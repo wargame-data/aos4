@@ -83,7 +83,7 @@
     },
     {
       "name": "Command Underlings",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Add 3\" to the Move characteristic of each target for the rest of the turn.",
       "phase": "hero",
       "declare": "Pick up to 3 friendly **^^Cities of Sigmar Aelf Infantry^^** units wholly within 12\" of this unit to be targets.",

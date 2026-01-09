@@ -41,7 +41,7 @@
     },
     {
       "name": "Reigning Champion",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Place the target on this terrain feature. The target is now the Steward (see ‘Steward of the Realm’).",
       "phase": "hero",
       "declare": "If this terrain feature does not have a Steward, pick a friendly **^^Flesh-eater Courts Infantry Hero^^** within 3\" of it and not in combat to be the target.",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Ruler of All They Survey",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "The target can move D3\". If the target was set up this turn, it can move D6\" instead. It cannot move into combat during that move.",
       "phase": "movement",
       "declare": "If this terrain feature has a Steward, pick a visible friendly non-**^^Hero Flesh-eater Courts^^** unit that is not in combat to be the target.",
@@ -59,7 +59,7 @@
     },
     {
       "name": "Duty Calls",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this terrain feature has a Steward that was not placed on it this turn, set up the Steward on the battlefield wholly within 6\" of this terrain feature and not in combat. That unit is no longer the Steward.",
       "phase": "movement",
       "color": "Gray",

@@ -49,7 +49,7 @@
   "abilities": [
     {
       "name": "Unbridled Malice",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.",
       "phase": "combat",
       "declare": "Pick an enemy **^^Infantry^^** unit in combat with this unit to be the target.",

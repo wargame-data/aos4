@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.kruleboyz.kruleboyz_klaw",
+  "bsdataId": "7a3f-3301-a475-cda7",
+  "type": "battle-formation",
+  "name": "Kruleboyz Klaw",
+  "faction": "kruleboyz",
+  "ability": {
+    "name": "Swamp Shroud",
+    "type": "passive",
+    "effect": "Friendly **^^Kruleboyz^^** units that are wholly within 3\" of a terrain feature are not visible to enemy units that are more than 12\" away from them.",
+    "color": "Green",
+    "abilityCategory": "Defensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

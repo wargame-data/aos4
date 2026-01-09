@@ -10,11 +10,13 @@ import {
   WARSCROLLS_DIR,
   CATALOG_LORES_DIR,
   ENHANCEMENTS_DIR,
+  BATTLE_FORMATIONS_DIR,
   POINTS_DIR,
 } from "../config.js";
 import type { Warscroll } from "../../schemas/schemas/warscroll.schema.js";
 import type { Spell, Prayer } from "../../schemas/schemas/spell.schema.js";
 import type { Enhancement } from "../../schemas/schemas/enhancement.schema.js";
+import type { BattleFormation } from "../../schemas/schemas/battle-formation.schema.js";
 import type { PointsPack } from "../../schemas/schemas/points-pack.schema.js";
 
 /**
@@ -82,6 +84,7 @@ export function ensureCatalogStructure(): void {
   ensureDir(WARSCROLLS_DIR);
   ensureDir(CATALOG_LORES_DIR);
   ensureDir(ENHANCEMENTS_DIR);
+  ensureDir(BATTLE_FORMATIONS_DIR);
   ensureDir(POINTS_DIR);
 }
 
@@ -234,13 +237,31 @@ function getEnhancementFaction(enhancement: Enhancement): string {
 }
 
 /**
+ * Extract subfaction from enhancement keywords
+ * Returns undefined if the enhancement doesn't belong to a subfaction
+ */
+function getEnhancementSubfaction(enhancement: Enhancement): string | undefined {
+  const subfactionKeyword = enhancement.keywords.find((k) => k.startsWith("subfaction:"));
+  if (subfactionKeyword) {
+    return subfactionKeyword.substring(11);
+  }
+  return undefined;
+}
+
+/**
  * Determine output path for an enhancement
  * data/catalog/enhancements/{faction}/{name}.json
+ * or data/catalog/enhancements/{faction}/{subfaction}/{name}.json for subfaction-specific
  */
 export function getEnhancementOutputPath(enhancement: Enhancement, baseDir?: string): string {
   const dir = baseDir || ENHANCEMENTS_DIR;
   const name = extractNameFromQualifiedId(enhancement.id);
   const faction = getEnhancementFaction(enhancement);
+  const subfaction = getEnhancementSubfaction(enhancement);
+
+  if (subfaction) {
+    return join(dir, faction, subfaction, `${name}.json`);
+  }
   return join(dir, faction, `${name}.json`);
 }
 
@@ -265,4 +286,37 @@ export function writeEnhancements(
   baseDir?: string
 ): WriteResult[] {
   return enhancements.map((enhancement) => writeEnhancement(enhancement, options, baseDir));
+}
+
+/**
+ * Determine output path for a battle formation
+ * data/catalog/battle-formations/{faction}/{name}.json
+ */
+export function getBattleFormationOutputPath(formation: BattleFormation, baseDir?: string): string {
+  const dir = baseDir || BATTLE_FORMATIONS_DIR;
+  const name = extractNameFromQualifiedId(formation.id);
+  return join(dir, formation.faction, `${name}.json`);
+}
+
+/**
+ * Write a battle formation to the catalog
+ */
+export function writeBattleFormation(
+  formation: BattleFormation,
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult {
+  const path = getBattleFormationOutputPath(formation, baseDir);
+  return writeJson(path, formation, options);
+}
+
+/**
+ * Write multiple battle formations
+ */
+export function writeBattleFormations(
+  formations: BattleFormation[],
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult[] {
+  return formations.map((formation) => writeBattleFormation(formation, options, baseDir));
 }

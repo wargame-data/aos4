@@ -83,7 +83,7 @@
     },
     {
       "name": "Dead for Innumerable Ages",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "This unit must use this ability each turn while it is damaged. Roll 3D6 and add the number of damage points this unit has to the roll. On a 20+, this unit is destroyed. Otherwise, **Heal (18)** this unit.",
       "phase": "any",
       "color": "Purple",

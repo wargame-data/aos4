@@ -79,7 +79,7 @@
     },
     {
       "name": "Warding Lantern",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "For the rest of the turn:\n• Friendly **^^Stormcast Eternals^^** units have **^^Ward (6+)^^** while they are contesting the target.\n• Ward rolls cannot be made for enemy units while they are contesting the target.",
       "phase": "hero",
       "declare": "Pick an objective within 12” of this unit to be the target.",

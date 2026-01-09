@@ -58,7 +58,7 @@
     },
     {
       "name": "Commanding Presence",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Add the current battle round number to the control scores of friendly **^^Fyreslayers Infantry^^** units wholly within 12\" of this unit for the rest of the turn.",
       "phase": "any",
       "color": "Purple",

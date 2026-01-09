@@ -76,7 +76,7 @@
     },
     {
       "name": "Malfunctioning Leystone",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll 3 dice. You must pick 1 of those dice and apply the effect that corresponds to its value. Effects 2-6 persist until the start of your next turn.\n**1 *Glyph of Shyish:*** Inflict D3 mortal damage on this unit.\n**2 *Glyph of Ghur:*** Add 1 to the Attacks characteristic of melee weapons used by friendly **^^Troggoth^^** units while they are wholly within 12\" of this unit.\n**3 *Glyph of Aqshy:*** Add 1 to the Rend characteristic of melee weapons used by friendly **^^Troggoth^^** units while they are wholly within 12\" of this unit.\n**4 *Glyph of Hysh:*** This unit can use Unbind abilities as if it had **^^Wizard (1)^^**.\n**5 *Glyph of Ulgu:*** Subtract 1 from hit rolls for shooting attacks that target friendly **^^Troggoth^^** units while they are wholly within 12\" of this unit.\n**6 *Glyph of Chamon:*** This unit has **^^Ward (5+)^^**.",
       "phase": "hero",
       "color": "Yellow",
@@ -84,7 +84,7 @@
     },
     {
       "name": "Greater Regeneration",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "**Heal (D6)** this unit.",
       "phase": "any",
       "color": "Black",

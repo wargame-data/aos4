@@ -52,7 +52,7 @@
   "abilities": [
     {
       "name": "Discharge Armour",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Remove this unit’s **arcane charge token**, then add 1 to casting rolls for the target for the rest of the turn.",
       "phase": "hero",
       "declare": "If this unit has an **arcane charge token**, pick a friendly **^^Ossiarch Bonereapers Wizard^^** wholly within 12\" of this unit to be the target.",

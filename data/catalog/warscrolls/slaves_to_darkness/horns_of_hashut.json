@@ -64,7 +64,7 @@
   "abilities": [
     {
       "name": "Stampede of Iron",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice for each model in this unit that is within the target’s combat range. For each 5+, inflict 1 mortal damage on the target. If 3 or more mortal damage is inflicted on the target by this ability, subtract 1 from hit rolls for the target’s combat attacks for the rest of the turn.",
       "phase": "charge",
       "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",

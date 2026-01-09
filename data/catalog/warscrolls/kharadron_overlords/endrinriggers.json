@@ -101,7 +101,7 @@
   "abilities": [
     {
       "name": "Emergency Field Repairs",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Make a field repairs roll of D6 for each model in this unit. For each 4-5, **Heal (1)** the target. For each 6, **Heal (2)** the target.",
       "phase": "any",
       "declare": "Pick a friendly **^^Skyvessel^^** or **Zontari Endrin Dock** within this unit’s combat range to be the target.",

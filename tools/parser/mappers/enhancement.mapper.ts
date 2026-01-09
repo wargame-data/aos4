@@ -11,8 +11,8 @@ import type {
   BSCatalogue,
 } from "../xml/types.js";
 import { BaseMapper, type MapperOptions } from "./base.js";
-import { findCharacteristic, findAttribute } from "../xml/reader.js";
-import { findEnhancementGroupsWithInfo } from "../xml/traverser.js";
+import { findCharacteristic, findAttribute, type CatalogueInfo } from "../xml/reader.js";
+import { findEnhancementGroupsWithInfo, buildEnhancementGroupToSubfactionMap } from "../xml/traverser.js";
 import { toUnderscoreId, toQualifiedId } from "../transformers/id.js";
 import { SCHEMA_URLS } from "../config.js";
 import type { Enhancement } from "../../schemas/schemas/enhancement.schema.js";
@@ -32,6 +32,8 @@ export interface EnhancementMapperInput {
   parentGroupName: string;
   subGroupName: string;
   restrictions?: string;
+  /** Subfaction ID if this enhancement belongs to a subfaction */
+  subfactionId?: string;
 }
 
 /**
@@ -43,7 +45,7 @@ export class EnhancementMapper extends BaseMapper<EnhancementMapperInput, Enhanc
   }
 
   map(input: EnhancementMapperInput): Enhancement {
-    const { entry, profile, parentGroupName, subGroupName, restrictions } = input;
+    const { entry, profile, parentGroupName, subGroupName, restrictions, subfactionId } = input;
 
     const name = entry.$.name;
     const bsdataId = entry.$.id;
@@ -63,7 +65,7 @@ export class EnhancementMapper extends BaseMapper<EnhancementMapperInput, Enhanc
     }
 
     // Build keywords
-    const keywords = this.buildKeywords(parentGroupName, subGroupName);
+    const keywords = this.buildKeywords(parentGroupName, subGroupName, subfactionId);
 
     // Parse requirements from restrictions text
     const requirements = this.parseRequirements(restrictions);
@@ -111,7 +113,7 @@ export class EnhancementMapper extends BaseMapper<EnhancementMapperInput, Enhanc
   /**
    * Build keywords from group names
    */
-  private buildKeywords(parentGroupName: string, subGroupName: string): string[] {
+  private buildKeywords(parentGroupName: string, subGroupName: string, subfactionId?: string): string[] {
     const keywords: string[] = [];
 
     // Determine enhancement type from parent/sub group name
@@ -120,6 +122,11 @@ export class EnhancementMapper extends BaseMapper<EnhancementMapperInput, Enhanc
 
     // Add faction keyword
     keywords.push(`faction:${this.options.factionId}`);
+
+    // Add subfaction keyword if applicable
+    if (subfactionId) {
+      keywords.push(`subfaction:${subfactionId}`);
+    }
 
     return keywords;
   }
@@ -299,15 +306,29 @@ function extractFactionFromKeywords(keywords: string[]): string | undefined {
  */
 export function mapEnhancements(
   catalogue: BSCatalogue,
-  options: MapperOptions
+  options: MapperOptions,
+  catalogueInfoMap?: Map<string, CatalogueInfo>
 ): Enhancement[] {
   const enhancementGroups = findEnhancementGroupsWithInfo(catalogue);
+  const groupToSubfactionMap = buildEnhancementGroupToSubfactionMap(catalogue);
   const mapper = new EnhancementMapper(options);
   const enhancements: Enhancement[] = [];
   const seenIds = new Set<string>();
 
   for (const groupInfo of enhancementGroups) {
-    const { parentGroupName, subGroupName, restrictions, entries } = groupInfo;
+    const { parentGroupName, subGroupName, subGroupId, restrictions, entries } = groupInfo;
+
+    // Determine if this group belongs to a subfaction
+    let subfactionId: string | undefined;
+    if (catalogueInfoMap) {
+      const catalogueId = groupToSubfactionMap.get(subGroupId);
+      if (catalogueId) {
+        const catalogueInfo = catalogueInfoMap.get(catalogueId);
+        if (catalogueInfo?.isSubfaction && catalogueInfo.subfactionName) {
+          subfactionId = toUnderscoreId(catalogueInfo.subfactionName);
+        }
+      }
+    }
 
     for (const entry of entries) {
       // Skip hidden entries
@@ -332,6 +353,7 @@ export function mapEnhancements(
           parentGroupName,
           subGroupName,
           restrictions,
+          subfactionId,
         });
 
         // Avoid duplicates (same BSData ID)
@@ -365,4 +387,16 @@ export function getEnhancementFaction(enhancement: Enhancement): string {
   }
 
   return "shared";
+}
+
+/**
+ * Get the subfaction ID for an enhancement (for output path)
+ * Returns undefined if the enhancement doesn't belong to a subfaction
+ */
+export function getEnhancementSubfaction(enhancement: Enhancement): string | undefined {
+  const subfactionKeyword = enhancement.keywords.find((k) => k.startsWith("subfaction:"));
+  if (subfactionKeyword) {
+    return subfactionKeyword.substring(11);
+  }
+  return undefined;
 }

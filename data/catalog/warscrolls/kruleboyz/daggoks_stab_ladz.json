@@ -54,7 +54,7 @@
   "abilities": [
     {
       "name": "Roar of Kragnos",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
       "phase": "combat",
       "declare": "If this unit’s **Hurrk da Howla** is on the battlefield, pick an enemy unit in combat with this unit to be the target.",

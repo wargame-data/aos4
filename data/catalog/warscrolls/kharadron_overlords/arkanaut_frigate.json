@@ -60,7 +60,7 @@
   "abilities": [
     {
       "name": "Assault Boat",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "This unit can move a distance up to the value of the charge roll and must end the move within 1/2\" of a visible enemy unit. If it does so:\n• Remove the targets from the battlefield and set them up again wholly within this unit’s combat range. The targets can be set up in combat.\n• This unit and the targets have charged, and the targets cannot use another **^^Core^^** ability this phase.\n• Pick up to 1 of the targets to have **^^Strike-first^^** for the rest of the turn.",
       "phase": "charge",
       "declare": "This unit cannot use this ability if it is in combat or has used a **^^Run^^** or **^^Retreat^^** ability this turn. Pick a number of units up to its Transport Capacity that are wholly within 6\" of it, are not in combat and that have not charged this turn to be the targets. Then, make a charge roll of 2D6.",
@@ -80,7 +80,7 @@
     },
     {
       "name": "Medium Bomb Racks",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll 6 dice. For each 4+, inflict 1 mortal damage on the target.",
       "phase": "movement",
       "declare": "Pick an enemy unit that does not have **^^Fly^^** and that this unit passed across this phase to be the target.",

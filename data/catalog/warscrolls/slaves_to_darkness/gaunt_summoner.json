@@ -66,7 +66,7 @@
   "abilities": [
     {
       "name": "Minions of the Silver Tower",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "The target is set up in reserve **in a Silver Tower**. It has now been deployed.",
       "declare": "Pick a friendly unit that has not been deployed to be the target",
       "keywords": [
@@ -77,7 +77,7 @@
     },
     {
       "name": "Book of Profane Secrets",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up the target on the battlefield wholly within 12\" of this unit and more than 9\" from all enemy units.",
       "phase": "movement",
       "declare": "Pick a friendly unit **in a Silver Tower** to be the target.",

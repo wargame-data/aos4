@@ -41,7 +41,7 @@
     },
     {
       "name": "Power Unleashed",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If that terrain feature has a Health characteristic, inflict D3 mortal damage on it.",
       "phase": "hero",
       "declare": "If there are any friendly **^^Seraphon Wizards^^** within 3\" of this terrain feature, pick another terrain feature within 24\" of this terrain feature, then pick up to 3 enemy units within 3\" of that terrain feature to be the targets.",

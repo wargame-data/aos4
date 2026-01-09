@@ -19,10 +19,7 @@ import { toUnderscoreId, toQualifiedId } from "../transformers/id.js";
 import { SCHEMA_URLS } from "../config.js";
 import type { Spell, Prayer } from "../../schemas/schemas/spell.schema.js";
 import type { AbilityColor, AbilityCategory } from "./ability.mapper.js";
-
-// Profile type IDs for spells and prayers
-const SPELL_PROFILE_TYPE_ID = "7312-8367-c171-f2ef";
-const PRAYER_PROFILE_TYPE_ID = "5946-234-d7b4-6195";
+import { PROFILE_TYPES } from "../xml/gst-ids.js";
 
 /**
  * Input for spell mapping
@@ -257,7 +254,7 @@ function hasSpellProfiles(group: BSSelectionEntryGroup): boolean {
       if (entry.profiles) {
         for (const profile of entry.profiles) {
           if (
-            profile.$.typeId === SPELL_PROFILE_TYPE_ID ||
+            profile.$.typeId === PROFILE_TYPES.ABILITY_SPELL ||
             profile.$.typeName?.toLowerCase().includes("spell")
           ) {
             return true;
@@ -278,7 +275,7 @@ function hasPrayerProfiles(group: BSSelectionEntryGroup): boolean {
       if (entry.profiles) {
         for (const profile of entry.profiles) {
           if (
-            profile.$.typeId === PRAYER_PROFILE_TYPE_ID ||
+            profile.$.typeId === PROFILE_TYPES.ABILITY_PRAYER ||
             profile.$.typeName?.toLowerCase().includes("prayer")
           ) {
             return true;
@@ -301,7 +298,7 @@ function extractSpellProfilesFromGroup(group: BSSelectionEntryGroup): { profile:
       if (entry.profiles) {
         for (const profile of entry.profiles) {
           if (
-            profile.$.typeId === SPELL_PROFILE_TYPE_ID ||
+            profile.$.typeId === PROFILE_TYPES.ABILITY_SPELL ||
             profile.$.typeName?.toLowerCase().includes("spell")
           ) {
             results.push({ profile, entry });
@@ -332,7 +329,7 @@ function extractPrayerProfilesFromGroup(group: BSSelectionEntryGroup): { profile
       if (entry.profiles) {
         for (const profile of entry.profiles) {
           if (
-            profile.$.typeId === PRAYER_PROFILE_TYPE_ID ||
+            profile.$.typeId === PROFILE_TYPES.ABILITY_PRAYER ||
             profile.$.typeName?.toLowerCase().includes("prayer")
           ) {
             results.push({ profile, entry });
@@ -399,7 +396,7 @@ export function mapIndividualSpells(
       if (entry.profiles) {
         for (const profile of entry.profiles) {
           if (
-            profile.$.typeId === SPELL_PROFILE_TYPE_ID ||
+            profile.$.typeId === PROFILE_TYPES.ABILITY_SPELL ||
             profile.$.typeName?.toLowerCase().includes("spell")
           ) {
             const spell = spellMapper.map({

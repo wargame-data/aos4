@@ -51,7 +51,7 @@
   "abilities": [
     {
       "name": "Emergence",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units. Then, set up the other unit that was set up **underground** with it (if any) wholly within 6\" of this unit and more than 9\" from all enemy units.",
       "phase": "hero",
       "declare": "Pick this unit if it is **underground**.",
@@ -60,7 +60,7 @@
     },
     {
       "name": "Magmic Tunnelling",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up those units in reserve **underground**. They have now been deployed.",
       "declare": "Pick this unit and up to 1 unit in its regiment if neither unit has been deployed.",
       "keywords": [

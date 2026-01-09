@@ -51,7 +51,7 @@
   "abilities": [
     {
       "name": "Shield Bash",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Make a shield bash roll of D6 for each model in this unit that is within 3\" of the target. For each 6+, inflict 1 mortal damage on the target.",
       "phase": "combat",
       "declare": "Pick an enemy unit within 1\" of this unit to be the target.",

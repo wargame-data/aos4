@@ -55,7 +55,7 @@
   "abilities": [
     {
       "name": "Coven Guard",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit did not charge this turn, add 1 to wound rolls for this unit’s attacks for the rest of the turn.",
       "phase": "combat",
       "color": "Red",

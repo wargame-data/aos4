@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.nighthaunt.death_stalkers",
+  "bsdataId": "ca91-2d4e-9ff4-c24",
+  "type": "battle-formation",
+  "name": "Death Stalkers",
+  "faction": "nighthaunt",
+  "ability": {
+    "name": "There Is No Escape",
+    "type": "once-per-turn",
+    "effect": "For the rest of the turn:\n• The target unit can still use **^^Charge^^** and **^^Shoot^^** abilities even if it has used a **^^Retreat^^** ability in the same turn.\n• The target can use the 'Retreat' ability without any mortal damage being inflicted on it.",
+    "phase": "movement",
+    "declare": "Pick a friendly **^^Nighthaunt^^** unit to be the target.",
+    "color": "Gray",
+    "abilityCategory": "Special"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

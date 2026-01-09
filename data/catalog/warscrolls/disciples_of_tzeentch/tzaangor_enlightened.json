@@ -50,7 +50,7 @@
   "abilities": [
     {
       "name": "Babbling Stream of Secrets",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.",
       "phase": "charge",
       "declare": "If this unit charged this phase, pick an enemy unit in combat with it to be the target.",

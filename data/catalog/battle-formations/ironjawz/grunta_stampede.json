@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.ironjawz.grunta_stampede",
+  "bsdataId": "6c2d-5429-6255-9f2a",
+  "type": "battle-formation",
+  "name": "Grunta Stampede",
+  "faction": "ironjawz",
+  "ability": {
+    "name": "'Ere We Come",
+    "type": "passive",
+    "effect": "Add the number of enemy units that have been destroyed this battle to the Move characteristic of friendly **Gore-gruntas** and **^^Maw-grunta^^** units, to a maximum of +4.",
+    "color": "Gray",
+    "abilityCategory": "Movement"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

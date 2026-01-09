@@ -213,6 +213,19 @@ export function findCharacteristic(
 }
 
 /**
+ * Find characteristics by typeId in a profile.
+ * This is the preferred method as it uses IDs from the GST file
+ * rather than relying on name strings.
+ */
+export function findCharacteristicById(
+  profile: { characteristics?: Array<{ $: { name: string; typeId: string }; _?: string }> },
+  typeId: string
+): string {
+  const char = profile.characteristics?.find((c) => c.$.typeId === typeId);
+  return getCharacteristicValue(char);
+}
+
+/**
  * Find attribute by name in a profile
  */
 export function findAttribute(
@@ -258,6 +271,76 @@ export async function buildCatalogueIdMap(bsdataDir: string): Promise<Map<string
     }
 
     catalogueMap.set(catalogue.$.id, factionName);
+  }
+
+  return catalogueMap;
+}
+
+/**
+ * Information about a catalogue including subfaction details
+ */
+export interface CatalogueInfo {
+  /** Parent faction name (e.g., "Ironjawz") */
+  factionName: string;
+  /** Subfaction name if this is a subfaction catalogue (e.g., "Ironsunz") */
+  subfactionName?: string;
+  /** Whether this is a subfaction catalogue */
+  isSubfaction: boolean;
+}
+
+/**
+ * Build a map of catalogue ID to detailed catalogue info.
+ * Preserves subfaction identity for proper output organization.
+ *
+ * Examples:
+ * - "Ironjawz" → { factionName: "Ironjawz", isSubfaction: false }
+ * - "Ironjawz - Ironsunz [LEGENDS]" → { factionName: "Ironjawz", subfactionName: "Ironsunz", isSubfaction: true }
+ */
+export async function buildCatalogueInfoMap(bsdataDir: string): Promise<Map<string, CatalogueInfo>> {
+  const catalogueMap = new Map<string, CatalogueInfo>();
+  const catFiles = await glob(join(bsdataDir, "*.cat"));
+
+  for (const catFile of catFiles) {
+    const catalogue = await parseCat(catFile);
+
+    // Skip library catalogues
+    const isLibrary = catalogue.$.library === "true";
+    if (isLibrary) {
+      continue;
+    }
+
+    const rawName = catalogue.$.name;
+
+    // Skip non-faction catalogues (special characters prefix)
+    if (rawName.startsWith("þ") || rawName.startsWith("✦") || rawName.startsWith("❖") || rawName.startsWith("۞")) {
+      continue;
+    }
+
+    // Check if this is a subfaction catalogue (contains " - ")
+    if (rawName.includes(" - ")) {
+      const parts = rawName.split(" - ");
+      const factionName = parts[0].trim();
+      let subfactionName = parts.slice(1).join(" - ").trim();
+
+      // Remove [LEGENDS] suffix from subfaction name
+      subfactionName = subfactionName.replace(/\s*\[LEGENDS\]\s*/gi, "").trim();
+
+      catalogueMap.set(catalogue.$.id, {
+        factionName,
+        subfactionName,
+        isSubfaction: true,
+      });
+    } else {
+      // Main faction catalogue
+      let factionName = rawName;
+      // Remove [LEGENDS] suffix if present
+      factionName = factionName.replace(/\s*\[LEGENDS\]\s*/gi, "").trim();
+
+      catalogueMap.set(catalogue.$.id, {
+        factionName,
+        isSubfaction: false,
+      });
+    }
   }
 
   return catalogueMap;

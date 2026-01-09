@@ -96,7 +96,7 @@
     },
     {
       "name": "The End of Empires",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for friendly **^^Destruction^^** units while they are wholly within 12\" of this unit, to a maximum of 3.",
       "phase": "charge",
       "color": "Orange",

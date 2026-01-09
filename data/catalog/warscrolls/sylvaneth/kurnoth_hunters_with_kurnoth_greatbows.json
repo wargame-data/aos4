@@ -68,7 +68,7 @@
     },
     {
       "name": "Steady Aim",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "For the rest of the turn, this unit can ignore the effects of the ‘Guarded Hero’ ability (Core Rules, 25.0) when picking targets for its shooting attacks.",
       "phase": "shooting",
       "color": "Blue",

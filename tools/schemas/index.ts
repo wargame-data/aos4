@@ -27,6 +27,13 @@ export {
   type EnhancementLimits,
 } from "./schemas/enhancement.schema.js";
 
+// Battle formation schema
+export {
+  battleFormationSchema,
+  type BattleFormation,
+  type BattleFormationAbility,
+} from "./schemas/battle-formation.schema.js";
+
 // Points pack schema
 export {
   pointsPackSchema,

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.ironjawz.ironfist",
+  "bsdataId": "5327-56c8-288a-e5c6",
+  "type": "battle-formation",
+  "name": "Ironfist",
+  "faction": "ironjawz",
+  "ability": {
+    "name": "Smashin' and Bashin'",
+    "type": "passive",
+    "effect": "The first time each turn that an enemy unit is destroyed by a **^^Fight^^** ability used by a friendly **^^Ironjawz^^** unit, add 1 to hit rolls for combat attacks made by the next friendly **^^Ironjawz^^** unit that is picked to use a **^^Fight^^** ability for the rest of the turn.",
+    "color": "Red",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

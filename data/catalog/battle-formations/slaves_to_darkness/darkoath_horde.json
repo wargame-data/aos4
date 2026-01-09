@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.slaves_to_darkness.darkoath_horde",
+  "bsdataId": "4c0d-4c04-67b9-96ca",
+  "type": "battle-formation",
+  "name": "Darkoath Horde",
+  "faction": "slaves_to_darkness",
+  "ability": {
+    "name": "Rally the Tribes",
+    "type": "once-per-turn",
+    "effect": "Roll a dice. On a 3+, set up a replacement unit with half the number of models from the target unit (rounding up) on the battlefield, wholly within 6\" of a battlefield edge and more than 3\" from all enemy units.",
+    "phase": "movement",
+    "declare": "If there is a friendly **^^Darkoath Hero^^** on the battlefield, pick a friendly non-**^^Hero^^** non-**^^Unique Darkoath^^** unit that has been destroyed to be the target.",
+    "color": "Gray",
+    "abilityCategory": "Rallying"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

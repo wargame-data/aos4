@@ -52,14 +52,14 @@
   "abilities": [
     {
       "name": "Arch-Deceiver",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 3\" from all enemy units.",
       "color": "Black",
       "abilityCategory": "Movement"
     },
     {
       "name": "Puckish Misdirection",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, halve the target’s Move characteristic for the rest of the turn.",
       "phase": "hero",
       "declare": "Pick an enemy unit within 9\" of this unit to be the target.",

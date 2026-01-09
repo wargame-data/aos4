@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.ironjawz.weirdfist",
+  "bsdataId": "c2f8-2ea8-7d8b-5670",
+  "type": "battle-formation",
+  "name": "Weirdfist",
+  "faction": "ironjawz",
+  "ability": {
+    "name": "Spirit of Gork",
+    "type": "passive",
+    "effect": "Friendly **^^Ironjawz Infantry^^** units have **^^Ward (6+)^^** while they are wholly within 12\" of any friendly **^^Ironjawz Wizards^^** or **^^Priests^^**.",
+    "color": "Green",
+    "abilityCategory": "Defensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

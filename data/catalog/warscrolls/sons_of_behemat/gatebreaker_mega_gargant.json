@@ -99,7 +99,7 @@
     },
     {
       "name": "Pulverising Strike",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "This unit can make a pile-in move. Then, roll a dice. On a 4+, inflict 4D6 mortal damage on the target.",
       "phase": "combat",
       "declare": "Pick an enemy unit in combat with this unit to be the target.",

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.gloomspite_gitz.squigalanche",
+  "bsdataId": "2d24-d257-a91f-df11",
+  "type": "battle-formation",
+  "name": "Squigalanche",
+  "faction": "gloomspite_gitz",
+  "ability": {
+    "name": "Bouncing Fury",
+    "type": "passive",
+    "effect": "Each time a friendly **^^Squig^^** unit charges, add 1 to the Attacks characteristic of its **Fang-filled Gobs**, **Massive Fang-filled Gobs** or **Huge Fang-filled Gobs** for the rest of the turn.",
+    "color": "Red",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

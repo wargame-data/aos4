@@ -81,7 +81,7 @@
   "abilities": [
     {
       "name": "Siren Song of The Abyss",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "For the rest of the turn, add 1 to the Attacks characteristic of the targets' **Companion** weapons.",
       "phase": "combat",
       "declare": "Pick up to 3 friendly **^^Idoneth Deepkin^^** units wholly within 12\" of this unit to be the targets.",

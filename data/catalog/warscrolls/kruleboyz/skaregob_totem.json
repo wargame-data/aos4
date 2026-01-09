@@ -41,7 +41,7 @@
     },
     {
       "name": "Up We Go!",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Place the target on this terrain feature. The target is now a Shouty Boss (see ‘Man da Tower’).",
       "phase": "hero",
       "declare": "If this terrain feature does not have a Shouty Boss , pick a friendly **^^Kruleboyz Infantry Hero^^** that is not in combat and is within 3\" of it to be the target.",
@@ -57,7 +57,7 @@
     },
     {
       "name": "I'm Off!",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this terrain feature has a Shouty Boss that was not placed on it this turn, set up the Shouty Boss on the battlefield wholly within 6\" of this terrain feature and not in combat. That unit is no longer the Shouty Boss.",
       "phase": "movement",
       "color": "Gray",

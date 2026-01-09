@@ -84,7 +84,7 @@
     },
     {
       "name": "Lifebloom",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Pick 1 of the following effects:\n• Add 1 to casting rolls for this unit for the rest of the turn.\n• **Heal (2D3)** this unit.",
       "phase": "hero",
       "color": "Yellow",

@@ -83,7 +83,7 @@
     },
     {
       "name": "Deadly Symbiosis",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "For the rest of the turn, if either target uses the ‘All-out Attack’ or ‘All-out Defence’ command, the other target can also use the same command in the same phase and no command points are spent to use the command a second time.",
       "phase": "combat",
       "declare": "Pick a friendly non-**^^Hero Sybarite^^** unit and a friendly non-**^^Hero Hedonites of Slaanesh Daemon^^** unit to be the targets. Both units must be wholly within 12\" of this unit.",

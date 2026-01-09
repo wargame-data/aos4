@@ -87,7 +87,7 @@
     },
     {
       "name": "Beast-breaking Strike",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "This unit can make a pile-in move. Then, roll a dice. On a 4+, inflict 5D6 mortal damage on the target.",
       "phase": "combat",
       "declare": "Pick an enemy Monster in combat with this unit to be the target.",

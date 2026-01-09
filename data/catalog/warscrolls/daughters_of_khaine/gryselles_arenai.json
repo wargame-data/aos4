@@ -56,7 +56,7 @@
   "abilities": [
     {
       "name": "Acrobatic Bloodshed",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "For the rest of the turn, while this unit is in combat with the target, its combat attacks must target that enemy unit. In addition, if any of this unit’s attacks score a critical hit on the target this phase, the target has **^^Strike-last^^** for the rest of the turn.",
       "phase": "combat",
       "declare": "Pick an enemy unit in combat with this unit to be the target.",

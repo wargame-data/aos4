@@ -68,7 +68,7 @@
     },
     {
       "name": "Regenerating Monstrosity",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "**Heal (D6)** this unit.",
       "phase": "any",
       "color": "Purple",

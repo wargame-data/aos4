@@ -50,7 +50,7 @@
   "abilities": [
     {
       "name": "Hidden Agents",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up those units in reserve **in the shadows**. Those units have now been deployed.",
       "declare": "Pick this unit and a friendly **Callis and Toll** unit in the same regiment as this unit if those units have not been deployed.",
       "keywords": [
@@ -61,7 +61,7 @@
     },
     {
       "name": "Emerge from the Shadows",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units. Then, set up the **Callis and Toll** unit that was set up in the shadows with this unit wholly within 6\" of it and more than 9\" from all enemy units.",
       "phase": "movement",
       "declare": "Pick this unit if it is in the shadows.",

@@ -68,7 +68,7 @@
     },
     {
       "name": "The Court of the Lost",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 2+, pick 1 of the following effects to apply until the start of your next turn.\n• This unit has a Move characteristic of 12\". • Add 1 to casting rolls, unbinding rolls and banishment rolls for this unit.\n• This unit’s melee weapons have Crit (Mortal).",
       "phase": "hero",
       "color": "Yellow",

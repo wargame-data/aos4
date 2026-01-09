@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.nighthaunt.shrieker_host",
+  "bsdataId": "b5bd-1e28-d13-d5de",
+  "type": "battle-formation",
+  "name": "Shrieker Host",
+  "faction": "nighthaunt",
+  "ability": {
+    "name": "Petrify",
+    "type": "once-per-turn",
+    "effect": "For the rest of the turn, enemy units cannot use **^^Retreat^^** abilities while they are in combat with the target.",
+    "phase": "hero",
+    "declare": "Pick a friendly **^^Nighthaunt Hero^^** to be the target.",
+    "color": "Yellow",
+    "abilityCategory": "Movement"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

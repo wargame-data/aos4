@@ -62,7 +62,7 @@
   "abilities": [
     {
       "name": "Coordinated Strike",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Add 1 to wound rolls for combat attacks made by friendly **^^Vanguard Chamber^^** units that target that enemy unit for the rest of the turn.",
       "phase": "shooting",
       "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Hurricane Crossbows** to be the target.",

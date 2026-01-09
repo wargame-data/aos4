@@ -49,7 +49,7 @@
   "abilities": [
     {
       "name": "Runic Crucible",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Pick a friendly **^^Cities of Sigmar Human^^** unit wholly within 12\" of this unit and roll a dice. On a 3+, add 1 to save rolls for that unit until the start of your next turn.",
       "phase": "hero",
       "color": "Yellow",

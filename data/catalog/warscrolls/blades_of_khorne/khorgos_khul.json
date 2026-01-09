@@ -88,7 +88,7 @@
     },
     {
       "name": "Reality-Splitting Axe",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 5+, one model in that unit is slain.",
       "phase": "any",
       "declare": "Pick an enemy unit that had any damage points allocated to it this turn by combat attacks made by this unit to be the target.",

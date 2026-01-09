@@ -41,7 +41,7 @@
     },
     {
       "name": "Feed the Maw",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Place the target on this terrain feature. The target is now a Head Butcher (see ‘Altar of the Gulping God’).",
       "phase": "hero",
       "declare": "If this terrain feature does not have a Head Butcher, pick a friendly **Butcher** or **Slaughtermaster** within 3\" of it and not in combat to be the target.",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Throat of Ghur",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a D3 for each target. Add 1 to the roll if the target is more than 3\" from all other enemy units. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
       "phase": "hero",
       "declare": "Pick up to 3 enemy units within 12\" of this terrain feature, or within 18\" if it has a Head Butcher, to be the targets.",
@@ -59,7 +59,7 @@
     },
     {
       "name": "Step Away From the Maw",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this terrain feature has a Head Butcher that was not placed on it this turn, set up the Head Butcher on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer a Head Butcher.",
       "phase": "movement",
       "color": "Gray",

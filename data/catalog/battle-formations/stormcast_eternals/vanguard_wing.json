@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.stormcast_eternals.vanguard_wing",
+  "bsdataId": "db3e-411b-d9f-407f",
+  "type": "battle-formation",
+  "name": "Vanguard Wing",
+  "faction": "stormcast_eternals",
+  "ability": {
+    "name": "Peerless Manoeuvres",
+    "type": "once-per-turn",
+    "effect": "Roll a dice. On a 3+, remove that unit from the battlefield and set it up again anywhere on the battlefield more than 9\" from all enemy units.",
+    "phase": "movement",
+    "declare": "Pick a friendly **^^Vanguard Chamber^^** unit that did not use a **^^Move^^** ability this turn and is not in combat."
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

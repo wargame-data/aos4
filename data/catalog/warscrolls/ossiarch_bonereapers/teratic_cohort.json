@@ -63,7 +63,7 @@
   "abilities": [
     {
       "name": "Predator's Cunning",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit in reserve **outflanking the enemy**. It has now been deployed.",
       "declare": "Pick this unit if it has not been deployed.",
       "keywords": [
@@ -74,7 +74,7 @@
     },
     {
       "name": "Hunters Unleashed",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
       "phase": "movement",
       "declare": "Pick this unit if it is **outflanking the enemy**.",

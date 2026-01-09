@@ -72,7 +72,7 @@
     },
     {
       "name": "Pack Alpha",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Add 1 to the Attacks characteristic of the targets’ **Companion** melee weapons for the rest of the turn.",
       "phase": "combat",
       "declare": "If this unit is in combat, pick this unit and up to 1 other visible friendly **^^Sacrosanct Chamber Cavalry^^** unit within its combat range to be the targets.",

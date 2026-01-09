@@ -78,7 +78,7 @@
   "abilities": [
     {
       "name": "Masters of Ambush",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up those units in reserve **outflanking the prey**. They have now been deployed.",
       "declare": "Pick this unit and up to 2 friendly **Frost Sabres** units if those units have not been deployed.",
       "keywords": [
@@ -89,7 +89,7 @@
     },
     {
       "name": "The Hunt Is On",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit wholly within 9\" of a battlefield edge and more than 9\" from all enemy units. Then, set up each **Frost Sabres** unit that was set up **outflanking the prey** with this unit wholly within 12\" of it and more than 9\" from all enemy units.",
       "phase": "movement",
       "declare": "Pick this unit if it is **outflanking the prey**.",

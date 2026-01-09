@@ -60,7 +60,7 @@
   "abilities": [
     {
       "name": "Secret Tunnels",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit in reserve **in a secret tunnel**. It has now been deployed.",
       "declare": "Pick this unit if it has not been deployed.",
       "keywords": [
@@ -78,7 +78,7 @@
     },
     {
       "name": "Emerge from the Depths",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
       "phase": "movement",
       "declare": "Pick this unit if it is in a secret tunnel.",

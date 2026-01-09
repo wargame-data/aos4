@@ -83,7 +83,7 @@
     },
     {
       "name": "Regenerating Terror",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "**Heal (D6)** this unit.",
       "phase": "any",
       "color": "Purple",

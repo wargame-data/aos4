@@ -69,7 +69,7 @@
     },
     {
       "name": "Wrest from the Realms",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit is in a **Soulblight Gravelords** army, pick a terrain feature within 3\" of this unit, then roll a dice and apply the corresponding effect. You cannot pick the same terrain feature more than once per battle.\n**1 *Cruel Hope:*** No effect.\n**2-4 *Cursed Flesh:*** You can return D3 slain models to this unit.\n**5-6 *Borrowed Power:*** Pick a friendly **^^Soulblight Gravelords Hero^^** wholly within 12\" of this unit that does not have an artefact of power. You can pick an artefact of power from the Soulblight Gravelords faction rules that no other friendly **^^Hero^^** has and give it to that **^^Hero^^**.",
       "phase": "hero",
       "color": "Yellow",

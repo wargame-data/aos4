@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.lumineth_realm_lords.scinari_council",
+  "bsdataId": "b184-c6aa-4d3f-5c66",
+  "type": "battle-formation",
+  "name": "Scinari Council",
+  "faction": "lumineth_realm_lords",
+  "ability": {
+    "name": "Lore of the Scinari",
+    "type": "passive",
+    "effect": "You can use the ‘Deep Thinkers’ ability in addition to the other **^^Facet of War^^** ability used during the battle round.",
+    "color": "Black",
+    "abilityCategory": "Special"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

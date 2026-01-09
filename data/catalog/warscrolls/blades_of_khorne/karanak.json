@@ -63,7 +63,7 @@
     },
     {
       "name": "Stalk the Prey",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Remove the targets from the battlefield and set them up again on the battlefield more than 6\" from this unit's quarry and more than 9\" from all other enemy units. If picked to be a target, the unit of **Flesh Hounds** must also be set up wholly within 12\" of this unit.",
       "phase": "movement",
       "declare": "If this unit's quarry is on the battlefield, pick this unit and up to 1 friendly **Flesh hounds** unit to be the targets.",

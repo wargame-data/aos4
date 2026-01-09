@@ -63,7 +63,7 @@
   "abilities": [
     {
       "name": "Healing Light",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If the target is damaged, **Heal (D6)** the target. If the target is not damaged, return a slain model to it.",
       "phase": "any",
       "declare": "Pick a visible friendly **^^Sacrosanct Chamber^^** unit that is not in combat and is within 12\" of this unit to be the target.",
@@ -72,7 +72,7 @@
     },
     {
       "name": "On the Winds Aetheric",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit is not in combat, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
       "phase": "movement",
       "color": "Gray",

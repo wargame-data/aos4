@@ -53,7 +53,7 @@
   "abilities": [
     {
       "name": "Once More, For Sigmar, Charge!",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "For the rest of the phase, when making charge rolls for the targets, add 1 to the number of dice rolled, then remove 1 dice of your choice and use the remaining dice as the charge roll.",
       "phase": "charge",
       "declare": "Pick this unit and another visible friendly **^^Warrior Chamber^^** unit within 3\" of it to be the targets.",

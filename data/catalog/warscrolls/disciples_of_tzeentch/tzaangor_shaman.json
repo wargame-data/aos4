@@ -66,7 +66,7 @@
   "abilities": [
     {
       "name": "Mutagenic Sorcery",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a D3. On a 2+:\n• Inflict an amount of mortal damage on the enemy target equal to the roll.\n• Return a number of slain models to the friendly target equal to the roll.",
       "phase": "any",
       "declare": "Pick an enemy unit within 12\" of this unit to be the enemy target. Then, pick a friendly **Tzaangors** unit in combat with that enemy unit to be the friendly target.",
@@ -75,7 +75,7 @@
     },
     {
       "name": "Rite of Haste",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, for the rest of the turn, the target can use a **^^Run^^** ability and still use **^^Shoot^^** and/or **^^Charge^^** abilities later in the turn.",
       "phase": "hero",
       "declare": "Pick a friendly **^^Warflock^^** unit that does not have **^^Fly^^** and is wholly within 12\" of this unit to be the target.",

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.nighthaunt.royal_procession",
+  "bsdataId": "df99-d456-63a5-931",
+  "type": "battle-formation",
+  "name": "Royal Procession",
+  "faction": "nighthaunt",
+  "ability": {
+    "name": "Lethal Rancour",
+    "type": "once-per-turn",
+    "effect": "The targets' melee weapons have **Anti-charge (+1 Rend)** for the rest of the turn.",
+    "phase": "hero",
+    "declare": "Pick up to 2 friendly **^^Nighthaunt^^** units to be the targets,",
+    "color": "Yellow",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

@@ -80,7 +80,7 @@
     },
     {
       "name": "Scrolls of Sorcery",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "The next time this unit uses a non-**^^Summon Spell^^** ability this phase, do not make a casting roll as part of that ability. Instead, roll a dice. On a 2+, the spell is successfully cast and cannot be unbound.",
       "phase": "hero",
       "color": "Yellow",

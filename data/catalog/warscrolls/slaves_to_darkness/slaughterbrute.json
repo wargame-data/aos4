@@ -82,7 +82,7 @@
     },
     {
       "name": "Sigils of Domination",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "For the rest of the battle, while this unit is within its master’s combat range:\n• Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.\n• This unit can ignore the effects of the **Companion** weapon ability on its weapons.",
       "declare": "Pick a friendly **^^Slaves to Darkness Hero^^** within this unit’s combat range to be this unit’s master.",
       "color": "Black",

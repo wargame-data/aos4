@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.ossiarch_bonereapers.mortek_phalanx",
+  "bsdataId": "c23-35ed-f0f6-38a",
+  "type": "battle-formation",
+  "name": "Mortek Phalanx",
+  "faction": "ossiarch_bonereapers",
+  "ability": {
+    "name": "Send In the Reserve",
+    "type": "once-per-turn",
+    "effect": "Roll a dice. On a 5+, set up a replacement unit with half the number of models from the target unit (rounding up) on the battlefield more than 9\" from all enemy units",
+    "phase": "movement",
+    "declare": "Pick a friendly **Mortek Guard** unit that has been destroyed to be the target.",
+    "color": "Gray",
+    "abilityCategory": "Rallying"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

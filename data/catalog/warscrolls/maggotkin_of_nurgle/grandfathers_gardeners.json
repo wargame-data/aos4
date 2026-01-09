@@ -65,7 +65,7 @@
     },
     {
       "name": "Blooming Plague",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "The target is **seeded with rot** for the rest of the battle.",
       "phase": "any",
       "declare": "Pick an objective that is contested by this unit to be the target.",

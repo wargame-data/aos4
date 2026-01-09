@@ -54,7 +54,7 @@
   "abilities": [
     {
       "name": "Reaped Like Corn",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a number of dice equal to the number of models in the target unit. For each 6, inflict 1 mortal damage on the target. If the target unit has 20 or more models, inflict 1 mortal damage on the target for each 5+ instead.",
       "phase": "combat",
       "declare": "Pick an enemy unit that is within the combat ranges of 5 or more models in this unit to be the target.",

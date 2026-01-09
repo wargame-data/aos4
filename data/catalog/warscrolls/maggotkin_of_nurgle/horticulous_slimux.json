@@ -62,7 +62,7 @@
   "abilities": [
     {
       "name": "Cultivating the Garden of Nurgle",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If there are fewer than 3 friendly **Feculent Gnarlmaws** on the battlefield, you can set up a **Feculent Gnarlmaw** wholly within 12\" of this unit, more than 3\" from all enemy units, objectives and other terrain features.",
       "phase": "movement",
       "color": "Gray",

@@ -87,7 +87,7 @@
     },
     {
       "name": "Repair Construct",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Return a number of slain models to the target with a combined Health characteristic equal to the number of **bone-tithe points** this unit has. Then, reset this unit’s **bone-tithe points** to 0.",
       "phase": "any",
       "declare": "Pick a friendly **^^Ossiarch Bonereapers^^** unit wholly within 12\" of this unit to be the target.",

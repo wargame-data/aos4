@@ -69,7 +69,7 @@
   "abilities": [
     {
       "name": "Hidden Agent",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit has not been deployed, set up this unit in reserve **in hiding**. It has now been deployed.",
       "keywords": [
         "**^^DEPLOY^^**"
@@ -79,7 +79,7 @@
     },
     {
       "name": "Strike from the Shadows",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, set up this unit anywhere on the battlefield wholly within 6\" of the target. If you do so, this unit must be set up in combat and has **^^Strike-first^^** for the rest of the turn. On a failed roll, this unit remains in hiding but you automatically pass the roll the next time you use this ability.",
       "phase": "combat",
       "declare": "Pick this unit if it is in hiding. Then, pick a friendly **^^Infantry^^** unit that has 5 or more models to be the target.",

@@ -77,7 +77,7 @@
   "abilities": [
     {
       "name": "Wake of Fire",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, the target has the **^^Burning^^** keyword.",
       "phase": "movement",
       "declare": "Pick an enemy unit that this unit passed across this phase to be the target.",

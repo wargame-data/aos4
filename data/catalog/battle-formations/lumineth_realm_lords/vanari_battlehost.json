@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.lumineth_realm_lords.vanari_battlehost",
+  "bsdataId": "c56-e38f-aa94-1ad6",
+  "type": "battle-formation",
+  "name": "Vanari Battlehost",
+  "faction": "lumineth_realm_lords",
+  "ability": {
+    "name": "Vanari Brilliance",
+    "type": "passive",
+    "effect": "You can use the ‘Power of Hysh’ ability in addition to the other **^^Facet of War^^** ability used during the battle round",
+    "color": "Black",
+    "abilityCategory": "Special"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

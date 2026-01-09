@@ -2,17 +2,23 @@
  * Weapon Mapper
  *
  * Maps BSData weapon profiles to aos-data weapon schema format.
+ * Uses profile type IDs from the GST file for reliable detection.
  */
 
 import type { BSProfile } from "../xml/types.js";
 import { BaseMapper, type MapperOptions } from "./base.js";
-import { findCharacteristic } from "../xml/reader.js";
+import { findCharacteristic, findCharacteristicById } from "../xml/reader.js";
 import {
   transformRange,
   transformRollValue,
   transformRend,
 } from "../transformers/stats.js";
 import { transformDiceValue } from "../transformers/dice.js";
+import {
+  PROFILE_TYPES,
+  MELEE_WEAPON_CHARACTERISTICS,
+  RANGED_WEAPON_CHARACTERISTICS,
+} from "../xml/gst-ids.js";
 
 /**
  * aos-data Weapon type
@@ -38,26 +44,32 @@ export class WeaponMapper extends BaseMapper<BSProfile, Weapon> {
   }
 
   map(profile: BSProfile): Weapon {
-    const typeName = profile.$.typeName;
-    const isRanged = typeName.toLowerCase().includes("ranged");
+    // Use typeId for reliable detection instead of typeName
+    const isRanged = profile.$.typeId === PROFILE_TYPES.RANGED_WEAPON;
+    const isMelee = profile.$.typeId === PROFILE_TYPES.MELEE_WEAPON;
+
+    // Fallback to name-based detection if typeId doesn't match
+    const typeByName = !isMelee && !isRanged
+      ? profile.$.typeName.toLowerCase().includes("ranged")
+      : isRanged;
 
     const weapon: Weapon = {
       name: profile.$.name,
-      type: isRanged ? "ranged" : "melee",
-      attacks: this.extractAttacks(profile),
-      hit: this.extractHit(profile),
-      wound: this.extractWound(profile),
-      rend: this.extractRend(profile),
-      damage: this.extractDamage(profile),
+      type: typeByName ? "ranged" : "melee",
+      attacks: this.extractAttacks(profile, typeByName),
+      hit: this.extractHit(profile, typeByName),
+      wound: this.extractWound(profile, typeByName),
+      rend: this.extractRend(profile, typeByName),
+      damage: this.extractDamage(profile, typeByName),
     };
 
     // Add range for ranged weapons
-    if (isRanged) {
+    if (typeByName) {
       weapon.range = this.extractRange(profile);
     }
 
     // Extract weapon abilities
-    const abilities = this.extractAbilities(profile);
+    const abilities = this.extractAbilities(profile, typeByName);
     if (abilities.length > 0) {
       weapon.abilities = abilities;
     }
@@ -65,10 +77,19 @@ export class WeaponMapper extends BaseMapper<BSProfile, Weapon> {
     return weapon;
   }
 
-  private extractAttacks(profile: BSProfile): number | string {
-    const value =
-      findCharacteristic(profile, "Attacks") ||
-      findCharacteristic(profile, "Atk");
+  private extractAttacks(profile: BSProfile, isRanged: boolean): number | string {
+    // Try ID-based extraction first
+    const charId = isRanged
+      ? RANGED_WEAPON_CHARACTERISTICS.ATK
+      : MELEE_WEAPON_CHARACTERISTICS.ATK;
+    let value = findCharacteristicById(profile, charId);
+
+    // Fallback to name-based extraction
+    if (!value) {
+      value = findCharacteristic(profile, "Attacks") ||
+        findCharacteristic(profile, "Atk");
+    }
+
     if (!value) {
       this.recordUnmapped({
         type: "missing_characteristic",
@@ -85,10 +106,19 @@ export class WeaponMapper extends BaseMapper<BSProfile, Weapon> {
     return transformDiceValue(value);
   }
 
-  private extractHit(profile: BSProfile): string {
-    const value =
-      findCharacteristic(profile, "To Hit") ||
-      findCharacteristic(profile, "Hit");
+  private extractHit(profile: BSProfile, isRanged: boolean): string {
+    // Try ID-based extraction first
+    const charId = isRanged
+      ? RANGED_WEAPON_CHARACTERISTICS.HIT
+      : MELEE_WEAPON_CHARACTERISTICS.HIT;
+    let value = findCharacteristicById(profile, charId);
+
+    // Fallback to name-based extraction
+    if (!value) {
+      value = findCharacteristic(profile, "To Hit") ||
+        findCharacteristic(profile, "Hit");
+    }
+
     if (!value) {
       this.recordUnmapped({
         type: "missing_characteristic",
@@ -105,11 +135,20 @@ export class WeaponMapper extends BaseMapper<BSProfile, Weapon> {
     return transformRollValue(value);
   }
 
-  private extractWound(profile: BSProfile): string {
-    const value =
-      findCharacteristic(profile, "To Wound") ||
-      findCharacteristic(profile, "Wound") ||
-      findCharacteristic(profile, "Wnd");
+  private extractWound(profile: BSProfile, isRanged: boolean): string {
+    // Try ID-based extraction first
+    const charId = isRanged
+      ? RANGED_WEAPON_CHARACTERISTICS.WND
+      : MELEE_WEAPON_CHARACTERISTICS.WND;
+    let value = findCharacteristicById(profile, charId);
+
+    // Fallback to name-based extraction
+    if (!value) {
+      value = findCharacteristic(profile, "To Wound") ||
+        findCharacteristic(profile, "Wound") ||
+        findCharacteristic(profile, "Wnd");
+    }
+
     if (!value) {
       this.recordUnmapped({
         type: "missing_characteristic",
@@ -126,10 +165,19 @@ export class WeaponMapper extends BaseMapper<BSProfile, Weapon> {
     return transformRollValue(value);
   }
 
-  private extractRend(profile: BSProfile): number {
-    const value =
-      findCharacteristic(profile, "Rend") ||
-      findCharacteristic(profile, "Rnd");
+  private extractRend(profile: BSProfile, isRanged: boolean): number {
+    // Try ID-based extraction first
+    const charId = isRanged
+      ? RANGED_WEAPON_CHARACTERISTICS.RND
+      : MELEE_WEAPON_CHARACTERISTICS.RND;
+    let value = findCharacteristicById(profile, charId);
+
+    // Fallback to name-based extraction
+    if (!value) {
+      value = findCharacteristic(profile, "Rend") ||
+        findCharacteristic(profile, "Rnd");
+    }
+
     if (!value && value !== "0" && value !== "-") {
       // Rend can legitimately be 0 or "-"
       return 0;
@@ -137,10 +185,19 @@ export class WeaponMapper extends BaseMapper<BSProfile, Weapon> {
     return transformRend(value);
   }
 
-  private extractDamage(profile: BSProfile): number | string {
-    const value =
-      findCharacteristic(profile, "Damage") ||
-      findCharacteristic(profile, "Dmg");
+  private extractDamage(profile: BSProfile, isRanged: boolean): number | string {
+    // Try ID-based extraction first
+    const charId = isRanged
+      ? RANGED_WEAPON_CHARACTERISTICS.DMG
+      : MELEE_WEAPON_CHARACTERISTICS.DMG;
+    let value = findCharacteristicById(profile, charId);
+
+    // Fallback to name-based extraction
+    if (!value) {
+      value = findCharacteristic(profile, "Damage") ||
+        findCharacteristic(profile, "Dmg");
+    }
+
     if (!value) {
       this.recordUnmapped({
         type: "missing_characteristic",
@@ -158,9 +215,15 @@ export class WeaponMapper extends BaseMapper<BSProfile, Weapon> {
   }
 
   private extractRange(profile: BSProfile): string {
-    const value =
-      findCharacteristic(profile, "Range") ||
-      findCharacteristic(profile, "Rng");
+    // Try ID-based extraction first (only for ranged weapons)
+    let value = findCharacteristicById(profile, RANGED_WEAPON_CHARACTERISTICS.RNG);
+
+    // Fallback to name-based extraction
+    if (!value) {
+      value = findCharacteristic(profile, "Range") ||
+        findCharacteristic(profile, "Rng");
+    }
+
     if (!value) {
       this.recordUnmapped({
         type: "missing_characteristic",
@@ -177,10 +240,18 @@ export class WeaponMapper extends BaseMapper<BSProfile, Weapon> {
     return transformRange(value);
   }
 
-  private extractAbilities(profile: BSProfile): string[] {
-    const value =
-      findCharacteristic(profile, "Ability") ||
-      findCharacteristic(profile, "Abilities");
+  private extractAbilities(profile: BSProfile, isRanged: boolean): string[] {
+    // Try ID-based extraction first
+    const charId = isRanged
+      ? RANGED_WEAPON_CHARACTERISTICS.ABILITY
+      : MELEE_WEAPON_CHARACTERISTICS.ABILITY;
+    let value = findCharacteristicById(profile, charId);
+
+    // Fallback to name-based extraction
+    if (!value) {
+      value = findCharacteristic(profile, "Ability") ||
+        findCharacteristic(profile, "Abilities");
+    }
 
     if (!value || value === "-" || value === "–" || value.trim() === "") {
       return [];
@@ -206,9 +277,33 @@ export function mapWeapons(
 }
 
 /**
- * Check if a profile is a weapon profile
+ * Check if a profile is a weapon profile using type ID.
+ * Falls back to name-based detection if typeId doesn't match.
  */
 export function isWeaponProfile(profile: BSProfile): boolean {
+  // Primary: Check by typeId
+  if (
+    profile.$.typeId === PROFILE_TYPES.MELEE_WEAPON ||
+    profile.$.typeId === PROFILE_TYPES.RANGED_WEAPON
+  ) {
+    return true;
+  }
+
+  // Fallback: Check by typeName for backwards compatibility
   const typeName = profile.$.typeName.toLowerCase();
   return typeName.includes("weapon") || typeName.includes("attack");
+}
+
+/**
+ * Check if a profile is a melee weapon profile using type ID.
+ */
+export function isMeleeWeaponProfile(profile: BSProfile): boolean {
+  return profile.$.typeId === PROFILE_TYPES.MELEE_WEAPON;
+}
+
+/**
+ * Check if a profile is a ranged weapon profile using type ID.
+ */
+export function isRangedWeaponProfile(profile: BSProfile): boolean {
+  return profile.$.typeId === PROFILE_TYPES.RANGED_WEAPON;
 }

@@ -87,7 +87,7 @@
     },
     {
       "name": "Fortify Position",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "This unit establishes a fortified position and remains in a fortified position until it either uses a **^^Move^^** ability or is removed from the battlefield. While this unit is in a fortified position, subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.",
       "phase": "movement",
       "keywords": [

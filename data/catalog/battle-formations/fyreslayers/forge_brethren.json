@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.fyreslayers.forge_brethren",
+  "bsdataId": "8a01-5328-6a1-dfe9",
+  "type": "battle-formation",
+  "name": "Forge Brethren",
+  "faction": "fyreslayers",
+  "ability": {
+    "name": "Bulwark of Molten Stone",
+    "type": "passive",
+    "effect": "Add 1 to save rolls for friendly **^^Fyreslayers Infantry^^** units while they are wholly within friendly territory.",
+    "color": "Green",
+    "abilityCategory": "Defensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

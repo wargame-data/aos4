@@ -72,7 +72,7 @@
   "abilities": [
     {
       "name": "Load It Up!",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit is within the combat range of a friendly **Gnoblars** unit, this unit’s shooting attacks score critical hits on unmodified hit rolls of 5+ until the start of your next turn.",
       "phase": "shooting",
       "color": "Blue",

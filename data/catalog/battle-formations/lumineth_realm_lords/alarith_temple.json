@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.lumineth_realm_lords.alarith_temple",
+  "bsdataId": "db6c-8f-1b34-c75d",
+  "type": "battle-formation",
+  "name": "Alarith Temple",
+  "faction": "lumineth_realm_lords",
+  "ability": {
+    "name": "Alarith Fortitude",
+    "type": "passive",
+    "effect": "You can use the ‘Enduring as Rock’ ability in addition to the other **^^Facet of War^^** ability used during the battle round.",
+    "color": "Black",
+    "abilityCategory": "Special"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

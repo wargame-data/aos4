@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.blades_of_khorne.khornate_legion",
+  "bsdataId": "1437-4357-25cb-fc23",
+  "type": "battle-formation",
+  "name": "Khornate Legion",
+  "faction": "blades_of_khorne",
+  "ability": {
+    "name": "Butchers of Nations",
+    "type": "reaction",
+    "effect": "Pick a friendly **^^Bloodbound^^** unit that has not used a **^^Fight^^** ability this turn and is within 12\" of the unit using this ability to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved.",
+    "color": "Red",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

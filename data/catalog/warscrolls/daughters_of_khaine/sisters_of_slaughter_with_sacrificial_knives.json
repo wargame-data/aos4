@@ -57,7 +57,7 @@
   "abilities": [
     {
       "name": "Dance of Death",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "This unit can move 3\". It can pass through the combat ranges of enemy units and can end that move in combat.",
       "phase": "combat",
       "color": "Red",

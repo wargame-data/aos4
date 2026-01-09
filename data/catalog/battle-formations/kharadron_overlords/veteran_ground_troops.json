@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.kharadron_overlords.veteran_ground_troops",
+  "bsdataId": "8066-ec6e-bd3a-71e6",
+  "type": "battle-formation",
+  "name": "Veteran Ground Troops",
+  "faction": "kharadron_overlords",
+  "ability": {
+    "name": "Entrenched Crews",
+    "type": "once-per-turn",
+    "effect": "For the rest of the battle round, if the target has not been set up this battle round and while it has not moved this turn, subtract 1 from the Rend characteristic of attacks that target that unit.",
+    "declare": "Pick up to 3 friendly **Arkanaut Company** units to be the targets.",
+    "color": "Black",
+    "abilityCategory": "Defensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

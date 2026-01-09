@@ -66,7 +66,7 @@
   "abilities": [
     {
       "name": "Drothmasters",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, subtract D3 from the Damage characteristic of the target’s **Companion** melee weapons for the rest of the turn.",
       "phase": "combat",
       "declare": "Pick an enemy **^^Monster^^** in combat with this unit to be the target.",

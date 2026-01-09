@@ -85,7 +85,7 @@
     },
     {
       "name": "Heavy Bomb Racks",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll 10 dice. For each 4+, inflict 1 mortal damage on the target.",
       "phase": "movement",
       "declare": "Pick an enemy unit that does not have **^^Fly^^** and that this unit passed across this phase to be the target.",

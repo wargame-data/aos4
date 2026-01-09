@@ -74,7 +74,7 @@
     },
     {
       "name": "Independent Operative",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit has not been deployed, set it up anywhere on the battlefield not in combat with any enemy units. This unit has now been deployed.\n**Designer’s Note:** *Enemy units that deploy after this unit can deploy in combat with it.*",
       "keywords": [
         "**^^DEPLOY^^**"

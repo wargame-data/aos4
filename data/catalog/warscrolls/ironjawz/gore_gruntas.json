@@ -62,7 +62,7 @@
   "abilities": [
     {
       "name": "Gore-grunta Charge",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Add 1 to the mortal damage inflicted (if any) if the target is **^^Cavalry^^**.",
       "phase": "charge",
       "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",

@@ -47,7 +47,7 @@
   "abilities": [
     {
       "name": "The Banner of the Reforged",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Add 3 to each target’s control score for the rest of the turn. In addition, **Heal (D3)** each target.",
       "phase": "hero",
       "declare": "Pick up to D3 friendly **^^Stormcast Eternals^^** units wholly within 12\" of this unit to be the targets.",

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.sons_of_behemat.boss_tribe",
+  "bsdataId": "284c-43d1-c99d-9e69",
+  "type": "battle-formation",
+  "name": "Boss Tribe",
+  "faction": "sons_of_behemat",
+  "ability": {
+    "name": "Big Mouth",
+    "type": "reaction",
+    "effect": "Pick a friendly **^^Gargant^^** unit that has not used a **^^Fight^^** ability this turn and is wholly within 12\" of this unit to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved.",
+    "color": "Red",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

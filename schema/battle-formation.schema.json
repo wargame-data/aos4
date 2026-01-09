@@ -1,0 +1,125 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "title": "Battle Formation",
+  "description": "A battle formation that provides army-wide abilities",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^(warscroll|spell|prayer|enhancement|terrain|formation|manifestation)\\.[a-z0-9_]+\\.[a-z0-9_]+$"
+    },
+    "bsdataId": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "const": "battle-formation"
+    },
+    "name": {
+      "type": "string"
+    },
+    "faction": {
+      "type": "string"
+    },
+    "ability": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "passive",
+            "reaction",
+            "once-per-turn",
+            "once-per-battle",
+            "spell",
+            "prayer",
+            "command"
+          ]
+        },
+        "phase": {
+          "type": "string",
+          "enum": [
+            "any",
+            "hero",
+            "movement",
+            "shooting",
+            "charge",
+            "combat",
+            "end"
+          ]
+        },
+        "declare": {
+          "type": "string"
+        },
+        "effect": {
+          "type": "string"
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "color": {
+          "type": "string",
+          "enum": [
+            "Black",
+            "Blue",
+            "Gray",
+            "Green",
+            "Orange",
+            "Purple",
+            "Red",
+            "Yellow"
+          ]
+        },
+        "abilityCategory": {
+          "type": "string",
+          "enum": [
+            "Offensive",
+            "Defensive",
+            "Movement",
+            "Control",
+            "Special",
+            "Rallying",
+            "Shooting"
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "type",
+        "effect"
+      ],
+      "additionalProperties": false
+    },
+    "_meta": {
+      "type": "object",
+      "properties": {
+        "lastUpdated": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "id",
+    "bsdataId",
+    "type",
+    "name",
+    "faction",
+    "ability"
+  ],
+  "additionalProperties": false
+}

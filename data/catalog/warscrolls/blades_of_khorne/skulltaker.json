@@ -54,7 +54,7 @@
   "abilities": [
     {
       "name": "Heroes' Bane",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "For the rest of the turn, while the target is in combat with this unit, this unit has **^^Strike-first^^** but all of its combat attacks must target that enemy **^^Hero^^**.",
       "phase": "combat",
       "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target.",
@@ -63,7 +63,7 @@
     },
     {
       "name": "The Eternal Duel",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If an enemy **^^Hero^^** had any damage points allocated to it by this unit's combat attacks this turn and that **^^Hero^^** was destroyed this turn, **Heal (X)** this unit, where **X** is the number of damage points this unit has.",
       "phase": "any",
       "color": "Purple",

@@ -72,7 +72,7 @@
     },
     {
       "name": "Breaka-harness",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Make a breaka-roll of D3.\n• Inflict an amount of mortal damage on this unit equal to the breaka-roll.\n• Double the breaka-roll and add that value to the Attacks characteristic of this unit’s **Mirebrute’s Clubs** for the rest of the turn.",
       "phase": "combat",
       "color": "Red",
@@ -80,7 +80,7 @@
     },
     {
       "name": "Regeneration",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "**Heal (D3)** this unit.",
       "phase": "any",
       "color": "Black",

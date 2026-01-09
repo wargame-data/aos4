@@ -53,7 +53,7 @@
   "abilities": [
     {
       "name": "Ghastly Descent",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. Add 1 to the roll if the target is a **^^Sentenced^^** unit. On a 5+, the target is automatically destroyed.",
       "phase": "any",
       "declare": "Pick an enemy **^^Infantry^^** or ^^**Cavalry Hero^^** that had any damage points allocated to it this turn by this unit's attacks to be the target.",

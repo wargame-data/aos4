@@ -68,7 +68,7 @@
     },
     {
       "name": "Herding Squigs",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice for each **Squig Herder** in this unit. For each 2+, you can return D3 slain **Cave Squigs** to this unit. For each 1, 1 **Squig Herder** in this unit is slain.",
       "phase": "hero",
       "color": "Yellow",

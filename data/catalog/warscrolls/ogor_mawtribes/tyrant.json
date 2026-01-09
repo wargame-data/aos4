@@ -84,7 +84,7 @@
     },
     {
       "name": "Bully of the First Degree",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Add 3 to the target’s control score until the start of your next turn.",
       "phase": "hero",
       "declare": "Pick another friendly **^^Ogor Mawtribes^^** unit wholly within 12\" of this unit to be the target.",

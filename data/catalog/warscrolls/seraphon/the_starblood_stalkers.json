@@ -76,7 +76,7 @@
     },
     {
       "name": "Otapatl's Dartpipe",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 4+, inflict 1 mortal damage on the target.",
       "phase": "shooting",
       "declare": "If this unit’s **Otapatl** is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target.",

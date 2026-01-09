@@ -71,7 +71,7 @@
     },
     {
       "name": "Scryhawks",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "For the rest of the turn, add 6\" to the Range characteristic of this unit’s **Starshard Bolts** while it is wholly within 12\" of any friendly **Vanari Auralan Sentinels** units.",
       "phase": "shooting",
       "color": "Blue",

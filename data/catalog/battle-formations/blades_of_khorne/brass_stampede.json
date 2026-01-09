@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.blades_of_khorne.brass_stampede",
+  "bsdataId": "e3e6-6005-7085-ec66",
+  "type": "battle-formation",
+  "name": "Brass Stampede",
+  "faction": "blades_of_khorne",
+  "ability": {
+    "name": "Obliterating Charge",
+    "type": "passive",
+    "effect": "Add **X** to charge rolls for friendly **^^Blades of Khorne Cavalry^^** or **^^Monster^^** units that have already charged this phase and that are wholly within 12\" of the unit being rolled for.",
+    "color": "Orange",
+    "abilityCategory": "Movement"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

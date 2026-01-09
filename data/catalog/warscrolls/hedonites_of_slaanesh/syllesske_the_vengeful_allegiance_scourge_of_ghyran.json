@@ -76,7 +76,7 @@
     },
     {
       "name": "Violent Offerings",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If any damage points were allocated to an enemy **^^Wizard^^** or **^^Priest^^** by this unit’s combat attacks this turn and that enemy unit has been destroyed, add 1 to this unit’s power level for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative.",
       "phase": "any",
       "color": "Purple",

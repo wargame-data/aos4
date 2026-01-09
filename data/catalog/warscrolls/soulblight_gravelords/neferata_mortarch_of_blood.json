@@ -117,7 +117,7 @@
     },
     {
       "name": "The Mortarch of Blood",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Each target can use the ‘Normal Move’ ability as if it were your movement phase.",
       "declare": "Pick up to 3 friendly **^^Deathrattle Infantry^^** or **^^Deadwalkers Infantry^^** units to be the targets.",
       "color": "Black",

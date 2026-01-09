@@ -60,7 +60,7 @@
   "abilities": [
     {
       "name": "Firing from the Belly",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit has not used a Move ability this turn and was not set up this turn, add 1 to hit rolls for this unit’s shooting attacks for the rest of the turn.",
       "phase": "shooting",
       "color": "Blue",

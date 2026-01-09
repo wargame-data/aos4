@@ -119,7 +119,7 @@
     },
     {
       "name": "Master of Daemonic Power",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Remove up to 3 **daemonic power points** in total from any combination of friendly units wholly within 18\" of this unit. Then, allocate them to a different friendly non-**^^Hobgrot Helsmiths of Hashut^^** unit wholly within 18\" of this unit.",
       "phase": "hero",
       "color": "Yellow",

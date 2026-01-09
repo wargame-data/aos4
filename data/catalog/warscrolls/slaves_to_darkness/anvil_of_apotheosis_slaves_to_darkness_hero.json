@@ -114,7 +114,7 @@
     },
     {
       "name": "The Bringer of Fire",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "That terrain feature is now set ablaze. Add 1 to this unit's control score for the rest of the battle (this effect is cumulative). In addition, for the rest of the battle, each time a unit (friend or enemy) ends a move within 3\" of a terrain feature that has been set ablaze, roll a D3. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
       "phase": "movement",
       "declare": "Pick a terrain feature that has not yet been set ablaze within this **^^Hero's^^** combat range to be the target.",
@@ -123,7 +123,7 @@
     },
     {
       "name": "Victor of 100 Duels",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Your opponent must decide whether the target will accept or refuse this unit's challenge:\n***Accept:*** For the rest of the phase, when this unit and the target are picked to use a **^^Fight^^** ability, all of their attacks must target the other unit. In addition, for the rest of the phase, you can re-roll hit rolls for this unit's combat attacks.\n***Refuse:*** The target cannot use **^^Fight^^** abilities for the rest of the phase. In addition, you gain 1 command point.",
       "phase": "combat",
       "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target.",
@@ -139,7 +139,7 @@
     },
     {
       "name": "Rampant Mutation",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "This unit must use this ability in each of your hero phases. Roll a dice and apply the corresponding effect until the start of your next turn:\n**1 *Rotting Skin:*** Inflict 1 mortal damage on this unit. Subtract 1 from the control scores of enemy units while they are within 12\" of this unit.\n**2 *Brittle Scales:*** Add 1 to the Rend characteristic of combat attacks that target this unit.\n**3 *Bestial Tongue:*** You lose 1 command point. This unit cannot use commands.\n**4 *Sprouting Tentacles:*** This unit's Move characteristic is 2D6\".\n**5 *Extra Eyeball:*** Add 1 to hit rolls for this unit's combat attacks.\n**6 *Erupting Spikes:*** Each time this unit finishes a pile-in move, pick an enemy unit within 1\" of this unit to be the target. Inflict D3 mortal damage on the target.",
       "phase": "hero",
       "color": "Yellow"
@@ -185,14 +185,14 @@
     },
     {
       "name": "Glimpse the Future",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 1-4, the result corresponds to the battle round in which this unit will be inspired. On a 5+, pick a number. The number you picked corresponds to the battle round in which this unit will be inspired. While this unit is inspired, it has **^^Strike-first^^**.",
       "color": "Black",
       "abilityCategory": "Offensive"
     },
     {
       "name": "The Grandfather's Blessing",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Heal (D3) this unit.",
       "phase": "any",
       "color": "Green",

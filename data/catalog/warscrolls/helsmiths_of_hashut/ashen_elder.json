@@ -49,7 +49,7 @@
   "abilities": [
     {
       "name": "Extract Power",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If this unit is contesting an objective, a **Place of Power** or a terrain feature and that objective, **Place of Power** or terrain feature has a friendly desolation token, give this unit 1 ritual point.",
       "color": "Purple",
       "abilityCategory": "Special"

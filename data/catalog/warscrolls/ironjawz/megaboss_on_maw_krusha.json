@@ -96,7 +96,7 @@
     },
     {
       "name": "Strength From Victory",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "If any damage points were allocated to an enemy unit by this unit’s combat attacks this turn and that enemy unit has been destroyed, give this unit a **Waaagh! token**, to a maximum of 3.\nUntil the end of the next turn, add 1 to the Attacks characteristic of this unit’s weapons for each **Waaagh! token** it has.",
       "phase": "any",
       "color": "Purple",

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.helsmiths_of_hashut.daemonsmith_cabal",
+  "bsdataId": "518e-6140-2970-4c13",
+  "type": "battle-formation",
+  "name": "Daemonsmith Cabal",
+  "faction": "helsmiths_of_hashut",
+  "ability": {
+    "name": "Arcane Dominance",
+    "type": "passive",
+    "effect": "Add 1 to casting rolls, unbinding rolls, banishment rolls, and chanting rolls for friendly **^^Helsmiths of Hashut Wizards^^** and **^^Priests^^** while they have 3 **daemonic power points**.",
+    "color": "Yellow",
+    "abilityCategory": "Special"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.idoneth_deepkin.akhelian_beastmasters",
+  "bsdataId": "774e-d412-d1d8-3925",
+  "type": "battle-formation",
+  "name": "Akhelian Beastmasters",
+  "faction": "idoneth_deepkin",
+  "ability": {
+    "name": "Ferocious Predators",
+    "type": "passive",
+    "effect": "Add 1 to hit rolls for combat attacks made with **Companion** weapons by friendly **^^Akhelian^^** units.",
+    "color": "Red",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

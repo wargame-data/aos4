@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.maggotkin_of_nurgle.plague_cyst",
+  "bsdataId": "284a-d338-cc10-b040",
+  "type": "battle-formation",
+  "name": "Plague Cyst",
+  "faction": "maggotkin_of_nurgle",
+  "ability": {
+    "name": "Vectors of Contagion",
+    "type": "passive",
+    "effect": "Each time a model in a friendly Rotbringers unit is slain by a combat attack and that model was in combat with the attacking unit, roll a number of dice equal to the slain model’s Health characteristic, to a maximum of 4. For each 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+    "color": "Red",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

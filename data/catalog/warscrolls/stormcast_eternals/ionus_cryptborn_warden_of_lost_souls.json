@@ -110,7 +110,7 @@
     },
     {
       "name": "Soulburned",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "shooting",
       "declare": "This unit can use this ability even if it has been destroyed. Pick any number of Soulburned enemy units to be the targets.",

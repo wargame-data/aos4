@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.cities_of_sigmar.collegiate_arcane_expedition",
+  "bsdataId": "a769-683a-19c8-5f98",
+  "type": "battle-formation",
+  "name": "Collegiate Arcane Expedition",
+  "faction": "cities_of_sigmar",
+  "ability": {
+    "name": "Eldritch Expertise",
+    "type": "passive",
+    "effect": "Add 1 to casting rolls for friendly **^^Cities of Sigmar Wizards^^**.",
+    "color": "Yellow",
+    "abilityCategory": "Special"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

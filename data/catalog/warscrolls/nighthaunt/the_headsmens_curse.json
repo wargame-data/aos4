@@ -65,7 +65,7 @@
   "abilities": [
     {
       "name": "Furious Indictment",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a dice. On a 3+, the target is **condemned** until the start of your next turn.\nWhile a unit is **condemned**:\n• Halve that unit’s Move characteristic.\n• That unit cannot use **^^Retreat^^** abilities.\n• Subtract 1 from the number of dice rolled when making charge rolls for that unit, to a minimum of 1.",
       "phase": "hero",
       "declare": "Pick an enemy unit within 12\" of this unit to be the target.",

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.kruleboyz.middul_finga",
+  "bsdataId": "242d-f615-f141-4772",
+  "type": "battle-formation",
+  "name": "Middul Finga",
+  "faction": "kruleboyz",
+  "ability": {
+    "name": "Far-killa Bolts",
+    "type": "once-per-turn",
+    "effect": "For the rest of the turn, add 3\" to the Range characteristic of the targets’ ranged weapons.",
+    "phase": "shooting",
+    "declare": "Pick up to 3 friendly **Man-skewer Boltboyz** or **Beast skewer Killbow** units to be the targets.",
+    "color": "Blue",
+    "abilityCategory": "Shooting"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

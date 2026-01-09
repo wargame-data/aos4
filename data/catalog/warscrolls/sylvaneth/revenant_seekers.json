@@ -68,7 +68,7 @@
   "abilities": [
     {
       "name": "Thrumming with Life",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "**Heal (3)** this unit.",
       "phase": "any",
       "color": "Purple",

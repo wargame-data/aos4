@@ -71,7 +71,7 @@
     },
     {
       "name": "Power of da Great Green God",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Make a forgin’ roll of D6. Add 1 to the roll if this unit is armed with **Grunta-tongs**. On a 4+, the target’s melee weapons have **Crit (Mortal)** until the start of your next turn.",
       "phase": "hero",
       "declare": "Pick a visible friendly **^^Ironjawz Infantry^^** unit wholly within 12\" of this unit to be the target.",

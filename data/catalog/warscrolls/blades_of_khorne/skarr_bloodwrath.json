@@ -54,7 +54,7 @@
   "abilities": [
     {
       "name": "The Slaughterborn",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll 2D6. On an 8+, set up a replacement unit on the battlefield more than 9\" from all enemy units.",
       "phase": "movement",
       "declare": "This unit can only use this ability if it has been destroyed.",

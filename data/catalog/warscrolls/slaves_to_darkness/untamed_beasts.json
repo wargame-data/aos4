@@ -53,14 +53,14 @@
   "abilities": [
     {
       "name": "Unleash the Beast",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase.",
       "color": "Black",
       "abilityCategory": "Movement"
     },
     {
       "name": "Jagged Harpoon",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a D3. If the target is a **^^Beast^^** or **^^Monster^^**, roll a dice instead. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
       "phase": "any",
       "declare": "If this unit includes a **First Fang**, pick an enemy unit in combat with this unit to be the target.",

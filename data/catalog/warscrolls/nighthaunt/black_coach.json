@@ -79,7 +79,7 @@
   "abilities": [
     {
       "name": "Runaway Coach",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage equal on the target equal to the roll.",
       "phase": "charge",
       "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -99,7 +99,7 @@
     },
     {
       "name": "Evocation of Death",
-      "type": "passive",
+      "type": "once-per-turn",
       "effect": "Set up a replacement unit wholly within 12\" of this unit. The replacement unit can only be set up in combat with enemy units that are in combat with this unit.",
       "phase": "any",
       "declare": "If any damage points were allocated to an enemy unit by this unit's combat attacks this turn and that enemy unit was destroyed this turn, pick a friendly non-**^^Unique Nighthaunt Hero^^** that has been destroyed.",

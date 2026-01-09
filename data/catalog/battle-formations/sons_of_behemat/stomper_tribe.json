@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  "id": "formation.sons_of_behemat.stomper_tribe",
+  "bsdataId": "4be4-db42-f2db-e4",
+  "type": "battle-formation",
+  "name": "Stomper Tribe",
+  "faction": "sons_of_behemat",
+  "ability": {
+    "name": "Revel in War",
+    "type": "passive",
+    "effect": "You can pick 2 friendly **^^Mega‑Gargants^^** or **^^Gargant^^** units that have not used a **^^Rampage^^** ability this turn to use the ‘Jump Up and Down’ ability instead of 1.",
+    "color": "Red",
+    "abilityCategory": "Offensive"
+  },
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}
