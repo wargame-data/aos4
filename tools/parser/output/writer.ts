@@ -11,12 +11,14 @@ import {
   CATALOG_LORES_DIR,
   ENHANCEMENTS_DIR,
   BATTLE_FORMATIONS_DIR,
+  TERRAIN_DIR,
   POINTS_DIR,
 } from "../config.js";
 import type { Warscroll } from "../../schemas/schemas/warscroll.schema.js";
 import type { Spell, Prayer } from "../../schemas/schemas/spell.schema.js";
 import type { Enhancement } from "../../schemas/schemas/enhancement.schema.js";
 import type { BattleFormation } from "../../schemas/schemas/battle-formation.schema.js";
+import type { Terrain } from "../../schemas/schemas/terrain.schema.js";
 import type { PointsPack } from "../../schemas/schemas/points-pack.schema.js";
 
 /**
@@ -85,6 +87,7 @@ export function ensureCatalogStructure(): void {
   ensureDir(CATALOG_LORES_DIR);
   ensureDir(ENHANCEMENTS_DIR);
   ensureDir(BATTLE_FORMATIONS_DIR);
+  ensureDir(TERRAIN_DIR);
   ensureDir(POINTS_DIR);
 }
 
@@ -319,4 +322,37 @@ export function writeBattleFormations(
   baseDir?: string
 ): WriteResult[] {
   return formations.map((formation) => writeBattleFormation(formation, options, baseDir));
+}
+
+/**
+ * Determine output path for a terrain
+ * data/catalog/terrain/{faction}/{name}.json
+ */
+export function getTerrainOutputPath(terrain: Terrain, baseDir?: string): string {
+  const dir = baseDir || TERRAIN_DIR;
+  const name = extractNameFromQualifiedId(terrain.id);
+  return join(dir, terrain.faction, `${name}.json`);
+}
+
+/**
+ * Write a terrain to the catalog
+ */
+export function writeTerrain(
+  terrain: Terrain,
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult {
+  const path = getTerrainOutputPath(terrain, baseDir);
+  return writeJson(path, terrain, options);
+}
+
+/**
+ * Write multiple terrains
+ */
+export function writeTerrains(
+  terrains: Terrain[],
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult[] {
+  return terrains.map((terrain) => writeTerrain(terrain, options, baseDir));
 }

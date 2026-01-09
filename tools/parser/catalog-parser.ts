@@ -23,6 +23,7 @@ import { WarscrollMapper } from "./mappers/warscroll.mapper.js";
 import { mapIndividualSpells, mapIndividualPrayers } from "./mappers/spell.mapper.js";
 import { mapEnhancements } from "./mappers/enhancement.mapper.js";
 import { mapBattleFormations } from "./mappers/battle-formation.mapper.js";
+import { mapTerrains } from "./mappers/terrain.mapper.js";
 import { loadGstIds, validateGstIds, printValidationResult } from "./xml/gst-loader.js";
 import {
   ensureCatalogStructure,
@@ -31,6 +32,7 @@ import {
   writeIndividualPrayers,
   writeEnhancements,
   writeBattleFormations,
+  writeTerrains,
 } from "./output/writer.js";
 import {
   getGrandAlliance,
@@ -41,6 +43,7 @@ import type { Warscroll } from "../schemas/schemas/warscroll.schema.js";
 import type { Spell, Prayer } from "../schemas/schemas/spell.schema.js";
 import type { Enhancement } from "../schemas/schemas/enhancement.schema.js";
 import type { BattleFormation } from "../schemas/schemas/battle-formation.schema.js";
+import type { Terrain } from "../schemas/schemas/terrain.schema.js";
 
 // Default BSData cache path
 const DEFAULT_BSDATA_PATH = ".cache/bsdata/age-of-sigmar-4th";
@@ -57,6 +60,7 @@ interface CatalogResult {
   prayers: Prayer[];
   enhancements: Enhancement[];
   battleFormations: BattleFormation[];
+  terrains: Terrain[];
   factionCounts: Map<string, number>;
   errors: string[];
 }
@@ -333,6 +337,54 @@ async function parseBattleFormations(
 }
 
 /**
+ * Parse all Library files for faction terrain
+ */
+async function parseTerrains(
+  bsdataPath: string,
+  options: ParseOptions
+): Promise<{ terrains: Terrain[]; errors: string[] }> {
+  const libraryFiles = await findLibraryFiles(bsdataPath);
+  const allTerrains: Terrain[] = [];
+  const errors: string[] = [];
+
+  console.log(`\nParsing ${libraryFiles.length} Library files for terrain...`);
+
+  for (const file of libraryFiles) {
+    try {
+      const catalogue = await parseCat(file);
+      const factionId = getFactionId(catalogue);
+      const grandAlliance = getGrandAlliance(factionId);
+
+      if (options.verbose) {
+        console.log(`  Parsing ${basename(file)} for terrain...`);
+      }
+
+      const mapperOptions: MapperOptions = {
+        strict: false,
+        factionId,
+        grandAlliance,
+        catalogueName: catalogue.$.name,
+      };
+
+      const terrains = mapTerrains(catalogue, mapperOptions);
+
+      if (terrains.length > 0) {
+        allTerrains.push(...terrains);
+        console.log(`  ${factionId}: ${terrains.length} terrain`);
+      }
+    } catch (error) {
+      const msg = `Failed to parse terrain from ${file}: ${error}`;
+      errors.push(msg);
+      if (options.verbose) {
+        console.error(`  Error: ${msg}`);
+      }
+    }
+  }
+
+  return { terrains: allTerrains, errors };
+}
+
+/**
  * Write catalog results to disk
  */
 function writeCatalogResults(result: CatalogResult, options: ParseOptions): void {
@@ -373,6 +425,12 @@ function writeCatalogResults(result: CatalogResult, options: ParseOptions): void
     const battleFormationResults = writeBattleFormations(result.battleFormations);
     console.log(`  Battle Formations: ${battleFormationResults.length} files`);
   }
+
+  // Write terrains
+  if (result.terrains.length > 0) {
+    const terrainResults = writeTerrains(result.terrains);
+    console.log(`  Terrains: ${terrainResults.length} files`);
+  }
 }
 
 /**
@@ -395,6 +453,7 @@ function printSummary(result: CatalogResult): void {
   console.log(`Prayers: ${result.prayers.length}`);
   console.log(`Enhancements: ${result.enhancements.length}`);
   console.log(`Battle Formations: ${result.battleFormations.length}`);
+  console.log(`Terrains: ${result.terrains.length}`);
   console.log(`Errors: ${result.errors.length}`);
 
   if (result.errors.length > 0) {
@@ -484,6 +543,12 @@ async function main(): Promise<void> {
     options
   );
 
+  // Parse terrains from Library files
+  const { terrains, errors: terrainErrors } = await parseTerrains(
+    options.bsdataPath,
+    options
+  );
+
   // Combine results
   const result: CatalogResult = {
     warscrolls,
@@ -491,8 +556,9 @@ async function main(): Promise<void> {
     prayers,
     enhancements,
     battleFormations,
+    terrains,
     factionCounts,
-    errors: [...warscrollErrors, ...loreErrors, ...enhancementErrors, ...battleFormationErrors],
+    errors: [...warscrollErrors, ...loreErrors, ...enhancementErrors, ...battleFormationErrors, ...terrainErrors],
   };
 
   // Write results

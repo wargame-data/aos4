@@ -1,0 +1,59 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/terrain.schema.json",
+  "id": "terrain.ogor_mawtribes.mawpit",
+  "bsdataId": "8e60-2852-1bfc-272",
+  "type": "terrain",
+  "name": "Mawpit",
+  "faction": "ogor_mawtribes",
+  "keywords": [
+    "destruction",
+    "faction terrain",
+    "faction:ogor_mawtribes"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 10,
+    "save": "5+",
+    "control": "-"
+  },
+  "abilities": [
+    {
+      "name": "Altar of the Gulping God",
+      "type": "passive",
+      "effect": "While this terrain feature has a Head Butcher:\n• The Head Butcher cannot use **^^Move^^** abilities.\n• Instead of measuring range or visibility to the Head Butcher, measure to this terrain feature instead.\n• All attacks that would target the Head Butcher target this terrain feature instead.\n• If this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Head Butcher. Then, set up the Head Butcher on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer a Head Butcher. If it is not possible to set up the Head Butcher, it is slain.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Feed the Maw",
+      "type": "once-per-turn",
+      "effect": "Place the target on this terrain feature. The target is now a Head Butcher (see ‘Altar of the Gulping God’).",
+      "phase": "hero",
+      "declare": "If this terrain feature does not have a Head Butcher, pick a friendly **Butcher** or **Slaughtermaster** within 3\" of it and not in combat to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Throat of Ghur",
+      "type": "once-per-turn",
+      "effect": "Roll a D3 for each target. Add 1 to the roll if the target is more than 3\" from all other enemy units. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+      "phase": "hero",
+      "declare": "Pick up to 3 enemy units within 12\" of this terrain feature, or within 18\" if it has a Head Butcher, to be the targets.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Step Away From the Maw",
+      "type": "once-per-turn",
+      "effect": "If this terrain feature has a Head Butcher that was not placed on it this turn, set up the Head Butcher on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer a Head Butcher.",
+      "phase": "movement",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction"
+}

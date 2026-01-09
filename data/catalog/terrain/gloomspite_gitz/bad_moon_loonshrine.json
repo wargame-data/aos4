@@ -1,0 +1,34 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/terrain.schema.json",
+  "id": "terrain.gloomspite_gitz.bad_moon_loonshrine",
+  "bsdataId": "d5f4-405d-70b2-2701",
+  "type": "terrain",
+  "name": "Bad Moon Loonshrine",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "destruction",
+    "faction terrain",
+    "faction:gloomspite_gitz"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 14,
+    "save": "4+",
+    "control": "-"
+  },
+  "abilities": [
+    {
+      "name": "Moonclan Lairs",
+      "type": "command",
+      "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this terrain feature and more than 3\" from all enemy units.",
+      "declare": "Pick a friendly non-**^^Hero^^** non-**^^Monster^^** non-**^^War Machine Gloomspite Gitz^^** unit that has been destroyed to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction"
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/terrain.schema.json",
+  "id": "terrain.slaves_to_darkness.nexus_chaotica",
+  "bsdataId": "22a9-a618-90cf-5bc7",
+  "type": "terrain",
+  "name": "Nexus Chaotica",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "chaos",
+    "faction terrain",
+    "faction:slaves_to_darkness"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 12,
+    "save": "4+",
+    "control": "-"
+  },
+  "abilities": [
+    {
+      "name": "Draw Power",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. Give a number of **power points** to this terrain feature equal to the roll. This terrain feature can have a maximum of 12 **power points** at once.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Corrupt the Realms",
+      "type": "once-per-turn",
+      "effect": "Remove 9 power points from this terrain feature, then roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "hero",
+      "declare": "If this terrain feature has 9 or more power points, pick an objective or terrain feature within 24\" of this terrain feature to be the source. Then, pick any number of enemy units within 3\" of the source to be the targets.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Infernal Sorcery",
+      "type": "once-per-turn",
+      "effect": "Remove 3 power points from this terrain feature, then add 1 to casting rolls for the target for the rest of the turn.",
+      "phase": "hero",
+      "declare": "If this terrain feature has 3 or more power points, pick a friendly **^^Slaves to Darkness Wizard^^** within 3\" of this terrain feature to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

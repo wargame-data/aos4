@@ -1,0 +1,44 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/terrain.schema.json",
+  "id": "terrain.fyreslayers.magmic_battleforge",
+  "bsdataId": "d4be-ace4-55bc-ea7c",
+  "type": "terrain",
+  "name": "Magmic Battleforge",
+  "faction": "fyreslayers",
+  "keywords": [
+    "faction terrain",
+    "order",
+    "faction:fyreslayers"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 8,
+    "save": "3+",
+    "control": "-"
+  },
+  "abilities": [
+    {
+      "name": "Spending the Forge",
+      "type": "once-per-battle",
+      "effect": "**Heal (D3)** each friendly **^^Fyreslayers^^** unit on the battlefield. Once this ability has been used, this terrain feature cannot use the ‘Molten Blessing’ abiity for the rest of the battle.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Fyreslayers Priest^^** within this terrain feature’s combat range to expend the power of the forge.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Molten Blessing",
+      "type": "once-per-turn",
+      "effect": "Add 1 to chanting rolls for the target for the rest of the turn. In addition, the target can use the ‘Unbind’ ability this turn as if it had **^^Wizard (1)^^**.",
+      "phase": "any",
+      "declare": "Pick a friendly **^^Fyreslayers Priest^^** within this terrain feature’s combat range to be the target.",
+      "color": "Black",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order"
+}

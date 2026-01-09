@@ -1,0 +1,34 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/terrain.schema.json",
+  "id": "terrain.beasts_of_chaos.herdstone",
+  "bsdataId": "dbf4-0d75-ee00-02a2",
+  "type": "terrain",
+  "name": "Herdstone",
+  "faction": "beasts_of_chaos",
+  "keywords": [
+    "chaos",
+    "faction terrain",
+    "legends",
+    "faction:beasts_of_chaos"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 14,
+    "save": "4+",
+    "control": "-"
+  },
+  "abilities": [
+    {
+      "name": "Entropic Lodestone",
+      "type": "passive",
+      "effect": "From the second battle round onwards, add 1 to the Rend characteristic of melee weapons used by friendly **^^Beasts of Chaos^^** units while they are wholly within 24\" of this terrain feature.\nIf this terrain feature is wholly within 18\" of the centre of the battlefield, this ability affects all friendly **^^Beasts of Chaos^^** units on the battlefield instead of those wholly within 24\" of it.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

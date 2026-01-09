@@ -1,0 +1,35 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/terrain.schema.json",
+  "id": "terrain.stormcast_eternals.stormreach_portal",
+  "bsdataId": "8c5f-f4d2-f160-89ec",
+  "type": "terrain",
+  "name": "Stormreach Portal",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "faction terrain",
+    "order",
+    "faction:stormcast_eternals"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 12,
+    "save": "4+",
+    "control": "-"
+  },
+  "abilities": [
+    {
+      "name": "Step Into the Storm",
+      "type": "once-per-turn",
+      "effect": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Pick a friendly non-**^^Monster Stormcast Eternals^^** unit that is not in combat and is wholly within 6\" of this terrain feature to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order"
+}

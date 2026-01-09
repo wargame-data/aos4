@@ -1,0 +1,36 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/terrain.schema.json",
+  "id": "terrain.maggotkin_of_nurgle.feculent_gnarlmaw",
+  "bsdataId": "f4aa-9ef3-286-f6db",
+  "type": "terrain",
+  "name": "Feculent Gnarlmaw",
+  "faction": "maggotkin_of_nurgle",
+  "keywords": [
+    "chaos",
+    "faction terrain",
+    "ward (5+)",
+    "faction:maggotkin_of_nurgle"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 7,
+    "save": "5+",
+    "control": "-"
+  },
+  "abilities": [
+    {
+      "name": "Riddled With Disease",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 4+, the target has the **^^Diseased^^** keyword.",
+      "phase": "any",
+      "declare": "Pick an enemy unit within 6\" of this terrain feature to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

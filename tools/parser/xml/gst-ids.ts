@@ -63,6 +63,7 @@ export const CATEGORIES = {
   FLY: "b979-4c3e-7d0e-6921",
   UNIQUE: "72ce-2188-70bf-2dbd",
   WARMASTER: "c203-51a0-3d44-6b07",
+  FACTION_TERRAIN: "cdd6-ffa1-9b32-4cb8",
 
   // Wizard levels (only 1, 2, 3, 4, 9 exist in AOS 4th)
   WIZARD_1: "6f28-c3f6-4b1b-8aff",

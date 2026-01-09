@@ -34,6 +34,13 @@ export {
   type BattleFormationAbility,
 } from "./schemas/battle-formation.schema.js";
 
+// Terrain schema
+export {
+  terrainSchema,
+  type Terrain,
+  type TerrainStats,
+} from "./schemas/terrain.schema.js";
+
 // Points pack schema
 export {
   pointsPackSchema,

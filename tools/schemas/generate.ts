@@ -10,6 +10,7 @@ import { warscrollSchema } from "./schemas/warscroll.schema.js";
 import { spellSchema, prayerSchema } from "./schemas/spell.schema.js";
 import { enhancementSchema } from "./schemas/enhancement.schema.js";
 import { battleFormationSchema } from "./schemas/battle-formation.schema.js";
+import { terrainSchema } from "./schemas/terrain.schema.js";
 import { pointsPackSchema } from "./schemas/points-pack.schema.js";
 
 const SCHEMA_DIR = join(process.cwd(), "schema");
@@ -64,6 +65,12 @@ const schemas: SchemaConfig[] = [
     filename: "battle-formation.schema.json",
     title: "Battle Formation",
     description: "A battle formation that provides army-wide abilities",
+  },
+  {
+    schema: terrainSchema,
+    filename: "terrain.schema.json",
+    title: "Terrain",
+    description: "A faction terrain feature for Age of Sigmar",
   },
   {
     schema: pointsPackSchema,

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/terrain.schema.json",
+  "id": "terrain.skaven.gnawhole",
+  "bsdataId": "a177-dc85-8fd5-3509",
+  "type": "terrain",
+  "name": "Gnawhole",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "faction terrain",
+    "faction:skaven"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 6,
+    "save": "4+",
+    "control": "-"
+  },
+  "abilities": [
+    {
+      "name": "Volatile Ground",
+      "type": "passive",
+      "effect": "Models can pass through this terrain feature but cannot be set up on or end moves on any part of this terrain feature.\nEach time an enemy unit ends a move that passed through or across this terrain feature, roll a D3. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Tunnels Through Reality",
+      "type": "once-per-turn",
+      "effect": "Remove the target from the battlefield and set it up again wholly within 6\" of another friendly **Gnawhole** and more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Pick a friendly **^^Skaven^^** unit that is not in combat and is wholly within 6\" of this terrain feature to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "The Endless Vermintide",
+      "type": "command",
+      "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 6\" of a friendly **Gnawhole** and more than 3\" from all enemy units.",
+      "declare": "Pick a friendly non-**^^Hero Skaven Infantry^^** unit that has been destroyed to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

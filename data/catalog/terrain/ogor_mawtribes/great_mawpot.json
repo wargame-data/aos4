@@ -1,0 +1,57 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/terrain.schema.json",
+  "id": "terrain.ogor_mawtribes.great_mawpot",
+  "bsdataId": "2586-d28e-7404-b64e",
+  "type": "terrain",
+  "name": "Great Mawpot",
+  "faction": "ogor_mawtribes",
+  "keywords": [
+    "destruction",
+    "faction terrain",
+    "faction:ogor_mawtribes"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 6,
+    "save": "5+",
+    "control": "-"
+  },
+  "abilities": [
+    {
+      "name": "Great Mawpot",
+      "type": "passive",
+      "effect": "The **Great Mawpot** is either **full** or **empty**. It starts the battle **full**.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Battlebroth",
+      "type": "once-per-turn",
+      "effect": "If the **Great Mawpot** is full, **Heal (D3)** each friendly unit wholly within 18\" of it. After you have done so, the **Great Mawpot** is empty.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Vessel of the Gulping God",
+      "type": "once-per-turn",
+      "effect": "Add 1 to the power level of the target for the rest of the turn.",
+      "phase": "hero",
+      "declare": "If the **Great Mawpot** is full, pick a friendly **^^Ogor Wizard^^** within 3\" of it to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Throw 'Em In",
+      "type": "passive",
+      "effect": "If an enemy model is slain within 6\" of the **Great Mawpot** when it is **empty**, it becomes **full**.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction"
+}
