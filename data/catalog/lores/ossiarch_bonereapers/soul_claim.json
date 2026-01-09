@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.ossiarch_bonereapers.soul_claim",
+  "type": "spell",
+  "name": "Soul-Claim",
+  "faction": "ossiarch_bonereapers",
+  "lore": "lore_of_necrotheurgy",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "Inflict D3 mortal damage on the enemy target. If any models are slain by this ability, pick 1 of the following:\n• **Heal (3)** the friendly target.\n• Return a number of slain models to the friendly target with a combined Health characteristic of up to 3.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Ossiarch Bonereapers Wizard^^** to cast this spell, then pick a visible enemy unit within 18\" of them to be the enemy target. Then, you can pick a visible friendly **^^Ossiarch Bonereapers^^** unit wholly within 12\" of that **^^Wizard^^** to be a friendly target. Then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Movement"
+}

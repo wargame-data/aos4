@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.beasts_of_chaos.summon_doomblast_dirgehorn",
+  "type": "spell",
+  "name": "Summon Doomblast Dirgehorn",
+  "faction": "beasts_of_chaos",
+  "lore": "bestial_manifestations",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Doomblast Dirgehorn** wholly within 18\" of the chanter.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Doomblast Dirgehorn** on the battlefield, pick a friendly **^^Beasts of Chaos Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

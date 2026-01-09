@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  "id": "prayer.stormcast_eternals.healing_storm",
+  "type": "prayer",
+  "name": "Healing Storm",
+  "faction": "stormcast_eternals",
+  "lore": "prayers_of_the_stormhosts",
+  "keywords": [
+    "prayer",
+    "unlimited"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Heal (D3) the target. If the chanting roll was 8+, **Heal (D3)** each visible friendly **^^Stormcast Eternals^^** unit wholly within 12\" of the chanter instead.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Stormcast Eternals Priest^^** to chant this prayer, pick a visible friendly **^^Stormcast Eternals^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

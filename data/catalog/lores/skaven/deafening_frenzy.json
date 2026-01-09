@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.skaven.deafening_frenzy",
+  "type": "spell",
+  "name": "Deafening Frenzy",
+  "faction": "skaven",
+  "lore": "spell_lore_the_great_grand_gnawhorde",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 8,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn:\n• The target has **^^Strike-first^^**.\n• The target cannot use commands.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Gnawhorde Wizard^^** to cast this spell, pick a visible friendly **^^Gnawhorde Infantry^^** unit wholly within 13\" of them to be the target, then make a casting roll of 2D6. The casting roll for this spell cannot be modified.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

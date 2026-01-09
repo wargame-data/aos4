@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.hedonites_of_slaanesh.summon_mesmerising_mirror",
+  "type": "spell",
+  "name": "Summon Mesmerising Mirror",
+  "faction": "hedonites_of_slaanesh",
+  "lore": "manifestations_of_depravity",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Mesmerising Mirror** wholly within 18\" of the caster, visible to them and more than 3\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Mesmerising Mirror** on the battlefield, pick a friendly **^^Hedonites of Slaanesh Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

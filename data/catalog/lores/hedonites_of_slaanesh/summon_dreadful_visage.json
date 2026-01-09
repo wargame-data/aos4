@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.hedonites_of_slaanesh.summon_dreadful_visage",
+  "type": "spell",
+  "name": "Summon Dreadful Visage",
+  "faction": "hedonites_of_slaanesh",
+  "lore": "manifestations_of_depravity",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Dreadful Visage** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Dreadful Visage** on the battlefield, pick a friendly **^^Hedonites of Slaanesh Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

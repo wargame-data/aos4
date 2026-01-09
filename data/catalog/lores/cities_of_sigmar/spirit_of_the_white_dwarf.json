@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  "id": "prayer.cities_of_sigmar.spirit_of_the_white_dwarf",
+  "type": "prayer",
+  "name": "Spirit of the White Dwarf",
+  "faction": "cities_of_sigmar",
+  "lore": "prayer_lore_the_duardin_ascendant",
+  "keywords": [
+    "prayer",
+    "unlimited"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "The target is **unified** until the start of your next turn. If the chanting roll was 8+, you can pick 2 targets instead of 1.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Duardin Ascendant Priest^^** to chant this prayer, pick a visible friendly **^^Duardin Ascendant^^** unit within 18\" of them to be the target, then make a chanting roll of D6."
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.disciples_of_tzeentch.summon_burning_sigil_of_tzeentch",
+  "type": "spell",
+  "name": "Summon Burning Sigil of Tzeentch",
+  "faction": "disciples_of_tzeentch",
+  "lore": "manifestation_lore_pyrofane_cult",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **^^Burning Sigil of Tzeentch^^** wholly within 12\" of the caster and visible to them.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Pyrofane Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

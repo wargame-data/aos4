@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.ironjawz.morks_melee_miracle",
+  "type": "spell",
+  "name": "Mork's Melee Miracle",
+  "faction": "ironjawz",
+  "lore": "spell_lore_ironsunz",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, add the number of the current battle round to the Attacks characteristic of the target's melee weapons.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Ironsunz Wizard^^** to cast this spell, pick a visible friendly **^^Ironsunz^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6, subtracting the current battle round number from the roll.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

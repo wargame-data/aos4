@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  "id": "prayer.ogor_mawtribes.call_of_the_blizzard",
+  "type": "prayer",
+  "name": "Call of the Blizzard",
+  "faction": "ogor_mawtribes",
+  "lore": "everwinter_prayers",
+  "keywords": [
+    "prayer",
+    "unlimited"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Place a **blizzard token** next to the target. Terrain features that have a **blizzard token** gain the ‘Obscuring’ terrain ability. In addition, if the chanting roll was 8+, until the start of your next turn, friendly **^^Beastclaw Raiders^^** units have **^^Ward (5+)^^** while they are within 3\" of any terrain features that have **blizzard tokens**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Ogor Mawtribes Priest^^** to chant this prayer, pick a terrain feature within 18\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

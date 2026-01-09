@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.nighthaunt.summon_mortalis_terminexus",
+  "type": "spell",
+  "name": "Summon Mortalis Terminexus",
+  "faction": "nighthaunt",
+  "lore": "manifestation_lore_the_eternal_nightmare",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Mortalis Terminexus** wholly within 18\" of the caster and visible to them.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Mortalis Terminexus** on the battlefield, pick a friendly **^^Eternal Nightmare Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.disciples_of_tzeentch.summon_cult_leader",
+  "type": "spell",
+  "name": "Summon Cult Leader",
+  "faction": "disciples_of_tzeentch",
+  "lore": "lore_of_wyrdflame",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 8,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a replacement unit identical to the target in reserve **hidden among cultists**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Pyrofane Wizard^^** to cast this spell, pick a friendly **^^Wizard^^** that has been destroyed to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Rallying"
+}

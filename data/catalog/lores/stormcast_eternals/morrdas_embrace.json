@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  "id": "prayer.stormcast_eternals.morrdas_embrace",
+  "type": "prayer",
+  "name": "Morrda's Embrace",
+  "faction": "stormcast_eternals",
+  "lore": "prayer_lore_ruination_brotherhood",
+  "keywords": [
+    "prayer",
+    "unlimited"
+  ],
+  "chantingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "Roll a dice. If the roll exceeds the target’s Health characteristic, 1 model in the target unit is slain. If the chanting roll was 10+, roll 2D6 instead.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Ruination Brotherhood Priest^^** to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

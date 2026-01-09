@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  "id": "prayer.ogor_mawtribes.pulverising_hailstorm",
+  "type": "prayer",
+  "name": "Pulverising Hailstorm",
+  "faction": "ogor_mawtribes",
+  "lore": "everwinter_prayers",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If the chanting roll was 8+, double the amount of mortal damage inflicted.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Ogor Mawtribes Priest^^** to chant this prayer, pick a point on the battlefield within 12\" of them, then pick each visible enemy unit within 3\" of that point to be the targets. Then, make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.beasts_of_chaos.vicious_stranglethorns",
+  "type": "spell",
+  "name": "Vicious Stranglethorns",
+  "faction": "beasts_of_chaos",
+  "lore": "lore_of_the_twisted_wilds",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 8,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn:\n• Halve the target’s Move characteristic.\n• Subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Beasts of Chaos Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Movement"
+}

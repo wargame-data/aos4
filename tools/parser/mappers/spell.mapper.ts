@@ -14,7 +14,7 @@ import type {
 } from "../xml/types.js";
 import { BaseMapper, type MapperOptions } from "./base.js";
 import { findCharacteristic, findAttribute } from "../xml/reader.js";
-import { findLoreGroups, findUniversalManifestationLores } from "../xml/traverser.js";
+import { findLoreGroups, findUniversalManifestationLores, buildLoreGroupToFactionMap } from "../xml/traverser.js";
 import { toUnderscoreId, toQualifiedId } from "../transformers/id.js";
 import { SCHEMA_URLS } from "../config.js";
 import type { Spell, Prayer } from "../../schemas/schemas/spell.schema.js";
@@ -249,21 +249,6 @@ export class IndividualPrayerMapper extends BaseMapper<PrayerMapperInput, Prayer
 }
 
 /**
- * Determine the faction ID from a lore name
- * Maps lore names like "Lore of Ruination (Slaves to Darkness)" to "slaves_to_darkness"
- */
-function extractFactionFromLoreName(loreName: string): string {
-  // Check for parenthetical faction name
-  const parenMatch = loreName.match(/\(([^)]+)\)$/);
-  if (parenMatch) {
-    return toUnderscoreId(parenMatch[1]);
-  }
-
-  // Default to shared if no faction specified
-  return "shared";
-}
-
-/**
  * Check if a lore group contains spell profiles
  */
 function hasSpellProfiles(group: BSSelectionEntryGroup): boolean {
@@ -369,12 +354,18 @@ function extractPrayerProfilesFromGroup(group: BSSelectionEntryGroup): { profile
 
 /**
  * Map all individual spells from Lores.cat
+ *
+ * @param catalogue - The parsed Lores.cat catalogue
+ * @param options - Mapper options
+ * @param catalogueIdMap - Map of catalogue ID → faction name (e.g., "1bd9-..." → "Stormcast Eternals")
  */
 export function mapIndividualSpells(
   catalogue: BSCatalogue,
-  options: MapperOptions
+  options: MapperOptions,
+  catalogueIdMap: Map<string, string>
 ): Spell[] {
   const loreGroups = findLoreGroups(catalogue);
+  const loreToFactionMap = buildLoreGroupToFactionMap(catalogue);
   const spellMapper = new IndividualSpellMapper(options);
   const spells: Spell[] = [];
 
@@ -382,7 +373,13 @@ export function mapIndividualSpells(
     if (!hasSpellProfiles(group)) continue;
 
     const loreName = group.$.name;
-    const factionId = extractFactionFromLoreName(loreName);
+    const groupId = group.$.id;
+
+    // Resolve faction via: lore group ID → catalogue ID → faction name
+    const catalogueId = loreToFactionMap.get(groupId);
+    const factionName = catalogueId ? catalogueIdMap.get(catalogueId) : null;
+    const factionId = factionName ? toUnderscoreId(factionName) : "shared";
+
     const profiles = extractSpellProfilesFromGroup(group);
 
     for (const { profile } of profiles) {
@@ -395,7 +392,7 @@ export function mapIndividualSpells(
     }
   }
 
-  // Also map universal manifestation lores
+  // Also map universal manifestation lores (these are always "shared")
   const universalLores = findUniversalManifestationLores(catalogue);
   for (const ulore of universalLores) {
     for (const entry of ulore.spellEntries) {
@@ -422,12 +419,18 @@ export function mapIndividualSpells(
 
 /**
  * Map all individual prayers from Lores.cat
+ *
+ * @param catalogue - The parsed Lores.cat catalogue
+ * @param options - Mapper options
+ * @param catalogueIdMap - Map of catalogue ID → faction name (e.g., "1bd9-..." → "Stormcast Eternals")
  */
 export function mapIndividualPrayers(
   catalogue: BSCatalogue,
-  options: MapperOptions
+  options: MapperOptions,
+  catalogueIdMap: Map<string, string>
 ): Prayer[] {
   const loreGroups = findLoreGroups(catalogue);
+  const loreToFactionMap = buildLoreGroupToFactionMap(catalogue);
   const prayerMapper = new IndividualPrayerMapper(options);
   const prayers: Prayer[] = [];
 
@@ -435,7 +438,13 @@ export function mapIndividualPrayers(
     if (!hasPrayerProfiles(group)) continue;
 
     const loreName = group.$.name;
-    const factionId = extractFactionFromLoreName(loreName);
+    const groupId = group.$.id;
+
+    // Resolve faction via: lore group ID → catalogue ID → faction name
+    const catalogueId = loreToFactionMap.get(groupId);
+    const factionName = catalogueId ? catalogueIdMap.get(catalogueId) : null;
+    const factionId = factionName ? toUnderscoreId(factionName) : "shared";
+
     const profiles = extractPrayerProfilesFromGroup(group);
 
     for (const { profile } of profiles) {

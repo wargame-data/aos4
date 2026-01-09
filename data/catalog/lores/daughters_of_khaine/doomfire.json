@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.daughters_of_khaine.doomfire",
+  "type": "spell",
+  "name": "Doomfire",
+  "faction": "daughters_of_khaine",
+  "lore": "lore_of_shadows",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "If the target unit has fewer than 10 models, inflict D3 mortal damage on the target.\nIf the target unit has 10-19 models, inflict D6 mortal damage on the target.\nIf the target unit has 20 or more models, inflict 6 mortal damage on the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Daughters of Khaine Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

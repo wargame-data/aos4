@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  "id": "prayer.fyreslayers.summon_zharrgron_flame_spitter",
+  "type": "prayer",
+  "name": "Summon Zharrgron Flame-spitter",
+  "faction": "fyreslayers",
+  "lore": "magmic_invocations",
+  "keywords": [
+    "prayer",
+    "summon"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Zharrgron Flame-spitter** wholly within 12\" of the chanter and visible to them.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Zharrgron Flame-spitter** on the battlefield, pick a friendly **^^Fyreslayers Priest^^** to chant this prayer, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

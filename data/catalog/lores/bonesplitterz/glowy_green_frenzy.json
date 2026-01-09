@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.bonesplitterz.glowy_green_frenzy",
+  "type": "spell",
+  "name": "Glowy Green Frenzy",
+  "faction": "bonesplitterz",
+  "lore": "lore_of_the_savage_beasts",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Add 1 to the Rend characteristic of the target’s melee weapons until the start of your next turn, including **Companion** weapons.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Bonesplitterz Wizard^^** to cast this spell, pick a visible friendly unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

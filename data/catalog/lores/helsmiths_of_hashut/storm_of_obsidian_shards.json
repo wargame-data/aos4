@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  "id": "prayer.helsmiths_of_hashut.storm_of_obsidian_shards",
+  "type": "prayer",
+  "name": "Storm of Obsidian Shards",
+  "faction": "helsmiths_of_hashut",
+  "lore": "prayers_of_the_scorched_sect",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "Inflict D3 mortal damage on the target and subtract 3 from the target's control score for the rest of the turn. If the chanting roll was 10+, you can pick another eligible unit to be a second target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Helsmiths of Hashut Priest^^** to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

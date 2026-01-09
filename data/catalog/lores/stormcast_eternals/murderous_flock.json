@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  "id": "prayer.stormcast_eternals.murderous_flock",
+  "type": "prayer",
+  "name": "Murderous Flock",
+  "faction": "stormcast_eternals",
+  "lore": "prayer_lore_ruination_brotherhood",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target unit. If the chanting roll was 10+, inflict 1 mortal damage on the target unit for each 4+ instead.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Ruination Brotherhood Priest^^** to chant this prayer, pick a visible enemy unit within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.ogor_mawtribes.troggoth_guts",
+  "type": "spell",
+  "name": "Troggoth Guts",
+  "faction": "ogor_mawtribes",
+  "lore": "lore_of_maw_magic",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "**Heal (D3)** the target and add 3 to the target’s control score for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Ogor Mawtribes Wizard^^** to cast this spell, pick a visible friendly **^^Ogor Mawtribes^^** unit within 12\" of them that has not been picked to be the target of this ability this turn to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

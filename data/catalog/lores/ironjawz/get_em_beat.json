@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  "id": "prayer.ironjawz.get_em_beat",
+  "type": "prayer",
+  "name": "Get 'Em Beat",
+  "faction": "ironjawz",
+  "lore": "warbeats",
+  "keywords": [
+    "prayer",
+    "unlimited"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "For the rest of the turn, add 1 to charge rolls for the target. In addition, if the chanting roll was 8+, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Ironjawz Priest^^** to chant this prayer, pick a visible friendly **^^Ironjawz^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Movement"
+}

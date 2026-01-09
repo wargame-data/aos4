@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.sylvaneth.treesong",
+  "type": "spell",
+  "name": "Treesong",
+  "faction": "sylvaneth",
+  "lore": "lore_of_the_deepwood",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "If there are fewer than 3 friendly **Awakened Wyldwoods** on the battlefield, you can set up an **Awakened Wyldwood** wholly within 24\" of the caster, more than 3\" from all objectives and more than 1\" from all enemy units and other terrain features. If there are already 3 friendly **Awakened Wyldwoods** on the battlefield, **Heal (3)** each friendly **Awakened Wyldwood**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Sylvaneth Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

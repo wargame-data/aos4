@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.ossiarch_bonereapers.tremors_from_the_entombed",
+  "type": "spell",
+  "name": "Tremors From the Entombed",
+  "faction": "ossiarch_bonereapers",
+  "lore": "spell_lore_petrifex_elite",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "If the target is a terrain feature, roll a D3 for each unit (friendly or enemy) within 3\" of it. On a 2+. inflict an amount of mortal damage on that unit equal to the roll.\nIf the unit is a faction terrain feature, inflict 2D6 mortal damage on it, If the target is destroyed, before removing it from play, roll a D3 for each unit (friendly or enemy) within 3\" of it. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Petrifex Elite Wizard^^** to cast this spell, pick a terrain feature or faction terrain feature within 12\" of them to be the target, then make a casting roll of 2D6."
+}

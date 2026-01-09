@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.soulblight_gravelords.prison_of_grief",
+  "type": "spell",
+  "name": "Prison of Grief",
+  "faction": "soulblight_gravelords",
+  "lore": "lore_of_undeath",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "The target has **^^Strike-last^^** until the start of your next turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Soulblight Gravelords Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

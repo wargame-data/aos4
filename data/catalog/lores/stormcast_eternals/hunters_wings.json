@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.stormcast_eternals.hunters_wings",
+  "type": "spell",
+  "name": "Hunter's Wings",
+  "faction": "stormcast_eternals",
+  "lore": "spell_lore_astral_templars",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn:\n• Add 3 to the target's Move characteristic.\n• Subtract 1 from hit rolls and wound rolls for shooting attacks that target the target unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Astral Templars Wizard^^** to cast this spell, pick a visible friendly unit wholly within 12\" of them to be the target, then make a casting roll of 2D6."
+}

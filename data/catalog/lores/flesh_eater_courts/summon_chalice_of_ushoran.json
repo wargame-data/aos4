@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.flesh_eater_courts.summon_chalice_of_ushoran",
+  "type": "spell",
+  "name": "Summon Chalice of Ushoran",
+  "faction": "flesh_eater_courts",
+  "lore": "manifestation_lore_the_equinox_feast",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Chalice of Ushoran** wholly within 12\" of the caster and visible to them.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Chalice of Ushoran** on the battlefield, pick a friendly **^^Flesh-eater Courts Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

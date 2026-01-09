@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.nighthaunt.summon_shyish_reaper",
+  "type": "spell",
+  "name": "Summon Shyish Reaper",
+  "faction": "nighthaunt",
+  "lore": "manifestation_lore_the_eternal_nightmare",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Shyish Reaper** wholly within 9\" of the caster, visible to them and more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Shyish Reaper** on the battlefield, pick a friendly **^^Eternal Nightmare Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

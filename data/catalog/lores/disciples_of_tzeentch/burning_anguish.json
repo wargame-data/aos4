@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.disciples_of_tzeentch.burning_anguish",
+  "type": "spell",
+  "name": "Burning Anguish",
+  "faction": "disciples_of_tzeentch",
+  "lore": "lore_of_wyrdflame",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "The target cannot use commands for the rest of the battle round.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Pyrofane Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them and which had any damage points allocated to it this battle round by the 'Immolation of the Realms' ability to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  "id": "prayer.bonesplitterz.bashdokk_dance",
+  "type": "prayer",
+  "name": "Bashdokk Dance",
+  "faction": "bonesplitterz",
+  "lore": "prayers_of_the_living_wilds",
+  "keywords": [
+    "prayer",
+    "unlimited"
+  ],
+  "chantingValue": 3,
+  "timing": "Your Hero Phase",
+  "effect": "Add 1 to charge rolls and run rolls for the target for the rest of the turn. If the chanting roll was 7+, in addition, for the rest of the turn, the target can use **^^Charge^^** abilities even if it used a **^^Run^^** or **^^Retreat^^** ability in the same turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Bonesplitterz Priest^^** to chant this prayer, pick a visible friendly **^^Bonesplitterz^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Movement"
+}

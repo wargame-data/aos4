@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  "id": "prayer.blades_of_khorne.runes_of_loathing",
+  "type": "prayer",
+  "name": "Runes of Loathing",
+  "faction": "blades_of_khorne",
+  "lore": "gifts_of_the_blood_god",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 3,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, the target has **^^Ward (3+)^^** against damage inflicted by **^^Spell^^** abilities, **^^Prayer^^** abilities, and abilities used by **^^Manifestations^^** (including **^^Fight^^** abilities). If the chanting roll was 8+, you can pick another eligible unit to be a second target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, pick a friendly **^^Blades of Khorne^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

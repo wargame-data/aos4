@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.seraphon.empowered_celestite",
+  "type": "spell",
+  "name": "Empowered Celestite",
+  "faction": "seraphon",
+  "lore": "lore_of_primal_jungles",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Add 1 to the Rend characteristic of the target’s melee weapons for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Seraphon Wizard^^** to cast this spell, pick a visible friendly **^^Saurus^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

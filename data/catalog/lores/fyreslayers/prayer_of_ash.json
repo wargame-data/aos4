@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  "id": "prayer.fyreslayers.prayer_of_ash",
+  "type": "prayer",
+  "name": "Prayer of Ash",
+  "faction": "fyreslayers",
+  "lore": "zharrgrim_blessings",
+  "keywords": [
+    "prayer",
+    "unlimited"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Subtract 1 from wound rolls for attacks that target that friendly unit until the start of your next turn.\nIf the chanting roll was 8+, also subtract 1 from the Rend characteristic of attacks that target that friendly unit until the start of your next turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Fyreslayers Priest^^** to chant this prayer, pick a visible friendly **^^Fyreslayers^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

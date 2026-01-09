@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.idoneth_deepkin.essence_of_the_chorrileum",
+  "type": "spell",
+  "name": "Essence of the Chorrileum",
+  "faction": "idoneth_deepkin",
+  "lore": "spell_lore_wardens_of_the_chorrileum",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "If the target is **^^Namarti^^**, you can return D6 slain models to it. Otherwise, **Heal (D3)** the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Chorrileum Wizard^^** to cast this spell, pick a visible friendly **^^Chorrileum^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

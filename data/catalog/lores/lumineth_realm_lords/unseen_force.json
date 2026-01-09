@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.lumineth_realm_lords.unseen_force",
+  "type": "spell",
+  "name": "Unseen Force",
+  "faction": "lumineth_realm_lords",
+  "lore": "lore_of_prismatic_resonance",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, the target cannot use **^^Run^^** abilities. In addition, if that enemy unit has already been picked to be the target of this ability this battle round, subtract 1 from hit rolls for the target’s combat attacks.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Lumineth Realm-lords Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

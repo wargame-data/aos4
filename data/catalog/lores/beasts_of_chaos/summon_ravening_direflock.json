@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.beasts_of_chaos.summon_ravening_direflock",
+  "type": "spell",
+  "name": "Summon Ravening Direflock",
+  "faction": "beasts_of_chaos",
+  "lore": "bestial_manifestations",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Ravening Direflock** wholly within 18\" of the caster and more than 9\" from all enemy units. A **Ravening Direflock** has 3 parts that must each be set up within 1\" of at least 1 other part.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Ravening Direflock** on the battlefield, pick a friendly **^^Beasts of Chaos Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

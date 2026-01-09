@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.stormcast_eternals.starfall",
+  "type": "spell",
+  "name": "Starfall",
+  "faction": "stormcast_eternals",
+  "lore": "lore_of_the_storm",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, pick a visible enemy **^^Infantry^^** or **^^Cavalry^^** unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Movement"
+}

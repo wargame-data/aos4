@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  "id": "prayer.fyreslayers.prayer_of_grimnirs_fury",
+  "type": "prayer",
+  "name": "Prayer of Grimnir's Fury",
+  "faction": "fyreslayers",
+  "lore": "zharrgrim_blessings",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "The target can use 2 **^^Fight^^** abilities this turn. After the first is used, however, the target has **^^Strike-last^^** for the rest of the turn.\nIf the chanting roll was 8+, also add 1 to wound rolls for the target’s combat attacks for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Fyreslayers Priest^^** to chant this prayer, pick a visible friendly **^^Fyreslayers Infantry Hero^^** wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

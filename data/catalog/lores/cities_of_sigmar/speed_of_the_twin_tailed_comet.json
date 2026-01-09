@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.cities_of_sigmar.speed_of_the_twin_tailed_comet",
+  "type": "spell",
+  "name": "Speed of the Twin-tailed Comet",
+  "faction": "cities_of_sigmar",
+  "lore": "spells_of_the_collegiate_arcane",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Cities of Sigmar Wizard^^** to cast this spell, pick a visible friendly **^^Cities of Sigmar^^** unit wholly within 12\" to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Movement"
+}

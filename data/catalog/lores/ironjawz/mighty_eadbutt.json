@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.ironjawz.mighty_eadbutt",
+  "type": "spell",
+  "name": "Mighty 'Eadbutt",
+  "faction": "ironjawz",
+  "lore": "lore_of_the_weird",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Inflict D3 mortal damage on the target. If the target is a **^^Wizard^^**, inflict 3 mortal damage on the target instead.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Ironjawz Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

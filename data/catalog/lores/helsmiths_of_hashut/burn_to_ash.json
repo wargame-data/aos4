@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.helsmiths_of_hashut.burn_to_ash",
+  "type": "spell",
+  "name": "Burn to Ash",
+  "faction": "helsmiths_of_hashut",
+  "lore": "spell_lore_ziggurat_stampede",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 8,
+  "timing": "Your Hero Phase",
+  "effect": "If the target has a Health characteristic, inflict 2D3 mortal damage on it. Then, if the target was not destroyed or does not have a Health characteristic:\n• The target gains the 'Obscuring' terrain ability for the rest of the battle.\n• If the target is **^^Faction Terrain^^**, until the start of your next turn, abilities on that terrain feature’s warscroll have no effect.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Ziggurat Stampede Wizard^^** to cast this spell, pick a terrain feature within 18\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

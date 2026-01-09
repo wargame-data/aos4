@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.gloomspite_gitz.spore_maws",
+  "type": "spell",
+  "name": "Spore Maws",
+  "faction": "gloomspite_gitz",
+  "lore": "lore_of_the_clammy_dank",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Gloomspite Gitz Wizard^^** to cast this spell, pick up to 3 visible enemy units within 12\" of them to be the targets, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

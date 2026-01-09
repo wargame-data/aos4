@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  "id": "prayer.blades_of_khorne.goreflesh",
+  "type": "prayer",
+  "name": "Goreflesh",
+  "faction": "blades_of_khorne",
+  "lore": "gifts_of_the_blood_god",
+  "keywords": [
+    "prayer",
+    "unlimited"
+  ],
+  "chantingValue": 3,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, ignore the first damage point allocated to the target in each phase. If the chanting roll was 8+, you can pick another eligible unit to be a second target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, pick a visible friendly **^^Blades of Khorne^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.slaves_to_darkness.wreathed_in_the_storm",
+  "type": "spell",
+  "name": "Wreathed in the Storm",
+  "faction": "slaves_to_darkness",
+  "lore": "spell_lore_heroes_of_the_first_forged",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "For the rest of the turn, each time you make an unmodified save roll of 6 for a combat attack that targets the target unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^First‑Forged Wizard^^** to cast this spell, pick a visible friendly **Stormcast Eternals** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

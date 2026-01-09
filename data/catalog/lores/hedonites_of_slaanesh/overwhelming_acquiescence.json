@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.hedonites_of_slaanesh.overwhelming_acquiescence",
+  "type": "spell",
+  "name": "Overwhelming Acquiescence",
+  "faction": "hedonites_of_slaanesh",
+  "lore": "lore_of_extravagance",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Add 1 to wound rolls for attacks that target that enemy unit until the start of your next turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Hedonites of Slaanesh Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

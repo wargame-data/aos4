@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.ogor_mawtribes.greasy_deluge",
+  "type": "spell",
+  "name": "Greasy Deluge",
+  "faction": "ogor_mawtribes",
+  "lore": "lore_of_maw_magic",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Subtract 1 from hit rolls for the target’s attacks until the start of your next turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Ogor Mawtribes Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

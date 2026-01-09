@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.kruleboyz.morkish_mist",
+  "type": "spell",
+  "name": "Morkish Mist",
+  "faction": "kruleboyz",
+  "lore": "spell_lore_murkvast_menagerie",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, the target has **^^Ward (5+)^^**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Murkvast Menagerie Wizard^^** to cast this spell, pick a visible friendly **^^Murkvast Menagerie Infantry^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

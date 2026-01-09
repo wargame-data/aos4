@@ -1259,6 +1259,171 @@ export function findUniversalManifestationLores(
 }
 
 /**
+ * Build a map of lore group ID → faction catalogue ID.
+ * This scans all entryLinks in the catalogue and extracts the primary-catalogue
+ * conditions that link lore groups to factions.
+ *
+ * The structure in Lores.cat is:
+ * <entryLink name="Prayers of the Stormhosts" targetId="fd49-..." type="selectionEntryGroup">
+ *   <modifiers>
+ *     <modifier type="set" value="false" field="hidden">
+ *       <conditionGroups>
+ *         <conditions>
+ *           <condition scope="primary-catalogue" childId="1bd9-..."/>
+ *         </conditions>
+ *       </conditionGroups>
+ *     </modifier>
+ *   </modifiers>
+ * </entryLink>
+ */
+export function buildLoreGroupToFactionMap(catalogue: BSCatalogue): Map<string, string> {
+  const loreToFaction = new Map<string, string>();
+
+  // Recursively find all entryLinks in selection entries
+  function processEntry(entry: BSSelectionEntry): void {
+    if (entry.entryLinks) {
+      for (const link of entry.entryLinks) {
+        if (link.$ && link.$.targetId && link.$.type === "selectionEntryGroup") {
+          const factionId = extractPrimaryCatalogueFromLink(link);
+          if (factionId) {
+            loreToFaction.set(link.$.targetId, factionId);
+          }
+        }
+      }
+    }
+
+    // Recurse into child entries
+    if (entry.selectionEntries) {
+      for (const child of entry.selectionEntries) {
+        processEntry(child);
+      }
+    }
+
+    // Recurse into selection entry groups
+    if (entry.selectionEntryGroups) {
+      for (const group of entry.selectionEntryGroups) {
+        processGroup(group);
+      }
+    }
+  }
+
+  function processGroup(group: BSSelectionEntryGroup): void {
+    if (group.entryLinks) {
+      for (const link of group.entryLinks) {
+        if (link.$ && link.$.targetId && link.$.type === "selectionEntryGroup") {
+          const factionId = extractPrimaryCatalogueFromLink(link);
+          if (factionId) {
+            loreToFaction.set(link.$.targetId, factionId);
+          }
+        }
+      }
+    }
+
+    // Recurse into selection entries
+    if (group.selectionEntries) {
+      for (const entry of group.selectionEntries) {
+        processEntry(entry);
+      }
+    }
+
+    // Recurse into nested groups
+    if (group.selectionEntryGroups) {
+      for (const subGroup of group.selectionEntryGroups) {
+        processGroup(subGroup);
+      }
+    }
+  }
+
+  // Process shared selection entries
+  if (catalogue.sharedSelectionEntries) {
+    for (const entry of catalogue.sharedSelectionEntries) {
+      processEntry(entry);
+    }
+  }
+
+  // Process direct selection entries
+  if (catalogue.selectionEntries) {
+    for (const entry of catalogue.selectionEntries) {
+      processEntry(entry);
+    }
+  }
+
+  // Process shared selection entry groups
+  if (catalogue.sharedSelectionEntryGroups) {
+    for (const group of catalogue.sharedSelectionEntryGroups) {
+      processGroup(group);
+    }
+  }
+
+  // Process direct selection entry groups
+  if (catalogue.selectionEntryGroups) {
+    for (const group of catalogue.selectionEntryGroups) {
+      processGroup(group);
+    }
+  }
+
+  return loreToFaction;
+}
+
+/**
+ * Extract the primary-catalogue childId from an entryLink's modifiers/conditions.
+ */
+function extractPrimaryCatalogueFromLink(link: BSEntryLink): string | null {
+  if (!link.modifiers) return null;
+
+  for (const modifier of link.modifiers) {
+    const factionId = findPrimaryCatalogueInModifier(modifier);
+    if (factionId) return factionId;
+  }
+
+  return null;
+}
+
+/**
+ * Recursively search a modifier's conditions for primary-catalogue scope.
+ */
+function findPrimaryCatalogueInModifier(modifier: BSModifier): string | null {
+  // Check conditionGroups
+  if (modifier.conditionGroups) {
+    for (const cg of modifier.conditionGroups) {
+      // Check direct conditions
+      if (cg.conditions) {
+        for (const condition of cg.conditions) {
+          if (condition.$ && condition.$.scope === "primary-catalogue" && condition.$.childId) {
+            return condition.$.childId;
+          }
+        }
+      }
+
+      // Check localConditionGroups (nested structure)
+      if ((cg as unknown as Record<string, unknown>).localConditionGroups) {
+        const localGroups = (cg as unknown as Record<string, unknown>).localConditionGroups as Array<Record<string, unknown>>;
+        for (const lcg of localGroups) {
+          if (lcg.conditions && Array.isArray(lcg.conditions)) {
+            for (const condition of lcg.conditions as Array<{ $?: { scope?: string; childId?: string } }>) {
+              if (condition.$ && condition.$.scope === "primary-catalogue" && condition.$.childId) {
+                return condition.$.childId;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Check direct conditions on modifier
+  if (modifier.conditions) {
+    for (const condition of modifier.conditions) {
+      if (condition.$ && condition.$.scope === "primary-catalogue" && condition.$.childId) {
+        return condition.$.childId;
+      }
+    }
+  }
+
+  return null;
+}
+
+/**
  * Information about an enhancement group with context for mapping
  */
 export interface EnhancementGroupInfo {

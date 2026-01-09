@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.helsmiths_of_hashut.reinforce_daemonsteel",
+  "type": "spell",
+  "name": "Reinforce Daemonsteel",
+  "faction": "helsmiths_of_hashut",
+  "lore": "spell_lore_taars_grand_forgehost",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, ignore the first damage point allocated to each friendly **^^Helsmiths of Hashut^^** unit in each phase while they are wholly within 12\" of the caster.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Grand Forgehost Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

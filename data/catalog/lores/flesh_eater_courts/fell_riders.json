@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.flesh_eater_courts.fell_riders",
+  "type": "spell",
+  "name": "Fell Riders",
+  "faction": "flesh_eater_courts",
+  "lore": "spell_lore_the_clattering_procession",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "You can re-roll run rolls and charge rolls for the targets for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Clattering Procession Wizard^^** to cast this spell, pick the caster and up to two visible friendly **^^Clattering Procession^^** units wholly within 12\" of them to be the targets, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Movement"
+}

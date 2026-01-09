@@ -6,6 +6,8 @@
 
 import { readFile } from "fs/promises";
 import { parseStringPromise } from "xml2js";
+import { glob } from "glob";
+import { join } from "path";
 import type {
   BSGameSystem,
   BSCatalogue,
@@ -219,4 +221,44 @@ export function findAttribute(
 ): string | undefined {
   const attr = profile.attributes?.find((a) => a.$.name === name);
   return attr?._;
+}
+
+/**
+ * Build a map of catalogue ID to faction name.
+ * Scans all .cat files to extract their IDs and names.
+ * Includes both main faction catalogues and subfaction catalogues (mapped to parent faction).
+ */
+export async function buildCatalogueIdMap(bsdataDir: string): Promise<Map<string, string>> {
+  const catalogueMap = new Map<string, string>();
+  const catFiles = await glob(join(bsdataDir, "*.cat"));
+
+  for (const catFile of catFiles) {
+    const catalogue = await parseCat(catFile);
+
+    // Skip library catalogues
+    const isLibrary = catalogue.$.library === "true";
+    if (isLibrary) {
+      continue;
+    }
+
+    let factionName = catalogue.$.name;
+
+    // For subfaction catalogues like "Ironjawz - Ironsunz [LEGENDS]",
+    // extract the parent faction name ("Ironjawz")
+    if (factionName.includes(" - ")) {
+      factionName = factionName.split(" - ")[0].trim();
+    }
+
+    // Remove [LEGENDS] suffix if present
+    factionName = factionName.replace(/\s*\[LEGENDS\]\s*/gi, "").trim();
+
+    // Skip non-faction catalogues (special characters prefix)
+    if (factionName.startsWith("þ") || factionName.startsWith("✦") || factionName.startsWith("❖") || factionName.startsWith("۞")) {
+      continue;
+    }
+
+    catalogueMap.set(catalogue.$.id, factionName);
+  }
+
+  return catalogueMap;
 }

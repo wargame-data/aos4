@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.sylvaneth.wrathful_spirits",
+  "type": "spell",
+  "name": "Wrathful Spirits",
+  "faction": "sylvaneth",
+  "lore": "lore_of_the_deepwood",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, add 1 to the Rend characteristic of melee weapons used by friendly Sylvaneth units while they are wholly within 6\" of the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Sylvaneth Wizard^^** to cast this spell, pick a friendly **Awakened Wyldwood** wholly within 18\" of the caster to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

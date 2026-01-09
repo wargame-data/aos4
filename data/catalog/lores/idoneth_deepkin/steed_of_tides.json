@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.idoneth_deepkin.steed_of_tides",
+  "type": "spell",
+  "name": "Steed of Tides",
+  "faction": "idoneth_deepkin",
+  "lore": "lore_of_the_deeps",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Idoneth Deepkin Wizard^^** to cast this spell, pick a visible friendly **^^Idoneth Deepkin^^** unit wholly within 12\" of them and not in combat to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Movement"
+}

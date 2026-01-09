@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.gloomspite_gitz.summon_morks_mighty_mushroom",
+  "type": "spell",
+  "name": "Summon Mork's Mighty Mushroom",
+  "faction": "gloomspite_gitz",
+  "lore": "manifestation_lore_droggzs_gitmob",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Mork’s Mighty Mushroom** wholly within 12\" of the caster and visible to them.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Mork’s Mighty Mushroom** on the battlefield, pick a friendly **^^Gloomspite Gitz Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.ogor_mawtribes.mawmeat",
+  "type": "spell",
+  "name": "Mawmeat",
+  "faction": "ogor_mawtribes",
+  "lore": "spell_lore_the_roving_maw",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "For the rest of the battle, units on or within 1\" of the target are **vulnerable to Mawpits**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Roving Maw Wizard^^** to cast this spell, pick a visible terrain feature within 18\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

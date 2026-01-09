@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.helsmiths_of_hashut.flaming_weapons",
+  "type": "spell",
+  "name": "Flaming Weapons",
+  "faction": "helsmiths_of_hashut",
+  "lore": "spell_lore_ziggurat_stampede",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Add 1 to the Rend characteristic of the target's melee weapons until the start of yout next turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Ziggurat Stampede^^** to cast this spell, pick a visible friendly **^^Ziggurat Stampede^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

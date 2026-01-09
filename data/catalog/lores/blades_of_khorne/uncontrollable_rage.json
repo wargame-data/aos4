@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  "id": "prayer.blades_of_khorne.uncontrollable_rage",
+  "type": "prayer",
+  "name": "Uncontrollable Rage",
+  "faction": "blades_of_khorne",
+  "lore": "blood_blessings_of_khorne",
+  "keywords": [
+    "prayer",
+    "unlimited"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, the effects of the 'Blood-drenched' ability (see 'Battle Traits') apply to the target. In addition, if the chanting roll was 8+, ignore the effect of 'Wild-eyed Brutality' on the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, pick a visible friendly unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

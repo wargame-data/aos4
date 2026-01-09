@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  "id": "prayer.bonesplitterz.grimdokk_dance",
+  "type": "prayer",
+  "name": "Grimdokk Dance",
+  "faction": "bonesplitterz",
+  "lore": "prayers_of_the_living_wilds",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "**Heal (3)** the target unit or return a number of slain models to it with a combined Health characteristic of up to 3. If the chanting roll for this prayer was 9+, instead, **Heal (6)** the target unit or return a number of slain models to it with a combined Health characteristic of up to 6.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Bonesplitterz Priest^^** to chant this prayer, pick a visible friendly **^^Bonesplitterz^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

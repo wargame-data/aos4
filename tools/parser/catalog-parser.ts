@@ -16,7 +16,7 @@ import { glob } from "glob";
 import { join, basename } from "path";
 import { existsSync } from "fs";
 
-import { parseCat } from "./xml/reader.js";
+import { parseCat, buildCatalogueIdMap } from "./xml/reader.js";
 import { findUnits, getFactionId } from "./xml/traverser.js";
 import { PublicationResolver } from "./xml/publications.js";
 import { WarscrollMapper } from "./mappers/warscroll.mapper.js";
@@ -147,6 +147,14 @@ async function parseSpellsAndPrayers(
   console.log("\nParsing Lores.cat...");
 
   try {
+    // Build catalogue ID → faction name map from all .cat files
+    // This maps IDs like "1bd9-ad7d-68ee-3b53" → "Stormcast Eternals"
+    const catalogueIdMap = await buildCatalogueIdMap(bsdataPath);
+
+    if (options.verbose) {
+      console.log(`  Built catalogue ID map with ${catalogueIdMap.size} factions`);
+    }
+
     const catalogue = await parseCat(loresFile);
 
     const mapperOptions: MapperOptions = {
@@ -156,11 +164,37 @@ async function parseSpellsAndPrayers(
       catalogueName: catalogue.$.name,
     };
 
-    const spells = mapIndividualSpells(catalogue, mapperOptions);
-    const prayers = mapIndividualPrayers(catalogue, mapperOptions);
+    const spells = mapIndividualSpells(catalogue, mapperOptions, catalogueIdMap);
+    const prayers = mapIndividualPrayers(catalogue, mapperOptions, catalogueIdMap);
 
     console.log(`  Spells: ${spells.length}`);
     console.log(`  Prayers: ${prayers.length}`);
+
+    // Count spells/prayers by faction for verbose output
+    if (options.verbose) {
+      const factionSpellCounts = new Map<string, number>();
+      const factionPrayerCounts = new Map<string, number>();
+
+      for (const spell of spells) {
+        const count = factionSpellCounts.get(spell.faction) || 0;
+        factionSpellCounts.set(spell.faction, count + 1);
+      }
+
+      for (const prayer of prayers) {
+        const count = factionPrayerCounts.get(prayer.faction) || 0;
+        factionPrayerCounts.set(prayer.faction, count + 1);
+      }
+
+      console.log("  Spells by faction:");
+      for (const [faction, count] of factionSpellCounts.entries()) {
+        console.log(`    ${faction}: ${count}`);
+      }
+
+      console.log("  Prayers by faction:");
+      for (const [faction, count] of factionPrayerCounts.entries()) {
+        console.log(`    ${faction}: ${count}`);
+      }
+    }
 
     return { spells, prayers, errors };
   } catch (error) {

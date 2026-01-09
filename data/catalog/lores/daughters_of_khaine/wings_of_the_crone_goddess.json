@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  "id": "prayer.daughters_of_khaine.wings_of_the_crone_goddess",
+  "type": "prayer",
+  "name": "Wings of the Crone Goddess",
+  "faction": "daughters_of_khaine",
+  "lore": "prayer_lore_the_croneseers_pariahs",
+  "keywords": [
+    "prayer",
+    "unlimited"
+  ],
+  "chantingValue": 3,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn:\n• The target has **^^Fly^^**.\n• Add 2\" to the target’s Move characteristic. If the chanting roll was 8+, add 6\" to the target’s Move characteristic instead.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Croneseer’s Pariahs Priest^^** to chant this prayer, pick a visible friendly **^^Croneseer’s Pariahs^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

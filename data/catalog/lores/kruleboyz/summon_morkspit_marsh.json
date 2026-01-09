@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.kruleboyz.summon_morkspit_marsh",
+  "type": "spell",
+  "name": "Summon Morkspit Marsh",
+  "faction": "kruleboyz",
+  "lore": "manifestations_of_gorkamorka",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Morkspit Marsh** wholly within 18\" of the caster and visible to them.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Morkspit Marsh** on the battlefield, pick a friendly **^^Kruleboyz Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

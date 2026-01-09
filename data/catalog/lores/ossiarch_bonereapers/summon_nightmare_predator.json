@@ -1,0 +1,22 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
+  "id": "spell.ossiarch_bonereapers.summon_nightmare_predator",
+  "type": "spell",
+  "name": "Summon Nightmare Predator",
+  "faction": "ossiarch_bonereapers",
+  "lore": "horrors_of_the_necropolis",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Nightmare Predator** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Nightmare Predator** on the battlefield, pick a friendly **^^Ossiarch Bonereapers Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}
