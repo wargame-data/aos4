@@ -1,0 +1,42 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.shared.soulsnare_shackles",
+  "bsdataId": "dee3-92a0-27e7-252a",
+  "type": "manifestation",
+  "name": "Soulsnare Shackles",
+  "faction": "shared",
+  "keywords": [
+    "endless spell",
+    "manifestation",
+    "ward (6+)",
+    "faction:shared"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 6,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Bound for the Great Oubliette",
+      "type": "once-per-turn",
+      "effect": "Roll a D3 for each target. On a 2+:\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Subtract a number of inches equal to the roll from the target’s Move characteristic for the rest of the turn.",
+      "phase": "hero",
+      "declare": "For each part of this **^^Manifestation^^**, you can pick an enemy unit within 3\" of that part to be the targets. You cannot pick the same unit to be the target of this ability more than once per turn.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Multiple Parts",
+      "type": "passive",
+      "effect": "When a number of damage points equal to this **^^Manifestation^^**'s Health characteristic are allocated to it, this **^^Manifestation^^** is destroyed and all its parts are removed from play.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

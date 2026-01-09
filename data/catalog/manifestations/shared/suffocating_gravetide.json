@@ -1,0 +1,39 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.shared.suffocating_gravetide",
+  "bsdataId": "1885-a1aa-bf5d-6d0d",
+  "type": "manifestation",
+  "name": "Suffocating Gravetide",
+  "faction": "shared",
+  "keywords": [
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:shared"
+  ],
+  "stats": {
+    "move": "12\"",
+    "health": 8,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Pulled to the Grave",
+      "type": "once-per-turn",
+      "effect": "This **^^Manifestation^^** can move a distance up to its Move characteristic. It can pass through models during that move but cannot end that move in combat. Then, you can pick an enemy unit that this **^^Manifestation^^** passed across during that move to be the target. Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.",
+      "phase": "movement",
+      "keywords": [
+        "**^^CORE^^**",
+        "**^^MOVE^^**"
+      ],
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

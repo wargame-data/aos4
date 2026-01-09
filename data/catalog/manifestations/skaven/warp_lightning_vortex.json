@@ -1,0 +1,51 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.skaven.warp_lightning_vortex",
+  "bsdataId": "c1f9-842-9a3a-624a",
+  "type": "manifestation",
+  "name": "Warp Lightning Vortex",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "endless spell",
+    "manifestation",
+    "ward (6+)",
+    "faction:skaven"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 7,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Multiple Parts",
+      "type": "passive",
+      "effect": "When a number of damage points equal to this **^^Manifestation^^**’s Health characteristic are allocated to it, this **^^Manifestation^^** is destroyed and all its parts are removed from play.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Warp Lightning Bolts",
+      "type": "once-per-turn",
+      "effect": "Roll a dice for each target. On a 4+, inflict D3 mortal damage on the target.",
+      "phase": "hero",
+      "declare": "If this **^^Manifestation^^** was not set up this turn, pick each enemy unit within 6\" of this **^^Manifestation^^** to be the targets.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Warp Vortex",
+      "type": "passive",
+      "effect": "Subtract 2 from run rolls and charge rolls for enemy units while they are within 6\" of this **^^Manifestation^^**. In addition, if an enemy unit passes across this **^^Manifestation^^** and/or the round-cornered triangle formed by drawing a line around all the bases of the **^^Manifestation^^**’s parts, inflict D3 mortal damage on that enemy unit after the **^^Move^^** ability has been resolved.",
+      "color": "Black",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

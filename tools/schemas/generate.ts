@@ -11,6 +11,7 @@ import { spellSchema, prayerSchema } from "./schemas/spell.schema.js";
 import { enhancementSchema } from "./schemas/enhancement.schema.js";
 import { battleFormationSchema } from "./schemas/battle-formation.schema.js";
 import { terrainSchema } from "./schemas/terrain.schema.js";
+import { manifestationSchema } from "./schemas/manifestation.schema.js";
 import { pointsPackSchema } from "./schemas/points-pack.schema.js";
 
 const SCHEMA_DIR = join(process.cwd(), "schema");
@@ -71,6 +72,12 @@ const schemas: SchemaConfig[] = [
     filename: "terrain.schema.json",
     title: "Terrain",
     description: "A faction terrain feature for Age of Sigmar",
+  },
+  {
+    schema: manifestationSchema,
+    filename: "manifestation.schema.json",
+    title: "Manifestation",
+    description: "A manifestation (endless spell) for Age of Sigmar",
   },
   {
     schema: pointsPackSchema,

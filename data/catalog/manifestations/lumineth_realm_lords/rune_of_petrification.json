@@ -1,0 +1,37 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.lumineth_realm_lords.rune_of_petrification",
+  "bsdataId": "9e4d-5fdc-593b-95d5",
+  "type": "manifestation",
+  "name": "Rune of Petrification",
+  "faction": "lumineth_realm_lords",
+  "keywords": [
+    "endless spell",
+    "manifestation",
+    "order",
+    "ward (6+)",
+    "faction:lumineth_realm_lords"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 6,
+    "save": "4+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Turn to Stone",
+      "type": "once-per-turn",
+      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If a target has 3 mortal damage inflicted on it by this ability, it has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick each enemy unit within 6\" of this Manifestation to be the targets.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order"
+}

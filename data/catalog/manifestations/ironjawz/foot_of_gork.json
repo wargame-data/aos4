@@ -1,0 +1,44 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.ironjawz.foot_of_gork",
+  "bsdataId": "6cc6-3227-bf8d-1a1d",
+  "type": "manifestation",
+  "name": "Foot of Gork",
+  "faction": "ironjawz",
+  "keywords": [
+    "destruction",
+    "endless spell",
+    "manifestation",
+    "ward (6+)",
+    "faction:ironjawz"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 8,
+    "save": "4+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Wandering Destruction",
+      "type": "once-per-turn",
+      "effect": "Remove the target from the battlefield and set it up again on the battlefield wholly within 9\" of the other part of this **^^Manifestation^^**. Then, roll a D3 for each enemy unit within 3\" of the target. On a 2+:\n• Inflict an amount of mortal damage on the target equal to the roll.\n• That unit has the **^^Stomped^^** keyword until the start of your next turn.\n• Subtract 1 from the number of dice rolled when making charge rolls for **^^Stomped^^** units, to a minimum of 1.",
+      "phase": "movement",
+      "declare": "Pick a part of this **^^Manifestation^^** to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Multiple Parts",
+      "type": "passive",
+      "effect": "When a number of damage points equal to this **^^Manifestation^^**'s Health characteristic are allocated to it, this **^^Manifestation^^** is destroyed and all its parts are removed from play.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction"
+}

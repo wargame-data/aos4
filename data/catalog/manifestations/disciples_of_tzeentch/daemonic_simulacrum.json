@@ -1,0 +1,36 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.disciples_of_tzeentch.daemonic_simulacrum",
+  "bsdataId": "18b7-6de-cb9-ddfb",
+  "type": "manifestation",
+  "name": "Daemonic Simulacrum",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "chaos",
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:disciples_of_tzeentch"
+  ],
+  "stats": {
+    "move": "9\"",
+    "health": 8,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Manifested Jaws",
+      "type": "passive",
+      "effect": "While this **^^Manifestation^^**’s attacks target a **^^Wizard^^**, add a number equal to that **^^Wizard^^**’s casting power level to the Damage characteristic of this unit’s **Snapping Jaws**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

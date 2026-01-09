@@ -1,0 +1,36 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.nighthaunt.shyish_reaper",
+  "bsdataId": "8fe3-71b-c0fd-506b",
+  "type": "manifestation",
+  "name": "Shyish Reaper",
+  "faction": "nighthaunt",
+  "keywords": [
+    "death",
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:nighthaunt"
+  ],
+  "stats": {
+    "move": "8\"",
+    "health": 7,
+    "save": "4+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Soulreaper",
+      "type": "passive",
+      "effect": "Add 2 to the Attacks characteristic of this **^^Manifestation^^**’s **Almighty Reap** if it charged in the same turn.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death"
+}

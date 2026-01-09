@@ -1,0 +1,35 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.stormcast_eternals.dais_arcanum",
+  "bsdataId": "5e54-9fa4-cf4b-e1bb",
+  "type": "manifestation",
+  "name": "Dais Arcanum",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "endless spell",
+    "fly",
+    "manifestation",
+    "order",
+    "faction:stormcast_eternals"
+  ],
+  "stats": {
+    "move": "8\"",
+    "health": 1,
+    "save": "-",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Arcane Enhancement",
+      "type": "passive",
+      "effect": "While the unit that was picked to be the target of the ‘Summon Dais Arcanum’ ability is on the platform of this **^^Manifestation^^**:\n• That unit has **^^Ward (5+)^^** and **^^Fly^^**.\n• If that unit is a **^^Wizard^^**, add 1 to that unit’s power level.\n• That unit cannot use **^^Move^^** abilities and remains on this **^^Manifestation^^** each time it moves.\n• If that unit is picked to make a pile-in move, move this **^^Manifestation^^** instead.\n• Instead of measuring range or visibility to that unit, measure to this **^^Manifestation^^** instead.\n• This **^^Manifestation^^** cannot be picked to be the target of abilities other than **^^Banish^^** abilities. If this **^^Manifestation^^** is banished, before removing it from the battlefield, set up the unit on its platform on the battlefield within 3\" of it. That unit can only be set up in combat with units it was already in combat with when this **^^Manifestation^^** was banished. If it is not possible to set up that unit, it is destroyed.\nIf the unit on the platform is removed from the battlefield, immediately remove this **^^Manifestation^^** from play.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order"
+}

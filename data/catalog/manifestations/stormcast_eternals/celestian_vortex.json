@@ -1,0 +1,36 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.stormcast_eternals.celestian_vortex",
+  "bsdataId": "ee09-decd-ff1a-ce30",
+  "type": "manifestation",
+  "name": "Celestian Vortex",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "endless spell",
+    "fly",
+    "manifestation",
+    "order",
+    "ward (6+)",
+    "faction:stormcast_eternals"
+  ],
+  "stats": {
+    "move": "8\"",
+    "health": 7,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Tornado of Magic",
+      "type": "passive",
+      "effect": "Subtract 1 from hit rolls for shooting attacks made by enemy units while they are within 12\" of this **^^Manifestation^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order"
+}

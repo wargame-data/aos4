@@ -1,0 +1,37 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.disciples_of_tzeentch.burning_sigil_of_tzeentch",
+  "bsdataId": "b7b4-bdb1-8453-27a0",
+  "type": "manifestation",
+  "name": "Burning Sigil of Tzeentch",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "chaos",
+    "endless spell",
+    "manifestation",
+    "ward (6+)",
+    "faction:disciples_of_tzeentch"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 6,
+    "save": "5+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Radiant Transmogrification",
+      "type": "once-per-turn",
+      "effect": "Roll 2 dice, pick either result, then apply the corresponding effect for the rest of the turn:\n**1** No effect.\n**2-3** Add 2\" to the Move characteristic of friendly **^^Disciples of Tzeentch^^** targets and subtract 2\" from the Move characteristic of enemy targets.\n**4** Add 1 to hit rolls for friendly **^^Disciples of Tzeentch^^** targets and subtract 1 from hit rolls for enemy targets.\n**5** Add 1 to wound rolls for friendly **^^Disciples of Tzeentch^^** targets and subtract 1 from wound rolls for enemy targets.\n**6** Add 1 to the Attacks characteristic of melee weapons used by friendly **^^Disciples of Tzeentch^^** targets and inflict D3 mortal damage on each enemy target.",
+      "phase": "hero",
+      "declare": "This **^^Manifestation^^** must use this ability in each hero phase. Pick each unit (friendly and enemy) within 9\" of this **^^Manifestation^^** to be the targets.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

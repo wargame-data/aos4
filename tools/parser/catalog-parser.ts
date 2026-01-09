@@ -16,14 +16,16 @@ import { glob } from "glob";
 import { join, basename } from "path";
 import { existsSync } from "fs";
 
-import { parseCat, buildCatalogueIdMap, buildCatalogueInfoMap, type CatalogueInfo } from "./xml/reader.js";
-import { findUnits, getFactionId } from "./xml/traverser.js";
+import { parseCat, parseGst, buildCatalogueIdMap, buildCatalogueInfoMap, type CatalogueInfo } from "./xml/reader.js";
+import { findUnits, getFactionId, findManifestationsById } from "./xml/traverser.js";
+import type { BSCatalogue } from "./xml/types.js";
 import { PublicationResolver } from "./xml/publications.js";
 import { WarscrollMapper } from "./mappers/warscroll.mapper.js";
 import { mapIndividualSpells, mapIndividualPrayers } from "./mappers/spell.mapper.js";
 import { mapEnhancements } from "./mappers/enhancement.mapper.js";
 import { mapBattleFormations } from "./mappers/battle-formation.mapper.js";
 import { mapTerrains } from "./mappers/terrain.mapper.js";
+import { mapManifestations, ManifestationMapper } from "./mappers/manifestation.mapper.js";
 import { loadGstIds, validateGstIds, printValidationResult } from "./xml/gst-loader.js";
 import {
   ensureCatalogStructure,
@@ -33,6 +35,7 @@ import {
   writeEnhancements,
   writeBattleFormations,
   writeTerrains,
+  writeManifestations,
 } from "./output/writer.js";
 import {
   getGrandAlliance,
@@ -44,6 +47,7 @@ import type { Spell, Prayer } from "../schemas/schemas/spell.schema.js";
 import type { Enhancement } from "../schemas/schemas/enhancement.schema.js";
 import type { BattleFormation } from "../schemas/schemas/battle-formation.schema.js";
 import type { Terrain } from "../schemas/schemas/terrain.schema.js";
+import type { Manifestation } from "../schemas/schemas/manifestation.schema.js";
 
 // Default BSData cache path
 const DEFAULT_BSDATA_PATH = ".cache/bsdata/age-of-sigmar-4th";
@@ -61,6 +65,7 @@ interface CatalogResult {
   enhancements: Enhancement[];
   battleFormations: BattleFormation[];
   terrains: Terrain[];
+  manifestations: Manifestation[];
   factionCounts: Map<string, number>;
   errors: string[];
 }
@@ -385,6 +390,124 @@ async function parseTerrains(
 }
 
 /**
+ * Parse all Library files for manifestations (endless spells)
+ */
+async function parseManifestations(
+  bsdataPath: string,
+  options: ParseOptions
+): Promise<{ manifestations: Manifestation[]; errors: string[] }> {
+  const libraryFiles = await findLibraryFiles(bsdataPath);
+  const allManifestations: Manifestation[] = [];
+  const errors: string[] = [];
+
+  console.log(`\nParsing ${libraryFiles.length} Library files for manifestations...`);
+
+  for (const file of libraryFiles) {
+    try {
+      const catalogue = await parseCat(file);
+      const factionId = getFactionId(catalogue);
+      const grandAlliance = getGrandAlliance(factionId);
+
+      if (options.verbose) {
+        console.log(`  Parsing ${basename(file)} for manifestations...`);
+      }
+
+      const mapperOptions: MapperOptions = {
+        strict: false,
+        factionId,
+        grandAlliance,
+        catalogueName: catalogue.$.name,
+      };
+
+      const manifestations = mapManifestations(catalogue, mapperOptions);
+
+      if (manifestations.length > 0) {
+        allManifestations.push(...manifestations);
+        console.log(`  ${factionId}: ${manifestations.length} manifestations`);
+      }
+    } catch (error) {
+      const msg = `Failed to parse manifestations from ${file}: ${error}`;
+      errors.push(msg);
+      if (options.verbose) {
+        console.error(`  Error: ${msg}`);
+      }
+    }
+  }
+
+  return { manifestations: allManifestations, errors };
+}
+
+/**
+ * Parse universal manifestations from the GST file (Aetherwrought Machineries)
+ */
+async function parseUniversalManifestations(
+  bsdataPath: string,
+  options: ParseOptions
+): Promise<{ manifestations: Manifestation[]; errors: string[] }> {
+  const gstPath = join(bsdataPath, "Age of Sigmar 4.0.gst");
+  const errors: string[] = [];
+
+  if (!existsSync(gstPath)) {
+    console.log("No GST file found, skipping universal manifestations");
+    return { manifestations: [], errors: [] };
+  }
+
+  console.log("\nParsing GST for universal manifestations...");
+
+  try {
+    const gst = await parseGst(gstPath);
+
+    // Cast GST to BSCatalogue for traverser functions (they have compatible structures)
+    const entries = findManifestationsById(gst as unknown as BSCatalogue);
+
+    if (entries.length === 0) {
+      console.log("  No universal manifestations found");
+      return { manifestations: [], errors: [] };
+    }
+
+    const mapperOptions: MapperOptions = {
+      strict: false,
+      factionId: "shared",
+      grandAlliance: undefined,
+      catalogueName: gst.$.name,
+    };
+
+    const mapper = new ManifestationMapper(mapperOptions);
+    const manifestations: Manifestation[] = [];
+
+    for (const entry of entries) {
+      // Skip hidden entries
+      if (entry.$.hidden === "true") {
+        continue;
+      }
+
+      try {
+        // For universal manifestations, we pass a fake catalogue with the entry's profiles
+        const manifestation = mapper.map({
+          entry,
+          catalogue: gst as unknown as BSCatalogue,
+        });
+        manifestations.push(manifestation);
+      } catch (error) {
+        const msg = `Failed to map universal manifestation ${entry.$.name}: ${error}`;
+        errors.push(msg);
+        if (options.verbose) {
+          console.error(`  Error: ${msg}`);
+        }
+      }
+    }
+
+    console.log(`  Universal manifestations: ${manifestations.length}`);
+    return { manifestations, errors };
+  } catch (error) {
+    const msg = `Failed to parse GST for universal manifestations: ${error}`;
+    errors.push(msg);
+    console.error(msg);
+    return { manifestations: [], errors };
+  }
+}
+
+/**
  * Write catalog results to disk
  */
 function writeCatalogResults(result: CatalogResult, options: ParseOptions): void {
@@ -431,6 +554,12 @@ function writeCatalogResults(result: CatalogResult, options: ParseOptions): void
     const terrainResults = writeTerrains(result.terrains);
     console.log(`  Terrains: ${terrainResults.length} files`);
   }
+
+  // Write manifestations
+  if (result.manifestations.length > 0) {
+    const manifestationResults = writeManifestations(result.manifestations);
+    console.log(`  Manifestations: ${manifestationResults.length} files`);
+  }
 }
 
 /**
@@ -454,6 +583,7 @@ function printSummary(result: CatalogResult): void {
   console.log(`Enhancements: ${result.enhancements.length}`);
   console.log(`Battle Formations: ${result.battleFormations.length}`);
   console.log(`Terrains: ${result.terrains.length}`);
+  console.log(`Manifestations: ${result.manifestations.length}`);
   console.log(`Errors: ${result.errors.length}`);
 
   if (result.errors.length > 0) {
@@ -549,6 +679,21 @@ async function main(): Promise<void> {
     options
   );
 
+  // Parse manifestations from Library files
+  const { manifestations: factionManifestations, errors: manifestationErrors } = await parseManifestations(
+    options.bsdataPath,
+    options
+  );
+
+  // Parse universal manifestations from GST (Aetherwrought Machineries)
+  const { manifestations: universalManifestations, errors: universalManifestationErrors } = await parseUniversalManifestations(
+    options.bsdataPath,
+    options
+  );
+
+  // Combine all manifestations
+  const manifestations = [...factionManifestations, ...universalManifestations];
+
   // Combine results
   const result: CatalogResult = {
     warscrolls,
@@ -557,8 +702,9 @@ async function main(): Promise<void> {
     enhancements,
     battleFormations,
     terrains,
+    manifestations,
     factionCounts,
-    errors: [...warscrollErrors, ...loreErrors, ...enhancementErrors, ...battleFormationErrors, ...terrainErrors],
+    errors: [...warscrollErrors, ...loreErrors, ...enhancementErrors, ...battleFormationErrors, ...terrainErrors, ...manifestationErrors, ...universalManifestationErrors],
   };
 
   // Write results

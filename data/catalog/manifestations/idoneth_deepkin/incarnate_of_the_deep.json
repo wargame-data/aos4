@@ -1,0 +1,52 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.idoneth_deepkin.incarnate_of_the_deep",
+  "bsdataId": "57e2-8574-3a89-5b81",
+  "type": "manifestation",
+  "name": "Incarnate of the Deep",
+  "faction": "idoneth_deepkin",
+  "keywords": [
+    "endless spell",
+    "fly",
+    "incarnate",
+    "manifestation",
+    "order",
+    "ward (6+)",
+    "faction:idoneth_deepkin"
+  ],
+  "stats": {
+    "move": "10\"",
+    "health": 12,
+    "save": "4+",
+    "banishment": "9+"
+  },
+  "abilities": [
+    {
+      "name": "Surrender to the Sea",
+      "type": "passive",
+      "effect": "When this **^^Manifestation^^** is removed from play, each friendly **Abyssal Tendril** on the battlefield is automatically removed from play.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Grasping Tendrils",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. Add 1 to the roll if it is your turn.\nOn a 4+:\n• You can remove 1 friendly **Abyssal Tendril** from the battlefield.\n• If there are fewer than 2 friendly Abyssal Tendrils on the battlefield, you can set up an **Abyssal Tendril** wholly within 9\" of this **^^Manifestation^^**.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Wild Form",
+      "type": "passive",
+      "effect": "Each time this **^^Manifestation^^** is targeted by the ‘Banish Manifestation’ ability, if it would be banished, it is not banished. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order"
+}

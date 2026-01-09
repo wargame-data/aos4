@@ -1,0 +1,34 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.lumineth_realm_lords.sanctum_of_amyntok",
+  "bsdataId": "1d94-ac1b-95cf-31dd",
+  "type": "manifestation",
+  "name": "Sanctum of Amyntok",
+  "faction": "lumineth_realm_lords",
+  "keywords": [
+    "endless spell",
+    "manifestation",
+    "order",
+    "faction:lumineth_realm_lords"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 1,
+    "save": "-",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Sigil of Yngra",
+      "type": "passive",
+      "effect": "While the unit that was picked to be the target of the ‘Summon Sanctum of Amyntok’ ability is inside the ring formed by this **^^Manifestation^^**:\n• That unit has **^^Ward (4+)^^**.\n• If that unit is a **^^Wizard^^**, add 1 to that unit’s power level.\n• Instead of measuring range or visibility to that unit, measure to this **^^Manifestation^^** instead.\n• This **^^Manifestation^^** cannot be picked to be the target of abilities other than **^^Banish^^** abilities.\n• If that unit uses a **^^Move^^** ability, makes a pile-in move or is removed from the battlefield, this **^^Manifestation^^** is removed from play",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order"
+}

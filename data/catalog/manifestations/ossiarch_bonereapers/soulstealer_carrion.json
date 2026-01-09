@@ -1,0 +1,36 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.ossiarch_bonereapers.soulstealer_carrion",
+  "bsdataId": "cecf-5bc0-1647-8b2f",
+  "type": "manifestation",
+  "name": "Soulstealer Carrion",
+  "faction": "ossiarch_bonereapers",
+  "keywords": [
+    "death",
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:ossiarch_bonereapers"
+  ],
+  "stats": {
+    "move": "10\"",
+    "health": 7,
+    "save": "5+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Aviarch Sentry",
+      "type": "passive",
+      "effect": "Subtract 5 from the control scores of enemy Infantry units while they are within 6\" of this **^^Manifestation^^**.",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death"
+}

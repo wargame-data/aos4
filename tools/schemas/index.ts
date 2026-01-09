@@ -41,6 +41,13 @@ export {
   type TerrainStats,
 } from "./schemas/terrain.schema.js";
 
+// Manifestation schema
+export {
+  manifestationSchema,
+  type Manifestation,
+  type ManifestationStats,
+} from "./schemas/manifestation.schema.js";
+
 // Points pack schema
 export {
   pointsPackSchema,

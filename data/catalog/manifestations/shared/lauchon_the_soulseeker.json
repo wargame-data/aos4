@@ -1,0 +1,40 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.shared.lauchon_the_soulseeker",
+  "bsdataId": "a26b-cd08-8f9d-90b0",
+  "type": "manifestation",
+  "name": "Lauchon the Soulseeker",
+  "faction": "shared",
+  "keywords": [
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:shared"
+  ],
+  "stats": {
+    "move": "12\"",
+    "health": 10,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Traverse the Tides of Death",
+      "type": "once-per-turn",
+      "effect": "This **^^Manifestation^^** can move a distance up to its Move characteristic. It can pass through models during that move but cannot end that move in combat. Then, remove the target from the battlefield and set them up again on the battlefield within 3\" of this **^^Manifestation^^** and not in combat. Then, inflict 1 mortal damage on the target.",
+      "phase": "movement",
+      "declare": "Pick a friendly **^^Infantry Wizard Hero^^** within 3\" of this **^^Manifestation^^** to be the target",
+      "keywords": [
+        "**^^CORE^^**",
+        "**^^MOVE**^^"
+      ],
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

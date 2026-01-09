@@ -1,0 +1,47 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.soulblight_gravelords.hand_of_nagash",
+  "bsdataId": "6802-a38e-cb64-31b8",
+  "type": "manifestation",
+  "name": "Hand of Nagash",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "death",
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:soulblight_gravelords"
+  ],
+  "stats": {
+    "move": "8\"",
+    "health": 10,
+    "save": "5+",
+    "banishment": "8+"
+  },
+  "abilities": [
+    {
+      "name": "Chill Grasp",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 4+, the following effects apply until the start of your next turn:\n• While the target is within 3\" of this **^^Manifestation^^**, the target has a maximum control score of 1 that cannot be modified.\n• While the target is within 3\" of this **^^Manifestation^^**, the target cannot use **^^Move^^** abilities.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this **^^Manifestation^^** to be the target.",
+      "color": "Red",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Inescapable Reach",
+      "type": "once-per-turn",
+      "effect": "Remove this **^^Manifestation^^** from the battlefield and set it up anywhere on the battlefield more than 9\" from all enemy units. Then, roll a D3. On a 2+, this **^^Manifestation^^** can move a number of inches equal to the roll.",
+      "phase": "movement",
+      "declare": "This **^^Manifestation^^** can only use this ability if it has not been set up this turn.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death"
+}

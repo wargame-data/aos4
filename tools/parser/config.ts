@@ -15,6 +15,7 @@ export const CATALOG_LORES_DIR = join(CATALOG_DIR, "lores");
 export const ENHANCEMENTS_DIR = join(CATALOG_DIR, "enhancements");
 export const BATTLE_FORMATIONS_DIR = join(CATALOG_DIR, "battle-formations");
 export const TERRAIN_DIR = join(CATALOG_DIR, "terrain");
+export const MANIFESTATIONS_DIR = join(CATALOG_DIR, "manifestations");
 export const POINTS_DIR = join(DATA_DIR, "points");
 
 // Grand Alliance mappings by faction name (underscore format)
@@ -113,6 +114,7 @@ export const SCHEMA_URLS = {
   enhancement: "https://wargamedata.com/aos4/schema/enhancement.schema.json",
   battleFormation: "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
   terrain: "https://wargamedata.com/aos4/schema/terrain.schema.json",
+  manifestation: "https://wargamedata.com/aos4/schema/manifestation.schema.json",
   pointsPack: "https://wargamedata.com/aos4/schema/points-pack.schema.json",
   faction: "https://wargamedata.com/aos4/schema/faction.schema.json",
 };

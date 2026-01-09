@@ -1,0 +1,44 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.shared.emerald_lifeswarm",
+  "bsdataId": "3071-fc11-4eb8-bbcc",
+  "type": "manifestation",
+  "name": "Emerald Lifeswarm",
+  "faction": "shared",
+  "keywords": [
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:shared"
+  ],
+  "stats": {
+    "move": "8\"",
+    "health": 5,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Restored Vigour",
+      "type": "once-per-turn",
+      "effect": "**Heal (3)** this **^^Manifestation^^**.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Bounteous Healing",
+      "type": "once-per-turn",
+      "effect": "**Heal (3)** the target.",
+      "phase": "movement",
+      "declare": "Pick a friendly unit within 3\" of this **^^Manifestation^^** to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.shared.prismatic_palisade",
+  "bsdataId": "015a-4e4f-322f-ccff",
+  "type": "manifestation",
+  "name": "Prismatic Palisade",
+  "faction": "shared",
+  "keywords": [
+    "endless spell",
+    "manifestation",
+    "ward (6+)",
+    "faction:shared"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 8,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Blinding Light",
+      "type": "passive",
+      "effect": "This **^^Manifestation^^** cannot be targeted by shooting attacks. In addition, a unit cannot be targeted by shooting attacks if it is impossible to draw a straight line from a model in the attacking unit to a model in the target unit without that line passing across this **^^Manifestation^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

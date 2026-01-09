@@ -1,0 +1,38 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.daughters_of_khaine.bladewind",
+  "bsdataId": "a031-d36-2ec0-9f6a",
+  "type": "manifestation",
+  "name": "Bladewind",
+  "faction": "daughters_of_khaine",
+  "keywords": [
+    "endless spell",
+    "fly",
+    "manifestation",
+    "order",
+    "ward (6+)",
+    "faction:daughters_of_khaine"
+  ],
+  "stats": {
+    "move": "12\"",
+    "health": 7,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Unnatural Edge",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, ignore positive modifiers to save rolls for the target for the rest of the turn.",
+      "phase": "combat",
+      "declare": "If this **^^Manifestation^^** charged this turn, pick an enemy unit in combat with it to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order"
+}

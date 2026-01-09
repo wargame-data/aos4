@@ -1,0 +1,46 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.shared.purple_sun_of_shyish",
+  "bsdataId": "e7a5-e611-4c13-22d0",
+  "type": "manifestation",
+  "name": "Purple Sun of Shyish",
+  "faction": "shared",
+  "keywords": [
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:shared"
+  ],
+  "stats": {
+    "move": "8\"",
+    "health": 10,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "End Given Form",
+      "type": "once-per-turn",
+      "effect": "This **^^Manifestation^^** can move a distance up to its Move characteristic. It can pass through models during that move but cannot end that move in combat. Then, pick up to 3 enemy units that this **^^Manifestation^^** passed across during that move to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "movement",
+      "keywords": [
+        "**^^CORE^^**",
+        "**^^MOVE^^**"
+      ],
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Pull of the Nadir",
+      "type": "passive",
+      "effect": "Subtract 1 from save rolls for friendly and enemy units while they are within 3\" of this **^^Manifestation^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

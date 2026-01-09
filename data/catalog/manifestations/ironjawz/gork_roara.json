@@ -1,0 +1,35 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.ironjawz.gork_roara",
+  "bsdataId": "4362-f538-078e-fb12",
+  "type": "manifestation",
+  "name": "Gork-Roara",
+  "faction": "ironjawz",
+  "keywords": [
+    "endless spell",
+    "manifestation",
+    "ward (6+)",
+    "faction:ironjawz"
+  ],
+  "stats": {
+    "move": "6\"",
+    "health": 6,
+    "save": "5+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Bellowing Waaagh!-Cries",
+      "type": "once-per-turn",
+      "effect": "Pick either 1 or 2 to add to casting rolls or chanting rolls for the target until the start of your next turn. Then, roll a number of dice equal to the number picked. For each 1-2, allocate 1 damage point to the target (ward rolls cannot be made for those damage points). For each 5+, until the start of your next turn, add 1 to charge rolls for friendly **^^Kruleboyz^^** or **^^Ironjawz^^** units while they are wholly within 12\" of this **^^Manifestation^^**. Friendly units can be affected by this ability multiple times and the effects are cumulative.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Ironjawz^^** or **^^Kruleboyz Wizard^^** or **^^Priest^^** within 3\" of this **^^Manifestation^^** to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

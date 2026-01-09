@@ -1,0 +1,41 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.shared.geminids_of_uhl_gysh",
+  "bsdataId": "d420-1699-5ad9-1956",
+  "type": "manifestation",
+  "name": "Geminids of Uhl-Gysh",
+  "faction": "shared",
+  "keywords": [
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:shared"
+  ],
+  "stats": {
+    "move": "8\"",
+    "health": 8,
+    "save": "6+",
+    "banishment": "6+"
+  },
+  "abilities": [
+    {
+      "name": "Tendrils of Light and Shadow",
+      "type": "passive",
+      "effect": "Enemy units cannot use commands while they are within 3\" of either part of this **^^Manifestation^^**'.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Multiple Parts",
+      "type": "passive",
+      "effect": "When a number of damage points equal to this **^^Manifestation^^**'s Health characteristic are allocated to it, this **^^Manifestation^^** is destroyed and both its parts are removed from play.\nEach time this **^^Manifestation^^** moves, both its parts must end within 9\" of each other.\nEach part of this **^^Manifestation^^** is armed with **Tendrils of Light and Shadow**.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

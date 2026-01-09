@@ -1,0 +1,36 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.slaves_to_darkness.eightfold_doom_sigil",
+  "bsdataId": "8df0-ab59-e286-f740",
+  "type": "manifestation",
+  "name": "Eightfold Doom-sigil",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "chaos",
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:slaves_to_darkness"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 6,
+    "save": "5+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Empowered by Atrocity",
+      "type": "passive",
+      "effect": "If 2 or more units (friendly or enemy) were destroyed this turn, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **^^Slaves to Darkness^^** units while they are wholly within 12\" of this **^^Manifestation^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

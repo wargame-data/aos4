@@ -1,0 +1,45 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.idoneth_deepkin.abyssal_tendril",
+  "bsdataId": "dab7-b1f5-b4ae-ecba",
+  "type": "manifestation",
+  "name": "Abyssal Tendril",
+  "faction": "idoneth_deepkin",
+  "keywords": [
+    "endless spell",
+    "incarnate",
+    "manifestation",
+    "order",
+    "ward (6+)",
+    "faction:idoneth_deepkin"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 6,
+    "save": "6+",
+    "banishment": "6+"
+  },
+  "abilities": [
+    {
+      "name": "Crushing Coil",
+      "type": "passive",
+      "effect": "Add 1 to hit rolls for attacks made by friendly **^^Idoneth Deepkin Manifestations^^** that target an **ensnared** enemy unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Watery Clutch",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. If the roll exceeds the target's Health characteristic, the target is **ensnared** for the rest of the turn.\nA unit cannot use commands while it is **ensnared**.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this **^^Manifestation^^** to be the target.",
+      "color": "Red",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order"
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.shared.quicksilver_swords",
+  "bsdataId": "8cde-fafe-2b2a-ced5",
+  "type": "manifestation",
+  "name": "Quicksilver Swords",
+  "faction": "shared",
+  "keywords": [
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:shared"
+  ],
+  "stats": {
+    "move": "8\"",
+    "health": 6,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Dancing Blades",
+      "type": "passive",
+      "effect": "Ward rolls cannot be made for damage points inflicted by this **^^Manifestation^^**'s attacks.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

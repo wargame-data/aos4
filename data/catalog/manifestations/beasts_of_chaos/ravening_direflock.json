@@ -1,0 +1,44 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.beasts_of_chaos.ravening_direflock",
+  "bsdataId": "26b3-4020-3cb9-1970",
+  "type": "manifestation",
+  "name": "Ravening Direflock",
+  "faction": "beasts_of_chaos",
+  "keywords": [
+    "chaos",
+    "endless spell",
+    "fly",
+    "legends",
+    "manifestation",
+    "ward (6+)",
+    "faction:beasts_of_chaos"
+  ],
+  "stats": {
+    "move": "16\"",
+    "health": 6,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Multiple Parts",
+      "type": "passive",
+      "effect": "When a number of damage points equal to this **^^Manifestation^^**’s Health characteristic are allocated to it, this **^^Manifestation^^** is destroyed and all of its parts are removed from play.\nEach time this **^^Manifestation^^** moves, each of its parts must end within 1\" of at least 1 other part. Each part of this **^^Manifestation^^** is armed with **Murderous Beaks**.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Harbingers of Dark Omens",
+      "type": "passive",
+      "effect": "Subtract 5 from the control scores of enemy units while they are within 12\" of this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

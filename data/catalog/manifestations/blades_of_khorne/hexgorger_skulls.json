@@ -1,0 +1,43 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.blades_of_khorne.hexgorger_skulls",
+  "bsdataId": "8499-3fb6-56fa-7b71",
+  "type": "manifestation",
+  "name": "Hexgorger Skulls",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "chaos",
+    "fly",
+    "invocation",
+    "manifestation",
+    "ward (6+)",
+    "faction:blades_of_khorne"
+  ],
+  "stats": {
+    "move": "8\"",
+    "health": 6,
+    "save": "5+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Hexgorgers",
+      "type": "passive",
+      "effect": "For each part of this **^^Manifestation^^** that is within 8\" of a **^^Wizard^^** (friendly or enemy), subtract 1 from casting rolls for that **^^Wizard^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Multiple Parts",
+      "type": "passive",
+      "effect": "When a number of damage points equal to this **^^Manifestation^^**’s Health characteristic are allocated to it, this **^^Manifestation^^** is destroyed and both its parts are removed from play.\nEach time this **^^Manifestation^^** moves, both its parts must end within 8\" of each other. Each part of this **^^Manifestation^^** is armed with a **Stream of Molten Blood**.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

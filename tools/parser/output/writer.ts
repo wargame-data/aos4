@@ -12,6 +12,7 @@ import {
   ENHANCEMENTS_DIR,
   BATTLE_FORMATIONS_DIR,
   TERRAIN_DIR,
+  MANIFESTATIONS_DIR,
   POINTS_DIR,
 } from "../config.js";
 import type { Warscroll } from "../../schemas/schemas/warscroll.schema.js";
@@ -19,6 +20,7 @@ import type { Spell, Prayer } from "../../schemas/schemas/spell.schema.js";
 import type { Enhancement } from "../../schemas/schemas/enhancement.schema.js";
 import type { BattleFormation } from "../../schemas/schemas/battle-formation.schema.js";
 import type { Terrain } from "../../schemas/schemas/terrain.schema.js";
+import type { Manifestation } from "../../schemas/schemas/manifestation.schema.js";
 import type { PointsPack } from "../../schemas/schemas/points-pack.schema.js";
 
 /**
@@ -88,6 +90,7 @@ export function ensureCatalogStructure(): void {
   ensureDir(ENHANCEMENTS_DIR);
   ensureDir(BATTLE_FORMATIONS_DIR);
   ensureDir(TERRAIN_DIR);
+  ensureDir(MANIFESTATIONS_DIR);
   ensureDir(POINTS_DIR);
 }
 
@@ -355,4 +358,37 @@ export function writeTerrains(
   baseDir?: string
 ): WriteResult[] {
   return terrains.map((terrain) => writeTerrain(terrain, options, baseDir));
+}
+
+/**
+ * Determine output path for a manifestation
+ * data/catalog/manifestations/{faction}/{name}.json
+ */
+export function getManifestationOutputPath(manifestation: Manifestation, baseDir?: string): string {
+  const dir = baseDir || MANIFESTATIONS_DIR;
+  const name = extractNameFromQualifiedId(manifestation.id);
+  return join(dir, manifestation.faction, `${name}.json`);
+}
+
+/**
+ * Write a manifestation to the catalog
+ */
+export function writeManifestation(
+  manifestation: Manifestation,
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult {
+  const path = getManifestationOutputPath(manifestation, baseDir);
+  return writeJson(path, manifestation, options);
+}
+
+/**
+ * Write multiple manifestations
+ */
+export function writeManifestations(
+  manifestations: Manifestation[],
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult[] {
+  return manifestations.map((manifestation) => writeManifestation(manifestation, options, baseDir));
 }

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.gloomspite_gitz.morks_mighty_mushroom",
+  "bsdataId": "9705-ad78-53c4-1ef6",
+  "type": "manifestation",
+  "name": "Mork's Mighty Mushroom",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "destruction",
+    "endless spell",
+    "manifestation",
+    "ward (6+)",
+    "faction:gloomspite_gitz"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 6,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Mutating Spores",
+      "type": "once-per-turn",
+      "effect": "For each target, roll a number of dice equal to the number of models in that unit that are within 6\" of this **^^Manifestation^^**. For each 5+, inflict 1 mortal damage on the target.",
+      "phase": "shooting",
+      "declare": "Pick up to 3 enemy units within 6\" of this **^^Manifestation^^** to be the targets.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction"
+}

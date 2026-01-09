@@ -218,6 +218,81 @@ export const COMMAND_ABILITY_CHARACTERISTICS = {
 } as const;
 
 // ============================================================================
+// Faction Category IDs
+// ============================================================================
+// These IDs identify factions via <categoryLink> elements
+
+export const FACTION_CATEGORIES = {
+  // Order
+  STORMCAST_ETERNALS: "a437-a8f0-67ba-c674",
+  CITIES_OF_SIGMAR: "4999-8ae2-e1bb-ba5",
+  DAUGHTERS_OF_KHAINE: "abd7-c4f9-cd1-a6f8",
+  FYRESLAYERS: "6a02-a995-fd92-d806",
+  IDONETH_DEEPKIN: "c8fc-7a72-6665-2f34",
+  KHARADRON_OVERLORDS: "9c8d-276-b7d2-f1fd",
+  LUMINETH_REALM_LORDS: "879-a29f-5c33-2e92",
+  SERAPHON: "9554-d069-a0dd-4f2d",
+  SYLVANETH: "9190-23b-eab9-9904",
+
+  // Chaos
+  BLADES_OF_KHORNE: "34e2-3c11-76bc-a2e",
+  DISCIPLES_OF_TZEENTCH: "d64d-ec64-3cf-cc4",
+  HEDONITES_OF_SLAANESH: "67df-cdfb-d83f-3197",
+  MAGGOTKIN_OF_NURGLE: "ca3c-6c3b-4887-3a9d",
+  BEASTS_OF_CHAOS: "e902-e0b8-b5ea-d527",
+  SKAVEN: "cce6-9e5a-dd33-a755",
+  SLAVES_TO_DARKNESS: "94d9-cc36-9083-1bea",
+  HELSMITHS_OF_HASHUT: "905e-30fb-4d0f-4685",
+
+  // Death
+  FLESH_EATER_COURTS: "8d10-dc24-7ece-50df",
+  NIGHTHAUNT: "e3a4-4581-9f76-4215",
+  OSSIARCH_BONEREAPERS: "5603-d1-a021-331e",
+  SOULBLIGHT_GRAVELORDS: "f7c2-3a00-4ae6-667",
+
+  // Destruction
+  GLOOMSPITE_GITZ: "ce45-cc36-d92e-ef70",
+  OGOR_MAWTRIBES: "743-1bd8-e3d-ced2",
+  SONS_OF_BEHEMAT: "482b-a44e-ffc6-df0a",
+  IRONJAWZ: "c1ca-4b17-3512-89f",
+  KRULEBOYZ: "6e42-3c75-4cb5-337a",
+  BONESPLITTERZ: "dcf6-0115-279f-7a80",
+} as const;
+
+export type FactionCategoryId = (typeof FACTION_CATEGORIES)[keyof typeof FACTION_CATEGORIES];
+
+// Map faction category IDs to faction IDs (underscore format)
+export const FACTION_CATEGORY_TO_FACTION_ID: Record<string, string> = {
+  [FACTION_CATEGORIES.STORMCAST_ETERNALS]: "stormcast_eternals",
+  [FACTION_CATEGORIES.CITIES_OF_SIGMAR]: "cities_of_sigmar",
+  [FACTION_CATEGORIES.DAUGHTERS_OF_KHAINE]: "daughters_of_khaine",
+  [FACTION_CATEGORIES.FYRESLAYERS]: "fyreslayers",
+  [FACTION_CATEGORIES.IDONETH_DEEPKIN]: "idoneth_deepkin",
+  [FACTION_CATEGORIES.KHARADRON_OVERLORDS]: "kharadron_overlords",
+  [FACTION_CATEGORIES.LUMINETH_REALM_LORDS]: "lumineth_realm_lords",
+  [FACTION_CATEGORIES.SERAPHON]: "seraphon",
+  [FACTION_CATEGORIES.SYLVANETH]: "sylvaneth",
+  [FACTION_CATEGORIES.BLADES_OF_KHORNE]: "blades_of_khorne",
+  [FACTION_CATEGORIES.DISCIPLES_OF_TZEENTCH]: "disciples_of_tzeentch",
+  [FACTION_CATEGORIES.HEDONITES_OF_SLAANESH]: "hedonites_of_slaanesh",
+  [FACTION_CATEGORIES.MAGGOTKIN_OF_NURGLE]: "maggotkin_of_nurgle",
+  [FACTION_CATEGORIES.BEASTS_OF_CHAOS]: "beasts_of_chaos",
+  [FACTION_CATEGORIES.SKAVEN]: "skaven",
+  [FACTION_CATEGORIES.SLAVES_TO_DARKNESS]: "slaves_to_darkness",
+  [FACTION_CATEGORIES.HELSMITHS_OF_HASHUT]: "helsmiths_of_hashut",
+  [FACTION_CATEGORIES.FLESH_EATER_COURTS]: "flesh_eater_courts",
+  [FACTION_CATEGORIES.NIGHTHAUNT]: "nighthaunt",
+  [FACTION_CATEGORIES.OSSIARCH_BONEREAPERS]: "ossiarch_bonereapers",
+  [FACTION_CATEGORIES.SOULBLIGHT_GRAVELORDS]: "soulblight_gravelords",
+  [FACTION_CATEGORIES.GLOOMSPITE_GITZ]: "gloomspite_gitz",
+  [FACTION_CATEGORIES.OGOR_MAWTRIBES]: "ogor_mawtribes",
+  [FACTION_CATEGORIES.SONS_OF_BEHEMAT]: "sons_of_behemat",
+  [FACTION_CATEGORIES.IRONJAWZ]: "ironjawz",
+  [FACTION_CATEGORIES.KRULEBOYZ]: "kruleboyz",
+  [FACTION_CATEGORIES.BONESPLITTERZ]: "bonesplitterz",
+};
+
+// ============================================================================
 // Helper Types
 // ============================================================================
 
@@ -277,4 +352,29 @@ export function getAbilityTypeFromProfileId(
     default:
       return null;
   }
+}
+
+// ============================================================================
+// Faction Detection Helpers
+// ============================================================================
+
+/**
+ * Detect faction from category link target IDs.
+ * Returns the first matching faction ID, or the fallback if none match.
+ *
+ * @param targetIds - Array of category link targetId values
+ * @param fallbackFactionId - Faction ID to return if no match found
+ * @returns The detected faction ID (underscore format)
+ */
+export function detectFactionFromCategoryIds(
+  targetIds: string[],
+  fallbackFactionId: string
+): string {
+  for (const targetId of targetIds) {
+    const factionId = FACTION_CATEGORY_TO_FACTION_ID[targetId];
+    if (factionId && factionId !== fallbackFactionId) {
+      return factionId;
+    }
+  }
+  return fallbackFactionId;
 }

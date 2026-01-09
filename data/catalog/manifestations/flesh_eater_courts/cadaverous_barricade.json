@@ -1,0 +1,35 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.flesh_eater_courts.cadaverous_barricade",
+  "bsdataId": "2f87-d732-919c-1bf9",
+  "type": "manifestation",
+  "name": "Cadaverous Barricade",
+  "faction": "flesh_eater_courts",
+  "keywords": [
+    "death",
+    "endless spell",
+    "manifestation",
+    "ward (6+)",
+    "faction:flesh_eater_courts"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 10,
+    "save": "5+",
+    "banishment": "8+"
+  },
+  "abilities": [
+    {
+      "name": "Grasping Hands",
+      "type": "passive",
+      "effect": "Enemy units cannot use **^^Run^^** or **^^Retreat^^** abilities while they are within this **^^Manifestation^^**’s combat range. In addition, if an enemy unit is picked to use a **^^Move^^** ability while it is within this **^^Manifestation^^**’s combat range, halve that unit’s Move characteristic (rounding up) for the rest of the turn.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death"
+}

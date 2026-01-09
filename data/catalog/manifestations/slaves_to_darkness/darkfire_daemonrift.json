@@ -1,0 +1,36 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.slaves_to_darkness.darkfire_daemonrift",
+  "bsdataId": "693b-7893-302-d379",
+  "type": "manifestation",
+  "name": "Darkfire Daemonrift",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "chaos",
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:slaves_to_darkness"
+  ],
+  "stats": {
+    "move": "9\"",
+    "health": 6,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Fuelled by Sorcery",
+      "type": "passive",
+      "effect": "Each time a spell is successfully cast by a unit within 12\" of this **^^Manifestation^^**, give this **^^Manifestation^^** 1 **ruinous energy point**, to a maximum of 6.\nEach time this **^^Manifestation^^** uses a **^^Shoot^^** ability, add 1 to the Attacks characteristic of its **Darkfire Torrent** for each ruinous energy point it has.\nIf this **^^Manifestation^^** is removed from play, all of its ruinous energy points are lost.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

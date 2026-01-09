@@ -1,0 +1,37 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.skaven.vermintide",
+  "bsdataId": "cd7a-5fe-5ea7-5828",
+  "type": "manifestation",
+  "name": "Vermintide",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:skaven"
+  ],
+  "stats": {
+    "move": "7\"",
+    "health": 13,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "More-more Rats",
+      "type": "once-per-turn",
+      "effect": "**Heal (D6)** this Manifestation.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

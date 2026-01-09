@@ -1,0 +1,38 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.blades_of_khorne.bleeding_icon",
+  "bsdataId": "9cf2-1402-85ab-c410",
+  "type": "manifestation",
+  "name": "Bleeding Icon",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "chaos",
+    "fly",
+    "invocation",
+    "manifestation",
+    "ward (6+)",
+    "faction:blades_of_khorne"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 8,
+    "save": "5+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Sigil of Doom",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. If the roll equals or exceeds the **blood tithe points cost** of the chosen ability, until the start of your next turn, the target can use the chosen ability as if it had been unlocked.",
+      "phase": "hero",
+      "declare": "Pick a visible friendly **^^Blades of Khorne^^** unit wholly within 8\" of this **^^Manifestation^^** to be the target. Then, pick a **^^Blood Tithe^^** ability that you have not unlocked this battle.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

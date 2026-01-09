@@ -1,0 +1,42 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.daughters_of_khaine.bloodwrack_viper",
+  "bsdataId": "263f-60be-7369-dedb",
+  "type": "manifestation",
+  "name": "Bloodwrack Viper",
+  "faction": "daughters_of_khaine",
+  "keywords": [
+    "endless spell",
+    "fly",
+    "manifestation",
+    "monster",
+    "order",
+    "ward (6+)",
+    "faction:daughters_of_khaine"
+  ],
+  "stats": {
+    "move": "9\"",
+    "health": 10,
+    "save": "4+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Crushing Coils",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Infantry Hero^^** in combat with this **^^Manifestation^^** to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order"
+}

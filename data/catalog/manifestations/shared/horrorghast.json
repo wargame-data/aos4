@@ -1,0 +1,36 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.shared.horrorghast",
+  "bsdataId": "f935-2383-94ba-3be2",
+  "type": "manifestation",
+  "name": "Horrorghast",
+  "faction": "shared",
+  "keywords": [
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:shared"
+  ],
+  "stats": {
+    "move": "8\"",
+    "health": 6,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Harbinger of Horror",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. If the roll is less than the number of models in the target unit that were slain this phase, the target cannot use commands for the rest of the turn.",
+      "phase": "shooting",
+      "declare": "Pick an enemy unit that was targeted by this **^^Manifestation^^**'s shooting attacks this phase to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

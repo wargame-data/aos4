@@ -1,0 +1,42 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.shared.umbral_spellportal",
+  "bsdataId": "0552-183c-1b2a-d117",
+  "type": "manifestation",
+  "name": "Umbral Spellportal",
+  "faction": "shared",
+  "keywords": [
+    "endless spell",
+    "manifestation",
+    "ward (6+)",
+    "faction:shared"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 8,
+    "save": "6+",
+    "banishment": "6+"
+  },
+  "abilities": [
+    {
+      "name": "Multiple Parts",
+      "type": "passive",
+      "effect": "When a number of damage points equal to this **^^Manifestation^^**'s Health characteristic are allocated to it, this **^^Manifestation^^** is destroyed and both its parts are removed from play.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Arcane Passage",
+      "type": "once-per-turn",
+      "effect": "The next time the target uses a non-**^^Summon Spell^^** ability this phase, add 1 to the casting value of that spell. When picking targets for that spell, you can measure range and visibility from either part of this **^^Manifestation^^** instead of from the caster, and your opponent can measure range and visibility to either part of this **^^Manifestation^^** instead of to the caster for the purposes of the ‘Unbind’ ability.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Wizard^^** within 3\" of this **^^Manifestation^^** to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.stormcast_eternals.everblaze_comet",
+  "bsdataId": "9b21-f285-2558-14ca",
+  "type": "manifestation",
+  "name": "Everblaze Comet",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "endless spell",
+    "fly",
+    "manifestation",
+    "order",
+    "ward (6+)",
+    "faction:stormcast_eternals"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 5,
+    "save": "4+",
+    "banishment": "6+"
+  },
+  "abilities": [
+    {
+      "name": "Burning Vengeance",
+      "type": "once-per-turn",
+      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "hero",
+      "declare": "If this **^^Manifestation^^** was summoned this phase, pick any number of enemy units within 6\" of it to be the targets.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Arcane Disruption",
+      "type": "passive",
+      "effect": "Subtract 1 from casting rolls for enemy **^^Wizards^^** while they are within 12\" of this **^^Manifestation^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order"
+}

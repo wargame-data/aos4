@@ -1,0 +1,37 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.ossiarch_bonereapers.nightmare_predator",
+  "bsdataId": "93d8-db59-3a1-7eaf",
+  "type": "manifestation",
+  "name": "Nightmare Predator",
+  "faction": "ossiarch_bonereapers",
+  "keywords": [
+    "death",
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:ossiarch_bonereapers"
+  ],
+  "stats": {
+    "move": "8\"",
+    "health": 7,
+    "save": "5+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Death Incarnate",
+      "type": "once-per-turn",
+      "effect": "If this ^^**Manifestation^^** was destroyed or banished this turn and the unit that summoned it is on the battlefield, roll a dice. On a 4+, set up this **^^Manifestation^^** again, wholly within 12\" of the unit that summoned it and more than 9\" from all enemy units",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death"
+}

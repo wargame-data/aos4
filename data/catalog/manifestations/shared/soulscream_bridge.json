@@ -1,0 +1,42 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.shared.soulscream_bridge",
+  "bsdataId": "523f-bd78-e418-9922",
+  "type": "manifestation",
+  "name": "Soulscream Bridge",
+  "faction": "shared",
+  "keywords": [
+    "endless spell",
+    "manifestation",
+    "ward (6+)",
+    "faction:shared"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 12,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Deathly Passage",
+      "type": "once-per-turn",
+      "effect": "Remove the target from the battlefield and set it up again on the battlefield wholly within 6\" of the other part of this **^^Manifestation^^** and more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Pick a friendly unit wholly within 6\" of one part of this **^^Manifestation^^** to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Multiple Parts",
+      "type": "passive",
+      "effect": "When a number of damage points equal to this **^^Manifestation^^**'s Health characteristic are allocated to it, this **^^Manifestation^^** is destroyed and both its parts are removed from play.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

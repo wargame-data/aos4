@@ -1,0 +1,49 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.shared.krondspine_incarnate_of_ghur",
+  "bsdataId": "4ba0-e87-36e0-db58",
+  "type": "manifestation",
+  "name": "Krondspine Incarnate of Ghur",
+  "faction": "shared",
+  "keywords": [
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:shared"
+  ],
+  "stats": {
+    "move": "10\"",
+    "health": 12,
+    "save": "6+",
+    "banishment": "8+"
+  },
+  "abilities": [
+    {
+      "name": "Devourer of Magics",
+      "type": "once-per-turn",
+      "effect": "If this **^^Manifestation^^** destroyed any enemy **^^Manifestations^^** this turn, Heal (6) this **^^Manifestation^^**.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Arcane Predator",
+      "type": "passive",
+      "effect": "You can add 1 to the number of dice rolled when making charge rolls for this **^^Manifestation^^**, to a maximum of 3, while it is within 18\" of any enemy **^^Manifestations^^**, but if you do so, it must end the charge move within ½\" of an enemy **^^Manifestation^^**.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Wild Form",
+      "type": "passive",
+      "effect": "Each time this **^^Manifestation^^** is targeted by the ‘Banish Manifestation’ ability, if it would be banished, it is not banished. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

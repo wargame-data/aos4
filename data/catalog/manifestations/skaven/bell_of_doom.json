@@ -1,0 +1,36 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.skaven.bell_of_doom",
+  "bsdataId": "def1-1e33-e2ea-1ad0",
+  "type": "manifestation",
+  "name": "Bell of Doom",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:skaven"
+  ],
+  "stats": {
+    "move": "3D6\"",
+    "health": 7,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Toll of Doom",
+      "type": "passive",
+      "effect": "Subtract 1 from wound rolls for attacks that target friendly **^^Skaven Infantry^^** units while they are wholly within 13\" of this **^^Manifestation^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

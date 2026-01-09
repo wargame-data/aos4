@@ -1,0 +1,38 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.fyreslayers.molten_infernoth",
+  "bsdataId": "bc11-e1c6-f5de-ed0b",
+  "type": "manifestation",
+  "name": "Molten Infernoth",
+  "faction": "fyreslayers",
+  "keywords": [
+    "fly",
+    "invocation",
+    "manifestation",
+    "order",
+    "ward (6+)",
+    "faction:fyreslayers"
+  ],
+  "stats": {
+    "move": "8\"",
+    "health": 10,
+    "save": "5+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Flamescarred",
+      "type": "once-per-turn",
+      "effect": "Subtract 1 from wound rolls for the target’s combat attacks until the end of your next turn.",
+      "phase": "any",
+      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by this **^^Manifestation^^**’s attacks to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order"
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.shared.chronomantic_cogs",
+  "bsdataId": "1aba-bc38-e988-d79f",
+  "type": "manifestation",
+  "name": "Chronomantic Cogs",
+  "faction": "shared",
+  "keywords": [
+    "endless spell",
+    "manifestation",
+    "ward (6+)",
+    "faction:shared"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 6,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Mechanisms of Time",
+      "type": "once-per-turn",
+      "effect": "If there are any friendly **^^Wizards^^** within 3\" of this **^^Manifestation^^**, pick 1 of the following effects:\n***Increase Time Flow***: Until the start of your next turn, you can re-roll charge rolls for friendly units while they are wholly within 12\" of this **^^Manifestation^^**.\n***Decrease Time Flow***: Until the start of your next turn, subtract 1 from hit rolls for attacks that target friendly **^^Wizards^^** while they are wholly within 12\" of this **^^Manifestation^^**.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.beasts_of_chaos.doomblast_dirgehorn",
+  "bsdataId": "bd21-c157-c813-8360",
+  "type": "manifestation",
+  "name": "Doomblast Dirgehorn",
+  "faction": "beasts_of_chaos",
+  "keywords": [
+    "chaos",
+    "endless spell",
+    "legends",
+    "manifestation",
+    "ward (6+)",
+    "faction:beasts_of_chaos"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 7,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Booming Cacophony",
+      "type": "passive",
+      "effect": "When this **^^Manifestation^^** is set up, the range of this ability is 6\". Subtract 1 from wound rolls for attacks made by enemy units while they are within range of this **^^Manifestation^^**’s ability.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Louder and Louder",
+      "type": "once-per-turn",
+      "effect": "Increase the range of this **^^Manifestation^^**’s ‘Booming Cacophony’ ability by 6\". This effect can be applied multiple times to this **^^Manifestation^^** and is cumulative. If this **^^Manifestation^^** is removed from play, this effect no longer applies.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

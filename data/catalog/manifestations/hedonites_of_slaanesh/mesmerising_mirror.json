@@ -1,0 +1,43 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.hedonites_of_slaanesh.mesmerising_mirror",
+  "bsdataId": "61ca-47bf-34ed-c847",
+  "type": "manifestation",
+  "name": "Mesmerising Mirror",
+  "faction": "hedonites_of_slaanesh",
+  "keywords": [
+    "chaos",
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 6,
+    "save": "5+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Gaze Not Into Its Depths",
+      "type": "once-per-turn",
+      "effect": "Inflict D3 mortal damage on the target. Then, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
+      "phase": "movement",
+      "declare": "Pick an enemy unit within 6\" of this ^^**Manifestation**^^ to be the target."
+    },
+    {
+      "name": "Irresistible Lure",
+      "type": "reaction",
+      "effect": "If that enemy unit does not end the move closer to this **^^Manifestation^^** than it was at the start of the move, inflict D3 mortal damage on it after the **^^Move^^** ability has been resolved.",
+      "color": "Gray",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

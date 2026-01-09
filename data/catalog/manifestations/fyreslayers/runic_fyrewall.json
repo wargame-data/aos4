@@ -1,0 +1,37 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.fyreslayers.runic_fyrewall",
+  "bsdataId": "62d9-5397-25fb-ec2",
+  "type": "manifestation",
+  "name": "Runic Fyrewall",
+  "faction": "fyreslayers",
+  "keywords": [
+    "invocation",
+    "manifestation",
+    "order",
+    "ward (6+)",
+    "faction:fyreslayers"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 8,
+    "save": "3+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Roaring Rune-fire",
+      "type": "once-per-turn",
+      "effect": "Roll a D3 for each target. On a 2+:\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Subtract 3 from the target’s control score for the rest of the turn.",
+      "phase": "movement",
+      "declare": "Pick up to 3 enemy units within 6\" of this **^^Manifestation^^** to be the targets.",
+      "color": "Gray",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order"
+}

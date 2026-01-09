@@ -1,0 +1,36 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.gloomspite_gitz.malevolent_moon",
+  "bsdataId": "5ee7-6987-61a1-78fb",
+  "type": "manifestation",
+  "name": "Malevolent Moon",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "destruction",
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:gloomspite_gitz"
+  ],
+  "stats": {
+    "move": "12\"",
+    "health": 6,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Lurid Light",
+      "type": "passive",
+      "effect": "While friendly **^^Gloomspite Gitz^^** units are wholly within 12\" of this **^^Manifestation^^** they are affected by all four faces of the Bad Moon (Grinnin', Scowlin', Sulkin', and Cacklin').",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction"
+}

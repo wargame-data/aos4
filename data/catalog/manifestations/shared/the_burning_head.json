@@ -1,0 +1,34 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.shared.the_burning_head",
+  "bsdataId": "e1cc-64dc-f765-b9cc",
+  "type": "manifestation",
+  "name": "The Burning Head",
+  "faction": "shared",
+  "keywords": [
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:shared"
+  ],
+  "stats": {
+    "move": "8\"",
+    "health": 6,
+    "save": "6+",
+    "banishment": "6+"
+  },
+  "abilities": [
+    {
+      "name": "Burning Up",
+      "type": "passive",
+      "effect": "Each time this **^^Manifestation^^** uses a **^^Shoot^^** ability, after that ability has been resolved, allocate 1 damage point to this **^^Manifestation^^** (ward rolls cannot be made for that damage point).",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

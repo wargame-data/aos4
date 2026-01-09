@@ -1,0 +1,35 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.fyreslayers.zharrgron_flame_spitter",
+  "bsdataId": "f214-324b-6674-cf4",
+  "type": "manifestation",
+  "name": "Zharrgron Flame-spitter",
+  "faction": "fyreslayers",
+  "keywords": [
+    "invocation",
+    "manifestation",
+    "order",
+    "ward (6+)",
+    "faction:fyreslayers"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 5,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Magma Blast",
+      "type": "passive",
+      "effect": "Add 1 to hit rolls for this **^^Manifestation^^**’s shooting attacks if the target unit has 10 or more models. Add 1 to hit rolls and wound rolls instead if the target unit has 15 or more models.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order"
+}

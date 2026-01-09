@@ -1,0 +1,46 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.shared.aethervoid_pendulum",
+  "bsdataId": "fcb6-ae80-2e58-aadb",
+  "type": "manifestation",
+  "name": "Aethervoid Pendulum",
+  "faction": "shared",
+  "keywords": [
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:shared"
+  ],
+  "stats": {
+    "move": "8\"",
+    "health": 6,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Scything Blade",
+      "type": "once-per-turn",
+      "effect": "This **^^Manifestation^^** can move a distance up to its Move characteristic in one direction (see ‘The Pendulum Swings’). It can pass through models during that move and can end that move in combat. Then, pick up to 3 enemy units that this **^^Manifestation^^** passed across during that move or that are within ½\" of it to be the targets. Roll a D6 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "movement",
+      "keywords": [
+        "**^^CORE^^**",
+        "**^^MOVE^^**"
+      ],
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "The Pendulum Swings",
+      "type": "passive",
+      "effect": "This **^^Manifestation^^** cannot use **^^Charge^^** or **^^Fight^^** abilities. In addition, when this **^^Manifestation^^** moves, it must move in a straight line either in the direction in which the tip of the pendulum blade is pointing or in the opposite direction to the direction in which the tip of the pendulum blade is pointing",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

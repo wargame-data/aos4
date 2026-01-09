@@ -1,0 +1,38 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.slaves_to_darkness.realmscourge_rupture",
+  "bsdataId": "2e02-52d1-c3e3-eb13",
+  "type": "manifestation",
+  "name": "Realmscourge Rupture",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "chaos",
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:slaves_to_darkness"
+  ],
+  "stats": {
+    "move": "10\"",
+    "health": 7,
+    "save": "5+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Debilitating Shockwave",
+      "type": "once-per-turn",
+      "effect": "Roll a dice for each model in the target unit. For each 6, inflict 1 mortal damage on the target. If any models in the target unit are slain by this ability, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.",
+      "phase": "charge",
+      "declare": "If this **^^Manifestation^^** charged this phase, pick an enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.nighthaunt.mortalis_terminexus",
+  "bsdataId": "68d8-b0b8-90b9-d60d",
+  "type": "manifestation",
+  "name": "Mortalis Terminexus",
+  "faction": "nighthaunt",
+  "keywords": [
+    "death",
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:nighthaunt"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 6,
+    "save": "4+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Keeper of Mortality",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 2+, pick 1 of the following effects:\n• Add 1 to run rolls and charge rolls for the target for the rest of the turn.\n• **Heal (3)** the target.",
+      "phase": "hero",
+      "declare": "Pick a visible friendly **^^Nighthaunt^^** unit within 3\" of this **^^Manifestation^^** to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death"
+}

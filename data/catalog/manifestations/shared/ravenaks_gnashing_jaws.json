@@ -1,0 +1,35 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.shared.ravenaks_gnashing_jaws",
+  "bsdataId": "41c4-2f6a-0d3c-a23e",
+  "type": "manifestation",
+  "name": "Ravenak's Gnashing Jaws",
+  "faction": "shared",
+  "keywords": [
+    "endless spell",
+    "manifestation",
+    "ward (6+)",
+    "faction:shared"
+  ],
+  "stats": {
+    "move": "3D6\"",
+    "health": 10,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Ravening Hunger",
+      "type": "once-per-turn",
+      "effect": "Roll 10 dice. For each 5+, inflict 1 mortal damage on the target.",
+      "phase": "charge",
+      "declare": "If this **^^Manifestation^^** charged this turn, pick an enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  }
+}

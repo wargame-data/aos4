@@ -1,0 +1,39 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.beasts_of_chaos.wildfire_taurus",
+  "bsdataId": "342e-5191-631c-915f",
+  "type": "manifestation",
+  "name": "Wildfire Taurus",
+  "faction": "beasts_of_chaos",
+  "keywords": [
+    "chaos",
+    "endless spell",
+    "fly",
+    "legends",
+    "manifestation",
+    "ward (6+)",
+    "faction:beasts_of_chaos"
+  ],
+  "stats": {
+    "move": "12\"",
+    "health": 10,
+    "save": "6+",
+    "banishment": "8+"
+  },
+  "abilities": [
+    {
+      "name": "Trail of Destruction",
+      "type": "once-per-turn",
+      "effect": "Roll a number of dice equal to the unmodified charge roll. For each 4+, inflict 1 mortal damage on the target. If any damage points are allocated to the target by this ability, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

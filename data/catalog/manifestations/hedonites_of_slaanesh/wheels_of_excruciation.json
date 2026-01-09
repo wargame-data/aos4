@@ -1,0 +1,38 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.hedonites_of_slaanesh.wheels_of_excruciation",
+  "bsdataId": "14ec-16c5-a9d2-7252",
+  "type": "manifestation",
+  "name": "Wheels of Excruciation",
+  "faction": "hedonites_of_slaanesh",
+  "keywords": [
+    "chaos",
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "stats": {
+    "move": "8\"",
+    "health": 6,
+    "save": "5+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Exquisite Agony",
+      "type": "once-per-turn",
+      "effect": "Roll 6 dice for each target. For each roll that is less than the target’s Save characteristic, inflict 1 mortal damage on the target.",
+      "phase": "movement",
+      "declare": "Pick up to 3 enemy units that this **^^Manifestation^^** passed across this turn to be the targets.",
+      "color": "Gray",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

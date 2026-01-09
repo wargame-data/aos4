@@ -1,0 +1,42 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.gloomspite_gitz.scuttletide",
+  "bsdataId": "246b-bad2-aa9-e71c",
+  "type": "manifestation",
+  "name": "Scuttletide",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "destruction",
+    "endless spell",
+    "manifestation",
+    "ward (6+)",
+    "faction:gloomspite_gitz"
+  ],
+  "stats": {
+    "move": "8\"",
+    "health": 6,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Endless Terrors",
+      "type": "passive",
+      "effect": "This unit has **^^Ward (4+)^^** while it is wholly within 12\" of any friendly **^^Arachnarok^^** units.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Wall Crawler",
+      "type": "passive",
+      "effect": "This **^^Manifestation^^** can pass across terrain features as if it had **^^Fly^^**.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction"
+}

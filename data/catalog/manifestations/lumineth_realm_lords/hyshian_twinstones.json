@@ -1,0 +1,35 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.lumineth_realm_lords.hyshian_twinstones",
+  "bsdataId": "a184-fc56-cfb6-b37b",
+  "type": "manifestation",
+  "name": "Hyshian Twinstones",
+  "faction": "lumineth_realm_lords",
+  "keywords": [
+    "endless spell",
+    "manifestation",
+    "order",
+    "ward (6+)",
+    "faction:lumineth_realm_lords"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 5,
+    "save": "4+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Reservoir of Power",
+      "type": "passive",
+      "effect": "Add 1 to casting rolls for friendly **^^Lumineth Realm‑lords^^** units while they are wholly within 6\" of this **^^Manifestation^^** or are garrisoning a faction terrain feature within 3\" of this **^^Manifestation^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order"
+}

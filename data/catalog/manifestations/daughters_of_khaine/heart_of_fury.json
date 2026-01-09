@@ -1,0 +1,35 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.daughters_of_khaine.heart_of_fury",
+  "bsdataId": "e3eb-4f22-cd25-b6d7",
+  "type": "manifestation",
+  "name": "Heart of Fury",
+  "faction": "daughters_of_khaine",
+  "keywords": [
+    "invocation",
+    "manifestation",
+    "order",
+    "ward (6+)",
+    "faction:daughters_of_khaine"
+  ],
+  "stats": {
+    "move": "-",
+    "health": 7,
+    "save": "4+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Locus of the Murder God",
+      "type": "passive",
+      "effect": "Subtract 1 from wound rolls for combat attacks that target friendly **^^Daughters of Khaine Infantry^^** units while they are wholly within 12\" of this **^^Manifestation^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order"
+}

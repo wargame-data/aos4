@@ -1,0 +1,38 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.hedonites_of_slaanesh.dreadful_visage",
+  "bsdataId": "25c4-8769-f67a-78c3",
+  "type": "manifestation",
+  "name": "Dreadful Visage",
+  "faction": "hedonites_of_slaanesh",
+  "keywords": [
+    "chaos",
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "stats": {
+    "move": "8\"",
+    "health": 6,
+    "save": "6+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "Flensing Tongues",
+      "type": "once-per-turn",
+      "effect": "Roll 6 dice. For each 4+, inflict 1 mortal damage on the target. If any models are slain by this ability, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this **^^Manifestation^^** to be the target.",
+      "color": "Red",
+      "abilityCategory": "Special"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos"
+}

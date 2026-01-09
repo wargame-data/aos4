@@ -1,0 +1,36 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
+  "id": "manifestation.ossiarch_bonereapers.bone_tithe_shrieker",
+  "bsdataId": "6ee6-2cc6-3b2-a7db",
+  "type": "manifestation",
+  "name": "Bone-tithe Shrieker",
+  "faction": "ossiarch_bonereapers",
+  "keywords": [
+    "death",
+    "endless spell",
+    "fly",
+    "manifestation",
+    "ward (6+)",
+    "faction:ossiarch_bonereapers"
+  ],
+  "stats": {
+    "move": "8\"",
+    "health": 7,
+    "save": "5+",
+    "banishment": "7+"
+  },
+  "abilities": [
+    {
+      "name": "No Escape",
+      "type": "passive",
+      "effect": "Subtract 1 from ward rolls for enemy units while they are within 12\" of this **^^Manifestation^^.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death"
+}
