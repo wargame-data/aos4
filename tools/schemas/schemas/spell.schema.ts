@@ -22,6 +22,7 @@ export const spellSchema = z
     type: z.literal("spell"),
     name: z.string(),
     faction: simpleIdSchema, // e.g., "stormcast" or "shared"
+    lore: simpleIdSchema, // e.g., "lore_of_the_storm" - which lore this spell belongs to
     keywords: z.array(z.string()), // e.g., ["spell", "faction:stormcast"]
     castingValue: z.number().int().min(2).max(12),
     timing: z.string().optional(),
@@ -42,6 +43,7 @@ export const prayerSchema = z
     type: z.literal("prayer"),
     name: z.string(),
     faction: simpleIdSchema,
+    lore: simpleIdSchema, // e.g., "prayers_of_the_storm" - which lore this prayer belongs to
     keywords: z.array(z.string()), // e.g., ["prayer", "faction:stormcast"]
     chantingValue: z.number().int().min(2).max(12),
     timing: z.string().optional(),

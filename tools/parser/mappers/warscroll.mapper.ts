@@ -117,6 +117,7 @@ export class WarscrollMapper extends BaseMapper<WarscrollMapperInput, Warscroll>
     const warscroll: Warscroll = {
       $schema: NEW_SCHEMA_URLS.warscroll,
       id: toQualifiedId("warscroll", detectedFaction, entry.$.name),
+      bsdataId: entry.$.id, // Original BSData ID for cross-referencing
       type: "warscroll",
       name: entry.$.name,
       faction: toUnderscoreId(detectedFaction),

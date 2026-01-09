@@ -25,6 +25,7 @@
     "parser:sync": "npm run build && node dist/tools/parser/index.js sync",
     "parser:diff": "npm run build && node dist/tools/parser/index.js diff",
     "parser:list": "npm run build && node dist/tools/parser/index.js list",
+    "catalog:sync": "npm run build && node dist/tools/parser/catalog-parser.js",
     "army:validate": "npm run build && node dist/tools/army/index.js validate",
     "schema:generate": "node dist/tools/schemas/generate.js",
     "schema:build": "npm run build && npm run schema:generate",

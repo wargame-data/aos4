@@ -54,6 +54,7 @@ export const warscrollSchema = z
   .object({
     $schema: z.string().optional(),
     id: qualifiedIdSchema, // e.g., "warscroll.stormcast.knight_arcanum"
+    bsdataId: z.string(), // Original BSData entry ID for cross-referencing
     type: z.literal("warscroll"),
     name: z.string(),
     faction: simpleIdSchema, // e.g., "stormcast"
