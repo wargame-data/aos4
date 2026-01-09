@@ -3,6 +3,25 @@ export { weaponSchema, type Weapon } from "./schemas/weapon.schema.js";
 export { abilitySchema, type Ability } from "./schemas/ability.schema.js";
 export { unitSchema, type Unit } from "./schemas/unit.schema.js";
 export { heroSchema, type Hero } from "./schemas/hero.schema.js";
+
+// New unified schemas
+export {
+  warscrollSchema,
+  type Warscroll,
+  type WarscrollStats,
+  type Sizes,
+} from "./schemas/warscroll.schema.js";
+export {
+  spellSchema,
+  prayerSchema,
+  type Spell as IndividualSpell,
+  type Prayer as IndividualPrayer,
+  type SpellRequirements,
+} from "./schemas/spell.schema.js";
+export {
+  pointsPackSchema,
+  type PointsPack,
+} from "./schemas/points-pack.schema.js";
 export {
   manifestationSchema,
   type Manifestation,
@@ -93,6 +112,9 @@ export {
 // Export base types and schemas
 export {
   idSchema,
+  simpleIdSchema,
+  qualifiedIdSchema,
+  pointsPackIdSchema,
   grandAllianceSchema,
   phaseSchema,
   abilityTypeSchema,
@@ -130,4 +152,7 @@ export {
   type Modifier,
   type Repeat,
   type ConstraintModifier,
+  type SimpleId,
+  type QualifiedId,
+  type PointsPackId,
 } from "./base.js";

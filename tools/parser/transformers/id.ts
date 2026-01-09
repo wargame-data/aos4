@@ -1,11 +1,11 @@
 /**
  * ID Transformer
  *
- * Generates kebab-case IDs from names.
+ * Generates IDs from names in various formats.
  */
 
 /**
- * Convert a name to kebab-case ID
+ * Convert a name to kebab-case ID (legacy format)
  * "Knight-Incantor" -> "knight-incantor"
  * "Lord-Celestant on Stardrake" -> "lord-celestant-on-stardrake"
  * "Liberators" -> "liberators"
@@ -21,6 +21,34 @@ export function toKebabCase(name: string): string {
     .replace(/[^a-z0-9]+/g, "-") // Replace non-alphanumeric with hyphens
     .replace(/-+/g, "-") // Collapse multiple hyphens
     .replace(/^-|-$/g, ""); // Remove leading/trailing hyphens
+}
+
+/**
+ * Convert a name to underscore_case ID (new format)
+ * "Knight-Arcanum" -> "knight_arcanum"
+ * "Lord-Celestant on Stardrake" -> "lord_celestant_on_stardrake"
+ * "Liberators" -> "liberators"
+ */
+export function toUnderscoreId(name: string): string {
+  if (!name) return "";
+
+  return name
+    .toLowerCase()
+    .trim()
+    .replace(/['']/g, "") // Remove apostrophes
+    .replace(/[^a-z0-9]+/g, "_") // Replace non-alphanumeric with underscores
+    .replace(/_+/g, "_") // Collapse multiple underscores
+    .replace(/^_|_$/g, ""); // Remove leading/trailing underscores
+}
+
+/**
+ * Generate a qualified ID in format: type.faction.name
+ * e.g., "warscroll.stormcast.knight_arcanum"
+ */
+export function toQualifiedId(type: string, faction: string, name: string): string {
+  const factionId = toUnderscoreId(faction);
+  const nameId = toUnderscoreId(name);
+  return `${type}.${factionId}.${nameId}`;
 }
 
 /**

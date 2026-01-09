@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://aos-data.org/schema/prayer.schema.json",
+  "title": "Prayer",
+  "description": "An individual prayer in the catalog",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^(warscroll|spell|prayer|enhancement|terrain|formation|manifestation)\\.[a-z0-9_]+\\.[a-z0-9_]+$"
+    },
+    "type": {
+      "type": "string",
+      "const": "prayer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "faction": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "chantingValue": {
+      "type": "integer",
+      "minimum": 2,
+      "maximum": 12
+    },
+    "timing": {
+      "type": "string"
+    },
+    "declare": {
+      "type": "string"
+    },
+    "effect": {
+      "type": "string"
+    },
+    "requirements": {
+      "type": "object",
+      "properties": {
+        "armyRequiresKeywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "color": {
+      "type": "string",
+      "enum": [
+        "Black",
+        "Blue",
+        "Gray",
+        "Green",
+        "Orange",
+        "Purple",
+        "Red",
+        "Yellow"
+      ]
+    },
+    "abilityCategory": {
+      "type": "string",
+      "enum": [
+        "Offensive",
+        "Defensive",
+        "Movement",
+        "Control",
+        "Special",
+        "Rallying",
+        "Shooting"
+      ]
+    },
+    "_meta": {
+      "type": "object",
+      "properties": {
+        "lastUpdated": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "name",
+    "faction",
+    "keywords",
+    "chantingValue",
+    "effect"
+  ],
+  "additionalProperties": false
+}

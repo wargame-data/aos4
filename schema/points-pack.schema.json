@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://aos-data.org/schema/points-pack.schema.json",
+  "title": "Points Pack",
+  "description": "A points pack mapping catalog items to points costs",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^points\\.[a-z0-9_]+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "effectiveFrom": {
+      "type": "string"
+    },
+    "costs": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "_meta": {
+      "type": "object",
+      "properties": {
+        "lastUpdated": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "effectiveFrom",
+    "costs"
+  ],
+  "additionalProperties": false
+}

@@ -10,7 +10,20 @@ import type { Unit, Hero } from "../mappers/unit.mapper.js";
 import type { Lore } from "../mappers/lore.mapper.js";
 import type { Manifestation } from "../mappers/manifestation.mapper.js";
 import type { FactionTerrain } from "../mappers/terrain.mapper.js";
-import { FACTIONS_DIR, DATA_DIR } from "../config.js";
+import {
+  FACTIONS_DIR,
+  DATA_DIR,
+  WARSCROLLS_DIR,
+  CATALOG_LORES_DIR,
+  CATALOG_TERRAIN_DIR,
+  CATALOG_ENHANCEMENTS_DIR,
+  MANIFESTS_DIR,
+  POINTS_DIR,
+  NEW_FACTIONS_DIR,
+} from "../config.js";
+import type { Warscroll } from "../../schemas/schemas/warscroll.schema.js";
+import type { Spell as IndividualSpell, Prayer as IndividualPrayer } from "../../schemas/schemas/spell.schema.js";
+import type { PointsPack } from "../../schemas/schemas/points-pack.schema.js";
 
 /**
  * Write options
@@ -507,4 +520,174 @@ export function writeTerrains(
   baseDir?: string
 ): WriteResult[] {
   return terrains.map((terrain) => writeTerrain(terrain, options, baseDir));
+}
+
+// =============================================================================
+// NEW CATALOG STRUCTURE WRITERS
+// =============================================================================
+
+/**
+ * Ensure catalog directory structure exists
+ */
+export function ensureCatalogStructure(): void {
+  ensureDir(WARSCROLLS_DIR);
+  ensureDir(CATALOG_LORES_DIR);
+  ensureDir(CATALOG_TERRAIN_DIR);
+  ensureDir(CATALOG_ENHANCEMENTS_DIR);
+  ensureDir(MANIFESTS_DIR);
+  ensureDir(POINTS_DIR);
+  ensureDir(NEW_FACTIONS_DIR);
+}
+
+/**
+ * Extract the simple name from a qualified ID
+ * "warscroll.stormcast.knight_arcanum" -> "knight_arcanum"
+ */
+function extractNameFromQualifiedId(qualifiedId: string): string {
+  const parts = qualifiedId.split(".");
+  return parts[parts.length - 1];
+}
+
+/**
+ * Determine output path for a warscroll (new catalog format)
+ * data/catalog/warscrolls/{faction}/{name}.json
+ */
+export function getWarscrollOutputPath(warscroll: Warscroll, baseDir?: string): string {
+  const dir = baseDir || WARSCROLLS_DIR;
+  const name = extractNameFromQualifiedId(warscroll.id);
+  return join(dir, warscroll.faction, `${name}.json`);
+}
+
+/**
+ * Write a warscroll to the catalog
+ */
+export function writeWarscroll(
+  warscroll: Warscroll,
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult {
+  const path = getWarscrollOutputPath(warscroll, baseDir);
+  return writeJson(path, warscroll, options);
+}
+
+/**
+ * Write multiple warscrolls
+ */
+export function writeWarscrolls(
+  warscrolls: Warscroll[],
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult[] {
+  return warscrolls.map((ws) => writeWarscroll(ws, options, baseDir));
+}
+
+/**
+ * Determine output path for an individual spell
+ * data/catalog/lores/{faction}/{name}.json
+ */
+export function getIndividualSpellOutputPath(spell: IndividualSpell, baseDir?: string): string {
+  const dir = baseDir || CATALOG_LORES_DIR;
+  const name = extractNameFromQualifiedId(spell.id);
+  return join(dir, spell.faction, `${name}.json`);
+}
+
+/**
+ * Write an individual spell to the catalog
+ */
+export function writeIndividualSpell(
+  spell: IndividualSpell,
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult {
+  const path = getIndividualSpellOutputPath(spell, baseDir);
+  return writeJson(path, spell, options);
+}
+
+/**
+ * Write multiple individual spells
+ */
+export function writeIndividualSpells(
+  spells: IndividualSpell[],
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult[] {
+  return spells.map((spell) => writeIndividualSpell(spell, options, baseDir));
+}
+
+/**
+ * Determine output path for an individual prayer
+ * data/catalog/lores/{faction}/{name}.json
+ */
+export function getIndividualPrayerOutputPath(prayer: IndividualPrayer, baseDir?: string): string {
+  const dir = baseDir || CATALOG_LORES_DIR;
+  const name = extractNameFromQualifiedId(prayer.id);
+  return join(dir, prayer.faction, `${name}.json`);
+}
+
+/**
+ * Write an individual prayer to the catalog
+ */
+export function writeIndividualPrayer(
+  prayer: IndividualPrayer,
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult {
+  const path = getIndividualPrayerOutputPath(prayer, baseDir);
+  return writeJson(path, prayer, options);
+}
+
+/**
+ * Write multiple individual prayers
+ */
+export function writeIndividualPrayers(
+  prayers: IndividualPrayer[],
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult[] {
+  return prayers.map((prayer) => writeIndividualPrayer(prayer, options, baseDir));
+}
+
+/**
+ * Determine output path for a points pack
+ * data/points/{id}.json (e.g., data/points/aos2025.json)
+ */
+export function getPointsPackOutputPath(pack: PointsPack, baseDir?: string): string {
+  const dir = baseDir || POINTS_DIR;
+  // "points.aos2025" -> "aos2025"
+  const name = pack.id.replace(/^points\./, "");
+  return join(dir, `${name}.json`);
+}
+
+/**
+ * Write a points pack
+ */
+export function writePointsPack(
+  pack: PointsPack,
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult {
+  const path = getPointsPackOutputPath(pack, baseDir);
+  return writeJson(path, pack, options);
+}
+
+/**
+ * Determine output path for a faction index (new format)
+ * data/factions/{faction}.json
+ */
+export function getNewFactionIndexOutputPath(factionId: string, baseDir?: string): string {
+  const dir = baseDir || NEW_FACTIONS_DIR;
+  return join(dir, `${factionId}.json`);
+}
+
+/**
+ * Write a faction index (new format)
+ */
+export function writeNewFactionIndex<T extends { id: string }>(
+  factionId: string,
+  factionData: T,
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult {
+  const path = getNewFactionIndexOutputPath(factionId, baseDir);
+  return writeJson(path, factionData, options);
 }

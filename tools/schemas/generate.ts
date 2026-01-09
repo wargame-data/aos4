@@ -24,6 +24,11 @@ import { unitSelectionSchema } from "./schemas/unit-selection.schema.js";
 import { regimentSchema } from "./schemas/regiment.schema.js";
 import { armySchema } from "./schemas/army.schema.js";
 
+// New catalog schemas
+import { warscrollSchema } from "./schemas/warscroll.schema.js";
+import { spellSchema, prayerSchema } from "./schemas/spell.schema.js";
+import { pointsPackSchema } from "./schemas/points-pack.schema.js";
+
 const SCHEMA_DIR = join(process.cwd(), "schema");
 const BASE_URL = "https://aos-data.org/schema";
 
@@ -144,6 +149,31 @@ const schemas: SchemaConfig[] = [
     filename: "army.schema.json",
     title: "Army",
     description: "A complete army list for Age of Sigmar 4th Edition",
+  },
+  // New catalog schemas
+  {
+    schema: warscrollSchema,
+    filename: "warscroll.schema.json",
+    title: "Warscroll",
+    description: "A unified warscroll for units and heroes in the catalog",
+  },
+  {
+    schema: spellSchema,
+    filename: "spell.schema.json",
+    title: "Spell",
+    description: "An individual spell in the catalog",
+  },
+  {
+    schema: prayerSchema,
+    filename: "prayer.schema.json",
+    title: "Prayer",
+    description: "An individual prayer in the catalog",
+  },
+  {
+    schema: pointsPackSchema,
+    filename: "points-pack.schema.json",
+    title: "Points Pack",
+    description: "A points pack mapping catalog items to points costs",
   },
 ];
 

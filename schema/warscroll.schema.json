@@ -1,0 +1,588 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://aos-data.org/schema/warscroll.schema.json",
+  "title": "Warscroll",
+  "description": "A unified warscroll for units and heroes in the catalog",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^(warscroll|spell|prayer|enhancement|terrain|formation|manifestation)\\.[a-z0-9_]+\\.[a-z0-9_]+$"
+    },
+    "type": {
+      "type": "string",
+      "const": "warscroll"
+    },
+    "name": {
+      "type": "string"
+    },
+    "faction": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "grandAlliance": {
+      "type": "string",
+      "enum": [
+        "order",
+        "chaos",
+        "death",
+        "destruction"
+      ]
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sizes": {
+      "type": "object",
+      "properties": {
+        "min": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "default": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "max": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "min",
+        "default"
+      ],
+      "additionalProperties": false
+    },
+    "costs": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number"
+      }
+    },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "move": {
+          "type": "string",
+          "pattern": "^(-|(\\d*D6(\\+\\d+)?|\\d+)\")$"
+        },
+        "health": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "save": {
+          "type": "string",
+          "pattern": "^\\d\\+$"
+        },
+        "control": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "banishment": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "move",
+        "health",
+        "save",
+        "control"
+      ],
+      "additionalProperties": false
+    },
+    "role": {
+      "type": "string",
+      "enum": [
+        "battleline",
+        "other",
+        "artillery",
+        "behemoth"
+      ]
+    },
+    "weapons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "melee",
+              "ranged"
+            ]
+          },
+          "range": {
+            "type": "string",
+            "pattern": "^\\d+\"$"
+          },
+          "attacks": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 1
+              },
+              {
+                "type": "string",
+                "pattern": "^\\d?[dD]\\d+.*$"
+              }
+            ]
+          },
+          "hit": {
+            "type": "string",
+            "pattern": "^\\d\\+$"
+          },
+          "wound": {
+            "type": "string",
+            "pattern": "^\\d\\+$"
+          },
+          "rend": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4
+          },
+          "damage": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 1
+              },
+              {
+                "type": "string",
+                "pattern": "^\\d?[dD]\\d+.*$"
+              },
+              {
+                "type": "string",
+                "pattern": "^⟝.*⟞$"
+              }
+            ]
+          },
+          "abilities": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "name",
+          "type",
+          "attacks",
+          "hit",
+          "wound",
+          "rend",
+          "damage"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "abilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "passive",
+              "reaction",
+              "once-per-turn",
+              "once-per-battle",
+              "spell",
+              "prayer",
+              "command"
+            ]
+          },
+          "phase": {
+            "type": "string",
+            "enum": [
+              "any",
+              "hero",
+              "movement",
+              "shooting",
+              "charge",
+              "combat",
+              "end"
+            ]
+          },
+          "castingValue": {
+            "type": "integer",
+            "minimum": 2,
+            "maximum": 12
+          },
+          "chantingValue": {
+            "type": "integer",
+            "minimum": 2,
+            "maximum": 6
+          },
+          "declare": {
+            "type": "string"
+          },
+          "effect": {
+            "type": "string"
+          },
+          "keywords": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "color": {
+            "type": "string",
+            "enum": [
+              "Black",
+              "Blue",
+              "Gray",
+              "Green",
+              "Orange",
+              "Purple",
+              "Red",
+              "Yellow"
+            ]
+          },
+          "abilityCategory": {
+            "type": "string",
+            "enum": [
+              "Offensive",
+              "Defensive",
+              "Movement",
+              "Control",
+              "Special",
+              "Rallying",
+              "Shooting"
+            ]
+          },
+          "modifiers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "set",
+                    "increment",
+                    "decrement",
+                    "append",
+                    "add",
+                    "remove"
+                  ]
+                },
+                "field": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                },
+                "conditions": {
+                  "type": "object",
+                  "properties": {
+                    "logic": {
+                      "type": "string",
+                      "enum": [
+                        "and",
+                        "or"
+                      ]
+                    },
+                    "conditions": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "enum": [
+                              "equalTo",
+                              "notEqualTo",
+                              "lessThan",
+                              "greaterThan",
+                              "atLeast",
+                              "atMost",
+                              "instanceOf"
+                            ]
+                          },
+                          "value": {
+                            "type": "string"
+                          },
+                          "field": {
+                            "type": "string"
+                          },
+                          "scope": {
+                            "type": "string"
+                          },
+                          "childId": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "value",
+                          "field"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "groups": {
+                      "type": "array",
+                      "items": {}
+                    }
+                  },
+                  "required": [
+                    "logic"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "type",
+                "field",
+                "value"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "name",
+          "type",
+          "effect"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "regimentKeywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "canReinforce": {
+      "type": "boolean"
+    },
+    "constraintModifiers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "constraintId": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "set",
+              "increment",
+              "decrement"
+            ]
+          },
+          "value": {
+            "type": "string"
+          },
+          "repeats": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "string"
+                },
+                "repeats": {
+                  "type": "string"
+                },
+                "field": {
+                  "type": "string"
+                },
+                "scope": {
+                  "type": "string"
+                },
+                "childId": {
+                  "type": "string"
+                },
+                "shared": {
+                  "type": "boolean"
+                },
+                "roundUp": {
+                  "type": "boolean"
+                },
+                "includeChildSelections": {
+                  "type": "boolean"
+                },
+                "includeChildForces": {
+                  "type": "boolean"
+                },
+                "percentValue": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "value",
+                "repeats",
+                "field",
+                "scope"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "constraintId",
+          "type",
+          "value"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "isCollective": {
+      "type": "boolean"
+    },
+    "wizard": {
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "priest": {
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "unique": {
+      "type": "boolean"
+    },
+    "regimentAllows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "keywords": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "keywords",
+          "description"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "canJoinRegiment": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "keywords": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "description": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "keywords"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "description"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "publication": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "shortName": {
+          "type": "string"
+        },
+        "page": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "additionalProperties": false
+    },
+    "notes": {
+      "type": "string"
+    },
+    "_meta": {
+      "type": "object",
+      "properties": {
+        "lastUpdated": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "name",
+    "faction",
+    "keywords",
+    "sizes",
+    "stats",
+    "role",
+    "weapons"
+  ],
+  "additionalProperties": false
+}

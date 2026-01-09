@@ -1,7 +1,18 @@
 import { z } from "zod";
 
-// ID pattern: kebab-case
+// ID pattern: kebab-case (legacy)
 export const idSchema = z.string().regex(/^[a-z0-9-]+$/);
+
+// ID pattern: underscore-based (new)
+export const simpleIdSchema = z.string().regex(/^[a-z0-9_]+$/);
+
+// Qualified ID: type.faction.name (e.g., "warscroll.stormcast.knight_arcanum")
+export const qualifiedIdSchema = z.string().regex(
+  /^(warscroll|spell|prayer|enhancement|terrain|formation|manifestation)\.[a-z0-9_]+\.[a-z0-9_]+$/
+);
+
+// Points pack ID (e.g., "points.aos2025")
+export const pointsPackIdSchema = z.string().regex(/^points\.[a-z0-9_]+$/);
 
 // Grand alliance enum
 export const grandAllianceSchema = z.enum([
@@ -217,3 +228,6 @@ export type Condition = z.infer<typeof conditionSchema>;
 export type Modifier = z.infer<typeof modifierSchema>;
 export type Repeat = z.infer<typeof repeatSchema>;
 export type ConstraintModifier = z.infer<typeof constraintModifierSchema>;
+export type SimpleId = z.infer<typeof simpleIdSchema>;
+export type QualifiedId = z.infer<typeof qualifiedIdSchema>;
+export type PointsPackId = z.infer<typeof pointsPackIdSchema>;
