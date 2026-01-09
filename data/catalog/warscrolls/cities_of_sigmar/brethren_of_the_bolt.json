@@ -1,0 +1,86 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.brethren_of_the_bolt",
+  "bsdataId": "d136-5b89-0d88-cb37",
+  "type": "warscroll",
+  "name": "Brethren of the Bolt",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "champion",
+    "human",
+    "infantry",
+    "legends",
+    "order",
+    "unique",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Brethren Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Pater Filius",
+      "type": "passive",
+      "effect": "While this unit’s **Pater Filius** is on the battlefield, it has **^^Priest (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Crackling with Faith",
+      "type": "passive",
+      "effect": "Each time a combat attack made by this unit scores a critical hit, you can pick an enemy unit within 6\" of this unit that was not the target of that combat attack. Inflict 1 mortal damage on that enemy unit after the **^^Fight^^** ability has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Bolt from the Blue",
+      "type": "prayer",
+      "effect": "This unit has **^^Ward (5+) for the rest of the turn. If a target was picked, inflict D3 mortal damage on the target. If the chanting roll was 10+, inflict 3 mortal damage on the target instead.",
+      "phase": "hero",
+      "declare": "You can pick a visible enemy unit within 12\" of this unit to be the target. Then, make a chanting roll of D6.",
+      "chantingValue": 5,
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

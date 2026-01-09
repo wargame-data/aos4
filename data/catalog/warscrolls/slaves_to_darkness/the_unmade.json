@@ -1,0 +1,77 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.the_unmade",
+  "bsdataId": "6aef-12ed-3dc9-2c83",
+  "type": "warscroll",
+  "name": "The Unmade",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "champion (1/9)",
+    "chaos",
+    "infantry",
+    "legends",
+    "undivided",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 9,
+    "default": 9,
+    "max": 9
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Maiming Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Nightmare Sickles",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION (1/9)",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "UNDIVIDED"
+  ],
+  "abilities": [
+    {
+      "name": "Frozen in Fear",
+      "type": "passive",
+      "effect": "Enemy units cannot use the ‘Redeploy’ or ‘Rally’ commands while they are within 12\" of this unit.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

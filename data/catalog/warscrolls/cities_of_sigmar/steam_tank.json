@@ -1,0 +1,82 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.steam_tank",
+  "bsdataId": "293f-584a-25a2-c45c",
+  "type": "warscroll",
+  "name": "Steam Tank",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "human",
+    "order",
+    "war machine",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 12,
+    "save": "2+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Steam Cannon",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3+2",
+      "range": "18\""
+    },
+    {
+      "name": "Crushing Wheels",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Steam Gun",
+      "type": "ranged",
+      "attacks": "2D6",
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN"
+  ],
+  "abilities": [
+    {
+      "name": "More Pressure!",
+      "type": "passive",
+      "effect": "Roll 2D6. If the roll is less than the number of damage points this unit has, inflict D3 mortal damage on this unit. Otherwise, pick 1 of the following effects to apply to this unit until the start of your next turn:\n***Power the Wheels:*** This unit can use a **^^Run^^** ability and still use **^^Shoot^^** and/or **^^Charge^^** abilities later in the turn.\n***Power the Guns:*** Add 3 to the Attacks characteristic of this unit’s **Steam Gun**.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  }
+}

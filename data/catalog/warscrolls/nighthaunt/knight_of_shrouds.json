@@ -1,0 +1,72 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.nighthaunt.knight_of_shrouds",
+  "bsdataId": "625-d4af-9738-48ca",
+  "type": "warscroll",
+  "name": "Knight of Shrouds",
+  "faction": "nighthaunt",
+  "keywords": [
+    "death",
+    "fly",
+    "hero",
+    "infantry",
+    "ward (5+)",
+    "faction:nighthaunt"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Sword of Stolen Hours",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Stolen Hours",
+      "type": "passive",
+      "effect": "Each time this unit uses a **^^Fight^^** ability, after that **^^Fight^^** ability has been resolved, **Heal (X)** this unit, where X is the number of damage points allocated to enemy units by combat attacks made as part of that **^^Fight^^** ability.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Infantry Overseer",
+      "type": "reaction",
+      "effect": "Pick a friendly non**^^-Hero Nighthaunt Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

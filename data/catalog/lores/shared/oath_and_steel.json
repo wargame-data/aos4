@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.oath_and_steel",
+  "type": "prayer",
+  "name": "Oath and Steel",
+  "faction": "shared",
+  "lore": "scriptures_of_sigmar",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "Subtract 1 from wound rolls for attacks that target that unit until the start of your next turn. In addition, if the chanting roll was 10+, add 1 to save rolls for the target until the start of your next turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Cities of Sigmar Priest^^** to chant this prayer, pick a visible friendly **^^Cities of Sigmar^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6. Add 1 to the roll if the chanter is **^^Duardin^^**.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.daughters_of_khaine.hag_queen",
+  "bsdataId": "4443-5875-af71-96a4",
+  "type": "warscroll",
+  "name": "Hag Queen",
+  "faction": "daughters_of_khaine",
+  "keywords": [
+    "aelf",
+    "hero",
+    "infantry",
+    "order",
+    "priest (1)",
+    "ward (6+)",
+    "faction:daughters_of_khaine"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Blade of Khaine",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "DAUGHTERS OF KHAINE",
+    "PRIEST (1)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Witchbrew",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, the target has **^^Ward (5+)^^** for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Daughters of Khaine^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "df1f-ba81-775f-acfd"
+  },
+  "wizard": null,
+  "priest": 1,
+  "unique": false,
+  "canJoinRegiment": null
+}

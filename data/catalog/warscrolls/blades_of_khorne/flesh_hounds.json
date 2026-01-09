@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.blades_of_khorne.flesh_hounds",
+  "bsdataId": "4c6b-352c-715-cda7",
+  "type": "warscroll",
+  "name": "Flesh Hounds",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "beast",
+    "champion (1/5)",
+    "chaos",
+    "daemon",
+    "ward (6+)",
+    "faction:blades_of_khorne"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Blood-dark Claws",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Blood-hungry",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEAST",
+    "BLADES OF KHORNE",
+    "CHAMPION (1/5)",
+    "DAEMON",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Hunters of Mystics",
+      "type": "passive",
+      "effect": "If the casting roll for an enemy **^^Wizard^^** within 12\" of this unit contains 2 or more results of 1 or 2, the spell is miscast.\nIf the chanting roll for an enemy **^^Priest^^** within 12\" of this unit is an unmodified 2, the prayer fails and its effect is not resolved. In addition, your opponent cannot give that **^^Priest^^** any ritual points for the rest of the phase.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "81a9-3dbf-dbc5-672e"
+  }
+}

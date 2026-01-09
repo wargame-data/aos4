@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.flaming_blades_of_ruin",
+  "type": "spell",
+  "name": "Flaming Blades of Ruin",
+  "faction": "shared",
+  "lore": "lore_of_magmic_fury",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Inflict D3 mortal damage on the target. Add 1 to the Attacks characteristic of the target's melee weapons for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Wizard^^** to cast this spell, pick a visible unit wholly within 12\" of them and not in combat to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

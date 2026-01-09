@@ -1,0 +1,82 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.helsmiths_of_hashut.infernal_razers_with_flamehurlers",
+  "bsdataId": "3d15-3f55-b836-84b6",
+  "type": "warscroll",
+  "name": "Infernal Razers with Flamehurlers",
+  "faction": "helsmiths_of_hashut",
+  "keywords": [
+    "champion",
+    "chaos",
+    "duardin",
+    "infantry",
+    "faction:helsmiths_of_hashut"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 1,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Karagthrun Flamehurlers",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Weapon Butt",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DUARDIN",
+    "HELSMITHS OF HASHUT"
+  ],
+  "abilities": [
+    {
+      "name": "Scorched Remains",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, subtract an amount equal to the roll from the target's control score until the start of your next turn.",
+      "phase": "shooting",
+      "declare": "If this unit used a **^^Shoot^^** ability this turn and all of its attacks targeted the same enemy **^^Infantry^^** unit, that enemy unit is the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Manglers of Metal",
+      "type": "passive",
+      "effect": "Add 1 to the Rend characteristic of this unit’s ranged weapons for each **daemonic power point** this unit has.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "487d-9798-0633-8040"
+  }
+}

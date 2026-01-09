@@ -1,0 +1,97 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.freeguild_cavalier_marshal",
+  "bsdataId": "f921-535b-9f7d-615f",
+  "type": "warscroll",
+  "name": "Freeguild Cavalier-Marshal",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "cavalry",
+    "hero",
+    "human",
+    "order",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 7,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Dragoon Pistol",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Master-forged Cavalier Sword",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    },
+    {
+      "name": "Warhorse’s Steel-shod Hooves",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN"
+  ],
+  "abilities": [
+    {
+      "name": "'For Sigmar, Charge!'",
+      "type": "passive",
+      "effect": "Add 1 to charge rolls for this unit and for friendly **Freeguild Cavaliers** units while they are wholly within 12\" of this unit.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Run Down the Foe",
+      "type": "once-per-battle",
+      "effect": "This unit and the target have **^^Strike-first^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "If this unit charged this turn, pick a friendly **^^Cities of Sigmar Human Cavalry^^** unit that charged this turn and is wholly within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

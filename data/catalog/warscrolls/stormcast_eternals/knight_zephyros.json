@@ -1,0 +1,97 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.knight_zephyros",
+  "bsdataId": "f0d9-5cb2-345b-565e",
+  "type": "warscroll",
+  "name": "Knight-Zephyros",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "hero",
+    "infantry",
+    "order",
+    "vanguard chamber",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "7\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Stormshot Pistol",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Tempest Axes",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)",
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "STORMCAST ETERNALS",
+    "VANGUARD CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Tireless Hunter",
+      "type": "once-per-turn",
+      "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Vanguard Chamber",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn, this unit can use **^^Shoot^^** and/or **^^Charge^^** abilities even if it used a **^^Run^^** or **^^Retreat^^** ability in the same turn.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "87c-f122-a891-630e"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "VANGUARD CHAMBER"
+      ],
+      "description": "Units with VANGUARD CHAMBER keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

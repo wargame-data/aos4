@@ -1,0 +1,85 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.warlock_engineer",
+  "bsdataId": "e77c-c9e7-720e-86e2",
+  "type": "warscroll",
+  "name": "Warlock Engineer",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "hero",
+    "infantry",
+    "skryre",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Warplock Musket",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D3",
+      "range": "24\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Warpforged Dagger",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SKAVEN",
+    "SKRYRE"
+  ],
+  "abilities": [
+    {
+      "name": "More-more Warp Energy!",
+      "type": "reaction",
+      "effect": "Roll a dice. On a 2+, set the Damage characteristic of this unit’s **Warplock Musket** to 3 for the rest of the turn. On a 1, inflict D3 mortal damage on this unit.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Sniper-master",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn, this unit and friendly **Warplock Jezzails** units wholly within 13\" of this unit can ignore the effects of the ‘Guarded Hero’ ability (Core Rules, 25.0) when picking the target for their shooting attacks.",
+      "phase": "shooting",
+      "declare": "Pick a visible enemy **^^Hero^^** to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

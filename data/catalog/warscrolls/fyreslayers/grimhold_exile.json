@@ -1,0 +1,81 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.fyreslayers.grimhold_exile",
+  "bsdataId": "145f-e68f-3a4e-c25a",
+  "type": "warscroll",
+  "name": "Grimhold Exile",
+  "faction": "fyreslayers",
+  "keywords": [
+    "duardin",
+    "hero",
+    "infantry",
+    "order",
+    "ward (6+)",
+    "faction:fyreslayers"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Fyre-rune Hammers",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "DUARDIN",
+    "FYRESLAYERS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Honour to Grimnir!",
+      "type": "once-per-battle",
+      "effect": "You can re-roll charge rolls for the targets for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick up to 3 friendly **^^Fyreslayers Infantry^^** units wholly within 12\" of this unit to be the targets.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Last of the Lodge-fire",
+      "type": "once-per-battle",
+      "effect": "Roll a number of dice equal to the target’s Health characteristic. For each 4+, inflict 1 mortal damage on the target.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^CORE^^**",
+        "**^^ATTACK^^**",
+        "**^^FIGHT^^**"
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "693f-85d0-db98-543c"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,97 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.disciples_of_tzeentch.fluxmaster_herald_of_tzeentch_on_disc",
+  "bsdataId": "6cc5-f54c-2ca6-78cf",
+  "type": "warscroll",
+  "name": "Fluxmaster, Herald of Tzeentch on Disc",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "cavalry",
+    "chaos",
+    "daemon",
+    "fly",
+    "hero",
+    "legends",
+    "unique",
+    "ward (6+)",
+    "wizard (1)",
+    "faction:disciples_of_tzeentch"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "14\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Iridescent Flames",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "12\"",
+      "abilities": [
+        "Wyrdflame"
+      ]
+    },
+    {
+      "name": "Staff of Change and Ritual Dagger",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3"
+    },
+    {
+      "name": "Disc’s Teeth and Horns",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "DISCIPLES OF TZEENTCH",
+    "FLY",
+    "LEGENDS",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Arcane Tome",
+      "type": "reaction",
+      "effect": "Re-roll 1 of the dice in the casting roll.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

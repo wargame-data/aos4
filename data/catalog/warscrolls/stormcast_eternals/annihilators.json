@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.annihilators",
+  "bsdataId": "abd7-bf0a-b2f9-8cc2",
+  "type": "warscroll",
+  "name": "Annihilators",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "champion",
+    "infantry",
+    "order",
+    "warrior chamber",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 3,
+    "save": "2+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Meteoric Hammer",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Brace for Impact",
+      "type": "passive",
+      "effect": "Roll a dice for each model in this unit. If any of the rolls are a 6, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "charge",
+      "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Blazing Impact",
+      "type": "passive",
+      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "movement",
+      "declare": "If this unit was set up this turn using the ‘Scions of the Storm’ ability, pick up to 3 enemy units within 10\" of it to be the targets.",
+      "color": "Gray",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "43cd-e9ef-5d4d-87c4"
+  }
+}

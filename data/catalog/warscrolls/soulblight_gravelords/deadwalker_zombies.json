@@ -1,0 +1,60 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.soulblight_gravelords.deadwalker_zombies",
+  "bsdataId": "992e-30dd-49de-a177",
+  "type": "warscroll",
+  "name": "Deadwalker Zombies",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "deadwalkers",
+    "death",
+    "infantry",
+    "ward (6+)",
+    "faction:soulblight_gravelords"
+  ],
+  "sizes": {
+    "min": 20,
+    "default": 20,
+    "max": 20
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Crude Weapon or Infectious Bite",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "DEADWALKERS",
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Mindless Ferocity",
+      "type": "passive",
+      "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 6+, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "e3a0-cfae-cbb3-0215"
+  }
+}

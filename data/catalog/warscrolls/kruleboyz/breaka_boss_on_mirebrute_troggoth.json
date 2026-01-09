@@ -1,0 +1,97 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.kruleboyz.breaka_boss_on_mirebrute_troggoth",
+  "bsdataId": "5616-42d8-b4aa-2e4",
+  "type": "warscroll",
+  "name": "Breaka-boss on Mirebrute Troggoth",
+  "faction": "kruleboyz",
+  "keywords": [
+    "destruction",
+    "hero",
+    "monster",
+    "faction:kruleboyz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 12,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Bident-goad",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Mirebrute’s Clubs",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "KRULEBOYZ"
+  ],
+  "abilities": [
+    {
+      "name": "Tear Limb From Limb",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. If the roll exceeds the target’s Health characteristic, 1 model in the target unit is slain.",
+      "phase": "any",
+      "declare": "Pick an enemy **^^Infantry^^** unit within 1\" of this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Purple",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Breaka-harness",
+      "type": "passive",
+      "effect": "Make a breaka-roll of D3.\n• Inflict an amount of mortal damage on this unit equal to the breaka-roll.\n• Double the breaka-roll and add that value to the Attacks characteristic of this unit’s **Mirebrute’s Clubs** for the rest of the turn.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Regeneration",
+      "type": "passive",
+      "effect": "**Heal (D3)** this unit.",
+      "phase": "any",
+      "color": "Black",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "8b1b-f2c7-890e-2bbe"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.shroud_in_darkness",
+  "type": "spell",
+  "name": "Shroud in Darkness",
+  "faction": "shared",
+  "lore": "spell_lore_legion_of_the_first_prince",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "The target can move D6\". It cannot end that move in combat. In addition, until the start of your next turn, the target is not visible to enemy units while they are more than 12\" away.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Legion of the First Prince Wizard^^** to cast this spell, pick a visible friendly **^^Legion of the First Prince^^** unit that is not in combat and is wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

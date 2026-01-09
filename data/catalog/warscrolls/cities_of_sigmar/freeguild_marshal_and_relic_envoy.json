@@ -1,0 +1,102 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.freeguild_marshal_and_relic_envoy",
+  "bsdataId": "326c-d13-626c-cfd",
+  "type": "warscroll",
+  "name": "Freeguild Marshal and Relic Envoy",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "hero",
+    "human",
+    "infantry",
+    "order",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Duelling Pistols",
+      "type": "ranged",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Silvered Shortsword",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1
+    },
+    {
+      "name": "Master-forged Longsword",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    },
+    {
+      "name": "Heirloom Warhammer",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN"
+  ],
+  "abilities": [
+    {
+      "name": "Rousing Orator",
+      "type": "passive",
+      "effect": "Add 3 to the control scores of other friendly **^^Cities of Sigmar Human^^** units while they are wholly within 12\" of this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    },
+    {
+      "name": "Attendant Relic Envoy",
+      "type": "passive",
+      "effect": "Place this unit’s **Relic Envoy** next to the target (if this unit’s **Relic Envoy** is currently next to a different friendly unit, move it next to the target). While the target has a **Relic Envoy** next to it, it can be picked to be the target of an **^^Officar’s Order^^** ability even if it is not wholly within 12\" of the friendly **^^Hero^^** using that ability.\nIf this unit is destroyed, remove its **Relic Envoy** from the battlefield.",
+      "declare": "Pick a friendly **^^Cities of Sigmar Human^^** wholly within 18\" of this unit to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

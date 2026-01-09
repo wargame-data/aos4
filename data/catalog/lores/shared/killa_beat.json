@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.killa_beat",
+  "type": "prayer",
+  "name": "Killa Beat",
+  "faction": "shared",
+  "lore": "warbeats",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "Add 1 to the Damage characteristic of the target’s melee weapons for the rest of the turn. If the chanting roll was 10+, you can pick up to 2 eligible units to be the targets instead of 1.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Ironjawz Priest^^** to chant this prayer, pick a visible friendly **^^Ironjawz^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

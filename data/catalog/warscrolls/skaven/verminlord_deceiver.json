@@ -1,0 +1,96 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.verminlord_deceiver",
+  "bsdataId": "de4e-185a-4671-283d",
+  "type": "warscroll",
+  "name": "Verminlord Deceiver",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "eshin",
+    "hero",
+    "monster",
+    "ward (5+)",
+    "wizard (1)",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 13,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Doomstar",
+      "type": "ranged",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "range": "13\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Warpstiletto",
+      "type": "melee",
+      "attacks": 8,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 3,
+      "damage": 2,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "ESHIN",
+    "SKAVEN",
+    "WARD (5+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Lord of Assassins",
+      "type": "reaction",
+      "effect": "If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Burst From the Shadows",
+      "type": "once-per-turn",
+      "effect": "If this unit is in combat, roll a dice. On a 4+, you can pick a point on the battlefield within 13\" of this unit and within 1\" of any enemy units. Remove this unit from the battlefield and set it up again within 1\" of that point.\n**Designer’s Note:** *This ability allows the unit to set up in combat with a new enemy unit.*",
+      "phase": "combat",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

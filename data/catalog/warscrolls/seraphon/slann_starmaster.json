@@ -1,0 +1,103 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.seraphon.slann_starmaster",
+  "bsdataId": "5165-b82-49a6-36b",
+  "type": "warscroll",
+  "name": "Slann Starmaster",
+  "faction": "seraphon",
+  "keywords": [
+    "fly",
+    "hero",
+    "infantry",
+    "order",
+    "slann",
+    "ward (6+)",
+    "wizard (3)",
+    "faction:seraphon"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 9,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Azure Lightning",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FLY",
+    "SERAPHON",
+    "SLANN",
+    "WARD (6+)",
+    "WIZARD (3)"
+  ],
+  "abilities": [
+    {
+      "name": "Masters of Order",
+      "type": "passive",
+      "effect": "Add 1 to casting rolls for this unit. In addition, this unit can use an **^^Unbind^^** ability if an enemy **^^Wizard^^** anywhere on the battlefield uses a **^^Spell^^** ability instead of an enemy **^^Wizard^^** within 30\" of this unit, and when using the ‘Banish Manifestation’ ability, this unit can pick a manifestation anywhere on the battlefield instead of within 30\" of it.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Celestial Reinforcements",
+      "type": "command",
+      "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Seraphon^^** unit that started the battle with 3 or more models and that has been destroyed to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
+    },
+    {
+      "name": "Celestial Equilibrium",
+      "type": "spell",
+      "effect": "For the rest of the turn, add 1 to casting rolls made for other friendly **^^Seraphon Wizards^^** while they are wholly within 12\" of this unit.",
+      "phase": "hero",
+      "declare": "Make a casting roll of 2D6.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Arcane Vassal",
+      "type": "once-per-turn",
+      "effect": "Measure the range and visibility of the next **^^Spell^^** ability used by this unit from the target instead of from this unit. The target is treated as the caster for the purpose of other abilities or spell effects, such as ‘Unbind’ or ‘The Earth Trembles’.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Skink Wizard^^** wholly within 18\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "e9d0-a23-6a15-1fcb"
+  },
+  "wizard": 3,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

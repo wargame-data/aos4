@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.cauterisation",
+  "type": "prayer",
+  "name": "Cauterisation",
+  "faction": "shared",
+  "lore": "lore_of_aqshian_wrath",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn:\n• The target's melee weapons cannot be affected by weapon abilities other than the **Companion** weapon ability.\n• If the chanting roll was 10+, for each unmodified hit roll of 1 for a combat attack made by the target, inflict 1 mortal damage on the target after the **^^Fight^^** ability has been resolved.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible enemy unit wholly within 18\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

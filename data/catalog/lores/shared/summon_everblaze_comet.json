@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.summon_everblaze_comet",
+  "type": "spell",
+  "name": "Summon Everblaze Comet",
+  "faction": "shared",
+  "lore": "manifestation_lore_heroes_of_the_first_forged",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 8,
+  "timing": "Your Hero Phase",
+  "effect": "Set up an **Everblaze Comet** wholly within 18\" of the caster.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Everblaze Comet** on the battlefield, pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

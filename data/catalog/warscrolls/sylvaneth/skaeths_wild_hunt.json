@@ -1,0 +1,81 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.sylvaneth.skaeths_wild_hunt",
+  "bsdataId": "c0d2-82ed-9fc0-3deb",
+  "type": "warscroll",
+  "name": "Skaeth's Wild Hunt",
+  "faction": "sylvaneth",
+  "keywords": [
+    "champion",
+    "infantry",
+    "kurnothi",
+    "legends",
+    "musician (1/5)",
+    "order",
+    "unique",
+    "faction:sylvaneth"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Tracker Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1
+    },
+    {
+      "name": "Wild Hunt Ranged Weapons",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "range": "12\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "KURNOTHI",
+    "LEGENDS",
+    "MUSICIAN (1/5)"
+  ],
+  "abilities": [
+    {
+      "name": "Karthaen",
+      "type": "passive",
+      "effect": "While this unit’s **Karthaen, Huntcaller**, is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Fleet of Foot",
+      "type": "passive",
+      "effect": "This unit can use **^^Shoot^^** and/or **^^Charge^^** abilities even if it used a **^^Run^^** or **^^Retreat^^** ability in the same turn.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

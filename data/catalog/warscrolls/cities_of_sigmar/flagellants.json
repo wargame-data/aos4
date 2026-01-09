@@ -1,0 +1,60 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.flagellants",
+  "bsdataId": "6da4-e6bc-e5f6-3751",
+  "type": "warscroll",
+  "name": "Flagellants",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "champion",
+    "human",
+    "infantry",
+    "order",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Castigating Flails and Clubs",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "CITIES OF SIGMAR",
+    "HUMAN"
+  ],
+  "abilities": [
+    {
+      "name": "Glorious Martyrs",
+      "type": "passive",
+      "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. Add 1 to the roll if this unit is wholly within 12\" of a friendly **Pontifex Zenestra**. On a 5+, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  }
+}

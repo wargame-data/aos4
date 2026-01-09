@@ -1,0 +1,88 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.idoneth_deepkin.isharann_soulrender",
+  "bsdataId": "b597-c539-60f-da1f",
+  "type": "warscroll",
+  "name": "Isharann Soulrender",
+  "faction": "idoneth_deepkin",
+  "keywords": [
+    "aelf",
+    "hero",
+    "infantry",
+    "isharann",
+    "order",
+    "faction:idoneth_deepkin"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Rakerdart’s Serrated Bill",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Talúnhook",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "IDONETH DEEPKIN",
+    "ISHARANN"
+  ],
+  "abilities": [
+    {
+      "name": "Lurelight",
+      "type": "passive",
+      "effect": "Make a lurelight roll of D3 for each target unit. On a 2+, return a number of slain models to the target unit equal to the roll.",
+      "phase": "any",
+      "declare": "Pick up to 3 different friendly **^^Namarti^^** units wholly within 12\" of this unit to be the targets. You cannot pick the same unit to be the target of this ability more than once per turn.",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
+    },
+    {
+      "name": "Hangman's Knot",
+      "type": "passive",
+      "effect": "Roll 2D6. If the roll exceeds the target’s Health characteristic, it is automatically destroyed.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9866-239b-07f0-d92b"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

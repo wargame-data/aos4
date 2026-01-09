@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.stormvermin",
+  "bsdataId": "fed2-4975-ae44-473",
+  "type": "warscroll",
+  "name": "Stormvermin",
+  "faction": "skaven",
+  "keywords": [
+    "champion",
+    "chaos",
+    "infantry",
+    "musician (1/10)",
+    "standard bearer (1/10)",
+    "verminus",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Stormvermin Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Anti-charge (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "MUSICIAN (1/10)",
+    "SKAVEN",
+    "STANDARD BEARER (1/10)",
+    "VERMINUS"
+  ],
+  "abilities": [
+    {
+      "name": "Elite Bodyguard",
+      "type": "passive",
+      "effect": "Friendly **^^Skaven Infantry Heroes^^** have **^^Ward (5+)^^** while they are within this unit’s combat range.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  }
+}

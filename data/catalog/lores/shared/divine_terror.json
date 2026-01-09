@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.divine_terror",
+  "type": "spell",
+  "name": "Divine Terror",
+  "faction": "shared",
+  "lore": "spell_lore_the_eternal_nightmare",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "Subtract 3 from the target's control score for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Eternal Nightmare Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Control"
+}

@@ -1,0 +1,137 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ogor_mawtribes.huskard_on_thundertusk",
+  "bsdataId": "ebcd-aa92-94f1-c1be",
+  "type": "warscroll",
+  "name": "Huskard on Thundertusk",
+  "faction": "ogor_mawtribes",
+  "keywords": [
+    "beastclaw raiders",
+    "destruction",
+    "hero",
+    "monster",
+    "ogor",
+    "priest (1)",
+    "faction:ogor_mawtribes"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 14,
+    "save": "4+",
+    "control": 10
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Ice Blast",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3+2",
+      "range": "12\"",
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Thundertusk’s Colossal Tusks",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 5,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Punches and Kicks",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Harpoon Launcher",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "18\""
+    },
+    {
+      "name": "Chaintrap",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 3,
+      "range": "12\"",
+      "abilities": [
+        "Anti‑**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Blood Vulture",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "range": "24\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BEASTCLAW RAIDERS",
+    "OGOR",
+    "OGOR MAWTRIBES",
+    "PRIEST (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Thundertusk’s Colossal Tusks** is 2.",
+      "color": "Black"
+    },
+    {
+      "name": "Freezing Aura",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. Add 1 to the roll if the target had **^^Strike-last^^** as a result of this ability in the previous turn. On a 4+, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Infantry^^** unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "1ac6-e227-a186-12"
+  },
+  "wizard": null,
+  "priest": 1,
+  "unique": false,
+  "canJoinRegiment": null
+}

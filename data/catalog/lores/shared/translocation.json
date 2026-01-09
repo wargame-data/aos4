@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.translocation",
+  "type": "prayer",
+  "name": "Translocation",
+  "faction": "shared",
+  "lore": "prayers_of_the_stormhosts",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units. In addition, if the chanting roll was 8+, subtract 1 from hit rolls for attacks that target that unit for the rest of the battle round.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Stormcast Eternals Priest^^** to chant this prayer, pick a visible friendly **^^Stormcast Eternals^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Movement"
+}

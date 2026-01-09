@@ -1,0 +1,92 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.idoneth_deepkin.akhelian_king",
+  "bsdataId": "1d8e-2553-5bf3-901b",
+  "type": "warscroll",
+  "name": "Akhelian King",
+  "faction": "idoneth_deepkin",
+  "keywords": [
+    "aelf",
+    "akhelian",
+    "cavalry",
+    "fly",
+    "hero",
+    "order",
+    "faction:idoneth_deepkin"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 7,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Deepmare’s Fangs, Talons and Lashing Tails",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Akhelian Royal Weapons",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "AKHELIAN",
+    "FLY",
+    "IDONETH DEEPKIN"
+  ],
+  "abilities": [
+    {
+      "name": "Wave Rider",
+      "type": "passive",
+      "effect": "Roll a D3. On a 2+:\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Add 1 to the Rend characteristic of this unit’s **Akhelian Royal Weapons** for attacks that target that enemy unit for the rest of the turn.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Crest of the Wave",
+      "type": "once-per-turn",
+      "effect": "If this unit charged this turn, add 1 to the Rend characteristic of melee weapons used by other friendly **^^Idoneth Deepkin^^** units for attacks that target enemy units in combat with this unit.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9866-239b-07f0-d92b"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

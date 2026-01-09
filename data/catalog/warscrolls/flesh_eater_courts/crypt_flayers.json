@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.flesh_eater_courts.crypt_flayers",
+  "bsdataId": "483a-7f4e-15c1-de78",
+  "type": "warscroll",
+  "name": "Crypt Flayers",
+  "faction": "flesh_eater_courts",
+  "keywords": [
+    "champion",
+    "death",
+    "fly",
+    "infantry",
+    "knights",
+    "ward (6+)",
+    "faction:flesh_eater_courts"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 4,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Piercing Talons",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1
+    },
+    {
+      "name": "Death Scream",
+      "type": "ranged",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 1,
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLESH-EATER COURTS",
+    "FLY",
+    "KNIGHTS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "To Our Liege",
+      "type": "once-per-turn",
+      "effect": "If this unit is not in combat, remove it from the battlefield and set it up again wholly within 12\" of a friendly **^^Flesh-eater Courts Hero^^** and more than 9\" from all enemy units.",
+      "phase": "movement",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ]
+}

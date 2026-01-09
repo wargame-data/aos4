@@ -1,0 +1,106 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.disciples_of_tzeentch.gaunt_summoner",
+  "bsdataId": "eae6-5b5d-5057-d94b",
+  "type": "warscroll",
+  "name": "Gaunt Summoner",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "hero",
+    "infantry",
+    "ward (6+)",
+    "wizard (2)",
+    "faction:disciples_of_tzeentch"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Changestaff",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "12\"",
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Warptongue Blade",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "DISCIPLES OF TZEENTCH",
+    "WARD (6+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Minions of the Silver Tower",
+      "type": "passive",
+      "effect": "The target is set up in reserve **in a Silver Tower**. It has now been deployed.",
+      "declare": "Pick a friendly unit that has not been deployed to be the target.",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Divert Realmgate",
+      "type": "spell",
+      "effect": "Units set up this turn using this unit’s ‘Book of Profane Secrets’ ability can be set up wholly within 18\" of this unit and more than 7\" from all enemy units instead of the distances in the ability.",
+      "phase": "hero",
+      "declare": "Make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Book of Profane Secrets",
+      "type": "passive",
+      "effect": "Set up the target on the battlefield wholly within 12\" of this unit and more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Pick a friendly unit **in a Silver Tower** to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "72d2-ae0-e519-f2f7"
+  },
+  "wizard": 2,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

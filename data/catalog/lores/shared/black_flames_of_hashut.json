@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.black_flames_of_hashut",
+  "type": "prayer",
+  "name": "Black Flames of Hashut",
+  "faction": "shared",
+  "lore": "prayers_of_the_scorched_sect",
+  "keywords": [
+    "prayer",
+    "unlimited"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target. If the chanting roll was 8+, inflict 1 mortal damage on the target for each 4+ instead.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Helsmiths of Hashut Priest^^** to chant this prayer, pick a visible enemy unit within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

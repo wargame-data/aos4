@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.idoneth_deepkin.isharann_soulscryer",
+  "bsdataId": "1296-cd3a-b6fc-f28f",
+  "type": "warscroll",
+  "name": "Isharann Soulscryer",
+  "faction": "idoneth_deepkin",
+  "keywords": [
+    "aelf",
+    "hero",
+    "infantry",
+    "isharann",
+    "order",
+    "wizard (1)",
+    "faction:idoneth_deepkin"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Abyssal Touch",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "IDONETH DEEPKIN",
+    "ISHARANN",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Finder of Ways",
+      "type": "reaction",
+      "effect": "Instead of setting up the targets as described in the ability used, set them up on the battlefield wholly within 12\" of this unit and more than 7\" from all enemy units.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "9866-239b-07f0-d92b"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

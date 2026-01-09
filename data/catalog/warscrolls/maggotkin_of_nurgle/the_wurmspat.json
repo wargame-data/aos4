@@ -1,0 +1,73 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.maggotkin_of_nurgle.the_wurmspat",
+  "bsdataId": "1c5d-ff4a-56da-b62a",
+  "type": "warscroll",
+  "name": "The Wurmspat",
+  "faction": "maggotkin_of_nurgle",
+  "keywords": [
+    "champion",
+    "chaos",
+    "infantry",
+    "legends",
+    "rotbringers",
+    "unique",
+    "ward (5+)",
+    "faction:maggotkin_of_nurgle"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 1
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 4,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Blighted Weapons",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "LEGENDS",
+    "MAGGOTKIN OF NURGLE",
+    "ROTBRINGERS",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Retchling",
+      "type": "once-per-battle",
+      "effect": "If this unit’s **Fecula Flyblown** is on the battlefield, add 1 to its power level for the rest of the turn.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Fecula Flyblown",
+      "type": "passive",
+      "effect": "While this unit’s **Fecula Flyblown** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

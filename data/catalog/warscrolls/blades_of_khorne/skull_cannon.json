@@ -1,0 +1,97 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.blades_of_khorne.skull_cannon",
+  "bsdataId": "597f-3928-bede-9c43",
+  "type": "warscroll",
+  "name": "Skull Cannon",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "war machine",
+    "ward (6+)",
+    "faction:blades_of_khorne"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 8,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Burning Skulls",
+      "type": "ranged",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "range": "15\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Gnashing Maw",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Blood-hungry",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Hellblades",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Blood-hungry",
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "DAEMON",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Gruesome Bombardment",
+      "type": "passive",
+      "effect": "If any damage points are allocated to an enemy unit by a **^^Shoot^^** ability used by this unit, subtract 3 from that enemy unit’s control score for the rest of the turn.",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    },
+    {
+      "name": "Grind Their Bones, Seize Their Skulls",
+      "type": "passive",
+      "effect": "If any enemy models are slain by a **^^Fight^^** ability used by this unit, after that **^^Fight^^** ability has been resolved, this unit can immediately use a **^^Shoot^^** ability as if it were your shooting phase.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "81a9-3dbf-dbc5-672e"
+  }
+}

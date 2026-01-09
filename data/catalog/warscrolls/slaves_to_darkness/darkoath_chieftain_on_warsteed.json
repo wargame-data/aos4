@@ -1,0 +1,86 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.darkoath_chieftain_on_warsteed",
+  "bsdataId": "6bde-370e-478d-cf24",
+  "type": "warscroll",
+  "name": "Darkoath Chieftain on Warsteed",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "cavalry",
+    "chaos",
+    "darkoath",
+    "hero",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 7,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Darkoath Cursed Weapon",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Warsteed’s Hooves",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DARKOATH",
+    "SLAVES TO DARKNESS"
+  ],
+  "abilities": [
+    {
+      "name": "Cavalry Warleader",
+      "type": "passive",
+      "effect": "You can re-roll charge rolls for friendly **^^Darkoath Cavalry^^** units while they are wholly within 12\" of this unit.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Oath of Murder",
+      "type": "once-per-battle",
+      "effect": "If this unit destroyed an enemy **^^Hero^^** or **^^Monster^^** this turn, this unit has **^^Strike-first^^** for the rest of the battle.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "6357-5d77-a2b2-f86b"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

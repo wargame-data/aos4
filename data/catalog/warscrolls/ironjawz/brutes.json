@@ -1,0 +1,72 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ironjawz.brutes",
+  "bsdataId": "f330-c2f2-f018-d93b",
+  "type": "warscroll",
+  "name": "Brutes",
+  "faction": "ironjawz",
+  "keywords": [
+    "brute",
+    "champion",
+    "destruction",
+    "infantry",
+    "faction:ironjawz"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 3,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Brute Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Gore-choppa",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BRUTE",
+    "CHAMPION",
+    "IRONJAWZ"
+  ],
+  "abilities": [
+    {
+      "name": "You Messin'?",
+      "type": "passive",
+      "effect": "Enemy units with a Health characteristic of 1 or 2 cannot contest objectives while they are in combat with this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    }
+  ],
+  "publication": {
+    "name": "8b1b-f2c7-890e-2bbe"
+  }
+}

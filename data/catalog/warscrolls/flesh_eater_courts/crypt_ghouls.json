@@ -1,0 +1,62 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.flesh_eater_courts.crypt_ghouls",
+  "bsdataId": "cf8e-f1fc-81a2-c101",
+  "type": "warscroll",
+  "name": "Crypt Ghouls",
+  "faction": "flesh_eater_courts",
+  "keywords": [
+    "champion",
+    "death",
+    "infantry",
+    "serfs",
+    "ward (6+)",
+    "faction:flesh_eater_courts"
+  ],
+  "sizes": {
+    "min": 20,
+    "default": 20,
+    "max": 20
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Sharpened Teeth and Filthy Claws",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLESH-EATER COURTS",
+    "SERFS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Royal Approval",
+      "type": "passive",
+      "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons while it is wholly within 12\" of any friendly **^^Nobles^^** or **^^Abhorrants^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.overwhelming_heat",
+  "type": "spell",
+  "name": "Overwhelming Heat",
+  "faction": "shared",
+  "lore": "lore_of_hysh",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Halve the target’s Move characteristic until the start of your next turn, then roll a dice. If the roll equals or exceeds the target’s Save characteristic, inflict D3 mortal damage on it.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Lumineth Realm‑lords Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

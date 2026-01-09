@@ -1,0 +1,87 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.disciples_of_tzeentch.changecaster_herald_of_tzeentch",
+  "bsdataId": "f83d-1a6a-a9-bb54",
+  "type": "warscroll",
+  "name": "Changecaster, Herald of Tzeentch",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "hero",
+    "infantry",
+    "ward (6+)",
+    "wizard (1)",
+    "faction:disciples_of_tzeentch"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Iridescent Flames",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "12\"",
+      "abilities": [
+        "Wyrdflame"
+      ]
+    },
+    {
+      "name": "Staff of Change and Ritual Dagger",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "DISCIPLES OF TZEENTCH",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Daemonic Locus",
+      "type": "passive",
+      "effect": "Each time a friendly **^^Disciples of Tzeentch Daemon^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
+    },
+    {
+      "name": "Lurid Flames",
+      "type": "passive",
+      "effect": "Add 1 to hit rolls for combat attacks made by friendly units that target a **^^Burning^^** enemy unit within 12\" of this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "72d2-ae0-e519-f2f7"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.vanquishers",
+  "bsdataId": "7b61-e507-bb97-cfe2",
+  "type": "warscroll",
+  "name": "Vanquishers",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "champion",
+    "infantry",
+    "musician (1/5)",
+    "order",
+    "standard bearer (1/5)",
+    "warrior chamber",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Celestial Greatsword",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "MUSICIAN (1/5)",
+    "STANDARD BEARER (1/5)",
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Lightning Strikes",
+      "type": "passive",
+      "effect": "Add 1 to the Damage characteristic of this unit’s **Celestial Greatswords** for attacks that target an enemy unit that has 5 or more models.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "43cd-e9ef-5d4d-87c4"
+  }
+}

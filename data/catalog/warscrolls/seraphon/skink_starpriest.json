@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.seraphon.skink_starpriest",
+  "bsdataId": "abb5-c657-a20e-6e47",
+  "type": "warscroll",
+  "name": "Skink Starpriest",
+  "faction": "seraphon",
+  "keywords": [
+    "hero",
+    "infantry",
+    "order",
+    "skink",
+    "wizard (1)",
+    "faction:seraphon"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Serpent Staff",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "SERAPHON",
+    "SKINK",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Serpent Staff",
+      "type": "passive",
+      "effect": "Roll a dice. On a 2+, the target’s melee weapons have **Crit (Auto-wound)** until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick a visible friendly **^^Seraphon^^** unit wholly within 18\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "e9d0-a23-6a15-1fcb"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

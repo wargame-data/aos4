@@ -1,0 +1,82 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.knight_heraldor",
+  "bsdataId": "a36f-a410-048c-e018",
+  "type": "warscroll",
+  "name": "Knight-Heraldor",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "hero",
+    "infantry",
+    "legends",
+    "order",
+    "warrior chamber",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Sigmarite Broadsword",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "LEGENDS",
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Thunderblast",
+      "type": "passive",
+      "effect": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "shooting",
+      "declare": "Pick a visible faction terrain feature within 18\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Call to Battle",
+      "type": "passive",
+      "effect": "If a friendly **^^Warrior Chamber^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
+    }
+  ],
+  "publication": {
+    "name": "87c-f122-a891-630e"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "WARRIOR CHAMBER"
+      ],
+      "description": "Units with WARRIOR CHAMBER keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

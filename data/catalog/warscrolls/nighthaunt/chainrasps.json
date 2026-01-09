@@ -1,0 +1,63 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.nighthaunt.chainrasps",
+  "bsdataId": "5ca1-5e5e-cb29-238b",
+  "type": "warscroll",
+  "name": "Chainrasps",
+  "faction": "nighthaunt",
+  "keywords": [
+    "champion",
+    "death",
+    "fly",
+    "infantry",
+    "ward (5+)",
+    "faction:nighthaunt"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Malignant Weapon",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Chilling Horde",
+      "type": "once-per-battle",
+      "effect": "Each target can move 6\" but cannot end that move in combat.",
+      "declare": "Pick up to 3 friendly **Chainrasp** units to be the targets,",
+      "color": "Black",
+      "abilityCategory": "Movement"
+    }
+  ]
+}

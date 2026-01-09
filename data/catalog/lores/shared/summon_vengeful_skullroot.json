@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.summon_vengeful_skullroot",
+  "type": "spell",
+  "name": "Summon Vengeful Skullroot",
+  "faction": "shared",
+  "lore": "manifestations_of_the_deepwood",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Vengeful Skullroot** wholly within 12\" of and visible to the caster, and more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Vengeful Skullroot** on the battlefield, pick a friendly **^^Sylvaneth Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

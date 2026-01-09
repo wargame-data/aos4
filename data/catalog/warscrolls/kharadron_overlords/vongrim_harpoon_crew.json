@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.kharadron_overlords.vongrim_harpoon_crew",
+  "bsdataId": "b38b-f2bc-47a8-658e",
+  "type": "warscroll",
+  "name": "Vongrim Harpoon Crew",
+  "faction": "kharadron_overlords",
+  "keywords": [
+    "champion",
+    "duardin",
+    "fly",
+    "infantry",
+    "order",
+    "skyfarer",
+    "faction:kharadron_overlords"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 2,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Pioneer Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1
+    },
+    {
+      "name": "Skydrake Harpoon or Firearm",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DUARDIN",
+    "FLY",
+    "KHARADRON OVERLORDS",
+    "SKYFARER"
+  ],
+  "abilities": [
+    {
+      "name": "Light Endrinpacks",
+      "type": "once-per-turn",
+      "effect": "If this unit is in combat, it can move 2d6\" but must end that move in combat.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "d4a9-b568-9525-d6ac"
+  }
+}

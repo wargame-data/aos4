@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.drakespawn_chariot",
+  "bsdataId": "672e-438c-24a6-5fc4",
+  "type": "warscroll",
+  "name": "Drakespawn Chariot",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "aelf",
+    "order",
+    "war machine",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 8,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Barbed Spear",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Drakespawn’s Ferocious Jaws",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CITIES OF SIGMAR"
+  ],
+  "abilities": [
+    {
+      "name": "Scythed Runners",
+      "type": "passive",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  }
+}

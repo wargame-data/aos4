@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.flesh_eater_courts.crypt_ghast_courtier",
+  "bsdataId": "0eac-dd60-75d7-198a",
+  "type": "warscroll",
+  "name": "Crypt Ghast Courtier",
+  "faction": "flesh_eater_courts",
+  "keywords": [
+    "death",
+    "hero",
+    "infantry",
+    "legends",
+    "noble",
+    "ward (6+)",
+    "faction:flesh_eater_courts"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 4,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Bone Club and Filthy Claws",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLESH-EATER COURTS",
+    "LEGENDS",
+    "NOBLE",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Marshal of the Peasantry",
+      "type": "reaction",
+      "effect": "Pick a friendly **Crypt Ghouls** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

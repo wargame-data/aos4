@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.right_gitz_in_da_right_place",
+  "type": "spell",
+  "name": "Right Gitz in da Right Place",
+  "faction": "shared",
+  "lore": "spell_lore_da_kings_gitz",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "The target's weapons have **Anti-^^Hero^^ (+1 Rend)** until the start of your next turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^King's Gitz Wizard^^** to chant this prayer, pick a visible friendly unit wholly within 18\" of them to be the target, then make a casting roll of 2D6."
+}

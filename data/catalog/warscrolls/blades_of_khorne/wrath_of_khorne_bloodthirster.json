@@ -1,0 +1,113 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.blades_of_khorne.wrath_of_khorne_bloodthirster",
+  "bsdataId": "3759-4ff4-40bf-6f48",
+  "type": "warscroll",
+  "name": "Wrath of Khorne Bloodthirster",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "bloodthirster",
+    "chaos",
+    "daemon",
+    "fly",
+    "hero",
+    "monster",
+    "ward (5+)",
+    "faction:blades_of_khorne"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 16,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Mighty Axe of Khorne and Bloodflail",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 4,
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)",
+        "Blood-hungry"
+      ]
+    },
+    {
+      "name": "Hellfire Breath",
+      "type": "ranged",
+      "attacks": "2D6",
+      "hit": "2+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "8\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "BLOODTHIRSTER",
+    "DAEMON",
+    "FLY",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Mighty Axe of Khorne and Bloodflail** is 4.",
+      "color": "Black"
+    },
+    {
+      "name": "Vengeance of Khorne",
+      "type": "once-per-turn",
+      "effect": "Roll 8 dice. For each 4+, inflict 1 mortal damage on the target.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Commander of Tyrants",
+      "type": "once-per-turn",
+      "effect": "Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick another visible friendly non-**^^Unique Blades of Khorne Daemon^^** unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Wrathful Dominance",
+      "type": "passive",
+      "effect": "Add 1 to hit rolls for this unit's attacks that target an enemy **^^Hero^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "81a9-3dbf-dbc5-672e"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

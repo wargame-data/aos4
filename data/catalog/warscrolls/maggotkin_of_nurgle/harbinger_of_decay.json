@@ -1,0 +1,94 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.maggotkin_of_nurgle.harbinger_of_decay",
+  "bsdataId": "c473-7f30-9a81-12d4",
+  "type": "warscroll",
+  "name": "Harbinger of Decay",
+  "faction": "maggotkin_of_nurgle",
+  "keywords": [
+    "cavalry",
+    "chaos",
+    "hero",
+    "priest (1)",
+    "rotbringers",
+    "ward (5+)",
+    "faction:maggotkin_of_nurgle"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 7,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Grim Rotsword or Plague Scythe",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 3,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Daemonic Mount’s Flyblown Bite",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "MAGGOTKIN OF NURGLE",
+    "PRIEST (1)",
+    "ROTBRINGERS",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Knell of Doom",
+      "type": "once-per-battle",
+      "effect": "Until the start of your next turn, subtract 1\" from the Move characteristic of each target and subtract 1 from run rolls and charge rolls for each target.",
+      "phase": "hero",
+      "declare": "Pick up to 3 enemy units within 24\" of this unit to be the targets.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Omens of Decay",
+      "type": "prayer",
+      "effect": "Subtract twice the current battle round number from the target’s control score for the rest of the turn. If the chanting roll was 10+, this ability affects all enemy units within 12\" of this unit.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 12\" of this unit to be the target, then make a chanting roll of D6.",
+      "chantingValue": 4,
+      "color": "Yellow",
+      "abilityCategory": "Control"
+    }
+  ],
+  "publication": {
+    "name": "9c71-86cb-e1d0-ec8d"
+  },
+  "wizard": null,
+  "priest": 1,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,62 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.beasts_of_chaos.razorgor",
+  "bsdataId": "5efa-c95d-80d7-bec9",
+  "type": "warscroll",
+  "name": "Razorgor",
+  "faction": "beasts_of_chaos",
+  "keywords": [
+    "beast",
+    "chaos",
+    "legends",
+    "faction:beasts_of_chaos"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 4,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Large Tusks and Hooves",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 0,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEAST",
+    "BEASTS OF CHAOS",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Feed on Mangled Remains",
+      "type": "passive",
+      "effect": "Each time this unit uses a **^^Fight^^** ability, after that **^^Fight^^** ability has been resolved, **Heal (D3)** this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "3cc2-31d3-9dd2-f858"
+  }
+}

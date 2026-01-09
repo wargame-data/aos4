@@ -1,0 +1,89 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.disciples_of_tzeentch.ephilims_pandaemonium",
+  "bsdataId": "16f4-4752-ac83-17ae",
+  "type": "warscroll",
+  "name": "Ephilim's Pandaemonium",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "champion",
+    "chaos",
+    "daemon",
+    "infantry",
+    "legends",
+    "unique",
+    "ward (6+)",
+    "wizard (1)",
+    "faction:disciples_of_tzeentch"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Daemonic Talons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Warping Wyrdfire",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Wyrdfame",
+        "Anti-**^^Unique^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DAEMON",
+    "DISCIPLES OF TZEENTCH",
+    "LEGENDS",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Power Leech",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. Allocate a number of damage points to this unit equal to the roll (ward rolls cannot be made for those damage points). Then, add 2 to the Attacks characteristic of this unit’s ranged weapons for the rest of the turn.",
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Keeper of the Pandaemonium",
+      "type": "passive",
+      "effect": "You can return D3 slain models to this unit.",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

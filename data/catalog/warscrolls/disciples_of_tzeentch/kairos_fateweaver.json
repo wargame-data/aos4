@@ -1,0 +1,117 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.disciples_of_tzeentch.kairos_fateweaver",
+  "bsdataId": "4c5d-ac6e-7aa5-6d98",
+  "type": "warscroll",
+  "name": "Kairos Fateweaver",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "fly",
+    "hero",
+    "monster",
+    "unique",
+    "ward (5+)",
+    "warmaster",
+    "wizard (3)",
+    "faction:disciples_of_tzeentch"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 16,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Staff of Tomorrow and Beaks",
+      "type": "melee",
+      "attacks": 9,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3"
+    },
+    {
+      "name": "Bolts of Change",
+      "type": "ranged",
+      "attacks": 9,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "18\"",
+      "abilities": [
+        "Wyrdflame"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "DISCIPLES OF TZEENTCH",
+    "FLY",
+    "WARD (5+)",
+    "WIZARD (3)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Staff of Tomorrow and Beaks** is 3.",
+      "color": "Black"
+    },
+    {
+      "name": "Oracle of Eternity",
+      "type": "once-per-battle",
+      "effect": "Pick 1 battle tactics card that is on your roster and discard it. Then, for the rest of the battle, replace it with a battle tactics card that is not on your roster.\nIf that new battle tactics card requires either player to pick something, they must do so immediately when the new battle tactics card is picked.\nThe combined total of victory points earned by both the discarded battle tactics card and the new battle tactics card is 15. Any additional victory points beyond 15 that are earned by completing the battle tactics on both of those battle tactics cards are lost.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Mastery of Magic",
+      "type": "passive",
+      "effect": "When you make a casting roll for this unit, you can change the lowest D6 to match the highest D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Arcane Suggestion",
+      "type": "spell",
+      "effect": "Pick 1 of the following effects to apply to the target until the start of your next turn:\n***It’s Hopeless:*** The target cannot use commands.\n***Drop Your Weapons:*** Subtract 1 from hit rolls and wound rolls for the target’s attacks.\n***Kneel:*** Subtract 1 from save rolls for the target.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 8,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Beacon of Sorcery",
+      "type": "passive",
+      "effect": "Add 1 to casting rolls and unbinding rolls for friendly **^^Disciples of Tzeentch Wizards^^** while they are wholly within 12\" of this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "72d2-ae0-e519-f2f7"
+  },
+  "wizard": 3,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

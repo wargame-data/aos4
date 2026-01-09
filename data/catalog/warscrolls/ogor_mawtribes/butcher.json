@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ogor_mawtribes.butcher",
+  "bsdataId": "1688-fcbe-1470-a4ee",
+  "type": "warscroll",
+  "name": "Butcher",
+  "faction": "ogor_mawtribes",
+  "keywords": [
+    "destruction",
+    "gutbusters",
+    "hero",
+    "infantry",
+    "ogor",
+    "wizard (1)",
+    "faction:ogor_mawtribes"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 7,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Butcher’s Tools",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 3
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GUTBUSTERS",
+    "OGOR",
+    "OGOR MAWTRIBES",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Savage Hunger",
+      "type": "passive",
+      "effect": "While they are wholly within 12\" of this unit, friendly **^^Gutbusters^^** units can use **^^Charge^^** abilities even if they used a **^^Run^^** ability in the same turn.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "1ac6-e227-a186-12"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

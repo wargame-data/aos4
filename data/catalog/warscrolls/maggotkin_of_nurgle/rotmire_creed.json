@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.maggotkin_of_nurgle.rotmire_creed",
+  "bsdataId": "6ad6-e6a2-391d-74f3",
+  "type": "warscroll",
+  "name": "Rotmire Creed",
+  "faction": "maggotkin_of_nurgle",
+  "keywords": [
+    "champion (1/10)",
+    "chaos",
+    "infantry",
+    "rotbringers",
+    "ward (5+)",
+    "faction:maggotkin_of_nurgle"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Bilewood Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Contagion Blowpipes",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION (1/10)",
+    "MAGGOTKIN OF NURGLE",
+    "ROTBRINGERS",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Virulent Concoctions",
+      "type": "passive",
+      "effect": "When using the ‘Blessed by the Plaguefather’ ability, if you choose to infect an enemy unit, you can pick an enemy unit that had any damage points allocated to it by this unit’s shooting attacks this turn to be the target even if that unit is not in combat with a friendly **^^Maggotkin of Nurgle^^** unit.",
+      "color": "Purple",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9c71-86cb-e1d0-ec8d"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.clawlord",
+  "bsdataId": "966e-f5f4-99e0-58cf",
+  "type": "warscroll",
+  "name": "Clawlord",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "hero",
+    "infantry",
+    "verminus",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Warpforged Blade",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SKAVEN",
+    "VERMINUS"
+  ],
+  "abilities": [
+    {
+      "name": "Cornered Rat",
+      "type": "passive",
+      "effect": "While this unit is damaged, add 3 to the Attacks characteristic of its **Warpforged Blade**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Gnash-gnaw on Their Bones!",
+      "type": "reaction",
+      "effect": "Pick a friendly non-**^^Hero Verminus Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the **^^Fight^^** ability used by this unit has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

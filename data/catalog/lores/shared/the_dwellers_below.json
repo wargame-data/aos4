@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.the_dwellers_below",
+  "type": "spell",
+  "name": "The Dwellers Below",
+  "faction": "shared",
+  "lore": "lore_of_the_deepwood",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Sylvaneth Wizard^^** to cast this spell, pick a visible enemy unit that is either within 12\" of this unit or within 6\" of an **Awakened Wyldwood** to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

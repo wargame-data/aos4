@@ -1,0 +1,135 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.flesh_eater_courts.abhorrant_ghoul_king_on_royal_terrorgheist",
+  "bsdataId": "c3e8-13a9-161d-1573",
+  "type": "warscroll",
+  "name": "Abhorrant Ghoul King on Royal Terrorgheist",
+  "faction": "flesh_eater_courts",
+  "keywords": [
+    "abhorrent",
+    "death",
+    "fly",
+    "hero",
+    "monster",
+    "ward (6+)",
+    "wizard (1)",
+    "faction:flesh_eater_courts"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 16,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Death Shriek",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D6",
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Gory Talons and Fangs",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    },
+    {
+      "name": "Terrorgheist’s Fanged Maw",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3+3",
+      "abilities": [
+        "Crit (Mortal)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Terrorgheist’s Skeletal Talons",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Mortal)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "ABHORRENT",
+    "FLESH-EATER COURTS",
+    "FLY",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Necromantic Limits",
+      "type": "passive",
+      "effect": "This unit's **Terrorgheist's Skeletal Talons** have a maximum Attacks characteristic of 10.\nWhile this unit has 10 or more damage points, the Attacks characteristic of its **Terrorgheist's Skeletal Talons** is 4.",
+      "color": "Black"
+    },
+    {
+      "name": "Wicked Predator",
+      "type": "once-per-turn",
+      "effect": "For each champion, standard bearer, and musician in the target unit, add 1 to the Attacks characteristic of this unit's **Terrorgheist's Skeletal Talons**, to a maximum of 10, for the rest of the phase. Those additional attacks must target that enemy unit.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Ferocious Hunger",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, add 1 to hit rolls for attacks made with this unit's **Companion** melee weapons for the rest of the turn.",
+      "phase": "combat",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "A Majestic Menagerie",
+      "type": "passive",
+      "effect": "While you believe this **^^Delusion^^**, add 1 to the Attacks characteristic of **Companion** melee weapons used by friendly **^^Flesh-eater Courts^^** units while they are wholly within 12\" of any friendly **^^Flesh-eater Courts Heroes^^**.",
+      "keywords": [
+        "**^^DELUSION^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

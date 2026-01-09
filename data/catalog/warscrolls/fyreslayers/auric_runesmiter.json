@@ -1,0 +1,80 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.fyreslayers.auric_runesmiter",
+  "bsdataId": "7b03-4613-6b5b-a9ce",
+  "type": "warscroll",
+  "name": "Auric Runesmiter",
+  "faction": "fyreslayers",
+  "keywords": [
+    "duardin",
+    "hero",
+    "infantry",
+    "order",
+    "priest (1)",
+    "ward (6+)",
+    "faction:fyreslayers"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Latch-axe",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "DUARDIN",
+    "FYRESLAYERS",
+    "PRIEST (1)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Emergence",
+      "type": "passive",
+      "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units. Then, set up the other unit that was set up **underground** with it (if any) wholly within 6\" of this unit and more than 9\" from all enemy units.",
+      "phase": "hero",
+      "declare": "Pick this unit if it is **underground**.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Magmic Tunnelling",
+      "type": "passive",
+      "effect": "Set up those units in reserve **underground**. They have now been deployed.",
+      "declare": "Pick this unit and up to 1 unit in its regiment if neither unit has been deployed.",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "693f-85d0-db98-543c"
+  },
+  "wizard": null,
+  "priest": 1,
+  "unique": false,
+  "canJoinRegiment": null
+}

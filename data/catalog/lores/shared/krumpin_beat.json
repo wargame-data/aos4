@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.krumpin_beat",
+  "type": "prayer",
+  "name": "Krumpin' Beat",
+  "faction": "shared",
+  "lore": "prayer_lore_ironsunz",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Inflict D3 damage on the target. In addition, if the chanting roll was 8+, inflict D3 damage on each enemy unit within 3\" of the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Ironsunz Priest^^** to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

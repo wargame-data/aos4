@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.get_em_gork",
+  "type": "prayer",
+  "name": "Get 'Em, Gork!",
+  "faction": "shared",
+  "lore": "prayer_lore_zoggroks_ironmongerz",
+  "keywords": [
+    "prayer",
+    "unlimited"
+  ],
+  "chantingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "If the chanting roll was 5-9, pick a visible terrain feature wholly within 12\" of the chanter. If the chanting roll was 10+, pick a visible terrain feature wholly within 18\" of the chanter instead. That terrain feature is **trampled by Gork** for the rest of the battle.\nRoll a D3 each time an enemy unit ends a move within 6\" of a terrain feature that is **trampled by Gork**. On a 2+, inflict an amount of mortal damage on the enemy unit equal to the roll.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Zoggrok's Ironmongerz Priest^^** to chant this prayer, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

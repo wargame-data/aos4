@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.helsmiths_of_hashut.deathshrieker_rocket_battery",
+  "bsdataId": "b683-bbb0-9fd4-6fcc",
+  "type": "warscroll",
+  "name": "Deathshrieker Rocket Battery",
+  "faction": "helsmiths_of_hashut",
+  "keywords": [
+    "chaos",
+    "war machine",
+    "faction:helsmiths_of_hashut"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 8,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Hashu-Zharr Rockets",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3+2",
+      "range": "24\"",
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)",
+        "Anti-**^^War Machine^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Artillerist Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "HELSMITHS OF HASHUT"
+  ],
+  "abilities": [
+    {
+      "name": "Hungering Flames",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn, the Damage characteristic of this unit's **Hashu-Zharr Rockets** is 5 if the target is a **^^Monster^^** or **^^War Machine^^**.",
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Watch Them Burn",
+      "type": "reaction",
+      "effect": "Roll a number of dice equal to the number of **daemonic power points** this unit has for each other enemy unit within the combat range of the target of this unit's shooting attacks. For each 3+, inflict 1 mortal damage on the enemy unit being rolled for.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "487d-9798-0633-8040"
+  }
+}

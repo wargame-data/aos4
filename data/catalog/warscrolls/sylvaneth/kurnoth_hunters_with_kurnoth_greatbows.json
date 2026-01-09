@@ -1,0 +1,81 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.sylvaneth.kurnoth_hunters_with_kurnoth_greatbows",
+  "bsdataId": "a457-63b8-99fb-b82f",
+  "type": "warscroll",
+  "name": "Kurnoth Hunters with Kurnoth Greatbows",
+  "faction": "sylvaneth",
+  "keywords": [
+    "champion",
+    "infantry",
+    "kurnothi",
+    "order",
+    "faction:sylvaneth"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Kurnoth Greatbow",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "range": "18\"",
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Vicious Claws",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "KURNOTHI",
+    "SYLVANETH"
+  ],
+  "abilities": [
+    {
+      "name": "Envoys of the Everqueen",
+      "type": "passive",
+      "effect": "While this unit is contesting an objective, friendly **^^Sylvaneth^^** units contesting that objective have **^^Ward (6+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Steady Aim",
+      "type": "passive",
+      "effect": "For the rest of the turn, this unit can ignore the effects of the ‘Guarded Hero’ ability (Core Rules, 25.0) when picking targets for its shooting attacks.",
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "61ee-fae0-f1da-2591"
+  }
+}

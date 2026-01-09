@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.sanctification",
+  "type": "prayer",
+  "name": "Sanctification",
+  "faction": "shared",
+  "lore": "prayer_lore_draconith_skywing",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, subtract 1 from casting rolls for enemy **^^Wizards^^** while they are within 30\" of the chanter. If the chanting roll was 12+, subtract 1 from casting rolls for enemy **^^Wizards^^** for the rest of the battle and friendly **^^Priests^^** cannot use this ability again for the rest of the battle.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Draconith Skywing Priest^^** to chant this prayer, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

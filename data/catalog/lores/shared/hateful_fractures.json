@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.hateful_fractures",
+  "type": "spell",
+  "name": "Hateful Fractures",
+  "faction": "shared",
+  "lore": "lore_of_infernal_power",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Halve the target's Move characteristic until the start of your next turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Helsmiths of Hashut Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Movement"
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.disciples_of_tzeentch.chaos_spawn_of_tzeentch",
+  "bsdataId": "d804-1f1-49e2-880",
+  "type": "warscroll",
+  "name": "Chaos Spawn of Tzeentch",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "beast",
+    "chaos",
+    "faction:disciples_of_tzeentch"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "2\"",
+    "health": 5,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Freakish Mutations",
+      "type": "melee",
+      "attacks": "2D6",
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEAST",
+    "DISCIPLES OF TZEENTCH"
+  ],
+  "abilities": [
+    {
+      "name": "A Twisted Fate",
+      "type": "passive",
+      "effect": "Set up this unit in reserve **as a potential fate**. It has now been deployed.\n**Designer’s Note:** *If deployed using this ability, this unit can only be set up on the battlefield using the ‘Transformed to Spawn’ spell.*",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Waves of Mutation",
+      "type": "passive",
+      "effect": "Each friendly **Chaos Spawn of Tzeentch** unit can be replaced any number of times.",
+      "color": "Black",
+      "abilityCategory": "Rallying"
+    }
+  ],
+  "publication": {
+    "name": "72d2-ae0-e519-f2f7"
+  }
+}

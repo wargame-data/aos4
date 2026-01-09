@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ironjawz.ardboy_big_boss",
+  "bsdataId": "e020-20c4-a638-6d2b",
+  "type": "warscroll",
+  "name": "Ardboy Big Boss",
+  "faction": "ironjawz",
+  "keywords": [
+    "destruction",
+    "hero",
+    "infantry",
+    "faction:ironjawz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 7,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Boss-hacka and Choppa",
+      "type": "melee",
+      "attacks": 7,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "IRONJAWZ"
+  ],
+  "abilities": [
+    {
+      "name": "Iron-fisted Commander",
+      "type": "passive",
+      "effect": "If a friendly **Ardboyz** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
+    },
+    {
+      "name": "Get Bashin'!",
+      "type": "passive",
+      "effect": "Add 1 to shield bash rolls for friendly **Ardboyz** units while they are wholly within 12\" of this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "8b1b-f2c7-890e-2bbe"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ironjawz.gore_gruntas",
+  "bsdataId": "f4bd-9f1c-cc46-5b5e",
+  "type": "warscroll",
+  "name": "Gore-gruntas",
+  "faction": "ironjawz",
+  "keywords": [
+    "cavalry",
+    "champion",
+    "destruction",
+    "faction:ironjawz"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "9\"",
+    "health": 5,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Choppa or Hacka",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Cavalry^^**(+1 Rend)"
+      ]
+    },
+    {
+      "name": "Grunta’s Tusks",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "IRONJAWZ"
+  ],
+  "abilities": [
+    {
+      "name": "Gore-grunta Charge",
+      "type": "passive",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Add 1 to the mortal damage inflicted (if any) if the target is **^^Cavalry^^**.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "8b1b-f2c7-890e-2bbe"
+  }
+}

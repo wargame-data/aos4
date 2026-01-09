@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.knight_arcanum",
+  "bsdataId": "3335-9e70-ec3d-f966",
+  "type": "warscroll",
+  "name": "Knight-Arcanum",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "hero",
+    "infantry",
+    "order",
+    "warrior chamber",
+    "wizard (1)",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Valedictor’s Stave",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Anti-**^^Manifestation^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Indomitable Loreseekers",
+      "type": "passive",
+      "effect": "Add 1 to casting rolls for this unit when it uses a **^^Summon^^** ability and add 1 to banishment rolls for this unit.\nEnemy **^^Manifestations^^** cannot pass through or end any move within this unit’s combat range unless they started that move within this unit’s combat range.\nThis unit has **^^Ward (4+)^^** against mortal damage inflicted by **^^Manifestations^^**.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "43cd-e9ef-5d4d-87c4"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "WARRIOR CHAMBER"
+      ],
+      "description": "Units with WARRIOR CHAMBER keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

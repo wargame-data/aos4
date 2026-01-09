@@ -1,0 +1,88 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.hell_pit_abomination",
+  "bsdataId": "375a-e09f-9459-5237",
+  "type": "warscroll",
+  "name": "Hell Pit Abomination",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "monster",
+    "moulder",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "D6+5\"",
+    "health": 14,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Gnashing Teeth and Flailing Fists",
+      "type": "melee",
+      "attacks": 13,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "MOULDER",
+    "SKAVEN"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Gnashing Teeth and Flailing Fists** is 8.",
+      "color": "Black"
+    },
+    {
+      "name": "Avalanche of Flesh",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Infantry^^** unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Regenerating Monstrosity",
+      "type": "passive",
+      "effect": "**Heal (D6)** this unit.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Too Horrible to Die",
+      "type": "passive",
+      "effect": "The first time this unit would be destroyed, before removing it from the battlefield, roll a dice and apply the corresponding effect:\n**1 *Dead:*** This unit is destroyed.\n**2-4 *The Rats Emerge:*** Roll a D3 for each enemy unit in combat with this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll. Then, this unit is destroyed.\n**5-6 *It’s Alive!:*** This unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (D6)** this unit.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  }
+}

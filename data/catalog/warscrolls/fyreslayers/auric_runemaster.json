@@ -1,0 +1,74 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.fyreslayers.auric_runemaster",
+  "bsdataId": "21bf-d0a3-f872-2def",
+  "type": "warscroll",
+  "name": "Auric Runemaster",
+  "faction": "fyreslayers",
+  "keywords": [
+    "duardin",
+    "hero",
+    "infantry",
+    "order",
+    "priest (2)",
+    "ward (6+)",
+    "faction:fyreslayers"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Brazier Staff",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "DUARDIN",
+    "FYRESLAYERS",
+    "PRIEST (2)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "High Priest of the Zharrgrim",
+      "type": "passive",
+      "effect": "Each time a **^^Prayer^^** chanted by this unit is answered, this unit gains a **magmic power token**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Master of the Runes",
+      "type": "reaction",
+      "effect": "Remove 3 of this unit’s **magmic power tokens**. If you do so, apply the effect below that corresponds to the **^^Ur-gold Rune^^** ability that was used:\n***Rune of Fury:*** For the rest of the battle round, add 1 to wound rolls for combat attacks made by friendly **^^Fyreslayers^^** units while they have **^^Strike-first^^**.\n***Rune of Fiery Determination:*** Add 1 to save rolls for friendly **^^Fyreslayers^^** units for the rest of the battle round.\n***Rune of Relentless Zeal:*** Add 1 to run rolls and charge rolls for friendly **^^Fyreslayers^^** units for the rest of the battle round.\n***Rune of Searing Heat:*** Add 1 to the Rend characteristic of melee weapons used by friendly **^^Fyreslayers^^** units for the rest of the battle round.\n***Rune of Farsight:*** Increase the range of the ‘Rune of Farsight’ ability to 16\".",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "693f-85d0-db98-543c"
+  },
+  "wizard": null,
+  "priest": 2,
+  "unique": false,
+  "canJoinRegiment": null
+}

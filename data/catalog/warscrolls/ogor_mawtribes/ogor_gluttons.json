@@ -1,0 +1,66 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ogor_mawtribes.ogor_gluttons",
+  "bsdataId": "e93b-4897-f014-9b88",
+  "type": "warscroll",
+  "name": "Ogor Gluttons",
+  "faction": "ogor_mawtribes",
+  "keywords": [
+    "champion",
+    "destruction",
+    "gutbusters",
+    "infantry",
+    "musician (1/6)",
+    "ogor",
+    "standard bearer (1/6)",
+    "faction:ogor_mawtribes"
+  ],
+  "sizes": {
+    "min": 6,
+    "default": 6,
+    "max": 6
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 4,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Glutton Weapons",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "GUTBUSTERS",
+    "MUSICIAN (1/6)",
+    "OGOR",
+    "OGOR MAWTRIBES",
+    "STANDARD BEARER (1/6)"
+  ],
+  "abilities": [
+    {
+      "name": "Insatiable Gluttony",
+      "type": "passive",
+      "effect": "If you have used the ‘Feast on Flesh’ ability this battle, add 1 to the control score of this unit for each model in this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    }
+  ],
+  "publication": {
+    "name": "1ac6-e227-a186-12"
+  }
+}

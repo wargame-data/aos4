@@ -1,0 +1,84 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.gloomspite_gitz.snarlboss",
+  "bsdataId": "45fe-9a6e-85fa-1506",
+  "type": "warscroll",
+  "name": "Snarlboss",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "cavalry",
+    "destruction",
+    "gitmob",
+    "hero",
+    "faction:gloomspite_gitz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Snarlfang's Slavering Jaws",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Boss Loppa",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GITMOB",
+    "GLOOMSPITE GITZ"
+  ],
+  "abilities": [
+    {
+      "name": "Vicious Snarls and Great Howls",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn, add 1 to the Attacks characteristic of the targets' **Companion** melee weapons.",
+      "phase": "combat",
+      "declare": "If this unit charged this turn, pick this unit and up to 2 friendly **^^Gitmob Cavalry^^** units within this unit's combat range to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Boss Snarlfang",
+      "type": "passive",
+      "effect": "Add 2 to charge rolls for friendly **^^Gitmob Cavalry^^** units while they are wholly within 12\" of this unit.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "a395-7bc4-71eb-46df"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

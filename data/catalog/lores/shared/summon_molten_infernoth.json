@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.summon_molten_infernoth",
+  "type": "prayer",
+  "name": "Summon Molten Infernoth",
+  "faction": "shared",
+  "lore": "magmic_invocations",
+  "keywords": [
+    "prayer",
+    "summon"
+  ],
+  "chantingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Molten Infernoth** wholly within 12\" of the chanter, visible to them and more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Molten Infernoth** on the battlefield, pick a friendly **^^Fyreslayers Priest^^** to chant this prayer, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

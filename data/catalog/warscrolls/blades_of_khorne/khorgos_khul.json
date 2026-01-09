@@ -1,0 +1,106 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.blades_of_khorne.khorgos_khul",
+  "bsdataId": "9340-45e2-8463-cfb9",
+  "type": "warscroll",
+  "name": "Khorgos Khul",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "bloodbound",
+    "chaos",
+    "hero",
+    "infantry",
+    "legends",
+    "unique",
+    "ward (6+)",
+    "warmaster",
+    "faction:blades_of_khorne"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 8,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Axe of Khorne",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Crit (Mortal)",
+        "Blood-hungry"
+      ]
+    },
+    {
+      "name": "Grizzlemaw’s Blood-dark Claws",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Wizard^^** (+1 Rend)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "BLOODBOUND",
+    "LEGENDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Retinue of Blood",
+      "type": "once-per-battle",
+      "effect": "The targets' melee weapons have **Charge (+1 Damage)** for the rest of the turn.",
+      "phase": "charge",
+      "declare": "Pick each friendly **^^Bloodbound Hero^^** within this unit's combat range to be the targets.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Master of the Goretide",
+      "type": "once-per-turn",
+      "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 6\" of the battlefield edge and more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Spend 3 **blood tithe points** and pick a friendly **^^Bloodbound^^** unit that started the battle with 3 or more models and that has been destroyed to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Rallying"
+    },
+    {
+      "name": "Reality-Splitting Axe",
+      "type": "passive",
+      "effect": "Roll a dice. On a 5+, one model in that unit is slain.",
+      "phase": "any",
+      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by combat attacks made by this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "c75a-c95c-5410-4446"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.irondrakes",
+  "bsdataId": "a4a9-4579-5a50-9ddb",
+  "type": "warscroll",
+  "name": "Irondrakes",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "duardin",
+    "infantry",
+    "order",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 1,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Drakegun",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "15\"",
+      "abilities": [
+        "Anti‑**^^Infantry^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Plated Fists",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Grudgehammer Torpedo",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "15\"",
+      "abilities": [
+        "Anti‑**^^Monster^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "DUARDIN"
+  ],
+  "abilities": [
+    {
+      "name": "Cinderblast Bomb",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "shooting",
+      "declare": "If this unit is not in combat, pick a visible enemy unit within 6\" of it to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  }
+}

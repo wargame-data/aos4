@@ -1,0 +1,108 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.sylvaneth.treelord_ancient",
+  "bsdataId": "678-a231-5f4c-4d7c",
+  "type": "warscroll",
+  "name": "Treelord Ancient",
+  "faction": "sylvaneth",
+  "keywords": [
+    "hero",
+    "monster",
+    "order",
+    "wizard (1)",
+    "faction:sylvaneth"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 14,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Doom Tendril Staff",
+      "type": "ranged",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "18\""
+    },
+    {
+      "name": "Sweeping Blows",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Anti-charge (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Massive Impaling Talons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "SYLVANETH",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Groundshaker",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 4+, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Sweeping Blows** is 3.",
+      "color": "Black"
+    },
+    {
+      "name": "Awakening the Wood",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage equal to the roll on each enemy unit within the target’s combat range.",
+      "phase": "hero",
+      "declare": "Pick a visible friendly **Awakened Wyldwood** wholly within 18\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "61ee-fae0-f1da-2591"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

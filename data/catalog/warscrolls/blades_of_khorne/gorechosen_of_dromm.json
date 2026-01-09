@@ -1,0 +1,66 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.blades_of_khorne.gorechosen_of_dromm",
+  "bsdataId": "a5a3-d0d5-fc50-9020",
+  "type": "warscroll",
+  "name": "Gorechosen of Dromm",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "bloodbound",
+    "champion",
+    "chaos",
+    "infantry",
+    "legends",
+    "unique",
+    "faction:blades_of_khorne"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 3,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Weapons of Wrath",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "BLOODBOUND",
+    "CHAMPION",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Grisly Trophies",
+      "type": "passive",
+      "effect": "While this unit’s **Dromm, Wounder of Worlds**, is on the battlefield, it has **^^Priest (1)^^** and can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**",
+      "color": "Purple",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

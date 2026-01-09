@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.kharadron_overlords.auto_endrin",
+  "bsdataId": "34f5-2761-de10-6710",
+  "type": "warscroll",
+  "name": "Auto-Endrin",
+  "faction": "kharadron_overlords",
+  "keywords": [
+    "auto-endrin",
+    "fly",
+    "order",
+    "war machine",
+    "faction:kharadron_overlords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 5,
+    "save": "4+",
+    "control": 0
+  },
+  "role": "other",
+  "weapons": [],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AUTO-ENDRIN",
+    "FLY",
+    "KHARADRON OVERLORDS"
+  ],
+  "abilities": [
+    {
+      "name": "Nullifier Auto-Endrin",
+      "type": "once-per-turn",
+      "effect": "Make a **banishment roll** of 3D6 for each target. If the banishment roll equals or exceeds the **banishment value** on the **^^Manifestation^^**'s warscroll, it is banished and removed from play. Then, remove this unit from the battlefield.",
+      "phase": "combat",
+      "declare": "If this unit is a **Nullifier Auto-Endrin** and is in combat with any enemy **^^Manifestations^^**, pick each enemy **^^Manifestation^^** in combat with it to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Expendable Munitions",
+      "type": "passive",
+      "effect": "The following apply to this unit:\n• This unit has a maximum control score of '-'.\n• When this unit is destroyed or removed from the battlefield, it does not count as being destroyed for the purposes of other rules (such as scoring battle tactics).\n• This unit cannot be picked to be the target of or be affected by any non-**^^Core^^** abilities used by other friendly units unless the ability specifies **^^Auto-Endrin^^**\n• Ignore this unit for the purposes of friendly and enemy battle tactics.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Stuncloud Auto-Endrin",
+      "type": "once-per-turn",
+      "effect": "Roll a dice for each target. If the roll is equal to or lower than that target's Health characteristic, subtract 10 from the control score of that target for the rest of the turn. Then, remove this unit from the battlefield.",
+      "phase": "combat",
+      "declare": "If this unit is a **Stuncloud Auto-Endrin** and is in combat, pick each enemy unit in combat with it to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Control"
+    },
+    {
+      "name": "Grudgeblast Auto-Endrin",
+      "type": "once-per-turn",
+      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, remove this unit from the battlefield.",
+      "phase": "combat",
+      "declare": "If this unit is a **Grudgeblast Auto-Endrin** and is in combat, pick each enemy unit in combat with it to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "d4a9-b568-9525-d6ac"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.castigators",
+  "bsdataId": "976f-374d-480c-0ee0",
+  "type": "warscroll",
+  "name": "Castigators",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "champion",
+    "infantry",
+    "legends",
+    "order",
+    "sacrosanct chamber",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Thunderhead Greatbow",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "15\"",
+      "abilities": [
+        "Anti-**^^Cavalry^^** (+1 Rend)",
+        "Crit (2 Hits)"
+      ]
+    },
+    {
+      "name": "Greatbow Stock",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "LEGENDS",
+    "SACROSANCT CHAMBER",
+    "STORMCAST ETERNALS"
+  ],
+  "abilities": [
+    {
+      "name": "Dependable Gryph-hound",
+      "type": "passive",
+      "effect": "This unit’s **Gryph-hound** is a token. If this unit’s **Gryph-hound** has been removed, it cannot use the ‘Scouting Companion’ ability.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Castigator Aetheric Channelling",
+      "type": "passive",
+      "effect": "If this unit has not used a **^^Move^^** ability this turn and was not set up this turn, this unit’s shooting attacks score critical hits on unmodified hit rolls of 5+ for the rest of the turn.",
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Scouting Companion",
+      "type": "reaction",
+      "effect": "Until the **^^Shoot^^** ability is resolved, add 3\" to the Range characteristic of this unit’s **Thunderhead Greatbows** and add 1 to hit rolls for this unit’s shooting attacks. Remove this unit’s **Gryph-hound** from the battlefield after the **^^Shoot^^** ability has been resolved.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "87c-f122-a891-630e"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.kruleboyz.killaboss_on_corpse_rippa_vulcha",
+  "bsdataId": "9963-d56-fbf8-b8a8",
+  "type": "warscroll",
+  "name": "Killaboss on Corpse-rippa Vulcha",
+  "faction": "kruleboyz",
+  "keywords": [
+    "destruction",
+    "fly",
+    "hero",
+    "monster",
+    "faction:kruleboyz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 14,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Boss-stikka or Boss-hacka",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Vulcha’s Stinger",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D6",
+      "abilities": [
+        "Crit (Mortal)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Vulcha’s Talons and Beak",
+      "type": "melee",
+      "attacks": 7,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "FLY",
+    "KRULEBOYZ"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Vulcha’s Talons and Beak** is 5.",
+      "color": "Black"
+    },
+    {
+      "name": "Commanding View",
+      "type": "reaction",
+      "effect": "If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Vulcha Dive",
+      "type": "once-per-turn",
+      "effect": "Roll a number of dice equal to the unmodified charge roll. For each 4+, inflict 1 mortal damage on the target.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy unit in combat with it to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "8b1b-f2c7-890e-2bbe"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

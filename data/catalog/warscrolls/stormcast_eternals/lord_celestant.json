@@ -1,0 +1,74 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.lord_celestant",
+  "bsdataId": "89a1-7e05-4334-25f5",
+  "type": "warscroll",
+  "name": "Lord-Celestant",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "hero",
+    "infantry",
+    "order",
+    "warrior chamber",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Weapons of Legend",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Furious Retribution",
+      "type": "reaction",
+      "effect": "Pick a friendly non-**^^Hero Warrior Chamber Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to wound rolls for the target’s attacks for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "43cd-e9ef-5d4d-87c4"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "WARRIOR CHAMBER"
+      ],
+      "description": "Units with WARRIOR CHAMBER keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

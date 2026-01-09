@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.healing_spiral",
+  "type": "spell",
+  "name": "Healing Spiral",
+  "faction": "shared",
+  "lore": "lore_of_the_overgrown_wilds",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, each time the target uses a **^^Fight^^** ability, after that ability has been resolved, **Heal(X)** the target, where **X** is the number of enemy models slain by combat attacks as part of that **^^Fight^^** ability.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Wizard^^** to cast this spell, pick a visible friendly unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.nighthaunt.kurdoss_valentian_the_craven_king",
+  "bsdataId": "9b2f-951a-816b-94c4",
+  "type": "warscroll",
+  "name": "Kurdoss Valentian, the Craven King",
+  "faction": "nighthaunt",
+  "keywords": [
+    "death",
+    "fly",
+    "hero",
+    "infantry",
+    "unique",
+    "ward (5+)",
+    "faction:nighthaunt"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 7,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Sepulchral Sceptre",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Hail Kurdoss! King of Nothing!",
+      "type": "passive",
+      "effect": "The target can immediately use a **^^Shoot^^** ability as if it were your shooting phase, but all of its attacks must target an enemy unit in combat with this unit. The target cannot use **^^Charge^^** abilities for the rest of the turn.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick a friendly **Craventhrone Guard** unit that is not in combat to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "If I Cannot Rule, None Shall Rule!",
+      "type": "reaction",
+      "effect": "Roll a dice. On a 3+, unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

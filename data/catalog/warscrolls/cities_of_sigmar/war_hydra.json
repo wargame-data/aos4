@@ -1,0 +1,98 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.war_hydra",
+  "bsdataId": "7031-9a79-bad7-203a",
+  "type": "warscroll",
+  "name": "War Hydra",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "aelf",
+    "monster",
+    "order",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 12,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Crew’s Goads and Whips",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3"
+    },
+    {
+      "name": "Fiery Breath",
+      "type": "ranged",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": "D3",
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Razor-sharp Fangs",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CITIES OF SIGMAR"
+  ],
+  "abilities": [
+    {
+      "name": "Sever One Head, Another Takes Its Place",
+      "type": "once-per-turn",
+      "effect": "**Heal (6)** this unit.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Six-headed Strike",
+      "type": "once-per-turn",
+      "effect": "Make 6 rolls of D3. For each roll that exceeds the target’s Health characteristic, inflict 1 mortal damage on the target.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  }
+}

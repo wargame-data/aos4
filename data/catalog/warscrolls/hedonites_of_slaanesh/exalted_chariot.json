@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.hedonites_of_slaanesh.exalted_chariot",
+  "bsdataId": "08e6-7dfb-f60e-6fc0",
+  "type": "warscroll",
+  "name": "Exalted Chariot",
+  "faction": "hedonites_of_slaanesh",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "legends",
+    "war machine",
+    "ward (6+)",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 9,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Flensing Whips and Piercing Claws",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1
+    },
+    {
+      "name": "Steeds’ Poisoned Tongues",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "HEDONITES OF SLAANESH",
+    "LEGENDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Excess of Blades",
+      "type": "passive",
+      "effect": "Roll a number of dice equal to the unmodified charge roll for that **^^Charge^^** ability. For each roll that exceeds the target’s Save characteristic, the target suffers 1 mortal damage.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

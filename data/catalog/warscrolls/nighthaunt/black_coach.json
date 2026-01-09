@@ -1,0 +1,110 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.nighthaunt.black_coach",
+  "bsdataId": "29fe-d90b-4dde-c891",
+  "type": "warscroll",
+  "name": "Black Coach",
+  "faction": "nighthaunt",
+  "keywords": [
+    "death",
+    "fly",
+    "war machine",
+    "ward (5+)",
+    "faction:nighthaunt"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 12,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Soulreach Grasp",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
+      "range": "10\"",
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Shoot In Combat"
+      ]
+    },
+    {
+      "name": "Wraith's Spectral Weapons",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Relic Bearers’ Claws and Ethereal Steeds’ Hooves",
+      "type": "melee",
+      "attacks": 14,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Runaway Coach",
+      "type": "passive",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage equal on the target equal to the roll.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Nimbus of Power",
+      "type": "once-per-turn",
+      "effect": "If this unit is not in combat, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement",
+      "keywords": [
+        "**^^CORE^^**"
+      ],
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Evocation of Death",
+      "type": "passive",
+      "effect": "Set up a replacement unit wholly within 12\" of this unit. The replacement unit can only be set up in combat with enemy units that are in combat with this unit.",
+      "phase": "any",
+      "declare": "If any damage points were allocated to an enemy unit by this unit's combat attacks this turn and that enemy unit was destroyed this turn, pick a friendly non-**^^Unique Nighthaunt Hero^^** that has been destroyed.",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
+    }
+  ]
+}

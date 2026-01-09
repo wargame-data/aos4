@@ -1,0 +1,94 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.seraphon.terradon_riders",
+  "bsdataId": "66ed-4817-f929-7c3e",
+  "type": "warscroll",
+  "name": "Terradon Riders",
+  "faction": "seraphon",
+  "keywords": [
+    "cavalry",
+    "champion",
+    "fly",
+    "order",
+    "skink",
+    "faction:seraphon"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "14\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Javelins and Bolas",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1,
+      "range": "10\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Terradon’s Razor-sharp Jaws",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLY",
+    "SERAPHON",
+    "SKINK"
+  ],
+  "abilities": [
+    {
+      "name": "Attack from On High",
+      "type": "passive",
+      "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Deadly Cargo",
+      "type": "passive",
+      "effect": "Roll a dice for each model in this unit, and add 2 to each roll if this unit is within the combat ranges of any friendly **Terradon Chief** units. For each 5+:\n• Inflict 1 mortal damage on the target.\n• If any damage points are allocated by this ability and the target does not have **^^Fly^^**, the target cannot use **^^Run^^** abilities until the start of your next turn.",
+      "phase": "movement",
+      "declare": "Pick an enemy unit that this unit passed across this phase to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Dispersed Formation",
+      "type": "passive",
+      "effect": "This unit has a coherency range of 2\".",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "e9d0-a23-6a15-1fcb"
+  }
+}

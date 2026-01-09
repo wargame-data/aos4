@@ -1,0 +1,90 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.fusil_major_on_ogor_warhulk",
+  "bsdataId": "7934-6325-c7ed-3d7b",
+  "type": "warscroll",
+  "name": "Fusil-Major on Ogor Warhulk",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "hero",
+    "human",
+    "infantry",
+    "order",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 8,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Long Fusil",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "range": "24\"",
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Anti-**^^Hero^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Warhulk’s Mace",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN"
+  ],
+  "abilities": [
+    {
+      "name": "Mark Targets",
+      "type": "passive",
+      "effect": "Add 1 to hit rolls for attacks made by friendly **^^Cities of Sigmar Human^^** units that target that unit for the rest of the turn.",
+      "phase": "shooting",
+      "declare": "Pick an enemy unit that was targeted by this unit’s shooting attacks this turn to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Fortify Position",
+      "type": "passive",
+      "effect": "This unit establishes a fortified position and remains in a fortified position until it either uses a **^^Move^^** ability or is removed from the battlefield. While this unit is in a fortified position, subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.",
+      "phase": "movement",
+      "keywords": [
+        "**^^CORE^^**"
+      ],
+      "color": "Gray",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

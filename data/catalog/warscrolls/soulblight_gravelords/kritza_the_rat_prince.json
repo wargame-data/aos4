@@ -1,0 +1,79 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.soulblight_gravelords.kritza_the_rat_prince",
+  "bsdataId": "9ef5-c8c5-97af-efa2",
+  "type": "warscroll",
+  "name": "Kritza, the Rat Prince",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "death",
+    "hero",
+    "infantry",
+    "unique",
+    "vampire",
+    "ward (6+)",
+    "faction:soulblight_gravelords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Gnawblade",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Scurrying Retreat",
+      "type": "passive",
+      "effect": "If this unit is in combat, roll a dice. On a 3+, this unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "The Verminous Court",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, the target no longer has that artefact of power.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target, then pick an artefact of power that the target has.",
+      "color": "Red",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "e3a0-cfae-cbb3-0215"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

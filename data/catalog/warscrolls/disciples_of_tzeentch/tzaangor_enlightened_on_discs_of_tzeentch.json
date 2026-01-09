@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.disciples_of_tzeentch.tzaangor_enlightened_on_discs_of_tzeentch",
+  "bsdataId": "b7be-ddee-783e-9048",
+  "type": "warscroll",
+  "name": "Tzaangor Enlightened on Discs of Tzeentch",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "arcanite",
+    "cavalry",
+    "champion",
+    "chaos",
+    "disc of tzeentch",
+    "fly",
+    "warflock",
+    "faction:disciples_of_tzeentch"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "14\"",
+    "health": 4,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Tzeentchian Spear and Vicious Beak",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    },
+    {
+      "name": "Disc’s Teeth and Horns",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "ARCANITE",
+    "CHAMPION",
+    "DISC OF TZEENTCH",
+    "DISCIPLES OF TZEENTCH",
+    "FLY",
+    "WARFLOCK"
+  ],
+  "abilities": [
+    {
+      "name": "Guided by the Past",
+      "type": "passive",
+      "effect": "This unit’s **Tzeentchian Spears and Vicious Beaks** have **Charge (+1 Damage)** if you are the underdog or it was determined at the start of the battle round that you would take the second turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "72d2-ae0-e519-f2f7"
+  }
+}

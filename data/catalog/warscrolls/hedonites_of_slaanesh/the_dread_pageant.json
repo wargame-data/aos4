@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.hedonites_of_slaanesh.the_dread_pageant",
+  "bsdataId": "3ae1-3009-26f6-69a1",
+  "type": "warscroll",
+  "name": "The Dread Pageant",
+  "faction": "hedonites_of_slaanesh",
+  "keywords": [
+    "champion",
+    "chaos",
+    "infantry",
+    "legends",
+    "sybarite",
+    "unique",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "sizes": {
+    "min": 4,
+    "default": 4,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Weapons of Excess",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "HEDONITES OF SLAANESH",
+    "LEGENDS",
+    "SYBARITE"
+  ],
+  "abilities": [
+    {
+      "name": "Slicing Fervour",
+      "type": "passive",
+      "effect": "This unit has **^^Strike-first^^** while it is in combat with a **blissmarked** unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Blissbarb Shafts",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 4+:\n• Inflict 1 mortal damage on the target.\n• The target is **blissmarked** for the rest of the turn.",
+      "phase": "shooting",
+      "declare": "If this unit’s **Hadzu** is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target.",
+      "keywords": [
+        "**^^SHOOT^^**"
+      ],
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

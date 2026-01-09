@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.hedonites_of_slaanesh.viceleader_herald_of_slaanesh",
+  "bsdataId": "5886-d643-7104-b3be",
+  "type": "warscroll",
+  "name": "Viceleader, Herald of Slaanesh",
+  "faction": "hedonites_of_slaanesh",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "hero",
+    "infantry",
+    "legends",
+    "ward (6+)",
+    "wizard (1)",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Ravaging Claws",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "HEDONITES OF SLAANESH",
+    "LEGENDS",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Lust for Violence",
+      "type": "reaction",
+      "effect": "Pick a friendly **Daemonettes** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Lithe and Swift",
+      "type": "passive",
+      "effect": "Add 1 to the Attacks characteristic of this unit’s **Ravaging Claws** for the rest of the turn if this unit charged in the same turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

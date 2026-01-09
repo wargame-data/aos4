@@ -1,0 +1,74 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.fomoroid_crusher",
+  "bsdataId": "42-fa77-4a18-a2e3",
+  "type": "warscroll",
+  "name": "Fomoroid Crusher",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "chaos",
+    "monster",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 8,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Hurled Terrain",
+      "type": "ranged",
+      "attacks": "D3",
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "range": "12\""
+    },
+    {
+      "name": "Crushing Fists and Swinging Masonry",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SLAVES TO DARKNESS"
+  ],
+  "abilities": [
+    {
+      "name": "Cursed Destroyers",
+      "type": "once-per-turn",
+      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "combat",
+      "declare": "Pick a terrain feature within 1\" of this unit, then pick each other unit (friendly and enemy) within 3\" of that terrain feature to be the targets.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "6357-5d77-a2b2-f86b"
+  }
+}

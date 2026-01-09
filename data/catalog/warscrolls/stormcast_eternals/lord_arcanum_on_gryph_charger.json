@@ -1,0 +1,97 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.lord_arcanum_on_gryph_charger",
+  "bsdataId": "2b9b-4a5f-d565-6afe",
+  "type": "warscroll",
+  "name": "Lord-Arcanum on Gryph-charger",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "cavalry",
+    "hero",
+    "legends",
+    "order",
+    "sacrosanct chamber",
+    "wizard (1)",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 8,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Aetherstave",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    },
+    {
+      "name": "Gryph-charger’s Razor Beak",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "LEGENDS",
+    "SACROSANCT CHAMBER",
+    "STORMCAST ETERNALS",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Healing Light",
+      "type": "passive",
+      "effect": "If the target is damaged, **Heal (D6)** the target. If the target is not damaged, return a slain model to it.",
+      "phase": "any",
+      "declare": "Pick a visible friendly **^^Sacrosanct Chamber^^** unit that is not in combat and is within 12\" of this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "On the Winds Aetheric",
+      "type": "passive",
+      "effect": "If this unit is not in combat, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "87c-f122-a891-630e"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "SACROSANCT CHAMBER"
+      ],
+      "description": "Units with SACROSANCT CHAMBER keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

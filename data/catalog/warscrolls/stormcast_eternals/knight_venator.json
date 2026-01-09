@@ -1,0 +1,108 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.knight_venator",
+  "bsdataId": "d5aa-f736-3c06-d6ad",
+  "type": "warscroll",
+  "name": "Knight-Venator",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "fly",
+    "hero",
+    "infantry",
+    "legends",
+    "order",
+    "warrior chamber",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Realmhunter’s Bow",
+      "type": "ranged",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "24\"",
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)",
+        "Crit (2 Hits)"
+      ]
+    },
+    {
+      "name": "Bowstave",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Star-eagle’s Celestial Talons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FLY",
+    "LEGENDS",
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Star-fated Arrow",
+      "type": "once-per-battle",
+      "effect": "If the target is a non-**^^Monster^^** unit, inflict D6 mortal damage on it. If the target is a **^^Monster^^**, inflict D6+3 mortal damage on it.",
+      "phase": "shooting",
+      "declare": "Pick a visible enemy unit within 24\" of this unit to be the target.",
+      "keywords": [
+        "**^^CORE^^**",
+        "**^^ATTACK^^**",
+        "**^^SHOOT^^**"
+      ],
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "87c-f122-a891-630e"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "WARRIOR CHAMBER"
+      ],
+      "description": "Units with WARRIOR CHAMBER keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

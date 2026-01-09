@@ -1,0 +1,105 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.stormstrike_chariot",
+  "bsdataId": "1440-8ecb-6ecb-f4a2",
+  "type": "warscroll",
+  "name": "Stormstrike Chariot",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "order",
+    "war machine",
+    "warrior chamber",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 10,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Gryph-chargers’ Razor Beaks",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Stormstrike Axe",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Great Stormbow",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "18\"",
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Crit (2 Hits)"
+      ]
+    },
+    {
+      "name": "Tempestuous Spear",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Celestial Blaze",
+      "type": "passive",
+      "effect": "When this unit uses the ‘Power Through’ command, inflict an additional D3 mortal damage on the target and add D6\" to the distance this unit can move as part of that ability",
+      "color": "Purple",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Azyr Unleashed",
+      "type": "passive",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "43cd-e9ef-5d4d-87c4"
+  }
+}

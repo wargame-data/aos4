@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.nighthaunt.hexwraiths",
+  "bsdataId": "66a0-f02f-2616-3c62",
+  "type": "warscroll",
+  "name": "Hexwraiths",
+  "faction": "nighthaunt",
+  "keywords": [
+    "cavalry",
+    "champion",
+    "death",
+    "fly",
+    "ward (5+)",
+    "faction:nighthaunt"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 3,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Ethereal Steed’s Ghostly Hooves and Teeth",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Spectral Scythe",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Spectral Hunters",
+      "type": "passive",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ]
+}

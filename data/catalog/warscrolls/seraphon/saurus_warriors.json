@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.seraphon.saurus_warriors",
+  "bsdataId": "f5a9-66a7-bb69-533f",
+  "type": "warscroll",
+  "name": "Saurus Warriors",
+  "faction": "seraphon",
+  "keywords": [
+    "champion",
+    "infantry",
+    "musician (1/10)",
+    "order",
+    "saurus",
+    "standard bearer (1/10)",
+    "faction:seraphon"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Celestite Weapon",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "MUSICIAN (1/10)",
+    "SAURUS",
+    "SERAPHON",
+    "STANDARD BEARER (1/10)"
+  ],
+  "abilities": [
+    {
+      "name": "Ordered Cohorts",
+      "type": "passive",
+      "effect": "Add 1 to save rolls for this unit while each model in this unit is contesting an objective you control.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "e9d0-a23-6a15-1fcb"
+  }
+}

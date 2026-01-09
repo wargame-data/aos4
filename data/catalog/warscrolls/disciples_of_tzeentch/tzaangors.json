@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.disciples_of_tzeentch.tzaangors",
+  "bsdataId": "480e-a14e-85cd-ffa3",
+  "type": "warscroll",
+  "name": "Tzaangors",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "arcanite",
+    "champion",
+    "chaos",
+    "infantry",
+    "musician (1/10)",
+    "standard bearer (1/10)",
+    "warflock",
+    "faction:disciples_of_tzeentch"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Savage Blade and Vicious Beak",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1
+    },
+    {
+      "name": "Savage Greatblade",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "ARCANITE",
+    "CHAMPION",
+    "DISCIPLES OF TZEENTCH",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)",
+    "WARFLOCK"
+  ],
+  "abilities": [
+    {
+      "name": "Screeching Raiders",
+      "type": "passive",
+      "effect": "While this unit is wholly within enemy territory, its weapons have **Crit (2 Hits)**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "72d2-ae0-e519-f2f7"
+  }
+}

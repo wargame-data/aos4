@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.crumbling_impact",
+  "type": "prayer",
+  "name": "Crumbling Impact",
+  "faction": "shared",
+  "lore": "lore_of_aqshian_wrath",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, each time an enemy unit ends a move made as part of a **^^Charge^^** ability within 3\" of the target, inflict D3 mortal damage on that unit after the **^^Charge^^** ability has been resolved. If the chanting roll was 8+, inflict D6 mortal damage on that unit instead.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible friendly unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

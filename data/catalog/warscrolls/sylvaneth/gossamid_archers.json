@@ -1,0 +1,82 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.sylvaneth.gossamid_archers",
+  "bsdataId": "7395-623b-7652-b8c6",
+  "type": "warscroll",
+  "name": "Gossamid Archers",
+  "faction": "sylvaneth",
+  "keywords": [
+    "champion",
+    "fly",
+    "infantry",
+    "order",
+    "faction:sylvaneth"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Gossamid Bow",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Cruel Talons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLY",
+    "SYLVANETH"
+  ],
+  "abilities": [
+    {
+      "name": "Forest Fighters",
+      "type": "passive",
+      "effect": "This unit has a coherency range of 2\".",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Zephyrspites",
+      "type": "once-per-turn",
+      "effect": "If this unit used a Shoot ability this phase, this unit can move D6\". It cannot end that move in combat.",
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "61ee-fae0-f1da-2591"
+  }
+}

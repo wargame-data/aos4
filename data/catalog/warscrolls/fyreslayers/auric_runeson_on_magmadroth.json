@@ -1,0 +1,133 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.fyreslayers.auric_runeson_on_magmadroth",
+  "bsdataId": "de0d-34a7-ac61-53de",
+  "type": "warscroll",
+  "name": "Auric Runeson on Magmadroth",
+  "faction": "fyreslayers",
+  "keywords": [
+    "duardin",
+    "hero",
+    "magmadroth",
+    "monster",
+    "order",
+    "ward (6+)",
+    "faction:fyreslayers"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 14,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Ancestral Weapons",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Anti‑**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Roaring Fyrestream",
+      "type": "ranged",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "10\"",
+      "abilities": [
+        "Anti‑**^^Infantry^^** (+1 Rend)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Magmadroth’s Blazing Maw",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Magmadroth’s Claws and Horns",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "DUARDIN",
+    "FYRESLAYERS",
+    "MAGMADROTH",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Volcanic Blood",
+      "type": "passive",
+      "effect": "If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth’s Claws and Horns** is 4.",
+      "color": "Black"
+    },
+    {
+      "name": "Dominating Roar",
+      "type": "once-per-turn",
+      "effect": "If this unit has fewer damage points than the target, subtract 10 from the target’s control score for the rest of the turn.",
+      "phase": "any",
+      "declare": "Pick an enemy **^^Monster^^** in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Purple",
+      "abilityCategory": "Control"
+    },
+    {
+      "name": "Vying for Glory",
+      "type": "passive",
+      "effect": "Each time this unit destroys a **^^Monster^^**, add 1 to the Attacks characteristic of this unit’s **Ancestral Weapons** for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "693f-85d0-db98-543c"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

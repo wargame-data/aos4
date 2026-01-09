@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.summon_hand_of_nagash",
+  "type": "spell",
+  "name": "Summon Hand of Nagash",
+  "faction": "shared",
+  "lore": "manifestations_of_the_grave",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Hand of Nagash** wholly within 12\" of and visible to the caster and more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Hand of Nagash** on the battlefield, pick a friendly **^^Soulblight Gravelords Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

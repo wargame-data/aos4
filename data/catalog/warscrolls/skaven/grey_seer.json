@@ -1,0 +1,74 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.grey_seer",
+  "bsdataId": "a451-d214-7ed8-75ca",
+  "type": "warscroll",
+  "name": "Grey Seer",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "hero",
+    "infantry",
+    "masterclan",
+    "wizard (1)",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Warpstone Staff",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "MASTERCLAN",
+    "SKAVEN",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Warpstone Shards",
+      "type": "passive",
+      "effect": "The next time you make a casting roll for this unit this phase, roll 3D6 instead of 2D6. This roll cannot be rerolled or modified.\nIf the casting roll is 13, the spell is successfully cast and cannot be unbound. After the effect of that spell has been resolved, inflict D3 mortal damage on this unit.\nIf the casting roll is not 13, remove 1 dice of your choice from the casting roll and use the remaining 2D6 as the casting roll.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "MASTERCLAN"
+      ],
+      "description": "Units with MASTERCLAN keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

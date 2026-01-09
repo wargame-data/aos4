@@ -1,0 +1,102 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.blades_of_khorne.skarbrand",
+  "bsdataId": "b1a1-2377-3fa4-f264",
+  "type": "warscroll",
+  "name": "Skarbrand",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "bloodthirster",
+    "chaos",
+    "daemon",
+    "hero",
+    "monster",
+    "unique",
+    "ward (5+)",
+    "faction:blades_of_khorne"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 16,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Slaughter",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 4,
+      "abilities": [
+        "Blood-hungry"
+      ]
+    },
+    {
+      "name": "Carnage",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 8,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "BLOODTHIRSTER",
+    "DAEMON",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Skarbrand's Rage",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, or if it did not use a **^^Fight^^** ability last turn, the effects of the 'Blood-drenched' ability apply to this unit.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Roar of Total Rage",
+      "type": "once-per-turn",
+      "effect": "Roll either 3 dice or a number of dice equal to the number of damage points this unit has. For each 4+, inflict 1 mortal damage on the target.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Inescapable Wrath",
+      "type": "passive",
+      "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "81a9-3dbf-dbc5-672e"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

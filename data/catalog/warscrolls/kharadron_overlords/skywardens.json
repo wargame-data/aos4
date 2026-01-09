@@ -1,0 +1,117 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.kharadron_overlords.skywardens",
+  "bsdataId": "bc2-ce5c-7ccc-4145",
+  "type": "warscroll",
+  "name": "Skywardens",
+  "faction": "kharadron_overlords",
+  "keywords": [
+    "champion",
+    "duardin",
+    "fly",
+    "infantry",
+    "order",
+    "skyfarer",
+    "faction:kharadron_overlords"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 2,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Skyrigger Heavy Weapon",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "15\"",
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Gun Butt",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Vulcaniser Pistol",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Skywarden's Skypike",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Aethermatic Volley Gun",
+      "type": "ranged",
+      "attacks": "2D6",
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "15\"",
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DUARDIN",
+    "FLY",
+    "KHARADRON OVERLORDS",
+    "SKYFARER"
+  ],
+  "abilities": [
+    {
+      "name": "Timed Charges",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+:\n• Inflict an amount of mortal damage on the target equal to the roll.\n• This unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.",
+      "phase": "any",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "d4a9-b568-9525-d6ac"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ironjawz.morgoks_krushas",
+  "bsdataId": "5e0d-b8d1-f5e7-f1df",
+  "type": "warscroll",
+  "name": "Morgok's Krushas",
+  "faction": "ironjawz",
+  "keywords": [
+    "brute",
+    "champion",
+    "destruction",
+    "infantry",
+    "legends",
+    "unique",
+    "faction:ironjawz"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 1
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 3,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Krusha Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BRUTE",
+    "CHAMPION",
+    "IRONJAWZ",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "In Their Element",
+      "type": "passive",
+      "effect": "The first time an enemy **^^Monster^^** is destroyed by this unit, add 1 to wound rolls for this unit’s attacks for the rest of the battle.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

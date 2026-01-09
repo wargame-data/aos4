@@ -1,0 +1,99 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.wildercorps_hunters",
+  "bsdataId": "f9e7-7b02-8660-65f7",
+  "type": "warscroll",
+  "name": "Wildercorps Hunters",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "champion (1/11)",
+    "human",
+    "infantry",
+    "order",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 11,
+    "default": 11,
+    "max": 11
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 1,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Trailhound’s Ferocious Bite",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Hunting Arbalest",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D3",
+      "range": "15\""
+    },
+    {
+      "name": "Hunting Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Hunting Crossbow",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "range": "15\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION (1/11)",
+    "CITIES OF SIGMAR",
+    "HUMAN"
+  ],
+  "abilities": [
+    {
+      "name": "Expert Trackers",
+      "type": "passive",
+      "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase.",
+      "color": "Black",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Hidden and Dangerous",
+      "type": "passive",
+      "effect": "This unit is not visible to enemy units more than 12\" from it while it is affected by the ‘Cover’ terrain ability. In addition, add 1 to hit rolls for this unit’s shooting attacks while it is wholly within 3\" of a terrain feature.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  }
+}

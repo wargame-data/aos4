@@ -1,0 +1,96 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.gloomspite_gitz.loonboss_with_giant_cave_squig",
+  "bsdataId": "649e-1067-7300-bde2",
+  "type": "warscroll",
+  "name": "Loonboss with Giant Cave Squig",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "destruction",
+    "hero",
+    "infantry",
+    "legends",
+    "moonclan",
+    "squig",
+    "faction:gloomspite_gitz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Moon-prodder",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    },
+    {
+      "name": "Massive Fang-filled Gob",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D3",
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "LEGENDS",
+    "MOONCLAN",
+    "SQUIG"
+  ],
+  "abilities": [
+    {
+      "name": "Gobbled Up",
+      "type": "passive",
+      "effect": "Roll a dice. If the roll equals or exceeds the target’s Health characteristic, 1 model in the target unit is slain.",
+      "phase": "any",
+      "declare": "Pick an enemy unit within 1\" of this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Goin' Somewhere?",
+      "type": "passive",
+      "effect": "If a friendly **^^Moonclan Infantry^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6. However, friendly **^^Moonclan Infantry^^** units cannot use **^^Retreat^^** abilities while they are within 12\" of this unit.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "MOONCLAN"
+      ],
+      "description": "Units with MOONCLAN keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

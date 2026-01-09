@@ -1,0 +1,73 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.kruleboyz.hobgrot_slittaboss",
+  "bsdataId": "3bd7-2a9f-9356-b454",
+  "type": "warscroll",
+  "name": "Hobgrot Slittaboss",
+  "faction": "kruleboyz",
+  "keywords": [
+    "destruction",
+    "hero",
+    "infantry",
+    "faction:kruleboyz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Toxin-smeared Slitta-sword",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "KRULEBOYZ"
+  ],
+  "abilities": [
+    {
+      "name": "Toxic Stash",
+      "type": "once-per-battle",
+      "effect": "Roll 2D6. If the roll exceeds the target's Health characteristic, it is automatically destroyed.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Infantry Hero^^** in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Kompany Taktikz",
+      "type": "reaction",
+      "effect": "Pick a friendly **Hobgrot Slittaz** unit that has not used a **^^Fight^^** ability this turn and is within this unit's combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to wound rolls for the target's attacks for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "8b1b-f2c7-890e-2bbe"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

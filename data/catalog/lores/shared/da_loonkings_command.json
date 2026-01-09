@@ -1,0 +1,20 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.da_loonkings_command",
+  "type": "spell",
+  "name": "Da Loonking's Command",
+  "faction": "shared",
+  "lore": "spell_lore_da_kings_gitz",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn:\n• Add 1 to the Attacks characteristic of melee weapons used by champions in the target unit.\n• If the target uses the 'Rally' command, you can make 1 additional rally roll of D6.\n• Add 1 to the target's control score.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^King's Gitz Wizard^^** to cast this spell, pick a visible friendly unit wholly within 18\" of them to be the target, then make a casting roll of 2D6."
+}

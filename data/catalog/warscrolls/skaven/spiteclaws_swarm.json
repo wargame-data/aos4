@@ -1,0 +1,74 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.spiteclaws_swarm",
+  "bsdataId": "6459-a4be-e73f-7222",
+  "type": "warscroll",
+  "name": "Spiteclaw's Swarm",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "infantry",
+    "legends",
+    "unique",
+    "verminus",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Rusty Weapon",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Wicked Halberd",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "LEGENDS",
+    "SKAVEN",
+    "VERMINUS"
+  ],
+  "abilities": [
+    {
+      "name": "Seething Swarm",
+      "type": "passive",
+      "effect": "You can return D3 slain models to this unit.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

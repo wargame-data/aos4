@@ -1,0 +1,66 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.blades_of_khorne.skullreapers",
+  "bsdataId": "60f-d859-6aac-6dc6",
+  "type": "warscroll",
+  "name": "Skullreapers",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "bloodbound",
+    "champion",
+    "chaos",
+    "infantry",
+    "standard bearer (1/5)",
+    "faction:blades_of_khorne"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 3,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Daemonforged Weapons",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Blood-hungry",
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "BLOODBOUND",
+    "CHAMPION",
+    "STANDARD BEARER (1/5)"
+  ],
+  "abilities": [
+    {
+      "name": "Trial of Skulls",
+      "type": "passive",
+      "effect": "Add 8 to this unit's control score while it is in combat.",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    }
+  ],
+  "publication": {
+    "name": "81a9-3dbf-dbc5-672e"
+  }
+}

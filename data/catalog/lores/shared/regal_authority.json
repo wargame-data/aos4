@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.regal_authority",
+  "type": "spell",
+  "name": "Regal Authority",
+  "faction": "shared",
+  "lore": "spell_lore_draconith_skywing",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Add 5 to the target’s control score for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Draconith Skywing Wizard^^** to cast this spell, pick a visible friendly **^^Draconith Skywing^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Control"
+}

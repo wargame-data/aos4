@@ -1,0 +1,94 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ironjawz.maw_grunta_gougers",
+  "bsdataId": "ce75-dedf-3b6f-9a7c",
+  "type": "warscroll",
+  "name": "Maw-grunta Gougers",
+  "faction": "ironjawz",
+  "keywords": [
+    "destruction",
+    "maw-grunta",
+    "monster",
+    "faction:ironjawz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 12,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Choppas",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    },
+    {
+      "name": "Maw-grunta’s Tusks",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Maw-grunta’s Trotters",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "5+",
+      "wound": "2+",
+      "rend": 0,
+      "damage": "D3",
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "IRONJAWZ",
+    "MAW-GRUNTA"
+  ],
+  "abilities": [
+    {
+      "name": "Flattened into the Mud",
+      "type": "once-per-turn",
+      "effect": "Roll a dice and add the number of **momentum points** this unit has to the roll. On a 5+, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "If this unit charged this turn, pick an enemy unit within 1\" of it to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Unstoppable Momentum",
+      "type": "passive",
+      "effect": "Each time this unit has charged as a result of using a **^^Charge^^** ability, it gains 1 **momentum point**. Each time it uses a **^^Run^^** ability, it gains 2 **momentum points**. It can have a maximum of 3 **momentum points** at once.\nAdd the number of **momentum points** this unit has to the Damage characteristic of its **^^Maw-grunta’s Tusks^^**. At the end of each battle round, subtract 1 from its **momentum points**, to a minimum of 0.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "8b1b-f2c7-890e-2bbe"
+  }
+}

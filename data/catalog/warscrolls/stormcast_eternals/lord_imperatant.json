@@ -1,0 +1,83 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.lord_imperatant",
+  "bsdataId": "c1b5-c776-1613-a463",
+  "type": "warscroll",
+  "name": "Lord-Imperatant",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "hero",
+    "infantry",
+    "order",
+    "warrior chamber",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Blessed Warhammer",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Guided by Lightning",
+      "type": "once-per-battle",
+      "effect": "Each target can immediately move D3\". The targets cannot move into combat during any part of that move.",
+      "phase": "movement",
+      "declare": "Pick up to 3 friendly **^^Stormcast Eternals^^** units wholly within 12\" of this unit that were set up this turn using the ‘Scions of the Storm’ ability to be the targets.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Loyal Gryph-hound",
+      "type": "passive",
+      "effect": "This unit’s **Gryph-hound** is a token. This unit has **^^Ward (5+)^^** while its **Gryph-hound** is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove its **Gryph-hound** from the battlefield after the **^^Attack^^** ability has been resolved (the damage point is still inflicted).",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "daf8-1c23-a61e-b132"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "WARRIOR CHAMBER"
+      ],
+      "description": "Units with WARRIOR CHAMBER keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

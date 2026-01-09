@@ -1,0 +1,63 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.nighthaunt.chainghasts",
+  "bsdataId": "4550-ab13-9a71-205c",
+  "type": "warscroll",
+  "name": "Chainghasts",
+  "faction": "nighthaunt",
+  "keywords": [
+    "champion",
+    "death",
+    "fly",
+    "infantry",
+    "ward (5+)",
+    "faction:nighthaunt"
+  ],
+  "sizes": {
+    "min": 2,
+    "default": 2,
+    "max": 2
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 3,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Ghastflails",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Another Link in the Chain",
+      "type": "passive",
+      "effect": "Roll a dice. Add 1 to the roll if this unit is wholly within 12\" of any friendly **Spirit Torments**. On a 3+, for the rest of the turn, add 1 to hit rolls for combat attacks made by friendly **^^Nighthaunt^^** units while they are wholly within 12\" of this unit.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ]
+}

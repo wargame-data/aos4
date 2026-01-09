@@ -1,0 +1,85 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.verminlord_corruptor",
+  "bsdataId": "645a-2377-ae20-f9c",
+  "type": "warscroll",
+  "name": "Verminlord Corruptor",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "hero",
+    "monster",
+    "pestilens",
+    "priest (1)",
+    "ward (5+)",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 13,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Plaguereapers",
+      "type": "melee",
+      "attacks": 8,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "PESTILENS",
+    "PRIEST (1)",
+    "SKAVEN",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Lord of Great Plagues",
+      "type": "once-per-turn",
+      "effect": "If the unmodified chanting roll for a friendly **^^Pestilens Priest^^** this phase was 6, pick 1 of the following effects to apply:\n***Crimsonweal Curse:*** Pick an enemy unit within 13\" of this unit to be the target. For the rest of the battle, each time the target uses a **^^Move^^** ability, inflict D3 mortal damage on it after the **^^Move^^** ability has been resolved.\n***The Neverplague:*** For the rest of the battle, you can re-roll chanting rolls for friendly **^^Pestilens Priests^^**.\n***Undulant Scourge:*** Pick a visible enemy unit within 13\" of this unit to be the target. Inflict 2D3 mortal damage on the target.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Plaguemaster",
+      "type": "once-per-turn",
+      "effect": "Roll a D3 for each target. On a 2+:\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Give this unit 1 ritual point.",
+      "phase": "combat",
+      "declare": "Pick up to 3 enemy units in combat with this unit to be the targets.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  },
+  "wizard": null,
+  "priest": 1,
+  "unique": false,
+  "canJoinRegiment": null
+}

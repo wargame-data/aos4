@@ -1,0 +1,84 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.lord_exorcist",
+  "bsdataId": "6f35-d6c8-c31b-0406",
+  "type": "warscroll",
+  "name": "Lord-Exorcist",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "hero",
+    "infantry",
+    "legends",
+    "order",
+    "sacrosanct chamber",
+    "wizard (1)",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Redemption Stave",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "LEGENDS",
+    "SACROSANCT CHAMBER",
+    "STORMCAST ETERNALS",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Purifying Blast",
+      "type": "passive",
+      "effect": "Roll a dice. On a 2+:\n• If the target has any ritual points, remove a number of ritual points from it equal to the roll.\n• If the target has no ritual points, inflict D3 mortal damage on it.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy **^^Priest^^** within 18\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Redemptor Casket",
+      "type": "passive",
+      "effect": "Models cannot be returned to enemy units within 12\" of this unit.",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
+    }
+  ],
+  "publication": {
+    "name": "87c-f122-a891-630e"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "SACROSANCT CHAMBER"
+      ],
+      "description": "Units with SACROSANCT CHAMBER keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

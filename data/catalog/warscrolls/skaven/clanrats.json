@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.clanrats",
+  "bsdataId": "605a-d055-1afc-a02c",
+  "type": "warscroll",
+  "name": "Clanrats",
+  "faction": "skaven",
+  "keywords": [
+    "champion",
+    "chaos",
+    "infantry",
+    "musician (1/20)",
+    "standard bearer (1/20)",
+    "verminus",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 20,
+    "default": 20,
+    "max": 20
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Rusty Weapon",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "MUSICIAN (1/20)",
+    "SKAVEN",
+    "STANDARD BEARER (1/20)",
+    "VERMINUS"
+  ],
+  "abilities": [
+    {
+      "name": "Seething Swarm",
+      "type": "passive",
+      "effect": "You can return D3 slain models to this unit.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.lumineth_realm_lords.alarith_stoneguard",
+  "bsdataId": "4c4-918b-2c8e-d640",
+  "type": "warscroll",
+  "name": "Alarith Stoneguard",
+  "faction": "lumineth_realm_lords",
+  "keywords": [
+    "aelf",
+    "alarith",
+    "champion",
+    "infantry",
+    "order",
+    "standard bearer (1/5)",
+    "faction:lumineth_realm_lords"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 2,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Stoneguard Hammers",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "ALARITH",
+    "CHAMPION",
+    "LUMINETH REALM-LORDS",
+    "STANDARD BEARER (1/5)"
+  ],
+  "abilities": [
+    {
+      "name": "Fortitude of the Earth",
+      "type": "passive",
+      "effect": "This unit has **^^Ward (5+)^^** while all of its models are contesting an objective you control.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "9ed1-cf74-eb97-dee2"
+  }
+}

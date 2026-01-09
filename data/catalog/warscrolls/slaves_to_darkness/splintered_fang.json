@@ -1,0 +1,74 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.splintered_fang",
+  "bsdataId": "78f8-9ac5-641f-8b5c",
+  "type": "warscroll",
+  "name": "Splintered Fang",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "champion (1/9)",
+    "chaos",
+    "infantry",
+    "legends",
+    "undivided",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 8,
+    "default": 8,
+    "max": 8
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Poisoned Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION (1/9)",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "UNDIVIDED"
+  ],
+  "abilities": [
+    {
+      "name": "Slithering Serpents",
+      "type": "passive",
+      "effect": "Roll a D3. On a 1, remove this unit’s **Serpents** from the battlefield. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "any",
+      "declare": "If this unit’s **Serpents** are on the battlefield, pick an enemy unit in combat with this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Paralysing Strikes",
+      "type": "passive",
+      "effect": "Each time this unit uses a **^^Fight^^** ability, if its attacks score 2 or more critical hits against the same enemy unit, that unit has **^^Strike-last^^** for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

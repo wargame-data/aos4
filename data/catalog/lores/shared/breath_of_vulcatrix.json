@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.breath_of_vulcatrix",
+  "type": "prayer",
+  "name": "Breath of Vulcatrix",
+  "faction": "shared",
+  "lore": "prayer_lore_lofnir_drothkeepers",
+  "keywords": [
+    "prayer",
+    "unlimited"
+  ],
+  "chantingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, the Damage characteristic of the target’s **Roaring Fyrestream** is 3 instead of D3.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Drothkeepers Priest^^** to chant this prayer, pick a visible friendly **^^Drothkeepers Magmadroth^^** wholly within 12\" of them to be a target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

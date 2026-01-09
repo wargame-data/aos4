@@ -1,0 +1,80 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.fyreslayers.vulkyn_flameseekers",
+  "bsdataId": "f6d4-e62b-c0a9-ba01",
+  "type": "warscroll",
+  "name": "Vulkyn Flameseekers",
+  "faction": "fyreslayers",
+  "keywords": [
+    "champion (1/9)",
+    "duardin",
+    "infantry",
+    "order",
+    "ward (6+)",
+    "faction:fyreslayers"
+  ],
+  "sizes": {
+    "min": 9,
+    "default": 9,
+    "max": 9
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Vulkyn Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Emberteeth",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 2,
+      "abilities": [
+        "Crit (Mortal)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION (1/9)",
+    "DUARDIN",
+    "FYRESLAYERS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Drothmasters",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, subtract D3 from the Damage characteristic of the target’s **Companion** melee weapons for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Monster^^** in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "693f-85d0-db98-543c"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.hedonites_of_slaanesh.fiends",
+  "bsdataId": "973c-d5a3-65d4-2eaa",
+  "type": "warscroll",
+  "name": "Fiends",
+  "faction": "hedonites_of_slaanesh",
+  "keywords": [
+    "beast",
+    "champion",
+    "chaos",
+    "daemon",
+    "ward (6+)",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 4,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Deadly Pincers and Barbed Stinger",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEAST",
+    "CHAMPION",
+    "DAEMON",
+    "HEDONITES OF SLAANESH",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Soporific Musk",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 4+, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Disruptive Song",
+      "type": "passive",
+      "effect": "Subtract 1 from casting rolls and unbinding rolls for enemy **^^Wizards^^** while they are within 12\" of this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "95fc-e96f-a916-bba1"
+  }
+}

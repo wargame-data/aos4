@@ -1,0 +1,91 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.disciples_of_tzeentch.curseling_eye_of_tzeentch",
+  "bsdataId": "edf7-573d-15c9-cce4",
+  "type": "warscroll",
+  "name": "Curseling, Eye of Tzeentch",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "arcanite",
+    "chaos",
+    "hero",
+    "infantry",
+    "wizard (2)",
+    "faction:disciples_of_tzeentch"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Hurled Arcane Energy",
+      "type": "ranged",
+      "attacks": "D6",
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "18\"",
+      "abilities": [
+        "Wyrdflame"
+      ]
+    },
+    {
+      "name": "Staff of Tzeentch and Blazing Sword",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "ARCANITE",
+    "DISCIPLES OF TZEENTCH",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Infusion Arcanum",
+      "type": "spell",
+      "effect": "Until the start of your next turn, add 1 to the Rend and Damage characteristics of this unit’s **Staff of Tzeentch** and **Blazing Sword**.",
+      "phase": "hero",
+      "declare": "Make a casting roll of 2D6.",
+      "castingValue": 5,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Disrupter of the Arcane",
+      "type": "passive",
+      "effect": "Each time this unit unbinds a spell, roll a dice. On a 4+, subtract 1 from the power level of the enemy **^^Wizard^^** that used that **^^Spell^^** ability, to a minimum of 0, until the start of your next turn.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "72d2-ae0-e519-f2f7"
+  },
+  "wizard": 2,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

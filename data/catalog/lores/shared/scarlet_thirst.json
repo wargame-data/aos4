@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.scarlet_thirst",
+  "type": "spell",
+  "name": "Scarlet Thirst",
+  "faction": "shared",
+  "lore": "spell_lore_scions_of_nulahmia",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "For the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **^^Scions of Nulahmia Vampire^^** units while they are wholly within 12\" of the caster.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Scions of Nulahmia Wizard^^** to cast this spell.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

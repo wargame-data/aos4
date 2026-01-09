@@ -1,0 +1,109 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.soulblight_gravelords.coven_throne",
+  "bsdataId": "8cb0-66eb-ab31-ca66",
+  "type": "warscroll",
+  "name": "Coven Throne",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "death",
+    "fly",
+    "hero",
+    "vampire",
+    "war machine",
+    "ward (6+)",
+    "wizard (1)",
+    "faction:soulblight_gravelords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 12,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Acolytes' Poniards",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1
+    },
+    {
+      "name": "Matriarch's Stiletto",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    },
+    {
+      "name": "Spectral Host's Blades",
+      "type": "melee",
+      "attacks": 10,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Scrying Pool",
+      "type": "passive",
+      "effect": "If a friendly **^^Soulblight Gravelords^^** unit wholly within 12\" of this unit uses the ‘Redeploy’ command, you can pick another friendly **^^Soulblight Gravelords^^** unit wholly within 12\" of this unit that has not used a command this phase to use the ‘Redeploy’ command immediately after the first has been resolved (this is an exception to Commands, 1.2). No command point is spent the second time that command is used.",
+      "color": "Gray",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "A Promising Concoction",
+      "type": "once-per-battle",
+      "effect": "Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick up to 3 friendly **^^Vampire^^** units wholly within 12\" of this unit to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Tactical Insight",
+      "type": "passive",
+      "effect": "Friendly **^^Deathrattle^^** and **^^Deadwalkers^^** units have **^^Ward (5+)^^** while they are wholly within 6\" of this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "e3a0-cfae-cbb3-0215"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

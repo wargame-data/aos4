@@ -1,0 +1,85 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.knight_incantor",
+  "bsdataId": "c029-12b6-9c8d-d1ef",
+  "type": "warscroll",
+  "name": "Knight-Incantor",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "hero",
+    "infantry",
+    "legends",
+    "order",
+    "sacrosanct chamber",
+    "wizard (1)",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Incantor’s Staff",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "LEGENDS",
+    "SACROSANCT CHAMBER",
+    "STORMCAST ETERNALS",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Voidstorm Scroll",
+      "type": "reaction",
+      "effect": "The spell is unbound and its effect is not resolved.",
+      "keywords": [
+        "**^^UNBIND^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Aetheric Destabilisation",
+      "type": "passive",
+      "effect": "While they are within 30\" of this unit, subtract 1 from casting rolls for enemy units when they use **^^Summon^^** abilities.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "87c-f122-a891-630e"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "SACROSANCT CHAMBER"
+      ],
+      "description": "Units with SACROSANCT CHAMBER keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.gloomspite_gitz.frazzlegit_shaman_on_war_wheela",
+  "bsdataId": "d355-23bf-8a9d-d3e6",
+  "type": "warscroll",
+  "name": "Frazzlegit Shaman on War-Wheela",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "destruction",
+    "gitmob",
+    "hero",
+    "war machine",
+    "wizard (1)",
+    "faction:gloomspite_gitz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 9,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Snarlfangs' Frothing Jaws",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Wheela Slicers",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GITMOB",
+    "GLOOMSPITE GITZ",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Gimme All da Light",
+      "type": "passive",
+      "effect": "Friendly **^^Gitmob^^** units that are not **Frazzlegit Shamans on War-Wheelas** cannot be targeted by shooting attacks while they are wholly within 6\" of this unit,",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Frazzlemist",
+      "type": "once-per-turn",
+      "effect": "Roll a d3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "shooting",
+      "declare": "Pick up to 3 visible enemy units within 9\" of this unit to be the targets.",
+      "color": "Blue",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "a395-7bc4-71eb-46df"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.gloomspite_gitz.grinkraks_looncourt",
+  "bsdataId": "07da-8a50-69be-b0c1",
+  "type": "warscroll",
+  "name": "Grinkrak's Looncourt",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "champion",
+    "destruction",
+    "infantry",
+    "legends",
+    "moonclan",
+    "unique",
+    "faction:gloomspite_gitz"
+  ],
+  "sizes": {
+    "min": 7,
+    "default": 7,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Moon-slicer",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3"
+    },
+    {
+      "name": "Looncourt Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 1,
+      "damage": 1
+    },
+    {
+      "name": "Squigapult",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3+2",
+      "range": "15\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "GLOOMSPITE GITZ",
+    "LEGENDS",
+    "MOONCLAN"
+  ],
+  "abilities": [
+    {
+      "name": "Quest's End",
+      "type": "passive",
+      "effect": "For the rest of the battle, this unit has **^^Strike-first^^** and **^^Ward (4+)^^**.",
+      "phase": "any",
+      "declare": "This unit can only use this ability if you control the object of this unit’s quest and this unit is contesting it.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "The Looncourt's Quest",
+      "type": "passive",
+      "effect": "Pick an objective or terrain feature within enemy territory to be the **object of this unit’s quest**.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

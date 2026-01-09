@@ -1,0 +1,72 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.flesh_eater_courts.varghulf_courtier",
+  "bsdataId": "9840-3911-50d4-532d",
+  "type": "warscroll",
+  "name": "Varghulf Courtier",
+  "faction": "flesh_eater_courts",
+  "keywords": [
+    "beast",
+    "death",
+    "ward (6+)",
+    "faction:flesh_eater_courts"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 8,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Immense Claws",
+      "type": "melee",
+      "attacks": 7,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Dagger-like Fangs",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "BEAST",
+    "FLESH-EATER COURTS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Victory Feast",
+      "type": "passive",
+      "effect": "If any models were slain by this unit this turn:\n• **Heal (D6)** this unit.\n• If this unit is in combat, this unit can immediately move 10\". It can move through the combat ranges of enemy units but must end that move in combat with the units it was already in combat with at the start of the move.\n• If that unit is not in combat, this unit can immediately move 10\" but cannot end that move in combat.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Special"
+    }
+  ]
+}

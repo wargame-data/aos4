@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.fyreslayers.auric_runefather",
+  "bsdataId": "aa8-9db3-b817-6324",
+  "type": "warscroll",
+  "name": "Auric Runefather",
+  "faction": "fyreslayers",
+  "keywords": [
+    "duardin",
+    "hero",
+    "infantry",
+    "order",
+    "ward (6+)",
+    "warmaster",
+    "faction:fyreslayers"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Latchkey Grandaxe",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "DUARDIN",
+    "FYRESLAYERS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Royal Retinue",
+      "type": "once-per-battle",
+      "effect": "For the rest of the battle, while the royal retinue is wholly within 6\" of this unit, add 1 to hit rolls for attacks made by the royal retinue and this unit has **^^Ward (4+)^^**.",
+      "declare": "Pick a friendly non-**^^Hero Fyreslayers Infantry^^** unit within this unit’s combat range to be the royal retinue.",
+      "color": "Black",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Commanding Presence",
+      "type": "passive",
+      "effect": "Add the current battle round number to the control scores of friendly **^^Fyreslayers Infantry^^** units wholly within 12\" of this unit for the rest of the turn.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    }
+  ],
+  "publication": {
+    "name": "693f-85d0-db98-543c"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

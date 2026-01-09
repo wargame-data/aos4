@@ -1,0 +1,73 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.soulblight_gravelords.gorslav_the_gravekeeper",
+  "bsdataId": "66c8-d9e7-3166-cbbe",
+  "type": "warscroll",
+  "name": "Gorslav the Gravekeeper",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "deadwalkers",
+    "death",
+    "hero",
+    "infantry",
+    "unique",
+    "ward (6+)",
+    "faction:soulblight_gravelords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 4,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Gravekeeper's Spade",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "DEADWALKERS",
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Arise! Arise!",
+      "type": "reaction",
+      "effect": "When resolving the effect of the ‘Endless Legions’ ability, set up the replacement unit wholly within 3\" of this unit instead of wholly within 12\" and more than 3\" from all enemy units instead of more than 9\", even if it is not your movement phase. The replacement unit can still use **^^Charge^^** abilities this turn.",
+      "color": "Gray",
+      "abilityCategory": "Rallying"
+    },
+    {
+      "name": "Keeper of the Corpse-gardens",
+      "type": "passive",
+      "effect": "While this unit is within the combat range of a friendly **Deadwalker Zombies** unit:\n• This unit has **^^Ward (4+)^^**.\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly **Deadwalker Zombies** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "05a6-726c-4748-8360"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

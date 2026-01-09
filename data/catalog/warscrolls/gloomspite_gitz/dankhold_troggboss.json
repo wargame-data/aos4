@@ -1,0 +1,82 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.gloomspite_gitz.dankhold_troggboss",
+  "bsdataId": "c1d2-33ca-c5f3-56af",
+  "type": "warscroll",
+  "name": "Dankhold Troggboss",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "destruction",
+    "hero",
+    "monster",
+    "troggoth",
+    "faction:gloomspite_gitz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 12,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Boulder Club",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D6"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "TROGGOTH"
+  ],
+  "abilities": [
+    {
+      "name": "Shepherd of Destruction",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 4+, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **^^Troggoth^^** units while they are wholly within 12\" of this unit.",
+      "phase": "combat",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Magical Resistance",
+      "type": "reaction",
+      "effect": "If this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Greater Regeneration",
+      "type": "passive",
+      "effect": "**Heal (D6)** this unit.",
+      "phase": "any",
+      "color": "Black",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "a395-7bc4-71eb-46df"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

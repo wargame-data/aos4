@@ -1,0 +1,99 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.kharadron_overlords.grundstok_thunderers",
+  "bsdataId": "9f81-a727-f6ab-e7cc",
+  "type": "warscroll",
+  "name": "Grundstok Thunderers",
+  "faction": "kharadron_overlords",
+  "keywords": [
+    "champion",
+    "duardin",
+    "infantry",
+    "order",
+    "skyfarer",
+    "standard bearer (1/5)",
+    "faction:kharadron_overlords"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 2,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Grundstok Mortar or Aethercannon",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "range": "18\""
+    },
+    {
+      "name": "Aethershot Rifle",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "range": "18\""
+    },
+    {
+      "name": "Gun Butt",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Aetheric Fumigator or Decksweeper",
+      "type": "ranged",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DUARDIN",
+    "KHARADRON OVERLORDS",
+    "SKYFARER",
+    "STANDARD BEARER (1/5)"
+  ],
+  "abilities": [
+    {
+      "name": "Specialist Grundstok Ammunition",
+      "type": "reaction",
+      "effect": "If all of the attacks made for that **^^Shoot^^** ability target the same enemy unit, after that **^^Shoot^^** ability has been resolved, roll a dice and add the number of damage points allocated to the target by that **^^Shoot^^** ability. If the roll is higher than the target's Control characteristic, apply the following effect to the target based on the ammunition type picked:\n***Shieldbreaker:*** Ward rolls cannot be made for the target until the start of your next turn.\n***Thunderdrakk:*** That target has a maximum control score of 1 until the start of your next turn.",
+      "phase": "shooting",
+      "declare": "Pick **Shieldbreaker** ammunition or **Thunderdrakk** ammunition.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "d4a9-b568-9525-d6ac"
+  }
+}

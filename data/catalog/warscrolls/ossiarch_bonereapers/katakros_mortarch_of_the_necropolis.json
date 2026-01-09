@@ -1,0 +1,118 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ossiarch_bonereapers.katakros_mortarch_of_the_necropolis",
+  "bsdataId": "9294-b53c-e996-198c",
+  "type": "warscroll",
+  "name": "Katakros, Mortarch of the Necropolis",
+  "faction": "ossiarch_bonereapers",
+  "keywords": [
+    "death",
+    "hero",
+    "infantry",
+    "unique",
+    "ward (6+)",
+    "warmaster",
+    "faction:ossiarch_bonereapers"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 20,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Inda-Khaat",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    },
+    {
+      "name": "Retinue Blades",
+      "type": "melee",
+      "attacks": 10,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    },
+    {
+      "name": "The Shield Immortis",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "OSSIARCH BONEREAPERS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Inda-Khaat** is 3.",
+      "color": "Black"
+    },
+    {
+      "name": "Mortarch of the Necropolis",
+      "type": "passive",
+      "effect": "If this unit uses a **^^Relentless Discipline^^** ability, that ability affects friendly **^^OSSIARCH BONEREAPERS^^** units wholly within 18\" of this unit instead of wholly within 12\".",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Aviarch Spymaster",
+      "type": "reaction",
+      "effect": "Roll a dice. On a 5+, that command has no effect, it still counts as having been used and the command points spent to use it are still lost.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Prime Necrophoros",
+      "type": "passive",
+      "effect": "Add 3 to the control scores of other friendly **^^Ossiarch Bonereapers^^** units while they are wholly within 18\" of this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    },
+    {
+      "name": "Supreme Lord of the Bonereaper Legions",
+      "type": "command",
+      "effect": "Until the start of your next turn, add 1 to save rolls for the targets while they are wholly within 18\" of this unit.",
+      "phase": "hero",
+      "declare": "Pick up to 3 friendly **^^Ossiarch Bonereapers^^** units wholly within 18\" of this unit to be the targets.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "2f1e-fdf-1ac2-fa38"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

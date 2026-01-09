@@ -1,0 +1,96 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.beasts_of_chaos.dragon_ogor_shaggoth",
+  "bsdataId": "5f38-255a-16a0-e4dc",
+  "type": "warscroll",
+  "name": "Dragon Ogor Shaggoth",
+  "faction": "beasts_of_chaos",
+  "keywords": [
+    "chaos",
+    "hero",
+    "legends",
+    "monster",
+    "thunderscorn",
+    "wizard (1)",
+    "faction:beasts_of_chaos"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 10,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Storm-forged Axe",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 3,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Crackling Bolts",
+      "type": "ranged",
+      "attacks": "2D6",
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (2 Hits)",
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEASTS OF CHAOS",
+    "LEGENDS",
+    "THUNDERSCORN",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Beneath the Tempest",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 2+, Heal (X) this unit, where X is an amount equal to the roll. Then, roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "any",
+      "declare": "Pick each enemy unit in combat with this unit to be the targets.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Purple",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Scion of the Primordial Storm",
+      "type": "reaction",
+      "effect": "If this unit or a friendly **Dragon Ogors** unit wholly within 12\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit or that friendly unit. This unit can use this ability more than once per phase but only once per **^^Spell^^** ability.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "3cc2-31d3-9dd2-f858"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

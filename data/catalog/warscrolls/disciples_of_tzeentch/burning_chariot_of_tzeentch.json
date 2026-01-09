@@ -1,0 +1,91 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.disciples_of_tzeentch.burning_chariot_of_tzeentch",
+  "bsdataId": "6521-3929-9006-d830",
+  "type": "warscroll",
+  "name": "Burning Chariot of Tzeentch",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "fly",
+    "war machine",
+    "ward (6+)",
+    "faction:disciples_of_tzeentch"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Wyrdflame Blast",
+      "type": "ranged",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": "D3",
+      "range": "16\"",
+      "abilities": [
+        "Anti-**^Infantry^^** (+1 Rend)",
+        "Wyrdflame"
+      ]
+    },
+    {
+      "name": "Flaming Maws and Blue Horrors’ Jabs",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Screamers’ Lamprey Bites",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "DISCIPLES OF TZEENTCH",
+    "FLY",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Wake of Fire",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, the target has the **^^Burning^^** keyword.",
+      "phase": "movement",
+      "declare": "Pick an enemy unit that this unit passed across this phase to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "72d2-ae0-e519-f2f7"
+  }
+}

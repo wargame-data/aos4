@@ -1,0 +1,98 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.vanguard_palladors_with_shock_handaxes",
+  "bsdataId": "2d01-fd48-55af-dc1c",
+  "type": "warscroll",
+  "name": "Vanguard-Palladors with Shock Handaxes",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "cavalry",
+    "champion",
+    "order",
+    "vanguard chamber",
+    "vanguard-palladors",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "14\"",
+    "health": 5,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Shock Handaxe",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Boltstorm Pistol",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Gryph-charger’s Razor Beak",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "STORMCAST ETERNALS",
+    "VANGUARD CHAMBER",
+    "VANGUARD-PALLADORS"
+  ],
+  "abilities": [
+    {
+      "name": "Shocking Strikes",
+      "type": "passive",
+      "effect": "If any damage points are allocated to an enemy unit by attacks made with this unit’s **Shock Handaxes**, subtract 1 from wound rolls for that enemy unit’s combat attacks for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Vanguard Chamber",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn, this unit can use **^^Shoot^^** and/or **^^Charge^^** abilities even if it used a **^^Run^^** or **^^Retreat^^** ability in the same turn.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "43cd-e9ef-5d4d-87c4"
+  }
+}

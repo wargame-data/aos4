@@ -1,0 +1,86 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.blades_of_khorne.lord_of_khorne_on_juggernaut",
+  "bsdataId": "ce66-7711-3047-4195",
+  "type": "warscroll",
+  "name": "Lord of Khorne on Juggernaut",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "bloodbound",
+    "cavalry",
+    "chaos",
+    "hero",
+    "faction:blades_of_khorne"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 8,
+    "save": "2+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Wrathforged Axe",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Blood-hungry"
+      ]
+    },
+    {
+      "name": "Juggernaut’s Brazen Hooves",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "BLOODBOUND"
+  ],
+  "abilities": [
+    {
+      "name": "Lord of the Brass Stampede",
+      "type": "passive",
+      "effect": "If this unit charged this turn, for the rest of the turn, add 1 to charge rolls for **^^Blades of Khorne Cavalry^^** units while they are wholly within 12\" of this unit.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Slaughterous Charge",
+      "type": "passive",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "charge",
+      "declare": "If this unit charged this turn, pick a visible enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "de00-5d7f-9409-d250"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

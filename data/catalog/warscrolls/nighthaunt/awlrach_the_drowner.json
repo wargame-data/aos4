@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.nighthaunt.awlrach_the_drowner",
+  "bsdataId": "d8ef-7494-db04-b1a9",
+  "type": "warscroll",
+  "name": "Awlrach the Drowner",
+  "faction": "nighthaunt",
+  "keywords": [
+    "death",
+    "fly",
+    "hero",
+    "unique",
+    "war machine",
+    "ward (5+)",
+    "faction:nighthaunt"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 7,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Deathwood Oar",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": "D3",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Drifting on Spectral Tides",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, this unit can immediately use the 'Normal Move' or the 'Retreat' ability as if it were your movement phase.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Passage Through the Underworlds",
+      "type": "once-per-battle",
+      "effect": "Remove this unit and the target from the battlefield, then set them up again on the battlefield wholly within 6\" of each other and more than 7\" from all enemy units.",
+      "phase": "movement",
+      "declare": "If this unit is not in combat, pick a friendly non-**^^Hero Nighthaunt^^** unit that is not in combat and is wholly within 12\" of this unit to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

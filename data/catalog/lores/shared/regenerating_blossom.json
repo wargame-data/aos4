@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.regenerating_blossom",
+  "type": "prayer",
+  "name": "Regenerating Blossom",
+  "faction": "shared",
+  "lore": "prayers_of_the_jade_soul",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "**Heal (D3)** each unit (friendly and enemy) within 3\" of the target. If the chanting roll was 8+, **Heal (3)** each unit (friendly and enemy) within 3\" of the target instead.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible terrain feature within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

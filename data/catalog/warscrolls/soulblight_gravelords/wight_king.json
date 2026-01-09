@@ -1,0 +1,77 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.soulblight_gravelords.wight_king",
+  "bsdataId": "8dc4-aa60-df82-d6a5",
+  "type": "warscroll",
+  "name": "Wight King",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "death",
+    "deathrattle",
+    "hero",
+    "infantry",
+    "ward (6+)",
+    "faction:soulblight_gravelords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 5,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Baleful Tomb Blade",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "DEATHRATTLE",
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Ancient Strategies",
+      "type": "reaction",
+      "effect": "Pick a friendly non-**^^Hero Deathrattle Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the ^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "King of Shambling Bones",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, the target's melee weapons have **Crit (2 Hits)** for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Deathrattle^^** unit within this unit's combat range to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "e3a0-cfae-cbb3-0215"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.kharadron_overlords.null_khemist",
+  "bsdataId": "c2f9-9e81-959a-2251",
+  "type": "warscroll",
+  "name": "Null-Khemist",
+  "faction": "kharadron_overlords",
+  "keywords": [
+    "duardin",
+    "hero",
+    "infantry",
+    "order",
+    "skyfarer",
+    "faction:kharadron_overlords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 8,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Prospecting Clamp",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    },
+    {
+      "name": "Null-gas Extinguisher",
+      "type": "ranged",
+      "attacks": "3D6",
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "range": "8\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "DUARDIN",
+    "KHARADRON OVERLORDS",
+    "SKYFARER"
+  ],
+  "abilities": [
+    {
+      "name": "Protection of the Void",
+      "type": "passive",
+      "effect": "While they are wholly within 12\" of this unit, friendlt **^^Skyfarer^^** units have **^^Ward (5+)^^** against mortal damage inflicted by **^^Spell^^** abilities, **^^Prayer^^** abilities and abilities used by **^^Manifestations^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Nullsuit",
+      "type": "passive",
+      "effect": "Double the Damage characteristic of this unit's weapons for attacks that target **^^Priests^^**, **^^Wizards^^**, or **^^Manifestations^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "d4a9-b568-9525-d6ac"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

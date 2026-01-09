@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.summon_chronomantic_cogs",
+  "type": "spell",
+  "name": "Summon Chronomantic Cogs",
+  "faction": "shared",
+  "lore": "aetherwrought_machineries",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Chronomantic Cogs** endless spell wholly within 12\" of the caster and visible to them.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Chronomantic Cogs** endless spell on the battlefield, pick a friendly **^^Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

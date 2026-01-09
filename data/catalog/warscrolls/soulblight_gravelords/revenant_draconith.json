@@ -1,0 +1,120 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.soulblight_gravelords.revenant_draconith",
+  "bsdataId": "103c-9945-644a-361c",
+  "type": "warscroll",
+  "name": "Revenant Draconith",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "death",
+    "fly",
+    "monster",
+    "ward (6+)",
+    "faction:soulblight_gravelords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 16,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Pestilential Miasma",
+      "type": "ranged",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Draconic Maw",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Draconic Claws",
+      "type": "melee",
+      "attacks": 7,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Draconic Claws** is 5.",
+      "color": "Black"
+    },
+    {
+      "name": "Death on Tattered Wings",
+      "type": "passive",
+      "effect": "Set up this unit in reserve **high above the battlefield**. It has now been deployed.",
+      "declare": "Pick this unit if it has not been deployed.",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Loathsome Descent",
+      "type": "passive",
+      "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Pick this unit if it is **high above the battlefield**.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Red Ruin",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+, resolve the following effects:\n• Inflict an amount of mortal damage on the target equal to the roll.\n• **Heal (X)** this unit where **X** is an amount equal to the roll.\nThis unit can be removed from the battlefield and set up in reserve **high above the battlefield**.",
+      "phase": "any",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Purple",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "e3a0-cfae-cbb3-0215"
+  }
+}

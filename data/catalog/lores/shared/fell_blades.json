@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.fell_blades",
+  "type": "spell",
+  "name": "Fell Blades",
+  "faction": "shared",
+  "lore": "lore_of_the_underworlds",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, each time the target uses a **^^Fight^^** ability, if all of its attacks targeted the same enemy unit, after that ability has been resolved, subtract 1 from save rolls for that enemy unit for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Nighthaunt Wizard^^** to cast this spell, pick a visible friendly **^^Nighthaunt^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

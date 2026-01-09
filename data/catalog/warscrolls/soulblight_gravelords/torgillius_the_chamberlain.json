@@ -1,0 +1,95 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.soulblight_gravelords.torgillius_the_chamberlain",
+  "bsdataId": "3e64-75ef-6627-5554",
+  "type": "warscroll",
+  "name": "Torgillius the Chamberlain",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "death",
+    "hero",
+    "infantry",
+    "unique",
+    "ward (6+)",
+    "wizard (1)",
+    "faction:soulblight_gravelords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Familiars’ Fangs and Claws",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Necrotising Bolts",
+      "type": "ranged",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "18\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Failing Fortitude",
+      "type": "spell",
+      "effect": "Until the start of your next turn, subtract 1 from wound rolls for the target’s attacks.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Trusted Lieutenant",
+      "type": "passive",
+      "effect": "This unit can use the ‘Deathly Invocation’ ability even if a different friendly unit has already used it this turn, but units that have already been picked to be targets of that ability this turn cannot be picked to be targets.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "05a6-726c-4748-8360"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

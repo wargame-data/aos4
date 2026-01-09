@@ -1,0 +1,60 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.raptoryx",
+  "bsdataId": "7995-d071-b30e-8eb8",
+  "type": "warscroll",
+  "name": "Raptoryx",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "beast",
+    "chaos",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 6,
+    "default": 6,
+    "max": 6
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Razor-sharp Beak and Talons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEAST",
+    "SLAVES TO DARKNESS"
+  ],
+  "abilities": [
+    {
+      "name": "Crazed Flock",
+      "type": "passive",
+      "effect": "If this unit charged this turn, for the rest of the turn, add 1 to the Attacks characteristic of its melee weapons. This ability also affects Companion weapons.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "6357-5d77-a2b2-f86b"
+  }
+}

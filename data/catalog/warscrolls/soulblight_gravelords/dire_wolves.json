@@ -1,0 +1,66 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.soulblight_gravelords.dire_wolves",
+  "bsdataId": "663e-ba88-e7a3-e042",
+  "type": "warscroll",
+  "name": "Dire Wolves",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "beast",
+    "champion (1/10)",
+    "deadwalkers",
+    "death",
+    "ward (6+)",
+    "faction:soulblight_gravelords"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Rotting Fangs and Claws",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "BEAST",
+    "CHAMPION (1/10)",
+    "DEADWALKERS",
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "On the Hunt",
+      "type": "passive",
+      "effect": "This unit can use a **^^Run^^** ability and still use **^^Charge^^** abilities later in the turn.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "e3a0-cfae-cbb3-0215"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.seraphon.saurus_scar_veteran_on_carnosaur",
+  "bsdataId": "6a0c-795a-49f9-67e9",
+  "type": "warscroll",
+  "name": "Saurus Scar-Veteran on Carnosaur",
+  "faction": "seraphon",
+  "keywords": [
+    "hero",
+    "monster",
+    "order",
+    "saurus",
+    "faction:seraphon"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 14,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Relic Celestite Weapon",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    },
+    {
+      "name": "Carnosaur’s Massive Jaws",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Carnosaur’s Clawed Forelimbs",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 3,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "SAURUS",
+    "SERAPHON"
+  ],
+  "abilities": [
+    {
+      "name": "Terror",
+      "type": "passive",
+      "effect": "Subtract 2 from the control scores of enemy units while they are in combat with this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    },
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Carnosaur’s Massive Jaws** is 2.",
+      "color": "Black"
+    },
+    {
+      "name": "Maim and Tear",
+      "type": "once-per-turn",
+      "effect": "Roll a number of dice equal to the number of damage points the target has. For each 5+, inflict 1 mortal damage on the target.",
+      "phase": "any",
+      "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Purple",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "e9d0-a23-6a15-1fcb"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

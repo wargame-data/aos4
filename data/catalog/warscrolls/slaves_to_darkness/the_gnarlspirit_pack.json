@@ -1,0 +1,73 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.the_gnarlspirit_pack",
+  "bsdataId": "8046-a145-5d79-aa66",
+  "type": "warscroll",
+  "name": "The Gnarlspirit Pack",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "champion",
+    "chaos",
+    "darkoath",
+    "infantry",
+    "legends",
+    "undivided",
+    "unique",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 4,
+    "default": 4,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Gnarlspirit Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DARKOATH",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "UNDIVIDED"
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Dark Sacrifice",
+      "type": "once-per-battle",
+      "effect": "If an unmodified casting roll for this unit this phase was 8+, this unit has **^^Ward (5+)^^** for the rest of the battle.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Sarrakkar Blackwing",
+      "type": "passive",
+      "effect": "While this unit’s **Sarrakkar Blackwing** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

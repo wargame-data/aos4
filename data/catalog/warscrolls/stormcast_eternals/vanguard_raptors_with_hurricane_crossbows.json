@@ -1,0 +1,84 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.vanguard_raptors_with_hurricane_crossbows",
+  "bsdataId": "7a78-2d6e-558f-9e39",
+  "type": "warscroll",
+  "name": "Vanguard-Raptors with Hurricane Crossbows",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "champion",
+    "infantry",
+    "order",
+    "vanguard chamber",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Hurricane Crossbow",
+      "type": "ranged",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Crit (2 Hits)"
+      ]
+    },
+    {
+      "name": "Heavy Stock",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "STORMCAST ETERNALS",
+    "VANGUARD CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Coordinated Strike",
+      "type": "passive",
+      "effect": "Add 1 to wound rolls for combat attacks made by friendly **^^Vanguard Chamber^^** units that target that enemy unit for the rest of the turn.",
+      "phase": "shooting",
+      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Hurricane Crossbows** to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Vanguard Chamber",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn, this unit can use **^^Shoot^^** and/or **^^Charge^^** abilities even if it used a **^^Run^^** or **^^Retreat^^** ability in the same turn.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "43cd-e9ef-5d4d-87c4"
+  }
+}

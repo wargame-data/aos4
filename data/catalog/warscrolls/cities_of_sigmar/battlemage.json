@@ -1,0 +1,65 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.battlemage",
+  "bsdataId": "d1f3-97e9-f50a-d1a4",
+  "type": "warscroll",
+  "name": "Battlemage",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "hero",
+    "human",
+    "infantry",
+    "order",
+    "wizard (1)",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Wizard’s Staff",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Magic of the Realms",
+      "type": "passive",
+      "effect": "Pick a **^^Spell^^** ability that this unit can use. For the rest of the battle, add 1 to casting rolls for this unit when it uses that **^^Spell^^** ability.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

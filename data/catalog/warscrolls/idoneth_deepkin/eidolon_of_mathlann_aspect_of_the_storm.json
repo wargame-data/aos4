@@ -1,0 +1,91 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.idoneth_deepkin.eidolon_of_mathlann_aspect_of_the_storm",
+  "bsdataId": "2f12-e371-2aa-baa2",
+  "type": "warscroll",
+  "name": "Eidolon of Mathlann, Aspect of the Storm",
+  "faction": "idoneth_deepkin",
+  "keywords": [
+    "aelf",
+    "eidolon",
+    "fly",
+    "hero",
+    "monster",
+    "order",
+    "ward (5+)",
+    "faction:idoneth_deepkin"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 12,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Spear of Repressed Fury and Crulhook",
+      "type": "melee",
+      "attacks": 7,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "EIDOLON",
+    "FLY",
+    "IDONETH DEEPKIN",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Drench With Hate",
+      "type": "passive",
+      "effect": "Add 1 to wound rolls for combat attacks made by friendly **^^Idoneth Deepkin^^** units while they are wholly within 12\" of this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Crashing Upon the Foe",
+      "type": "passive",
+      "effect": "This unit can use **^^Charge^^** abilities even if it used a **^^Retreat^^** ability in the same turn. In addition, no mortal damage is inflicted on this unit by **^^Retreat^^** abilities.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Pulled Into the Depths",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "charge",
+      "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9866-239b-07f0-d92b"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

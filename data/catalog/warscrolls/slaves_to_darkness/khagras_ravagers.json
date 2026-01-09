@@ -1,0 +1,73 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.khagras_ravagers",
+  "bsdataId": "c9bb-a2c8-8c92-a00c",
+  "type": "warscroll",
+  "name": "Khagra's Ravagers",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "champion",
+    "chaos",
+    "infantry",
+    "legends",
+    "unique",
+    "warriors of chaos",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 4,
+    "default": 4,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 3,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Hellforged Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "WARRIORS OF CHAOS"
+  ],
+  "abilities": [
+    {
+      "name": "Ravagers of the Mortal Realms",
+      "type": "passive",
+      "effect": "This unit has **^^Ward (5+)^^** while it is contesting an objective you control.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Zarshia Bittersoul",
+      "type": "passive",
+      "effect": "While this unit’s **Zarshia Bittersoul** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

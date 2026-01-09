@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.sequitors",
+  "bsdataId": "de73-4b2d-e8b7-106f",
+  "type": "warscroll",
+  "name": "Sequitors",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "champion",
+    "infantry",
+    "legends",
+    "order",
+    "sacrosanct chamber",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Stormsmite Greatmace",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    },
+    {
+      "name": "Sacrosanct Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "LEGENDS",
+    "SACROSANCT CHAMBER",
+    "STORMCAST ETERNALS"
+  ],
+  "abilities": [
+    {
+      "name": "Sequitor Aetheric Channelling",
+      "type": "passive",
+      "effect": "If this unit is contesting an objective you control, pick 1 of the following effects to apply for the rest of the turn:\n• Other than the **Companion** weapon ability, weapon abilities for attacks that target this unit have no effect.\n• This unit’s combat attacks score critical hits on unmodified hit rolls of 5+.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "87c-f122-a891-630e"
+  }
+}

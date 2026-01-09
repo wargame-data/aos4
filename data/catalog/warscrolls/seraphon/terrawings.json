@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.seraphon.terrawings",
+  "bsdataId": "c272-3fef-afc9-4f30",
+  "type": "warscroll",
+  "name": "Terrawings",
+  "faction": "seraphon",
+  "keywords": [
+    "beast",
+    "fly",
+    "order",
+    "faction:seraphon"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Snapping Beaks",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "BEAST",
+    "FLY",
+    "SERAPHON"
+  ],
+  "abilities": [
+    {
+      "name": "Nerve-shredding Screeches",
+      "type": "passive",
+      "effect": "Roll a D3. If the roll exceeds the target’s Control characteristic, the target cannot use commands for the rest of the turn.",
+      "phase": "shooting",
+      "declare": "Pick an enemy unit within 10\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Dispersed Formation",
+      "type": "passive",
+      "effect": "This unit has a coherency range of 2\".",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "e9d0-a23-6a15-1fcb"
+  }
+}

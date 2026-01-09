@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.helsmiths_of_hashut.anointed_sentinels",
+  "bsdataId": "c4f9-62a9-7f8f-1c2e",
+  "type": "warscroll",
+  "name": "Anointed Sentinels",
+  "faction": "helsmiths_of_hashut",
+  "keywords": [
+    "cavalry",
+    "champion",
+    "chaos",
+    "duardin",
+    "faction:helsmiths_of_hashut"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 4,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Thrice-cursed Glaive",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Anti-**^^Cavalry^^** (+1 Rend)",
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DUARDIN",
+    "HELSMITHS OF HASHUT"
+  ],
+  "abilities": [
+    {
+      "name": "Zealous Counter-Attack",
+      "type": "reaction",
+      "effect": "This unit has **^^Strike-first^^** for he rest of the turn.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Crush the Unworthy",
+      "type": "passive",
+      "effect": "Add 1 to charge rolls for each **daemonic power point** it has.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "487d-9798-0633-8040"
+  }
+}

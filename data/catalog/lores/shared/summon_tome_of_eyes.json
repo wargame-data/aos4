@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.summon_tome_of_eyes",
+  "type": "spell",
+  "name": "Summon Tome of Eyes",
+  "faction": "shared",
+  "lore": "manifestations_of_tzeentch",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Tome of Eyes** wholly within 12\" of the caster and visible to them.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Tome of Eyes** on the battlefield, pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

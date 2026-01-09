@@ -1,0 +1,66 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.bonesplitterz.savage_big_stabbas",
+  "bsdataId": "54d1-2695-3a76-6435",
+  "type": "warscroll",
+  "name": "Savage Big Stabbas",
+  "faction": "bonesplitterz",
+  "keywords": [
+    "destruction",
+    "infantry",
+    "legends",
+    "orruk",
+    "ward (6+)",
+    "faction:bonesplitterz"
+  ],
+  "sizes": {
+    "min": 2,
+    "default": 2,
+    "max": 2
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 4,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Gorktoof",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BONESPLITTERZ",
+    "LEGENDS",
+    "ORRUK",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Da Final Fling",
+      "type": "passive",
+      "effect": "While this unit is not in combat, each time a model in this unit is slain by a shooting attack and that model was within 12\" of the attacking unit, roll a dice. Add 2 to the roll if the attacking unit was a **^^Monster^^**. On a 4+, inflict D6 mortal damage on the attacking unit after the **^^Shoot^^** ability has been resolved.",
+      "color": "Blue",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "06c5-6322-e810-7967"
+  }
+}

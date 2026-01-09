@@ -1,0 +1,73 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.warpfire_throwers",
+  "bsdataId": "3101-8510-5da3-3af",
+  "type": "warscroll",
+  "name": "Warpfire Throwers",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "infantry",
+    "skryre",
+    "weapon team",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 3,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Rusty Knives",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Warpfire Thrower",
+      "type": "ranged",
+      "attacks": "2D6",
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 2,
+      "damage": 1,
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SKAVEN",
+    "SKRYRE",
+    "WEAPON TEAM"
+  ],
+  "abilities": [
+    {
+      "name": "Hidden Weapon Team",
+      "type": "passive",
+      "effect": "While this unit is within the combat range of a friendly **Clanrats** unit that has 5 or more models, and there are no other friendly **^^Weapon Team^^** units within that unit’s combat range, this unit is not visible to enemy units more than 13\" away.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  }
+}

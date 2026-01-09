@@ -1,0 +1,82 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.disciples_of_tzeentch.blue_horrors_and_brimstone_horrors",
+  "bsdataId": "6cb0-cc58-9cee-f204",
+  "type": "warscroll",
+  "name": "Blue Horrors and Brimstone Horrors",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "infantry",
+    "ward (6+)",
+    "faction:disciples_of_tzeentch"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Arcane Flames",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Wyrdflame"
+      ]
+    },
+    {
+      "name": "Spiteful Talons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Impish Talons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "DISCIPLES OF TZEENTCH",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Split Again",
+      "type": "passive",
+      "effect": "Each time a **Blue Horror** model in this unit is slain, before removing the model from play, roll a dice. On a 3+, you can add 1 **Brimstone Horrors** model to this unit.\n**Designer’s Note:** *You cannot have more than 10 Blue Horror models and 10 Brimstone Horrors models in a non-reinforced unit. You cannot have more than 20 Blue Horror models and 20 Brimstone Horrors models in a reinforced unit.*",
+      "color": "Black",
+      "abilityCategory": "Rallying"
+    }
+  ],
+  "publication": {
+    "name": "72d2-ae0-e519-f2f7"
+  }
+}

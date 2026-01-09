@@ -1,0 +1,90 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.judicators_with_skybolt_bows",
+  "bsdataId": "57c8-4a7e-b7f6-cf5b",
+  "type": "warscroll",
+  "name": "Judicators with Skybolt Bows",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "champion",
+    "infantry",
+    "legends",
+    "order",
+    "warrior chamber",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Storm Gladius",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1
+    },
+    {
+      "name": "Shockbolt Bow",
+      "type": "ranged",
+      "attacks": "D3+3",
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "18\"",
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Skybolt Bow",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "18\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "LEGENDS",
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Subduing Shots",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, the target cannot use **^^Rampage^^** abilities until the start of your next turn.",
+      "phase": "shooting",
+      "declare": "Pick a visible enemy **^^Monster^^** that had any damage points allocated to it this phase by this unit’s shooting attacks to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "87c-f122-a891-630e"
+  }
+}

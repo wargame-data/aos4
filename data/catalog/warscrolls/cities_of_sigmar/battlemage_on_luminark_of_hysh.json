@@ -1,0 +1,94 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.battlemage_on_luminark_of_hysh",
+  "bsdataId": "b1b8-a094-36c3-b25e",
+  "type": "warscroll",
+  "name": "Battlemage on Luminark of Hysh",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "hero",
+    "human",
+    "order",
+    "war machine",
+    "wizard (1)",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 12,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Searing Beam of Light",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "6+",
+      "rend": 0,
+      "damage": "⟝See 'Searing Beam of Light' ability⟞",
+      "range": "24\""
+    },
+    {
+      "name": "Warhorses' Steel-shod Hooves",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Wizard’s Staff",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Searing Beam of Light",
+      "type": "passive",
+      "effect": "Each time this unit attacks with its **Searing Beam of Light**, pick a point on the battlefield within range to be the target. If the attack scores a hit, draw a straight line between that point and the closest point on this unit’s base. Inflict D3 mortal damage on each visible unit (friendly and enemy) that the line passes across.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Aura of Protection",
+      "type": "passive",
+      "effect": "Friendly **^^Cities of Sigmar^^** units have **^^Ward (6+)^^** while they are wholly within 12\" of this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

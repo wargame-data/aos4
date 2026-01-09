@@ -1,0 +1,95 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.gloomspite_gitz.aleguzzler_gargant",
+  "bsdataId": "6774-35c0-997e-89c4",
+  "type": "warscroll",
+  "name": "Aleguzzler Gargant",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "destruction",
+    "legends",
+    "monster",
+    "faction:gloomspite_gitz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 12,
+    "save": "5+",
+    "control": 10
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "’Eadbutt",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 4
+    },
+    {
+      "name": "Massive Club",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2
+    },
+    {
+      "name": "Mighty Kick",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3"
+    },
+    {
+      "name": "Throwin’ Rocks",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3",
+      "range": "12\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Timberrrrr!",
+      "type": "passive",
+      "effect": "When this unit is destroyed, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of this unit. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Stuff 'Em in Me Bag",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. If the roll is at least double the target’s Health characteristic, 1 model in the target unit is slain.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

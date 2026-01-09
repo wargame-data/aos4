@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.idoneth_deepkin.ikon_of_the_sea",
+  "bsdataId": "565b-35a6-8589-d10b",
+  "type": "warscroll",
+  "name": "Ikon of the Sea",
+  "faction": "idoneth_deepkin",
+  "keywords": [
+    "aelf",
+    "akhelian",
+    "hero",
+    "infantry",
+    "order",
+    "faction:idoneth_deepkin"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "7\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Tidal Glaive",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "AKHELIAN",
+    "IDONETH DEEPKIN"
+  ],
+  "abilities": [
+    {
+      "name": "The Surging Sea",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for the targets, to a maximum of 3.",
+      "phase": "charge",
+      "declare": "Pick this unit and up to 1 friendly **^^Idoneth Deepkin^^** unit within this unit's combat range to be the targets.",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Rapid Approach",
+      "type": "passive",
+      "effect": "This unit can use a **^^Run^^** ability and still use **^^Charge^^** abilities later in the turn",
+      "color": "Black",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "9866-239b-07f0-d92b"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

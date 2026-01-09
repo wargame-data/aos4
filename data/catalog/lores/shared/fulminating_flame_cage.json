@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.fulminating_flame_cage",
+  "type": "spell",
+  "name": "Fulminating Flame-cage",
+  "faction": "shared",
+  "lore": "lore_of_magmic_fury",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, each time your opponent declares an ability for the target, as a reaction, roll a dice. On a 4+, inflict 1 mortal damage on the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Wizard^^** to cast this spell, pick an enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

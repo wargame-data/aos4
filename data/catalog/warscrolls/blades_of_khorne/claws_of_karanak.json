@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.blades_of_khorne.claws_of_karanak",
+  "bsdataId": "e7fd-3790-fce1-2de9",
+  "type": "warscroll",
+  "name": "Claws of Karanak",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "bloodbound",
+    "champion (1/8)",
+    "chaos",
+    "infantry",
+    "faction:blades_of_khorne"
+  ],
+  "sizes": {
+    "min": 8,
+    "default": 8,
+    "max": 8
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Weapons of the Hunt",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Blood-hungry",
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "BLOODBOUND",
+    "CHAMPION (1/8)"
+  ],
+  "abilities": [
+    {
+      "name": "The Scent of Blood",
+      "type": "passive",
+      "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase.",
+      "color": "Black",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Pack Hunters",
+      "type": "passive",
+      "effect": "While this unit is wholly within 12\" of a friendly **Flesh Hounds** unit or a friendly **Karanak**, this unit’s combat attacks score critical hits on unmodified hit rolls of 5+.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "81a9-3dbf-dbc5-672e"
+  }
+}

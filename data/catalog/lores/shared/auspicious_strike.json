@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.auspicious_strike",
+  "type": "prayer",
+  "name": "Auspicious Strike",
+  "faction": "shared",
+  "lore": "prayer_lore_the_croneseers_pariahs",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, each time the unmodified hit roll for an attack made against the target is 1, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved. If the chanting roll was 10+, inflict 1 mortal damage foreach unmodified hit roll of 1-2 instead.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Croneseer’s Pariahs Priest^^** to chant this prayer, pick a visible friendly **^^Croneseer’s Pariahs^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Shooting"
+}

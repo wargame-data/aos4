@@ -1,0 +1,90 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.chaos_lord_on_karkadrak",
+  "bsdataId": "7a78-c427-452-436b",
+  "type": "warscroll",
+  "name": "Chaos Lord on Karkadrak",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "cavalry",
+    "chaos",
+    "hero",
+    "warriors of chaos",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "9\"",
+    "health": 10,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Hexed Weapons",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Karkadrak’s Claws and Horn",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SLAVES TO DARKNESS",
+    "WARRIORS OF CHAOS"
+  ],
+  "abilities": [
+    {
+      "name": "Drive the Legions Forward",
+      "type": "once-per-battle",
+      "effect": "Add 2 to charge rolls for the targets for the rest of the turn.",
+      "phase": "charge",
+      "declare": "Pick this unit and up to 2 friendly non-**^^Hero^^** non-**^^Cavalry Warriors of Chaos^^** units wholly within 12\" of this unit to be the targets.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Brutish Rampage",
+      "type": "passive",
+      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick up to 3 enemy units within 1\" of it to be the targets.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "6357-5d77-a2b2-f86b"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

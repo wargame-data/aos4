@@ -1,0 +1,79 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.freeguild_cavaliers_scourge_of_ghyran",
+  "bsdataId": "1d9d-c777-641c-68ba",
+  "type": "warscroll",
+  "name": "Freeguild Cavaliers (Scourge of Ghyran)",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "cavalry",
+    "champion",
+    "human",
+    "order",
+    "standard bearer (1/5)",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 3,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Warhorse’s Steel‑shod Hooves",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Cavalier Weapon",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "STANDARD BEARER (1/5)"
+  ],
+  "abilities": [
+    {
+      "name": "The Red Work",
+      "type": "passive",
+      "effect": "Roll a dice. Add 1 to the roll if there are fewer models in this unit than the total number of enemy models in units that are in combat with this unit. On a 4+, for the rest of the turn, the targets count as having charged.",
+      "phase": "charge",
+      "declare": "If this unit is in combat and has not charged this turn, pick this unit and up to 1 friendly **Freeguild Cavalier-Marshal** or **Freeguild Marshal on Griffon** within this unit’s combat range to be the targets.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "f894-7929-f79a-a269"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.kruleboyz.gobsprakk_the_mouth_of_mork",
+  "bsdataId": "98a8-f41c-6668-fed1",
+  "type": "warscroll",
+  "name": "Gobsprakk, the Mouth of Mork",
+  "faction": "kruleboyz",
+  "keywords": [
+    "destruction",
+    "fly",
+    "hero",
+    "monster",
+    "unique",
+    "ward (6+)",
+    "warmaster",
+    "wizard (2)",
+    "faction:kruleboyz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 14,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Bogbark Staff",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": "D3",
+      "abilities": [
+        "Anti-**^^Wizard^^** (+1 Rend)",
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Killabeak’s Stinger",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D6",
+      "abilities": [
+        "Crit (Mortal)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Killabeak’s Talons and Beak",
+      "type": "melee",
+      "attacks": 7,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Anti-**^^Wizard^^** (+1 Rend)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "FLY",
+    "KRULEBOYZ",
+    "WARD (6+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Killabeak’s Talons and Beak** is 5.",
+      "color": "Black"
+    },
+    {
+      "name": "Screamin' Mandrakk",
+      "type": "reaction",
+      "effect": "This unit uses the ‘Unbind’ ability but the unbinding roll is 3D6 instead of 2D6.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Crush to Death",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. If the roll exceeds the target’s Health characteristic, 1 model in the target unit is slain.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Mork Sez No!",
+      "type": "passive",
+      "effect": "Each time this unit unbinds a spell, inflict D3 mortal damage on the caster. If the unbinding roll was 10+, inflict D6 mortal damage on the caster instead.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Strangle Hex",
+      "type": "spell",
+      "effect": "Roll a number of dice equal to the target’s Health characteristic, to a maximum of 10. For each 4+, inflict 1 mortal damage on the target.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "8b1b-f2c7-890e-2bbe"
+  },
+  "wizard": 2,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,93 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.blades_of_khorne.skullmaster_herald_of_khorne",
+  "bsdataId": "383d-692c-7457-a03c",
+  "type": "warscroll",
+  "name": "Skullmaster, Herald of Khorne",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "cavalry",
+    "chaos",
+    "daemon",
+    "hero",
+    "ward (6+)",
+    "faction:blades_of_khorne"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 7,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Blade of Blood",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Blood-hungry",
+        "Crit (2 Hits)"
+      ]
+    },
+    {
+      "name": "Juggernaut’s Brazen Hooves",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Anti-**^^Cavalry^^** +1 Rend)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "DAEMON",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Slaughterous Charge",
+      "type": "passive",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "charge",
+      "declare": "If this unit charged this turn, pick a visible enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Herald of Trampling Death",
+      "type": "once-per-battle",
+      "effect": "For the rest of the turn, weapons used by this unit and the target have **Charge (+1 Damage)**.",
+      "phase": "charge",
+      "declare": "Pick a friendly **Bloodcrushers** unit within this unit’s combat range to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "de00-5d7f-9409-d250"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

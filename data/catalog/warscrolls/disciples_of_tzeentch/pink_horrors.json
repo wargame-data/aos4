@@ -1,0 +1,79 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.disciples_of_tzeentch.pink_horrors",
+  "bsdataId": "2631-6ae3-b25b-2bbf",
+  "type": "warscroll",
+  "name": "Pink Horrors",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "champion",
+    "chaos",
+    "daemon",
+    "infantry",
+    "musician (1/10)",
+    "standard bearer (1/10)",
+    "ward (6+)",
+    "faction:disciples_of_tzeentch"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Arcane Flames",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Wyrdflame"
+      ]
+    },
+    {
+      "name": "Taloned Hands",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DAEMON",
+    "DISCIPLES OF TZEENTCH",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Lunatic Demise",
+      "type": "passive",
+      "effect": "Each time a model in this unit is slain, before removing the model from play, pick 1 of the following effects: ***Split:*** Pick a friendly **Blue Horrors and Brimstone Horrors** unit within 12\" of this unit. Return up to 2 slain **Blue Horror** models to that unit. ***Petty Vengeance:*** Pick an enemy unit in combat with this unit to be the target and roll a dice. On a 4+, inflict 1 mortal damage on the target.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "72d2-ae0-e519-f2f7"
+  }
+}

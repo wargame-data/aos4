@@ -1,0 +1,74 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.flesh_eater_courts.abhorrant_cardinal",
+  "bsdataId": "2f4b-8632-d9fe-ac87",
+  "type": "warscroll",
+  "name": "Abhorrant Cardinal",
+  "faction": "flesh_eater_courts",
+  "keywords": [
+    "abhorrent",
+    "death",
+    "hero",
+    "infantry",
+    "priest (1)",
+    "ward (6+)",
+    "faction:flesh_eater_courts"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Cursed Crosier",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "ABHORRENT",
+    "FLESH-EATER COURTS",
+    "PRIEST (1)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Insular Contemplations",
+      "type": "passive",
+      "effect": "While this unit is more than 6\" from all enemy units, add 1 to chanting rolls for this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Banishing Liturgy",
+      "type": "passive",
+      "effect": "While you believe this **^^Delusion^^**:\n• Add 2 to banishment rolls for friendly **^^Flesh-eater Courts^^** units.\n• Friendly **^^Flesh-eater Courts^^** units have **^^Ward (4+)^^** against damage points inflicted by **^^Spell^^** abilities, **^^Prayer^^** abilities, and abilities used by **^^Manifestations^^**.",
+      "keywords": [
+        "**^^DELUSION^^**"
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "wizard": null,
+  "priest": 1,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.gryph_hounds",
+  "bsdataId": "1e20-a039-6cc2-fc6c",
+  "type": "warscroll",
+  "name": "Gryph-hounds",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "beast",
+    "champion",
+    "order",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 6,
+    "default": 6,
+    "max": 6
+  },
+  "stats": {
+    "move": "9\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Vicious Beak and Claws",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "BEAST",
+    "CHAMPION",
+    "STORMCAST ETERNALS"
+  ],
+  "abilities": [
+    {
+      "name": "Warning Cry",
+      "type": "passive",
+      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
+      "phase": "shooting",
+      "declare": "Pick an enemy unit within 12\" of this unit that was set up this turn. Then, pick up to 3 friendly **^^Stormcast Eternals^^** units armed with ranged weapons that are within 12\" of that enemy unit to be the targets.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "43cd-e9ef-5d4d-87c4"
+  }
+}

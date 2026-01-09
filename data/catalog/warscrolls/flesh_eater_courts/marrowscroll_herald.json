@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.flesh_eater_courts.marrowscroll_herald",
+  "bsdataId": "c9ce-303a-ccbb-65de",
+  "type": "warscroll",
+  "name": "Marrowscroll Herald",
+  "faction": "flesh_eater_courts",
+  "keywords": [
+    "death",
+    "hero",
+    "infantry",
+    "noble",
+    "ward (6+)",
+    "faction:flesh_eater_courts"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Bone Scythe",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLESH-EATER COURTS",
+    "NOBLE",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Infected",
+      "type": "reaction",
+      "effect": "Roll a dice. On a 5+:\n• If they declared a command, that command has no effect, it still counts as having been used and the command points spent to use the command are still lost.\n• If they declared a **^^Spell^^** or **^^Prayer^^** ability, that spell or prayer fails.\nThis reaction can be used more than once per phase but only once per command, **^^Spell^^** ability or **^^Prayer^^** ability.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "The King's Entreaty",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, your opponent must decide whether the target will accept or reject the entreaty offered by this unit.\n***Accept:*** The target has the **^^Infected^^** keyword for the rest of the battle.\n***Reject:*** The target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "charge",
+      "declare": "Pick a visible enemy unit within 6\" of this unit to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Special"
+    }
+  ],
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

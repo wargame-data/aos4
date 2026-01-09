@@ -1,0 +1,143 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ogor_mawtribes.huskard_on_stonehorn",
+  "bsdataId": "8bfb-791d-158b-35a2",
+  "type": "warscroll",
+  "name": "Huskard on Stonehorn",
+  "faction": "ogor_mawtribes",
+  "keywords": [
+    "beastclaw raiders",
+    "destruction",
+    "hero",
+    "monster",
+    "ogor",
+    "priest (1)",
+    "faction:ogor_mawtribes"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 14,
+    "save": "4+",
+    "control": 10
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Stonehorn’s Hooves",
+      "type": "melee",
+      "attacks": "D6",
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Punches and Kicks",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Stonehorn’s Rock-hard Horns",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Harpoon Launcher",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "18\""
+    },
+    {
+      "name": "Chaintrap",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 3,
+      "range": "12\"",
+      "abilities": [
+        "Anti‑**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Blood Vulture",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "range": "24\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BEASTCLAW RAIDERS",
+    "OGOR",
+    "OGOR MAWTRIBES",
+    "PRIEST (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Stonehorn’s Rock-hard Horns** is 4.",
+      "color": "Black"
+    },
+    {
+      "name": "Stone Skeleton",
+      "type": "passive",
+      "effect": "Ignore the first damage point that would be allocated to this unit in each phase.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Everwinter's Goad",
+      "type": "once-per-turn",
+      "effect": "Roll a dice for each target. On a 3+:\n• If the target is a friendly **^^Ogor Mawtribes^^** unit, its **Companion** weapons have Crit (2 Hits) for the rest of the turn.\n• If the target is an enemy unit, subtract 1 from hit rolls for attacks made with its **Companion** weapons for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick each friendly and enemy **^^Monster^^** within this unit’s combat range to be the targets.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "2d6e-3ea2-52fe-a38"
+  },
+  "wizard": null,
+  "priest": 1,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.maggotkin_of_nurgle.feculent_gnarlmaw",
+  "bsdataId": "f4aa-9ef3-286-f6db",
+  "type": "warscroll",
+  "name": "Feculent Gnarlmaw",
+  "faction": "maggotkin_of_nurgle",
+  "keywords": [
+    "chaos",
+    "faction terrain",
+    "ward (5+)",
+    "faction:maggotkin_of_nurgle"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "0\"",
+    "health": 7,
+    "save": "5+",
+    "control": 0
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Maggot-infested Mouth",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "FACTION TERRAIN",
+    "MAGGOTKIN OF NURGLE",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Riddled With Disease",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 4+, the target has the **^^Diseased^^** keyword.",
+      "phase": "any",
+      "declare": "Pick an enemy unit within 6\" of this terrain feature to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9c71-86cb-e1d0-ec8d"
+  }
+}

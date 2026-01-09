@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.beasts_of_chaos.grashraks_despoilers",
+  "bsdataId": "c675-1d79-171f-4047",
+  "type": "warscroll",
+  "name": "Grashrak's Despoilers",
+  "faction": "beasts_of_chaos",
+  "keywords": [
+    "brayherd",
+    "champion",
+    "infantry",
+    "legends",
+    "unique",
+    "faction:beasts_of_chaos"
+  ],
+  "sizes": {
+    "min": 6,
+    "default": 6,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Despoiler Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Despoiler Shortbow",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "15\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "regimentKeywords": [
+    "BEASTS OF CHAOS",
+    "BRAYHERD",
+    "CHAMPION",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Grashrak Fellhoof",
+      "type": "passive",
+      "effect": "While this unit’s **Grashrak Fellhoof** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Violent Despoilers",
+      "type": "passive",
+      "effect": "Add 1 to hit rolls for this unit’s attacks while it is wholly outside friendly territory.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

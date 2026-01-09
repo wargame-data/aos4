@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.darkoath_warqueen",
+  "bsdataId": "7f9-8a5a-4a59-769b",
+  "type": "warscroll",
+  "name": "Darkoath Warqueen",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "chaos",
+    "darkoath",
+    "hero",
+    "infantry",
+    "ward (5+)",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Rune-etched Axe",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DARKOATH",
+    "SLAVES TO DARKNESS",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Ruin-blessed Conqueror",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, for the rest of the turn, other friendly **^^Darkoath^^** units have **^^Ward (5+)^^** while they are contesting that objective.",
+      "phase": "hero",
+      "declare": "Pick an objective that this unit is contesting.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Oath of Supremacy",
+      "type": "once-per-battle",
+      "effect": "If this unit is wholly within enemy territory and charged this phase, for the rest of the battle, add 1 to hit rolls for combat attacks made by friendly **^^Darkoath^^** units while they are wholly within 12\" of this unit.",
+      "phase": "charge",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "6357-5d77-a2b2-f86b"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

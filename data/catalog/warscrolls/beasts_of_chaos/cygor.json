@@ -1,0 +1,92 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.beasts_of_chaos.cygor",
+  "bsdataId": "ce4c-4ffa-418c-adc6",
+  "type": "warscroll",
+  "name": "Cygor",
+  "faction": "beasts_of_chaos",
+  "keywords": [
+    "chaos",
+    "legends",
+    "monster",
+    "faction:beasts_of_chaos"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 15,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Desecrated Boulder",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3+3",
+      "range": "15\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Massive Horns",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Anti-**^^Manifestation^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEASTS OF CHAOS",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Consume Endless Spell",
+      "type": "once-per-turn",
+      "effect": "Roll 2D6. If the roll exceeds the target’s Banishment characteristic:\n• The target is banished.\n• **Heal (X)** this unit, where **X** is an amount equal to the roll.",
+      "phase": "combat",
+      "declare": "Pick an **^^Endless Spell^^** within 9\" of this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Massive Horns** is 4.",
+      "color": "Black"
+    },
+    {
+      "name": "Soul-eater",
+      "type": "passive",
+      "effect": "This unit can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**. Each time this unit unbinds a spell, inflict D3 mortal damage on the caster.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "3cc2-31d3-9dd2-f858"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.dracothian_guard_concussors",
+  "bsdataId": "1b86-303a-7b34-526b",
+  "type": "warscroll",
+  "name": "Dracothian Guard Concussors",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "cavalry",
+    "extremis chamber",
+    "order",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 2,
+    "default": 2,
+    "max": 2
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 5,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Stormblast",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D3",
+      "range": "10\"",
+      "abilities": [
+        "Crit (2 Hits)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Lightning Hammer",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Dracoth’s Claws and Fangs",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "EXTREMIS CHAMBER",
+    "STORMCAST ETERNALS"
+  ],
+  "abilities": [
+    {
+      "name": "Thunderstruck",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Extremis Chamber",
+      "type": "passive",
+      "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+      "color": "Green",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "43cd-e9ef-5d4d-87c4"
+  }
+}

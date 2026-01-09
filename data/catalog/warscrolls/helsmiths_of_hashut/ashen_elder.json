@@ -1,0 +1,72 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.helsmiths_of_hashut.ashen_elder",
+  "bsdataId": "3203-cefc-0ca4-1251",
+  "type": "warscroll",
+  "name": "Ashen Elder",
+  "faction": "helsmiths_of_hashut",
+  "keywords": [
+    "chaos",
+    "duardin",
+    "hero",
+    "infantry",
+    "priest (1)",
+    "faction:helsmiths_of_hashut"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Black Hammer of Hashut",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DUARDIN",
+    "HELSMITHS OF HASHUT",
+    "PRIEST (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Extract Power",
+      "type": "passive",
+      "effect": "If this unit is contesting an objective, a **Place of Power** or a terrain feature and that objective, **Place of Power** or terrain feature has a friendly desolation token, give this unit 1 ritual point.",
+      "color": "Purple",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Stoked Fanaticism",
+      "type": "passive",
+      "effect": "Ignore the first damage point allocated to each friendly non-**^^Hobgrot Helsmiths of Hashut^^** unit each phase while it is wholly within 6\" of this unit. Add 6\" to the range of this ability for each **daemonic power point** this unit has",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "487d-9798-0633-8040"
+  },
+  "wizard": null,
+  "priest": 1,
+  "unique": false,
+  "canJoinRegiment": null
+}

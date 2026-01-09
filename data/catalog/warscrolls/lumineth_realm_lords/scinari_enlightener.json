@@ -1,0 +1,93 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.lumineth_realm_lords.scinari_enlightener",
+  "bsdataId": "c36-bd13-c06d-5fe",
+  "type": "warscroll",
+  "name": "Scinari Enlightener",
+  "faction": "lumineth_realm_lords",
+  "keywords": [
+    "aelf",
+    "hero",
+    "infantry",
+    "order",
+    "scinari",
+    "wizard (2)",
+    "faction:lumineth_realm_lords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Crescent Staff",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Enlightener Blade",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "LUMINETH REALM-LORDS",
+    "SCINARI",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Rune of Enthlai",
+      "type": "reaction",
+      "effect": "If that spell is successfully cast, roll a dice. On a 3+, after resolving the effect of that spell, this unit can immediately cast that spell a second time using the same casting roll. Do not count the second spell towards the number of **^^Spell^^** abilities this unit can use this turn.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Ethereal Blessings",
+      "type": "spell",
+      "effect": "Ignore all modifiers to save rolls for the target (positive and negative) until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick a visible friendly **^^Lumineth Realm‑lords Infantry^^** unit wholly within 18\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "9ed1-cf74-eb97-dee2"
+  },
+  "wizard": 2,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

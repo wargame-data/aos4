@@ -1,0 +1,100 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.hedonites_of_slaanesh.syllesske_the_vengeful_allegiance_scourge_of_ghyran",
+  "bsdataId": "8d85-ce05-2e48-02e9",
+  "type": "warscroll",
+  "name": "Syll'Esske, the Vengeful Allegiance (Scourge of Ghyran)",
+  "faction": "hedonites_of_slaanesh",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "hero",
+    "infantry",
+    "sybarite",
+    "unique",
+    "ward (5+)",
+    "wizard (1)",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 9,
+    "save": "4+",
+    "control": 4
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Axe of Dominion",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3
+    },
+    {
+      "name": "Scourging Whip",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "HEDONITES OF SLAANESH",
+    "SYBARITE",
+    "WARD (5+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Wandering Minds",
+      "type": "spell",
+      "effect": "If you picked a **^^Sybarite^^** target, subtract 1 from ward rolls for damage points inflicted by its combat attacks until the start of your next turn. If you picked a **^^Daemon^^** target, it has **^^Ward (5+)^^** until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick up to 1 visible friendly non-**^^Hero Sybarite Infantry^^** unit and up to 1 visible friendly non-**^^Hero Hedonites of Slaanesh Daemon Infantry^^** unit to be the targets, then make a casting roll of 2D6.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Violent Offerings",
+      "type": "passive",
+      "effect": "If any damage points were allocated to an enemy **^^Wizard^^** or **^^Priest^^** by this unit’s combat attacks this turn and that enemy unit has been destroyed, add 1 to this unit’s power level for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Champions of the Gilded Throne",
+      "type": "passive",
+      "effect": "When players are alternating picking units to use a **^^Fight^^** ability, when it is your turn to pick a unit, instead of picking 1 unit, you can pick a friendly non-**^^Hero Hedonites of Slaanesh Daemon^^** unit wholly within 18\" of this unit and a friendly non-**^^Hero Sybarite^^** unit wholly within 18\" of this unit. Resolve the second **^^Fight^^** ability immediately after the first.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "f894-7929-f79a-a269"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

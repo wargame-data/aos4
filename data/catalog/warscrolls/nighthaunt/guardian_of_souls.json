@@ -1,0 +1,69 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.nighthaunt.guardian_of_souls",
+  "bsdataId": "76b8-eb95-f916-c5b5",
+  "type": "warscroll",
+  "name": "Guardian of Souls",
+  "faction": "nighthaunt",
+  "keywords": [
+    "death",
+    "fly",
+    "hero",
+    "infantry",
+    "ward (5+)",
+    "wizard (1)",
+    "faction:nighthaunt"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Chill Blade",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Nightmare Lantern",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, add 1 to wound rolls for the target's attacks for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick a visible friendly **^^Nighthaunt^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

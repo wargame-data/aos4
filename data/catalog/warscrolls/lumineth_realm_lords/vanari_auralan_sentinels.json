@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.lumineth_realm_lords.vanari_auralan_sentinels",
+  "bsdataId": "49b1-940c-50a1-24c9",
+  "type": "warscroll",
+  "name": "Vanari Auralan Sentinels",
+  "faction": "lumineth_realm_lords",
+  "keywords": [
+    "aelf",
+    "champion",
+    "infantry",
+    "order",
+    "vanari",
+    "faction:lumineth_realm_lords"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Auralan Bow",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "range": "18\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Sentinel Blades",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CHAMPION",
+    "LUMINETH REALM-LORDS",
+    "VANARI"
+  ],
+  "abilities": [
+    {
+      "name": "Lofted Shots",
+      "type": "passive",
+      "effect": "For the rest of the turn, add 6\" to the Range characteristic of this unit’s **Auralan Bows** but subtract 1 from hit rolls for this unit’s shooting attacks.",
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "9ed1-cf74-eb97-dee2"
+  }
+}

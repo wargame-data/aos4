@@ -1,0 +1,119 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.hedonites_of_slaanesh.shalaxi_helbane",
+  "bsdataId": "288-b306-7776-96b5",
+  "type": "warscroll",
+  "name": "Shalaxi Helbane",
+  "faction": "hedonites_of_slaanesh",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "hero",
+    "monster",
+    "unique",
+    "ward (5+)",
+    "warmaster",
+    "wizard (2)",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "14\"",
+    "health": 16,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Impaling Claws",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 4
+    },
+    {
+      "name": "Soulpiercer",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "2+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Anti‑**^^Hero^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "HEDONITES OF SLAANESH",
+    "WARD (5+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Excess of Violence",
+      "type": "once-per-battle",
+      "effect": "The target can use 2 **^^Fight^^** abilities this turn. After the first is used, however, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick a friendly non-**^^Hero Hedonites of Slaanesh^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Paramount Hunter",
+      "type": "reaction",
+      "effect": "If this unit is not in combat, it can immediately move 2D6\". It can pass through the combat ranges of enemy units but it must end that move within ½\" of that **^^Hero^^**. If it does so, this unit has charged, and that **^^Hero^^**’s **^^Charge^^** ability has no effect.",
+      "keywords": [
+        "**^^CORE^^**",
+        "**^^MOVE^^**",
+        "**^^CHARGE^^**",
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Supernatural Grace",
+      "type": "passive",
+      "effect": "Subtract 1 from hit rolls for combat attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Refine Senses",
+      "type": "spell",
+      "effect": "For the rest of the turn:\n• Add 1 to wound rolls for this unit’s attacks that target enemy **^^Heroes^^**.\n• Add 1 to save rolls for attacks made by enemy **^^Heroes^^** that target this unit",
+      "phase": "hero",
+      "declare": "Make a casting roll of 2D6.",
+      "castingValue": 4,
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Soulpiercer** is 4.",
+      "color": "Black"
+    }
+  ],
+  "publication": {
+    "name": "95fc-e96f-a916-bba1"
+  },
+  "wizard": 2,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

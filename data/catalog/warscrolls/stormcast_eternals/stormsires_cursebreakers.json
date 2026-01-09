@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.stormsires_cursebreakers",
+  "bsdataId": "fc52-c5fb-55f9-c25a",
+  "type": "warscroll",
+  "name": "Stormsire's Cursebreakers",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "champion",
+    "infantry",
+    "legends",
+    "order",
+    "sacrosanct chamber",
+    "unique",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 3,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Cursebreaker Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "LEGENDS",
+    "SACROSANCT CHAMBER",
+    "STORMCAST ETERNALS"
+  ],
+  "abilities": [
+    {
+      "name": "Averon Stormsire",
+      "type": "passive",
+      "effect": "While this unit’s **Averon Stormsire** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Overwhelming Storm",
+      "type": "passive",
+      "effect": "For the rest of the phase, add 1 to wound rolls for the target’s combat attacks.",
+      "phase": "combat",
+      "declare": "If this unit is contesting an objective that you control, pick a friendly non-**^^Hero Stormcast Eternals Infantry^^** unit within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

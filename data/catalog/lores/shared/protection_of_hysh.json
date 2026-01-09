@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.protection_of_hysh",
+  "type": "spell",
+  "name": "Protection of Hysh",
+  "faction": "shared",
+  "lore": "lore_of_hysh",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 8,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, friendly **^^Lumineth Realm-lords^^** units have **^^Ward (5+)^^** while they are wholly within 12\" of the caster.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Lumineth Realm‑lords Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

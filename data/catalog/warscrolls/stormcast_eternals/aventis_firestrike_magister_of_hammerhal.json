@@ -1,0 +1,116 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.aventis_firestrike_magister_of_hammerhal",
+  "bsdataId": "a169-16d2-44ab-4c13",
+  "type": "warscroll",
+  "name": "Aventis Firestrike, Magister of Hammerhal",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "fly",
+    "hero",
+    "legends",
+    "monster",
+    "order",
+    "sacrosanct chamber",
+    "unique",
+    "wizard (2)",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "14\"",
+    "health": 12,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Staff of Hammerhal",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2
+    },
+    {
+      "name": "Loithar’s Stamping Hooves",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FLY",
+    "LEGENDS",
+    "SACROSANCT CHAMBER",
+    "STORMCAST ETERNALS",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Pyroelectric Blast",
+      "type": "spell",
+      "effect": "Inflict 3 mortal damage on the target, then inflict 1 mortal damage on each other enemy unit within 3\" of the target.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Comet Trail",
+      "type": "once-per-turn",
+      "effect": "For the rest of the phase, add 1 to hit rolls for combat attacks that target that enemy unit.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Thunderhead Crown",
+      "type": "passive",
+      "effect": "**Heal (3)** this unit.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "87c-f122-a891-630e"
+  },
+  "wizard": 2,
+  "priest": null,
+  "unique": true,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "SACROSANCT CHAMBER"
+      ],
+      "description": "Units with SACROSANCT CHAMBER keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

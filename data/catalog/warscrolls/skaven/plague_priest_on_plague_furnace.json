@@ -1,0 +1,119 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.plague_priest_on_plague_furnace",
+  "bsdataId": "6cc5-c1f4-812c-ee3b",
+  "type": "warscroll",
+  "name": "Plague Priest on Plague Furnace",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "hero",
+    "pestilens",
+    "priest (1)",
+    "war machine",
+    "ward (5+)",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 15,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Great Plague Censer",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 3,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Foetid Blades",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Crushing Bulk",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Warpstone-tipped Staff",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "PESTILENS",
+    "PRIEST (1)",
+    "SKAVEN",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Great Plague Censer** is 2.",
+      "color": "Black"
+    },
+    {
+      "name": "Corrupting Influence",
+      "type": "passive",
+      "effect": "Subtract 1 from ward rolls for enemy units while they are within 13\" of this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Altar of the Great Corruptor",
+      "type": "passive",
+      "effect": "Friendly **^^Pestilens^^** units have **^^Ward (6+)^^** while they are wholly within 13\" of this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  },
+  "wizard": null,
+  "priest": 1,
+  "unique": false,
+  "canJoinRegiment": null
+}

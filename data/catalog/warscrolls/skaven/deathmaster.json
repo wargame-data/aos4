@@ -1,0 +1,88 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.deathmaster",
+  "bsdataId": "8231-16-26f7-f4aa",
+  "type": "warscroll",
+  "name": "Deathmaster",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "eshin",
+    "hero",
+    "infantry",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "7\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Eshin Throwing Stars",
+      "type": "ranged",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": "D3",
+      "range": "10\"",
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Weeping Blade",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)",
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "ESHIN",
+    "SKAVEN"
+  ],
+  "abilities": [
+    {
+      "name": "Shadowy Killers",
+      "type": "passive",
+      "effect": "If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Running Death",
+      "type": "passive",
+      "effect": "While friendly **^^Eshin^^** units are wholly within 13\" of this unit, they can use **^^Shoot^^** and/or **^^Charge^^** abilities even if they used a **^^Run^^** ability in the same turn.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

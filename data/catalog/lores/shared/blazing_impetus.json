@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.blazing_impetus",
+  "type": "prayer",
+  "name": "Blazing Impetus",
+  "faction": "shared",
+  "lore": "vulkyn_gifts",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "The target can use the 'Normal Move' ability as if it were your movement phase. If the chanting roll was 10+, you can pick another eligible unit to be a second target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Fyreslayers Priest^^** to chant this prayer, pick a visible friendly **^^Fyreslayers^^** unit wholly within 12\" of them and that was not set up this turn to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Movement"
+}

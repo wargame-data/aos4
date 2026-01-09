@@ -1,0 +1,65 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.gloomspite_gitz.sporesplatta_fanatics",
+  "bsdataId": "618-3bfc-edf1-a568",
+  "type": "warscroll",
+  "name": "Sporesplatta Fanatics",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "destruction",
+    "infantry",
+    "moonclan",
+    "faction:gloomspite_gitz"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "2\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Spore-ball and Chain",
+      "type": "melee",
+      "attacks": "D3",
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "MOONCLAN"
+  ],
+  "abilities": [
+    {
+      "name": "Puffshroom Frenzy",
+      "type": "passive",
+      "effect": "Add 1 to the Attacks characteristic of melee weapons used by other friendly **^^Moonclan^^** units while they are wholly within 12\" of this unit. Subtract 1 from the Attacks characteristic of melee weapons used by enemy units while they are in combat with this unit.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "A Prod in the Right Direction",
+      "type": "passive",
+      "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "a395-7bc4-71eb-46df"
+  }
+}

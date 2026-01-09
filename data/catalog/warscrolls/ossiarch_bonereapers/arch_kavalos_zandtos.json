@@ -1,0 +1,97 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ossiarch_bonereapers.arch_kavalos_zandtos",
+  "bsdataId": "3d7d-bb9a-b450-8a47",
+  "type": "warscroll",
+  "name": "Arch-Kavalos Zandtos",
+  "faction": "ossiarch_bonereapers",
+  "keywords": [
+    "cavalry",
+    "death",
+    "hero",
+    "unique",
+    "ward (6+)",
+    "faction:ossiarch_bonereapers"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 8,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Kavalos Steed's Hooves, Teeth, and Barbed Tails",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "The Dark Lance",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "OSSIARCH BONEREAPERS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Spear of the Kavaloi",
+      "type": "passive",
+      "effect": "When this unit uses a **^^Charge^^** ability, it can pass through models in enemy **^^Infantry^^** units as if it had **^^Fly^^**.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Unstoppable Charge",
+      "type": "passive",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy **^^Infantry^^** unit that it passed across to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Still Their Breath!",
+      "type": "once-per-battle",
+      "effect": "If this unit is in combat, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly non-**^^Hero Ossiarch Bonereapers^^** units while they are wholly within 12\" of this unit.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "2f1e-fdf-1ac2-fa38"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

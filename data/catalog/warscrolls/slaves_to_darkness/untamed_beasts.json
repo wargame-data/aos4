@@ -1,0 +1,74 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.untamed_beasts",
+  "bsdataId": "056b-6839-dc2f-46db",
+  "type": "warscroll",
+  "name": "Untamed Beasts",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "champion (1/9)",
+    "chaos",
+    "infantry",
+    "legends",
+    "undivided",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 9,
+    "default": 9,
+    "max": 9
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Ghurish Hunting Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION (1/9)",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "UNDIVIDED"
+  ],
+  "abilities": [
+    {
+      "name": "Unleash the Beast",
+      "type": "passive",
+      "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase.",
+      "color": "Black",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Jagged Harpoon",
+      "type": "passive",
+      "effect": "Roll a D3. If the target is a **^^Beast^^** or **^^Monster^^**, roll a dice instead. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "any",
+      "declare": "If this unit includes a **First Fang**, pick an enemy unit in combat with this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

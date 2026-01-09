@@ -1,0 +1,102 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.battlemage_on_griffon",
+  "bsdataId": "d11e-a9e7-b74b-2643",
+  "type": "warscroll",
+  "name": "Battlemage on Griffon",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "fly",
+    "hero",
+    "human",
+    "monster",
+    "order",
+    "wizard (1)",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 15,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Amber Spear",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "12\"",
+      "abilities": [
+        "Anti‑**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Beaststaff",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3"
+    },
+    {
+      "name": "Griffon’s Razor Claws and Twin Beaks",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "FLY",
+    "HUMAN",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Ghurish Ferocity",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 2+, add 1 to the Damage characteristic of this unit’s **Griffon’s Razor Claws and Twin Beaks** for attacks that target enemy **^^Monsters^^** for the rest of the turn.",
+      "phase": "combat",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Griffon’s Razor Claws and Twin Beaks** is 4.",
+      "color": "Black"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

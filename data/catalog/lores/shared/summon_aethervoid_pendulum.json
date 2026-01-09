@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.summon_aethervoid_pendulum",
+  "type": "spell",
+  "name": "Summon Aethervoid Pendulum",
+  "faction": "shared",
+  "lore": "aetherwrought_machineries",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Set up an **Aethervoid Pendulum** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Aethervoid Pendulum**on the battlefield, pick a friendly **^^Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.plagueclaw",
+  "bsdataId": "2eef-4222-6eaf-1e39",
+  "type": "warscroll",
+  "name": "Plagueclaw",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "pestilens",
+    "war machine",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "3\"",
+    "health": 8,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Plagueclaw Catapult",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D6",
+      "range": "24\"",
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Crew’s Teeth and Knives",
+      "type": "melee",
+      "attacks": "D6",
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "PESTILENS",
+    "SKAVEN"
+  ],
+  "abilities": [
+    {
+      "name": "Bubonic Barrage",
+      "type": "passive",
+      "effect": "Each time this unit uses a **^^Shoot^^** ability, if all of its attacks targeted the same enemy unit, after that ability has been resolved, roll a dice. If the result is equal to or less than the number of models in that enemy unit that were slain by attacks made by this unit’s **Plagueclaw Catapult** this phase, that enemy unit has **^^Strike‑last^^** for the rest of the turn.",
+      "color": "Blue",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  }
+}

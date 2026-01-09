@@ -1,0 +1,90 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.knight_azyros",
+  "bsdataId": "7099-e138-068d-e37a",
+  "type": "warscroll",
+  "name": "Knight-Azyros",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "fly",
+    "hero",
+    "infantry",
+    "order",
+    "ruination chamber",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 6,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Star-blessed Weapon",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FLY",
+    "RUINATION CHAMBER",
+    "STORMCAST ETERNALS"
+  ],
+  "abilities": [
+    {
+      "name": "Light in the Dark",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, pick 1 of the following effects:\n• If the target is in combat, the target can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.\n• If the target is not in combat, the target can immediately use the ‘Normal Move’ ability as if it were your movement phase.",
+      "phase": "any",
+      "declare": "Pick a friendly **Prosecutors** unit wholly within 12\" of this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "The Light of Sigmar",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, pick 1 of the following effects:\n• For the rest of the turn, subtract 1 from hit rolls for attacks made by enemy units while they are in combat with this unit.\n• Heal (D3) each friendly **^^Stormcast Eternals^^** unit within this unit’s combat range.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Ruination Chamber",
+      "type": "reaction",
+      "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "43cd-e9ef-5d4d-87c4"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "RUINATION CHAMBER"
+      ],
+      "description": "Units with RUINATION CHAMBER keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

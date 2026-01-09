@@ -1,0 +1,74 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.sylvaneth.awakened_wyldwood",
+  "bsdataId": "cda9-53e5-99de-f836",
+  "type": "warscroll",
+  "name": "Awakened Wyldwood",
+  "faction": "sylvaneth",
+  "keywords": [
+    "faction terrain",
+    "order",
+    "ward (5+)",
+    "faction:sylvaneth"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1
+  },
+  "stats": {
+    "move": "0\"",
+    "health": 8,
+    "save": "4+",
+    "control": 0
+  },
+  "role": "other",
+  "weapons": [],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FACTION TERRAIN",
+    "SYLVANETH",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Deploy Wyldwood",
+      "type": "passive",
+      "effect": "Set up this terrain feature wholly within friendly territory, more than 3\" from all objectives and other terrain features. This terrain feature has now been deployed.",
+      "keywords": [
+        "**^^DEPLOY TERRAIN^^**"
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Overgrown Wilderness",
+      "type": "passive",
+      "effect": "Enemy units are visible to friendly **^^Sylvaneth^^** units even if every model in that enemy unit is within 1\" of this terrain feature. In addition, the Range characteristic of friendly **^^Sylvaneth^^** units’ ranged weapons is not halved while every model in that friendly unit is within 1\" of this terrain feature.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Vengeful Forest Spirits",
+      "type": "once-per-turn",
+      "effect": "Roll a dice for each target. On a 4+, inflict D3 mortal damage on the target.",
+      "phase": "combat",
+      "declare": "Pick each enemy unit within this terrain feature’s combat range to be the targets.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Growing Woods",
+      "type": "passive",
+      "effect": "Each time you set up an **Awakened Wyldwood**, you can place 1-3 scenery pieces (Terrain, 1.6). If you place more than 1 scenery piece, the tips at the end of each base must touch, forming a circle. The area inside this circle is considered to be part of this terrain\nfeature. For each additional scenery piece in this terrain feature that is placed after the first:\n• Add 2 to the Health characteristic of this terrain feature.\n• Increase the range of friendly abilities that require friendly models to be wholly within 6\" of this terrain feature by 3\".’",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "61ee-fae0-f1da-2591"
+  }
+}

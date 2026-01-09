@@ -1,0 +1,92 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.seraphon.bastiladon_with_ark_of_sotek",
+  "bsdataId": "69e4-4d9e-3916-cdbb",
+  "type": "warscroll",
+  "name": "Bastiladon with Ark of Sotek",
+  "faction": "seraphon",
+  "keywords": [
+    "monster",
+    "order",
+    "skink",
+    "faction:seraphon"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 12,
+    "save": "2+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Bludgeoning Tail",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Handlers’ Meteoric Javelins",
+      "type": "ranged",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Ark of Sotek",
+      "type": "melee",
+      "attacks": 20,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "SERAPHON",
+    "SKINK"
+  ],
+  "abilities": [
+    {
+      "name": "Ark of Sotek",
+      "type": "once-per-turn",
+      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "combat",
+      "declare": "Pick up to 3 different enemy units within 9\" of this unit to be the targets.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "e9d0-a23-6a15-1fcb"
+  }
+}

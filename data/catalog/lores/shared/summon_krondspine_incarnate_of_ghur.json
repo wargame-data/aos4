@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.summon_krondspine_incarnate_of_ghur",
+  "type": "spell",
+  "name": "Summon Krondspine Incarnate of Ghur",
+  "faction": "shared",
+  "lore": "krondspine_incarnate",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 8,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Krondspine Incarnate of Ghur** endless spell wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Krondspine Incarnate of Ghur** endless spell on the battlefield, pick a friendly **^^Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

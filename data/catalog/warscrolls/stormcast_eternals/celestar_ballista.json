@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.celestar_ballista",
+  "bsdataId": "8824-e8f0-d061-b64d",
+  "type": "warscroll",
+  "name": "Celestar Ballista",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "legends",
+    "order",
+    "sacrosanct chamber",
+    "war machine",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "3\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Celestar Stormbolts",
+      "type": "ranged",
+      "attacks": "D6+6",
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 1,
+      "range": "18\"",
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)",
+        "Crit (2 Hits)"
+      ]
+    },
+    {
+      "name": "Sacristan Engineers’ Blades",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "LEGENDS",
+    "SACROSANCT CHAMBER",
+    "STORMCAST ETERNALS"
+  ],
+  "abilities": [
+    {
+      "name": "Stormbolt Tempest",
+      "type": "once-per-battle",
+      "effect": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit and that charged this turn to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "87c-f122-a891-630e"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.gloomspite_gitz.webspinner_shaman",
+  "bsdataId": "816f-3e97-b0af-5653",
+  "type": "warscroll",
+  "name": "Webspinner Shaman",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "destruction",
+    "hero",
+    "infantry",
+    "spiderfang",
+    "ward (6+)",
+    "wizard (1)",
+    "faction:gloomspite_gitz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 4,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Spider God Staff",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": "D3",
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "SPIDERFANG",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Web Slingshot",
+      "type": "passive",
+      "effect": "Roll a dice. On a 2+, remove this unit from the battlefield and set it up again wholly within 3\" of the target and more than 9\" from all enemy units.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Spiderfang^^** unit or terrain feature within 18\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Speed of the Spider God",
+      "type": "spell",
+      "effect": "The target can use a **^^Run^^** ability this turn and still use **^^Shoot^^** and/or **^^Charge^^** abilities later in the turn.",
+      "phase": "hero",
+      "declare": "Pick a visible friendly **^^Spiderfang^^** unit wholly within 12\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "a395-7bc4-71eb-46df"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

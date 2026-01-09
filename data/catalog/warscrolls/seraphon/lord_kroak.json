@@ -1,0 +1,113 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.seraphon.lord_kroak",
+  "bsdataId": "df01-5aa1-a502-7a0c",
+  "type": "warscroll",
+  "name": "Lord Kroak",
+  "faction": "seraphon",
+  "keywords": [
+    "fly",
+    "hero",
+    "order",
+    "slann",
+    "unique",
+    "ward (4+)",
+    "warmaster",
+    "wizard (3)",
+    "faction:seraphon"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 18,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Azyrite Force Barrier",
+      "type": "melee",
+      "attacks": "2D6",
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Gaze of Kroak",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D6",
+      "range": "12\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FLY",
+    "SERAPHON",
+    "SLANN",
+    "WARD (4+)",
+    "WIZARD (3)"
+  ],
+  "abilities": [
+    {
+      "name": "Arcane Vassal",
+      "type": "once-per-turn",
+      "effect": "Measure the range and visibility of the next **^^Spell^^** ability used by this unit from the target instead of from this unit. The target is treated as the caster for the purpose of other abilities or spell effects, such as ‘Unbind’ or ‘The Earth Trembles’.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Skink Wizard^^** wholly within 18\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Supreme Master of Order",
+      "type": "passive",
+      "effect": "Add 2 to casting rolls, and add 1 to unbinding rolls and banishment rolls for this unit. In addition, this unit can use an **^^Unbind^^** ability if an enemy **^^Wizard^^** anywhere on the battlefield uses a **^^Spell^^** ability instead of an enemy **^^Wizard^^** within 30\" of this unit, and when using the ‘Banish Manifestation’ ability, this unit can pick a manifestation anywhere on the battlefield instead of within 30\" of it.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Dead for Innumerable Ages",
+      "type": "passive",
+      "effect": "This unit must use this ability each turn while it is damaged. Roll 3D6 and add the number of damage points this unit has to the roll. On a 20+, this unit is destroyed. Otherwise, **Heal (18)** this unit.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Celestial Deliverance",
+      "type": "spell",
+      "effect": "Inflict D3 mortal damage on each target.",
+      "phase": "hero",
+      "declare": "This unit can cast this spell more than once per phase. Pick up to 3 different visible enemy units within 18\" of this unit to be the targets, then make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "e9d0-a23-6a15-1fcb"
+  },
+  "wizard": 3,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

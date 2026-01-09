@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.executioners",
+  "bsdataId": "dc42-b5e2-69cb-8cd7",
+  "type": "warscroll",
+  "name": "Executioners",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "aelf",
+    "champion",
+    "infantry",
+    "musician (1/10)",
+    "order",
+    "standard bearer (1/10)",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Executioner’s Draich",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CHAMPION",
+    "CITIES OF SIGMAR",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)"
+  ],
+  "abilities": [
+    {
+      "name": "Severing Strike",
+      "type": "passive",
+      "effect": "If this unit charged this turn, this unit’s attacks score critical hits on unmodified hit rolls of 5+.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.lumineth_realm_lords.vanari_dawnriders",
+  "bsdataId": "8f4-ae60-8a15-6d7d",
+  "type": "warscroll",
+  "name": "Vanari Dawnriders",
+  "faction": "lumineth_realm_lords",
+  "keywords": [
+    "aelf",
+    "cavalry",
+    "champion",
+    "order",
+    "standard bearer (1/5)",
+    "vanari",
+    "faction:lumineth_realm_lords"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "14\"",
+    "health": 3,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Dawnrider Lances and Blades",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)",
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Stallions’ Dashing Hooves",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CHAMPION",
+    "LUMINETH REALM-LORDS",
+    "STANDARD BEARER (1/5)",
+    "VANARI"
+  ],
+  "abilities": [
+    {
+      "name": "Deathly Furrows",
+      "type": "passive",
+      "effect": "Roll a dice for each model in this unit. For each 3+, inflict 1 mortal damage on the target.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy Infantry unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9ed1-cf74-eb97-dee2"
+  }
+}

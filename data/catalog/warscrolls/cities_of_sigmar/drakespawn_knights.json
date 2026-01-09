@@ -1,0 +1,80 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.drakespawn_knights",
+  "bsdataId": "5507-3979-c08f-1f0d",
+  "type": "warscroll",
+  "name": "Drakespawn Knights",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "aelf",
+    "cavalry",
+    "champion",
+    "musician (1/5)",
+    "order",
+    "standard bearer (1/5)",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 3,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Drakespawn’s Ferocious Jaws",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Barbed Lance",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CHAMPION",
+    "CITIES OF SIGMAR",
+    "MUSICIAN (1/5)",
+    "STANDARD BEARER (1/5)"
+  ],
+  "abilities": [
+    {
+      "name": "Bestial Instincts",
+      "type": "passive",
+      "effect": "For the rest of the turn, add 1 to the Attacks characteristic of this unit’s **Drakespawn’s Ferocious Jaws** while it is in combat with any damaged enemy units or while it is in combat with any enemy units that have had any models slain.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  }
+}

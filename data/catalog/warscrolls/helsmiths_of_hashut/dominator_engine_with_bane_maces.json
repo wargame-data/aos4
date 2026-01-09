@@ -1,0 +1,69 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.helsmiths_of_hashut.dominator_engine_with_bane_maces",
+  "bsdataId": "c3d1-b2bd-e8d8-d171",
+  "type": "warscroll",
+  "name": "Dominator Engine with Bane Maces",
+  "faction": "helsmiths_of_hashut",
+  "keywords": [
+    "automaton",
+    "chaos",
+    "war machine",
+    "faction:helsmiths_of_hashut"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 10,
+    "save": "2+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Bane Maces",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 3,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "AUTOMATON",
+    "HELSMITHS OF HASHUT"
+  ],
+  "abilities": [
+    {
+      "name": "Engine of Domination",
+      "type": "once-per-turn",
+      "effect": "If this unit is in combat with any enemy **^^Heroes^^**, it can use 2 **^^Fight^^** abilities this phase. After the first is used, however, this unit has **^^Strike-last^^** for the rest of the phase and can only be picked to use a second **^^Fight^^** ability if it is still in combat with any enemy **^^Heroes^^**.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Daemonic Strength",
+      "type": "passive",
+      "effect": "For each **daemonic power point** this unit has:\n• Add 1\" to its Move characteristic\n• Add 1 to the Attacks characteristic of its weapons.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "487d-9798-0633-8040"
+  }
+}

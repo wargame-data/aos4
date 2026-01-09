@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.eruption_of_apoplexy",
+  "type": "prayer",
+  "name": "Eruption of Apoplexy",
+  "faction": "shared",
+  "lore": "prayer_lore_gorechosen_champions",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Inflict D6 mortal damage on the target. If the target is destroyed, before removing the last model in that unit from play, inflict D3 mortal damage on every unit (friendly and enemy) within 6\" of that model, or D6 mortal damage instead of the chanting roll was 8+.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Gorechosen Champions Priest^^** to chant this prayer, pick a visible enemy unit within 12\" of them that is in combat with a friendly unit to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Shooting"
+}

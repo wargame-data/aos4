@@ -1,0 +1,118 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.knight_draconis",
+  "bsdataId": "1b67-5ed1-5c9d-388f",
+  "type": "warscroll",
+  "name": "Knight-Draconis",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "extremis chamber",
+    "fly",
+    "hero",
+    "monster",
+    "order",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 11,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Draconic Flamestream",
+      "type": "ranged",
+      "attacks": 4,
+      "hit": "2+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 1,
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Aeonfire Blade",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2
+    },
+    {
+      "name": "Draconith’s Fangs and Talons",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "EXTREMIS CHAMBER",
+    "FLY",
+    "STORMCAST ETERNALS"
+  ],
+  "abilities": [
+    {
+      "name": "Arcane Heritage",
+      "type": "reaction",
+      "effect": "If this unit or a friendly **Stormdrake Guard** unit wholly within 12\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit or that friendly unit. This unit can use this ability more than once per phase but only once per **Spell** ability",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Wrath of the Draconith",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 2+, add 1 to the Attacks characteristic of both this unit’s and the target’s **Draconith’s Fangs and Talons** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick a friendly **Stormdrake Guard** unit within this unit’s combat range to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Extremis Chamber",
+      "type": "passive",
+      "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+      "color": "Green",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "43cd-e9ef-5d4d-87c4"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "EXTREMIS CHAMBER"
+      ],
+      "description": "Units with EXTREMIS CHAMBER keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

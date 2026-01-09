@@ -1,0 +1,79 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.helsmiths_of_hashut.infernal_razers_with_blunderbusses",
+  "bsdataId": "5c9b-778c-40a8-1fe3",
+  "type": "warscroll",
+  "name": "Infernal Razers with Blunderbusses",
+  "faction": "helsmiths_of_hashut",
+  "keywords": [
+    "champion",
+    "chaos",
+    "duardin",
+    "infantry",
+    "faction:helsmiths_of_hashut"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 1,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Grizmalok Blunderbusses",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 0,
+      "damage": 2,
+      "range": "18\""
+    },
+    {
+      "name": "Weapon Butt",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DUARDIN",
+    "HELSMITHS OF HASHUT"
+  ],
+  "abilities": [
+    {
+      "name": "Hateful Hail",
+      "type": "once-per-turn",
+      "effect": "Roll a dice and add the number of enemy models in the target unit slain by attacks made by this unit this turn. If the result is 6+, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "shooting",
+      "declare": "If this unit used a **^^Shoot^^** ability this turn and all of its attacks targeted the same enemy unit, that enemy unit is the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Manglers of Metal",
+      "type": "passive",
+      "effect": "Add 1 to the Rend characteristic of this unit’s ranged weapons for each **daemonic power point** this unit has.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "487d-9798-0633-8040"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.blades_of_khorne.mighty_lord_of_khorne",
+  "bsdataId": "d9d9-55ad-2a9f-acf9",
+  "type": "warscroll",
+  "name": "Mighty Lord of Khorne",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "bloodbound",
+    "chaos",
+    "hero",
+    "infantry",
+    "faction:blades_of_khorne"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 7,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Axe of Khorne",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Blood-hungry"
+      ]
+    },
+    {
+      "name": "Flesh Hound’s Blood-dark Claws",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "BLOODBOUND"
+  ],
+  "abilities": [
+    {
+      "name": "Lord of the Bloodbound",
+      "type": "passive",
+      "effect": "Add 1 to wound rolls for friendly **^^Bloodbound Infantry^^** units while they are wholly within 12\" of this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "'Bring Me Their Skull!'",
+      "type": "once-per-turn",
+      "effect": "The target has **^^Strike-first^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick another friendly **^^Bloodbound Infantry Hero^^** wholly within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "81a9-3dbf-dbc5-672e"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

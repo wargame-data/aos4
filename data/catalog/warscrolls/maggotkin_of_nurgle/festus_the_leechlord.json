@@ -1,0 +1,85 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.maggotkin_of_nurgle.festus_the_leechlord",
+  "bsdataId": "65b1-8753-01c7-2fa9",
+  "type": "warscroll",
+  "name": "Festus the Leechlord",
+  "faction": "maggotkin_of_nurgle",
+  "keywords": [
+    "chaos",
+    "hero",
+    "infantry",
+    "legends",
+    "rotbringers",
+    "unique",
+    "ward (5+)",
+    "wizard (1)",
+    "faction:maggotkin_of_nurgle"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Plague Staff",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "LEGENDS",
+    "MAGGOTKIN OF NURGLE",
+    "ROTBRINGERS",
+    "WARD (5+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Scumboil Pox",
+      "type": "spell",
+      "effect": "Subtract 1 from the target’s power level, to a minimum of 0, until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy **^^Wizard^^** or **^^Priest^^** within 12\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Delightful Brews, Splendid Restoratives",
+      "type": "passive",
+      "effect": "If the target is a friendly **^^Maggotkin of Nurgle^^** unit, **Heal (D3)** the target. If the target is an enemy unit, roll a dice. On a 3+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "hero",
+      "declare": "Pick a visible unit within this unit’s combat range to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

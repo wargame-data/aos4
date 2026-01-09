@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.augury_of_battle",
+  "type": "prayer",
+  "name": "Augury of Battle",
+  "faction": "shared",
+  "lore": "prayer_lore_the_croneseers_pariahs",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, the target has **^^Ward (5+)^^**. If the chanting roll was 10+, you can pick up to 2 friendly **^^Croneseer’s Pariahs^^** units wholly within 18\" of the caster instead of 1.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Croneseer’s Pariahs Priest^^** to chant this prayer, pick a visible friendly **^^Croneseer’s Pariahs^^** unit wholly within 18\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

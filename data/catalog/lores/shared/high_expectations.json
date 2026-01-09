@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.high_expectations",
+  "type": "prayer",
+  "name": "High Expectations",
+  "faction": "shared",
+  "lore": "prayer_lore_king_brodds_stomp",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, add 1 to the Attacks characteristic of melee weapons used by friendly **^^Brodd’s Stomp^^** units while they are wholly within 12\" of the chanter. If the chanting roll was 9+, add 2 to the Attacks characteristic instead.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Brodd's Stomp Priest^^** to chant this prayer, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

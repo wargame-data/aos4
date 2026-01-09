@@ -1,0 +1,118 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ogor_mawtribes.frostlord_on_stonehorn",
+  "bsdataId": "e445-5f3b-4228-8bd3",
+  "type": "warscroll",
+  "name": "Frostlord on Stonehorn",
+  "faction": "ogor_mawtribes",
+  "keywords": [
+    "beastclaw raiders",
+    "destruction",
+    "hero",
+    "monster",
+    "ogor",
+    "faction:ogor_mawtribes"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 15,
+    "save": "4+",
+    "control": 10
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Stonehorn’s Hooves",
+      "type": "melee",
+      "attacks": "D6",
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Frost Spear",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Stonehorn’s Rock-hard Horns",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BEASTCLAW RAIDERS",
+    "OGOR",
+    "OGOR MAWTRIBES"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Stonehorn’s Rock-hard Horns** is 4.",
+      "color": "Black"
+    },
+    {
+      "name": "Frost Spear",
+      "type": "passive",
+      "effect": "If any damage points are allocated to an enemy **^^Hero^^** or **^^Monster^^** by attacks made with this unit’s **Frost Spear**, subtract 1 from the Attacks characteristic of that enemy unit’s melee weapons until the start of your next turn.",
+      "color": "Red",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Stone Skeleton",
+      "type": "passive",
+      "effect": "Ignore the first damage point that would be allocated to this unit in each phase.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Earth-shattering Charge",
+      "type": "once-per-turn",
+      "effect": "Inflict D3 mortal damage on the target. Then, roll 2D6. This unit can move a distance up to the value of the roll. During that move, it can pass through models in the target unit but must end that move in combat.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "1ac6-e227-a186-12"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,89 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.idoneth_deepkin.akhelian_ishlaen_guard",
+  "bsdataId": "4a97-b100-c4de-f706",
+  "type": "warscroll",
+  "name": "Akhelian Ishlaen Guard",
+  "faction": "idoneth_deepkin",
+  "keywords": [
+    "aelf",
+    "akhelian",
+    "cavalry",
+    "champion",
+    "fly",
+    "musician (1/3)",
+    "order",
+    "standard bearer (1/3)",
+    "faction:idoneth_deepkin"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "14\"",
+    "health": 4,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Helsabre",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1
+    },
+    {
+      "name": "Fangmora’s Fangs and Lashing Tail",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "AKHELIAN",
+    "CHAMPION",
+    "FLY",
+    "IDONETH DEEPKIN",
+    "MUSICIAN (1/3)",
+    "STANDARD BEARER (1/3)"
+  ],
+  "abilities": [
+    {
+      "name": "Biovoltaic Barrier",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target unit’s weapons for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Galv-shields",
+      "type": "passive",
+      "effect": "This unit has **^^Ward (5+)^^** if it charged in the same turn.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "9866-239b-07f0-d92b"
+  }
+}

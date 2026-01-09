@@ -1,0 +1,102 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.sons_of_behemat.mancrusher_mob",
+  "bsdataId": "a0c1-1a99-2cf9-85f9",
+  "type": "warscroll",
+  "name": "Mancrusher Mob",
+  "faction": "sons_of_behemat",
+  "keywords": [
+    "destruction",
+    "gargant",
+    "monster",
+    "faction:sons_of_behemat"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 12,
+    "save": "5+",
+    "control": 10
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "’Eadbutt",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 4
+    },
+    {
+      "name": "Throwin’ Rocks",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3",
+      "range": "12\""
+    },
+    {
+      "name": "Massive Club",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2
+    },
+    {
+      "name": "Mighty Kick",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GARGANT",
+    "SONS OF BEHEMAT"
+  ],
+  "abilities": [
+    {
+      "name": "Stuff 'Em in Me Bag",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. If the roll is at least double the target’s Health characteristic, 1 model in the target unit is slain.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Keep Up!",
+      "type": "passive",
+      "effect": "While this unit is wholly within 12\" of a friendly **^^Mega-Gargant^^**, this unit can use **^^Charge^^** abilities even if it used a **^^Run^^** ability in the same turn.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "’Oo’s Under The Heel Now?",
+      "type": "passive",
+      "effect": "Each time this unit uses the ‘Gargant Charge’ ability, add 1 to the amount of mortal damage inflicted, if any, for each model in this unit.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "b765-4747-cddc-385e"
+  }
+}

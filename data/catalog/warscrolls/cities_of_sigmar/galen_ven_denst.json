@@ -1,0 +1,87 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.galen_ven_denst",
+  "bsdataId": "d898-284d-8946-d04f",
+  "type": "warscroll",
+  "name": "Galen ven Denst",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "hero",
+    "human",
+    "infantry",
+    "order",
+    "unique",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Runic Broadsword",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Anti-**^^Wizard^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Spell-banishing Pistol",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN"
+  ],
+  "abilities": [
+    {
+      "name": "Guardian and Mentor",
+      "type": "passive",
+      "effect": "While a friendly **Doralia ven Denst** is wholly within this unit’s combat range, this unit has **^^Strike-first^^** and both this unit and that **Doralia ven Denst** have **^^Ward (5+)^^**.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Weapons of Banishment",
+      "type": "passive",
+      "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target **^^Wizards^^**, **^^Priests^^** and **^^Manifestations^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

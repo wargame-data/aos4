@@ -1,0 +1,97 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.seraphon.ripperdactyl_chief",
+  "bsdataId": "d8da-70c-5bcc-cf9e",
+  "type": "warscroll",
+  "name": "Ripperdactyl Chief",
+  "faction": "seraphon",
+  "keywords": [
+    "cavalry",
+    "fly",
+    "hero",
+    "order",
+    "skink",
+    "faction:seraphon"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "14\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Skyblade",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Ripperdactyl’s Tearing Jaws",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FLY",
+    "SERAPHON",
+    "SKINK"
+  ],
+  "abilities": [
+    {
+      "name": "Blot Toad",
+      "type": "once-per-battle",
+      "effect": "Place a **Blot Toad** next to each target.",
+      "declare": "You receive 1 **Blot Toad** token for each **Ripperdactyl Chief** or **Ripperdactyl Riders** unit in your army, to a maximum of 3 tokens. Pick a number of enemy units equal to the number of **Blot Toads** you have to be the targets.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Toad Rage",
+      "type": "passive",
+      "effect": "Add 1 to the Attacks characteristic of this unit’s **Ripperdactyl’s Tearing Jaws** while it is in combat with any units that have a Blot Toad.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Ripperdactyl Assault",
+      "type": "once-per-battle",
+      "effect": "Add 1 to the Attacks characteristic of **Moonstone Warspears** used by friendly **Ripperdactyl Riders** units wholly within 12\" of this unit for the rest of the turn.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "e9d0-a23-6a15-1fcb"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

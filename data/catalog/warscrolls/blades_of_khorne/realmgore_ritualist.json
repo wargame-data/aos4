@@ -1,0 +1,70 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.blades_of_khorne.realmgore_ritualist",
+  "bsdataId": "2592-295e-eed8-361b",
+  "type": "warscroll",
+  "name": "Realmgore Ritualist",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "bloodbound",
+    "chaos",
+    "hero",
+    "infantry",
+    "priest (1)",
+    "faction:blades_of_khorne"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Ritual Athame",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D3",
+      "abilities": [
+        "Blood-hungry"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "BLOODBOUND",
+    "PRIEST (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Desecrating Blood Runes",
+      "type": "once-per-battle",
+      "effect": "For the rest of the battle, add 1 to wound rolls for combat attacks made by friendly **Bloodbound** units while they are wholly within 12\" of the target.",
+      "phase": "movement",
+      "declare": "Pick an objective or terrain feature within this unit’s combat range to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "81a9-3dbf-dbc5-672e"
+  },
+  "wizard": null,
+  "priest": 1,
+  "unique": false,
+  "canJoinRegiment": null
+}

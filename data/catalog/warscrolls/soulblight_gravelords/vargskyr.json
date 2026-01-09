@@ -1,0 +1,83 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.soulblight_gravelords.vargskyr",
+  "bsdataId": "a48-c5c3-a40b-ae9e",
+  "type": "warscroll",
+  "name": "Vargskyr",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "beast",
+    "death",
+    "vampire",
+    "ward (6+)",
+    "faction:soulblight_gravelords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 8,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Lacerating Fangs",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Raking Talons",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "BEAST",
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Beast",
+      "type": "passive",
+      "effect": "This unit has a maximum control score of 1.",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    },
+    {
+      "name": "Bounding Haste",
+      "type": "passive",
+      "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3. In addition, when this unit uses a **^^Charge^^** ability, it can pass through terrain features and enemy models as if it had **^^Fly^^**.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "05a6-726c-4748-8360"
+  }
+}

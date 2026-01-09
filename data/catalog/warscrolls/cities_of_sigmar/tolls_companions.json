@@ -1,0 +1,82 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.tolls_companions",
+  "bsdataId": "b41d-d073-1ba9-1728",
+  "type": "warscroll",
+  "name": "Toll's Companions",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "human",
+    "infantry",
+    "order",
+    "unique",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 4,
+    "default": 4,
+    "max": 4
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 3,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Exotic Assortment of Weapons",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Anti‑**^^Wizard^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN"
+  ],
+  "abilities": [
+    {
+      "name": "Hidden Agents",
+      "type": "passive",
+      "effect": "Set up those units in reserve **in the shadows**. Those units have now been deployed.",
+      "declare": "Pick this unit and a friendly **Callis and Toll** unit in the same regiment as this unit if those units have not been deployed.",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Emerge from the Shadows",
+      "type": "passive",
+      "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units. Then, set up the **Callis and Toll** unit that was set up in the shadows with this unit wholly within 6\" of it and more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Pick this unit if it is in the shadows.",
+      "color": "Gray",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Saviours of Cinderfall",
+      "type": "passive",
+      "effect": "While a friendly **Callis and Toll** unit is wholly within this unit’s combat range, both this unit and that **Callis and Toll** unit have **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  }
+}

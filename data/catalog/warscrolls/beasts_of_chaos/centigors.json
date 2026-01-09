@@ -1,0 +1,77 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.beasts_of_chaos.centigors",
+  "bsdataId": "49ea-b4e5-abbc-7c73",
+  "type": "warscroll",
+  "name": "Centigors",
+  "faction": "beasts_of_chaos",
+  "keywords": [
+    "brayherd",
+    "cavalry",
+    "champion",
+    "chaos",
+    "legends",
+    "musician (1/5)",
+    "standard bearer (1/5)",
+    "faction:beasts_of_chaos"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Gutpiercer Spear",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "8\""
+    },
+    {
+      "name": "Clawed Forelimbs",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEASTS OF CHAOS",
+    "BRAYHERD",
+    "CHAMPION",
+    "LEGENDS",
+    "MUSICIAN (1/5)",
+    "STANDARD BEARER (1/5)"
+  ],
+  "abilities": [
+    {
+      "name": "Drunken Revelry",
+      "type": "once-per-turn",
+      "effect": "This unit can use this ability if it is not in combat. It has **^^Ward (4+)^^** for the rest of the turn.",
+      "phase": "movement",
+      "color": "Gray",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "3cc2-31d3-9dd2-f858"
+  }
+}

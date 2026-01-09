@@ -1,0 +1,80 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.bonesplitterz.savage_boarboy_maniaks",
+  "bsdataId": "0a8a-5a9a-5d44-f834",
+  "type": "warscroll",
+  "name": "Savage Boarboy Maniaks",
+  "faction": "bonesplitterz",
+  "keywords": [
+    "cavalry",
+    "champion",
+    "destruction",
+    "legends",
+    "musician (1/5)",
+    "orruk",
+    "standard bearer (1/5)",
+    "ward (6+)",
+    "faction:bonesplitterz"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Chompas",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "War Boar’s Tusks and Hooves",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BONESPLITTERZ",
+    "CHAMPION",
+    "LEGENDS",
+    "MUSICIAN (1/5)",
+    "ORRUK",
+    "STANDARD BEARER (1/5)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "On a Tear",
+      "type": "reaction",
+      "effect": "Add 5 to this unit’s control score for the rest of the turn.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "06c5-6322-e810-7967"
+  }
+}

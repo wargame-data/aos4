@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.daughters_of_khaine.high_gladiatrix",
+  "bsdataId": "93e8-210a-cc3-ef22",
+  "type": "warscroll",
+  "name": "High Gladiatrix",
+  "faction": "daughters_of_khaine",
+  "keywords": [
+    "aelf",
+    "hero",
+    "infantry",
+    "order",
+    "ward (6+)",
+    "faction:daughters_of_khaine"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Barbed Whip and Gladiatrix’s Blade",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "DAUGHTERS OF KHAINE",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Paragon of Slaughter",
+      "type": "passive",
+      "effect": "Roll a dice. On a 2+, add 1 to the Rend characteristic of melee weapons used by the target for the rest of the turn.",
+      "phase": "combat",
+      "declare": "If this unit is in combat, pick a visible friendly **^^Daughters of Khaine Aelf^^** non-**^^Hero Infantry^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Killing Stroke",
+      "type": "once-per-battle",
+      "effect": "Roll 2D6. If the roll exceeds the target’s Health characteristic, it is automatically destroyed.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "df1f-ba81-775f-acfd"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

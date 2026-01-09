@@ -1,0 +1,72 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.sylvaneth.kurnoth_hunters_with_kurnoth_scythes",
+  "bsdataId": "577a-d471-c08e-6ff4",
+  "type": "warscroll",
+  "name": "Kurnoth Hunters with Kurnoth Scythes",
+  "faction": "sylvaneth",
+  "keywords": [
+    "champion",
+    "infantry",
+    "kurnothi",
+    "order",
+    "faction:sylvaneth"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Kurnoth Scythe",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 3,
+      "abilities": [
+        "Anti-charge (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "KURNOTHI",
+    "SYLVANETH"
+  ],
+  "abilities": [
+    {
+      "name": "Envoys of the Everqueen",
+      "type": "passive",
+      "effect": "While this unit is contesting an objective, friendly **^^Sylvaneth^^** units contesting that objective have **^^Ward (6+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Tanglethorn Thicket",
+      "type": "passive",
+      "effect": "Roll a dice for each model in this unit. For each 3+, inflict 1 mortal damage on the target.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "61ee-fae0-f1da-2591"
+  }
+}

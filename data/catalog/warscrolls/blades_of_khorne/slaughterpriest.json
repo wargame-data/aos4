@@ -1,0 +1,77 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.blades_of_khorne.slaughterpriest",
+  "bsdataId": "d612-30cd-6166-f751",
+  "type": "warscroll",
+  "name": "Slaughterpriest",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "bloodbound",
+    "chaos",
+    "hero",
+    "infantry",
+    "priest (1)",
+    "faction:blades_of_khorne"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Bloodbathed Weapon",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Blood-hungry"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "BLOODBOUND",
+    "PRIEST (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Scorn of Sorcery",
+      "type": "passive",
+      "effect": "This unit can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Blood Sacrifice",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+:\n• Inflict an amount of mortal damage on the target equal to the roll.\n• This unit gains 1 ritual point.",
+      "phase": "hero",
+      "declare": "Pick a unit (friendly or enemy) within this unit’s combat range to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "81a9-3dbf-dbc5-672e"
+  },
+  "wizard": null,
+  "priest": 1,
+  "unique": false,
+  "canJoinRegiment": null
+}

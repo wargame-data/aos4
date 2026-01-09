@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.idoneth_deepkin.namarti_reavers",
+  "bsdataId": "f462-e74d-b319-9dbc",
+  "type": "warscroll",
+  "name": "Namarti Reavers",
+  "faction": "idoneth_deepkin",
+  "keywords": [
+    "aelf",
+    "champion",
+    "infantry",
+    "namarti",
+    "order",
+    "faction:idoneth_deepkin"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "7\"",
+    "health": 1,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Keening Blade",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Whisperbow",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CHAMPION",
+    "IDONETH DEEPKIN",
+    "NAMARTI"
+  ],
+  "abilities": [
+    {
+      "name": "Strike On the Move",
+      "type": "passive",
+      "effect": "This unit can use **^^Shoot^^** abilities even if it used a **^^Run^^** or **^^Retreat^^** ability in the same turn.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "9866-239b-07f0-d92b"
+  }
+}

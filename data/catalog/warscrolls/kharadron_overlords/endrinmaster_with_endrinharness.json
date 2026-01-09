@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.kharadron_overlords.endrinmaster_with_endrinharness",
+  "bsdataId": "3124-cf12-7803-f34b",
+  "type": "warscroll",
+  "name": "Endrinmaster with Endrinharness",
+  "faction": "kharadron_overlords",
+  "keywords": [
+    "duardin",
+    "hero",
+    "infantry",
+    "order",
+    "skyfarer",
+    "faction:kharadron_overlords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Aethermight Hammer",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "DUARDIN",
+    "KHARADRON OVERLORDS",
+    "SKYFARER"
+  ],
+  "abilities": [
+    {
+      "name": "'Aye Aye, Captain!'",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn:\n• The target can use a **^^Retreat^^** or **^^Run^^** ability and still use **^^Shoot^^** abilities later in the turn.\n• No mortal damage is inflicted on the target by **^^Retreat^^** abilities.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Skyvessel^^** within this unit’s combat range to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Mobile Repairs",
+      "type": "passive",
+      "effect": "Roll a dice. On a 2+, **Heal (3)** the target.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Skyvessel^^** or **Zontari Endrin Dock** within this unit’s combat range to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "d4a9-b568-9525-d6ac"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

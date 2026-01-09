@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.summon_unholy_reliquary",
+  "type": "spell",
+  "name": "Summon Unholy Reliquary",
+  "faction": "shared",
+  "lore": "manifestation_lore_knights_of_the_crimson_keep",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Unholy Reliquary** endless spell wholly within 18\" of the caster.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Unholy Reliquary** on the battlefield, pick a friendly **^^Soulblight Gravelords Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

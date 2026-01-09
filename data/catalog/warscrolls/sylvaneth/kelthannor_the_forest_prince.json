@@ -1,0 +1,93 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.sylvaneth.kelthannor_the_forest_prince",
+  "bsdataId": "4a81-2d60-fb40-0e97",
+  "type": "warscroll",
+  "name": "Kelthannor, the Forest Prince",
+  "faction": "sylvaneth",
+  "keywords": [
+    "cavalry",
+    "hero",
+    "kurnothi",
+    "legends",
+    "order",
+    "unique",
+    "faction:sylvaneth"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Kurnothi Princeling’s Bow",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
+      "range": "18\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Hooves and Knuckles",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "KURNOTHI",
+    "LEGENDS",
+    "SYLVANETH"
+  ],
+  "abilities": [
+    {
+      "name": "Debilitating Shot",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target’s weapons until the start of your next turn.",
+      "phase": "shooting",
+      "declare": "Pick an enemy unit that has no more than 1 model and that had any damage points allocated to it this phase by this unit’s shooting attacks to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Clarion of the Forest Prince",
+      "type": "passive",
+      "effect": "The target can move 3\". It can move through and end that move within the combat ranges of enemy units that it was in combat with at the start of that move, but not those of other enemy units. It does not have to end the move in combat.",
+      "phase": "hero",
+      "declare": "Pick a friendly non-**^^War Machine^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "9e18-0b77-d43e-125e"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

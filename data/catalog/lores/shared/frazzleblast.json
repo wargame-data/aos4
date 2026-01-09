@@ -1,0 +1,20 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.frazzleblast",
+  "type": "spell",
+  "name": "Frazzleblast",
+  "faction": "shared",
+  "lore": "spell_lore_droggzs_gitmob",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, the target's melee weapons have **Crit (2 Hits)**",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Wizard^^** to cast this spell, pick a visible friendly **^^Droggz's Gitmob^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6."
+}

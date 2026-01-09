@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.maggotkin_of_nurgle.beasts_of_nurgle",
+  "bsdataId": "8197-2f04-e647-f5c",
+  "type": "warscroll",
+  "name": "Beasts of Nurgle",
+  "faction": "maggotkin_of_nurgle",
+  "keywords": [
+    "beast",
+    "chaos",
+    "daemon",
+    "ward (5+)",
+    "faction:maggotkin_of_nurgle"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "7\"",
+    "health": 8,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Filthy Claws and Slobbering Maw",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEAST",
+    "DAEMON",
+    "MAGGOTKIN OF NURGLE",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Attention Seekers",
+      "type": "passive",
+      "effect": "This unit can move a distance up to the value of the charge roll. During that move, this unit can move into combat and can pass through models in the target unit, but it must end that move within 1\" of the target. Then, inflict D3 mortal damage on the target. If it does so, this unit has charged.",
+      "phase": "charge",
+      "declare": "If this unit is not in combat, pick the closest enemy unit to it to be the target. If 2 or more enemy units are tied to be the closest, you can pick which is the target. Then, make a charge roll of 2D6.",
+      "keywords": [
+        "**^^CORE^^**",
+        "**^^MOVE^^**",
+        "**^^CHARGE^^**"
+      ],
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9c71-86cb-e1d0-ec8d"
+  }
+}

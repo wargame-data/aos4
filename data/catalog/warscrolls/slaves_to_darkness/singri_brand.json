@@ -1,0 +1,98 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.singri_brand",
+  "bsdataId": "4191-4be9-6ccd-9f70",
+  "type": "warscroll",
+  "name": "Singri Brand",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "cavalry",
+    "chaos",
+    "darkoath",
+    "gunnar's oathsworn",
+    "hero",
+    "unique",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 4,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Singri’s Warbow",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "18\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Warsteed’s Hooves",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Brand Ancestral Knife",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DARKOATH",
+    "GUNNAR'S OATHSWORN",
+    "SLAVES TO DARKNESS"
+  ],
+  "abilities": [
+    {
+      "name": "Swift as the Wind",
+      "type": "passive",
+      "effect": "Only critical hits score successful hits for shooting attacks that target this unit.",
+      "color": "Blue",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Uncanny Shot",
+      "type": "passive",
+      "effect": "Add 1 to the Rend characteristic of this unit’s **Singri’s Warbow** for attacks that target enemy units that are within 6\" of a friendly **Gunnar Brand**.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "6357-5d77-a2b2-f86b"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

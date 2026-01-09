@@ -1,0 +1,99 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.kharadron_overlords.arkanaut_company",
+  "bsdataId": "a86c-b6ef-d754-bcb7",
+  "type": "warscroll",
+  "name": "Arkanaut Company",
+  "faction": "kharadron_overlords",
+  "keywords": [
+    "champion",
+    "duardin",
+    "infantry",
+    "order",
+    "skyfarer",
+    "faction:kharadron_overlords"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 1,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Skypike",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Privateer Pistol",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Arkanaut Hand Weapon",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Privateer Heavy Weapon",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "range": "15\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DUARDIN",
+    "KHARADRON OVERLORDS",
+    "SKYFARER"
+  ],
+  "abilities": [
+    {
+      "name": "Grizzled Buccaneers",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+:\n• This unit can immediately use a **^^Shoot^^** ability as if it were your shooting phase but all of its attacks must target the target enemy unit.\n• For the rest of the phase, this unit's **Privateer Heavy Weapons** have **Shoot in Combat**.",
+      "phase": "charge",
+      "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "d4a9-b568-9525-d6ac"
+  }
+}

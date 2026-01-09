@@ -1,0 +1,79 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.nighthaunt.krulghast_cruciator",
+  "bsdataId": "d5e7-8080-3243-6c22",
+  "type": "warscroll",
+  "name": "Krulghast Cruciator",
+  "faction": "nighthaunt",
+  "keywords": [
+    "death",
+    "fly",
+    "hero",
+    "infantry",
+    "ward (5+)",
+    "faction:nighthaunt"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Talons and Flensing Knives",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Phantasmal Torture",
+      "type": "ranged",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Empowered Through Excruciation",
+      "type": "passive",
+      "effect": "Ignore the first damage point that would be allocated to each friendly **^^Nighthaunt^^** unit wholly within 12\" of this unit in each phase.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.maggotkin_of_nurgle.sloppity_bilepiper_herald_of_nurgle",
+  "bsdataId": "29d8-9408-2148-b2c9",
+  "type": "warscroll",
+  "name": "Sloppity Bilepiper, Herald of Nurgle",
+  "faction": "maggotkin_of_nurgle",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "hero",
+    "infantry",
+    "ward (5+)",
+    "faction:maggotkin_of_nurgle"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Marotter",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "MAGGOTKIN OF NURGLE",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Jolly Gutpipes",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 2+, pick 1 of the following effects to apply for the rest of the turn:\n***A-Stabbing We Will Go!:*** Add 1 to wound rolls for the target’s attacks.\n***Early One Evening My Pustule Was Seeping:*** Ward rolls cannot be made for damage points inflicted by the target’s combat attacks.\n***My Love Is Like a Ripe, Ripe Fart:*** Subtract 1 from hit rolls for attacks made by enemy units that target the target unit.",
+      "phase": "combat",
+      "declare": "Pick a visible friendly **^^Maggotkin of Nurgle Daemon^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9c71-86cb-e1d0-ec8d"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

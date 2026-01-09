@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.the_angry_wilds",
+  "type": "prayer",
+  "name": "The Angry Wilds",
+  "faction": "shared",
+  "lore": "prayers_of_the_jade_soul",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, each time your opponent declares a command for the target, unless they spend 1 additional command point to use that command, the command has no effect, it still counts as having been used, and the command points spent to use the command are still lost. If the chanting roll was 10+, the target cannot use commands until the start of your next turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

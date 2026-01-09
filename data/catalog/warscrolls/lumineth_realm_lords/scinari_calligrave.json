@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.lumineth_realm_lords.scinari_calligrave",
+  "bsdataId": "56b6-9e6e-4f51-60c",
+  "type": "warscroll",
+  "name": "Scinari Calligrave",
+  "faction": "lumineth_realm_lords",
+  "keywords": [
+    "aelf",
+    "hero",
+    "infantry",
+    "order",
+    "scinari",
+    "wizard (1)",
+    "faction:lumineth_realm_lords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Calligrave Blade",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "LUMINETH REALM-LORDS",
+    "SCINARI",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Realmscribe",
+      "type": "reaction",
+      "effect": "Change the casting roll for that spell to a value of 8 that cannot be modified.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9ed1-cf74-eb97-dee2"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

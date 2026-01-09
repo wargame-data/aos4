@@ -1,0 +1,81 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.seraphon.skink_starseer",
+  "bsdataId": "cde3-25dc-fe17-858c",
+  "type": "warscroll",
+  "name": "Skink Starseer",
+  "faction": "seraphon",
+  "keywords": [
+    "fly",
+    "hero",
+    "infantry",
+    "order",
+    "skink",
+    "wizard (2)",
+    "faction:seraphon"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Astromancer’s Staff",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FLY",
+    "SERAPHON",
+    "SKINK",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Scry the Stars",
+      "type": "once-per-battle",
+      "effect": "Roll a number of dice equal to the current battle round number. For each 3+, pick a friendly **^^Seraphon^^** unit wholly within 18\" of this unit. That unit has **^^Ward (5+)^^** until the start of your next turn.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Celestial Doom",
+      "type": "spell",
+      "effect": "Ward rolls cannot be made for the target for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 18\" to be the target, then make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "e9d0-a23-6a15-1fcb"
+  },
+  "wizard": 2,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

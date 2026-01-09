@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.morks_kunnin",
+  "type": "spell",
+  "name": "Mork's Kunnin'",
+  "faction": "shared",
+  "lore": "lore_of_the_swamp",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, add 1 to save rolls for attacks that target that friendly unit",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Kruleboyz Wizard^^** to cast this spell, pick a visible friendly **^^Kruleboyz^^** unit wholly within 12\" of them, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ossiarch_bonereapers.gothizzar_harvester",
+  "bsdataId": "1ae2-1b6e-d767-b8de",
+  "type": "warscroll",
+  "name": "Gothizzar Harvester",
+  "faction": "ossiarch_bonereapers",
+  "keywords": [
+    "death",
+    "monster",
+    "ward (6+)",
+    "faction:ossiarch_bonereapers"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 10,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Ossified Hooves and Tail",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    },
+    {
+      "name": "Soulcrusher Weapons",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    },
+    {
+      "name": "Death's Head Maw",
+      "type": "ranged",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "range": "12\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "OSSIARCH BONEREAPERS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Gruesome Surgery",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. For each model slain by this ability, you can return 1 slain model to a friendly **Mortek Guard** unit wholly within 12\" of this unit.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Infantry^^** unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Bone Harvest",
+      "type": "passive",
+      "effect": "Each time an enemy model from a unit in combat with this unit is slain, give this unit 1 **bone-tithe point**. This unit can have a maximum of 6 **bone-tithe points** at once.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Repair Construct",
+      "type": "passive",
+      "effect": "Return a number of slain models to the target with a combined Health characteristic equal to the number of **bone-tithe points** this unit has. Then, reset this unit’s **bone-tithe points** to 0.",
+      "phase": "any",
+      "declare": "Pick a friendly **^^Ossiarch Bonereapers^^** unit wholly within 12\" of this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
+    }
+  ],
+  "publication": {
+    "name": "2f1e-fdf-1ac2-fa38"
+  }
+}

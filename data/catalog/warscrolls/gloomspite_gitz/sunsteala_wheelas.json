@@ -1,0 +1,87 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.gloomspite_gitz.sunsteala_wheelas",
+  "bsdataId": "6fff-0633-62a4-cd02",
+  "type": "warscroll",
+  "name": "Sunsteala Wheelas",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "champion",
+    "destruction",
+    "gitmob",
+    "war machine",
+    "faction:gloomspite_gitz"
+  ],
+  "sizes": {
+    "min": 2,
+    "default": 2,
+    "max": 2
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Grot Bow",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1,
+      "range": "15\""
+    },
+    {
+      "name": "Wheela Slicers and Stabbin’ Stikka",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Snarlfangs' Frothing Jaws",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "GITMOB",
+    "GLOOMSPITE GITZ"
+  ],
+  "abilities": [
+    {
+      "name": "Careening Destruction",
+      "type": "once-per-turn",
+      "effect": "If this unit is in combat, it can move a distance up to its Move characteristic. It can pass through other models and the combat ranges of enemy units, but it cannot end that move in combat. Then, pick up to 1 enemy **^^Infantry^^** or **^^Cavalry^^** unit that this unit passed across during that move to be the target. Inflict D3 mortal damage on the target. Add 1 to the amount of mortal damage inflicted for each model in this unit.\n**Designer's Note:** *This unit can use this ability even if it is in combat.*",
+      "phase": "movement",
+      "keywords": [
+        "**^^CORE^^**",
+        "**^^MOVE^^**"
+      ],
+      "color": "Gray",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "a395-7bc4-71eb-46df"
+  }
+}

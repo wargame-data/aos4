@@ -1,0 +1,103 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.gloomspite_gitz.mangler_squigs",
+  "bsdataId": "7d29-9cf8-1621-e523",
+  "type": "warscroll",
+  "name": "Mangler Squigs",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "destruction",
+    "fly",
+    "monster",
+    "moonclan",
+    "squig",
+    "faction:gloomspite_gitz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "D6+8\"",
+    "health": 14,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Balls and Chains",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": "D3",
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Huge Fang-filled Gobs",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D6",
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Bashin’ Stikks",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "FLY",
+    "GLOOMSPITE GITZ",
+    "MOONCLAN",
+    "SQUIG"
+  ],
+  "abilities": [
+    {
+      "name": "Squig Rage",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Huge Fang-filled Gobs** is 6.",
+      "color": "Black"
+    },
+    {
+      "name": "Watch Out!",
+      "type": "passive",
+      "effect": "If this unit is destroyed, before removing it from play, roll a dice for each enemy unit within this unit’s combat range. On a 4+, inflict D3 mortal damage on that unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Giant Boing!",
+      "type": "once-per-turn",
+      "effect": "If this unit charged this turn, roll a dice. On a 3+, this unit can move 3D6\" but must end that move in combat.",
+      "phase": "charge",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "a395-7bc4-71eb-46df"
+  }
+}

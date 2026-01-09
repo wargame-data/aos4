@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.sylvaneth.kurnoths_heralds",
+  "bsdataId": "5c29-c1ee-6dd4-a32b",
+  "type": "warscroll",
+  "name": "Kurnoth's Heralds",
+  "faction": "sylvaneth",
+  "keywords": [
+    "cavalry",
+    "champion",
+    "kurnothi",
+    "legends",
+    "order",
+    "unique",
+    "faction:sylvaneth"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Hunter Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Kurnothi Bow",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "range": "18\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "KURNOTHI",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Graceful Leaps",
+      "type": "passive",
+      "effect": "Each time this unit makes a pile-in move:\n• Add 3\" to the distance this unit can move.\n• This unit can pass through models in enemy units.",
+      "color": "Red",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

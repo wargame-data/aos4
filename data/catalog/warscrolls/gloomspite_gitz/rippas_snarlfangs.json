@@ -1,0 +1,84 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.gloomspite_gitz.rippas_snarlfangs",
+  "bsdataId": "8019-bea9-51a0-352b",
+  "type": "warscroll",
+  "name": "Rippa's Snarlfangs",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "cavalry",
+    "champion",
+    "destruction",
+    "gitmob",
+    "legends",
+    "unique",
+    "faction:gloomspite_gitz"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Snarlfang’s Slavering Jaws",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 2
+    },
+    {
+      "name": "Wolfgit Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "GITMOB",
+    "GLOOMSPITE GITZ",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Hamstring",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. Add 1 to the roll if the target is damaged. On a 5+, inflict 1 mortal damage on the target.",
+      "phase": "shooting",
+      "declare": "If this unit’s **Mean-eye** is on the battlefield and not in combat, pick a visible enemy unit within 15\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Marking Your Territory",
+      "type": "passive",
+      "effect": "Add 1 to the Rend characteristic of this unit’s **Wolfgit Weapons** while it cons an objective you control that is not contested by any other friendly units.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

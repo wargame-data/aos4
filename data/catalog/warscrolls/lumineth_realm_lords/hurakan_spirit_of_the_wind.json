@@ -1,0 +1,95 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.lumineth_realm_lords.hurakan_spirit_of_the_wind",
+  "bsdataId": "4f9b-c3fa-a07b-59b0",
+  "type": "warscroll",
+  "name": "Hurakan Spirit of the Wind",
+  "faction": "lumineth_realm_lords",
+  "keywords": [
+    "fly",
+    "hurakan",
+    "monster",
+    "order",
+    "ward (5+)",
+    "faction:lumineth_realm_lords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "18\"",
+    "health": 8,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Swirling Shards",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1
+    },
+    {
+      "name": "Bow of the Wind’s Vengeance",
+      "type": "ranged",
+      "attacks": 4,
+      "hit": "2+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D3",
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat",
+        "Anti‑**^^Monster^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FLY",
+    "HURAKAN",
+    "LUMINETH REALM-LORDS",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Hunters of Majestic Beasts",
+      "type": "passive",
+      "effect": "The Damage characteristic of this unit’s **Bow of the Wind’s Vengeance** is 3 for attacks that target **^^Monsters^^**.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Spirit of the Wind",
+      "type": "passive",
+      "effect": "While friendly **^^Hurakan^^** units are wholly within 12\" of this unit, they can use **^^Shoot^^** and/or **^^Charge^^** abilities even if they used a **^^Run^^** or **^^Retreat^^** ability in the same turn and no mortal damage is inflicted on them by **^^Retreat^^** abilities.",
+      "color": "Gray",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Living Cyclone",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll, then this unit can move 6\", but it must end that move in combat.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9ed1-cf74-eb97-dee2"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.blades_of_khorne.skulltaker",
+  "bsdataId": "62-1d37-fc6c-515f",
+  "type": "warscroll",
+  "name": "Skulltaker",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "hero",
+    "infantry",
+    "unique",
+    "ward (5+)",
+    "faction:blades_of_khorne"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 7,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "The Slayer Sword",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "2+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)",
+        "Blood-hungry"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "DAEMON",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Heroes' Bane",
+      "type": "passive",
+      "effect": "For the rest of the turn, while the target is in combat with this unit, this unit has **^^Strike-first^^** but all of its combat attacks must target that enemy **^^Hero^^**.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "The Eternal Duel",
+      "type": "passive",
+      "effect": "If an enemy **^^Hero^^** had any damage points allocated to it by this unit's combat attacks this turn and that **^^Hero^^** was destroyed this turn, **Heal (X)** this unit, where **X** is the number of damage points this unit has.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Drawn by Blood",
+      "type": "once-per-battle",
+      "effect": "Remove this unit from the battlefield and set it up again on the battlefield in combat with the target and not in combat with any other enemy units.",
+      "declare": "Pick an enemy **^^Hero^^** unit that used a **^^Fight^^** ability this turn to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "81a9-3dbf-dbc5-672e"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

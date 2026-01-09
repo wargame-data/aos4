@@ -1,0 +1,104 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.soulblight_gravelords.radukar_the_beast",
+  "bsdataId": "eba7-9f89-cf56-ceb0",
+  "type": "warscroll",
+  "name": "Radukar the Beast",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "death",
+    "hero",
+    "monster",
+    "unique",
+    "vampire",
+    "ward (6+)",
+    "wizard (1)",
+    "faction:soulblight_gravelords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 12,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Blood-slick Claws",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Vyrkos Blood-born's Piercing Blades",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Armour of the Night",
+      "type": "spell",
+      "effect": "Subtract 1 from hit rolls and wound rolls for attacks that target this unit for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Make a casting roll of 2D6.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "The Beast Will Out",
+      "type": "once-per-turn",
+      "effect": "If this unit is not in combat, it can move D6\". It can move into combat.",
+      "phase": "any",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Purple",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Call to the Hunt",
+      "type": "passive",
+      "effect": "If this unit charged this turn, for the rest of the turn, add 1 to wound rolls for combat attacks made by friendly **^^Deathrattle^^** and **^^Deadwalkers^^** units while they are wholly within 12\" of this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "e3a0-cfae-cbb3-0215"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

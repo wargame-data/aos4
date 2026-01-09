@@ -1,0 +1,97 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.disciples_of_tzeentch.tzaangor_skyfires",
+  "bsdataId": "ce98-8983-52d0-52a8",
+  "type": "warscroll",
+  "name": "Tzaangor Skyfires",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "arcanite",
+    "cavalry",
+    "champion",
+    "chaos",
+    "disc of tzeentch",
+    "fly",
+    "warflock",
+    "faction:disciples_of_tzeentch"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "14\"",
+    "health": 4,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Arrow of Fate",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "18\""
+    },
+    {
+      "name": "Bow Stave and Vicious Beak",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Disc’s Teeth and Horns",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "ARCANITE",
+    "CHAMPION",
+    "DISC OF TZEENTCH",
+    "DISCIPLES OF TZEENTCH",
+    "FLY",
+    "WARFLOCK"
+  ],
+  "abilities": [
+    {
+      "name": "Guided by the Future",
+      "type": "passive",
+      "effect": "Ignore negative modifiers to hit rolls and wound rolls for this unit’s shooting attacks.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Judgement from Afar",
+      "type": "passive",
+      "effect": "Add 1 to hit rolls for combat attacks made by friendly **^^Warflock^^** units that target that enemy unit for the rest of the turn.",
+      "phase": "shooting",
+      "declare": "Pick an enemy unit that had any damage points allocated to it by this unit’s attacks this phase to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "72d2-ae0-e519-f2f7"
+  }
+}

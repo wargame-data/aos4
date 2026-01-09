@@ -1,0 +1,85 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.daughters_of_khaine.krethusa_the_croneseer",
+  "bsdataId": "9fbc-1533-9db5-1195",
+  "type": "warscroll",
+  "name": "Krethusa the Croneseer",
+  "faction": "daughters_of_khaine",
+  "keywords": [
+    "aelf",
+    "fly",
+    "hero",
+    "infantry",
+    "order",
+    "priest (1)",
+    "unique",
+    "ward (6+)",
+    "faction:daughters_of_khaine"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Staff of Morai-Heg",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "DAUGHTERS OF KHAINE",
+    "FLY",
+    "PRIEST (1)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Burnt Offerings",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 2+, pick 1 of the following effects to apply to the target.\n***Prophecy of Silence:*** Until the start of your next turn, enemy units cannot use commands while they are in combat with the target.\n***Prophecy of Dark Wings:*** The target can use the ‘Normal Move’ ability as if it were your movement phase. That unit counts as having used a **^^Run^^** ability this turn.\n***Prophecy of Reclamation:*** For the rest\nof the turn, while the target is contesting an objective, subtract 10 from the control scores of enemy units contesting that objective that do not have the **^^Hero^^** or **^^Monster^^** keyword.",
+      "phase": "hero",
+      "declare": "If this unit is within the combat range of a friendly **Cauldron of Blood**, pick a visible friendly **^^Daughters of Khaine Aelf^^** non-**^^Hero Infantry^^** unit wholly within 18\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Murder of Crows",
+      "type": "prayer",
+      "effect": "Roll a D3. If the chanting roll was 8+, roll a D6 instead. Inflict an amount of mortal damage on the target equal to the roll. In addition, if the roll exceeds the target’s Health characteristic, subtract 1 from hit rolls for the target’s attacks until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 18\" of this unit to be the target, then make a chanting roll of D6.",
+      "chantingValue": 4,
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "df1f-ba81-775f-acfd"
+  },
+  "wizard": null,
+  "priest": 1,
+  "unique": true,
+  "canJoinRegiment": null
+}

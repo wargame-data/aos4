@@ -1,0 +1,105 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.soulblight_gravelords.ivya_volga_the_outcast",
+  "bsdataId": "a10f-7bd6-ecff-15d0",
+  "type": "warscroll",
+  "name": "Ivya Volga, the Outcast",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "death",
+    "hero",
+    "infantry",
+    "unique",
+    "vampire",
+    "ward (6+)",
+    "wizard (1)",
+    "faction:soulblight_gravelords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Heirloom Axe",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Anti-**^^Monster^^**(+1 Rend)"
+      ]
+    },
+    {
+      "name": "Bat Swarm's Needling Fangs",
+      "type": "ranged",
+      "attacks": "2D6",
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Total Dominance",
+      "type": "spell",
+      "effect": "For the rest of the turn, subtract 5 from the control scores of enemy **^^Monsters^^** while they are within 12\" of this unit.",
+      "phase": "hero",
+      "declare": "Make a casting roll of 2D6.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Control"
+    },
+    {
+      "name": "Shrieking Swarm",
+      "type": "passive",
+      "effect": "Subtract 1 from hit rolls for attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Behemoth's Bane",
+      "type": "passive",
+      "effect": "Subtract 2 from the Attacks characteristic of enemy **^^Monsters^^’ melee weapons while they are in combat with this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "e3a0-cfae-cbb3-0215"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

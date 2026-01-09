@@ -1,0 +1,98 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.freeguild_marshal_on_griffon",
+  "bsdataId": "c0d6-b8a8-c799-e09e",
+  "type": "warscroll",
+  "name": "Freeguild Marshal on Griffon",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "fly",
+    "hero",
+    "human",
+    "monster",
+    "order",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 15,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Marshal’s Armaments",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Griffon’s Razor Claws and Deadly Beak",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "FLY",
+    "HUMAN"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Griffon’s Razor Claws and Deadly Beak ** is 4.",
+      "color": "Black"
+    },
+    {
+      "name": "Tactical Acumen",
+      "type": "reaction",
+      "effect": "If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.",
+      "color": "Gray",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Piercing Bloodroar",
+      "type": "once-per-turn",
+      "effect": "Roll a dice for each target. On a 4+, the target cannot use commands for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick up to 3 enemy units in combat with this unit to be the targets.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

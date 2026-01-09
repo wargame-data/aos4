@@ -1,0 +1,128 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.soulblight_gravelords.vampire_lord_on_zombie_dragon",
+  "bsdataId": "3af7-48d-a1d4-a796",
+  "type": "warscroll",
+  "name": "Vampire Lord on Zombie Dragon",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "death",
+    "fly",
+    "hero",
+    "monster",
+    "vampire",
+    "ward (6+)",
+    "wizard (1)",
+    "faction:soulblight_gravelords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 16,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Pestilential Breath",
+      "type": "ranged",
+      "attacks": "D6",
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2,
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Dynastic Weapon",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Draconic Maw",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Draconic Claws",
+      "type": "melee",
+      "attacks": 7,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Draconic Claws is 5.",
+      "color": "Black"
+    },
+    {
+      "name": "Bloodthirsty Dominance",
+      "type": "once-per-turn",
+      "effect": "Roll a number of dice equal to the target’s Health characteristic. For each 6, inflict 1 mortal damage on the target.",
+      "phase": "any",
+      "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Purple",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "That Which Should Not Be",
+      "type": "passive",
+      "effect": "If this unit charged this turn, for the rest of the turn, subtract 5 from the control scores of enemy units while they are in combat with this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    }
+  ],
+  "publication": {
+    "name": "05a6-726c-4748-8360"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

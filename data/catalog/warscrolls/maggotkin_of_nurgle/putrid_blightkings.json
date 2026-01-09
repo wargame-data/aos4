@@ -1,0 +1,66 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.maggotkin_of_nurgle.putrid_blightkings",
+  "bsdataId": "9951-ae95-5386-f8cf",
+  "type": "warscroll",
+  "name": "Putrid Blightkings",
+  "faction": "maggotkin_of_nurgle",
+  "keywords": [
+    "champion",
+    "chaos",
+    "infantry",
+    "musician (1/5)",
+    "rotbringers",
+    "standard bearer (1/5)",
+    "ward (5+)",
+    "faction:maggotkin_of_nurgle"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 3,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Blighted Weapons",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "MAGGOTKIN OF NURGLE",
+    "MUSICIAN (1/5)",
+    "ROTBRINGERS",
+    "STANDARD BEARER (1/5)",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Bloated Bulk",
+      "type": "passive",
+      "effect": "Add 3 to this unit’s control score while each model in this unit is contesting an objective you control.",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    }
+  ],
+  "publication": {
+    "name": "9c71-86cb-e1d0-ec8d"
+  }
+}

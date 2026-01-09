@@ -1,0 +1,72 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.gyrocopter",
+  "bsdataId": "a641-c2fa-e6d1-40ff",
+  "type": "warscroll",
+  "name": "Gyrocopter",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "duardin",
+    "fly",
+    "order",
+    "war machine",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 5,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Gyrocopter Guns",
+      "type": "ranged",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "12\""
+    },
+    {
+      "name": "Rotor Blades",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "DUARDIN",
+    "FLY"
+  ],
+  "abilities": [
+    {
+      "name": "Guild Bombs",
+      "type": "once-per-battle",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "movement",
+      "declare": "If this unit used a **^^Move^^** ability this phase, pick an enemy unit that does not have **^^Fly^^** and that this unit passed across this turn to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.disciples_of_tzeentch.magister_on_disc_of_tzeentch",
+  "bsdataId": "378a-e2c0-6476-f128",
+  "type": "warscroll",
+  "name": "Magister on Disc of Tzeentch",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "arcanite",
+    "cavalry",
+    "chaos",
+    "disc of tzeentch",
+    "fly",
+    "hero",
+    "wizard (1)",
+    "faction:disciples_of_tzeentch"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "14\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Tzeentchian Runestaff",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": "D3",
+      "range": "18\"",
+      "abilities": [
+        "Wyrdflame"
+      ]
+    },
+    {
+      "name": "Warpsteel Sword",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": "D3"
+    },
+    {
+      "name": "Disc’s Teeth and Horns",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "ARCANITE",
+    "DISC OF TZEENTCH",
+    "DISCIPLES OF TZEENTCH",
+    "FLY",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Master of the Blazing Skies",
+      "type": "passive",
+      "effect": "While they are within this unit’s combat range, friendly **^^Disc of Tzeentch^^** units can use **^^Charge^^** abilities even if they used a Run ability in the same turn."
+    },
+    {
+      "name": "Magic-touched",
+      "type": "passive",
+      "effect": "If this unit successfully cast a spell this phase, for the rest of the turn:\n• Add 1 to this unit’s power level.\n• If 2 or more dice in a casting roll for this unit have the same value, the spell fails, its effect is not resolved and D6 mortal damage is inflicted on this unit.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "72d2-ae0-e519-f2f7"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.assassin",
+  "bsdataId": "41db-4a11-69e4-4f72",
+  "type": "warscroll",
+  "name": "Assassin",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "aelf",
+    "hero",
+    "infantry",
+    "order",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Poison-coated Blades",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)",
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CITIES OF SIGMAR"
+  ],
+  "abilities": [
+    {
+      "name": "Hidden Murderer",
+      "type": "passive",
+      "effect": "While this unit is within the combat range of a friendly **^^Infantry^^** unit that has 5 or more models and there are no enemy units within this unit's combat range, this unit is not visible to enemy units.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "In for the Kill",
+      "type": "passive",
+      "effect": "This unit has **^^Strike-first^^** if it charged in the same turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

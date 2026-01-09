@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.burning_insistence",
+  "type": "prayer",
+  "name": "Burning Insistence",
+  "faction": "shared",
+  "lore": "lore_of_aqshian_wrath",
+  "keywords": [
+    "prayer",
+    "unlimited"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Add 3 to the target's control score until the start of your next turn. If the chanting roll was 8+, add 10 to the target's control score until the start of your next turn instead.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible friendly unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Control"
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.chaos_sorcerer_lord",
+  "bsdataId": "eb21-eb7e-ebce-aafe",
+  "type": "warscroll",
+  "name": "Chaos Sorcerer Lord",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "chaos",
+    "hero",
+    "infantry",
+    "warriors of chaos",
+    "wizard (1)",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Sorcerer Staff and Runeblade",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SLAVES TO DARKNESS",
+    "WARRIORS OF CHAOS",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Oracular Visions",
+      "type": "once-per-turn",
+      "effect": "On a 3+, the target has **^^Ward (5+)^^** until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Warriors of Chaos^^** unit wholly within 12\" of this unit to be the target and roll a dice.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "6357-5d77-a2b2-f86b"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

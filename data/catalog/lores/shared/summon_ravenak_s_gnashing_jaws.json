@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.summon_ravenak_s_gnashing_jaws",
+  "type": "spell",
+  "name": "Summon Ravenak’s Gnashing Jaws",
+  "faction": "shared",
+  "lore": "primal_energy",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Ravenak’s Gnashing Jaws** endless spell wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Ravenak’s Gnashing Jaws** endless spell on the battlefield, pick a friendly **^^Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

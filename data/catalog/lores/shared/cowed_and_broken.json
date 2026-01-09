@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.cowed_and_broken",
+  "type": "prayer",
+  "name": "Cowed and Broken",
+  "faction": "shared",
+  "lore": "prayer_lore_gorechosen_champions",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Roll 8 dice. If the chanting roll was 8+, add 1 to each roll. For each 4+, inflict 1 mortal damage on the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Gorechosen Champions Priest^^** to chant this prayer, pick a visibleenemy unit within 12\" of them that is in combat with a friendly unit to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

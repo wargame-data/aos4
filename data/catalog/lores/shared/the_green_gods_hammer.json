@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.the_green_gods_hammer",
+  "type": "spell",
+  "name": "The Green God's Hammer",
+  "faction": "shared",
+  "lore": "spell_lore_zoggroks_ironmongerz",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Zoggrok's Ironmongerz Wizard^^** to cast this spell, pick a visible friendly **^^Zoggrok's Ironmongerz Infantry^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Movement"
+}

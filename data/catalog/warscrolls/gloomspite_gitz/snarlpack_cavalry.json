@@ -1,0 +1,87 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.gloomspite_gitz.snarlpack_cavalry",
+  "bsdataId": "052d-8f9c-151a-c74b",
+  "type": "warscroll",
+  "name": "Snarlpack Cavalry",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "cavalry",
+    "champion",
+    "destruction",
+    "gitmob",
+    "musician (1/3)",
+    "standard bearer (1/3)",
+    "faction:gloomspite_gitz"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 3,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Giant Snarlfang’s Jaws",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Pointy Skewas",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "GITMOB",
+    "GLOOMSPITE GITZ",
+    "MUSICIAN (1/3)",
+    "STANDARD BEARER (1/3)"
+  ],
+  "abilities": [
+    {
+      "name": "Markin' Territory",
+      "type": "passive",
+      "effect": "If this unit charged this turn, add 5 to its control score for the rest of the turn.",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    },
+    {
+      "name": "Frazzleburned Scrap",
+      "type": "once-per-turn",
+      "effect": "If this unit charged this turn, it has **^^Strike-first^^** for the rest of the turn.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "a395-7bc4-71eb-46df"
+  }
+}

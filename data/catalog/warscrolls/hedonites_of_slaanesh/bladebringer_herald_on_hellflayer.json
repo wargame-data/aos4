@@ -1,0 +1,112 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.hedonites_of_slaanesh.bladebringer_herald_on_hellflayer",
+  "bsdataId": "5c8d-d6ce-1035-6969",
+  "type": "warscroll",
+  "name": "Bladebringer, Herald on Hellflayer",
+  "faction": "hedonites_of_slaanesh",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "hero",
+    "legends",
+    "war machine",
+    "ward (6+)",
+    "wizard (1)",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 8,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Flensing Whips and Piercing Claws",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1
+    },
+    {
+      "name": "Axle Blades",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3",
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Steeds’ Poisoned Tongues",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "HEDONITES OF SLAANESH",
+    "LEGENDS",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Slavering for Sensation",
+      "type": "passive",
+      "effect": "Add 2\" to the Move characteristic of this unit and each target for the rest of the turn.",
+      "phase": "movement",
+      "declare": "Pick up to 2 friendly **Hellflayer** units wholly within 12\" of this unit to be the targets.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Soulscent",
+      "type": "passive",
+      "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any models are slain by this ability, this unit has **^^Ward (5+)^^** for the rest of the turn.",
+      "phase": "movement",
+      "declare": "Pick up to 3 enemy units that this unit passed across this phase to be the targets.",
+      "color": "Gray",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Threshing Doom",
+      "type": "passive",
+      "effect": "When this unit moves, it can pass through models in enemy **^^Infantry^^** units and can pass through the combat ranges of enemy **^^Infantry^^** units, but it cannot end a move in combat unless specified in the ability used.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,89 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.seraphon.terradon_chief",
+  "bsdataId": "767f-699-a82d-ca70",
+  "type": "warscroll",
+  "name": "Terradon Chief",
+  "faction": "seraphon",
+  "keywords": [
+    "cavalry",
+    "fly",
+    "hero",
+    "order",
+    "skink",
+    "faction:seraphon"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "14\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Skyblade",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Terradon’s Razor-sharp Jaws",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FLY",
+    "SERAPHON",
+    "SKINK"
+  ],
+  "abilities": [
+    {
+      "name": "Chief's Deadly Cargo",
+      "type": "passive",
+      "effect": "Roll a dice and add 2 to the roll if this unit is within the combat ranges of any friendly **Terradon Riders** units.\nOn a 5+:\n• Inflict D3 mortal damage on the target.\n• If any damage points are allocated by this ability and the target does not have **^^Fly^^**, the target cannot use **^^Run^^** abilities until the start of your next turn.",
+      "phase": "movement",
+      "declare": "Pick an enemy unit that this unit passed across this phase to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Attack from On High",
+      "type": "passive",
+      "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "e9d0-a23-6a15-1fcb"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

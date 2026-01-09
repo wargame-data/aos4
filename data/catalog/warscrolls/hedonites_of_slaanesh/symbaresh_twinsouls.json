@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.hedonites_of_slaanesh.symbaresh_twinsouls",
+  "bsdataId": "ffcf-47e1-a14f-b507",
+  "type": "warscroll",
+  "name": "Symbaresh Twinsouls",
+  "faction": "hedonites_of_slaanesh",
+  "keywords": [
+    "champion",
+    "chaos",
+    "infantry",
+    "sybarite",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Merciless Weapons",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "HEDONITES OF SLAANESH",
+    "SYBARITE"
+  ],
+  "abilities": [
+    {
+      "name": "Fiendish Reflexes",
+      "type": "passive",
+      "effect": "If this unit did not charge this turn, it has **^^Ward (5+)^^** while it is in combat.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Ego-driven Excess",
+      "type": "passive",
+      "effect": "If this unit did not charge this turn, subtract 1 from the Attacks characteristic of melee weapons used by enemy units while they are in combat with this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "95fc-e96f-a916-bba1"
+  }
+}

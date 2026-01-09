@@ -1,0 +1,92 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.lumineth_realm_lords.vanari_lord_regent",
+  "bsdataId": "2e0b-1a0a-3d2b-8fef",
+  "type": "warscroll",
+  "name": "Vanari Lord Regent",
+  "faction": "lumineth_realm_lords",
+  "keywords": [
+    "aelf",
+    "cavalry",
+    "hero",
+    "order",
+    "vanari",
+    "wizard (1)",
+    "faction:lumineth_realm_lords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "14\"",
+    "health": 7,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Regent’s Sword",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Lightcourser’s Horns and Claws",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "LUMINETH REALM-LORDS",
+    "VANARI",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Charge of the Lumineth",
+      "type": "once-per-battle",
+      "effect": "You can re-roll charge rolls for the targets for the rest of the turn. In addition, if a target charges this phase, add 1 to the Attacks characteristic of that target’s weapons for the rest of the turn.",
+      "phase": "charge",
+      "declare": "Pick this unit and up to 2 friendly **Vanari Dawnriders** units within this unit’s combat range to be the targets.",
+      "color": "Orange",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Purest Aetherquartz",
+      "type": "once-per-battle",
+      "effect": "For the rest of the turn, add 1 to casting rolls for this unit and subtract 1 from hit rolls for attacks that target this unit.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9ed1-cf74-eb97-dee2"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

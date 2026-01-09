@@ -1,0 +1,122 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.maggotkin_of_nurgle.rotigus",
+  "bsdataId": "bb0e-3648-ee6e-3e43",
+  "type": "warscroll",
+  "name": "Rotigus",
+  "faction": "maggotkin_of_nurgle",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "hero",
+    "monster",
+    "unique",
+    "ward (5+)",
+    "warmaster",
+    "wizard (2)",
+    "faction:maggotkin_of_nurgle"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 22,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Gnarlrod",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 3
+    },
+    {
+      "name": "Fanged Maws",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2
+    },
+    {
+      "name": "Host of Nurglings",
+      "type": "melee",
+      "attacks": 10,
+      "hit": "5+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "MAGGOTKIN OF NURGLE",
+    "WARD (5+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Gnarlrod** is 3.",
+      "color": "Black"
+    },
+    {
+      "name": "Mountain of Loathsome Flesh",
+      "type": "once-per-turn",
+      "effect": "Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, roll a dice. On a 3+, pick an enemy unit within 1\" of it to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Bringer of Plenty",
+      "type": "passive",
+      "effect": "Add 1 to casting rolls for this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Deluge of Nurgle",
+      "type": "spell",
+      "effect": "Roll a D3 for each target On a 2+:\n• If the target is an enemy unit, inflict an amount of mortal damage on the target equal to the roll.\n• If the target is a friendly unit, **Heal (X)** the target, where **X** is an amount equal to the roll.",
+      "phase": "hero",
+      "declare": "Pick each **^^Diseased^^** enemy unit on the battlefield and each friendly **^^Maggotkin of Nurgle^^** unit in combat with any **^^Diseased^^** enemy units to be the targets. Then, make a casting roll of 2D6.",
+      "castingValue": 8,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9c71-86cb-e1d0-ec8d"
+  },
+  "wizard": 2,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

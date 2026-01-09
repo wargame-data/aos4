@@ -1,0 +1,79 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.flesh_eater_courts.abhorrant_archregent",
+  "bsdataId": "cb9f-5427-a3b7-9541",
+  "type": "warscroll",
+  "name": "Abhorrant Archregent",
+  "faction": "flesh_eater_courts",
+  "keywords": [
+    "abhorrent",
+    "death",
+    "hero",
+    "infantry",
+    "ward (6+)",
+    "wizard (1)",
+    "faction:flesh_eater_courts"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Gory Talons and Fangs",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "ABHORRENT",
+    "FLESH-EATER COURTS",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Countless Servants",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+:\n• If the target is a **^^Serfs^^** unit, return up to 3 slain models to it.\n• If the target is a **^^Knights^^** unit, return 1 slain model to it.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Serfs^^** or **^^Knights^^** unit wholly within 12\" of this unit to be the target.",
+      "keywords": [
+        "**^^CORE^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
+    },
+    {
+      "name": "Musicians, Play!",
+      "type": "passive",
+      "effect": "While you believe this **^^Delusion^^**, subtract 1 from hit rolls for shooting attacks that target friendly **^^Flesh-eater Courts^^** units while they are wholly within 12\" of a friendly **^^Flesh-eater Courts Hero^^**.",
+      "keywords": [
+        "**^^DELUSION^^**"
+      ],
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.thrall_drain",
+  "type": "spell",
+  "name": "Thrall Drain",
+  "faction": "shared",
+  "lore": "spell_lore_scions_of_nulahmia",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 7,
+  "timing": "Your Hero Phase",
+  "effect": "D3 models in the target are slain. Then, remove all damage points from the caster",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Scions of Nulahmia Wizard^^** to cast this spell, pick a friendly unit wholly within 12\" of them to be the target, then make a casting roll of 2D6",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

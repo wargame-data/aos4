@@ -1,0 +1,81 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.sylvaneth.yltharis_guardians",
+  "bsdataId": "57ce-ad2e-d412-37f5",
+  "type": "warscroll",
+  "name": "Ylthari's Guardians",
+  "faction": "sylvaneth",
+  "keywords": [
+    "champion",
+    "infantry",
+    "legends",
+    "musician (1/5)",
+    "order",
+    "unique",
+    "faction:sylvaneth"
+  ],
+  "sizes": {
+    "min": 4,
+    "default": 4,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Enchanted Glade Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Revenant Bow",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "LEGENDS",
+    "MUSICIAN (1/5)"
+  ],
+  "abilities": [
+    {
+      "name": "Ylthari",
+      "type": "passive",
+      "effect": "While this unit’s **Ylthari** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Bitterness of the Soul",
+      "type": "passive",
+      "effect": "Add 1 to the Damage characteristic of this unit’s **Enchanted Glade Weapons** for each model in this unit that is slain.\n*Designer’s Note: Models that have been slain and returned to this unit do not count as being slain for the purposes of this ability.*",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.disciples_of_tzeentch.flamers_of_tzeentch",
+  "bsdataId": "734-1521-c440-d919",
+  "type": "warscroll",
+  "name": "Flamers of Tzeentch",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "champion",
+    "chaos",
+    "daemon",
+    "fly",
+    "infantry",
+    "ward (6+)",
+    "faction:disciples_of_tzeentch"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "9\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Flaming Maws",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Warping Flames",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": "D3",
+      "range": "12\"",
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Wyrdflame"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DAEMON",
+    "DISCIPLES OF TZEENTCH",
+    "FLY",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Capricious Wyrdflame",
+      "type": "passive",
+      "effect": "Add 1 to wound rolls for this unit’s shooting attacks that target a **^^Burning^^** enemy unit.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "72d2-ae0-e519-f2f7"
+  }
+}

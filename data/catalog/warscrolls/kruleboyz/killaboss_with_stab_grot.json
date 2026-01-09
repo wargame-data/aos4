@@ -1,0 +1,92 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.kruleboyz.killaboss_with_stab_grot",
+  "bsdataId": "17d5-b7e8-6b70-9260",
+  "type": "warscroll",
+  "name": "Killaboss with Stab-grot",
+  "faction": "kruleboyz",
+  "keywords": [
+    "destruction",
+    "hero",
+    "infantry",
+    "faction:kruleboyz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Boss-hacka",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Stab-grot’s Shiv",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "KRULEBOYZ"
+  ],
+  "abilities": [
+    {
+      "name": "Keep 'Em in Line",
+      "type": "reaction",
+      "effect": "If this unit is wholly within 12\" of the unit using the ‘All-out Attack’ command, add 1 to wound rolls for combat attacks made by that unit for the rest of the phase.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Unleash the Stab-grot!",
+      "type": "once-per-battle",
+      "effect": "Pick 1 of the following effects:\n• Pick an enemy unit in combat with this unit to be the target. Inflict D3 mortal damage on the target.\n• This unit has **^^Ward (5+)^^** for the rest of the turn.\nAfter resolving either effect, remove this unit’s **Stab-grot** from the battlefield.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Stab-grot",
+      "type": "passive",
+      "effect": "This unit’s **Stab-grot** is a token. If this unit’s **Stab grot** has been removed, it can no longer attack with its **Stab-grot’s Shiv** and it cannot use the ‘Unleash the Stab-grot!’ ability.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "8b1b-f2c7-890e-2bbe"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,80 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.bonesplitterz.savage_boarboys",
+  "bsdataId": "1905-bd6d-f4bc-c40b",
+  "type": "warscroll",
+  "name": "Savage Boarboys",
+  "faction": "bonesplitterz",
+  "keywords": [
+    "cavalry",
+    "champion",
+    "destruction",
+    "legends",
+    "musician (1/5)",
+    "orruk",
+    "standard bearer (1/5)",
+    "ward (6+)",
+    "faction:bonesplitterz"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Boarboy Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1
+    },
+    {
+      "name": "War Boar’s Tusks and Hooves",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BONESPLITTERZ",
+    "CHAMPION",
+    "LEGENDS",
+    "MUSICIAN (1/5)",
+    "ORRUK",
+    "STANDARD BEARER (1/5)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Wild Enthusiasm",
+      "type": "passive",
+      "effect": "This unit can use the ‘Power Through’ command even if it has not charged this turn. In addition, when you pick a target for that command, the target does not have to have a lower Health characteristic than this unit.",
+      "color": "Purple",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "06c5-6322-e810-7967"
+  }
+}

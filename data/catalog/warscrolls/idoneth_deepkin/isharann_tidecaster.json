@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.idoneth_deepkin.isharann_tidecaster",
+  "bsdataId": "b3e9-4dba-c419-550",
+  "type": "warscroll",
+  "name": "Isharann Tidecaster",
+  "faction": "idoneth_deepkin",
+  "keywords": [
+    "aelf",
+    "hero",
+    "isharann",
+    "order",
+    "wizard (1)",
+    "faction:idoneth_deepkin"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Pelagic Staff",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "IDONETH DEEPKIN",
+    "ISHARANN",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Master of the Ethersea",
+      "type": "once-per-turn",
+      "effect": "On a 3+, pick 1 of the following effects to apply until the start of your next turn:\n***Creeping Mist:*** Friendly **^^Idoneth Deepkin^^** units cannot be targeted by shooting attacks unless the attacking model is within 12\" of them.\n***Surging Stream:*** Add 1 to run rolls and charge rolls for friendly **^^Idoneth Deepkin^^** units.\n***Spiteful Riptide:*** Each time an enemy unit uses a **^^Retreat^^** ability, after the effect of that ability has been resolved, inflict D3 mortal damage on that unit.",
+      "phase": "hero",
+      "declare": "Make an Isharann ritual roll of D6.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9866-239b-07f0-d92b"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,79 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.nighthaunt.the_headsmens_curse",
+  "bsdataId": "a074-2ecb-5d24-8c4e",
+  "type": "warscroll",
+  "name": "The Headsmen's Curse",
+  "faction": "nighthaunt",
+  "keywords": [
+    "champion",
+    "death",
+    "fly",
+    "infantry",
+    "legends",
+    "unique",
+    "ward (6+)",
+    "faction:nighthaunt"
+  ],
+  "sizes": {
+    "min": 4,
+    "default": 4,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 3,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Terminus",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D6",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Tool of Judgement",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLY",
+    "LEGENDS",
+    "NIGHTHAUNT",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Furious Indictment",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, the target is **condemned** until the start of your next turn.\nWhile a unit is **condemned**:\n• Halve that unit’s Move characteristic.\n• That unit cannot use **^^Retreat^^** abilities.\n• Subtract 1 from the number of dice rolled when making charge rolls for that unit, to a minimum of 1.",
+      "phase": "hero",
+      "declare": "Pick an enemy unit within 12\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

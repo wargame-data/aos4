@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.kruleboyz.daggoks_stab_ladz",
+  "bsdataId": "5462-e249-ce89-3c82",
+  "type": "warscroll",
+  "name": "Daggok's Stab-ladz",
+  "faction": "kruleboyz",
+  "keywords": [
+    "champion",
+    "destruction",
+    "infantry",
+    "legends",
+    "musician (1/4)",
+    "unique",
+    "faction:kruleboyz"
+  ],
+  "sizes": {
+    "min": 4,
+    "default": 4,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Wicked Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "KRULEBOYZ",
+    "LEGENDS",
+    "MUSICIAN (1/4)"
+  ],
+  "abilities": [
+    {
+      "name": "Roar of Kragnos",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+      "phase": "combat",
+      "declare": "If this unit’s **Hurrk da Howla** is on the battlefield, pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

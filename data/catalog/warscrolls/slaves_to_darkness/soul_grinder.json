@@ -1,0 +1,122 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.soul_grinder",
+  "bsdataId": "8171-deda-b88f-b561",
+  "type": "warscroll",
+  "name": "Soul Grinder",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "legends",
+    "monster",
+    "ward (6+)",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 16,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Harvester Cannon",
+      "type": "ranged",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Piston-driven Legs and Daemonic Blade or Claw",
+      "type": "melee",
+      "attacks": 8,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Hellforged Claw",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D6",
+      "abilities": [
+        "Crit (Mortal)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Phlegm Bombardment",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 3,
+      "range": "12\"",
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Piston-driven Legs and Daemonic Blade or Claw** is 6.",
+      "color": "Black"
+    },
+    {
+      "name": "Piston-driven Carnage",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, this unit can move 6\". During that move, it can pass through models in the target unit but must end that move in combat.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Infantry^^** unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Implacable Advance",
+      "type": "passive",
+      "effect": "This unit can use **^^Charge^^** abilities even if it used a **^^Run^^** ability in the same turn.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

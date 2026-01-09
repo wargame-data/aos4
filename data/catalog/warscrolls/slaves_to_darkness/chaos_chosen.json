@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.chaos_chosen",
+  "bsdataId": "3aa3-1abd-dbb-4a18",
+  "type": "warscroll",
+  "name": "Chaos Chosen",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "champion",
+    "chaos",
+    "infantry",
+    "musician (1/5)",
+    "standard bearer (1/5)",
+    "warriors of chaos",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 3,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Soul Splitter",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "MUSICIAN (1/5)",
+    "SLAVES TO DARKNESS",
+    "STANDARD BEARER (1/5)",
+    "WARRIORS OF CHAOS"
+  ],
+  "abilities": [
+    {
+      "name": "Heralds of Ruination",
+      "type": "once-per-battle",
+      "effect": "This unit can use 2 **^^Fight^^** abilities this phase. After the first is used, however, this unit has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "6357-5d77-a2b2-f86b"
+  }
+}

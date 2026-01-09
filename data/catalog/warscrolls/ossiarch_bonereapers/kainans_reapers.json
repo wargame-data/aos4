@@ -1,0 +1,87 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ossiarch_bonereapers.kainans_reapers",
+  "bsdataId": "7d6d-699b-e072-6699",
+  "type": "warscroll",
+  "name": "Kainan's Reapers",
+  "faction": "ossiarch_bonereapers",
+  "keywords": [
+    "death",
+    "infantry",
+    "legends",
+    "mortisan",
+    "unique",
+    "ward (6+)",
+    "faction:ossiarch_bonereapers"
+  ],
+  "sizes": {
+    "min": 6,
+    "default": 6,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 2,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Soulreaper Axe",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Anti-charge (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Nadirite Weapon",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-charge (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "LEGENDS",
+    "MORTISAN",
+    "OSSIARCH BONEREAPERS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Nadirite Bow",
+      "type": "passive",
+      "effect": "Roll a dice. On a 4+, inflict 1 mortal damage on the target.",
+      "phase": "shooting",
+      "declare": "If this unit’s **Nohem** is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Mir Kainan",
+      "type": "passive",
+      "effect": "While this unit’s **Mir Kainan** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

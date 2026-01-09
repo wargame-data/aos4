@@ -1,0 +1,62 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.chaos_legionnaires",
+  "bsdataId": "82e2-c548-4d0f-3f1e",
+  "type": "warscroll",
+  "name": "Chaos Legionnaires",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "champion (1/8)",
+    "chaos",
+    "infantry",
+    "undivided",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 8,
+    "default": 8,
+    "max": 8
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 1,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Darkiron Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION (1/8)",
+    "SLAVES TO DARKNESS",
+    "UNDIVIDED"
+  ],
+  "abilities": [
+    {
+      "name": "Sow Confusion",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 4+, the target cannot use commands for the rest of the turn.",
+      "phase": "movement",
+      "declare": "Pick an enemy unit within 6\" of this unit to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "6357-5d77-a2b2-f86b"
+  }
+}

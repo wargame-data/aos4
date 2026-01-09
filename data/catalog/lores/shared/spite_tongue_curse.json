@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.spite_tongue_curse",
+  "type": "spell",
+  "name": "Spite-tongue Curse",
+  "faction": "shared",
+  "lore": "lore_of_the_damned",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "Inflict 3 mortal damage on the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Slaves to Darkness Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6. If the casting attempt is unsuccessful or if the spell is unbound, inflict D3 mortal damage on the caster.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

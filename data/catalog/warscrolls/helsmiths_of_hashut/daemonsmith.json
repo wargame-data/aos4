@@ -1,0 +1,81 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.helsmiths_of_hashut.daemonsmith",
+  "bsdataId": "22ff-9dca-f6e0-76cf",
+  "type": "warscroll",
+  "name": "Daemonsmith",
+  "faction": "helsmiths_of_hashut",
+  "keywords": [
+    "chaos",
+    "duardin",
+    "hero",
+    "infantry",
+    "wizard (1)",
+    "faction:helsmiths_of_hashut"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Darkiron Talon",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3"
+    },
+    {
+      "name": "Hurled Daemonfire",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "18\"",
+      "abilities": [
+        "Crit (2 Hits)",
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DUARDIN",
+    "HELSMITHS OF HASHUT",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Molten Mending",
+      "type": "once-per-turn",
+      "effect": "**Heal (D3+X)** the target, where **X** is the number of **daemonic power points** this unit has.",
+      "phase": "hero",
+      "declare": "Pick a friendly **^^Helsmiths of Hashut War Machine^^** wholly within 6\" of this unit to be the target. Add 6\" to the range of this ability for each **daemonic power point** this unit has.",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "487d-9798-0633-8040"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

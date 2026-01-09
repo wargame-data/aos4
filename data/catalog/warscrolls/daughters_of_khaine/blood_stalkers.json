@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.daughters_of_khaine.blood_stalkers",
+  "bsdataId": "1c2f-f798-5544-d556",
+  "type": "warscroll",
+  "name": "Blood Stalkers",
+  "faction": "daughters_of_khaine",
+  "keywords": [
+    "champion",
+    "infantry",
+    "melusai",
+    "order",
+    "ward (6+)",
+    "faction:daughters_of_khaine"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Heartseeker Bow",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "range": "18\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Scianlar",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DAUGHTERS OF KHAINE",
+    "MELUSAI",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Heartseekers",
+      "type": "passive",
+      "effect": "If this unit has not used a **^^Move^^** ability this turn and was not set up this turn, this unit’s shooting attacks score critical hits on unmodified hit rolls of 5+ for the rest of the turn.",
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "df1f-ba81-775f-acfd"
+  }
+}

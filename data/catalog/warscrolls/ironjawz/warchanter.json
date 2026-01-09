@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ironjawz.warchanter",
+  "bsdataId": "7d89-20b4-7ed4-6ca0",
+  "type": "warscroll",
+  "name": "Warchanter",
+  "faction": "ironjawz",
+  "keywords": [
+    "destruction",
+    "hero",
+    "infantry",
+    "priest (1)",
+    "faction:ironjawz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Gorkstikk and Morkstikk",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "IRONJAWZ",
+    "PRIEST (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Rhythm of Destruction",
+      "type": "passive",
+      "effect": "If any enemy models were slain this turn by this unit’s combat attacks, give this unit D3 ritual points.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "8b1b-f2c7-890e-2bbe"
+  },
+  "wizard": null,
+  "priest": 1,
+  "unique": false,
+  "canJoinRegiment": null
+}

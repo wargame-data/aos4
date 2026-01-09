@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.lumineth_realm_lords.scinari_cathallar",
+  "bsdataId": "957c-42e5-f8c7-55cb",
+  "type": "warscroll",
+  "name": "Scinari Cathallar",
+  "faction": "lumineth_realm_lords",
+  "keywords": [
+    "aelf",
+    "hero",
+    "infantry",
+    "order",
+    "scinari",
+    "wizard (1)",
+    "faction:lumineth_realm_lords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Despairing Touch",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "LUMINETH REALM-LORDS",
+    "SCINARI",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Darkness of the Soul",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, subtract D6 from the target’s control score for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick an enemy unit within 12\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Control"
+    },
+    {
+      "name": "Absorb Despair",
+      "type": "passive",
+      "effect": "Ignore negative modifiers to the control scores of friendly **^^Lumineth Realm-lords^^** units while they are wholly within 12\" of this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    }
+  ],
+  "publication": {
+    "name": "9ed1-cf74-eb97-dee2"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

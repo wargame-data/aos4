@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.bonesplitterz.wardokk",
+  "bsdataId": "c5c4-a443-f0e4-c69e",
+  "type": "warscroll",
+  "name": "Wardokk",
+  "faction": "bonesplitterz",
+  "keywords": [
+    "cavalry",
+    "destruction",
+    "hero",
+    "legends",
+    "orruk",
+    "ward (6+)",
+    "wizard (1)",
+    "faction:bonesplitterz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Bonebeast Stikk",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BONESPLITTERZ",
+    "LEGENDS",
+    "ORRUK",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Primal Hex",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, until the start of your next turn, each time the target uses a **^^Spell^^** or **^^Unbind^^** ability, this unit gains 1 ritual point.",
+      "phase": "hero",
+      "declare": "Pick an enemy **^^Wizard^^** within 24\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "06c5-6322-e810-7967"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

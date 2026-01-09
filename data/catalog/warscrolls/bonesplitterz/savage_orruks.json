@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.bonesplitterz.savage_orruks",
+  "bsdataId": "df8a-87fb-1705-8691",
+  "type": "warscroll",
+  "name": "Savage Orruks",
+  "faction": "bonesplitterz",
+  "keywords": [
+    "champion",
+    "destruction",
+    "infantry",
+    "legends",
+    "musician (1/10)",
+    "orruk",
+    "standard bearer (1/10)",
+    "ward (6+)",
+    "faction:bonesplitterz"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Savage Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BONESPLITTERZ",
+    "CHAMPION",
+    "LEGENDS",
+    "MUSICIAN (1/10)",
+    "ORRUK",
+    "STANDARD BEARER (1/10)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "The Savage Hordes",
+      "type": "passive",
+      "effect": "Add 10 to the control score of this unit while it is in combat with any enemy units that charged this turn.",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "06c5-6322-e810-7967"
+  }
+}

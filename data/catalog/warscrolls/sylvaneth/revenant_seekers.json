@@ -1,0 +1,95 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.sylvaneth.revenant_seekers",
+  "bsdataId": "766a-54f1-440b-b878",
+  "type": "warscroll",
+  "name": "Revenant Seekers",
+  "faction": "sylvaneth",
+  "keywords": [
+    "cavalry",
+    "champion",
+    "fly",
+    "musician (1/3)",
+    "order",
+    "standard bearer (1/3)",
+    "faction:sylvaneth"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Seeker’s Sickle",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Sharp Mandibles",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLY",
+    "MUSICIAN (1/3)",
+    "STANDARD BEARER (1/3)",
+    "SYLVANETH"
+  ],
+  "abilities": [
+    {
+      "name": "Thrumming with Life",
+      "type": "passive",
+      "effect": "**Heal (3)** this unit.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Harvesters of the Lamentiri",
+      "type": "passive",
+      "effect": "Each time a friendly unit wholly within 12\" of any friendly **Revenant Seekers** units uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
+    },
+    {
+      "name": "Forest Fighters",
+      "type": "passive",
+      "effect": "This unit has a coherency range of 2\".",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "61ee-fae0-f1da-2591"
+  }
+}

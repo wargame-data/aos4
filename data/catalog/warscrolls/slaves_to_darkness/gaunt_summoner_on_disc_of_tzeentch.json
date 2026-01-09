@@ -1,0 +1,122 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.gaunt_summoner_on_disc_of_tzeentch",
+  "bsdataId": "de-30dc-2385-d1d1",
+  "type": "warscroll",
+  "name": "Gaunt Summoner on Disc of Tzeentch",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "cavalry",
+    "chaos",
+    "daemon",
+    "fly",
+    "hero",
+    "pledged to tzeentch",
+    "ward (6+)",
+    "wizard (2)",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "14\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Warptongue Blade",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    },
+    {
+      "name": "Changestaff",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "12\"",
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Disc’s Teeth and Horns",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "FLY",
+    "PLEDGED TO TZEENTCH",
+    "SLAVES TO DARKNESS",
+    "WARD (6+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Minions of the Silver Tower",
+      "type": "passive",
+      "effect": "The target is set up in reserve **in a Silver Tower**. It has now been deployed.",
+      "declare": "Pick a friendly unit that has not been deployed to be the target",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Book of Profane Secrets",
+      "type": "passive",
+      "effect": "Set up the target on the battlefield wholly within 12\" of this unit and more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Pick a friendly unit **in a Silver Tower** to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Arcane Imprisonment",
+      "type": "spell",
+      "effect": "If the unmodified casting roll exceeds the target’s Health characteristic, it is automatically destroyed. For the rest of the battle, that unit cannot be picked to be the target of an ability that allows a replacement unit to be set up.",
+      "phase": "hero",
+      "declare": "Pick an enemy Hero in combat with this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "6357-5d77-a2b2-f86b"
+  },
+  "wizard": 2,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

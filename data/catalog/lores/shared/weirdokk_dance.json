@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.weirdokk_dance",
+  "type": "prayer",
+  "name": "Weirdokk Dance",
+  "faction": "shared",
+  "lore": "prayers_of_the_living_wilds",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "Subtract 1 from chanting rolls and casting rolls for enemy **^^Priests^^** and **^^Wizards^^** while they are within 18\" of the chanter until the start of your next turn. In addition, if the chanting roll was 11+, enemy **^^Priests^^** within 18\" of the chanter each lose D6 ritual points and enemy **^^Wizards^^** cannot use **^^Unbind^^** abilities while they are within 18\" of the chanter until the start of your next turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Bonesplitterz Priest^^** to chant this prayer. Then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

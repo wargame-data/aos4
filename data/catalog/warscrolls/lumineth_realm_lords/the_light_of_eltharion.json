@@ -1,0 +1,99 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.lumineth_realm_lords.the_light_of_eltharion",
+  "bsdataId": "d19-ee8b-af86-b163",
+  "type": "warscroll",
+  "name": "The Light of Eltharion",
+  "faction": "lumineth_realm_lords",
+  "keywords": [
+    "aelf",
+    "hero",
+    "infantry",
+    "order",
+    "unique",
+    "ward (5+)",
+    "faction:lumineth_realm_lords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Celennari Blade",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "2+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 3,
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)",
+        "Anti-**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Fangsword of Eltharion",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "2+",
+      "wound": "3+",
+      "rend": 3,
+      "damage": 3,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    },
+    {
+      "name": "Searing Darts of Light",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "2+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D3",
+      "range": "12\""
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "LUMINETH REALM-LORDS",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Supreme Swordmaster",
+      "type": "passive",
+      "effect": "Ignore negative modifiers to hit rolls and wound rolls for this unit’s attacks. In addition, ignore negative modifiers to the characteristics of this unit’s melee weapons.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Spirit Armour",
+      "type": "passive",
+      "effect": "Ignore all modifiers to save rolls for this unit (positive and negative).",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "9ed1-cf74-eb97-dee2"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

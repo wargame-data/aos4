@@ -1,0 +1,81 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.beasts_of_chaos.ungor_raiders",
+  "bsdataId": "3771-efac-15d0-cc5b",
+  "type": "warscroll",
+  "name": "Ungor Raiders",
+  "faction": "beasts_of_chaos",
+  "keywords": [
+    "brayherd",
+    "champion",
+    "chaos",
+    "infantry",
+    "legends",
+    "musician (1/10)",
+    "standard bearer (1/10)",
+    "faction:beasts_of_chaos"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Raider Bow",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1,
+      "range": "18\""
+    },
+    {
+      "name": "Jagged Shank",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEASTS OF CHAOS",
+    "BRAYHERD",
+    "CHAMPION",
+    "LEGENDS",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)"
+  ],
+  "abilities": [
+    {
+      "name": "Hidden Volley",
+      "type": "once-per-turn",
+      "effect": "Roll a number of dice equal to the number of models in this unit. For each 6, inflict 1 mortal damage on the target. Then, in your next movement phase, set up this unit on the battlefield using the 'Beastherd Ambush' ability. If it is not possible to do so, it is destroyed.",
+      "phase": "hero",
+      "declare": "If this unit is in reserve in ambush, pick a non-**^^Hero^^** enemy unit within 12\" of a battlefield edge to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "3cc2-31d3-9dd2-f858"
+  }
+}

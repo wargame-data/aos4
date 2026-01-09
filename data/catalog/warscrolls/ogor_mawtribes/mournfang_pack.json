@@ -1,0 +1,101 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ogor_mawtribes.mournfang_pack",
+  "bsdataId": "b91b-cba6-89af-7225",
+  "type": "warscroll",
+  "name": "Mournfang Pack",
+  "faction": "ogor_mawtribes",
+  "keywords": [
+    "beastclaw raiders",
+    "cavalry",
+    "champion",
+    "destruction",
+    "musician (1/4)",
+    "ogor",
+    "standard bearer (1/4)",
+    "faction:ogor_mawtribes"
+  ],
+  "sizes": {
+    "min": 2,
+    "default": 2,
+    "max": 2
+  },
+  "stats": {
+    "move": "9\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Mournfang Rider Weapon",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Anti-**^^Cavalry^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Mournfang’s Tusks",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Ironlock Pistol",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BEASTCLAW RAIDERS",
+    "CHAMPION",
+    "MUSICIAN (1/4)",
+    "OGOR",
+    "OGOR MAWTRIBES",
+    "STANDARD BEARER (1/4)"
+  ],
+  "abilities": [
+    {
+      "name": "Alpha Cavalry",
+      "type": "passive",
+      "effect": "The **Charge (+1 Damage)** weapon ability has no effect on attacks that target this unit.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Lumpen Wall of Flesh",
+      "type": "passive",
+      "effect": "Subtract 1 from wound rolls for shooting attacks that target friendly **^^Beastclaw Raiders^^** units while they are within this unit’s combat range.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "1ac6-e227-a186-12"
+  }
+}

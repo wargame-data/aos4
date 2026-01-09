@@ -1,0 +1,89 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.daughters_of_khaine.morathi_khaine",
+  "bsdataId": "cb92-4063-ab41-97d5",
+  "type": "warscroll",
+  "name": "Morathi-Khaine",
+  "faction": "daughters_of_khaine",
+  "keywords": [
+    "aelf",
+    "hero",
+    "infantry",
+    "order",
+    "unique",
+    "ward (6+)",
+    "warmaster",
+    "wizard (3)",
+    "faction:daughters_of_khaine"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Heartrender and Bladed Wings",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 2,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "DAUGHTERS OF KHAINE",
+    "WARD (6+)",
+    "WIZARD (3)"
+  ],
+  "abilities": [
+    {
+      "name": "One Soul, Two Bodies",
+      "type": "passive",
+      "effect": "Each time a damage point would be allocated to this unit, it is instead allocated to a friendly **The Shadow Queen** (you cannot make any further ward rolls for that damage point).\nIf this unit would be automatically destroyed by another ability, it is not automatically destroyed. Instead, allocate 3 damage points to a friendly **The Shadow Queen** (ward rolls cannot be made for those damage points).\nIf a friendly **The Shadow Queen** is destroyed, this unit is automatically destroyed.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Sorceress Supreme",
+      "type": "passive",
+      "effect": "Add 1 to casting rolls for this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Mirror Dance",
+      "type": "spell",
+      "effect": "Place 2 tokens on the battlefield, one directly underneath the centre of this unit’s base and one directly underneath the centre of a friendly **Shadow Queen’s** base. Then, remove this unit and that **Shadow Queen** from the battlefield. Set up each unit again with its base overlapping the centre of the other token, then remove the tokens. If it is not possible to set up either of the units on the battlefield, return both units to their original positions. Each unit can only be set up in combat with units that the other unit was already in combat with.",
+      "phase": "hero",
+      "declare": "If a friendly Shadow Queen is on the battlefield, make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "df1f-ba81-775f-acfd"
+  },
+  "wizard": 3,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

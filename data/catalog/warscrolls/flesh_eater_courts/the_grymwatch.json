@@ -1,0 +1,83 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.flesh_eater_courts.the_grymwatch",
+  "bsdataId": "17d4-5f91-75cc-376f",
+  "type": "warscroll",
+  "name": "The Grymwatch",
+  "faction": "flesh_eater_courts",
+  "keywords": [
+    "champion",
+    "death",
+    "infantry",
+    "legends",
+    "serfs",
+    "unique",
+    "ward (6+)",
+    "faction:flesh_eater_courts"
+  ],
+  "sizes": {
+    "min": 7,
+    "default": 7,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Great Halberd",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Anti-**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Knightly Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Anti-**^^Monster^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLESH-EATER COURTS",
+    "LEGENDS",
+    "SERFS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Quest to Slay the Monster",
+      "type": "passive",
+      "effect": "For the rest of the turn, while this unit is in combat with any enemy **^^Monster^^** or **^^Beast^^** units, it has **^^Strike-first^^**. However, for the rest of the turn, while it is in combat with any enemy **^^Monster^^** or **^^Beast^^** units, all of this unit’s combat attacks must target an enemy **^^Monster^^** or **^^Beast^^** unit.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

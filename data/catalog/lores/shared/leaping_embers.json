@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.leaping_embers",
+  "type": "prayer",
+  "name": "Leaping Embers",
+  "faction": "shared",
+  "lore": "lore_of_aqshian_wrath",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Add 2 to charge rolls for the target until the start of your next turn. If the chanting roll was 8+, add 4 to charge rolls for the target until the start of your next turn instead.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible friendly unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Movement"
+}

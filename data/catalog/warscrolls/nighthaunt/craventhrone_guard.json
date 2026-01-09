@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.nighthaunt.craventhrone_guard",
+  "bsdataId": "88e9-d216-bef6-b4fe",
+  "type": "warscroll",
+  "name": "Craventhrone Guard",
+  "faction": "nighthaunt",
+  "keywords": [
+    "champion",
+    "death",
+    "fly",
+    "infantry",
+    "standard bearer (1/5)",
+    "ward (5+)",
+    "faction:nighthaunt"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Wicked Sidearm",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Soulhunter’s Crossbow",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "16\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLY",
+    "NIGHTHAUNT",
+    "STANDARD BEARER (1/5)",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Black-hearted Lackeys",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+, this unit immediately uses the 'Retreat' ability without any mortal damage being inflicted on it. Then, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "movement",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ]
+}

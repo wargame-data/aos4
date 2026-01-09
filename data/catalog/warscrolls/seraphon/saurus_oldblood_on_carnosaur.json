@@ -1,0 +1,127 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.seraphon.saurus_oldblood_on_carnosaur",
+  "bsdataId": "21e1-6ffe-85a6-7d9a",
+  "type": "warscroll",
+  "name": "Saurus Oldblood on Carnosaur",
+  "faction": "seraphon",
+  "keywords": [
+    "hero",
+    "monster",
+    "order",
+    "saurus",
+    "faction:seraphon"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 14,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Sunbolt Gauntlet",
+      "type": "ranged",
+      "attacks": "D6",
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Sunstone Spear",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Carnosaur’s Massive Jaws",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Carnosaur’s Clawed Forelimbs",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 3,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "SAURUS",
+    "SERAPHON"
+  ],
+  "abilities": [
+    {
+      "name": "Terror",
+      "type": "passive",
+      "effect": "Subtract 2 from the control scores of enemy units while they are in combat with this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    },
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Carnosaur’s Massive Jaws** is 2.",
+      "color": "Black"
+    },
+    {
+      "name": "Spearhead of the Charge",
+      "type": "passive",
+      "effect": "If this unit charged this turn, add 1 to charge rolls for friendly **^^Saurus^^** units while they are wholly within 18\" of this unit for the rest of the turn.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Blood Frenzy",
+      "type": "once-per-turn",
+      "effect": "If this unit is in combat with any damaged enemy **^^Monsters^^**, roll a dice. On a 3+, this unit has **^^Strike-first^^** for the rest of the turn.",
+      "phase": "combat",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "e9d0-a23-6a15-1fcb"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

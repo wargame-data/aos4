@@ -1,0 +1,81 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.drasher_vorn_the_rampaging_beast",
+  "bsdataId": "d0d1-1d9e-e29c-e5e5",
+  "type": "warscroll",
+  "name": "Drasher Vorn, the Rampaging Beast",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "hero",
+    "human",
+    "infantry",
+    "legends",
+    "order",
+    "unique",
+    "ward (6+)",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Feral Claws",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3",
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "LEGENDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Fury of the Wildlands",
+      "type": "passive",
+      "effect": "If any enemy models have been slain by this unit’s combat attacks this turn, until the end of the next turn:\n• This unit cannot use **^^Retreat^^** abilities.\n• Add 1 to hit rolls for this unit’s combat attacks.",
+      "phase": "any",
+      "declare": "You must use this ability.",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Ebon Claw",
+      "type": "passive",
+      "effect": "Allocate D3 damage points to this unit (ward rolls cannot be made for those damage points). Then, add the number of damage points allocated to this unit by this ability this turn to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9e18-0b77-d43e-125e"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,113 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.seraphon.stegadon",
+  "bsdataId": "967b-8047-ea59-d6ea",
+  "type": "warscroll",
+  "name": "Stegadon",
+  "faction": "seraphon",
+  "keywords": [
+    "monster",
+    "order",
+    "skink",
+    "faction:seraphon"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 14,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Stegadon’s Horns and Jaws",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Handlers’ Meteoric Javelins",
+      "type": "ranged",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Skystreak Bow",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "range": "18\"",
+      "abilities": [
+        "Anti‑**^^Monster^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Sunfire Throwers",
+      "type": "ranged",
+      "attacks": "2D6",
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "range": "10\"",
+      "abilities": [
+        "Anti‑**^^Infantry^^** (+1 Rend)",
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "SERAPHON",
+    "SKINK"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Stegadon’s Horns and Jaws** is 4.",
+      "color": "Black"
+    },
+    {
+      "name": "Unstoppable Stampede",
+      "type": "once-per-turn",
+      "effect": "Inflict D3 mortal damage on the target. Then, this unit can move 2D6\". This unit can pass through models in the target unit but must end that move in combat.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy **^^Infantry^^** unit in combat with it to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Orange",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "e9d0-a23-6a15-1fcb"
+  }
+}

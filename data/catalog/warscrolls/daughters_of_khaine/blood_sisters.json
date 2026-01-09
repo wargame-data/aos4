@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.daughters_of_khaine.blood_sisters",
+  "bsdataId": "dfe7-6633-f21a-6ba3",
+  "type": "warscroll",
+  "name": "Blood Sisters",
+  "faction": "daughters_of_khaine",
+  "keywords": [
+    "champion",
+    "infantry",
+    "melusai",
+    "order",
+    "ward (6+)",
+    "faction:daughters_of_khaine"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Heartshard Glaive",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DAUGHTERS OF KHAINE",
+    "MELUSAI",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Crystal Touch",
+      "type": "passive",
+      "effect": "Roll a dice. If the roll exceeds the target’s Health characteristic, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "df1f-ba81-775f-acfd"
+  }
+}

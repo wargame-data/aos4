@@ -1,0 +1,84 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.soulblight_gravelords.askurgan_trueblades",
+  "bsdataId": "a22f-d951-fde0-6dac",
+  "type": "warscroll",
+  "name": "Askurgan Trueblades",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "champion (1/8)",
+    "death",
+    "infantry",
+    "vampire",
+    "ward (6+)",
+    "faction:soulblight_gravelords"
+  ],
+  "sizes": {
+    "min": 8,
+    "default": 8,
+    "max": 8
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Askurgan Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)",
+        "Crit (2 Hits)"
+      ]
+    },
+    {
+      "name": "Elongated Claws and Slavering Maw",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION (1/8)",
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Gut-wrenching Howl",
+      "type": "passive",
+      "effect": "Roll a dice. On a 4+, the target has **^^Strike-Last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit’s **Curseblood** to be the target.",
+      "color": "Red",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Creed of the Askurga Renkai",
+      "type": "passive",
+      "effect": "Subtract 1 from hit rolls for combat attacks made by enemy **^^Monsters^^** that target this unit. Add 1 to hit rolls for combat attacks made by this unit that target enemy **^^Monsters^^**.",
+      "color": "Red",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "e3a0-cfae-cbb3-0215"
+  }
+}

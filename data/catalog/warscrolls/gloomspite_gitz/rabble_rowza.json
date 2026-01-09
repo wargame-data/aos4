@@ -1,0 +1,104 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.gloomspite_gitz.rabble_rowza",
+  "bsdataId": "13ce-b7ed-f419-cdd",
+  "type": "warscroll",
+  "name": "Rabble-Rowza",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "destruction",
+    "hero",
+    "infantry",
+    "moonclan",
+    "faction:gloomspite_gitz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Bat Squigs",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": "D3",
+      "range": "12\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Moon-sickle and Basha",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "MOONCLAN"
+  ],
+  "abilities": [
+    {
+      "name": "Secret Tunnels",
+      "type": "passive",
+      "effect": "Set up this unit in reserve **in a secret tunnel**. It has now been deployed.",
+      "declare": "Pick this unit if it has not been deployed.",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "'Neh Neh Na-neh Neh! Can't Catch Me!\"",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn, the target can use **^^Charge^^** abilities even if it used a **^^Run^^** ability in the same turn, but each time it uses a **^^Move^^** ability, it must end the move closer to this unit.\nIn addition, for the rest of the turn, the first time the target ends a move within this unit’s combat range, inflict D6 mortal damage on this unit.",
+      "phase": "movement",
+      "declare": "Pick a visible friendly **^^Monster^^** or **^^Beast^^** unit to be the target."
+    },
+    {
+      "name": "Emerge from the Depths",
+      "type": "passive",
+      "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Pick this unit if it is in a secret tunnel.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "a395-7bc4-71eb-46df"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "MOONCLAN"
+      ],
+      "description": "Units with MOONCLAN keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

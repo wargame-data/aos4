@@ -1,0 +1,116 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.flesh_eater_courts.ushoran_mortarch_of_delusion",
+  "bsdataId": "b0a4-76e1-de3-9384",
+  "type": "warscroll",
+  "name": "Ushoran, Mortarch of Delusion",
+  "faction": "flesh_eater_courts",
+  "keywords": [
+    "abhorrent",
+    "death",
+    "hero",
+    "monster",
+    "unique",
+    "ward (5+)",
+    "warmaster",
+    "wizard (2)",
+    "faction:flesh_eater_courts"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 16,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Sceptre of the Carrion King",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3+3"
+    },
+    {
+      "name": "Monstrous Talons",
+      "type": "melee",
+      "attacks": 8,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "ABHORRENT",
+    "FLESH-EATER COURTS",
+    "WARD (5+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Monstrous Talons** is 4.",
+      "color": "Black"
+    },
+    {
+      "name": "Shroudcage Fragment",
+      "type": "once-per-turn",
+      "effect": "Roll a dice for each target. If the roll exceeds the target’s Control characteristic, the target has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick up to 3 enemy units in combat with this unit to be the targets.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Epicentre of Delusion",
+      "type": "passive",
+      "effect": "Each time you make a delusion roll, you can add 1 or subtract 1 from the roll.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Glimpse of Delusion",
+      "type": "spell",
+      "effect": "Pick 1 of the target’s melee weapons. Immediately resolve combat attacks made with that weapon against the victim.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy model within 18\" of this unit to be the target, pick another enemy unit that is visible to the target and within the target’s combat range to be the victim, then make a casting roll of 2D6. You can only pick the target's unit to be the victim if that unit has 2 or more models.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "The One True King",
+      "type": "passive",
+      "effect": "While you believe this **^^Delusion^^**:\n• Add 1 to run rolls and charge rolls for friendly **^^Flesh-eater Courts^^** units.\n• Subtract 1 from run rolls and charge rolls for enemy units.\n• The melee weapons used by friendly **^^Serfs^^** units have **Anti-charge (+1 Rend)** while they are wholly within friendly territory and did not charge in the same turn.",
+      "keywords": [
+        "**^^DELUSION^^**"
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "wizard": 2,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

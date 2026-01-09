@@ -1,0 +1,103 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.freeguild_fusiliers",
+  "bsdataId": "5fac-f8bc-2c88-9252",
+  "type": "warscroll",
+  "name": "Freeguild Fusiliers",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "champion",
+    "human",
+    "infantry",
+    "order",
+    "standard bearer (1/10)",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 1,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Fusil-cannon: Fortified Position",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "range": "18\""
+    },
+    {
+      "name": "Fusil-cannon: Mobile",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Bayonet",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "STANDARD BEARER (1/10)"
+  ],
+  "abilities": [
+    {
+      "name": "Fusiliers, Fire!",
+      "type": "passive",
+      "effect": "Each time this unit uses a **^^Shoot^^** ability, if it is in a fortified position, it can pick either of the ranged weapon profiles for all the attacks it makes with its **Fusil-cannons**. If it is not in a fortified position, use the **Mobile** weapon characteristics.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Blackpowder Squire",
+      "type": "passive",
+      "effect": "This unit has a **Blackpowder Squire** token. Each time this unit uses a **^^Shoot^^** ability, if this unit’s **Blackpowder Squire** is on the battlefield, you can re-roll 1 hit roll. If a hit roll re-rolled in this manner is 1, remove this unit’s **Blackpowder Squire** from the battlefield.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Fortify Position",
+      "type": "passive",
+      "effect": "This unit establishes a fortified position and remains in a fortified position until it either uses a **^^Move^^** ability or is removed from the battlefield. While this unit is in a fortified position, subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.",
+      "phase": "movement",
+      "keywords": [
+        "**^^CORE^^**"
+      ],
+      "color": "Gray",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  }
+}

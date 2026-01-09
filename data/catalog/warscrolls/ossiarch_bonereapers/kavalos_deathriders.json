@@ -1,0 +1,87 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ossiarch_bonereapers.kavalos_deathriders",
+  "bsdataId": "efaa-2ff1-8-5f4b",
+  "type": "warscroll",
+  "name": "Kavalos Deathriders",
+  "faction": "ossiarch_bonereapers",
+  "keywords": [
+    "cavalry",
+    "champion",
+    "death",
+    "standard bearer (1/5)",
+    "ward (6+)",
+    "faction:ossiarch_bonereapers"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 3,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Kavalos Blades",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Crit (2 Hits)"
+      ]
+    },
+    {
+      "name": "Kavalos Steed's Hooves and Teeth",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "OSSIARCH BONEREAPERS",
+    "STANDARD BEARER (1/5)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Deathrider Wedge",
+      "type": "passive",
+      "effect": "When this unit uses a **^^Charge^^** ability, it can pass through models in enemy **^^Infantry^^** units as if it had **^^Fly^^**.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Unstoppable Charge",
+      "type": "passive",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy **^^Infantry^^** unit that it passed across to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "2f1e-fdf-1ac2-fa38"
+  }
+}

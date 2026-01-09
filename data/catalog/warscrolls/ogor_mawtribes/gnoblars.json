@@ -1,0 +1,70 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ogor_mawtribes.gnoblars",
+  "bsdataId": "5d4b-756c-2229-3dd9",
+  "type": "warscroll",
+  "name": "Gnoblars",
+  "faction": "ogor_mawtribes",
+  "keywords": [
+    "champion",
+    "destruction",
+    "infantry",
+    "faction:ogor_mawtribes"
+  ],
+  "sizes": {
+    "min": 20,
+    "default": 20,
+    "max": 20
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Sharp Stuff",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1,
+      "range": "8\""
+    },
+    {
+      "name": "Motley Assortment of Weapons",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "OGOR MAWTRIBES"
+  ],
+  "abilities": [
+    {
+      "name": "Nasty Traps and Tricks",
+      "type": "passive",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "phase": "charge",
+      "declare": "Pick an enemy unit within 6\" of this unit and that used a **^^Move^^** ability this turn to be the target. You cannot pick the same unit to be the target of this ability more than once per turn.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "1ac6-e227-a186-12"
+  }
+}

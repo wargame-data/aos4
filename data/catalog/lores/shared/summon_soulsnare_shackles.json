@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.summon_soulsnare_shackles",
+  "type": "spell",
+  "name": "Summon Soulsnare Shackles",
+  "faction": "shared",
+  "lore": "morbid_conjuration",
+  "keywords": [
+    "spell",
+    "summon"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "Set up a **Soulsnare Shackles** endless spell wholly within 18\" of the caster and visible to them. A **Soulsnare Shackles** endless spell has 3 parts that must each be set up within 3\" of at least 1 other part.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "If there is not a friendly **Soulsnare Shackles** endless spell on the battlefield, pick a friendly **^^Wizard^^** to cast this spell, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

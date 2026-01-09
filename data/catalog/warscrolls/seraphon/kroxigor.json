@@ -1,0 +1,73 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.seraphon.kroxigor",
+  "bsdataId": "9544-33d8-1d69-2be9",
+  "type": "warscroll",
+  "name": "Kroxigor",
+  "faction": "seraphon",
+  "keywords": [
+    "infantry",
+    "kroxigor",
+    "order",
+    "faction:seraphon"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Moonstone Hammer",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 3,
+      "abilities": [
+        "Anti‑**^^Infantry^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Drakebite Maul",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Anti‑**^^Infantry^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "KROXIGOR",
+    "SERAPHON"
+  ],
+  "abilities": [
+    {
+      "name": "Brutal Blows",
+      "type": "passive",
+      "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons for attacks that target an enemy unit that has 10 or more models.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "e9d0-a23-6a15-1fcb"
+  }
+}

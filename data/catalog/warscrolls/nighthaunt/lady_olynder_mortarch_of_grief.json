@@ -1,0 +1,105 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.nighthaunt.lady_olynder_mortarch_of_grief",
+  "bsdataId": "ee75-82ec-9c18-397b",
+  "type": "warscroll",
+  "name": "Lady Olynder, Mortarch of Grief",
+  "faction": "nighthaunt",
+  "keywords": [
+    "death",
+    "fly",
+    "hero",
+    "infantry",
+    "unique",
+    "ward (5+)",
+    "warmaster",
+    "wizard (2)",
+    "faction:nighthaunt"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 7,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Staff of Midnight",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Horrifying Visage",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "2+",
+      "rend": 3,
+      "damage": "D6",
+      "range": "12\"",
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "No Rest for the Wicked",
+      "type": "once-per-battle",
+      "effect": "For each target, you can return a number of slain models to that unit with a combined Health characteristic of up to D3+3.",
+      "phase": "hero",
+      "declare": "Pick any number of friendly **^^Nighthaunt^^** units on the battlefield to be the targets.",
+      "color": "Yellow",
+      "abilityCategory": "Rallying"
+    },
+    {
+      "name": "Mortarch of Grief",
+      "type": "passive",
+      "effect": "If the unmodified hit roll or unmodified wound roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Grief-stricken",
+      "type": "spell",
+      "effect": "Ignore positive modifiers to the target's control score and to hit rolls, wound rolls and save rolls for the target for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "wizard": 2,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

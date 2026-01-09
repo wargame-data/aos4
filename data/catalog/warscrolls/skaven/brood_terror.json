@@ -1,0 +1,96 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.brood_terror",
+  "bsdataId": "4a53-c768-57de-d622",
+  "type": "warscroll",
+  "name": "Brood Terror",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "monster",
+    "moulder",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 12,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Warpflame Scourger",
+      "type": "ranged",
+      "attacks": "2D6",
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "15\"",
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Chain-flail",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Bladed Limbs",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "MOULDER",
+    "SKAVEN"
+  ],
+  "abilities": [
+    {
+      "name": "Warpstone Fumes",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 2+, for the rest of the turn, subtract 1 from hit rolls for attacks made by enemy units while they are within 6\" of this unit.",
+      "phase": "combat",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Regenerating Terror",
+      "type": "passive",
+      "effect": "**Heal (D6)** this unit.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  }
+}

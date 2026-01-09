@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.daughters_of_khaine.khainite_shadowstalkers",
+  "bsdataId": "ab64-d97a-ac5e-a8b4",
+  "type": "warscroll",
+  "name": "Khainite Shadowstalkers",
+  "faction": "daughters_of_khaine",
+  "keywords": [
+    "aelf",
+    "champion (1/9)",
+    "infantry",
+    "order",
+    "ward (6+)",
+    "faction:daughters_of_khaine"
+  ],
+  "sizes": {
+    "min": 9,
+    "default": 9,
+    "max": 9
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Cursed Missiles",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "10\""
+    },
+    {
+      "name": "Shadowstalker Blades",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CHAMPION (1/9)",
+    "DAUGHTERS OF KHAINE",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Shadow Leap",
+      "type": "passive",
+      "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement",
+      "keywords": [
+        "**^^CORE^^**"
+      ],
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "df1f-ba81-775f-acfd"
+  }
+}

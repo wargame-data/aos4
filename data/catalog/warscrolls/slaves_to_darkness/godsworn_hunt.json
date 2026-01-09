@@ -1,0 +1,87 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.godsworn_hunt",
+  "bsdataId": "1bb9-8fa7-8bf8-e4a2",
+  "type": "warscroll",
+  "name": "Godsworn Hunt",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "champion",
+    "darkoath",
+    "infantry",
+    "legends",
+    "undivided",
+    "unique",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 6,
+    "default": 6,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Godsworn Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Hunting Bow",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "20\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "regimentKeywords": [
+    "CHAMPION",
+    "DARKOATH",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "UNDIVIDED"
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Conquest",
+      "type": "once-per-battle",
+      "effect": "If this unit is contesting an objective you control that is wholly within enemy territory, this unit has **^^Ward (5+)^^** for the rest of the battle.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Theddra Skull-scryer",
+      "type": "passive",
+      "effect": "While this unit’s **Theddra Skull-scryer** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

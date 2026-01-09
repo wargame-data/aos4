@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.helsmiths_of_hashut.hobgrot_vandalz",
+  "bsdataId": "e3f8-99f7-921e-137a",
+  "type": "warscroll",
+  "name": "Hobgrot Vandalz",
+  "faction": "helsmiths_of_hashut",
+  "keywords": [
+    "champion",
+    "chaos",
+    "hobgrot",
+    "infantry",
+    "musician (1/10)",
+    "standard bearer (1/10)",
+    "faction:helsmiths_of_hashut"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 1,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Scavenged Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "HELSMITHS OF HASHUT",
+    "HOBGROT",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)"
+  ],
+  "abilities": [
+    {
+      "name": "Disposable Lackeys",
+      "type": "passive",
+      "effect": "This unit can immediately use the 'Normal Move' ability as if it were your movement phase.",
+      "color": "Black",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "487d-9798-0633-8040"
+  }
+}

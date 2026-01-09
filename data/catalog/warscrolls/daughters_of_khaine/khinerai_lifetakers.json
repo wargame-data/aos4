@@ -1,0 +1,87 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.daughters_of_khaine.khinerai_lifetakers",
+  "bsdataId": "2194-f219-8c36-54d2",
+  "type": "warscroll",
+  "name": "Khinerai Lifetakers",
+  "faction": "daughters_of_khaine",
+  "keywords": [
+    "champion",
+    "fly",
+    "infantry",
+    "khinerai",
+    "order",
+    "ward (6+)",
+    "faction:daughters_of_khaine"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Barbed Sickle",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DAUGHTERS OF KHAINE",
+    "FLY",
+    "KHINERAI",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Circling in the Skies Above",
+      "type": "passive",
+      "effect": "Set up this unit in reserve **in the skies**. It has now been deployed.",
+      "declare": "Pick this unit if it has not been deployed.",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Death from Above",
+      "type": "passive",
+      "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Pick this unit if it is **in the skies**.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Fight and Flight",
+      "type": "reaction",
+      "effect": "After resolving the effect of that **^^Fight^^** ability, this unit can immediately move D6\". It cannot end that move in combat with any units that it was not already in combat with at the start of the move.",
+      "color": "Red",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "df1f-ba81-775f-acfd"
+  }
+}

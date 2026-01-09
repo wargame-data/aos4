@@ -1,0 +1,119 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.sons_of_behemat.warstomper_mega_gargant",
+  "bsdataId": "5201-4045-7632-5a40",
+  "type": "warscroll",
+  "name": "Warstomper Mega-Gargant",
+  "faction": "sons_of_behemat",
+  "keywords": [
+    "destruction",
+    "hero",
+    "mega-gargant",
+    "monster",
+    "faction:sons_of_behemat"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 35,
+    "save": "4+",
+    "control": 20
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Death Grip",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D6",
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Almightier Stomp",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3",
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Titanic Boulderclub",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "MEGA-GARGANT",
+    "SONS OF BEHEMAT"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 15 or more damage points, the Attacks characteristic of its **Titanic Boulderclub** is 3 and this unit has a Control characteristic of 10.",
+      "color": "Black"
+    },
+    {
+      "name": "Hurled Body",
+      "type": "passive",
+      "effect": "Roll a dice. If the roll is at least double the target’s Health characteristic, 1 model in that unit is slain and you can pick a visible enemy unit within 12\" of this unit. Inflict an amount of mortal damage on that unit equal to the target’s Health characteristic.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Titanic Boulderclub",
+      "type": "passive",
+      "effect": "If all of the attacks made with this unit’s **Titanic Boulderclub** target the same enemy unit, for every 5 models in the target unit, add 2 to its Attacks characteristic for the rest of the phase.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Son of Behemat",
+      "type": "passive",
+      "effect": "If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Longshanks",
+      "type": "passive",
+      "effect": "This unit can pass through models in non-**^^Monster^^** units and parts of terrain features that are less than 4\" tall.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "b765-4747-cddc-385e"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

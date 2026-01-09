@@ -1,0 +1,80 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.warp_grinder",
+  "bsdataId": "0a17-a47d-e51f-ea9a",
+  "type": "warscroll",
+  "name": "Warp-Grinder",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "skryre",
+    "war machine",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 8,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Crew's Teeth and Knives",
+      "type": "melee",
+      "attacks": "D6",
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Warpstone Drill-fang",
+      "type": "melee",
+      "attacks": "D3",
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 3,
+      "damage": 5
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SKAVEN",
+    "SKRYRE"
+  ],
+  "abilities": [
+    {
+      "name": "Tunnel Skulkers",
+      "type": "once-per-battle",
+      "effect": "Set up those units in reserve **in the tunnels below**. They have now been deployed.",
+      "declare": "Pick this unit and up to 1 friendly non-**^^Monster Skaven^^** unit if those units have not been deployed.",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Warp-ambush",
+      "type": "passive",
+      "effect": "Roll a dice. On a 4+, set up this unit within 3\" of the target and more than 6\" from all other enemy units. Then, set up the unit that was **in the tunnels below** with this unit within 3\" of the target and more than 6\" from all other enemy units.",
+      "phase": "movement",
+      "declare": "Pick this unit if it is **in the tunnels below**, then pick an enemy unit more than 6\" from all other enemy units to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  }
+}

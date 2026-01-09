@@ -1,0 +1,92 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.lord_vigilant_on_gryph_stalker",
+  "bsdataId": "57cb-3869-2834-3019",
+  "type": "warscroll",
+  "name": "Lord-Vigilant on Gryph-stalker",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "cavalry",
+    "hero",
+    "order",
+    "ruination chamber",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 8,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Gryph-stalker’s Beak and Talons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Hallowed Greataxe",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "RUINATION CHAMBER",
+    "STORMCAST ETERNALS"
+  ],
+  "abilities": [
+    {
+      "name": "Deliver Judgement",
+      "type": "once-per-battle",
+      "effect": "That unit can use 2 **^^Fight^^** abilities this phase. After the first is used, however, that unit has **^^Strike-last^^** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick a friendly non-**^^Hero Ruination Chamber^^** unit wholly within 12\" of this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Ruination Chamber",
+      "type": "reaction",
+      "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "43cd-e9ef-5d4d-87c4"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "RUINATION CHAMBER"
+      ],
+      "description": "Units with RUINATION CHAMBER keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

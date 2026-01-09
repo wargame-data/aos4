@@ -1,0 +1,82 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.kruleboyz.beast_skewer_killbow",
+  "bsdataId": "f4bd-5870-3b31-97e4",
+  "type": "warscroll",
+  "name": "Beast-skewer Killbow",
+  "faction": "kruleboyz",
+  "keywords": [
+    "destruction",
+    "war machine",
+    "faction:kruleboyz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Beast-skewer Bolts",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D6",
+      "range": "24\"",
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)",
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Jaggedy Blades",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "KRULEBOYZ"
+  ],
+  "abilities": [
+    {
+      "name": "Skewering Bolts",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn, the Damage characteristic of this unit’s **Beast-skewer Bolts** is 6 if the target is a **^^Monster^^**.",
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Pick 'Em Off",
+      "type": "passive",
+      "effect": "If this unit has not used a **^^Move^^** ability this turn and was not set up this turn, add 1 to hit rolls for this unit’s shooting attacks for the rest of the turn.",
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "8b1b-f2c7-890e-2bbe"
+  }
+}

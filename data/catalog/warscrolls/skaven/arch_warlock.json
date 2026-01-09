@@ -1,0 +1,87 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.arch_warlock",
+  "bsdataId": "a566-7135-d418-bc59",
+  "type": "warscroll",
+  "name": "Arch-Warlock",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "hero",
+    "infantry",
+    "skryre",
+    "wizard (1)",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Warpfire Gauntlet",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 1,
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Stormcage Halberd",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    },
+    {
+      "name": "Crushing Piston-claw",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SKAVEN",
+    "SKRYRE",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Overseers of the Enginecovens",
+      "type": "passive",
+      "effect": "If a friendly **^^Skryre^^** unit wholly within 13\" of this unit uses the 'Covering Fire' command, no command points are spent.",
+      "color": "Blue",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,83 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.daemon_prince",
+  "bsdataId": "22ef-99c8-eb17-973f",
+  "type": "warscroll",
+  "name": "Daemon Prince",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "hero",
+    "infantry",
+    "ward (6+)",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 10,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Hellforged Weapons",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 3,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "SLAVES TO DARKNESS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Immortal Champion",
+      "type": "passive",
+      "effect": "Roll a dice. On a 4+, this unit has **^^Strike-first^^** for the rest of the turn.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Airborne Horror",
+      "type": "passive",
+      "effect": "If this unit has **Wings**, it has a Move characteristic of 10\" and has **^^Fly^^**.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "The Mounted Skulls of the Fallen",
+      "type": "passive",
+      "effect": "If this unit has a **Trophy Rack**, its **Hellforged Weapons** also have Anti-**^^Hero^^ (+1 Rend)**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "6357-5d77-a2b2-f86b"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

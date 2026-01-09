@@ -1,0 +1,59 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ogor_mawtribes.frost_sabres",
+  "bsdataId": "bdf9-1644-707-f0df",
+  "type": "warscroll",
+  "name": "Frost Sabres",
+  "faction": "ogor_mawtribes",
+  "keywords": [
+    "beast",
+    "beastclaw raiders",
+    "destruction",
+    "faction:ogor_mawtribes"
+  ],
+  "sizes": {
+    "min": 2,
+    "default": 2,
+    "max": 2
+  },
+  "stats": {
+    "move": "9\"",
+    "health": 3,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Tusks and Claws",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BEAST",
+    "BEASTCLAW RAIDERS",
+    "OGOR MAWTRIBES"
+  ],
+  "abilities": [
+    {
+      "name": "Hunters of the Frozen Wilds",
+      "type": "passive",
+      "effect": "This unit is not visible to enemy units while it is within 3\" of a terrain feature and more than 9\" from all enemy units.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "1ac6-e227-a186-12"
+  }
+}

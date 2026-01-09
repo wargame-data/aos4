@@ -1,0 +1,60 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.soulblight_gravelords.kosargi_nightguard",
+  "bsdataId": "2e88-624e-bf49-387c",
+  "type": "warscroll",
+  "name": "Kosargi Nightguard",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "deadwalkers",
+    "death",
+    "infantry",
+    "ward (6+)",
+    "faction:soulblight_gravelords"
+  ],
+  "sizes": {
+    "min": 2,
+    "default": 2,
+    "max": 2
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 4,
+    "save": "5+",
+    "control": 3
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Kosargi Bardiche",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "DEADWALKERS",
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "A Pact Maintained",
+      "type": "passive",
+      "effect": "While a friendly **Radukar the Wolf** or **Radukar the Beast** is within this unit’s combat range, both that unit and this unit have **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "05a6-726c-4748-8360"
+  }
+}

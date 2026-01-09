@@ -1,0 +1,84 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.nighthaunt.dreadblade_harrows",
+  "bsdataId": "8639-e146-50ea-6d7",
+  "type": "warscroll",
+  "name": "Dreadblade Harrows",
+  "faction": "nighthaunt",
+  "keywords": [
+    "cavalry",
+    "death",
+    "fly",
+    "ward (5+)",
+    "faction:nighthaunt"
+  ],
+  "sizes": {
+    "min": 2,
+    "default": 2,
+    "max": 2
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 3,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Dreadblade",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Ethereal Steed’s Ghostly Hooves and Teeth",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Curse of Loyalty",
+      "type": "passive",
+      "effect": "If this unit charged this turn, add 3 to the control scores of friendly **^^Nighthaunt^^** units while they are wholly within 12\" of this unit.",
+      "color": "Purple",
+      "abilityCategory": "Control"
+    },
+    {
+      "name": "Phantasmal Discorporation",
+      "type": "once-per-turn",
+      "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement",
+      "keywords": [
+        "**^^CORE^^**"
+      ],
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ]
+}

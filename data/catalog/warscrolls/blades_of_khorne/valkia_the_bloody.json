@@ -1,0 +1,91 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.blades_of_khorne.valkia_the_bloody",
+  "bsdataId": "6bd2-bd18-aef2-ef44",
+  "type": "warscroll",
+  "name": "Valkia the Bloody",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "bloodbound",
+    "chaos",
+    "fly",
+    "hero",
+    "infantry",
+    "legends",
+    "unique",
+    "faction:blades_of_khorne"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Slaupnir",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "BLOODBOUND",
+    "FLY",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Borne on Wings of Blood",
+      "type": "passive",
+      "effect": "Set up this unit in reserve **soaring above the battlefield**. It has now been deployed.",
+      "declare": "Pick this unit if it has not been deployed.",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "The Red Angel of Slaughter",
+      "type": "passive",
+      "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units. Then, pick a visible enemy unit within 10\" of this unit and roll a dice. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+      "phase": "movement",
+      "declare": "Pick this unit if it is **soaring above the battlefield**.",
+      "color": "Gray",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "The Gaze of Khorne",
+      "type": "passive",
+      "effect": "If a friendly **^^Bloodbound^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6. However, friendly **^^Bloodbound^^** units cannot use **^^Retreat^^** abilities while they are within 12\" of this unit.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

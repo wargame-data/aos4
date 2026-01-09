@@ -1,0 +1,89 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.eternus_blade_of_the_first_prince",
+  "bsdataId": "de49-6e72-d443-42c0",
+  "type": "warscroll",
+  "name": "Eternus, Blade of the First Prince",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "cavalry",
+    "chaos",
+    "hero",
+    "unique",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "9\"",
+    "health": 9,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Death Glaive and Skull Flail",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Drakocephalus’s Fangs",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SLAVES TO DARKNESS"
+  ],
+  "abilities": [
+    {
+      "name": "Network of Spies",
+      "type": "reaction",
+      "effect": "Roll a dice. Add 1 to the roll if the enemy unit is in combat with a friendly **Chaos Legionnaires** or **Chaos Furies** unit. On a 5+, that command has no effect. The command still counts as having been used and the command points spent to use the command are still lost.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Veins of Black Lightning",
+      "type": "passive",
+      "effect": "Roll 2D6. Add 1 to the roll if a friendly **Be’lakor** is on the battlefield. On an 8+, set up a replacement unit on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "This unit can use this ability if it has been destroyed.",
+      "keywords": [
+        "**^^CORE^^**"
+      ],
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "6357-5d77-a2b2-f86b"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

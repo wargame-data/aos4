@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.wrath_of_vulcatrix",
+  "type": "prayer",
+  "name": "Wrath of Vulcatrix",
+  "faction": "shared",
+  "lore": "zharrgrim_blessings",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "For the rest of the turn, the ‘Battle Damaged’ ability has no effect on the target and add 1 to the Attacks characteristic of the target’s **Companion** weapons.\nIf the chanting roll was 8+, add 1 to the Attacks characteristic of the target’s **Companion** weapons for every 4 damage points the target has instead.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Fyreslayers Priest^^** to chant this prayer, pick a visible friendly **^^Magmadroth^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

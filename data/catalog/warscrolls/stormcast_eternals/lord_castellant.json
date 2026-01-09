@@ -1,0 +1,105 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.lord_castellant",
+  "bsdataId": "d062-d345-97db-e895",
+  "type": "warscroll",
+  "name": "Lord-Castellant",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "hero",
+    "infantry",
+    "legends",
+    "order",
+    "warrior chamber",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Castellant’s Halberd",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Gryph-hound’s Beak",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "LEGENDS",
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Loyal Companion",
+      "type": "once-per-battle",
+      "effect": "For the rest of the turn, this unit has **^^Ward (4+)^^**. Remove this unit’s **Gryph-hound** from the battlefield at the end of the turn.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Dutiful Gryph-hound",
+      "type": "passive",
+      "effect": "This unit’s **Gryph-hound** is a token. If this unit’s **Gryph-hound** has been removed, it can no longer attack with its **Gryph-hound’s Beak** and it cannot use the ‘Loyal Companion’ ability",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Warding Lantern",
+      "type": "passive",
+      "effect": "For the rest of the turn:\n• Friendly **^^Stormcast Eternals^^** units have **^^Ward (6+)^^** while they are contesting the target.\n• Ward rolls cannot be made for enemy units while they are contesting the target.",
+      "phase": "hero",
+      "declare": "Pick an objective within 12” of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "87c-f122-a891-630e"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "WARRIOR CHAMBER"
+      ],
+      "description": "Units with WARRIOR CHAMBER keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

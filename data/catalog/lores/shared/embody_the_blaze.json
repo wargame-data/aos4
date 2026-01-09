@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.embody_the_blaze",
+  "type": "spell",
+  "name": "Embody the Blaze",
+  "faction": "shared",
+  "lore": "lore_of_magmic_fury",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 8,
+  "timing": "Your Hero Phase",
+  "effect": "The target can immediately use a **^^Fight^^** ability as if it were the combat phase. The target has **^^Strike-last^^** for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Wizard^^** to cast this spell, pick a visible friendly unit that is in combat and is wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.hedonites_of_slaanesh.myrmidesh_painbringers",
+  "bsdataId": "af06-7271-8760-4a4",
+  "type": "warscroll",
+  "name": "Myrmidesh Painbringers",
+  "faction": "hedonites_of_slaanesh",
+  "keywords": [
+    "champion",
+    "chaos",
+    "infantry",
+    "sybarite",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Wicked Scimitar",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "HEDONITES OF SLAANESH",
+    "SYBARITE"
+  ],
+  "abilities": [
+    {
+      "name": "Paragons of Battle",
+      "type": "passive",
+      "effect": "Add 1 to the Rend characteristic of this unit’s melee weapons while it is contesting an objective you do not control.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "95fc-e96f-a916-bba1"
+  }
+}

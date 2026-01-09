@@ -1,0 +1,74 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ogor_mawtribes.ironguts",
+  "bsdataId": "7ea4-f81b-b7cc-b16e",
+  "type": "warscroll",
+  "name": "Ironguts",
+  "faction": "ogor_mawtribes",
+  "keywords": [
+    "champion",
+    "destruction",
+    "gutbusters",
+    "infantry",
+    "musician (1/4)",
+    "ogor",
+    "standard bearer (1/4)",
+    "faction:ogor_mawtribes"
+  ],
+  "sizes": {
+    "min": 4,
+    "default": 4,
+    "max": 4
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 4,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Irongut Weapon",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "GUTBUSTERS",
+    "MUSICIAN (1/4)",
+    "OGOR",
+    "OGOR MAWTRIBES",
+    "STANDARD BEARER (1/4)"
+  ],
+  "abilities": [
+    {
+      "name": "Down to the Ironguts",
+      "type": "once-per-battle",
+      "effect": "This unit can use 2 **^^Fight^^** abilities this phase. After the first is used, however, this unit has Strike-last for the rest of the turn.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Protect the Tyrant",
+      "type": "passive",
+      "effect": "While this unit is within the combat ranges of any friendly Tyrants, both this unit and those Tyrants have Ward (6+).",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "1ac6-e227-a186-12"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.nighthaunt.spirit_hosts",
+  "bsdataId": "e823-b88c-bee5-17a1",
+  "type": "warscroll",
+  "name": "Spirit Hosts",
+  "faction": "nighthaunt",
+  "keywords": [
+    "death",
+    "fly",
+    "infantry",
+    "ward (5+)",
+    "faction:nighthaunt"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 3,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Spectral Claws and Daggers",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Drawn to War",
+      "type": "passive",
+      "effect": "Friendly **^^Nighthaunt Infantry Heroes^^** have **^^Ward (4+)^^** while they are wholly within this unit’s combat range.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ]
+}

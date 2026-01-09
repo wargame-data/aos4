@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.disrupt_the_humours",
+  "type": "spell",
+  "name": "Disrupt the Humours",
+  "faction": "shared",
+  "lore": "lore_of_the_overgrown_wilds",
+  "keywords": [
+    "spell"
+  ],
+  "castingValue": 5,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn, subtract 1 from contamination rolls and remediation rolls for the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

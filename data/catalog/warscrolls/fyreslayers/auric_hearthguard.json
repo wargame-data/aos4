@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.fyreslayers.auric_hearthguard",
+  "bsdataId": "c2d0-1db-e516-2344",
+  "type": "warscroll",
+  "name": "Auric Hearthguard",
+  "faction": "fyreslayers",
+  "keywords": [
+    "champion",
+    "duardin",
+    "infantry",
+    "musician (1/10)",
+    "order",
+    "ward (6+)",
+    "faction:fyreslayers"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Magmapike",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DUARDIN",
+    "FYRESLAYERS",
+    "MUSICIAN (1/10)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Molten Rockbolts",
+      "type": "passive",
+      "effect": "Each time a shooting attack made by this unit scores a critical hit, subtract 1\" from the target unit’s Move characteristic until the start of your next turn. This ability cannot reduce the target unit’s unmodified Move characteristic below half",
+      "color": "Blue",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "693f-85d0-db98-543c"
+  }
+}

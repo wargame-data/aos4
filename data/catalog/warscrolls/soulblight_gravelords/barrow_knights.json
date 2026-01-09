@@ -1,0 +1,90 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.soulblight_gravelords.barrow_knights",
+  "bsdataId": "83ee-18f8-249d-5fac",
+  "type": "warscroll",
+  "name": "Barrow Knights",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "cavalry",
+    "champion",
+    "death",
+    "deathrattle",
+    "musician (1/5)",
+    "standard bearer (1/5)",
+    "ward (6+)",
+    "faction:soulblight_gravelords"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 3,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Skeletal Steed’s Hooves and Teeth",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Barrow Lance",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)",
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DEATHRATTLE",
+    "MUSICIAN (1/5)",
+    "SOULBLIGHT GRAVELORDS",
+    "STANDARD BEARER (1/5)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Cursed to Rise Once More",
+      "type": "once-per-turn",
+      "effect": "You can return 1 slain model to this unit.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Rallying"
+    },
+    {
+      "name": "Knights of the King",
+      "type": "passive",
+      "effect": "While any friendly **^^Deathrattle Cavalry Heroes^^** are within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "e3a0-cfae-cbb3-0215"
+  }
+}

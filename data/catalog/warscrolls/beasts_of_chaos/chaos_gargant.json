@@ -1,0 +1,97 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.beasts_of_chaos.chaos_gargant",
+  "bsdataId": "a95c-3447-894b-43a3",
+  "type": "warscroll",
+  "name": "Chaos Gargant",
+  "faction": "beasts_of_chaos",
+  "keywords": [
+    "chaos",
+    "legends",
+    "monster",
+    "faction:beasts_of_chaos"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 12,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Throwin’ Rocks",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "5+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3",
+      "range": "12\""
+    },
+    {
+      "name": "’Eadbutt",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 4
+    },
+    {
+      "name": "Massive Club",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2
+    },
+    {
+      "name": "Mighty Kick",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEASTS OF CHAOS",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Whipped Into a Frenzy",
+      "type": "once-per-turn",
+      "effect": "If this unit is within 6\" of any friendly **^^Beasts of Chaos Heroes^^**, add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.",
+      "phase": "combat",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Timberrrrr!",
+      "type": "passive",
+      "effect": "When this unit is destroyed, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of this unit. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "3cc2-31d3-9dd2-f858"
+  }
+}

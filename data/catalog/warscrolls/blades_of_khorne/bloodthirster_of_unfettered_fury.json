@@ -1,0 +1,106 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.blades_of_khorne.bloodthirster_of_unfettered_fury",
+  "bsdataId": "9aae-e077-190b-d63b",
+  "type": "warscroll",
+  "name": "Bloodthirster of Unfettered Fury",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "bloodthirster",
+    "chaos",
+    "daemon",
+    "fly",
+    "hero",
+    "monster",
+    "ward (5+)",
+    "faction:blades_of_khorne"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 16,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Mighty Axe of Khorne",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 4,
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)",
+        "Blood-hungry"
+      ]
+    },
+    {
+      "name": "Lash of Khorne",
+      "type": "ranged",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "8\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "BLOODTHIRSTER",
+    "DAEMON",
+    "FLY",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Mighty Axe of Khorne** is 4.",
+      "color": "Black"
+    },
+    {
+      "name": "Ensnaring Lash",
+      "type": "once-per-turn",
+      "effect": "If the target is in combat with this unit when the target is picked to use a **^^Fight^^** ability:\n• It must pick this unit to be the target of the pile-in move (Core Rules, 15.3).\n• Subtract 1 from hit rolls and wound rolls for attacks made as part of that **^^Fight^^** ability against this unit.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Monster^^** in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Beckon the Hunt",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn, when making charge rolls for the target, roll 1 additional dice, to a maximum of 3, and discard 1 dice of your choice.",
+      "phase": "movement",
+      "declare": "Pick a friendly non-**^^Unique Blades of Khorne Daemon^^** unit to be the target.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "81a9-3dbf-dbc5-672e"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

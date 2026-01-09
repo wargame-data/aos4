@@ -1,0 +1,77 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ossiarch_bonereapers.mortek_crawler",
+  "bsdataId": "8073-6b0a-5c59-fb6",
+  "type": "warscroll",
+  "name": "Mortek Crawler",
+  "faction": "ossiarch_bonereapers",
+  "keywords": [
+    "death",
+    "war machine",
+    "ward (6+)",
+    "faction:ossiarch_bonereapers"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 12,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Attendants' Crawler Tools",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Dread Catapult",
+      "type": "ranged",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3+2",
+      "range": "24\"",
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "OSSIARCH BONEREAPERS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Deathly Barrage",
+      "type": "passive",
+      "effect": "Roll a dice. Add 1 to the roll if this unit is wholly within 12\" of a friendly **Mortisan Ossifector**, and add 1 to the roll if any other friendly **Mortek Crawler** units picked that enemy unit to be the target of this ability this turn. On a 4+, the target has **^^Strike-Last^^** for the rest of the turn",
+      "phase": "shooting",
+      "declare": "Pick an enemy unit that was targeted by all of this unit’s shooting attacks this phase to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "2f1e-fdf-1ac2-fa38"
+  }
+}

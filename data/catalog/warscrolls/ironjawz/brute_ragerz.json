@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ironjawz.brute_ragerz",
+  "bsdataId": "d77b-a0ba-7d99-28d5",
+  "type": "warscroll",
+  "name": "Brute Ragerz",
+  "faction": "ironjawz",
+  "keywords": [
+    "brute",
+    "destruction",
+    "infantry",
+    "faction:ironjawz"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Rager Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BRUTE",
+    "IRONJAWZ"
+  ],
+  "abilities": [
+    {
+      "name": "Berserkers",
+      "type": "passive",
+      "effect": "This unit can use a **^^Run^^** ability and still use **^^Charge^^** abilities later in the turn.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Unleashed Rage",
+      "type": "passive",
+      "effect": "This unit has **^^Strike-first^^** if it charged in the same turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "8b1b-f2c7-890e-2bbe"
+  }
+}

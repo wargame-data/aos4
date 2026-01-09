@@ -1,0 +1,91 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.soulblight_gravelords.vampire_lord_on_nightmare_steed",
+  "bsdataId": "9043-94cc-3918-acd9",
+  "type": "warscroll",
+  "name": "Vampire Lord on Nightmare Steed",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "cavalry",
+    "death",
+    "hero",
+    "vampire",
+    "ward (6+)",
+    "wizard (1)",
+    "faction:soulblight_gravelords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 7,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Dynastic Cavalier Weapon",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Nightmare’s Hooves and Teeth",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Strike at the Heart",
+      "type": "passive",
+      "effect": "Add 1 to the Rend characteristic of that unit's **Templar Weapons** for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick a friendly **Blood Knights** unit that charged this turn and is wholly within 12\" of this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "'For Glory! For Blood!'",
+      "type": "reaction",
+      "effect": "You can re-roll the charge roll for that **^^Charge^^** ability. Then, before the charge move is made, you can pick a friendly **Blood Knights** unit that is not in combat, is wholly within 12\" of this unit and has not used a **^^Charge^^** ability this turn to be the target. If this unit charges, then, immediately after the **^^Charge^^** ability used by this unit has been resolved, the target can immediately use the ‘Charge’ ability even if it is not your charge phase. In addition, you can re-roll charge rolls for the target this phase.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "e3a0-cfae-cbb3-0215"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

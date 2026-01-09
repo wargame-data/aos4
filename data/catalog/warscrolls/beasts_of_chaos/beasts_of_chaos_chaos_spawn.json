@@ -1,0 +1,54 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.beasts_of_chaos.beasts_of_chaos_chaos_spawn",
+  "bsdataId": "58a2-3a6d-8f77-5f36",
+  "type": "warscroll",
+  "name": "Beasts of Chaos Chaos Spawn",
+  "faction": "beasts_of_chaos",
+  "keywords": [
+    "beast",
+    "chaos",
+    "legends",
+    "faction:beasts_of_chaos"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "2\"",
+    "health": 5,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Freakish Mutations",
+      "type": "melee",
+      "attacks": "2D6",
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEAST",
+    "BEASTS OF CHAOS",
+    "LEGENDS"
+  ],
+  "publication": {
+    "name": "3cc2-31d3-9dd2-f858"
+  }
+}

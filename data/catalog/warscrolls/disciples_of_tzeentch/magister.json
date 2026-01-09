@@ -1,0 +1,88 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.disciples_of_tzeentch.magister",
+  "bsdataId": "5f48-17e7-d89f-183b",
+  "type": "warscroll",
+  "name": "Magister",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "arcanite",
+    "chaos",
+    "hero",
+    "infantry",
+    "wizard (1)",
+    "faction:disciples_of_tzeentch"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Tzeentchian Runestaff",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": "D3",
+      "range": "18\"",
+      "abilities": [
+        "Wyrdflame"
+      ]
+    },
+    {
+      "name": "Warpsteel Sword",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "ARCANITE",
+    "DISCIPLES OF TZEENTCH",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Web of Intrigue",
+      "type": "passive",
+      "effect": "Until the start of your next turn, each time your opponent declares a Move ability for the target, before reactions are used, you can pick a friendly Arcanite unit that is not in combat and is within 12\" of the target. That friendly unit can move 3\", but it cannot move into combat during any part of that move.",
+      "phase": "hero",
+      "declare": "Pick an enemy unit within 12\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Magic-touched",
+      "type": "passive",
+      "effect": "If this unit successfully cast a spell this phase, for the rest of the turn:\n• Add 1 to this unit’s power level.\n• If 2 or more dice in a casting roll for this unit have the same value, the spell fails, its effect is not resolved and D6 mortal damage is inflicted on this unit.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "72d2-ae0-e519-f2f7"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

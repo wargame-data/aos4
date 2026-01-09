@@ -1,0 +1,84 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.iron_golem",
+  "bsdataId": "9a4c-e68d-108d-98f5",
+  "type": "warscroll",
+  "name": "Iron Golem",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "champion (1/8)",
+    "chaos",
+    "infantry",
+    "legends",
+    "standard bearer (1/8)",
+    "undivided",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 8,
+    "default": 8,
+    "max": 8
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 1,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Legion Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1
+    },
+    {
+      "name": "Bolas",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "8\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION (1/8)",
+    "LEGENDS",
+    "SLAVES TO DARKNESS",
+    "STANDARD BEARER (1/8)",
+    "UNDIVIDED"
+  ],
+  "abilities": [
+    {
+      "name": "Ogor Breacher",
+      "type": "passive",
+      "effect": "While this unit includes an **Ogor Breacher**, ignore the first damage point that would be allocated to this unit in each phase.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Iron Resilience",
+      "type": "passive",
+      "effect": "Add 1 to save rolls for this unit if it has not used a **^^Move^^** ability in the same turn.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

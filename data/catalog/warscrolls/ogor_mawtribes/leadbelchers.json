@@ -1,0 +1,80 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ogor_mawtribes.leadbelchers",
+  "bsdataId": "15cd-469c-4ed6-afef",
+  "type": "warscroll",
+  "name": "Leadbelchers",
+  "faction": "ogor_mawtribes",
+  "keywords": [
+    "champion",
+    "destruction",
+    "gutbusters",
+    "infantry",
+    "ogor",
+    "faction:ogor_mawtribes"
+  ],
+  "sizes": {
+    "min": 4,
+    "default": 4,
+    "max": 4
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 4,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Leadbelcher Gun",
+      "type": "ranged",
+      "attacks": "D3",
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "15\""
+    },
+    {
+      "name": "Bludgeoning Blows",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 0,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "GUTBUSTERS",
+    "OGOR",
+    "OGOR MAWTRIBES"
+  ],
+  "abilities": [
+    {
+      "name": "Firing from the Belly",
+      "type": "passive",
+      "effect": "If this unit has not used a Move ability this turn and was not set up this turn, add 1 to hit rolls for this unit’s shooting attacks for the rest of the turn.",
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Powder Gnoblars",
+      "type": "passive",
+      "effect": "This unit has up to 2 **Powder Gnoblar** tokens. Each time this unit uses a **^^Shoot^^** ability, for each of this unit’s **Powder Gnoblars** that are on the battlefield, you can re-roll 1 random characteristic roll for this unit’s Attacks characteristic. If a random characteristic roll re-rolled in this manner is 1, remove 1 of this unit’s **Powder Gnoblars** from the battlefield.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "1ac6-e227-a186-12"
+  }
+}

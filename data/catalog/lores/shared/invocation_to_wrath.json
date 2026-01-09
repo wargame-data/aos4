@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.invocation_to_wrath",
+  "type": "prayer",
+  "name": "Invocation to Wrath",
+  "faction": "shared",
+  "lore": "lore_of_aqshian_wrath",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Add 1 to wound rolls for the target's combat attacks until the start of your next turn. If the chanting roll was 8+, you can pick up to 2 eligible units to be the targets instead of 1",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible friendly unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

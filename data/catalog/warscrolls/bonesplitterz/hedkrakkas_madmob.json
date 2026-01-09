@@ -1,0 +1,74 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.bonesplitterz.hedkrakkas_madmob",
+  "bsdataId": "6259-3dda-45b2-5380",
+  "type": "warscroll",
+  "name": "Hedkrakka's Madmob",
+  "faction": "bonesplitterz",
+  "keywords": [
+    "champion",
+    "destruction",
+    "infantry",
+    "legends",
+    "orruk",
+    "unique",
+    "ward (6+)",
+    "faction:bonesplitterz"
+  ],
+  "sizes": {
+    "min": 4,
+    "default": 4,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 3,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Madmob Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BONESPLITTERZ",
+    "CHAMPION",
+    "LEGENDS",
+    "ORRUK",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Hedkrakka, Gob of Gork",
+      "type": "passive",
+      "effect": "While this unit’s **Hedkrakka, Gob of Gork**, is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Go For da Eyes",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. Add 1 to the roll if the target is a **^^Monster^^**. On a 4+, inflict 1 mortal damage on the target.",
+      "phase": "shooting",
+      "declare": "If this unit’s **Dakko Sharp-Stikka** is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.unfaltering_aim",
+  "type": "prayer",
+  "name": "Unfaltering Aim",
+  "faction": "shared",
+  "lore": "scriptures_of_sigmar",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Add 1 to hit rolls for the target’s shooting attacks for the rest of the turn. In addition, if the chanting roll was 10+, add 1 to wound rolls for the target’s shooting attacks for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Cities of Sigmar Priest^^** to chant this prayer, pick a visible friendly **^^Cities of Sigmar^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

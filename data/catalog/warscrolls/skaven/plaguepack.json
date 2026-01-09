@@ -1,0 +1,84 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.plaguepack",
+  "bsdataId": "f187-0277-e210-7c65",
+  "type": "warscroll",
+  "name": "Plaguepack",
+  "faction": "skaven",
+  "keywords": [
+    "champion (1/5)",
+    "chaos",
+    "infantry",
+    "pestilens",
+    "priest (1)",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Plague Censer",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Weapons of Corruption",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION (1/5)",
+    "PESTILENS",
+    "PRIEST (1)",
+    "SKAVEN"
+  ],
+  "abilities": [
+    {
+      "name": "Plague Rat",
+      "type": "passive",
+      "effect": "This unit’s **Plague rat** is a token. If you make an unmodified chanting roll of 1 for this unit while its **Plague rat** is on the battlefield, you can remove its **Plague rat** from the battlefield and then re-roll that chanting roll.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Enshrouding Fumes",
+      "type": "passive",
+      "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  }
+}

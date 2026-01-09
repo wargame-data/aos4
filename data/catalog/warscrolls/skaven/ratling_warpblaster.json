@@ -1,0 +1,79 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.ratling_warpblaster",
+  "bsdataId": "6792-1e93-a367-95c8",
+  "type": "warscroll",
+  "name": "Ratling Warpblaster",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "skryre",
+    "war machine",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 7,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Hail of Warpstone Bullets",
+      "type": "ranged",
+      "attacks": "3D6+3",
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "20\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Thrall-rats’ Claws",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SKAVEN",
+    "SKRYRE"
+  ],
+  "abilities": [
+    {
+      "name": "More-more Warpstone Bullets!",
+      "type": "once-per-turn",
+      "effect": "If this unit is within the combat range of a friendly **^^Skryre Hero^^**, this unit’s **Hail of Warpstone Bullets** has an Attacks characteristic of 6D6+3 instead of 3D6+3 for the rest of the turn. However, for each unmodified hit roll of 1 for an attack made with this unit’s **Hail of Warpstone Bullets**, inflict 1 mortal damage on this unit after the **^^Shoot^^** ability has been resolved.",
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Overwhelming Fire",
+      "type": "passive",
+      "effect": "Add 1 to hit rolls for this unit’s shooting attacks that target an enemy unit that has 10 or more models.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  }
+}

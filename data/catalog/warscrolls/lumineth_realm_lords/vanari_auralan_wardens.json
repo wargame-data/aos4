@@ -1,0 +1,67 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.lumineth_realm_lords.vanari_auralan_wardens",
+  "bsdataId": "b62e-acea-4717-14bd",
+  "type": "warscroll",
+  "name": "Vanari Auralan Wardens",
+  "faction": "lumineth_realm_lords",
+  "keywords": [
+    "aelf",
+    "champion",
+    "infantry",
+    "order",
+    "vanari",
+    "faction:lumineth_realm_lords"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "4+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Warden Pikes and Blades",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)",
+        "Anti-charge (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CHAMPION",
+    "LUMINETH REALM-LORDS",
+    "VANARI"
+  ],
+  "abilities": [
+    {
+      "name": "Wall of Blades",
+      "type": "passive",
+      "effect": "If this unit did not charge this turn and is in combat with an enemy unit that charged this turn, roll a dice. Add 1 to the roll if that enemy unit is **^^Cavalry^^**. On a 4+, this unit has **^^Strike-first^^** for the rest of the turn.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9ed1-cf74-eb97-dee2"
+  }
+}

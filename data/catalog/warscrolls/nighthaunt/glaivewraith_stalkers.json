@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.nighthaunt.glaivewraith_stalkers",
+  "bsdataId": "43ee-d90-fdd8-e998",
+  "type": "warscroll",
+  "name": "Glaivewraith Stalkers",
+  "faction": "nighthaunt",
+  "keywords": [
+    "death",
+    "fly",
+    "infantry",
+    "musician (1/4)",
+    "ward (5+)",
+    "faction:nighthaunt"
+  ],
+  "sizes": {
+    "min": 4,
+    "default": 4,
+    "max": 4
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Hunter’s Glaive",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "MUSICIAN (1/4)",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Unerring Hunters",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn, each time this unit makes a pile-in move, add 3\" to the distance it can move.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Movement"
+    }
+  ]
+}

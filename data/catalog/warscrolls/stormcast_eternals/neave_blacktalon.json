@@ -1,0 +1,112 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.neave_blacktalon",
+  "bsdataId": "8931-32bb-58ba-820a",
+  "type": "warscroll",
+  "name": "Neave Blacktalon",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "hero",
+    "infantry",
+    "order",
+    "the blacktalons",
+    "unique",
+    "vanguard chamber",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "7\"",
+    "health": 6,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Relic Boltstorm Pistol",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Whirlwind Axes",
+      "type": "melee",
+      "attacks": 7,
+      "hit": "2+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "STORMCAST ETERNALS",
+    "THE BLACKTALONS",
+    "VANGUARD CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Justice From Azyr",
+      "type": "passive",
+      "effect": "Add 1 to the Damage characteristic of this unit’s **Whirlwind Axes** for attacks that target a **^^Hero^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Windrider",
+      "type": "passive",
+      "effect": "Resolve combat attacks against the target unit(s). Then, roll a dice. On a 3+, remove this unit from the battlefield and set it up again on the battlefield more than 3\" from all enemy units and wholly within the combat range of a friendly **^^The Blacktalons^^** unit that is not in combat.",
+      "phase": "combat",
+      "declare": "If this unit is in combat or charged this turn, this unit can make a pile-in move. Then, if this unit is in combat, you must pick 1 or more enemy units to be the target(s) of this unit’s attacks.",
+      "keywords": [
+        "**^^CORE^^**",
+        "**^^ATTACK^^**",
+        "**^^FIGHT^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Vanguard Chamber",
+      "type": "once-per-turn",
+      "effect": "For the rest of the turn, this unit can use **^^Shoot^^** and/or **^^Charge^^** abilities even if it used a **^^Run^^** or **^^Retreat^^** ability in the same turn.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "43cd-e9ef-5d4d-87c4"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "VANGUARD CHAMBER"
+      ],
+      "description": "Units with VANGUARD CHAMBER keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

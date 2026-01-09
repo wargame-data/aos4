@@ -1,0 +1,72 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.darkoath_marauders",
+  "bsdataId": "32a0-6285-a243-3a38",
+  "type": "warscroll",
+  "name": "Darkoath Marauders",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "champion",
+    "chaos",
+    "darkoath",
+    "infantry",
+    "musician (1/10)",
+    "standard bearer (1/10)",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 1,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Raider Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DARKOATH",
+    "MUSICIAN (1/10)",
+    "SLAVES TO DARKNESS",
+    "STANDARD BEARER (1/10)"
+  ],
+  "abilities": [
+    {
+      "name": "Oath of the Marauder",
+      "type": "once-per-battle",
+      "effect": "If this unit charged this phase and the unmodified charge roll was 8+, add 1 to the Rend characteristic of this unit’s weapons for the rest of the battle.",
+      "phase": "charge",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Glorious Death",
+      "type": "passive",
+      "effect": "While this unit is wholly within 12\" of any friendly **^^Darkoath Heroes^^**, each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "6357-5d77-a2b2-f86b"
+  }
+}

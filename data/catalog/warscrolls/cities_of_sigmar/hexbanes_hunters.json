@@ -1,0 +1,105 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.hexbanes_hunters",
+  "bsdataId": "f5eb-ec64-66d7-0df9",
+  "type": "warscroll",
+  "name": "Hexbane's Hunters",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "champion",
+    "human",
+    "infantry",
+    "legends",
+    "order",
+    "unique",
+    "ward (5+)",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 6,
+    "default": 6,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Blackpowder Pistols",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "range": "8\"",
+      "abilities": [
+        "Shoot in Combat",
+        "Anti-**^^Wizard^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Witch Hunter Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Wizard^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Crossbow Launcher",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "15\"",
+      "abilities": [
+        "Anti-**^^Wizard^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "LEGENDS",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Flamewood Stakes",
+      "type": "passive",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Add 1 to the damage inflicted (if any) on the target if it has the **^^Death^^**, **^^Daemon^^** or **^^Wizard^^** keyword.",
+      "phase": "any",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Hunt with Conviction",
+      "type": "passive",
+      "effect": "Add 1 to the damage inflicted by this unit’s attacks that target the unit picked to be **hunted by the Order**.\n*Designer’s Note: You can pick an enemy unit that is in reserve.*",
+      "declare": "Pick an enemy **^^Hero^^** or **^^Wizard^^** to be **hunted by the Order**. You must pick a **^^Wizard Hero^^** if there is one in your opponent’s army.",
+      "color": "Black",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

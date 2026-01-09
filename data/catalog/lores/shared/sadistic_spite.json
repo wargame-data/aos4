@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.sadistic_spite",
+  "type": "spell",
+  "name": "Sadistic Spite",
+  "faction": "shared",
+  "lore": "lore_of_extravagance",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 6,
+  "timing": "Your Hero Phase",
+  "effect": "The target’s melee weapons have **Crit (Mortal)** instead of **Crit (2 Hits)** for the rest of the battle round.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Hedonites of Slaanesh Wizard^^** to cast this spell, pick a visible friendly **^^Euphoric^^** unit to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

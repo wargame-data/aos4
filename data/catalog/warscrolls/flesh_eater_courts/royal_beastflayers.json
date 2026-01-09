@@ -1,0 +1,63 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.flesh_eater_courts.royal_beastflayers",
+  "bsdataId": "a8f1-a33f-35de-8e08",
+  "type": "warscroll",
+  "name": "Royal Beastflayers",
+  "faction": "flesh_eater_courts",
+  "keywords": [
+    "champion (1/10)",
+    "death",
+    "infantry",
+    "serfs",
+    "ward (6+)",
+    "faction:flesh_eater_courts"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Beastflayer Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Beast^^** (+1 Rend)",
+        "Anti-**^^Monster^^** (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION (1/10)",
+    "FLESH-EATER COURTS",
+    "SERFS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Hunter's Instincts",
+      "type": "passive",
+      "effect": "Enemy **^^Monsters^^** cannot use **^^Rampage^^** abilities while they are in combat with this unit. In addition, subtract 1 from the Damage characteristic of melee weapons used by enemy **^^Monsters^^** and **^^Beast^^** units while they are in combat with this unit.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.pontifex_zenestra_matriarch_of_the_great_wheel",
+  "bsdataId": "708d-414f-a3f-3734",
+  "type": "warscroll",
+  "name": "Pontifex Zenestra, Matriarch of the Great Wheel",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "hero",
+    "human",
+    "infantry",
+    "order",
+    "priest (2)",
+    "unique",
+    "ward (4+)",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 9,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Sceptre of the Wheel",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": "D3"
+    },
+    {
+      "name": "Acolytes’ Club and Axe",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "PRIEST (2)",
+    "WARD (4+)"
+  ],
+  "abilities": [
+    {
+      "name": "Voice of the God-king",
+      "type": "passive",
+      "effect": "This unit can use the ‘Unbind’ ability as if it had **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Vessel of Sigmar",
+      "type": "prayer",
+      "effect": "Pick 1 of the following effects to apply until the start of your next turn. Pick up to 2 different effects instead if the chanting roll was 10+.\n***The Great Wheel Turns:*** Add 2\" to the Move characteristic of friendly ^^**Cities of Sigmar Human^^** units if they are wholly within 12\" of this unit at the start of the move.\n***Hallowed Ground:*** Friendly **^^Cities of Sigmar Human^^** units have **^^Ward (5+)^^** while they are wholly within 12\" of this unit.\n***Cast Out Evil:*** Roll a D3 for each enemy **^^Wizard^^** and **^^Priest^^** on the battlefield. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+      "phase": "hero",
+      "declare": "Make a chanting roll of D6.",
+      "chantingValue": 5,
+      "keywords": [
+        "**^^PRAYER^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  },
+  "wizard": null,
+  "priest": 2,
+  "unique": true,
+  "canJoinRegiment": null
+}

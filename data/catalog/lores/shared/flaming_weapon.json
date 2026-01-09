@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "id": "spell.shared.flaming_weapon",
+  "type": "spell",
+  "name": "Flaming Weapon",
+  "faction": "shared",
+  "lore": "lore_of_wyrdflame",
+  "keywords": [
+    "spell",
+    "unlimited"
+  ],
+  "castingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Add 1 to the Damage characteristic of the target's melee weapons until the start of your next turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Pyrofane Wizard^^** to cast this spell, pick a visible friendly **^^Hero^^** wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

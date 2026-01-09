@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.nighthaunt.myrmourn_banshees",
+  "bsdataId": "ca83-a38b-b1c6-f4e6",
+  "type": "warscroll",
+  "name": "Myrmourn Banshees",
+  "faction": "nighthaunt",
+  "keywords": [
+    "death",
+    "fly",
+    "infantry",
+    "ward (5+)",
+    "faction:nighthaunt"
+  ],
+  "sizes": {
+    "min": 4,
+    "default": 4,
+    "max": 4
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Chill Dagger",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Anti-**^^Wizard^^** (+1 Rend)",
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Spell-eaters",
+      "type": "reaction",
+      "effect": "If a friendly **^^Nighthaunt^^** unit wholly within 12\" of this unit was picked to be the target of that spell, this unit can use the ‘Unbind’ ability as if it had **^^Wizard (1)^^**. Add 1 to the unbinding roll for that ability. If the spell is unbound, inflict D3 mortal damage on the caster",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.disciples_of_tzeentch.ogroid_thaumaturge",
+  "bsdataId": "a004-88b6-b2eb-5879",
+  "type": "warscroll",
+  "name": "Ogroid Thaumaturge",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "arcanite",
+    "chaos",
+    "hero",
+    "infantry",
+    "ward (6+)",
+    "wizard (1)",
+    "faction:disciples_of_tzeentch"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 8,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Thaumaturge Staff",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": "D3",
+      "range": "12\""
+    },
+    {
+      "name": "Great Horns and Cloven Hooves",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "ARCANITE",
+    "DISCIPLES OF TZEENTCH",
+    "WARD (6+)",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Burning Fury",
+      "type": "once-per-turn",
+      "effect": "The target has the **^^Burning^^** keyword.",
+      "phase": "any",
+      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by this unit’s combat attacks to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Thaumaturge Rage",
+      "type": "passive",
+      "effect": "Add 1 to hit rolls and wound rolls for this unit’s combat attacks while it is damaged.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "72d2-ae0-e519-f2f7"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,73 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.bren_tylis_the_renegade_saint",
+  "bsdataId": "910b-de3b-92c7-2940",
+  "type": "warscroll",
+  "name": "Bren Tylis, the Renegade Saint",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "hero",
+    "human",
+    "infantry",
+    "legends",
+    "order",
+    "unique",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Hand-and-a-half Sword",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 2,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Well Travelled",
+      "type": "once-per-battle",
+      "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 3\" from all enemy units.",
+      "color": "Black",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Yondara's Guidance",
+      "type": "passive",
+      "effect": "The first time this unit would be destroyed, before removing it from the battlefield, roll a dice. On a 3+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (5)** this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "9e18-0b77-d43e-125e"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

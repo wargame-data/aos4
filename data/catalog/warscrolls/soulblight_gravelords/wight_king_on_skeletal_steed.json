@@ -1,0 +1,90 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.soulblight_gravelords.wight_king_on_skeletal_steed",
+  "bsdataId": "dfe3-12e9-b0d4-3603",
+  "type": "warscroll",
+  "name": "Wight King on Skeletal Steed",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "cavalry",
+    "death",
+    "deathrattle",
+    "hero",
+    "ward (6+)",
+    "faction:soulblight_gravelords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 8,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "King's Relic Weapon",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)",
+        "Crit (Mortal)"
+      ]
+    },
+    {
+      "name": "Skeletal Steed’s Hooves and Teeth",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "DEATHRATTLE",
+    "SOULBLIGHT GRAVELORDS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Immortal Conqueror",
+      "type": "passive",
+      "effect": "For the rest of the turn, add 1 to hit rolls for attacks made by friendly **^^Deathrattle^^** units while they are wholly within 6\" of that objective or terrain feature.",
+      "phase": "hero",
+      "declare": "Pick an objective or terrain feature within enemy territory.",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Ancient Barrow Curse",
+      "type": "passive",
+      "effect": "If an attack made with this unit's **King's Relic Weapon** scores a critical hit, the target unit becomes **cursed** for the rest of the battle. Subtract 1 from save rolls for **cursed** units even if this unit has been destroyed.\n**Designer's Note:** *Multiple enemy units can become cursed by this ability but the same enemy unit cannot become cursed more than once.*",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "e3a0-cfae-cbb3-0215"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

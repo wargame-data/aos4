@@ -1,0 +1,80 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.gunnar_brand",
+  "bsdataId": "dd16-c1dc-4ff-85f2",
+  "type": "warscroll",
+  "name": "Gunnar Brand",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "chaos",
+    "darkoath",
+    "gunnar's oathsworn",
+    "hero",
+    "infantry",
+    "unique",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Dual Axes",
+      "type": "melee",
+      "attacks": 10,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DARKOATH",
+    "GUNNAR'S OATHSWORN",
+    "SLAVES TO DARKNESS"
+  ],
+  "abilities": [
+    {
+      "name": "Carve a Path to Glory",
+      "type": "passive",
+      "effect": "This unit can use 2 **^^Fight^^** abilities this phase. After the first is used, however, this unit has **^^Strike-last^^** for the rest of the turn. When using the second **^^Fight^^** ability, this unit must pick an enemy **^^Hero^^** to be the target of all of its attacks.",
+      "phase": "combat",
+      "declare": "This unit can only use this ability if it is in combat with an enemy **^^Hero^^**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Oath of Bloodshed",
+      "type": "once-per-battle",
+      "effect": "Friendly **^^Gunnar’s Oathsworn^^** units have **^^Ward (4+)^^** for the rest of the battle.",
+      "phase": "any",
+      "declare": "This unit can only use this ability if any enemy **^^Heroes^^** were slain by this unit’s combat attacks this turn.",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "6357-5d77-a2b2-f86b"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

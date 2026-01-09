@@ -1,0 +1,79 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.seraphon.raptadon_chargers",
+  "bsdataId": "4908-4322-32bb-8ee7",
+  "type": "warscroll",
+  "name": "Raptadon Chargers",
+  "faction": "seraphon",
+  "keywords": [
+    "cavalry",
+    "champion",
+    "musician (1/5)",
+    "order",
+    "skink",
+    "standard bearer (1/5)",
+    "faction:seraphon"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Raptadon’s Serrated Fangs",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Tepok Lance",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "MUSICIAN (1/5)",
+    "SERAPHON",
+    "SKINK",
+    "STANDARD BEARER (1/5)"
+  ],
+  "abilities": [
+    {
+      "name": "Cold-blooded Unity",
+      "type": "passive",
+      "effect": "Add 1 to hit rolls for this unit’s combat attacks if they target an enemy unit that was targeted by shooting attacks made by a friendly **Raptadon Hunters** unit in the same turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "e9d0-a23-6a15-1fcb"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.lord_commander_bastian_carthalos",
+  "bsdataId": "27bd-f462-4fbb-5998",
+  "type": "warscroll",
+  "name": "Lord-Commander Bastian Carthalos",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "hero",
+    "infantry",
+    "order",
+    "unique",
+    "ward (5+)",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 8,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Thunderbolts of Azyr",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "2+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": "D3",
+      "range": "18\""
+    },
+    {
+      "name": "Uskavar, the Sunderer",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 4,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "STORMCAST ETERNALS",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Voice of Thunder",
+      "type": "passive",
+      "effect": "Each time a friendly **^^Stormcast Eternals^^** unit wholly within 12\" of this unit uses the ‘All-out Attack’ command, no command points are spent.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Castellan of Azyr",
+      "type": "passive",
+      "effect": "Each target can use the ‘Normal Move’ ability as if it were your movement phase.",
+      "declare": "Pick up to 3 friendly **^^Stormcast Eternals Infantry^^** units to be the targets.",
+      "color": "Black",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Mantle of the First Storm",
+      "type": "passive",
+      "effect": "If any enemy models were slain by this unit’s attacks this turn, **Heal (4)** this unit.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "43cd-e9ef-5d4d-87c4"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

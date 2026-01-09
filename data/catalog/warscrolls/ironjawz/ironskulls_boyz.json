@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ironjawz.ironskulls_boyz",
+  "bsdataId": "fd56-6594-4cd4-c765",
+  "type": "warscroll",
+  "name": "Ironskull's Boyz",
+  "faction": "ironjawz",
+  "keywords": [
+    "champion",
+    "destruction",
+    "infantry",
+    "legends",
+    "unique",
+    "faction:ironjawz"
+  ],
+  "sizes": {
+    "min": 4,
+    "default": 4,
+    "max": 1
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 3,
+    "save": "3+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Ardboy Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Anti-charge (+1 Rend)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "IRONJAWZ",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Dead 'Ard",
+      "type": "passive",
+      "effect": "Subtract 1 from wound rolls for attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.clawlord_on_gnaw_beast",
+  "bsdataId": "2f2b-ecf3-badb-696d",
+  "type": "warscroll",
+  "name": "Clawlord on Gnaw-beast",
+  "faction": "skaven",
+  "keywords": [
+    "cavalry",
+    "chaos",
+    "hero",
+    "verminus",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "9\"",
+    "health": 7,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Warpforged Halberd",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    },
+    {
+      "name": "Ratling Pistol",
+      "type": "ranged",
+      "attacks": "D6",
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "range": "10\"",
+      "abilities": [
+        "Crit (Auto-wound)",
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Gnaw-beast’s Chisel Fangs",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "SKAVEN",
+    "VERMINUS"
+  ],
+  "abilities": [
+    {
+      "name": "Cornered Rat",
+      "type": "passive",
+      "effect": "While this unit is damaged, add 3 to the Attacks characteristic of its **Warpforged Halberd**.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Cruel Commander",
+      "type": "passive",
+      "effect": "Inflict 1 mortal damage on the target. Then, add 5 to the target’s control score until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick a friendly non-**^^Hero Verminus Infantry^^** unit wholly within 13\" of this unit to be the target.",
+      "color": "Yellow",
+      "abilityCategory": "Control"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

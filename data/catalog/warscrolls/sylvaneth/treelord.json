@@ -1,0 +1,109 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.sylvaneth.treelord",
+  "bsdataId": "a896-d266-a881-f920",
+  "type": "warscroll",
+  "name": "Treelord",
+  "faction": "sylvaneth",
+  "keywords": [
+    "hero",
+    "monster",
+    "order",
+    "faction:sylvaneth"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 14,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Strangleroots",
+      "type": "ranged",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Sweeping Blows",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Anti-charge (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Massive Impaling Talons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "SYLVANETH"
+  ],
+  "abilities": [
+    {
+      "name": "Lash and Tangle",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, subtract 1 from wound rolls for the target’s attacks for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Sweeping Blows** is 3.",
+      "color": "Black"
+    },
+    {
+      "name": "Entangling Grasp",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, the target cannot use **^^Run^^** or **^^Retreat^^** abilities until the start of your next turn.",
+      "phase": "shooting",
+      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Strangleroots** to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "61ee-fae0-f1da-2591"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

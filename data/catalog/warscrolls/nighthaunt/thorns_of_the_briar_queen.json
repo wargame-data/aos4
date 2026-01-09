@@ -1,0 +1,100 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.nighthaunt.thorns_of_the_briar_queen",
+  "bsdataId": "378f-c709-a843-3f3e",
+  "type": "warscroll",
+  "name": "Thorns of the Briar Queen",
+  "faction": "nighthaunt",
+  "keywords": [
+    "death",
+    "fly",
+    "infantry",
+    "legends",
+    "unique",
+    "ward (6+)",
+    "faction:nighthaunt"
+  ],
+  "sizes": {
+    "min": 7,
+    "default": 7,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Malignant Weapon",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Piercing Scream",
+      "type": "ranged",
+      "attacks": "D3",
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D3",
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Ancient Chill Dagger",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D3",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "LEGENDS",
+    "NIGHTHAUNT",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Ghostly Howl",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 2+, the target cannot use commands until the start of your next turn.",
+      "phase": "shooting",
+      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Piercing Scream** to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "The Briar Queen",
+      "type": "passive",
+      "effect": "While this unit’s **Briar Queen** is on the battlefield, it has **^^Wizard (1)^^**.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.jacobus_vyne_the_jade_wizard",
+  "bsdataId": "121a-c8d2-648a-c1be",
+  "type": "warscroll",
+  "name": "Jacobus Vyne, the Jade Wizard",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "hero",
+    "human",
+    "infantry",
+    "legends",
+    "order",
+    "unique",
+    "wizard (1)",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 5,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Vineroot Staff",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3,
+      "range": "9\"",
+      "abilities": [
+        "Anti-**^^Faction Terrain^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Enchanted Sickle",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CITIES OF SIGMAR",
+    "HUMAN",
+    "LEGENDS",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Verdant Growth",
+      "type": "spell",
+      "effect": "For the rest of the battle, subtract 1 from hit rolls for shooting attacks that target friendly **^^Infantry^^** or **^^Cavalry^^** units while they are wholly within 3\" of the target.",
+      "phase": "hero",
+      "declare": "Pick an objective or visible non-**^^Faction Terrain^^** terrain feature within 12\" of this unit to be the target. Then, make a casting roll of 2D6.",
+      "castingValue": 6,
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Summon Wisper",
+      "type": "passive",
+      "effect": "If there is not a friendly **Wisper** on the battlefield, set up a friendly **Wisper** wholly within 12\" of this unit, visible to it and more than 9\" from all enemy units. This unit has summoned that **^^Manifestation^^**.",
+      "phase": "movement",
+      "color": "Gray",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9e18-0b77-d43e-125e"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

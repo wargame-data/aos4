@@ -1,0 +1,80 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.stormstrike_palladors",
+  "bsdataId": "75e5-05cd-3163-7335",
+  "type": "warscroll",
+  "name": "Stormstrike Palladors",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "cavalry",
+    "champion",
+    "musician (1/3)",
+    "order",
+    "standard bearer (1/3)",
+    "warrior chamber",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 5,
+    "save": "3+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Stormstrike Lance or Blade",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Charge (+1 Damage)"
+      ]
+    },
+    {
+      "name": "Gryph-charger’s Talons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "MUSICIAN (1/3)",
+    "STANDARD BEARER (1/3)",
+    "STORMCAST ETERNALS",
+    "WARRIOR CHAMBER"
+  ],
+  "abilities": [
+    {
+      "name": "Ride for Vengeance",
+      "type": "passive",
+      "effect": "If any friendly **^^Warrior Chamber^^** units have been destroyed this battle:\n• You can re-roll charge rolls for this unit.\n• This unit has **^^Strike-first^^** if it charged in the same turn.",
+      "color": "Orange",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "43cd-e9ef-5d4d-87c4"
+  }
+}

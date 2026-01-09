@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.trail_of_lava",
+  "type": "prayer",
+  "name": "Trail of Lava",
+  "faction": "shared",
+  "lore": "lore_of_aqshian_wrath",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Until the start of your next turn:\n• The target can use a **^^Retreat^^** ability and still use **^^Shoot^^** and/or **^^Charge^^** abilities later in the turn. If the chanting roll was 8+, after the **^^Retreat^^** ability has been resolved, inflict D3 mortal damage on each enemy unit that was in combat with the target at the start of the move.\n• No mortal damage is inflicted on the target by\n**^^Retreat^^** abilities.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Priest^^** to chant this prayer, pick a visible friendly unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Movement"
+}

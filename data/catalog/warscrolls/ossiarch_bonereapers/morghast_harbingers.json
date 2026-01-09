@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ossiarch_bonereapers.morghast_harbingers",
+  "bsdataId": "16b9-87fe-ea6d-c02c",
+  "type": "warscroll",
+  "name": "Morghast Harbingers",
+  "faction": "ossiarch_bonereapers",
+  "keywords": [
+    "death",
+    "fly",
+    "infantry",
+    "ward (6+)",
+    "faction:ossiarch_bonereapers"
+  ],
+  "sizes": {
+    "min": 2,
+    "default": 2,
+    "max": 2
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Spirit Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Anti-**^^Monster^^** (+1 Rend)",
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "OSSIARCH BONEREAPERS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Heralds of Nagash",
+      "type": "reaction",
+      "effect": "This unit is affected by that **^^Relentless Discipline^^** ability as if it were wholly within range of the friendly **^^Hero^^** picked to use it.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Harbingers of Death",
+      "type": "passive",
+      "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.",
+      "color": "Orange",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "2f1e-fdf-1ac2-fa38"
+  }
+}

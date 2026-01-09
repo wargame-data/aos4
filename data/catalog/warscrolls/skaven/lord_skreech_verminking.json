@@ -1,0 +1,118 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.skaven.lord_skreech_verminking",
+  "bsdataId": "873-d49d-6d01-4397",
+  "type": "warscroll",
+  "name": "Lord Skreech Verminking",
+  "faction": "skaven",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "eshin",
+    "hero",
+    "masterclan",
+    "monster",
+    "moulder",
+    "pestilens",
+    "skryre",
+    "unique",
+    "verminus",
+    "ward (5+)",
+    "warmaster",
+    "wizard (2)",
+    "faction:skaven"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "10\"",
+    "health": 13,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Glaive of the Rat King",
+      "type": "melee",
+      "attacks": 7,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 3,
+      "abilities": [
+        "Crit (2 Hits)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "ESHIN",
+    "MASTERCLAN",
+    "MOULDER",
+    "PESTILENS",
+    "SKAVEN",
+    "SKRYRE",
+    "VERMINUS",
+    "WARD (5+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "The Thirteen-headed One",
+      "type": "passive",
+      "effect": "Pick 1 of the following effects to apply until the start of your next turn. You cannot pick the same effect more than once per battle.\n***Master of Dire Sorcery:*** Add 1 to casting rolls for friendly **^^Masterclan Wizards^^** while they are wholly within 13\" of this unit.\n***Commander of Vermin:*** Add 1 to charge rolls for friendly **^^Verminus^^** units while they are wholly within 13\" of this unit.\n***Knower of Warp-tech:*** Add 1 to hit rolls for shooting attacks made by friendly **^^Skryre^^** units while they are wholly within 13\" of this unit.\n***Deliverer of Weeping Blades:*** Add 1 to the Rend characteristic of melee weapons used by friendly **^^Eshin^^** units while they are wholly within 13\" of this unit.\n***Bringer of Plagues:*** Add 1 to chanting rolls for friendly **^^Pestilens Priests^^** while they are wholly within 13\" of this unit.\n***Shaper of Fleshcraft:*** **Heal (D3)** each friendly **^^Moulder^^** unit wholly within 13\" of this unit.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Terrifying Monstrosity",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+:\n• The target cannot use commands for the rest of the turn.\n• Subtract an amount equal to the roll from the target’s control score until the start of your next turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Infantry^^** unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "The Dreaded Thirteenth Spell",
+      "type": "spell",
+      "effect": "Roll 13 dice. For each 5+:\n• Inflict 1 mortal damage on the target.\n• You can return 1 slain model to a friendly **Clanrats** unit wholly within 13\" of this unit.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 13\" to be the target, then make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "ff83-b049-91b9-ed05"
+  },
+  "wizard": 2,
+  "priest": null,
+  "unique": true,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "MASTERCLAN"
+      ],
+      "description": "Units with MASTERCLAN keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

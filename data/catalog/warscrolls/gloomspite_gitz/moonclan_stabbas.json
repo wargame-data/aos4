@@ -1,0 +1,66 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.gloomspite_gitz.moonclan_stabbas",
+  "bsdataId": "8be0-b46d-7d03-f8e2",
+  "type": "warscroll",
+  "name": "Moonclan Stabbas",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "champion",
+    "destruction",
+    "infantry",
+    "moonclan",
+    "musician (1/20)",
+    "standard bearer (1/20)",
+    "faction:gloomspite_gitz"
+  ],
+  "sizes": {
+    "min": 20,
+    "default": 20,
+    "max": 20
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 1,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Stabba",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "CHAMPION",
+    "GLOOMSPITE GITZ",
+    "MOONCLAN",
+    "MUSICIAN (1/20)",
+    "STANDARD BEARER (1/20)"
+  ],
+  "abilities": [
+    {
+      "name": "Netters",
+      "type": "passive",
+      "effect": "Roll a dice. On a 3+, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy **^^Infantry^^** unit in combat with this unit to be the target.",
+      "color": "Red",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "a395-7bc4-71eb-46df"
+  }
+}

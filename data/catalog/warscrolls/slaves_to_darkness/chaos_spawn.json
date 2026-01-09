@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.chaos_spawn",
+  "bsdataId": "ead3-8dd9-3ace-8198",
+  "type": "warscroll",
+  "name": "Chaos Spawn",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "beast",
+    "chaos",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "2\"",
+    "health": 5,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Freakish Mutations",
+      "type": "melee",
+      "attacks": "2D6",
+      "hit": "5+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (2 Hits)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEAST",
+    "SLAVES TO DARKNESS"
+  ],
+  "abilities": [
+    {
+      "name": "Drawn to Power",
+      "type": "passive",
+      "effect": "While this unit is wholly within 12\" of a friendly **Daemon Prince**, you can re-roll the random characteristic rolls for this unit’s Move and Attacks characteristics.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "6357-5d77-a2b2-f86b"
+  }
+}

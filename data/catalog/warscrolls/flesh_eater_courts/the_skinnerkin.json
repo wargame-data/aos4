@@ -1,0 +1,77 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.flesh_eater_courts.the_skinnerkin",
+  "bsdataId": "c933-7c55-522d-510b",
+  "type": "warscroll",
+  "name": "The Skinnerkin",
+  "faction": "flesh_eater_courts",
+  "keywords": [
+    "champion",
+    "death",
+    "infantry",
+    "legends",
+    "serfs",
+    "unique",
+    "ward (6+)",
+    "faction:flesh_eater_courts"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Butchering Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "CHAMPION",
+    "FLESH-EATER COURTS",
+    "LEGENDS",
+    "SERFS",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Prime Cuts",
+      "type": "passive",
+      "effect": "Each time a combat attack made by this unit scores a critical hit, give 1 **prime cut point** to this unit, to a maximum of 6.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Dinner is Served",
+      "type": "passive",
+      "effect": "**Heal (X)** the target, where **X** is the number of **prime cut points** this unit has. Then, reset this unit’s **prime cut points** to 0.",
+      "phase": "any",
+      "declare": "Pick a friendly **^^Flesh-eater Courts Hero^^** wholly within 12\" of this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

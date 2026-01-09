@@ -1,0 +1,66 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.hedonites_of_slaanesh.daemonettes",
+  "bsdataId": "73f4-30e5-20b1-cf47",
+  "type": "warscroll",
+  "name": "Daemonettes",
+  "faction": "hedonites_of_slaanesh",
+  "keywords": [
+    "champion",
+    "chaos",
+    "daemon",
+    "infantry",
+    "musician (1/10)",
+    "standard bearer (1/10)",
+    "ward (6+)",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Piercing Claws",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION",
+    "DAEMON",
+    "HEDONITES OF SLAANESH",
+    "MUSICIAN (1/10)",
+    "STANDARD BEARER (1/10)",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Lithe and Swift",
+      "type": "passive",
+      "effect": "Add 1 to the Attacks characteristic of this unit’s Piercing Claws for the rest of the turn if this unit charged in the same turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "95fc-e96f-a916-bba1"
+  }
+}

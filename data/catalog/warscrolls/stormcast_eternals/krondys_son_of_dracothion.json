@@ -1,0 +1,123 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.stormcast_eternals.krondys_son_of_dracothion",
+  "bsdataId": "9c0f-13c7-e2c1-55a",
+  "type": "warscroll",
+  "name": "Krondys, Son of Dracothion",
+  "faction": "stormcast_eternals",
+  "keywords": [
+    "fly",
+    "hero",
+    "monster",
+    "order",
+    "unique",
+    "warmaster",
+    "wizard (2)",
+    "faction:stormcast_eternals"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 20,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Blazing Tempest",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "2+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D3+3",
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Apex Maw",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 4,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Drake-lord’s Talons",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FLY",
+    "STORMCAST ETERNALS",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Soul-shaking Roar",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Apex Maw** is 2.",
+      "color": "Black"
+    },
+    {
+      "name": "Regalia Fulmentarus",
+      "type": "passive",
+      "effect": "Add 2 to casting rolls for this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Atavistic Tempest",
+      "type": "spell",
+      "effect": "Pick 1 of the following effects to apply to the target until the start of your next turn:\n***Blinding Gales:*** Subtract 1 from hit rolls for the target’s attacks.\n***Meteor-hail:*** Subtract 1 from the Rend characteristic of the target’s weapons.\n***Flash-freezing Blizzard:*** Subtract 1 from save rolls for the target.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 18\" of the caster to be the target, then make a casting roll of 2D6.",
+      "castingValue": 8,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "43cd-e9ef-5d4d-87c4"
+  },
+  "wizard": 2,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

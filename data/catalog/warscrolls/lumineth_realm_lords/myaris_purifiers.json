@@ -1,0 +1,95 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.lumineth_realm_lords.myaris_purifiers",
+  "bsdataId": "aaa4-905e-4992-feca",
+  "type": "warscroll",
+  "name": "Myari's Purifiers",
+  "faction": "lumineth_realm_lords",
+  "keywords": [
+    "aelf",
+    "alarith",
+    "champion",
+    "infantry",
+    "legends",
+    "order",
+    "scinari",
+    "unique",
+    "vanari",
+    "faction:lumineth_realm_lords"
+  ],
+  "sizes": {
+    "min": 4,
+    "default": 4,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 3,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Auralan Bow",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "range": "18\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Purifier Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "ALARITH",
+    "CHAMPION",
+    "LEGENDS",
+    "LUMINETH REALM-LORDS",
+    "SCINARI",
+    "VANARI"
+  ],
+  "abilities": [
+    {
+      "name": "Myari Lightcaller",
+      "type": "passive",
+      "effect": "While this unit’s **Myari Lightcaller** is on the battlefield, it has **^^Wizard (1) and the **^^Scinari^^** keyword.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Dazzling Light",
+      "type": "spell",
+      "effect": "Until the start of your next turn, subtract 1 from hit rolls for attacks made by enemy units that are contesting that objective.",
+      "phase": "hero",
+      "declare": "Pick an objective that you do not control that is within 18\" of and visible to this unit’s **Myari Lightcaller**, then make a casting roll of 2D6.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.disciples_of_tzeentch.kairic_acolytes",
+  "bsdataId": "d92a-3a96-6ee3-3a39",
+  "type": "warscroll",
+  "name": "Kairic Acolytes",
+  "faction": "disciples_of_tzeentch",
+  "keywords": [
+    "arcanite",
+    "champion",
+    "chaos",
+    "infantry",
+    "faction:disciples_of_tzeentch"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 1,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Sorcerous Bolt",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "range": "18\"",
+      "abilities": [
+        "Wyrdflame"
+      ]
+    },
+    {
+      "name": "Cursed Glaive",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    },
+    {
+      "name": "Cursed Blade",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "ARCANITE",
+    "CHAMPION",
+    "DISCIPLES OF TZEENTCH"
+  ],
+  "abilities": [
+    {
+      "name": "Vulcharc",
+      "type": "passive",
+      "effect": "While this unit includes any models accompanied by **Vulcharcs**, subtract 1 from casting rolls for enemy **^^Wizards^^** within 12\" of this unit.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Gestalt Sorcery",
+      "type": "passive",
+      "effect": "If this unit includes any models carrying a **Scroll of Dark Arts**, roll a dice. Add 1 to the roll for each other friendly **Kairic Acolytes** unit within this unit’s combat range. On a 5+, add 1 to the Rend characteristic of this unit’s **Sorcerous Bolts** for the rest of the turn.",
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "72d2-ae0-e519-f2f7"
+  }
+}

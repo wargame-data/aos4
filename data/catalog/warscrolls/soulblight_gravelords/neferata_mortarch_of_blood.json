@@ -1,0 +1,134 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.soulblight_gravelords.neferata_mortarch_of_blood",
+  "bsdataId": "ca26-c079-31bc-38a8",
+  "type": "warscroll",
+  "name": "Neferata, Mortarch of Blood",
+  "faction": "soulblight_gravelords",
+  "keywords": [
+    "death",
+    "fly",
+    "hero",
+    "monster",
+    "unique",
+    "vampire",
+    "ward (6+)",
+    "warmaster",
+    "wizard (2)",
+    "faction:soulblight_gravelords"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 14,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Aken-seth",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "2+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2
+    },
+    {
+      "name": "Akmet-har",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Hero^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Nagadron's Claws",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 3,
+      "damage": 3,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "SOULBLIGHT GRAVELORDS",
+    "VAMPIRE",
+    "WARD (6+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Nagadron’s Claws** is 3.",
+      "color": "Black"
+    },
+    {
+      "name": "The Adevore",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 5+, the target is automatically destroyed.",
+      "phase": "any",
+      "declare": "Pick an enemy **^^Hero^^** that was allocated any damage points inflicted by this unit’s **Akmet-har** this turn to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Purple",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Twilight's Allure",
+      "type": "passive",
+      "effect": "Subtract 1 from hit rolls for combat attacks that target friendly **^^Soulblight Gravelords^^** units while they are wholly within 6\" of this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "Dark Mist",
+      "type": "spell",
+      "effect": "Ignore modifiers to save rolls for the target (positive and negative) until the start of your next turn.",
+      "phase": "hero",
+      "declare": "Pick a visible friendly non-**^^Monster Soulblight Gravelords^^** unit wholly within 12\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    },
+    {
+      "name": "The Mortarch of Blood",
+      "type": "passive",
+      "effect": "Each target can use the ‘Normal Move’ ability as if it were your movement phase.",
+      "declare": "Pick up to 3 friendly **^^Deathrattle Infantry^^** or **^^Deadwalkers Infantry^^** units to be the targets.",
+      "color": "Black",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "e3a0-cfae-cbb3-0215"
+  },
+  "wizard": 2,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

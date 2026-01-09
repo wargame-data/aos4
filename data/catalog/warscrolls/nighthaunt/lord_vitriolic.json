@@ -1,0 +1,80 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.nighthaunt.lord_vitriolic",
+  "bsdataId": "202c-c298-11c5-361e",
+  "type": "warscroll",
+  "name": "Lord Vitriolic",
+  "faction": "nighthaunt",
+  "keywords": [
+    "death",
+    "fly",
+    "hero",
+    "infantry",
+    "ward (5+)",
+    "faction:nighthaunt"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Hurled Vial",
+      "type": "ranged",
+      "attacks": 1,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D6",
+      "range": "10\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    },
+    {
+      "name": "Culler's Sickle",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLY",
+    "NIGHTHAUNT",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Spectral Alchemy",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 3+, pick 1 of the following effects or roll two dice and apply both corresponding effects in an order of your choosing, including duplicate effects:\n**1 *Phantasmal Solvent:*** If the target has a Move characteristic of '-', inflict 6 mortal damage on the target.\n**2 *Acidic Fug:*** Inflict D3 mortal damage on the target.\n**3 *Fling Concoctions:** Add 1 to the Attacks characteristic of this unit's **Hurled Vial** this phase but all attacks made by this unit this phase must target that enemy unit.\n**4 *Choking Vapours:*** If the target is a **^^Wizard^^**, subtract 1 from its power level until the start of your next turn.\n**5 *Fear-laced Hallucinogen:*** If the target is a **^^Priest^^**, remove D3 ritual points from it.\n**6 *Unholy Prescription:*** Ward rolls cannot be made for the target for the rest of the turn.",
+      "phase": "shooting",
+      "declare": "Pick a visible enemy unit within 10\" of this unit to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Special"
+    }
+  ],
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

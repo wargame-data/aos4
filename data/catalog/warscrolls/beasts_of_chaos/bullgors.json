@@ -1,0 +1,80 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.beasts_of_chaos.bullgors",
+  "bsdataId": "d994-d366-3e28-c304",
+  "type": "warscroll",
+  "name": "Bullgors",
+  "faction": "beasts_of_chaos",
+  "keywords": [
+    "champion",
+    "chaos",
+    "infantry",
+    "legends",
+    "musician (1/3)",
+    "standard bearer (1/3)",
+    "warherd",
+    "faction:beasts_of_chaos"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 4,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Man-splitter Axes",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2
+    },
+    {
+      "name": "Iron-capped Horns",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "5+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 2,
+      "abilities": [
+        "Charge (+1 Damage)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEASTS OF CHAOS",
+    "CHAMPION",
+    "LEGENDS",
+    "MUSICIAN (1/3)",
+    "STANDARD BEARER (1/3)",
+    "WARHERD"
+  ],
+  "abilities": [
+    {
+      "name": "Warherd Charge",
+      "type": "passive",
+      "effect": "Roll a dice for each model in this unit. For each 2+, inflict 1 mortal damage on the target.",
+      "phase": "charge",
+      "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+      "color": "Orange",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "3cc2-31d3-9dd2-f858"
+  }
+}

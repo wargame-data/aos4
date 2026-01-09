@@ -1,0 +1,120 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.sylvaneth.drycha_hamadreth",
+  "bsdataId": "b3b6-f91d-754d-af73",
+  "type": "warscroll",
+  "name": "Drycha Hamadreth",
+  "faction": "sylvaneth",
+  "keywords": [
+    "hero",
+    "monster",
+    "order",
+    "unique",
+    "wizard (1)",
+    "faction:sylvaneth"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "9\"",
+    "health": 10,
+    "save": "3+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Flitterfuries",
+      "type": "ranged",
+      "attacks": 10,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "range": "12\"",
+      "abilities": [
+        "Shoot in Combat",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Slashing Talons",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)"
+      ]
+    },
+    {
+      "name": "Swarm of Squirmlings",
+      "type": "melee",
+      "attacks": 10,
+      "hit": "4+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "abilities": [
+        "Anti-**^^Infantry^^** (+1 Rend)",
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "SYLVANETH",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Mercurial Aspect",
+      "type": "once-per-turn",
+      "effect": "Pick 1 of the following effects to apply to this unit for the rest of the turn:\n***Enraged:*** Add 10 to the Attacks characteristic of this unit’s **Flitterfuries**.\n***Embittered:*** Add 10 to the Attacks characteristic of this unit’s **Swarm of Squirmlings**.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Song of Spite",
+      "type": "spell",
+      "effect": "The following effects apply for the rest of the turn:\nAdd 1 to hit rolls for combat attacks made by friendly **^^Sylvaneth^^** units that target that enemy unit.\nIn addition, add 1 to wound rolls for combat attacks made by friendly **Spite-Revenants** or **The Twistweald** units that target that enemy unit.",
+      "phase": "hero",
+      "declare": "Pick an enemy **^^Infantry^^** unit within 12\" of the caster to be the target, then make a casting roll of 2D6.",
+      "castingValue": 6,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Primal Terror",
+      "type": "once-per-turn",
+      "effect": "Roll a dice. On a 2+, halve the target’s control score (rounding up) for the rest of the turn.",
+      "phase": "combat",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Control"
+    }
+  ],
+  "publication": {
+    "name": "61ee-fae0-f1da-2591"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

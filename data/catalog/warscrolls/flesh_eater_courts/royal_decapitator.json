@@ -1,0 +1,69 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.flesh_eater_courts.royal_decapitator",
+  "bsdataId": "7f54-ad67-e5ae-972d",
+  "type": "warscroll",
+  "name": "Royal Decapitator",
+  "faction": "flesh_eater_courts",
+  "keywords": [
+    "death",
+    "hero",
+    "infantry",
+    "noble",
+    "ward (6+)",
+    "faction:flesh_eater_courts"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 5,
+    "save": "5+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Headsman’s Axe",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 3
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "death",
+  "regimentKeywords": [
+    "FLESH-EATER COURTS",
+    "NOBLE",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Executioner's Entourage",
+      "type": "reaction",
+      "effect": "Pick a friendly **^^Serfs^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, the target's melee weapons have **Crit (2 Hits)** for the rest of the turn.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Off With Their Head!",
+      "type": "reaction",
+      "effect": "Immediately after that **^^Fight^^** ability has been resolved, pick an enemy **^^Infantry Hero^^** in combat with this unit to be the target. Roll 2D6. If the roll exceeds the target's Health characteristic, it is automatically destroyed.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.hedonites_of_slaanesh.dexcessa_the_talon_of_slaanesh",
+  "bsdataId": "7c43-7c1e-d92c-f199",
+  "type": "warscroll",
+  "name": "Dexcessa, the Talon of Slaanesh",
+  "faction": "hedonites_of_slaanesh",
+  "keywords": [
+    "chaos",
+    "daemon",
+    "fly",
+    "hero",
+    "monster",
+    "unique",
+    "ward (5+)",
+    "warmaster",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 10,
+    "save": "5+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Impaling Talons",
+      "type": "melee",
+      "attacks": 7,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "DAEMON",
+    "FLY",
+    "HEDONITES OF SLAANESH",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Joyous Battle Fury",
+      "type": "passive",
+      "effect": "If any enemy models were slain by this unit’s combat attacks this turn, **Heal (D3)** this unit, then place a **battle fury token** next to it.\nAdd 1 to the Attacks characteristic of this unit’s **Impaling Talons** for each **battle fury token** it has until the end of the next turn.",
+      "phase": "any",
+      "color": "Purple",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Redolence of Violence",
+      "type": "once-per-turn",
+      "effect": "Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn.",
+      "phase": "combat",
+      "declare": "If this unit charged this turn, pick up to D3 other friendly non-**^^Hero Hedonites of Slaanesh Daemon^^** units wholly within 12\" of this unit to be the targets.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Fleeting Dance of Death",
+      "type": "passive",
+      "effect": "This unit can use **^^Charge^^** abilities even if it used a **^^Retreat^^** ability in the same turn. In addition, no mortal damage is inflicted on this unit by **^^Retreat^^** abilities.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Scion of Slaanesh",
+      "type": "passive",
+      "effect": "While a friendly **Synessa** is on the battlefield, subtract 1 from hit rolls for attacks that target this unit.",
+      "color": "Green",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "95fc-e96f-a916-bba1"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": true,
+  "canJoinRegiment": null
+}

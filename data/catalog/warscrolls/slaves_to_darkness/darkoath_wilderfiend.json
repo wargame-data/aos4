@@ -1,0 +1,84 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.darkoath_wilderfiend",
+  "bsdataId": "43ac-9228-ce2c-b739",
+  "type": "warscroll",
+  "name": "Darkoath Wilderfiend",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "beast",
+    "chaos",
+    "darkoath",
+    "ward (5+)",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 9,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Razor-sharp Claws",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    },
+    {
+      "name": "Flesh-tearing Maw",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 2,
+      "damage": "D3",
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BEAST",
+    "DARKOATH",
+    "SLAVES TO DARKNESS",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Feed on Flesh",
+      "type": "passive",
+      "effect": "Each time a model (friendly or enemy) is slain within 12\" of this unit, give this unit a **sacrifice point**, to a maximum of 6. If there are more than 1 friendly **Darkoath Wilderfiend** units within 12\" of the slain model, only 1 of them can be given a **sacrifice point** for that slain model.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Primal Sorcery",
+      "type": "passive",
+      "effect": "Pick 1 of the following effects:\n***Mind Shroud:*** Pick an enemy unit within 12\" of this unit to be the target and roll a number of dice equal to the number of **sacrifice points** this unit has. If any of the rolls are a 5+, the target cannot use commands for the rest of the turn.\n***Warping Balefire:*** Pick an enemy unit within 12\" of this unit to be the target and roll a number of dice equal to the number of **sacrifice points** this unit has. For each 3+, inflict 1 mortal damage on the target.\n***Dark Might: Heal (X)*** this unit, where X is the number of **sacrifice points** this unit has.\nAfter applying the effect you picked, reset this unit’s **sacrifice points** to 0.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "6357-5d77-a2b2-f86b"
+  }
+}

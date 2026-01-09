@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.covenant_of_the_iron_heart",
+  "type": "prayer",
+  "name": "Covenant of the Iron Heart",
+  "faction": "shared",
+  "lore": "prayers_of_the_khainite_cult",
+  "keywords": [
+    "prayer"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Ignore negative modifiers to the target’s control score until the start of your next turn. In addition, if the chanting roll was 8+, add 5 to the target’s control score until the start of your next turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Daughters of Khaine Priest^^** to chant this prayer, pick a visible friendly **^^Daughters of Khaine^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Control"
+}

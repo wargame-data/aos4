@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ironjawz.weirdnob_shaman",
+  "bsdataId": "e824-4e07-12f6-309c",
+  "type": "warscroll",
+  "name": "Weirdnob Shaman",
+  "faction": "ironjawz",
+  "keywords": [
+    "destruction",
+    "hero",
+    "infantry",
+    "wizard (1)",
+    "faction:ironjawz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "4\"",
+    "health": 6,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Green Puke",
+      "type": "ranged",
+      "attacks": 4,
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 0,
+      "damage": "D3",
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    },
+    {
+      "name": "Waaagh! Staff",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "IRONJAWZ",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Brutal Power",
+      "type": "passive",
+      "effect": "Add 1 to this unit’s power level while there are any friendly **^^Ironjawz^^** units that have 10 or more models wholly within 12\" of it.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "8b1b-f2c7-890e-2bbe"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.slaves_to_darkness.darkoath_savagers",
+  "bsdataId": "df89-794a-4994-8293",
+  "type": "warscroll",
+  "name": "Darkoath Savagers",
+  "faction": "slaves_to_darkness",
+  "keywords": [
+    "champion (1/10)",
+    "chaos",
+    "darkoath",
+    "infantry",
+    "faction:slaves_to_darkness"
+  ],
+  "sizes": {
+    "min": 10,
+    "default": 10,
+    "max": 10
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 1,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Darkoath Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Crit (Mortal)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "CHAMPION (1/10)",
+    "DARKOATH",
+    "SLAVES TO DARKNESS"
+  ],
+  "abilities": [
+    {
+      "name": "Oath of Conquest",
+      "type": "once-per-battle",
+      "effect": "If this unit is contesting an objective you control that is wholly within enemy territory, this unit has **^^Ward (5+)^^** for the rest of the battle.",
+      "phase": "hero",
+      "color": "Yellow",
+      "abilityCategory": "Defensive"
+    }
+  ],
+  "publication": {
+    "name": "6357-5d77-a2b2-f86b"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.seraphon.hunters_of_huanchi_with_dartpipes",
+  "bsdataId": "85bb-bb0c-b1e9-e870",
+  "type": "warscroll",
+  "name": "Hunters of Huanchi with Dartpipes",
+  "faction": "seraphon",
+  "keywords": [
+    "champion (1/5)",
+    "infantry",
+    "musician (1/5)",
+    "order",
+    "skink",
+    "ward (5+)",
+    "faction:seraphon"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "8\"",
+    "health": 1,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Feeble Claws",
+      "type": "melee",
+      "attacks": 1,
+      "hit": "4+",
+      "wound": "5+",
+      "rend": 0,
+      "damage": 1
+    },
+    {
+      "name": "Dartpipe",
+      "type": "ranged",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "range": "10\"",
+      "abilities": [
+        "Crit (Auto-wound)"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION (1/5)",
+    "MUSICIAN (1/5)",
+    "SERAPHON",
+    "SKINK",
+    "WARD (5+)"
+  ],
+  "abilities": [
+    {
+      "name": "Hidden Hunters",
+      "type": "passive",
+      "effect": "Set up this unit in reserve **in ambush**. It has now been deployed.",
+      "declare": "Pick this unit if it has not been deployed.",
+      "keywords": [
+        "**^^DEPLOY^^**"
+      ],
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Star-venom",
+      "type": "passive",
+      "effect": "Roll a dice. On a 2+, subtract 1 from wound rolls for the target’s combat attacks for the rest of the turn.",
+      "phase": "shooting",
+      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Dartpipe** to be the target.",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    },
+    {
+      "name": "Chameleon Ambush",
+      "type": "passive",
+      "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement",
+      "declare": "Pick this unit if it is **in ambush**.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "e9d0-a23-6a15-1fcb"
+  }
+}

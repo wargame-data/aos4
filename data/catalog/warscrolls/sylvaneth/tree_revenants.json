@@ -1,0 +1,66 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.sylvaneth.tree_revenants",
+  "bsdataId": "d0bc-bdf6-3a68-4aa9",
+  "type": "warscroll",
+  "name": "Tree-Revenants",
+  "faction": "sylvaneth",
+  "keywords": [
+    "champion",
+    "infantry",
+    "musician (1/5)",
+    "order",
+    "standard bearer (1/5)",
+    "faction:sylvaneth"
+  ],
+  "sizes": {
+    "min": 5,
+    "default": 5,
+    "max": 5
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "5+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Protector Glaive and Blade",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "CHAMPION",
+    "MUSICIAN (1/5)",
+    "STANDARD BEARER (1/5)",
+    "SYLVANETH"
+  ],
+  "abilities": [
+    {
+      "name": "Waypiper's Dance",
+      "type": "once-per-turn",
+      "effect": "If this unit is not in combat, remove it from the battlefield, and set it up again on the battlefield more than 9\" from all enemy units.",
+      "phase": "movement",
+      "keywords": [
+        "**^^CORE^^**"
+      ],
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "61ee-fae0-f1da-2591"
+  }
+}

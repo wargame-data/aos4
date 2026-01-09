@@ -1,0 +1,97 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.bonesplitterz.wurrgog_prophet",
+  "bsdataId": "129a-a4c6-8bd6-c612",
+  "type": "warscroll",
+  "name": "Wurrgog Prophet",
+  "faction": "bonesplitterz",
+  "keywords": [
+    "destruction",
+    "hero",
+    "infantry",
+    "legends",
+    "orruk",
+    "ward (6+)",
+    "wizard (2)",
+    "faction:bonesplitterz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Wurrgog Staff",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": "D3"
+    },
+    {
+      "name": "Deadly Green Bolts",
+      "type": "ranged",
+      "attacks": "D6",
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 1,
+      "damage": "D3",
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BONESPLITTERZ",
+    "LEGENDS",
+    "ORRUK",
+    "WARD (6+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Squiggly Curse",
+      "type": "spell",
+      "effect": "Inflict D3 mortal damage on the target. If the target is destroyed by this spell, add 1 to this unit’s power level for the rest of the battle.",
+      "phase": "hero",
+      "declare": "Pick an enemy **^^Hero^^** in combat with the caster to be the target, then make a casting roll of 2D6.",
+      "castingValue": 4,
+      "keywords": [
+        "**^^SPELL^^**",
+        "**^^UNLIMITED^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Wurrgog Mask",
+      "type": "once-per-battle",
+      "effect": "For the rest of the turn:\n• The Attacks characteristic of this unit’s *Deadly Green Bolts* is 12 instead of D6.\n• For each unmodified hit roll of 1 for a shooting attack made by this unit, inflict D3 mortal damage on this unit after the **^^Shoot^^** ability has been resolved.",
+      "phase": "shooting",
+      "color": "Blue",
+      "abilityCategory": "Shooting"
+    }
+  ],
+  "publication": {
+    "name": "06c5-6322-e810-7967"
+  },
+  "wizard": 2,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

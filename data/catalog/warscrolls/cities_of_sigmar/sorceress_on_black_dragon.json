@@ -1,0 +1,120 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.cities_of_sigmar.sorceress_on_black_dragon",
+  "bsdataId": "97d9-f0bf-ad89-37eb",
+  "type": "warscroll",
+  "name": "Sorceress on Black Dragon",
+  "faction": "cities_of_sigmar",
+  "keywords": [
+    "aelf",
+    "fly",
+    "hero",
+    "monster",
+    "order",
+    "wizard (1)",
+    "faction:cities_of_sigmar"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 14,
+    "save": "4+",
+    "control": 5
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Cruel Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3"
+    },
+    {
+      "name": "Black Dragon’s Noxious Breath",
+      "type": "ranged",
+      "attacks": "D3+3",
+      "hit": "2+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 1,
+      "range": "10\"",
+      "abilities": [
+        "Shoot in Combat",
+        "Companion"
+      ]
+    },
+    {
+      "name": "Black Dragon’s Fearsome Jaws and Claws",
+      "type": "melee",
+      "attacks": 6,
+      "hit": "4+",
+      "wound": "2+",
+      "rend": 2,
+      "damage": 2,
+      "abilities": [
+        "Companion"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "AELF",
+    "CITIES OF SIGMAR",
+    "FLY",
+    "WIZARD (1)"
+  ],
+  "abilities": [
+    {
+      "name": "Battle Damaged",
+      "type": "passive",
+      "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Black Dragon’s Fearsome Jaws and Claws** is 4.",
+      "color": "Black"
+    },
+    {
+      "name": "Command Underlings",
+      "type": "passive",
+      "effect": "Add 3\" to the Move characteristic of each target for the rest of the turn.",
+      "phase": "hero",
+      "declare": "Pick up to 3 friendly **^^Cities of Sigmar Aelf Infantry^^** units wholly within 12\" of this unit to be targets.",
+      "color": "Yellow",
+      "abilityCategory": "Movement"
+    },
+    {
+      "name": "Feed on Life Force",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any enemy models are slain by this ability, place a **dark sorcery token** next to this unit for the rest of the battle, to a maximum of 3 tokens.",
+      "phase": "any",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "keywords": [
+        "**^^RAMPAGE^^**"
+      ],
+      "color": "Purple",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Dark Sorcery",
+      "type": "passive",
+      "effect": "Add 1 to casting rolls for this unit for each **dark sorcery token** it has.",
+      "color": "Yellow",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "a746-732d-1a22-460"
+  },
+  "wizard": 1,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

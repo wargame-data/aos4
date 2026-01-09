@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "id": "prayer.shared.grasp_of_stone",
+  "type": "prayer",
+  "name": "Grasp of Stone",
+  "faction": "shared",
+  "lore": "prayer_lore_taars_grand_forgehost",
+  "keywords": [
+    "prayer",
+    "unlimited"
+  ],
+  "chantingValue": 4,
+  "timing": "Your Hero Phase",
+  "effect": "Subtract 1 from the Attacks characteristic of the target's melee weapons until the start of your next turn. If the chanting roll was 8+, the target also has **^^Strike-last^^** until the start of your next turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "declare": "Pick a friendly **^^Grand Forgehost Priest^^** to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

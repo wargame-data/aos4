@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.ogor_mawtribes.icefall_yhetees",
+  "bsdataId": "5fed-90de-715-e720",
+  "type": "warscroll",
+  "name": "Icefall Yhetees",
+  "faction": "ogor_mawtribes",
+  "keywords": [
+    "beastclaw raiders",
+    "destruction",
+    "infantry",
+    "ward (6+)",
+    "faction:ogor_mawtribes"
+  ],
+  "sizes": {
+    "min": 3,
+    "default": 3,
+    "max": 3
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 4,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Claws and Ice‑encrusted Weapons",
+      "type": "melee",
+      "attacks": 3,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "BEASTCLAW RAIDERS",
+    "OGOR MAWTRIBES",
+    "WARD (6+)"
+  ],
+  "abilities": [
+    {
+      "name": "Bounding Leaps",
+      "type": "passive",
+      "effect": "This unit can move up to 3\". It can move into combat.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "1ac6-e227-a186-12"
+  }
+}

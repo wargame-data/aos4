@@ -1,0 +1,97 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.gloomspite_gitz.skragrott_the_loonking",
+  "bsdataId": "fda8-9470-94b7-46fa",
+  "type": "warscroll",
+  "name": "Skragrott, the Loonking",
+  "faction": "gloomspite_gitz",
+  "keywords": [
+    "destruction",
+    "hero",
+    "infantry",
+    "moonclan",
+    "unique",
+    "ward (4+)",
+    "warmaster",
+    "wizard (2)",
+    "faction:gloomspite_gitz"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "5\"",
+    "health": 6,
+    "save": "6+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Da Moon Onna Stikk",
+      "type": "melee",
+      "attacks": 4,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": "D3"
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "destruction",
+  "regimentKeywords": [
+    "GLOOMSPITE GITZ",
+    "MOONCLAN",
+    "WARD (4+)",
+    "WIZARD (2)"
+  ],
+  "abilities": [
+    {
+      "name": "Fangz of da Bad Moon",
+      "type": "spell",
+      "effect": "Roll a number of dice equal to the unmodified casting roll. For each 3+, inflict 1 mortal damage on the target.",
+      "phase": "hero",
+      "declare": "Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.",
+      "castingValue": 7,
+      "keywords": [
+        "**^^SPELL^^**"
+      ],
+      "color": "Yellow",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "The Loonking's Entreaty",
+      "type": "reaction",
+      "effect": "The face of the Bad Moon stays in its current position this battle round instead of moving to the next face in the sequence.",
+      "color": "Black",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Babbling Wand",
+      "type": "passive",
+      "effect": "Each time a friendly **^^Moonclan^^** unit wholly within 12\" of this unit uses the ‘Redeploy’ command, no command points are spent.",
+      "color": "Gray",
+      "abilityCategory": "Movement"
+    }
+  ],
+  "publication": {
+    "name": "a395-7bc4-71eb-46df"
+  },
+  "wizard": 2,
+  "priest": null,
+  "unique": true,
+  "regimentAllows": [
+    {
+      "keywords": [
+        "MOONCLAN"
+      ],
+      "description": "Units with MOONCLAN keyword"
+    }
+  ],
+  "canJoinRegiment": null
+}

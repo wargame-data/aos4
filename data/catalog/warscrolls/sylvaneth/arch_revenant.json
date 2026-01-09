@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.sylvaneth.arch_revenant",
+  "bsdataId": "c21d-479c-e8ef-b406",
+  "type": "warscroll",
+  "name": "Arch-Revenant",
+  "faction": "sylvaneth",
+  "keywords": [
+    "fly",
+    "hero",
+    "infantry",
+    "order",
+    "faction:sylvaneth"
+  ],
+  "sizes": {
+    "min": 1,
+    "default": 1,
+    "max": 1
+  },
+  "stats": {
+    "move": "12\"",
+    "health": 6,
+    "save": "4+",
+    "control": 2
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Revenant’s Glaive and Tail Pincers",
+      "type": "melee",
+      "attacks": 5,
+      "hit": "3+",
+      "wound": "4+",
+      "rend": 1,
+      "damage": 2
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "order",
+  "regimentKeywords": [
+    "FLY",
+    "SYLVANETH"
+  ],
+  "abilities": [
+    {
+      "name": "Crescent Shield",
+      "type": "passive",
+      "effect": "Pick 1 of the following effects to apply to this unit for the rest of the turn:\n***Defensive Stance:*** This unit has **^^Ward (4+)^^**.\n***Aggressive Stance:*** Add 1 to the Attacks characteristic of this unit’s melee weapons, and add 1 to wound rolls for this unit’s combat attacks.",
+      "phase": "combat",
+      "color": "Red",
+      "abilityCategory": "Special"
+    },
+    {
+      "name": "Champion of Kurnoth",
+      "type": "passive",
+      "effect": "Add 1 to wound rolls for combat attacks made by friendly **^^Kurnothi^^** units while they are wholly within 12\" of this unit.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    }
+  ],
+  "publication": {
+    "name": "61ee-fae0-f1da-2591"
+  },
+  "wizard": null,
+  "priest": null,
+  "unique": false,
+  "canJoinRegiment": null
+}

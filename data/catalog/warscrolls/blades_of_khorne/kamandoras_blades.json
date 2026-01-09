@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "id": "warscroll.blades_of_khorne.kamandoras_blades",
+  "bsdataId": "44b3-c646-68ef-8dad",
+  "type": "warscroll",
+  "name": "Kamandora's Blades",
+  "faction": "blades_of_khorne",
+  "keywords": [
+    "bloodbound",
+    "champion",
+    "chaos",
+    "infantry",
+    "legends",
+    "unique",
+    "faction:blades_of_khorne"
+  ],
+  "sizes": {
+    "min": 4,
+    "default": 4,
+    "max": 1
+  },
+  "stats": {
+    "move": "6\"",
+    "health": 2,
+    "save": "6+",
+    "control": 1
+  },
+  "role": "other",
+  "weapons": [
+    {
+      "name": "Bloodied Weapons",
+      "type": "melee",
+      "attacks": 2,
+      "hit": "4+",
+      "wound": "3+",
+      "rend": 0,
+      "damage": 1,
+      "abilities": [
+        "Blood-hungry"
+      ]
+    }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "grandAlliance": "chaos",
+  "regimentKeywords": [
+    "BLADES OF KHORNE",
+    "BLOODBOUND",
+    "CHAMPION",
+    "LEGENDS"
+  ],
+  "abilities": [
+    {
+      "name": "Khornate Hound",
+      "type": "passive",
+      "effect": "This unit’s **Kannat** is a token. Each time you declare a **^^Fight^^** ability for this unit while its **Kannat** is on the battlefield, as a reaction, you can remove its **Kannat** from the battlefield and then add 1 to the Rend characteristic of this unit’s **Bloodied Weapons** for the rest of the phase.",
+      "color": "Red",
+      "abilityCategory": "Offensive"
+    },
+    {
+      "name": "Gather the Skulls",
+      "type": "once-per-turn",
+      "effect": "Roll a D3. If the roll exceeds the target’s Health characteristic, 1 model in the target unit is slain and you earn 1 blood tithe point.",
+      "phase": "any",
+      "declare": "Pick an enemy unit in combat with this unit to be the target.",
+      "color": "Purple",
+      "abilityCategory": "Special"
+    }
+  ],
+  "publication": {
+    "name": "9dee-a6b2-4b42-bfee"
+  }
+}
