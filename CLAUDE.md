@@ -66,6 +66,10 @@ BSData XML (`*.cat`, `*.gst`) → Parser → JSON files in `data/` → Validated
 - `output/writer.ts` - Write JSON files to disk with proper structure
 - `github/clone.ts` - Clone/update BSData from GitHub
 
+### Parsing Principles
+- **Use `Age of Sigmar.gst` as the reference** for profile types, cost types, and other shared definitions. This game system file defines what things are (e.g., profile type IDs for spells vs prayers).
+- **Never guess based on names.** All information should come from the XML structure or referenced IDs. Use catalogue IDs, entry links, and conditions to determine relationships (e.g., which faction a lore belongs to).
+
 ### Schema System
 Schemas are defined in Zod (`tools/schemas/schemas/*.schema.ts`) and exported from `tools/schemas/index.ts`. Running `npm run schema:build` generates JSON Schema files in `schema/`.
 
