@@ -11,7 +11,7 @@ import type {
   BSProfile,
 } from "../xml/types.js";
 import { BaseMapper, type MapperOptions } from "./base.js";
-import { detectFactionFromKeywords, NEW_SCHEMA_URLS } from "../config.js";
+import { detectFactionFromKeywords, SCHEMA_URLS } from "../config.js";
 import { findCharacteristic } from "../xml/reader.js";
 import {
   findProfilesRecursive,
@@ -115,7 +115,7 @@ export class WarscrollMapper extends BaseMapper<WarscrollMapperInput, Warscroll>
 
     // Build warscroll
     const warscroll: Warscroll = {
-      $schema: NEW_SCHEMA_URLS.warscroll,
+      $schema: SCHEMA_URLS.warscroll,
       id: toQualifiedId("warscroll", detectedFaction, entry.$.name),
       bsdataId: entry.$.id, // Original BSData ID for cross-referencing
       type: "warscroll",

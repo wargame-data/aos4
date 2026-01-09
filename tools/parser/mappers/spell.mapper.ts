@@ -16,7 +16,7 @@ import { BaseMapper, type MapperOptions } from "./base.js";
 import { findCharacteristic, findAttribute } from "../xml/reader.js";
 import { findLoreGroups, findUniversalManifestationLores } from "../xml/traverser.js";
 import { toUnderscoreId, toQualifiedId } from "../transformers/id.js";
-import { NEW_SCHEMA_URLS } from "../config.js";
+import { SCHEMA_URLS } from "../config.js";
 import type { Spell, Prayer } from "../../schemas/schemas/spell.schema.js";
 import type { AbilityColor, AbilityCategory } from "./ability.mapper.js";
 
@@ -70,7 +70,7 @@ export class IndividualSpellMapper extends BaseMapper<SpellMapperInput, Spell> {
     const castingValue = castingValueStr ? parseInt(castingValueStr, 10) : 5;
 
     const spell: Spell = {
-      $schema: NEW_SCHEMA_URLS.spell,
+      $schema: SCHEMA_URLS.spell,
       id: toQualifiedId("spell", factionId, profile.$.name),
       type: "spell",
       name: profile.$.name,
@@ -173,7 +173,7 @@ export class IndividualPrayerMapper extends BaseMapper<PrayerMapperInput, Prayer
     const chantingValue = chantingValueStr ? parseInt(chantingValueStr, 10) : 4;
 
     const prayer: Prayer = {
-      $schema: NEW_SCHEMA_URLS.prayer,
+      $schema: SCHEMA_URLS.prayer,
       id: toQualifiedId("prayer", factionId, profile.$.name),
       type: "prayer",
       name: profile.$.name,

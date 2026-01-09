@@ -5,7 +5,7 @@
  */
 
 import type { PointsPack } from "../../schemas/schemas/points-pack.schema.js";
-import { NEW_SCHEMA_URLS } from "../config.js";
+import { SCHEMA_URLS } from "../config.js";
 
 /**
  * Points pack builder for accumulating points from multiple sources
@@ -75,7 +75,7 @@ export class PointsPackBuilder {
     }
 
     return {
-      $schema: NEW_SCHEMA_URLS.pointsPack,
+      $schema: SCHEMA_URLS.pointsPack,
       id: this.packId,
       name: this.name,
       effectiveFrom: this.effectiveFrom,
