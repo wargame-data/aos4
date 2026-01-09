@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.cities_of_sigmar.tahlia_vedra_lioness_of_the_parch",
   "bsdataId": "16c9-ff28-9e7d-8702",
   "type": "warscroll",

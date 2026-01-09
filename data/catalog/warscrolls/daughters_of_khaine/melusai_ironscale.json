@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.daughters_of_khaine.melusai_ironscale",
   "bsdataId": "e2f5-8245-8313-43b2",
   "type": "warscroll",

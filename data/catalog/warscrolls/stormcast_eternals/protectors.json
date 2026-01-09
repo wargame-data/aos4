@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.protectors",
   "bsdataId": "3b76-254c-2c33-327d",
   "type": "warscroll",

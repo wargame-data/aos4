@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.cypher_lords",
   "bsdataId": "5a21-301b-7e70-62fd",
   "type": "warscroll",

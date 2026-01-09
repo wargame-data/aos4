@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.lord_skreech_verminking",
   "bsdataId": "873-d49d-6d01-4397",
   "type": "warscroll",

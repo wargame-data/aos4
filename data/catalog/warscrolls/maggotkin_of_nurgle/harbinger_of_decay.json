@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.maggotkin_of_nurgle.harbinger_of_decay",
   "bsdataId": "c473-7f30-9a81-12d4",
   "type": "warscroll",

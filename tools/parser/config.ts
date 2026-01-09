@@ -137,22 +137,22 @@ export const DEFAULT_CACHE_EXPIRY_HOURS = 24;
 
 // Schema URLs (legacy)
 export const SCHEMA_URLS = {
-  unit: "https://aos-data.org/schema/unit.schema.json",
-  hero: "https://aos-data.org/schema/hero.schema.json",
-  weapon: "https://aos-data.org/schema/weapon.schema.json",
-  ability: "https://aos-data.org/schema/ability.schema.json",
-  faction: "https://aos-data.org/schema/faction.schema.json",
-  battleFormation: "https://aos-data.org/schema/battle-formation.schema.json",
-  lore: "https://aos-data.org/schema/lore.schema.json",
+  unit: "https://wargamedata.com/aos4/schema/unit.schema.json",
+  hero: "https://wargamedata.com/aos4/schema/hero.schema.json",
+  weapon: "https://wargamedata.com/aos4/schema/weapon.schema.json",
+  ability: "https://wargamedata.com/aos4/schema/ability.schema.json",
+  faction: "https://wargamedata.com/aos4/schema/faction.schema.json",
+  battleFormation: "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
+  lore: "https://wargamedata.com/aos4/schema/lore.schema.json",
 };
 
 // New schema URLs
 export const NEW_SCHEMA_URLS = {
-  warscroll: "https://aos-data.org/schema/warscroll.schema.json",
-  spell: "https://aos-data.org/schema/spell.schema.json",
-  prayer: "https://aos-data.org/schema/prayer.schema.json",
-  pointsPack: "https://aos-data.org/schema/points-pack.schema.json",
-  faction: "https://aos-data.org/schema/faction.schema.json",
+  warscroll: "https://wargamedata.com/aos4/schema/warscroll.schema.json",
+  spell: "https://wargamedata.com/aos4/schema/spell.schema.json",
+  prayer: "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  pointsPack: "https://wargamedata.com/aos4/schema/points-pack.schema.json",
+  faction: "https://wargamedata.com/aos4/schema/faction.schema.json",
 };
 
 // Universal manifestation lores (available to all factions)

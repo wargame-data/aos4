@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.grey_seer_on_screaming_bell",
   "bsdataId": "dc6a-710a-58a4-3c7b",
   "type": "warscroll",

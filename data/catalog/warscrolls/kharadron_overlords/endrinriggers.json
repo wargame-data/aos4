@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kharadron_overlords.endrinriggers",
   "bsdataId": "4c3c-1a00-2c49-87ce",
   "type": "warscroll",

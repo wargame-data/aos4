@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.flesh_eater_courts.royal_beastflayers",
   "bsdataId": "a8f1-a33f-35de-8e08",
   "type": "warscroll",

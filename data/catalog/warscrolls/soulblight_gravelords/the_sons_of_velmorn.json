@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.soulblight_gravelords.the_sons_of_velmorn",
   "bsdataId": "061f-62b5-05f0-d8cd",
   "type": "warscroll",

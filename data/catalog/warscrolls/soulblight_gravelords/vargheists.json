@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.soulblight_gravelords.vargheists",
   "bsdataId": "1b5e-5f83-6c7a-e0cd",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.soulblight_gravelords.mortis_engine",
   "bsdataId": "426b-39ed-c88c-13f",
   "type": "warscroll",

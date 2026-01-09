@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kharadron_overlords.vongrim_salvagers",
   "bsdataId": "54b0-7eb3-f2dc-f7b9",
   "type": "warscroll",

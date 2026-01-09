@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.lord_exorcist",
   "bsdataId": "6f35-d6c8-c31b-0406",
   "type": "warscroll",

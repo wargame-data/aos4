@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.nighthaunt.lord_executioner",
   "bsdataId": "8bd-370e-5881-48fb",
   "type": "warscroll",

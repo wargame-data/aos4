@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
   "id": "spell.shared.prison_of_grief",
   "type": "spell",
   "name": "Prison of Grief",

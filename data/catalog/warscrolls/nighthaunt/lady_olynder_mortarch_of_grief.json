@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.nighthaunt.lady_olynder_mortarch_of_grief",
   "bsdataId": "ee75-82ec-9c18-397b",
   "type": "warscroll",

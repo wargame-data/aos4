@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.idoneth_deepkin.eidolon_of_mathlann_aspect_of_the_sea",
   "bsdataId": "9ca1-3e30-fb7-44c0",
   "type": "warscroll",

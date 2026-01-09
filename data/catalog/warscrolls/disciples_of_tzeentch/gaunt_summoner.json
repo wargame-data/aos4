@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.disciples_of_tzeentch.gaunt_summoner",
   "bsdataId": "eae6-5b5d-5057-d94b",
   "type": "warscroll",

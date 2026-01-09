@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.seraphon.skink_starpriest",
   "bsdataId": "abb5-c657-a20e-6e47",
   "type": "warscroll",

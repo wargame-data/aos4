@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.flesh_eater_courts.charnel_throne",
   "bsdataId": "766f-2e05-b46a-4aa",
   "type": "warscroll",

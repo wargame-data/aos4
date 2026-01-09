@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.soulblight_gravelords.vyrkos_blood_born",
   "bsdataId": "4987-23b7-4b68-330a",
   "type": "warscroll",

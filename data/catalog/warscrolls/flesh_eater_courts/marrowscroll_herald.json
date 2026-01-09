@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.flesh_eater_courts.marrowscroll_herald",
   "bsdataId": "c9ce-303a-ccbb-65de",
   "type": "warscroll",

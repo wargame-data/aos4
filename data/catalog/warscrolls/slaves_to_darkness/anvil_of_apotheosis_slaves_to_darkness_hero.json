@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.anvil_of_apotheosis_slaves_to_darkness_hero",
   "bsdataId": "0ed5-d41f-e776-045e",
   "type": "warscroll",

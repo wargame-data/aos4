@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.soulblight_gravelords.blood_knights",
   "bsdataId": "3661-54d6-e953-19e0",
   "type": "warscroll",

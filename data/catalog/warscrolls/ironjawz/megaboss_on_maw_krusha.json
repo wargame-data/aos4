@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ironjawz.megaboss_on_maw_krusha",
   "bsdataId": "8400-417c-251b-860a",
   "type": "warscroll",

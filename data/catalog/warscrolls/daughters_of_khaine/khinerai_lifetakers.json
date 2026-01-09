@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.daughters_of_khaine.khinerai_lifetakers",
   "bsdataId": "2194-f219-8c36-54d2",
   "type": "warscroll",

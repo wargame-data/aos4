@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.sons_of_behemat.mancrusher_mob",
   "bsdataId": "a0c1-1a99-2cf9-85f9",
   "type": "warscroll",

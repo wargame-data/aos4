@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.fyreslayers.auric_runeson_on_magmadroth",
   "bsdataId": "de0d-34a7-ac61-53de",
   "type": "warscroll",

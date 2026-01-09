@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.lumineth_realm_lords.the_light_of_eltharion",
   "bsdataId": "d19-ee8b-af86-b163",
   "type": "warscroll",

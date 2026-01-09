@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.bonesplitterz.savage_boarboys",
   "bsdataId": "1905-bd6d-f4bc-c40b",
   "type": "warscroll",

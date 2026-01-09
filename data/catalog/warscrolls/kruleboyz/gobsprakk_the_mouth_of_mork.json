@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kruleboyz.gobsprakk_the_mouth_of_mork",
   "bsdataId": "98a8-f41c-6668-fed1",
   "type": "warscroll",

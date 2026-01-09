@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.darkoath_savagers",
   "bsdataId": "df89-794a-4994-8293",
   "type": "warscroll",

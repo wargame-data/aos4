@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.flesh_eater_courts.varghulf_courtier",
   "bsdataId": "9840-3911-50d4-532d",
   "type": "warscroll",

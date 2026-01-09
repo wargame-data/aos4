@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.maggotkin_of_nurgle.spoilpox_scrivener_herald_of_nurgle",
   "bsdataId": "d44-acf2-9394-f93",
   "type": "warscroll",

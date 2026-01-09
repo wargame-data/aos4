@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.maggotkin_of_nurgle.sloppity_bilepiper_herald_of_nurgle",
   "bsdataId": "29d8-9408-2148-b2c9",
   "type": "warscroll",

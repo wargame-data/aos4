@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/hero.schema.json",
   "id": "crypt-ghast-courtier",
   "name": "Crypt Ghast Courtier",
   "faction": "flesh-eater-courts",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.soulblight_gravelords.bloodseeker_palanquin",
   "bsdataId": "c84b-c9e9-4aa2-abeb",
   "type": "warscroll",

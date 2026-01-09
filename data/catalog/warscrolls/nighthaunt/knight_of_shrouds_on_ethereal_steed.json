@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.nighthaunt.knight_of_shrouds_on_ethereal_steed",
   "bsdataId": "72d-cbfa-2680-9e66",
   "type": "warscroll",

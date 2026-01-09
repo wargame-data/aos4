@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.disciples_of_tzeentch.burning_chariot_of_tzeentch",
   "bsdataId": "6521-3929-9006-d830",
   "type": "warscroll",

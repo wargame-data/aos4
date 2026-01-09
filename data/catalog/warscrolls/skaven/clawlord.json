@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.clawlord",
   "bsdataId": "966e-f5f4-99e0-58cf",
   "type": "warscroll",

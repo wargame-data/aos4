@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.seraphon.hunters_of_huanchi_with_starstone_bolas",
   "bsdataId": "aeda-8cda-b49c-c295",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ironjawz.gore_gruntas",
   "bsdataId": "f4bd-9f1c-cc46-5b5e",
   "type": "warscroll",

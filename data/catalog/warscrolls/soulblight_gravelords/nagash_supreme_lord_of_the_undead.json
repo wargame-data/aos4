@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.soulblight_gravelords.nagash_supreme_lord_of_the_undead",
   "bsdataId": "1823-b6fb-a27f-a7ee",
   "type": "warscroll",

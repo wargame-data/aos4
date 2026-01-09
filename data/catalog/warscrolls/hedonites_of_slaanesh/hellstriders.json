@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.hedonites_of_slaanesh.hellstriders",
   "bsdataId": "7fbf-a41a-7e29-8476",
   "type": "warscroll",

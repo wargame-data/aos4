@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.hedonites_of_slaanesh.slickblade_seekers",
   "bsdataId": "395d-b625-25a4-4ca2",
   "type": "warscroll",

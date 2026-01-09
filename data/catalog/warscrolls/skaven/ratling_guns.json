@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.ratling_guns",
   "bsdataId": "536f-8a32-f991-c47a",
   "type": "warscroll",

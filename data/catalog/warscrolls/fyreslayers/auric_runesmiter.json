@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.fyreslayers.auric_runesmiter",
   "bsdataId": "7b03-4613-6b5b-a9ce",
   "type": "warscroll",

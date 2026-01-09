@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/regiment-of-renown.schema.json",
   "id": "scions-of-the-necropolis",
   "name": "Scions of the Necropolis",
   "points": 770,

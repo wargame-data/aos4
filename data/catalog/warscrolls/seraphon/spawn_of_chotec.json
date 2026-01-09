@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.seraphon.spawn_of_chotec",
   "bsdataId": "f663-5cfc-1f0e-690b",
   "type": "warscroll",

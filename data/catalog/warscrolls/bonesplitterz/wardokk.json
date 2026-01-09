@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.bonesplitterz.wardokk",
   "bsdataId": "c5c4-a443-f0e4-c69e",
   "type": "warscroll",

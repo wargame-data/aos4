@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.disciples_of_tzeentch.fluxmaster_herald_of_tzeentch_on_disc",
   "bsdataId": "6cc5-f54c-2ca6-78cf",
   "type": "warscroll",

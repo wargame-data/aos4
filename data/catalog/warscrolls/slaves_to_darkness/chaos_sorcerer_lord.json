@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.chaos_sorcerer_lord",
   "bsdataId": "eb21-eb7e-ebce-aafe",
   "type": "warscroll",

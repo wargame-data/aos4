@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/regiment-of-renown.schema.json",
   "id": "seeker-of-the-dread-dirge",
   "name": "Seeker of the Dread Dirge",
   "points": 260,

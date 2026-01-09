@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.darkoath_chieftain_on_warsteed",
   "bsdataId": "6bde-370e-478d-cf24",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.gloomspite_gitz.loonsmasha_fanatics",
   "bsdataId": "1ca-65e-4f4a-ffb7",
   "type": "warscroll",

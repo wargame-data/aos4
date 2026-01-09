@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.cities_of_sigmar.black_guard",
   "bsdataId": "4041-4683-8028-c73a",
   "type": "warscroll",

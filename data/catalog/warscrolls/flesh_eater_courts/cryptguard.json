@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.flesh_eater_courts.cryptguard",
   "bsdataId": "3ca4-c35b-27c9-63c4",
   "type": "warscroll",

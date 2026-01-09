@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.seraphon.raptadon_hunters",
   "bsdataId": "dde-6a11-e8d6-ed5",
   "type": "warscroll",

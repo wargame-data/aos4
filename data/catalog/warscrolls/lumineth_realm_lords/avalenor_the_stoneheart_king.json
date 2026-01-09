@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.lumineth_realm_lords.avalenor_the_stoneheart_king",
   "bsdataId": "f6dc-5ecd-a783-3fa4",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.the_emberwatch",
   "bsdataId": "f4d2-3807-a8d3-4c83",
   "type": "warscroll",

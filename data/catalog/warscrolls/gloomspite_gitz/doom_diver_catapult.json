@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.gloomspite_gitz.doom_diver_catapult",
   "bsdataId": "75f7-3cbc-97f2-2ecf",
   "type": "warscroll",

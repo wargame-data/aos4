@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.seraphon.hunters_of_huanchi_with_dartpipes",
   "bsdataId": "85bb-bb0c-b1e9-e870",
   "type": "warscroll",

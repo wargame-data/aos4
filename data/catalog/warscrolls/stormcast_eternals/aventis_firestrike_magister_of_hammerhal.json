@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.aventis_firestrike_magister_of_hammerhal",
   "bsdataId": "a169-16d2-44ab-4c13",
   "type": "warscroll",

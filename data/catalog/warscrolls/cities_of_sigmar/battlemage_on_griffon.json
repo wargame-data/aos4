@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.cities_of_sigmar.battlemage_on_griffon",
   "bsdataId": "d11e-a9e7-b74b-2643",
   "type": "warscroll",

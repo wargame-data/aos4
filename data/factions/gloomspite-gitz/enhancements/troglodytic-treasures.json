@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/enhancement.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
   "id": "troglodytic-treasures",
   "name": "Troglodytic Treasures",
   "faction": "gloomspite-gitz",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.lumineth_realm_lords.sevireth_lord_of_the_seventh_wind",
   "bsdataId": "880-ddff-1e6d-916f",
   "type": "warscroll",

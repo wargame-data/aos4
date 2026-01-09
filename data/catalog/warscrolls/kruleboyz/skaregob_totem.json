@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kruleboyz.skaregob_totem",
   "bsdataId": "8346-0ba5-9740-dc49",
   "type": "warscroll",

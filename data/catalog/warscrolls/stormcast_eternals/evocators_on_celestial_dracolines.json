@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.evocators_on_celestial_dracolines",
   "bsdataId": "b47e-39f4-710b-042a",
   "type": "warscroll",

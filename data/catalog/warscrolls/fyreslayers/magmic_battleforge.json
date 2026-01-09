@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.fyreslayers.magmic_battleforge",
   "bsdataId": "d4be-ace4-55bc-ea7c",
   "type": "warscroll",

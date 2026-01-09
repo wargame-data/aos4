@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
   "id": "spell.shared.summon_ravenak_s_gnashing_jaws",
   "type": "spell",
   "name": "Summon Ravenak’s Gnashing Jaws",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.hedonites_of_slaanesh.bladebringer_herald_on_seeker_chariot",
   "bsdataId": "1ad6-bbe6-59c2-0716",
   "type": "warscroll",

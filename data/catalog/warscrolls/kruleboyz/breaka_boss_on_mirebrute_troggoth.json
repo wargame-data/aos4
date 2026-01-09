@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kruleboyz.breaka_boss_on_mirebrute_troggoth",
   "bsdataId": "5616-42d8-b4aa-2e4",
   "type": "warscroll",

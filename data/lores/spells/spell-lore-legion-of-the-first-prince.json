@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/lore.schema.json",
   "id": "spell-lore-legion-of-the-first-prince",
   "name": "Spell Lore: Legion of the First Prince",
   "loreType": "spell",

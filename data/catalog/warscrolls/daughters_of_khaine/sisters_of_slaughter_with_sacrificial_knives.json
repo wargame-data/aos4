@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.daughters_of_khaine.sisters_of_slaughter_with_sacrificial_knives",
   "bsdataId": "ed8c-17dd-ae0f-fa69",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.gloomspite_gitz.madcap_shaman",
   "bsdataId": "11a4-4608-799e-1ec7",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.maggotkin_of_nurgle.putrid_blightkings",
   "bsdataId": "9951-ae95-5386-f8cf",
   "type": "warscroll",

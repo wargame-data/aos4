@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.soulblight_gravelords.blades_of_the_hollow_king",
   "bsdataId": "1ec0-40be-254d-d7a2",
   "type": "warscroll",

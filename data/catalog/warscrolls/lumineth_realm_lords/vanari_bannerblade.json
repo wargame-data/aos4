@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.lumineth_realm_lords.vanari_bannerblade",
   "bsdataId": "2df7-ab5b-fecc-341b",
   "type": "warscroll",

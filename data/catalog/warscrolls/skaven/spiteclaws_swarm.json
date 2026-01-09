@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.spiteclaws_swarm",
   "bsdataId": "6459-a4be-e73f-7222",
   "type": "warscroll",

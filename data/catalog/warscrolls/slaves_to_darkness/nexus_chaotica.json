@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.nexus_chaotica",
   "bsdataId": "22a9-a618-90cf-5bc7",
   "type": "warscroll",

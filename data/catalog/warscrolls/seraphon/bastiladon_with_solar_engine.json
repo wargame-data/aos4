@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.seraphon.bastiladon_with_solar_engine",
   "bsdataId": "4fee-26df-ea45-a2d6",
   "type": "warscroll",

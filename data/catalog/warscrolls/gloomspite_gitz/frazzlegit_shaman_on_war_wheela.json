@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.gloomspite_gitz.frazzlegit_shaman_on_war_wheela",
   "bsdataId": "d355-23bf-8a9d-d3e6",
   "type": "warscroll",

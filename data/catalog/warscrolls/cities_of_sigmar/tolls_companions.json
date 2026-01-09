@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.cities_of_sigmar.tolls_companions",
   "bsdataId": "b41d-d073-1ba9-1728",
   "type": "warscroll",

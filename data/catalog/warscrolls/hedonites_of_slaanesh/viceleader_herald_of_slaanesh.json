@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.hedonites_of_slaanesh.viceleader_herald_of_slaanesh",
   "bsdataId": "5886-d643-7104-b3be",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/regiment-of-renown.schema.json",
   "id": "the-liches-hand",
   "name": "The Liche's Hand",
   "points": 790,

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.stormfiends",
   "bsdataId": "64f5-f28b-5aa9-4e18",
   "type": "warscroll",

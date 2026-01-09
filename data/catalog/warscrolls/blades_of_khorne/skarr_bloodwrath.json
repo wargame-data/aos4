@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.blades_of_khorne.skarr_bloodwrath",
   "bsdataId": "79a6-3d8a-8302-cc13",
   "type": "warscroll",

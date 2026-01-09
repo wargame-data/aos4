@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.blades_of_khorne.skullmaster_herald_of_khorne",
   "bsdataId": "383d-692c-7457-a03c",
   "type": "warscroll",

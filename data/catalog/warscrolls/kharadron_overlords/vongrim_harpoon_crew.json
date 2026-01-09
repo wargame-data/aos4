@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kharadron_overlords.vongrim_harpoon_crew",
   "bsdataId": "b38b-f2bc-47a8-658e",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.celestant_prime_hammer_of_sigmar",
   "bsdataId": "ed87-8b4f-7c45-42a5",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.seraphon.skink_starseer",
   "bsdataId": "cde3-25dc-fe17-858c",
   "type": "warscroll",

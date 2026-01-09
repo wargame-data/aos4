@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kharadron_overlords.brokk_grungsson_lord_magnate_of_barak_nar",
   "bsdataId": "e071-391c-e920-ac59",
   "type": "warscroll",

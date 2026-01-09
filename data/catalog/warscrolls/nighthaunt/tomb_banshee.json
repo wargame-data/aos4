@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.nighthaunt.tomb_banshee",
   "bsdataId": "c35d-289f-9b39-a9aa",
   "type": "warscroll",

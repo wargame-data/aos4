@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.flesh_eater_courts.grand_justice_gormayne",
   "bsdataId": "52f6-b3c0-7891-bb69",
   "type": "warscroll",

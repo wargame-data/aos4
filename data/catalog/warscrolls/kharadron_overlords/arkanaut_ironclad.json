@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kharadron_overlords.arkanaut_ironclad",
   "bsdataId": "2b23-328b-3916-4947",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.beasts_of_chaos.razorgor",
   "bsdataId": "5efa-c95d-80d7-bec9",
   "type": "warscroll",

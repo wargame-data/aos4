@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.scions_of_the_flame",
   "bsdataId": "cc95-e171-14b9-002f",
   "type": "warscroll",

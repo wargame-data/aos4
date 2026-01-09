@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.sons_of_behemat.kragnos_the_end_of_empires",
   "bsdataId": "7c7-7226-5b84-b87c",
   "type": "warscroll",

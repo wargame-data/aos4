@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.soulblight_gravelords.wight_lord_on_skeletal_steed",
   "bsdataId": "ce3f-1647-a605-05c9",
   "type": "warscroll",

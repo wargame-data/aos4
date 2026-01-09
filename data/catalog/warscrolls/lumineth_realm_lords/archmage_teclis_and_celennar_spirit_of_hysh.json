@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.lumineth_realm_lords.archmage_teclis_and_celennar_spirit_of_hysh",
   "bsdataId": "c336-da82-9495-8766",
   "type": "warscroll",

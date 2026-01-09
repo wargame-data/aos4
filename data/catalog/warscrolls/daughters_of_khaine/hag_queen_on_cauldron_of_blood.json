@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.daughters_of_khaine.hag_queen_on_cauldron_of_blood",
   "bsdataId": "ab31-ab88-aa20-70d4",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.fyreslayers.doomseeker",
   "bsdataId": "2a37-8d73-b1ba-576d",
   "type": "warscroll",

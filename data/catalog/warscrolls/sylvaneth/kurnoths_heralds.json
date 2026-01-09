@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.sylvaneth.kurnoths_heralds",
   "bsdataId": "5c29-c1ee-6dd4-a32b",
   "type": "warscroll",

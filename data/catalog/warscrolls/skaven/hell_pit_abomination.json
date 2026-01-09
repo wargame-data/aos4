@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.hell_pit_abomination",
   "bsdataId": "375a-e09f-9459-5237",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ossiarch_bonereapers.vokmortian_master_of_the_bone_tithe",
   "bsdataId": "f92d-b53f-1f6f-1646",
   "type": "warscroll",

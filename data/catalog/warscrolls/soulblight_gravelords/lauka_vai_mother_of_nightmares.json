@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.soulblight_gravelords.lauka_vai_mother_of_nightmares",
   "bsdataId": "33c3-992f-3564-9407",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ossiarch_bonereapers.immortis_guard",
   "bsdataId": "c1b9-f148-7fe4-8660",
   "type": "warscroll",

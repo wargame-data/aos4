@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.idoneth_deepkin.isharann_soulscryer",
   "bsdataId": "1296-cd3a-b6fc-f28f",
   "type": "warscroll",

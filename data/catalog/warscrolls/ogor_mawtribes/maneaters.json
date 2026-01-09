@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ogor_mawtribes.maneaters",
   "bsdataId": "f4ef-9156-1fd1-4b91",
   "type": "warscroll",

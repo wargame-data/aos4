@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/lore.schema.json",
   "id": "prayer-lore-the-equinox-feast",
   "name": "Prayer Lore: The Equinox Feast",
   "loreType": "spell",

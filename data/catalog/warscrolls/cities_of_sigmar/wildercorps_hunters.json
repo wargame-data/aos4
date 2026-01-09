@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.cities_of_sigmar.wildercorps_hunters",
   "bsdataId": "f9e7-7b02-8660-65f7",
   "type": "warscroll",

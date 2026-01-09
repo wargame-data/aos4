@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.nighthaunt.reikenor_the_grimhailer",
   "bsdataId": "ea83-60f1-bd67-d25",
   "type": "warscroll",

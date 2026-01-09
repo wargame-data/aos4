@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.fyreslayers.vulkyn_flameseekers",
   "bsdataId": "f6d4-e62b-c0a9-ba01",
   "type": "warscroll",

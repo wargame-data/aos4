@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.blades_of_khorne.wrath_of_khorne_bloodthirster",
   "bsdataId": "3759-4ff4-40bf-6f48",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.flesh_eater_courts.crypt_infernal_courtier",
   "bsdataId": "40ae-fea8-d025-4a21",
   "type": "warscroll",

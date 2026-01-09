@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.blades_of_khorne.bloodstoker",
   "bsdataId": "bed-461e-b0ef-6bc3",
   "type": "warscroll",

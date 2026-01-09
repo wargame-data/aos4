@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.krondys_son_of_dracothion",
   "bsdataId": "9c0f-13c7-e2c1-55a",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.daughters_of_khaine.avatar_of_khaine",
   "bsdataId": "b4e1-75b3-227b-1a8d",
   "type": "warscroll",

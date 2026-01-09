@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.disciples_of_tzeentch.tzaangor_skyfires",
   "bsdataId": "ce98-8983-52d0-52a8",
   "type": "warscroll",

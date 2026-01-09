@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.seraphon.terradon_riders",
   "bsdataId": "66ed-4817-f929-7c3e",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kruleboyz.swampcalla_shaman_with_pot_grot",
   "bsdataId": "5f19-cef-ee2-f796",
   "type": "warscroll",

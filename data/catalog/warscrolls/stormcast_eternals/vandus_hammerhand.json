@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.vandus_hammerhand",
   "bsdataId": "cd2e-e2d-7ad-f065",
   "type": "warscroll",

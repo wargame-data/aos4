@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.disciples_of_tzeentch.fatemaster",
   "bsdataId": "0954-f819-54c6-46f3",
   "type": "warscroll",

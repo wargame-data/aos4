@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.hedonites_of_slaanesh.fiends",
   "bsdataId": "973c-d5a3-65d4-2eaa",
   "type": "warscroll",

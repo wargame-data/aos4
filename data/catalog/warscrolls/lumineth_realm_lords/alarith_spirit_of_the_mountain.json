@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.lumineth_realm_lords.alarith_spirit_of_the_mountain",
   "bsdataId": "7d2e-77e2-bf89-491c",
   "type": "warscroll",

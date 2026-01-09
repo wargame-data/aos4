@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.bonesplitterz.kragnos_the_end_of_empires",
   "bsdataId": "62b3-9802-6d16-32c1",
   "type": "warscroll",

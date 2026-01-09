@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.helsmiths_of_hashut.infernal_cohort_with_hashutite_spears",
   "bsdataId": "a162-ad2f-0c07-681e",
   "type": "warscroll",

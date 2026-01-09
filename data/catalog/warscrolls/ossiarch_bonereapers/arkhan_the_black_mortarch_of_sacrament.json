@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ossiarch_bonereapers.arkhan_the_black_mortarch_of_sacrament",
   "bsdataId": "6652-19e0-6044-62e8",
   "type": "warscroll",

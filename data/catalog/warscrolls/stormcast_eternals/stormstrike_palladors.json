@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.stormstrike_palladors",
   "bsdataId": "75e5-05cd-3163-7335",
   "type": "warscroll",

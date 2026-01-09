@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/army.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/army.schema.json",
   "name": "Invalid - Over Points Limit",
   "faction": "stormcast-eternals",
   "grandAlliance": "order",

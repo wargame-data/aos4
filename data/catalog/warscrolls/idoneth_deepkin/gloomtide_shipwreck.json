@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.idoneth_deepkin.gloomtide_shipwreck",
   "bsdataId": "cdd1-4012-45ab-ed95",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.seraphon.lord_kroak",
   "bsdataId": "df01-5aa1-a502-7a0c",
   "type": "warscroll",

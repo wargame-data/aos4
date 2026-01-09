@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.godsworn_hunt",
   "bsdataId": "1bb9-8fa7-8bf8-e4a2",
   "type": "warscroll",

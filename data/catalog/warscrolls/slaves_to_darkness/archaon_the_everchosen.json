@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.archaon_the_everchosen",
   "bsdataId": "8f2a-58f3-5fab-a1a",
   "type": "warscroll",

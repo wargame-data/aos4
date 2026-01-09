@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.bonesplitterz.hedkrakkas_madmob",
   "bsdataId": "6259-3dda-45b2-5380",
   "type": "warscroll",

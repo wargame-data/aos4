@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.plague_censer_bearers",
   "bsdataId": "1d37-8688-0cdd-434b",
   "type": "warscroll",

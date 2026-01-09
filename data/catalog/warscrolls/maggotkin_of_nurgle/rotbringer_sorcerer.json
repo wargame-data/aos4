@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.maggotkin_of_nurgle.rotbringer_sorcerer",
   "bsdataId": "8fe7-5f8f-68ac-b786",
   "type": "warscroll",

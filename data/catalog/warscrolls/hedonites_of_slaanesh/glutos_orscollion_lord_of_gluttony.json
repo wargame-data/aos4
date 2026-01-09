@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.hedonites_of_slaanesh.glutos_orscollion_lord_of_gluttony",
   "bsdataId": "fac2-b0a0-feec-f70f",
   "type": "warscroll",

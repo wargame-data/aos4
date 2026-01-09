@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ogor_mawtribes.gnoblar_scraplauncher",
   "bsdataId": "206-8e8e-f77d-e786",
   "type": "warscroll",

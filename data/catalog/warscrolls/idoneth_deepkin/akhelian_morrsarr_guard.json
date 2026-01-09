@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.idoneth_deepkin.akhelian_morrsarr_guard",
   "bsdataId": "f3a8-6043-25e2-51ea",
   "type": "warscroll",

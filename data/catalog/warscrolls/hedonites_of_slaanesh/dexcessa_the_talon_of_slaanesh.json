@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.hedonites_of_slaanesh.dexcessa_the_talon_of_slaanesh",
   "bsdataId": "7c43-7c1e-d92c-f199",
   "type": "warscroll",

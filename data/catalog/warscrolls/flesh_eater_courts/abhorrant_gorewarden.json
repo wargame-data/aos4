@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.flesh_eater_courts.abhorrant_gorewarden",
   "bsdataId": "3a7-f618-ba4d-9f6f",
   "type": "warscroll",

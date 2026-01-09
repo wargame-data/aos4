@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ogor_mawtribes.stonehorn_beastriders",
   "bsdataId": "8b95-893a-4c1a-9224",
   "type": "warscroll",

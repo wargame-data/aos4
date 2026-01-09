@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.blades_of_khorne.khul_ascended",
   "bsdataId": "9341-45e2-8463-cfb7",
   "type": "warscroll",

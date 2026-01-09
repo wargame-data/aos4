@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.sylvaneth.treelord",
   "bsdataId": "a896-d266-a881-f920",
   "type": "warscroll",

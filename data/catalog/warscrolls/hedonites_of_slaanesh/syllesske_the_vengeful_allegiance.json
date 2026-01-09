@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.hedonites_of_slaanesh.syllesske_the_vengeful_allegiance",
   "bsdataId": "89b7-8cfa-f458-12c0",
   "type": "warscroll",

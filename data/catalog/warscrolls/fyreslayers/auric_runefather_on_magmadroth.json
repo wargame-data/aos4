@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.fyreslayers.auric_runefather_on_magmadroth",
   "bsdataId": "37e2-9685-abe9-bc10",
   "type": "warscroll",

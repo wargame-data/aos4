@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.darkoath_warqueen",
   "bsdataId": "7f9-8a5a-4a59-769b",
   "type": "warscroll",

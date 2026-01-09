@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.lord_arcanum_on_gryph_charger",
   "bsdataId": "2b9b-4a5f-d565-6afe",
   "type": "warscroll",

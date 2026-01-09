@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.bonesplitterz.savage_big_stabbas",
   "bsdataId": "54d1-2695-3a76-6435",
   "type": "warscroll",

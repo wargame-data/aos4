@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ironjawz.kragnos_the_end_of_empires",
   "bsdataId": "2a45-46b2-62f9-63cc",
   "type": "warscroll",

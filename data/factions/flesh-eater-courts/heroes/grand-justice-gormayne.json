@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/hero.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/hero.schema.json",
   "id": "grand-justice-gormayne",
   "name": "Grand Justice Gormayne",
   "faction": "flesh-eater-courts",

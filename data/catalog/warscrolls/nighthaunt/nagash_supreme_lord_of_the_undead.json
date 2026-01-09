@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.nighthaunt.nagash_supreme_lord_of_the_undead",
   "bsdataId": "fb77-fec9-42ed-a7fd",
   "type": "warscroll",

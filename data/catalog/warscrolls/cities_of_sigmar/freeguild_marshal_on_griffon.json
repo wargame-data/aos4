@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.cities_of_sigmar.freeguild_marshal_on_griffon",
   "bsdataId": "c0d6-b8a8-c799-e09e",
   "type": "warscroll",

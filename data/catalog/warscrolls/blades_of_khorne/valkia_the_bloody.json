@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.blades_of_khorne.valkia_the_bloody",
   "bsdataId": "6bd2-bd18-aef2-ef44",
   "type": "warscroll",

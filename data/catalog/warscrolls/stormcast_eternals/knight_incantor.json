@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.knight_incantor",
   "bsdataId": "c029-12b6-9c8d-d1ef",
   "type": "warscroll",

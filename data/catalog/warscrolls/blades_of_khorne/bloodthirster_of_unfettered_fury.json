@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.blades_of_khorne.bloodthirster_of_unfettered_fury",
   "bsdataId": "9aae-e077-190b-d63b",
   "type": "warscroll",

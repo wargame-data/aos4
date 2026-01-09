@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.idoneth_deepkin.volturnos_high_king_of_the_deep",
   "bsdataId": "301e-efbe-65c3-bf78",
   "type": "warscroll",

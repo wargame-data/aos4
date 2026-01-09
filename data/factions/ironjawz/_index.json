@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/faction.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/faction.schema.json",
   "id": "ironjawz",
   "name": "Ironjawz",
   "grandAlliance": "destruction",

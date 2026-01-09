@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kruleboyz.kruleboyz_monsta_killaz",
   "bsdataId": "2314-f03-bcc6-8ea8",
   "type": "warscroll",

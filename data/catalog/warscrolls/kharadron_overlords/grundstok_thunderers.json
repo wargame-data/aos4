@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kharadron_overlords.grundstok_thunderers",
   "bsdataId": "9f81-a727-f6ab-e7cc",
   "type": "warscroll",

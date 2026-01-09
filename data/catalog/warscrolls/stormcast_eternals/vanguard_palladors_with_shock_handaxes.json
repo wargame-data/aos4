@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.vanguard_palladors_with_shock_handaxes",
   "bsdataId": "2d01-fd48-55af-dc1c",
   "type": "warscroll",

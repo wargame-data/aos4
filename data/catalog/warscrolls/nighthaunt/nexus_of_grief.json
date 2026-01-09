@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.nighthaunt.nexus_of_grief",
   "bsdataId": "ca5e-5353-81bc-4e13",
   "type": "warscroll",

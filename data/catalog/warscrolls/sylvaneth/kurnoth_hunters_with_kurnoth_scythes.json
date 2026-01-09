@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.sylvaneth.kurnoth_hunters_with_kurnoth_scythes",
   "bsdataId": "577a-d471-c08e-6ff4",
   "type": "warscroll",

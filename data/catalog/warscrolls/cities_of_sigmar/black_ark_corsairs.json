@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.cities_of_sigmar.black_ark_corsairs",
   "bsdataId": "e0b6-cd1a-833e-3ff3",
   "type": "warscroll",

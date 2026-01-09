@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.cities_of_sigmar.celestial_hurricanum",
   "bsdataId": "d5a5-3182-b4f8-52a",
   "type": "warscroll",

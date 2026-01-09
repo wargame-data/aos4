@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kruleboyz.hobgrot_slittaz",
   "bsdataId": "82f1-fd-499c-a2db",
   "type": "warscroll",

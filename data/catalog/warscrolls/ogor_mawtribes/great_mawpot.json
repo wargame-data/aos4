@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ogor_mawtribes.great_mawpot",
   "bsdataId": "2586-d28e-7404-b64e",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.disciples_of_tzeentch.curseling_eye_of_tzeentch",
   "bsdataId": "edf7-573d-15c9-cce4",
   "type": "warscroll",

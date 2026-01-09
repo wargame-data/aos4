@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.sylvaneth.revenant_seekers",
   "bsdataId": "766a-54f1-440b-b878",
   "type": "warscroll",

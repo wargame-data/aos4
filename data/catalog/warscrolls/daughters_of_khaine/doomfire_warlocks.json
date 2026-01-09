@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.daughters_of_khaine.doomfire_warlocks",
   "bsdataId": "5afa-9dc7-894b-854b",
   "type": "warscroll",

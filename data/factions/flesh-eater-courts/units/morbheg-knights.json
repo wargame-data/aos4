@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/unit.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/unit.schema.json",
   "id": "morbheg-knights",
   "name": "Morbheg Knights",
   "faction": "flesh-eater-courts",

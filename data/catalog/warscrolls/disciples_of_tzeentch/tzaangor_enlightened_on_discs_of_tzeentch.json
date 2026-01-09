@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.disciples_of_tzeentch.tzaangor_enlightened_on_discs_of_tzeentch",
   "bsdataId": "b7be-ddee-783e-9048",
   "type": "warscroll",

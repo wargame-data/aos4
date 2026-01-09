@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kharadron_overlords.endrinmaster_with_dirigible_suit",
   "bsdataId": "a505-e76e-45f8-7874",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.sons_of_behemat.warstomper_mega_gargant",
   "bsdataId": "5201-4045-7632-5a40",
   "type": "warscroll",

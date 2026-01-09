@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.sylvaneth.gossamid_archers",
   "bsdataId": "7395-623b-7652-b8c6",
   "type": "warscroll",

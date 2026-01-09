@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.plague_priest_on_plague_furnace",
   "bsdataId": "6cc5-c1f4-812c-ee3b",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ironjawz.gordrakk_the_fist_of_gork",
   "bsdataId": "b8a1-7664-687e-c0d9",
   "type": "warscroll",

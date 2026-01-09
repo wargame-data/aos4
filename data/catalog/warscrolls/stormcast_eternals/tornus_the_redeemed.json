@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.tornus_the_redeemed",
   "bsdataId": "b1c3-3db3-fe6b-289b",
   "type": "warscroll",

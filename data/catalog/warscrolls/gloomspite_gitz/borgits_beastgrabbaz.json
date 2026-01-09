@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.gloomspite_gitz.borgits_beastgrabbaz",
   "bsdataId": "e15b-2f63-bd45-3159",
   "type": "warscroll",

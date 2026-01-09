@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.helsmiths_of_hashut.bull_centaurs",
   "bsdataId": "e20f-a1a4-79f8-93af",
   "type": "warscroll",

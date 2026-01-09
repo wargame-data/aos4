@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.soulblight_gravelords.vampire_lord_on_zombie_dragon",
   "bsdataId": "3af7-48d-a1d4-a796",
   "type": "warscroll",

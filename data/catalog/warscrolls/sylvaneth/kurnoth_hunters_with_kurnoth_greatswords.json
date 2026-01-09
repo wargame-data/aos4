@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.sylvaneth.kurnoth_hunters_with_kurnoth_greatswords",
   "bsdataId": "7403-c67e-a2d-a1af",
   "type": "warscroll",

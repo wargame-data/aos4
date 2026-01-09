@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.seraphon.realmshaper_engine",
   "bsdataId": "dbb9-da98-e92e-b31e",
   "type": "warscroll",

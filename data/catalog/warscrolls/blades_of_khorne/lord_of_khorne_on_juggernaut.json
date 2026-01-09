@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.blades_of_khorne.lord_of_khorne_on_juggernaut",
   "bsdataId": "ce66-7711-3047-4195",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ironjawz.ardboy_big_boss",
   "bsdataId": "e020-20c4-a638-6d2b",
   "type": "warscroll",

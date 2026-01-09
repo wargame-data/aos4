@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.daughters_of_khaine.slaughter_queen_on_cauldron_of_blood",
   "bsdataId": "11fb-eddc-dfd7-498b",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.lord_arcanum_on_celestial_dracoline",
   "bsdataId": "626a-2ffc-5960-b847",
   "type": "warscroll",

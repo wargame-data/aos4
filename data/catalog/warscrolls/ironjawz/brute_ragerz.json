@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ironjawz.brute_ragerz",
   "bsdataId": "d77b-a0ba-7d99-28d5",
   "type": "warscroll",

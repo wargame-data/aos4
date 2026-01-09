@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ossiarch_bonereapers.necropolis_stalkers",
   "bsdataId": "e1b8-41f5-87ac-9333",
   "type": "warscroll",

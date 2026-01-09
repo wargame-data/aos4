@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.sons_of_behemat.gatebreaker_mega_gargant",
   "bsdataId": "7e9e-7d9f-d3ab-d143",
   "type": "warscroll",

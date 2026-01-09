@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.daughters_of_khaine.morgwaeths_blade_coven",
   "bsdataId": "a6fa-58b7-1d9c-2b6b",
   "type": "warscroll",

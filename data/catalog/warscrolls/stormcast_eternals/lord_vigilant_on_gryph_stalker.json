@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.lord_vigilant_on_gryph_stalker",
   "bsdataId": "57cb-3869-2834-3019",
   "type": "warscroll",

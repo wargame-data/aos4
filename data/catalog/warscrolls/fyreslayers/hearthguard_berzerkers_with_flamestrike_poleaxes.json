@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.fyreslayers.hearthguard_berzerkers_with_flamestrike_poleaxes",
   "bsdataId": "194c-db4d-bae8-1372",
   "type": "warscroll",

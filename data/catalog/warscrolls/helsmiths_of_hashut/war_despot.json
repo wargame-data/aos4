@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.helsmiths_of_hashut.war_despot",
   "bsdataId": "9d64-66aa-7eaa-7b55",
   "type": "warscroll",

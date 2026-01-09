@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.warpfire_throwers",
   "bsdataId": "3101-8510-5da3-3af",
   "type": "warscroll",

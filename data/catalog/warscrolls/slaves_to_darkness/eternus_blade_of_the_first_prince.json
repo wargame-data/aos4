@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.eternus_blade_of_the_first_prince",
   "bsdataId": "de49-6e72-d443-42c0",
   "type": "warscroll",

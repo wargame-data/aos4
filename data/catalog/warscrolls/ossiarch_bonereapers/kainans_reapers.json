@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ossiarch_bonereapers.kainans_reapers",
   "bsdataId": "7d6d-699b-e072-6699",
   "type": "warscroll",

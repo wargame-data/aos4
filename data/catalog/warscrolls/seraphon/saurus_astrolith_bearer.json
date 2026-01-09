@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.seraphon.saurus_astrolith_bearer",
   "bsdataId": "4b2-de6c-326c-97b6",
   "type": "warscroll",

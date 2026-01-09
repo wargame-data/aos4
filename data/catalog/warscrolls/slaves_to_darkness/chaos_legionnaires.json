@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.chaos_legionnaires",
   "bsdataId": "82e2-c548-4d0f-3f1e",
   "type": "warscroll",

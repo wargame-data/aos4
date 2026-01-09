@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.flesh_eater_courts.crypt_ghouls",
   "bsdataId": "cf8e-f1fc-81a2-c101",
   "type": "warscroll",

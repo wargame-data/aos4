@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.soulblight_gravelords.the_exiled_dead",
   "bsdataId": "a66d-8fc5-cd7e-2426",
   "type": "warscroll",

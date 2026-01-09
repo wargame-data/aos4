@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.seraphon.skink_oracle_on_troglodon",
   "bsdataId": "2d05-d5ba-8359-bb2",
   "type": "warscroll",

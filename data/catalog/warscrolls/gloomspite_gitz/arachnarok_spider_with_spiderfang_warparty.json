@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.gloomspite_gitz.arachnarok_spider_with_spiderfang_warparty",
   "bsdataId": "fb01-3fb7-ecf9-f5ec",
   "type": "warscroll",

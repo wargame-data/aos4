@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
   "id": "spell.shared.summon_mesmerising_mirror",
   "type": "spell",
   "name": "Summon Mesmerising Mirror",

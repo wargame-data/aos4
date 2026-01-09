@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.khagras_ravagers",
   "bsdataId": "c9bb-a2c8-8c92-a00c",
   "type": "warscroll",

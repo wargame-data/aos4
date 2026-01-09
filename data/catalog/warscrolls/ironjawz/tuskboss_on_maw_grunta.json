@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ironjawz.tuskboss_on_maw_grunta",
   "bsdataId": "3520-fc6a-d4fc-1c1f",
   "type": "warscroll",

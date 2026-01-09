@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.idoneth_deepkin.lorai_child_of_the_abyss",
   "bsdataId": "fc54-7cb5-cc46-7aeb",
   "type": "warscroll",

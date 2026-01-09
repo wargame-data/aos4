@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.hedonites_of_slaanesh.exalted_chariot",
   "bsdataId": "08e6-7dfb-f60e-6fc0",
   "type": "warscroll",

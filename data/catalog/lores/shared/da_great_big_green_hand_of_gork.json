@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
   "id": "spell.shared.da_great_big_green_hand_of_gork",
   "type": "spell",
   "name": "Da Great Big Green Hand of Gork",

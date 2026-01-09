@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.gloomspite_gitz.webspinner_shaman_on_arachnarok_spider",
   "bsdataId": "b01b-24e3-c30f-d62f",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.sylvaneth.the_lady_of_vines",
   "bsdataId": "72e5-d623-ac8c-14a1",
   "type": "warscroll",

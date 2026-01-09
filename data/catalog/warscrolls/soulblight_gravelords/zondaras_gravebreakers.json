@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.soulblight_gravelords.zondaras_gravebreakers",
   "bsdataId": "70eb-cf32-09df-3ad9",
   "type": "warscroll",

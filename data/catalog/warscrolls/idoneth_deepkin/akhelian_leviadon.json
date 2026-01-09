@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.idoneth_deepkin.akhelian_leviadon",
   "bsdataId": "8e30-fc7b-3b12-a269",
   "type": "warscroll",

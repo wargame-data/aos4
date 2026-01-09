@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.cities_of_sigmar.battlemage_on_luminark_of_hysh",
   "bsdataId": "b1b8-a094-36c3-b25e",
   "type": "warscroll",

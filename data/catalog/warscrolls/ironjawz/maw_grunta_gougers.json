@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ironjawz.maw_grunta_gougers",
   "bsdataId": "ce75-dedf-3b6f-9a7c",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.helsmiths_of_hashut.urak_taar_the_first_daemonsmith",
   "bsdataId": "a1f1-b30e-abe9-a234",
   "type": "warscroll",

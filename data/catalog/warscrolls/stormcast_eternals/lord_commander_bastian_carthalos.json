@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.lord_commander_bastian_carthalos",
   "bsdataId": "27bd-f462-4fbb-5998",
   "type": "warscroll",

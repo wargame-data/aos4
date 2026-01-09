@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.disciples_of_tzeentch.ogroid_thaumaturge",
   "bsdataId": "a004-88b6-b2eb-5879",
   "type": "warscroll",

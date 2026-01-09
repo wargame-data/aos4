@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ogor_mawtribes.mournfang_pack",
   "bsdataId": "b91b-cba6-89af-7225",
   "type": "warscroll",

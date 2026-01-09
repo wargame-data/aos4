@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kharadron_overlords.grundstok_gunhauler",
   "bsdataId": "66fa-6ab8-35c3-beef",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.daughters_of_khaine.gryselles_arenai",
   "bsdataId": "1b40-a642-bb25-f40a",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.seraphon.saurus_warriors",
   "bsdataId": "f5a9-66a7-bb69-533f",
   "type": "warscroll",

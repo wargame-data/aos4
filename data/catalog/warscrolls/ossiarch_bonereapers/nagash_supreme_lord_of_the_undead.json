@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ossiarch_bonereapers.nagash_supreme_lord_of_the_undead",
   "bsdataId": "aeef-a74c-9eec-5169",
   "type": "warscroll",

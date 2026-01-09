@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.flesh_eater_courts.abhorrant_gorewarden_scourge_of_ghyran",
   "bsdataId": "27b9-d95e-ac2b-5f2f",
   "type": "warscroll",

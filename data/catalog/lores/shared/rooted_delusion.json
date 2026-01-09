@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
   "id": "prayer.shared.rooted_delusion",
   "type": "prayer",
   "name": "Rooted Delusion",

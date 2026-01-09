@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ogor_mawtribes.thundertusk_beastriders",
   "bsdataId": "e5a2-5b7c-b7af-8da6",
   "type": "warscroll",

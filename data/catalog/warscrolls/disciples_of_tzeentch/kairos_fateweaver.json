@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.disciples_of_tzeentch.kairos_fateweaver",
   "bsdataId": "4c5d-ac6e-7aa5-6d98",
   "type": "warscroll",

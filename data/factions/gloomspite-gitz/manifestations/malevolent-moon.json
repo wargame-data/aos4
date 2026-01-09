@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/manifestation.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/manifestation.schema.json",
   "id": "malevolent-moon",
   "name": "Malevolent Moon",
   "faction": "gloomspite-gitz",

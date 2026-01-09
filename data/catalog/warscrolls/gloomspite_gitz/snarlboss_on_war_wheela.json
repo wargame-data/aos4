@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.gloomspite_gitz.snarlboss_on_war_wheela",
   "bsdataId": "3049-ffed-355a-9591",
   "type": "warscroll",

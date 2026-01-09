@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.disciples_of_tzeentch.blue_horrors_and_brimstone_horrors",
   "bsdataId": "6cb0-cc58-9cee-f204",
   "type": "warscroll",

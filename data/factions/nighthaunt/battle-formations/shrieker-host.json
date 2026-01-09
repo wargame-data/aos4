@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/battle-formation.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
   "id": "shrieker-host",
   "name": "Shrieker Host",
   "faction": "nighthaunt",

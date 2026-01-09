@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.gloomspite_gitz.rippas_snarlfangs",
   "bsdataId": "8019-bea9-51a0-352b",
   "type": "warscroll",

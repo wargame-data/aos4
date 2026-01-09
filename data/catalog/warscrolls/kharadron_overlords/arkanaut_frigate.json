@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kharadron_overlords.arkanaut_frigate",
   "bsdataId": "fb94-3fa7-35ae-7a3c",
   "type": "warscroll",

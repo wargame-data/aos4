@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.soulblight_gravelords.torgillius_the_chamberlain",
   "bsdataId": "3e64-75ef-6627-5554",
   "type": "warscroll",

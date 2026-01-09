@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.cities_of_sigmar.pontifex_zenestra_matriarch_of_the_great_wheel",
   "bsdataId": "708d-414f-a3f-3734",
   "type": "warscroll",

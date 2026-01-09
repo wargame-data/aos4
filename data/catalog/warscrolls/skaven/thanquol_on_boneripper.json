@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.thanquol_on_boneripper",
   "bsdataId": "63ad-17ef-38e1-210a",
   "type": "warscroll",

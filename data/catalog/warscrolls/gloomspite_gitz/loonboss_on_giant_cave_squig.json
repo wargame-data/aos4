@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.gloomspite_gitz.loonboss_on_giant_cave_squig",
   "bsdataId": "66d2-f3d2-93a9-581",
   "type": "warscroll",

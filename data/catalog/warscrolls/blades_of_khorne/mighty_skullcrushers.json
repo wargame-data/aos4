@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.blades_of_khorne.mighty_skullcrushers",
   "bsdataId": "f1ab-e54f-103c-3c0b",
   "type": "warscroll",

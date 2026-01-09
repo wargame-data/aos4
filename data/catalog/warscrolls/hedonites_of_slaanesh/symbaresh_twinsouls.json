@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.hedonites_of_slaanesh.symbaresh_twinsouls",
   "bsdataId": "ffcf-47e1-a14f-b507",
   "type": "warscroll",

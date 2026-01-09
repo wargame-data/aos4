@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kruleboyz.murknob_with_belcha_banna",
   "bsdataId": "3ce1-f1a5-cbd9-1831",
   "type": "warscroll",

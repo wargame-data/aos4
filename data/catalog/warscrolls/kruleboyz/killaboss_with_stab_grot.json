@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kruleboyz.killaboss_with_stab_grot",
   "bsdataId": "17d5-b7e8-6b70-9260",
   "type": "warscroll",

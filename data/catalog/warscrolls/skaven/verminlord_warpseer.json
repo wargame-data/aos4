@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.verminlord_warpseer",
   "bsdataId": "8dad-1c7-e47c-b608",
   "type": "warscroll",

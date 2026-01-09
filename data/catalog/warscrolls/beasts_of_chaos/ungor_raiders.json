@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.beasts_of_chaos.ungor_raiders",
   "bsdataId": "3771-efac-15d0-cc5b",
   "type": "warscroll",

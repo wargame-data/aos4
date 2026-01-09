@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kruleboyz.marshcrawla_sloggoth",
   "bsdataId": "c625-96c8-1d47-2e0b",
   "type": "warscroll",

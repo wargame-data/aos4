@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.maggotkin_of_nurgle.festus_the_leechlord",
   "bsdataId": "65b1-8753-01c7-2fa9",
   "type": "warscroll",

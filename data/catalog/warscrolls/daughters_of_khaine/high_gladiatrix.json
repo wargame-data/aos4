@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.daughters_of_khaine.high_gladiatrix",
   "bsdataId": "93e8-210a-cc3-ef22",
   "type": "warscroll",

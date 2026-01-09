@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kruleboyz.da_kunnin_krew",
   "bsdataId": "7d2e-ce9a-1dd6-1aad",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.soulblight_gravelords.lady_annika_the_thirsting_blade",
   "bsdataId": "9b8f-c508-b25b-691f",
   "type": "warscroll",

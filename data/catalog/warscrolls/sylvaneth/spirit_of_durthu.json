@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.sylvaneth.spirit_of_durthu",
   "bsdataId": "f163-eaf6-2b5b-1cd3",
   "type": "warscroll",

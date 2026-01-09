@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.cities_of_sigmar.fusil_major_on_ogor_warhulk",
   "bsdataId": "7934-6325-c7ed-3d7b",
   "type": "warscroll",

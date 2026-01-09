@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.gloomspite_gitz.moonclan_stabbas",
   "bsdataId": "8be0-b46d-7d03-f8e2",
   "type": "warscroll",

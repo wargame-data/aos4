@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.seraphon.stegadon_chief",
   "bsdataId": "cd8a-43c6-6598-bd0a",
   "type": "warscroll",

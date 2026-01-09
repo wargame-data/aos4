@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ossiarch_bonereapers.katakros_mortarch_of_the_necropolis",
   "bsdataId": "9294-b53c-e996-198c",
   "type": "warscroll",

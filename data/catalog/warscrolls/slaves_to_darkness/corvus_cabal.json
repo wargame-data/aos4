@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.corvus_cabal",
   "bsdataId": "b5e1-1ff0-d451-335e",
   "type": "warscroll",

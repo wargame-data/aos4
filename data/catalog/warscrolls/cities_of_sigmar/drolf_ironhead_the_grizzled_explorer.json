@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.cities_of_sigmar.drolf_ironhead_the_grizzled_explorer",
   "bsdataId": "f194-4ebe-8eed-41b3",
   "type": "warscroll",

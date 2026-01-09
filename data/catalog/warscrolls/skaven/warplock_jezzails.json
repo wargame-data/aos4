@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.warplock_jezzails",
   "bsdataId": "160-3400-6da6-eb08",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.disciples_of_tzeentch.eyes_of_the_nine",
   "bsdataId": "b399-11ba-9505-07ff",
   "type": "warscroll",

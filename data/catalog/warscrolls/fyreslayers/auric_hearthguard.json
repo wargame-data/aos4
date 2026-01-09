@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.fyreslayers.auric_hearthguard",
   "bsdataId": "c2d0-1db-e516-2344",
   "type": "warscroll",

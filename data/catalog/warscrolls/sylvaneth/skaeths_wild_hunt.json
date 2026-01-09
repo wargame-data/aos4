@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.sylvaneth.skaeths_wild_hunt",
   "bsdataId": "c0d2-82ed-9fc0-3deb",
   "type": "warscroll",

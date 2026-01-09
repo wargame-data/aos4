@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.rat_ogors",
   "bsdataId": "1301-b79e-7b2a-1a48",
   "type": "warscroll",

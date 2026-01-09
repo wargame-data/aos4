@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/regiment-of-renown.schema.json",
   "id": "the-lost-song-spirits",
   "name": "The Lost-Song Spirits",
   "points": 370,

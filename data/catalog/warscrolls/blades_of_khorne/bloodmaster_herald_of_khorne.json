@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.blades_of_khorne.bloodmaster_herald_of_khorne",
   "bsdataId": "2724-10df-1094-e344",
   "type": "warscroll",

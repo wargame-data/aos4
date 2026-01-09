@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.disciples_of_tzeentch.magister_on_disc_of_tzeentch",
   "bsdataId": "378a-e2c0-6476-f128",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.gloomspite_gitz.grinkraks_looncourt",
   "bsdataId": "07da-8a50-69be-b0c1",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.soulblight_gravelords.gorslav_the_gravekeeper",
   "bsdataId": "66c8-d9e7-3166-cbbe",
   "type": "warscroll",

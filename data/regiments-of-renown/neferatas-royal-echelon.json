@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/regiment-of-renown.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/regiment-of-renown.schema.json",
   "id": "neferatas-royal-echelon",
   "name": "Neferata's Royal Echelon",
   "points": 760,

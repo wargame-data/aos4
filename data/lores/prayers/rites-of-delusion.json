@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/lore.schema.json",
   "id": "rites-of-delusion",
   "name": "Rites of Delusion",
   "loreType": "prayer",

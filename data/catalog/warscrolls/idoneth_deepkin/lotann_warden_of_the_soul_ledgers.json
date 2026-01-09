@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.idoneth_deepkin.lotann_warden_of_the_soul_ledgers",
   "bsdataId": "50be-c90a-20c4-66ed",
   "type": "warscroll",

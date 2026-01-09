@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ironjawz.bossrokk_tower",
   "bsdataId": "092c-1ddc-6678-db32",
   "type": "warscroll",

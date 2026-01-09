@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.nighthaunt.dreadscythe_harridans",
   "bsdataId": "1a20-8b80-4ae3-5168",
   "type": "warscroll",

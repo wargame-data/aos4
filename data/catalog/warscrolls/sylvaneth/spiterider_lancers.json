@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.sylvaneth.spiterider_lancers",
   "bsdataId": "8d4f-cdc2-f74f-daac",
   "type": "warscroll",

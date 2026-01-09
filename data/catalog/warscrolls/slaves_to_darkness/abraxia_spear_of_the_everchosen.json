@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.abraxia_spear_of_the_everchosen",
   "bsdataId": "3843-8ca1-6cd7-70e1",
   "type": "warscroll",

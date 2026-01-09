@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/lore.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/lore.schema.json",
   "id": "manifestation-lore-the-clattering-procession",
   "name": "Manifestation Lore: The Clattering Procession",
   "loreType": "manifestation",

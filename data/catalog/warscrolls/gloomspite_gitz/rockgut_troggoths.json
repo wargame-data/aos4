@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.gloomspite_gitz.rockgut_troggoths",
   "bsdataId": "6b55-8302-d5fe-f8b",
   "type": "warscroll",

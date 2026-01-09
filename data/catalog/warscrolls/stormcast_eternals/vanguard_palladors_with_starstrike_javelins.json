@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.vanguard_palladors_with_starstrike_javelins",
   "bsdataId": "b8b2-de1c-526b-523",
   "type": "warscroll",

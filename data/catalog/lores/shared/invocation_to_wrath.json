@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/prayer.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/prayer.schema.json",
   "id": "prayer.shared.invocation_to_wrath",
   "type": "prayer",
   "name": "Invocation to Wrath",

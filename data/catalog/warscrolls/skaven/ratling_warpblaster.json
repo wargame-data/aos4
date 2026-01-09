@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.ratling_warpblaster",
   "bsdataId": "6792-1e93-a367-95c8",
   "type": "warscroll",

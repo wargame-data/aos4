@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.lord_celestant_on_dracoth",
   "bsdataId": "8d96-c4c8-97a0-7201",
   "type": "warscroll",

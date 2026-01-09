@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.the_oathsworn_kin",
   "bsdataId": "c8b1-7d96-6db6-2293",
   "type": "warscroll",

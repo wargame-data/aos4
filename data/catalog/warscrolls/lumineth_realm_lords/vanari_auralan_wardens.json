@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.lumineth_realm_lords.vanari_auralan_wardens",
   "bsdataId": "b62e-acea-4717-14bd",
   "type": "warscroll",

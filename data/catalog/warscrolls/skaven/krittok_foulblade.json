@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.krittok_foulblade",
   "bsdataId": "64d0-3abe-62b7-7e40",
   "type": "warscroll",

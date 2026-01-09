@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.seraphon.ripperdactyl_chief",
   "bsdataId": "d8da-70c-5bcc-cf9e",
   "type": "warscroll",

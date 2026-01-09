@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.daughters_of_khaine.witch_aelves_with_bladed_bucklers",
   "bsdataId": "4e08-6f70-1db7-8324",
   "type": "warscroll",

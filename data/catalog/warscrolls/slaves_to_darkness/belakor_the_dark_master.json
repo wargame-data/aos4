@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.belakor_the_dark_master",
   "bsdataId": "672f-33c8-1e61-cead",
   "type": "warscroll",

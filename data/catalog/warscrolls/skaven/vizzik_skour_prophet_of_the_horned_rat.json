@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.vizzik_skour_prophet_of_the_horned_rat",
   "bsdataId": "2a51-7859-e014-cecd",
   "type": "warscroll",

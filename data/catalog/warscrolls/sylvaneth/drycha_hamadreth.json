@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.sylvaneth.drycha_hamadreth",
   "bsdataId": "b3b6-f91d-754d-af73",
   "type": "warscroll",

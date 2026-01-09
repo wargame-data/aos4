@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.annihilators",
   "bsdataId": "abd7-bf0a-b2f9-8cc2",
   "type": "warscroll",

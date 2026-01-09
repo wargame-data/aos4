@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.lumineth_realm_lords.vanari_starshard_ballista",
   "bsdataId": "ac41-4a7-88c5-9ab2",
   "type": "warscroll",

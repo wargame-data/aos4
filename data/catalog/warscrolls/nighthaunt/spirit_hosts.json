@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.nighthaunt.spirit_hosts",
   "bsdataId": "e823-b88c-bee5-17a1",
   "type": "warscroll",

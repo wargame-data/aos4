@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.gloomspite_gitz.dankhold_troggoth",
   "bsdataId": "9be3-6dc9-3f14-4553",
   "type": "warscroll",

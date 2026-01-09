@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ogor_mawtribes.hrothgorn_mantrapper",
   "bsdataId": "7085-43d6-6b37-a1fa",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.domitans_stormcoven",
   "bsdataId": "784c-e453-6a6b-05fe",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.fomoroid_crusher",
   "bsdataId": "42-fa77-4a18-a2e3",
   "type": "warscroll",

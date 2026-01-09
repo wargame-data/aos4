@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.helsmiths_of_hashut.tormentor_bombard",
   "bsdataId": "b198-5cf9-e447-35c6",
   "type": "warscroll",

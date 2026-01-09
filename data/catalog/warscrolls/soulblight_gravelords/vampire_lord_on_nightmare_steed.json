@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.soulblight_gravelords.vampire_lord_on_nightmare_steed",
   "bsdataId": "9043-94cc-3918-acd9",
   "type": "warscroll",

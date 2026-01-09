@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ossiarch_bonereapers.arch_kavalos_zandtos",
   "bsdataId": "3d7d-bb9a-b450-8a47",
   "type": "warscroll",

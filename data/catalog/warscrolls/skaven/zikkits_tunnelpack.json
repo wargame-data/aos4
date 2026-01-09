@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.zikkits_tunnelpack",
   "bsdataId": "2962-829f-aafd-fa84",
   "type": "warscroll",

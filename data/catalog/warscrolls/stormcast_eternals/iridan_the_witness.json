@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.iridan_the_witness",
   "bsdataId": "278f-91b3-fedc-1b1a",
   "type": "warscroll",

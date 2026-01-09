@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.disciples_of_tzeentch.changecaster_herald_of_tzeentch",
   "bsdataId": "f83d-1a6a-a9-bb54",
   "type": "warscroll",

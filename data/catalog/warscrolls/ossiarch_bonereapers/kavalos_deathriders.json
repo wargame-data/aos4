@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ossiarch_bonereapers.kavalos_deathriders",
   "bsdataId": "efaa-2ff1-8-5f4b",
   "type": "warscroll",

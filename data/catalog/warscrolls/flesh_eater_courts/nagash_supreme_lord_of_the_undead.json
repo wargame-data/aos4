@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.flesh_eater_courts.nagash_supreme_lord_of_the_undead",
   "bsdataId": "4898-ff01-e50e-4325",
   "type": "warscroll",

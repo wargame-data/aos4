@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.kruleboyz.beast_skewer_killbow",
   "bsdataId": "f4bd-5870-3b31-97e4",
   "type": "warscroll",

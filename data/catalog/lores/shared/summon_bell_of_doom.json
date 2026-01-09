@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/spell.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/spell.schema.json",
   "id": "spell.shared.summon_bell_of_doom",
   "type": "spell",
   "name": "Summon Bell of Doom",

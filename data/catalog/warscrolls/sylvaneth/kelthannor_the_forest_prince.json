@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.sylvaneth.kelthannor_the_forest_prince",
   "bsdataId": "4a81-2d60-fb40-0e97",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.acolyte_globadiers",
   "bsdataId": "f51a-f96d-8cde-824c",
   "type": "warscroll",

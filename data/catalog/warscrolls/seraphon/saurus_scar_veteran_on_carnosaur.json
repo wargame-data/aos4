@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.seraphon.saurus_scar_veteran_on_carnosaur",
   "bsdataId": "6a0c-795a-49f9-67e9",
   "type": "warscroll",

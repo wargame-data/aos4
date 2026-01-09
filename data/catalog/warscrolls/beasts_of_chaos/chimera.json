@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.beasts_of_chaos.chimera",
   "bsdataId": "92c9-1353-bc81-7814",
   "type": "warscroll",

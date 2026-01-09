@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.nighthaunt.the_headsmens_curse",
   "bsdataId": "a074-2ecb-5d24-8c4e",
   "type": "warscroll",

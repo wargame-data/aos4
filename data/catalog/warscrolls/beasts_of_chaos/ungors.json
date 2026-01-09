@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.beasts_of_chaos.ungors",
   "bsdataId": "920d-c7ac-1a68-8337",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.blades_of_khorne.bloodthirster_of_insensate_rage",
   "bsdataId": "ac0a-f4e1-99b-9562",
   "type": "warscroll",

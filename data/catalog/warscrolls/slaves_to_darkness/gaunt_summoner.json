@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.slaves_to_darkness.gaunt_summoner",
   "bsdataId": "6d8c-8fd5-7276-ea",
   "type": "warscroll",

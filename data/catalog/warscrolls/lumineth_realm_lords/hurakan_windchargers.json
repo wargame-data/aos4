@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.lumineth_realm_lords.hurakan_windchargers",
   "bsdataId": "1bca-d303-8bb8-9624",
   "type": "warscroll",

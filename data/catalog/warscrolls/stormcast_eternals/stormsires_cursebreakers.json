@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.stormsires_cursebreakers",
   "bsdataId": "fc52-c5fb-55f9-c25a",
   "type": "warscroll",

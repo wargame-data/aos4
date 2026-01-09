@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.idoneth_deepkin.akhelian_allopex",
   "bsdataId": "91f6-6340-d95c-b89d",
   "type": "warscroll",

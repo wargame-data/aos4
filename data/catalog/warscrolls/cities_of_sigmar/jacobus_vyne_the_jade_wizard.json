@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.cities_of_sigmar.jacobus_vyne_the_jade_wizard",
   "bsdataId": "121a-c8d2-648a-c1be",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.fyreslayers.vulkite_berzerkers_with_fyresteel_weapons",
   "bsdataId": "88f4-30cc-1cfd-b6fa",
   "type": "warscroll",

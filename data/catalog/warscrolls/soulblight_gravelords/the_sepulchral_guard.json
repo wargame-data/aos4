@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.soulblight_gravelords.the_sepulchral_guard",
   "bsdataId": "0d4f-e793-20db-9f50",
   "type": "warscroll",

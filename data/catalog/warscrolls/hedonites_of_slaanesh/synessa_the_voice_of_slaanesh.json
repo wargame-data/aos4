@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.hedonites_of_slaanesh.synessa_the_voice_of_slaanesh",
   "bsdataId": "eb63-b209-7932-2b43",
   "type": "warscroll",

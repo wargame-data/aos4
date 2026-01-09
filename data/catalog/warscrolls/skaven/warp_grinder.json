@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.skaven.warp_grinder",
   "bsdataId": "0a17-a47d-e51f-ea9a",
   "type": "warscroll",

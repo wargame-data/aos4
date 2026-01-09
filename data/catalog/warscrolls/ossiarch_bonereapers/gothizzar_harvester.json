@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.ossiarch_bonereapers.gothizzar_harvester",
   "bsdataId": "1ae2-1b6e-d767-b8de",
   "type": "warscroll",

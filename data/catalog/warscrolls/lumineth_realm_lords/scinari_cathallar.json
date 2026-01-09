@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.lumineth_realm_lords.scinari_cathallar",
   "bsdataId": "957c-42e5-f8c7-55cb",
   "type": "warscroll",

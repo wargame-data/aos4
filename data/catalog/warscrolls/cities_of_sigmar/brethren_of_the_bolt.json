@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.cities_of_sigmar.brethren_of_the_bolt",
   "bsdataId": "d136-5b89-0d88-cb37",
   "type": "warscroll",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.stormcast_eternals.questor_soulsworn",
   "bsdataId": "59c-6be3-dbf8-3fe3",
   "type": "warscroll",

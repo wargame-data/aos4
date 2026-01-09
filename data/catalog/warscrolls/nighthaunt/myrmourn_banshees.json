@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.nighthaunt.myrmourn_banshees",
   "bsdataId": "ca83-a38b-b1c6-f4e6",
   "type": "warscroll",

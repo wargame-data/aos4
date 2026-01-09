@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.seraphon.the_jaws_of_itzl",
   "bsdataId": "6959-3eb1-4769-ee0c",
   "type": "warscroll",

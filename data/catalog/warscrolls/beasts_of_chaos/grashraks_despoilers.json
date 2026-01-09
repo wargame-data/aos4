@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.beasts_of_chaos.grashraks_despoilers",
   "bsdataId": "c675-1d79-171f-4047",
   "type": "warscroll",

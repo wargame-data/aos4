@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.seraphon.aggradon_lancers",
   "bsdataId": "e485-3d5d-84ae-6f08",
   "type": "warscroll",

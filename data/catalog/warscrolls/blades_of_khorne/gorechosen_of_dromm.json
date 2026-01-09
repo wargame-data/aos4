@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.blades_of_khorne.gorechosen_of_dromm",
   "bsdataId": "a5a3-d0d5-fc50-9020",
   "type": "warscroll",

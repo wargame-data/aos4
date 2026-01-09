@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.daughters_of_khaine.bloodwrack_medusa",
   "bsdataId": "b5a7-3a7d-1481-bbda",
   "type": "warscroll",

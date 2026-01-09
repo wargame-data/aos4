@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aos-data.org/schema/warscroll.schema.json",
+  "$schema": "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   "id": "warscroll.daughters_of_khaine.knives_of_the_crone",
   "bsdataId": "84cb-39d7-3f2d-efd0",
   "type": "warscroll",
