@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.beasts_of_chaos.slitherwrack_helm",
+  "bsdataId": "bf3c-95f2-a2ab-2859",
+  "type": "enhancement",
+  "name": "Slitherwrack Helm",
+  "keywords": [
+    "artefact",
+    "faction:beasts_of_chaos"
+  ],
+  "effect": "Subtract 1 from charge rolls for enemy units while they are within 12\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Orange",
+  "abilityCategory": "Movement"
+}

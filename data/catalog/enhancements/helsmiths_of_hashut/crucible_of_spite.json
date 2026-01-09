@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.helsmiths_of_hashut.crucible_of_spite",
+  "bsdataId": "f937-17f3-e55a-cd86",
+  "type": "enhancement",
+  "name": "Crucible of Spite",
+  "keywords": [
+    "artefact",
+    "faction:helsmiths_of_hashut"
+  ],
+  "effect": "Give up to 3 **daemonic power points** to this unit. However, you cannot allocate or give any more **daemonic power points** to this unit for the rest of the battle.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Hero Phase",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

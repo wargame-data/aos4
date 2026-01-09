@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords_the_magnate_s_crew.flanking_fire",
+  "bsdataId": "54ce-3e58-4b4a-5719",
+  "type": "enhancement",
+  "name": "Flanking Fire",
+  "keywords": [
+    "command_trait",
+    "faction:kharadron_overlords_the_magnate_s_crew"
+  ],
+  "effect": "Add 1 to hit rolls for shooting attacks made by friendly **^^Magnate's Crew Skyvessels^^** that target an enemy unit in combat with this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Blue",
+  "abilityCategory": "Shooting"
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.lumineth_realm_lords.martial_perfectionist",
+  "bsdataId": "e4db-e9c3-5c41-cf56",
+  "type": "enhancement",
+  "name": "Martial Perfectionist",
+  "keywords": [
+    "command_trait",
+    "faction:lumineth_realm_lords"
+  ],
+  "effect": "Roll a dice. On a 3+, add 1 to wound rolls for combat attacks made by friendly **^^Lumineth Realm-lords Infantry^^** units that target that enemy unit for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Combat Phase",
+  "declare": "Pick a visible enemy unit within 12\" of this unit that is damaged or that had any models slain this turn to be the target.",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

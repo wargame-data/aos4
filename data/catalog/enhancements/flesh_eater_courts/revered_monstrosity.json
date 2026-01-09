@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.flesh_eater_courts.revered_monstrosity",
+  "bsdataId": "a15e-bd88-8b33-1398",
+  "type": "enhancement",
+  "name": "Revered Monstrosity",
+  "keywords": [
+    "mount_trait",
+    "faction:flesh_eater_courts"
+  ],
+  "effect": "Add 1 to hit rolls for combat attacks made with **Companion** weapons by other friendly non‑**^^Unique Flesh-eater Courts Monsters^^** while they are wholly within 12\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

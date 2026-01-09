@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kruleboyz.slippery_skumbag",
+  "bsdataId": "600f-eb3b-4263-d4",
+  "type": "enhancement",
+  "name": "Slippery Skumbag",
+  "keywords": [
+    "command_trait",
+    "faction:kruleboyz"
+  ],
+  "effect": "If this unit is in combat, roll a dice. On a 3+, it can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Combat Phase",
+  "color": "Red",
+  "abilityCategory": "Movement"
+}

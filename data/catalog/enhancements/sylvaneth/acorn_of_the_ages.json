@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sylvaneth.acorn_of_the_ages",
+  "bsdataId": "9d53-a568-c0b0-8d42",
+  "type": "enhancement",
+  "name": "Acorn of the Ages",
+  "keywords": [
+    "artefact",
+    "faction:sylvaneth"
+  ],
+  "effect": "If there are fewer than 3 friendly **Awakened Wyldwoods** on the battlefield, set up an **Awakened Wyldwood** wholly within 12\" of this unit, more than 3\" from all objectives and more than 1\" from all enemy units and other terrain features.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Hero Phase",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

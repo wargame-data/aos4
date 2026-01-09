@@ -1,0 +1,24 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords.hegsson_solutions_old_reliable_hullplates",
+  "bsdataId": "ee4e-f070-9855-1085",
+  "type": "enhancement",
+  "name": "Hegsson Solutions 'Old Reliable' Hullplates",
+  "keywords": [
+    "command_trait",
+    "faction:kharadron_overlords"
+  ],
+  "effect": "This unit has **^^Ward (5+) against damage inflicted by shoot abilities.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "skyvessels",
+      "skyvessel"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

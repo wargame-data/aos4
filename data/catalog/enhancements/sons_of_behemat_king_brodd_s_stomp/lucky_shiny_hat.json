@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sons_of_behemat_king_brodd_s_stomp.lucky_shiny_hat",
+  "bsdataId": "d8e3-161c-407a-0810",
+  "type": "enhancement",
+  "name": "Lucky Shiny Hat",
+  "keywords": [
+    "artefact",
+    "faction:sons_of_behemat_king_brodd_s_stomp"
+  ],
+  "effect": "This unit has **^^Ward (4+)^^** against damage points inflicted by **^^Spell^^** and **^^Prayer^^** abilities and by abilities used by **^^Manifestations^^**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

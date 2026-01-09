@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords.lash_of_the_sire",
+  "bsdataId": "d123-cfa4-3a56-f785",
+  "type": "enhancement",
+  "name": "Lash of the Sire",
+  "keywords": [
+    "command_trait",
+    "faction:soulblight_gravelords"
+  ],
+  "effect": "Roll a dice. On a 2+:\n• If the target is not in combat, it can move D6\" but cannot move into combat during any part of the move. • If the target is in combat, it can make a pile-in move.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Hero Phase",
+  "declare": "Pick another friendly **^^Soulblight Gravelords^^** unit within this unit’s combat range to be the target.",
+  "color": "Yellow",
+  "abilityCategory": "Movement"
+}

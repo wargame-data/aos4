@@ -1,0 +1,24 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness.the_conquerers_crown",
+  "bsdataId": "89ca-29f-2a98-ee0d",
+  "type": "enhancement",
+  "name": "The Conquerer's Crown",
+  "keywords": [
+    "artefact",
+    "faction:slaves_to_darkness"
+  ],
+  "effect": "Subtract 5 from the control scores of enemy **^^Infantry^^** units while they are in combat with this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  }
+}

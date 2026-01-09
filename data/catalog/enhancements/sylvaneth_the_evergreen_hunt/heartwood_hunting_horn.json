@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sylvaneth_the_evergreen_hunt.heartwood_hunting_horn",
+  "bsdataId": "b8c6-45f4-45bb-5a6c",
+  "type": "enhancement",
+  "name": "Heartwood Hunting Horn",
+  "keywords": [
+    "artefact",
+    "faction:sylvaneth_the_evergreen_hunt"
+  ],
+  "effect": "You gain 1 chord.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle (Army), Any Hero Phase",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

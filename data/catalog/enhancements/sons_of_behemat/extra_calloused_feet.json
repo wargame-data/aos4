@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sons_of_behemat.extra_calloused_feet",
+  "bsdataId": "6a47-69fe-5956-5aa5",
+  "type": "enhancement",
+  "name": "Extra-Calloused Feet",
+  "keywords": [
+    "artefact",
+    "faction:sons_of_behemat"
+  ],
+  "effect": "Add 1 to the Attacks characteristic, Rend characteristic and Damage characteristic of this unit’s **Almighty Stomp** or **Almightier Stomp**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

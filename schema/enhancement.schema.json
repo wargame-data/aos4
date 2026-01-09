@@ -1,0 +1,119 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "title": "Enhancement",
+  "description": "An enhancement (artefact, command trait, mount trait) for the catalog",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^(warscroll|spell|prayer|enhancement|terrain|formation|manifestation)\\.[a-z0-9_]+\\.[a-z0-9_]+$"
+    },
+    "bsdataId": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "const": "enhancement"
+    },
+    "name": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "requirements": {
+      "type": "object",
+      "properties": {
+        "targetRequiresKeywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "targetForbidsKeywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "limits": {
+      "type": "object",
+      "properties": {
+        "perArmy": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "perTarget": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "timing": {
+      "type": "string"
+    },
+    "declare": {
+      "type": "string"
+    },
+    "effect": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string",
+      "enum": [
+        "Black",
+        "Blue",
+        "Gray",
+        "Green",
+        "Orange",
+        "Purple",
+        "Red",
+        "Yellow"
+      ]
+    },
+    "abilityCategory": {
+      "type": "string",
+      "enum": [
+        "Offensive",
+        "Defensive",
+        "Movement",
+        "Control",
+        "Special",
+        "Rallying",
+        "Shooting"
+      ]
+    },
+    "_meta": {
+      "type": "object",
+      "properties": {
+        "lastUpdated": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "id",
+    "bsdataId",
+    "type",
+    "name",
+    "keywords",
+    "effect"
+  ],
+  "additionalProperties": false
+}

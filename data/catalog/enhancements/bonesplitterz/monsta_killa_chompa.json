@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.bonesplitterz.monsta_killa_chompa",
+  "bsdataId": "d8e6-0a07-730f-7842",
+  "type": "enhancement",
+  "name": "Monsta-killa Chompa",
+  "keywords": [
+    "artefact",
+    "faction:bonesplitterz"
+  ],
+  "effect": "This unit has **^^Strike-first^^** while it is in combat with an enemy **^^Beast^^** or **^^Monster^^**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

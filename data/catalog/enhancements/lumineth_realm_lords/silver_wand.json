@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.lumineth_realm_lords.silver_wand",
+  "bsdataId": "1113-982b-c805-a7bd",
+  "type": "enhancement",
+  "name": "Silver Wand",
+  "keywords": [
+    "artefact",
+    "faction:lumineth_realm_lords"
+  ],
+  "effect": "If this unit is not a Wizard, it has **^^Wizard (1)^^**. Otherwise, add 1 to this unit’s power level.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

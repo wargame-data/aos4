@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.helsmiths_of_hashut.scroll_of_petrification",
+  "bsdataId": "0cd5-aab1-1121-8032",
+  "type": "enhancement",
+  "name": "Scroll of Petrification",
+  "keywords": [
+    "artefact",
+    "faction:helsmiths_of_hashut"
+  ],
+  "effect": "For the rest of the turn:\n• The target has **^^Ward (2+)^^**.\n• The target cannot use non-passive abilities or be picked to be the target of friendly abilities.\n• Enemy units can ignore the target’s combat range for the purposes of movement and charging.\n• Enemy units can ignore the target for the purposes of setting up on the battlefield but cannot be set up on the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any HeroPhase",
+  "declare": "Pick a friendly **^^Helsmiths of Hashut^^** unit wholly within 12\" of this unit to be the target.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

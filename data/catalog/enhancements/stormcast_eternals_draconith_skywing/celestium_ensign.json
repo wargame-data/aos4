@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.stormcast_eternals_draconith_skywing.celestium_ensign",
+  "bsdataId": "d186-e770-b107-6f05",
+  "type": "enhancement",
+  "name": "Celestium Ensign",
+  "keywords": [
+    "artefact",
+    "faction:stormcast_eternals_draconith_skywing"
+  ],
+  "effect": "**Heal (3)** each friendly **^^Draconith Skywing^^** unit wholly within 12\" of this unit",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle (Army), End of Any Turn",
+  "color": "Purple",
+  "abilityCategory": "Defensive"
+}

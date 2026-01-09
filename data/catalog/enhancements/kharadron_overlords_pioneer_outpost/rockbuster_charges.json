@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords_pioneer_outpost.rockbuster_charges",
+  "bsdataId": "2151-30f6-904a-61ec",
+  "type": "enhancement",
+  "name": "Rockbuster Charges",
+  "keywords": [
+    "artefact",
+    "faction:kharadron_overlords_pioneer_outpost"
+  ],
+  "effect": "Inflict D3 mortal damage on each target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Movement Phase",
+  "declare": "Pick a terrain feature that this unit passed across this turn. Each enemy unit within 1\" of that terrain feature is a target.",
+  "color": "Gray",
+  "abilityCategory": "Offensive"
+}

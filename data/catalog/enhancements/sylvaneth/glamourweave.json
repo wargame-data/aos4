@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sylvaneth.glamourweave",
+  "bsdataId": "06b8-9691-ac18-5c3a",
+  "type": "enhancement",
+  "name": "Glamourweave",
+  "keywords": [
+    "artefact",
+    "faction:sylvaneth"
+  ],
+  "effect": "Each phase, you can re-roll 1 hit roll, 1 wound roll and 1 save roll for this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Black",
+  "abilityCategory": "Special"
+}

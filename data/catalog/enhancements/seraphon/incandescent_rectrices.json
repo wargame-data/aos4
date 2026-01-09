@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.seraphon.incandescent_rectrices",
+  "bsdataId": "8512-c133-c055-2804",
+  "type": "enhancement",
+  "name": "Incandescent Rectrices",
+  "keywords": [
+    "artefact",
+    "faction:seraphon"
+  ],
+  "effect": "**Heal (D3)** this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Hero Phase",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

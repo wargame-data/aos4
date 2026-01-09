@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.cities_of_sigmar.glimmering",
+  "bsdataId": "98dc-9f8e-95e1-fc8e",
+  "type": "enhancement",
+  "name": "Glimmering",
+  "keywords": [
+    "artefact",
+    "faction:cities_of_sigmar"
+  ],
+  "effect": "Each phase, you can re-roll 1 hit roll, or 1 wound roll, or 1 save roll for this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Special"
+}

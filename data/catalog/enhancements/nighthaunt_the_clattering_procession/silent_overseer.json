@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.nighthaunt_the_clattering_procession.silent_overseer",
+  "bsdataId": "45fa-397d-f312-2b13",
+  "type": "enhancement",
+  "name": "Silent Overseer",
+  "keywords": [
+    "command_trait",
+    "faction:nighthaunt_the_clattering_procession"
+  ],
+  "effect": "For the rest of the turn, the targets can use **^^Charge^^** abilities even if they used a **^^Retreat^^** ability in the same turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Charge Phase",
+  "declare": "Pick up to 3 friendly **^^Clattering Procession^^** units wholly within 12\" of this unit to be the targets.",
+  "color": "Orange",
+  "abilityCategory": "Movement"
+}

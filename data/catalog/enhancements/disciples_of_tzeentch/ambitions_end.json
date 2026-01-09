@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.disciples_of_tzeentch.ambitions_end",
+  "bsdataId": "a859-336a-edc8-3e5f",
+  "type": "enhancement",
+  "name": "Ambition's End",
+  "keywords": [
+    "artefact",
+    "faction:disciples_of_tzeentch"
+  ],
+  "effect": "Inflict D3 mortal damage on the target. In addition, subtract 1 from casting rolls for the target for the rest of the battle.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Combat Phase",
+  "declare": "Pick an enemy **^^Wizard^^** in combat with this unit to be the target.",
+  "color": "Red",
+  "abilityCategory": "Special"
+}

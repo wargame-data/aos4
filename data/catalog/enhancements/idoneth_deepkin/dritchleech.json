@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.idoneth_deepkin.dritchleech",
+  "bsdataId": "28b7-bd66-911d-348e",
+  "type": "enhancement",
+  "name": "Dritchleech",
+  "keywords": [
+    "artefact",
+    "faction:idoneth_deepkin"
+  ],
+  "effect": "Subtract 1 from casting rolls for enemy **^^Wizards^^** while they are within 18\" of this unit. In addition, each time an enemy spell fails, after that ability has been resolved, **Heal (1)** this unit",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

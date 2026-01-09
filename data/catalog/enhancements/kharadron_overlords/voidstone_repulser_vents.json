@@ -1,0 +1,25 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords.voidstone_repulser_vents",
+  "bsdataId": "827f-ea2c-7bf0-b6a4",
+  "type": "enhancement",
+  "name": "Voidstone Repulser Vents",
+  "keywords": [
+    "command_trait",
+    "faction:kharadron_overlords"
+  ],
+  "effect": "Roll a dice. On a 4+:\n• Ignore the effect of that spell on that friendly unit.\n• Inflict D3 mortal damage on the caster.\nThis unit can use this ability more than once per phase but you can only roll once for each friendly unit per spell cast.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "skyvessels",
+      "skyvessel"
+    ]
+  },
+  "timing": "Reaction: A friendly unit within 12\" of this unit was picked to be the target of an enemy **^^Spell^^** ability.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

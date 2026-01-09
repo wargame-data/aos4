@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.blades_of_khorne_the_baleful_lords.unrivalled_battlelust",
+  "bsdataId": "0752-4ae4-ce7d-530d",
+  "type": "enhancement",
+  "name": "Unrivalled Battlelust",
+  "keywords": [
+    "command_trait",
+    "faction:blades_of_khorne_the_baleful_lords"
+  ],
+  "effect": "For the rest of the turn, add 1 to the Attacks characteristic of friendly **^^Baleful Lords^^** units while they are wholly within 12\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle (Army), Any Combat Phase",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

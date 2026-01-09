@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness.infernal_puppet",
+  "bsdataId": "e71c-c9f0-5cd-f497",
+  "type": "enhancement",
+  "name": "Infernal Puppet",
+  "keywords": [
+    "artefact",
+    "faction:slaves_to_darkness"
+  ],
+  "effect": "For the rest of the turn, each time the target is picked to use a **^^Spell^^** ability, inflict D3 mortal damage on the target as a reaction. If the target is destroyed by this ability, do not resolve the effect of that **^^Spell^^** ability.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Start of Any Turn",
+  "declare": "Pick a visible enemy **^^Wizard^^** within 24\" of this unit to be the target.",
+  "color": "Black",
+  "abilityCategory": "Offensive"
+}

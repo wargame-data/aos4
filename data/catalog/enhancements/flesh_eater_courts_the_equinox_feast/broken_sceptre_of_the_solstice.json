@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.flesh_eater_courts_the_equinox_feast.broken_sceptre_of_the_solstice",
+  "bsdataId": "6a8c-5f84-2e35-abb8",
+  "type": "enhancement",
+  "name": "Broken Sceptre of the Solstice",
+  "keywords": [
+    "artefact",
+    "faction:flesh_eater_courts_the_equinox_feast"
+  ],
+  "effect": "Set up a replacement unit identical to the target wholly within 6\" of a friendly **^^Equinox Feast^^** unit and more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Movement Phase",
+  "declare": "Pick a friendly **^^Equinox Feast^^** unit that has been destroyed to be the target. This unit can use this ability if it has been destroyed, but if it does, this unit must be the target.",
+  "color": "Gray",
+  "abilityCategory": "Rallying"
+}

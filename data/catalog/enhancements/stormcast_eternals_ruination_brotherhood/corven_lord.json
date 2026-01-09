@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.stormcast_eternals_ruination_brotherhood.corven_lord",
+  "bsdataId": "1880-9012-887e-cc52",
+  "type": "enhancement",
+  "name": "Corven Lord",
+  "keywords": [
+    "command_trait",
+    "faction:stormcast_eternals_ruination_brotherhood"
+  ],
+  "effect": "If this unit has the ‘Ruination Chamber’, ability, it can use that ability once per turn regardless of whether another friendly unit has used it during the same turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Black",
+  "abilityCategory": "Defensive"
+}

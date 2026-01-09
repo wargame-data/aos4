@@ -19,6 +19,14 @@ export {
   type SpellRequirements,
 } from "./schemas/spell.schema.js";
 
+// Enhancement schema
+export {
+  enhancementSchema,
+  type Enhancement,
+  type EnhancementRequirements,
+  type EnhancementLimits,
+} from "./schemas/enhancement.schema.js";
+
 // Points pack schema
 export {
   pointsPackSchema,

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.maggotkin_of_nurgle.gift_of_febrile_frenzy",
+  "bsdataId": "a08b-65ce-9d03-f7ef",
+  "type": "enhancement",
+  "name": "Gift of Febrile Frenzy",
+  "keywords": [
+    "command_trait",
+    "faction:maggotkin_of_nurgle"
+  ],
+  "effect": "Add 1\" to the Move characteristic of friendly **^^Maggotkin of Nurgle^^** units that do not have **^^Fly^^** if they are wholly within 12\" of this unit at the start of the move.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Gray",
+  "abilityCategory": "Movement"
+}

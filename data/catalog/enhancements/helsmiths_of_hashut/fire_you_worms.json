@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.helsmiths_of_hashut.fire_you_worms",
+  "bsdataId": "d390-1046-9ce8-e5d6",
+  "type": "enhancement",
+  "name": "'Fire, You Worms!'",
+  "keywords": [
+    "command_trait",
+    "faction:helsmiths_of_hashut"
+  ],
+  "effect": "The target can immediately use the 'Shoot' ability as if it were your shooting phase. All attacks must target the same enemy unit, and the enemy unit picked to be the target of the attacks must have charged this phase. If the unmodified hit roll for any of those attacks is 1-5, the attack fails and the attack sequence ends.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Enemy Charge Phase",
+  "declare": "Pick a friendly **^^Helsmiths of Hashut Infantry^^** unit that is not in combat and is wholly within 12\" of this unit to be the target.",
+  "color": "Orange",
+  "abilityCategory": "Shooting"
+}

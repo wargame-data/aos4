@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords.shrewd_opportunist",
+  "bsdataId": "f3b6-5434-f041-9b82",
+  "type": "enhancement",
+  "name": "Shrewd Opportunist",
+  "keywords": [
+    "command_trait",
+    "faction:kharadron_overlords"
+  ],
+  "effect": "Each target can immediately use the 'Normal Move' ability as if it were your movement phase.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Deployment Phase",
+  "declare": "Pick this unit and up to 2 other friendly **^^Kharadron Overlords^^** non-**^^Hero Infantry^^** units to be the targets.",
+  "color": "Black",
+  "abilityCategory": "Movement"
+}

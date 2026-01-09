@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.gloomspite_gitz_droggz_s_gitmob.stick_em_and_run",
+  "bsdataId": "0176-cf5f-4ec6-8c56",
+  "type": "enhancement",
+  "name": "Stick 'Em and Run",
+  "keywords": [
+    "command_trait",
+    "faction:gloomspite_gitz_droggz_s_gitmob"
+  ],
+  "effect": "Each time this unit uses a **^^Retreat^^** ability or the 'Frazzlegit's Flame Stream' ability, before moving this unit, pick an enemy unit in combat with it and roll a D3. On a 2+, inflict an amount of mortal damage in the target equal to the roll.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

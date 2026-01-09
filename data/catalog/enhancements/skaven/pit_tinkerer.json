@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.skaven.pit_tinkerer",
+  "bsdataId": "9187-3b0d-c30d-c407",
+  "type": "enhancement",
+  "name": "Pit Tinkerer",
+  "keywords": [
+    "command_trait",
+    "faction:skaven"
+  ],
+  "effect": "You can re-roll the random characteristic rolls for the Move characteristic of friendly **^^Skryre War Machines^^** while they are wholly within 13\" of this unit. In addition, each time a friendly **^^Skryre War Machine^^** wholly within 18\" of this unit uses the ‘Rolling Doom’ or ‘Whirling Doom’ ability, add 1 to the amount of mortal damage inflicted, if any.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Black",
+  "abilityCategory": "Special"
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ironjawz.mad_un",
+  "bsdataId": "5001-cf12-81c8-e839",
+  "type": "enhancement",
+  "name": "Mad 'Un",
+  "keywords": [
+    "mount_trait",
+    "faction:ironjawz"
+  ],
+  "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any models are slain by this ability, after those models are removed from the battlefield, if this unit is still in combat, this unit can immediately use this ability again.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "monsters"
+    ]
+  },
+  "timing": "Once Per Turn (Army), Any Combat Phase",
+  "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
+  "color": "Red",
+  "abilityCategory": "Defensive"
+}

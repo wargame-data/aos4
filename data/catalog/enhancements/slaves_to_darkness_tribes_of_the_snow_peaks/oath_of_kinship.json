@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness_tribes_of_the_snow_peaks.oath_of_kinship",
+  "bsdataId": "3653-7b1b-135d-f092",
+  "type": "enhancement",
+  "name": "Oath of Kinship",
+  "keywords": [
+    "command_trait",
+    "faction:slaves_to_darkness_tribes_of_the_snow_peaks"
+  ],
+  "effect": "While this unit is within the combat range of another friendly **^^Snow Peaks^^** unit, add 1 to hit rolls for this unit’s attacks.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

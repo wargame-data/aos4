@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.nighthaunt_the_eternal_nightmare.damned_vessel",
+  "bsdataId": "1d7b-8e5c-2197-524c",
+  "type": "enhancement",
+  "name": "Damned Vessel",
+  "keywords": [
+    "command_trait",
+    "faction:nighthaunt_the_eternal_nightmare"
+  ],
+  "effect": "Measure the range and visibility of that **^^Spell^^** ability from this unit instead of that **Nagash**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Reaction: You declared a **^^Spell^^** ability for a friendly **Nagash** within 18\" of this unit",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

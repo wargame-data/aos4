@@ -1,0 +1,23 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.seraphon.titan_of_the_land",
+  "bsdataId": "100d-3876-65f9-ec3c",
+  "type": "enhancement",
+  "name": "Titan of the Land",
+  "keywords": [
+    "mount_trait",
+    "faction:seraphon"
+  ],
+  "effect": "This unit counts as a terrain piece for the purpose of picking targets for the friendly **Realmshaper Engine**’s ‘Power Unleashed’ ability. Do not inflict any mortal damage on this unit as part of that ability",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "monsters"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

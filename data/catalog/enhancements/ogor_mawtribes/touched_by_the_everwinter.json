@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ogor_mawtribes.touched_by_the_everwinter",
+  "bsdataId": "af2-467a-2ba3-229d",
+  "type": "enhancement",
+  "name": "Touched by the Everwinter",
+  "keywords": [
+    "mount_trait",
+    "faction:ogor_mawtribes"
+  ],
+  "effect": "If this unit is not a **^^Priest^^**, it has **^^Priest (1)^^**. If this unit is already a **^^Priest^^**, you can re-roll chanting rolls of 1 for it instead. If this unit is a **^^Wizard^^**, it cannot use **^^Spell^^** abilities and **^^Prayer^^** abilities in the same phase.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

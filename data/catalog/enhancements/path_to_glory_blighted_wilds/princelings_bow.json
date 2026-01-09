@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_blighted_wilds.princelings_bow",
+  "bsdataId": "f768-6372-2f7b-e57f",
+  "type": "enhancement",
+  "name": "Princeling's Bow",
+  "keywords": [
+    "artefact",
+    "faction:path_to_glory_blighted_wilds"
+  ],
+  "effect": "Roll 3 dice. For each 4+, inflict 1 mortal damage on the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "timing": "Any Shooting Phase",
+  "declare": "If this unit is not in combat, pick a visible enemy unit within 18\" of it to be the target.",
+  "color": "Blue",
+  "abilityCategory": "Shooting"
+}

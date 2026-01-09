@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_ravaged_coast.axe_of_boiling_wrath",
+  "bsdataId": "7275-5924-1b89-7407",
+  "type": "enhancement",
+  "name": "Axe of Boiling Wrath",
+  "keywords": [
+    "artefact",
+    "faction:path_to_glory_ravaged_coast"
+  ],
+  "effect": "For the rest of the battle, while this unit is in combat with the target:\n• All of this unit's attacks must target that **^^Hero^^**.\n• Add 1 to wound rolls for this unit's combat attacks.\n• This unit's melee weapons have **Anti-^^Hero^^ (+1 Rend)**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "timing": "Deployment Phase",
+  "declare": "Pick an enemy **^^Hero^^** to be the target.",
+  "color": "Black",
+  "abilityCategory": "Offensive"
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kruleboyz.sneaky_un",
+  "bsdataId": "c995-6a82-20ed-09ba",
+  "type": "enhancement",
+  "name": "Sneaky 'Un",
+  "keywords": [
+    "mount_trait",
+    "faction:kruleboyz"
+  ],
+  "effect": "This unit can use the 'Normal Move' or 'Retreat' ability as if it were your movement phase. In addition, no mortal damage is inflicted on this unit by **^^Retreat^^** abilities this phase.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "monsters"
+    ]
+  },
+  "timing": "Once Per Battle, Enemy Hero Phase",
+  "color": "Yellow",
+  "abilityCategory": "Movement"
+}

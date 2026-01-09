@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kruleboyz.eye_biter_ash",
+  "bsdataId": "ca1c-f1f1-ed88-1c2b",
+  "type": "enhancement",
+  "name": "Eye-biter Ash",
+  "keywords": [
+    "artefact",
+    "faction:kruleboyz"
+  ],
+  "effect": "Subtract 1 from hit rolls and wound rolls for the target's attacks for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Combat Phase",
+  "declare": "Pick an enemy unit in combat with this unit to be the target.",
+  "color": "Red",
+  "abilityCategory": "Defensive"
+}

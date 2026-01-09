@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ironjawz_zoggrok_s_ironmongerz.da_great_wollopa",
+  "bsdataId": "1e4f-3741-df96-6eaa",
+  "type": "enhancement",
+  "name": "Da Great Wollopa",
+  "keywords": [
+    "artefact",
+    "faction:ironjawz_zoggrok_s_ironmongerz"
+  ],
+  "effect": "If any damage points are allocated to an enemy unit by attacks made by this unit, that enemy unit is **krump'd** until the start of your next turn.\nWhile a unit is **krump'd**: • Subtract 1 for save rolls for that unit.\n• Ignore positive modifiers to save rolls for that unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

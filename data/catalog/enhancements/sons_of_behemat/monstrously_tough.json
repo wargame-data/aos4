@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sons_of_behemat.monstrously_tough",
+  "bsdataId": "8ca2-88cb-a124-f1cb",
+  "type": "enhancement",
+  "name": "Monstrously Tough",
+  "keywords": [
+    "command_trait",
+    "faction:sons_of_behemat"
+  ],
+  "effect": "This unit has a Health characteristic of 40 instead of 35.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

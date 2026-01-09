@@ -1,0 +1,23 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.helsmiths_of_hashut.greed_pistons",
+  "bsdataId": "8f46-4718-0522-1964",
+  "type": "enhancement",
+  "name": "Greed Pistons",
+  "keywords": [
+    "artefact",
+    "faction:helsmiths_of_hashut"
+  ],
+  "effect": "When making charge rolls for this unit, add 1 to the number of dice rolled, to a maximum of 3, then remove 1 dice of your choice and use the remaining dice as the charge roll.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "war_machine"
+    ]
+  },
+  "color": "Orange",
+  "abilityCategory": "Movement"
+}

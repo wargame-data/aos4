@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.flesh_eater_courts.the_grisly_pennant",
+  "bsdataId": "2f1e-638e-7ac8-61e7",
+  "type": "enhancement",
+  "name": "The Grisly Pennant",
+  "keywords": [
+    "artefact",
+    "faction:flesh_eater_courts"
+  ],
+  "effect": "Roll a dice. If the roll is greater than the target's control characteristic or is a 6, the following effects apply for the rest of the turn:\n• Subtract 1 from hit rolls for the target's combat attacks.\n• Add 1 to hit rolls for combat attacks made by friendly units that target that enemy unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Combat Phase",
+  "declare": "If this unit charged this phase, pick an enemy unit in combat with it to be the target.",
+  "color": "Red",
+  "abilityCategory": "Special"
+}

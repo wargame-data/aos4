@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.gloomspite_gitz.the_clammy_cowl",
+  "bsdataId": "c827-f0c0-717d-1116",
+  "type": "enhancement",
+  "name": "The Clammy Cowl",
+  "keywords": [
+    "artefact",
+    "faction:gloomspite_gitz"
+  ],
+  "effect": "Subtract 1 from hit rolls for attacks that target this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

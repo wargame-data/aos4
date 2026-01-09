@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_blighted_wilds.arcane_disruptor",
+  "bsdataId": "1018-38c0-af1f-2e24",
+  "type": "enhancement",
+  "name": "Arcane Disruptor",
+  "keywords": [
+    "command_trait",
+    "faction:path_to_glory_blighted_wilds"
+  ],
+  "effect": "Roll a dice. On a 5+, the target is banished.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "timing": "Any Movement Phase",
+  "declare": "Pick a **^^Manifestation^^** within 6\" of this unit to be the target.",
+  "color": "Gray",
+  "abilityCategory": "Special"
+}

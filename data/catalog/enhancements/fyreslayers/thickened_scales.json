@@ -1,0 +1,23 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.fyreslayers.thickened_scales",
+  "bsdataId": "e35a-5623-823b-c60a",
+  "type": "enhancement",
+  "name": "Thickened Scales",
+  "keywords": [
+    "artefact",
+    "faction:fyreslayers"
+  ],
+  "effect": "Subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "magmadroths"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

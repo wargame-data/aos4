@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords.blazebeard_and_sons_bamboozling_flakgun",
+  "bsdataId": "1fa-68fd-b016-234d",
+  "type": "enhancement",
+  "name": "Blazebeard and Sons Bamboozling Flakgun",
+  "keywords": [
+    "artefact",
+    "faction:kharadron_overlords"
+  ],
+  "effect": "Pick 1 dice in that charge roll. Then, make a **bamboozling flak roll** of D6. If the roll equals or exceeds the value on the dice, remove that dice from the charge roll.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Turn, Reaction: Opponent declared a **^^Charge^^** ability for a unit within 12\" of this unit.",
+  "color": "Orange",
+  "abilityCategory": "Movement"
+}

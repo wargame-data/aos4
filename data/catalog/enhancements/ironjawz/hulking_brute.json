@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ironjawz.hulking_brute",
+  "bsdataId": "ebbf-ad8f-14de-47d1",
+  "type": "enhancement",
+  "name": "Hulking Brute",
+  "keywords": [
+    "command_trait",
+    "faction:ironjawz"
+  ],
+  "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If this unit’s unmodified charge roll this turn was 8+, roll a D6 instead of a D3.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Charge Phase",
+  "declare": "If this unit charged this turn, pick an enemy unit within 1\" of it to be the target.",
+  "color": "Orange",
+  "abilityCategory": "Offensive"
+}

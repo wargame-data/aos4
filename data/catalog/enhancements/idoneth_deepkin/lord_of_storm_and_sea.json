@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.idoneth_deepkin.lord_of_storm_and_sea",
+  "bsdataId": "7fdc-077d-7905-24f6",
+  "type": "enhancement",
+  "name": "Lord of Storm and Sea",
+  "keywords": [
+    "command_trait",
+    "faction:idoneth_deepkin"
+  ],
+  "effect": "Each time an ability returns at least 1 slain model to a friendly unit wholly within 12\" of this unit, after that ability has been resolved, you can return 1 additional slain model to it.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Black",
+  "abilityCategory": "Rallying"
+}

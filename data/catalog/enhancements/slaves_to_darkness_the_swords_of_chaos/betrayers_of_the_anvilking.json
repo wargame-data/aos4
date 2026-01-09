@@ -1,0 +1,18 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness_the_swords_of_chaos.betrayers_of_the_anvilking",
+  "bsdataId": "dbf0-20dd-56ff-b0b",
+  "type": "enhancement",
+  "name": "Betrayers of the Anvilking",
+  "keywords": [
+    "command_trait",
+    "faction:slaves_to_darkness_the_swords_of_chaos"
+  ],
+  "effect": "This unit has **^^Ward (6+)^^**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

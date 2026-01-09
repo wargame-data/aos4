@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.lumineth_realm_lords.flawless_commander",
+  "bsdataId": "de7a-3534-8d52-7949",
+  "type": "enhancement",
+  "name": "Flawless Commander",
+  "keywords": [
+    "command_trait",
+    "faction:lumineth_realm_lords"
+  ],
+  "effect": "Add 2\" to the Move characteristic of friendly **^^Lumineth Realm-lords Infantry^^** units while they are wholly within 12\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Gray",
+  "abilityCategory": "Movement"
+}

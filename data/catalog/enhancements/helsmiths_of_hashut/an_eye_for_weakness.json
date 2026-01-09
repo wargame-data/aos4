@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.helsmiths_of_hashut.an_eye_for_weakness",
+  "bsdataId": "3dda-ab2a-5e2e-cf4e",
+  "type": "enhancement",
+  "name": "An Eye for Weakness",
+  "keywords": [
+    "command_trait",
+    "faction:helsmiths_of_hashut"
+  ],
+  "effect": "Until the start of your next turn, add 1 to wound rolls for combat attacks made by friendly **^^Helsmiths of Hashut^^** units that target that enemy unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Hero Phase",
+  "declare": "Pick a visible enemy unit within 18\" of this unit to be the target.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords.a_wastrel_and_a_vagabond",
+  "bsdataId": "5593-00c4-6a32-1015",
+  "type": "enhancement",
+  "name": "A Wastrel and a Vagabond",
+  "keywords": [
+    "command_trait",
+    "faction:soulblight_gravelords"
+  ],
+  "effect": "While a friendly **Deadwalker Zombies** or **Deathrattle Skeletons** unit is wholly within 12\" of this unit:\n• Add 2 to run rolls for that unit.\n• Add 3\" to the distance that unit can move when it piles in.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Black",
+  "abilityCategory": "Movement"
+}

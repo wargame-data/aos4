@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.skaven.short_tempered",
+  "bsdataId": "ae10-7478-7f72-642a",
+  "type": "enhancement",
+  "name": "Short-tempered",
+  "keywords": [
+    "command_trait",
+    "faction:skaven"
+  ],
+  "effect": "Add 1 to run rolls and charge rolls for friendly **^^Skaven^^** units while they are wholly within 13\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Black",
+  "abilityCategory": "Movement"
+}

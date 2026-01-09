@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.beasts_of_chaos.brayblast_trumpet",
+  "bsdataId": "d9bc-4a02-7d84-b116",
+  "type": "enhancement",
+  "name": "Brayblast Trumpet",
+  "keywords": [
+    "artefact",
+    "faction:beasts_of_chaos"
+  ],
+  "effect": "Roll a dice. On a 4+, set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of a battlefield edge and more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Movement Phase",
+  "declare": "Pick a friendly non-**^^Unique Beasts of Chaos Infantry^^** or **^^Cavalry^^** unit that started the battle with 2 or more models and that has been destroyed to be the target.",
+  "color": "Gray",
+  "abilityCategory": "Rallying"
+}

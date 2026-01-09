@@ -1,0 +1,24 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.disciples_of_tzeentch_pyrofane_cult.loonstone_medallion",
+  "bsdataId": "e755-fa02-85c6-d72f",
+  "type": "enhancement",
+  "name": "Loonstone Medallion",
+  "keywords": [
+    "artefact",
+    "faction:disciples_of_tzeentch_pyrofane_cult"
+  ],
+  "effect": "This unit has **^^Ward (6+)^^**. While this unit his contesting an objective that is not being coned by any other friendly units, it has **^^Ward (5+)^^**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  }
+}

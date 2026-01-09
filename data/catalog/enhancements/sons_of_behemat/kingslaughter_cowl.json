@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sons_of_behemat.kingslaughter_cowl",
+  "bsdataId": "af21-2013-aa28-2bb4",
+  "type": "enhancement",
+  "name": "Kingslaughter Cowl",
+  "keywords": [
+    "artefact",
+    "faction:sons_of_behemat"
+  ],
+  "effect": "Add 1 to the Attacks characteristic of this unit’s melee weapons while this unit is in combat with an enemy **^^Hero^^**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

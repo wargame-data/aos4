@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.idoneth_deepkin.hunter_of_souls",
+  "bsdataId": "d33f-284c-ef6d-f527",
+  "type": "enhancement",
+  "name": "Hunter of Souls",
+  "keywords": [
+    "command_trait",
+    "faction:idoneth_deepkin"
+  ],
+  "effect": "Pick 1 of the following weapon abilities for this unit’s melee weapons to have\nthis battle:\n• **Anti-^^Cavalry^^ (+1 Rend)**\n• **Anti-^^Infantry^^(+1 Rend)**\n• **Anti-^^Monster^^(+1 Rend)**",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Black",
+  "abilityCategory": "Offensive"
+}

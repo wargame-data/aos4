@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords_scions_of_nulahmia.keeper_of_the_royal_menagerie",
+  "bsdataId": "cad1-9fe2-cbaa-eaf6",
+  "type": "enhancement",
+  "name": "Keeper of the Royal Menagerie",
+  "keywords": [
+    "command_trait",
+    "faction:soulblight_gravelords_scions_of_nulahmia"
+  ],
+  "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Hero Phase",
+  "declare": "Pick a friendly **Dire Wolves** or **Fell Bats** unit that has been destroyed to be the target.",
+  "color": "Yellow",
+  "abilityCategory": "Rallying"
+}

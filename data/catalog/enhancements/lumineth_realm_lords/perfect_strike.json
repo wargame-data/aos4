@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.lumineth_realm_lords.perfect_strike",
+  "bsdataId": "5378-7875-43c4-4eb1",
+  "type": "enhancement",
+  "name": "Perfect Strike",
+  "keywords": [
+    "command_trait",
+    "faction:lumineth_realm_lords"
+  ],
+  "effect": "Inflict D3+3 mortal damage on the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Combat Phase",
+  "declare": "Pick an enemy unit in combat with this unit to be the target.",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords_knights_of_the_crimson_keep.chalice_of_the_blood_dragon",
+  "bsdataId": "7a06-ae07-806c-2800",
+  "type": "enhancement",
+  "name": "Chalice of the Blood Dragon",
+  "keywords": [
+    "artefact",
+    "faction:soulblight_gravelords_knights_of_the_crimson_keep"
+  ],
+  "effect": "**Heal (3D3)** this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, End of Any Turn",
+  "color": "Purple",
+  "abilityCategory": "Defensive"
+}

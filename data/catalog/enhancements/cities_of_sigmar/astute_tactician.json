@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.cities_of_sigmar.astute_tactician",
+  "bsdataId": "0b83-ed62-ae41-a335",
+  "type": "enhancement",
+  "name": "Astute Tactician",
+  "keywords": [
+    "command_trait",
+    "faction:cities_of_sigmar"
+  ],
+  "effect": "For the rest of the turn, add 1 to charge rolls for the target and add 2 to run rolls for the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Hero Phase",
+  "declare": "Pick a friendly **^^Cities of Sigmar^^** unit wholly within 12\" of this unit to be the target.",
+  "color": "Yellow",
+  "abilityCategory": "Movement"
+}

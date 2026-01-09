@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.beasts_of_chaos.bestial_cunning",
+  "bsdataId": "d48d-a730-b981-b286",
+  "type": "enhancement",
+  "name": "Bestial Cunning",
+  "keywords": [
+    "command_trait",
+    "faction:beasts_of_chaos"
+  ],
+  "effect": "Each target can immediately move D3\". The targets cannot move into combat during any part of that move.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Movement Phase",
+  "declare": "Pick up to 3 friendly **^^Beasts of Chaos^^** units wholly within 12\" of this unit that were set up this turn using the ‘Beastherd Ambush’ ability to be the targets.",
+  "color": "Gray",
+  "abilityCategory": "Movement"
+}

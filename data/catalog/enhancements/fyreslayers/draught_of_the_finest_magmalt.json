@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.fyreslayers.draught_of_the_finest_magmalt",
+  "bsdataId": "3467-5875-55a2-8c32",
+  "type": "enhancement",
+  "name": "Draught of the Finest Magmalt",
+  "keywords": [
+    "artefact",
+    "faction:fyreslayers"
+  ],
+  "effect": "Add 3 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Combat Phase",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

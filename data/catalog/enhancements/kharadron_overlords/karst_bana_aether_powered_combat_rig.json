@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords.karst_bana_aether_powered_combat_rig",
+  "bsdataId": "dc9b-c3a9-63ef-7166",
+  "type": "enhancement",
+  "name": "Karst-Bana Aether-Powered Combat Rig",
+  "keywords": [
+    "artefact",
+    "faction:kharadron_overlords"
+  ],
+  "effect": "This unit has **^^Ward (5+)^^**. In addition, add 1 to the Attacks characteristic of this unit's melee weapons.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Special"
+}

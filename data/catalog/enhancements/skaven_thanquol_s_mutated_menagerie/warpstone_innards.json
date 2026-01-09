@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.skaven_thanquol_s_mutated_menagerie.warpstone_innards",
+  "bsdataId": "ae69-85d2-87b3-956c",
+  "type": "enhancement",
+  "name": "Warpstone Innards",
+  "keywords": [
+    "artefact",
+    "faction:skaven_thanquol_s_mutated_menagerie"
+  ],
+  "effect": "Add 1 to the Attacks characteristic of the target's melee weapons for the rest of the battle. However, at the end of each turn, allocate D3 damage points to the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Hero Phase",
+  "declare": "Pick a friendly non-**^^Hero Mutated Menagerie Monster^^** unit wholly within 13\" of this unit to be the target.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

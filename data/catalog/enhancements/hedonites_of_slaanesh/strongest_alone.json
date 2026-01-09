@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.hedonites_of_slaanesh.strongest_alone",
+  "bsdataId": "e233-e686-52f-d61e",
+  "type": "enhancement",
+  "name": "Strongest Alone",
+  "keywords": [
+    "command_trait",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "effect": "Add 1 to hit rolls and wound rolls for this unit’s attacks while it is more than 6\" from all other friendly units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

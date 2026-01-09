@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.maggotkin_of_nurgle.unctuous_preacher",
+  "bsdataId": "ca13-8d57-a8a7-4c3f",
+  "type": "enhancement",
+  "name": "Unctuous Preacher",
+  "keywords": [
+    "artefact",
+    "faction:maggotkin_of_nurgle"
+  ],
+  "effect": "If this unit is not a **^^Priest^^**, it has **^^Priest (1)^^**. If this unit is already a **^^Priest^^**, add 1 to chanting rolls for this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

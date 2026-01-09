@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.fyreslayers_lofnir_drothkeepers.raised_around_beasts",
+  "bsdataId": "d797-4be9-6d32-1917",
+  "type": "enhancement",
+  "name": "Raised Around Beasts",
+  "keywords": [
+    "command_trait",
+    "faction:fyreslayers_lofnir_drothkeepers"
+  ],
+  "effect": "The melee weapons of friendly non-**^^Monster^^** units have Anti-**^^Monster^^** (+1 Rend) while they are wholly within 9\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

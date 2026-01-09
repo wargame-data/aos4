@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.skaven.warpstone_charm",
+  "bsdataId": "ef94-2868-cd8b-64e8",
+  "type": "enhancement",
+  "name": "Warpstone Charm",
+  "keywords": [
+    "artefact",
+    "faction:skaven"
+  ],
+  "effect": "Roll a dice. On a 3+, subtract 1 from save rolls for the target for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Combat Phase",
+  "declare": "Pick an enemy unit in combat with this unit to be the target.",
+  "color": "Red",
+  "abilityCategory": "Defensive"
+}

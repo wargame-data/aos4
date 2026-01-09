@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ogor_mawtribes.booming_roar",
+  "bsdataId": "c080-e0a1-5c1d-a5ec",
+  "type": "enhancement",
+  "name": "Booming Roar",
+  "keywords": [
+    "mount_trait",
+    "faction:ogor_mawtribes"
+  ],
+  "effect": "Subtract 5 from the control scores of enemy **^^Infantry^^** units while they are in combat with this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Purple",
+  "abilityCategory": "Control"
+}

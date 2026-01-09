@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ossiarch_bonereapers.mighty_archaeossian",
+  "bsdataId": "9196-c14c-15aa-4efb",
+  "type": "enhancement",
+  "name": "Mighty Archaeossian",
+  "keywords": [
+    "command_trait",
+    "faction:ossiarch_bonereapers"
+  ],
+  "effect": "If the unmodified hit roll for an attack that targets this unit is 1-3, the attack fails and the attack sequence ends.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

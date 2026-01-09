@@ -1,0 +1,24 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.helsmiths_of_hashut.overdrive_switch",
+  "bsdataId": "04dc-9e32-d512-8e91",
+  "type": "enhancement",
+  "name": "Overdrive Switch",
+  "keywords": [
+    "artefact",
+    "faction:helsmiths_of_hashut"
+  ],
+  "effect": "For the rest of the phase:\n• Add 1 to hit rolls for this unit’s attacks, including those made with **Companion** weapons, that target an enemy unit within 9\" of it.\n• Each time an unmodified hit roll for an attack made by this unit is 1, allocate 1 damage point to this unit after the Attack ability has been resolved (ward rolls cannot be made for those damage points).",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "war_machine"
+    ]
+  },
+  "timing": "Once Per Turn (Army), Reaction: You declared an **^^Attack^^** ability for this unit",
+  "color": "Black",
+  "abilityCategory": "Offensive"
+}

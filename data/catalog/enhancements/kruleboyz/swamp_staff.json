@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kruleboyz.swamp_staff",
+  "bsdataId": "5de9-40cd-6c87-601e",
+  "type": "enhancement",
+  "name": "Swamp Staff",
+  "keywords": [
+    "artefact",
+    "faction:kruleboyz"
+  ],
+  "effect": "If this unit is not a **^^Wizard^^**, it can use the ‘Unbind’ ability as if it had **^^Wizard (1)^^**. Otherwise, add 1 to this unit’s power level.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

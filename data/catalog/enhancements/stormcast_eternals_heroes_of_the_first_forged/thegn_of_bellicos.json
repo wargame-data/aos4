@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.stormcast_eternals_heroes_of_the_first_forged.thegn_of_bellicos",
+  "bsdataId": "dab7-5eb3-03e5-1deb",
+  "type": "enhancement",
+  "name": "Thegn of Bellicos",
+  "keywords": [
+    "command_trait",
+    "faction:stormcast_eternals_heroes_of_the_first_forged"
+  ],
+  "effect": "Add 1 to the Attacks characteristic of this unit’s melee weapons while it is wholly within 6\" of a friendly **Bastian Carthalos**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

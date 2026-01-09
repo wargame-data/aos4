@@ -1,0 +1,24 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.fyreslayers.peerless_lineage",
+  "bsdataId": "c445-1c10-be3f-bf72",
+  "type": "enhancement",
+  "name": "Peerless Lineage",
+  "keywords": [
+    "artefact",
+    "faction:fyreslayers"
+  ],
+  "effect": "You can pick another eligible unit to be a second target of that **^^Rampage^^** ability. If that ability requires a roll, you must roll for each target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "magmadroths"
+    ]
+  },
+  "timing": "Reaction: You declared a **^^Rampage^^** ability for this unit.",
+  "color": "Black",
+  "abilityCategory": "Special"
+}

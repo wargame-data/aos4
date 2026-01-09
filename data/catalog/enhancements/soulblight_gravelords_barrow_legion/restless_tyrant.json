@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords_barrow_legion.restless_tyrant",
+  "bsdataId": "a56d-200f-8ec5-8c23",
+  "type": "enhancement",
+  "name": "Restless Tyrant",
+  "keywords": [
+    "command_trait",
+    "faction:soulblight_gravelords_barrow_legion"
+  ],
+  "effect": "Add 2\" to the target's Move characteristic for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Movement Phase",
+  "declare": "Pick a friendly **^^Barrow Legion^^** unit wholly within 12\" of this unit to be the target.",
+  "color": "Gray",
+  "abilityCategory": "Movement"
+}

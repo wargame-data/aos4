@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.daughters_of_khaine.sevenfold_shadow",
+  "bsdataId": "29fc-e76-3032-a84f",
+  "type": "enhancement",
+  "name": "Sevenfold Shadow",
+  "keywords": [
+    "artefact",
+    "faction:daughters_of_khaine"
+  ],
+  "effect": "If this unit is not in combat, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Movement Phase",
+  "color": "Gray",
+  "abilityCategory": "Movement"
+}

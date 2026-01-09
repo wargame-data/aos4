@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.blades_of_khorne_gorechosen_champions.bloodmist_skull",
+  "bsdataId": "d79d-845b-25a1-8ecf",
+  "type": "enhancement",
+  "name": "Bloodmist Skull",
+  "keywords": [
+    "artefact",
+    "faction:blades_of_khorne_gorechosen_champions"
+  ],
+  "effect": "This unit has **^^Ward (3+)^^** against damage inflicted by shooting attacks.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

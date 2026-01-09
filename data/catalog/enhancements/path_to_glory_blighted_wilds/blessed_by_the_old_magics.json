@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_blighted_wilds.blessed_by_the_old_magics",
+  "bsdataId": "1c54-9e61-8f65-2e51",
+  "type": "enhancement",
+  "name": "Blessed by the Old Magics",
+  "keywords": [
+    "command_trait",
+    "faction:path_to_glory_blighted_wilds"
+  ],
+  "effect": "Change the casting roll for that spell to a value of 9 that cannot be modified. If that spell is unbound, inflict D6 mortal damage on the unit that used the **^^Unbind^^** ability.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "timing": "Once Per Battle, Reaction: You declared a **^^Spell^^** ability from the Lore of the Overgrown Wilds for a unit wholly within 6\" of this unit.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

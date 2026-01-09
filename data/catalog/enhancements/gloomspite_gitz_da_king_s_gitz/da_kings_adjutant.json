@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.gloomspite_gitz_da_king_s_gitz.da_kings_adjutant",
+  "bsdataId": "08c2-0848-7f23-2b3d",
+  "type": "enhancement",
+  "name": "Da King's Adjutant",
+  "keywords": [
+    "command_trait",
+    "faction:gloomspite_gitz_da_king_s_gitz"
+  ],
+  "effect": "Set up a replacement unit wholly within 12\" of a friendly **Bad Moon Loonshrine** and more than 3\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle (Army), End of Your Turn",
+  "declare": "You cannot use this ability and the **Bad Moon Loonshrine's** 'Moonclan Lairs' ability in the same turn. While this unit is within 12\" of a friendly **Bad Moon Loonshrine**, pick a friendly non-reinforced, non-**^^Hero^^**, non-**^^Monster King's Gitz^^** unit that has been destroyed to be the target.",
+  "color": "Purple",
+  "abilityCategory": "Rallying"
+}

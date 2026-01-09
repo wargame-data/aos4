@@ -1,0 +1,18 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_blighted_wilds.as_strong_as_an_ironoak",
+  "bsdataId": "480b-c2c6-54bb-7fa3",
+  "type": "enhancement",
+  "name": "As Strong as an Ironoak",
+  "keywords": [
+    "command_trait",
+    "faction:path_to_glory_blighted_wilds"
+  ],
+  "effect": "Add 2 to this unit's control score for each damage point it has.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "color": "Purple",
+  "abilityCategory": "Control"
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.stormcast_eternals.intense_piety",
+  "bsdataId": "6fae-625c-9a61-f904",
+  "type": "enhancement",
+  "name": "Intense Piety",
+  "keywords": [
+    "command_trait",
+    "faction:stormcast_eternals"
+  ],
+  "effect": "Roll a dice. On a 3+, subtract 1 from casting rolls and chanting rolls for the target until the start of your next turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Hero Phase",
+  "declare": "Pick a visible enemy **^^Priest^^** or **^^Wizard^^** within 18\" of this unit to be the target.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

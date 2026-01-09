@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sylvaneth.radiant_spirit",
+  "bsdataId": "c0bc-2a8-8f0b-b2f4",
+  "type": "enhancement",
+  "name": "Radiant Spirit",
+  "keywords": [
+    "command_trait",
+    "faction:sylvaneth"
+  ],
+  "effect": "Roll a dice. On a 3+, ignore the effect of that spell or prayer on that unit. This unit can use this ability more than once per phase but only once per **^^Spell^^** or **^^Prayer^^** ability.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Reaction: Opponent declared a **^^Spell^^** or **^^Prayer^^** ability",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

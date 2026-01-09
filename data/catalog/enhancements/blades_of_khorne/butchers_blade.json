@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.blades_of_khorne.butchers_blade",
+  "bsdataId": "7ec3-3828-3c35-bccf",
+  "type": "enhancement",
+  "name": "Butcher's Blade",
+  "keywords": [
+    "artefact",
+    "faction:blades_of_khorne"
+  ],
+  "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "End of Your Turn",
+  "declare": "Pick each enemy unit that had any damage points allocated to it this turn by this unit's combat attacks to be the targets.",
+  "color": "Purple",
+  "abilityCategory": "Offensive"
+}

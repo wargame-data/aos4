@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.daughters_of_khaine.bathed_in_blood",
+  "bsdataId": "cb01-f1d6-58d3-53e6",
+  "type": "enhancement",
+  "name": "Bathed in Blood",
+  "keywords": [
+    "command_trait",
+    "faction:daughters_of_khaine"
+  ],
+  "effect": "**Heal (3)** this unit if it is in combat.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "End of Any Turn",
+  "color": "Purple",
+  "abilityCategory": "Defensive"
+}

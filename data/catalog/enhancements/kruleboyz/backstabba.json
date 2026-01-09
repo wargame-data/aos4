@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kruleboyz.backstabba",
+  "bsdataId": "e5c6-347e-bdd4-8e46",
+  "type": "enhancement",
+  "name": "Backstabba",
+  "keywords": [
+    "command_trait",
+    "faction:kruleboyz"
+  ],
+  "effect": "Inflict D3 mortal damage on the target. Add 1 to the mortal damage inflicted for each friendly **^^Kruleboyz^^** unit in combat with the target in addition to the first two **^^Kruleboyz^^** units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "End of Any Turn",
+  "declare": "Pick an enemy **^^Hero^^** in combat with both this unit and another friendly **^^Kruleboyz^^** unit to be the target.",
+  "color": "Purple",
+  "abilityCategory": "Offensive"
+}

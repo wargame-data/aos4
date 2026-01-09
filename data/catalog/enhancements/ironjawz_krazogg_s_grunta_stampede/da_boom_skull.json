@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ironjawz_krazogg_s_grunta_stampede.da_boom_skull",
+  "bsdataId": "70fb-6515-f91f-9d3e",
+  "type": "enhancement",
+  "name": "Da Boom Skull",
+  "keywords": [
+    "artefact",
+    "faction:ironjawz_krazogg_s_grunta_stampede"
+  ],
+  "effect": "Pick an enemy unit in combat with that friendly unit to be the target and roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Reaction: You declared a command for a friendly **^^Grunta Stampede^^** unit wholly within 18\" of this unit",
+  "color": "Black",
+  "abilityCategory": "Offensive"
+}

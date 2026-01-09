@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.daughters_of_khaine.master_of_poisons",
+  "bsdataId": "5ad4-8280-a73a-4f87",
+  "type": "enhancement",
+  "name": "Master of Poisons",
+  "keywords": [
+    "command_trait",
+    "faction:daughters_of_khaine"
+  ],
+  "effect": "For the rest of the battle:\n• The target cannot be healed.\n• Slain models cannot be returned to the target unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "End of Any Turn",
+  "declare": "Pick an enemy unit that had any damage points allocated to it this turn by this unit’s combat attacks to be the target.",
+  "color": "Purple",
+  "abilityCategory": "Offensive"
+}

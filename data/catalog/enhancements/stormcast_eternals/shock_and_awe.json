@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.stormcast_eternals.shock_and_awe",
+  "bsdataId": "2030-c365-9838-f215",
+  "type": "enhancement",
+  "name": "Shock and Awe",
+  "keywords": [
+    "command_trait",
+    "faction:stormcast_eternals"
+  ],
+  "effect": "Each time this unit is set up using the ’Scions of the Storm’ ability, subtract 1 from hit rolls for attacks that target this unit for the rest of the battle round.\nIn addition, each time a friendly **^^Stormcast Eternals^^** unit is set up wholly within 12\" of this unit using the ‘Scions of the Storm’ ability, subtract 1 from hit rolls for attacks that target that unit for the rest of the battle round.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

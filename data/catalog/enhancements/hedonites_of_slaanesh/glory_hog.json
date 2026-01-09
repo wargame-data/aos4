@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.hedonites_of_slaanesh.glory_hog",
+  "bsdataId": "7396-d029-dcc2-fac4",
+  "type": "enhancement",
+  "name": "Glory Hog",
+  "keywords": [
+    "command_trait",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "effect": "If an enemy **^^Hero^^** is destroyed by this unit, this unit has the **^^Euphoric^^** keyword for the rest of the battle.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Black",
+  "abilityCategory": "Special"
+}

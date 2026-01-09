@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.idoneth_deepkin_the_first_phalanx_of_ionrach.prodigy_of_the_asydrazor",
+  "bsdataId": "0519-7c4c-3df0-c6ae",
+  "type": "enhancement",
+  "name": "Prodigy of the Asydrazor",
+  "keywords": [
+    "command_trait",
+    "faction:idoneth_deepkin_the_first_phalanx_of_ionrach"
+  ],
+  "effect": "No **asydrazor points** are spent to use that ability.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Reaction: You declared an **^^Asydrazor^^** ability for a friendly **^^First Phalanx^^** unit wholly within 12\" of this unit.",
+  "color": "Black",
+  "abilityCategory": "Special"
+}

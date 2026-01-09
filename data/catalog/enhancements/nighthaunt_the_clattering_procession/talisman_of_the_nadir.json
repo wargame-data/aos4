@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.nighthaunt_the_clattering_procession.talisman_of_the_nadir",
+  "bsdataId": "af24-ac6c-87c9-ef5b",
+  "type": "enhancement",
+  "name": "Talisman of the Nadir",
+  "keywords": [
+    "artefact",
+    "faction:nighthaunt_the_clattering_procession"
+  ],
+  "effect": "If a friendly **^^Clattering Procession^^** unit wholly within 12\" of this unit was picked to be the target of that spell, this unit can use the 'Unbind' ability as if it had **^^Wizard (1)^^**. Add 1 to the unbinding roll for that ability.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Reaction: Opponent declared a **^^Spell^^** ability",
+  "color": "Yellow",
+  "abilityCategory": "Rallying"
+}

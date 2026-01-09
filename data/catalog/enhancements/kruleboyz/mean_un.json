@@ -1,0 +1,23 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kruleboyz.mean_un",
+  "bsdataId": "cf28-0b33-c0f5-52b9",
+  "type": "enhancement",
+  "name": "Mean 'Un",
+  "keywords": [
+    "mount_trait",
+    "faction:kruleboyz"
+  ],
+  "effect": "Add 1 to hit rolls for attacks made with this unit's **Companion** weapons.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "monsters"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

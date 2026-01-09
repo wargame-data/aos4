@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.flesh_eater_courts.the_splintered_femur",
+  "bsdataId": "2f7-9c0b-259d-d775",
+  "type": "enhancement",
+  "name": "The Splintered Femur",
+  "keywords": [
+    "artefact",
+    "faction:flesh_eater_courts"
+  ],
+  "effect": "Roll a D3: On a 2+, pick 1 of the following:\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Subtract 1 from the target's power level, to a minimum of 0, until the start of your next turn.\n• If the target is a **^^Manifestation^^**, it is banished and removed from play.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "End of Your Turn",
+  "declare": "Pick an enemy unit in combat with this unit to be the target.",
+  "color": "Purple",
+  "abilityCategory": "Special"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kruleboyz_murkvast_menagerie.grim_diet",
+  "bsdataId": "475c-a397-af45-88dd",
+  "type": "enhancement",
+  "name": "Grim Diet",
+  "keywords": [
+    "command_trait",
+    "faction:kruleboyz_murkvast_menagerie"
+  ],
+  "effect": "This unit has **^^Ward (5+)**",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

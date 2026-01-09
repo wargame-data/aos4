@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_blighted_wilds.natural_terror",
+  "bsdataId": "0aca-9981-451a-b695",
+  "type": "enhancement",
+  "name": "Natural Terror",
+  "keywords": [
+    "command_trait",
+    "faction:path_to_glory_blighted_wilds"
+  ],
+  "effect": "Until the start of your next turn, while this unit is on the battlefield, the target has a maximum control score of 1.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "timing": "Once Per Battle, Any Hero Phase",
+  "declare": "Pick a visible enemy unit to be the target.",
+  "color": "Yellow",
+  "abilityCategory": "Control"
+}

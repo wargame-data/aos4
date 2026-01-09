@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.stormcast_eternals_ruination_brotherhood.hallowed_scrolls",
+  "bsdataId": "06bd-44e6-059b-b5a5",
+  "type": "enhancement",
+  "name": "Hallowed Scrolls",
+  "keywords": [
+    "artefact",
+    "faction:stormcast_eternals_ruination_brotherhood"
+  ],
+  "effect": "If this unit is Infantry, it has **^^Ward (5+)^^**. Otherwise, it has **^^Ward (6+)^^**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.gloomspite_gitz.the_clammy_hand",
+  "bsdataId": "7adb-b38-f133-7e4e",
+  "type": "enhancement",
+  "name": "The Clammy Hand",
+  "keywords": [
+    "command_trait",
+    "faction:gloomspite_gitz"
+  ],
+  "effect": "Each time a friendly **^^Gloomspite Gitz^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Rallying"
+}

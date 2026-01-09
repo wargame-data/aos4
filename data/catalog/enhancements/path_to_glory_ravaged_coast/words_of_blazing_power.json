@@ -1,0 +1,18 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_ravaged_coast.words_of_blazing_power",
+  "bsdataId": "3b25-faaa-ef7c-dba9",
+  "type": "enhancement",
+  "name": "Words of Blazing Power",
+  "keywords": [
+    "command_trait",
+    "faction:path_to_glory_ravaged_coast"
+  ],
+  "effect": "Add 1 to casting rolls for this unit when it casts a spell from the Lore of Magmic Fury.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

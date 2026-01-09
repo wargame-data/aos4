@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.nighthaunt.deathly_possessor",
+  "bsdataId": "4b9a-d8b5-b02b-4b47",
+  "type": "enhancement",
+  "name": "Deathly Possessor",
+  "keywords": [
+    "command_trait",
+    "faction:nighthaunt"
+  ],
+  "effect": "Roll a dice. On a 3+, pick 1 of the target's melee weapons. Immediately resolve combat attacks for the target with that weapon against the victim.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Combat Phase",
+  "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target, then pick another enemy unit within the target's combat range to be the victim.",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

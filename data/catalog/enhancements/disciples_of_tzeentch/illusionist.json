@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.disciples_of_tzeentch.illusionist",
+  "bsdataId": "cc3a-4581-ff63-e6ec",
+  "type": "enhancement",
+  "name": "Illusionist",
+  "keywords": [
+    "command_trait",
+    "faction:disciples_of_tzeentch"
+  ],
+  "effect": "Subtract 1 from hit rolls for attacks that target friendly units while they are wholly within this unit’s combat range.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

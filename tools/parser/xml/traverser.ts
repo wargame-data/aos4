@@ -1257,3 +1257,111 @@ export function findUniversalManifestationLores(
 
   return result;
 }
+
+/**
+ * Information about an enhancement group with context for mapping
+ */
+export interface EnhancementGroupInfo {
+  /** Top-level parent group name (e.g., "Artefacts of Power", "Heroic Traits") */
+  parentGroupName: string;
+  /** Sub-group name containing the actual enhancements (e.g., "Artefacts of the Tempest") */
+  subGroupName: string;
+  /** Restrictions text from <rule name="Enhancement Restrictions"> */
+  restrictions?: string;
+  /** Individual enhancement entries */
+  entries: BSSelectionEntry[];
+}
+
+/**
+ * Extract restrictions text from a selection entry group's rules.
+ * Looks for a rule named "Enhancement Restrictions" and returns its description.
+ */
+function extractEnhancementRestrictions(group: BSSelectionEntryGroup): string | undefined {
+  if (!group.rules) return undefined;
+
+  for (const rule of group.rules) {
+    if (rule.$ && rule.$.name === "Enhancement Restrictions") {
+      // Description is stored as an array in BSData XML
+      // Each element can be a string or an object with _ property containing the text
+      if (rule.description && Array.isArray(rule.description) && rule.description.length > 0) {
+        const desc = rule.description[0];
+        // Handle both plain strings and objects with _ property
+        if (typeof desc === "string") {
+          return desc;
+        } else if (desc && typeof desc === "object" && "_" in desc) {
+          return (desc as { _: string })._;
+        }
+      }
+    }
+  }
+
+  return undefined;
+}
+
+/**
+ * Find all enhancement groups with their hierarchical context.
+ * Returns structured information including parent/sub-group names and restrictions.
+ *
+ * Enhancement groups in BSData are structured as:
+ * - Parent group: "Artefacts of Power", "Heroic Traits", etc.
+ *   - Sub-group: "Artefacts of the Tempest", "Aspects of Azyr", etc.
+ *     - Selection entries: Individual enhancements
+ *     - Rules: "Enhancement Restrictions" with targeting text
+ */
+export function findEnhancementGroupsWithInfo(catalogue: BSCatalogue): EnhancementGroupInfo[] {
+  const result: EnhancementGroupInfo[] = [];
+  const parentGroups = findEnhancementGroups(catalogue);
+
+  for (const parentGroup of parentGroups) {
+    const parentName = parentGroup.$.name;
+
+    // Check if this group has sub-groups with entries
+    if (parentGroup.selectionEntryGroups && parentGroup.selectionEntryGroups.length > 0) {
+      // Process sub-groups
+      for (const subGroup of parentGroup.selectionEntryGroups) {
+        const subGroupName = subGroup.$.name;
+        const restrictions = extractEnhancementRestrictions(subGroup);
+        const entries = subGroup.selectionEntries || [];
+
+        if (entries.length > 0) {
+          result.push({
+            parentGroupName: parentName,
+            subGroupName,
+            restrictions,
+            entries,
+          });
+        }
+
+        // Some groups have further nesting
+        if (subGroup.selectionEntryGroups) {
+          for (const nestedGroup of subGroup.selectionEntryGroups) {
+            const nestedEntries = nestedGroup.selectionEntries || [];
+            const nestedRestrictions = extractEnhancementRestrictions(nestedGroup) || restrictions;
+
+            if (nestedEntries.length > 0) {
+              result.push({
+                parentGroupName: parentName,
+                subGroupName: nestedGroup.$.name,
+                restrictions: nestedRestrictions,
+                entries: nestedEntries,
+              });
+            }
+          }
+        }
+      }
+    }
+
+    // Also check for direct entries in the parent group (some factions structure differently)
+    if (parentGroup.selectionEntries && parentGroup.selectionEntries.length > 0) {
+      const restrictions = extractEnhancementRestrictions(parentGroup);
+      result.push({
+        parentGroupName: parentName,
+        subGroupName: parentName, // Use parent name when there's no sub-group
+        restrictions,
+        entries: parentGroup.selectionEntries,
+      });
+    }
+  }
+
+  return result;
+}

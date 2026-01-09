@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.fyreslayers.fiercely_competitive",
+  "bsdataId": "9001-7d5c-6216-8ce6",
+  "type": "enhancement",
+  "name": "Fiercely Competitive",
+  "keywords": [
+    "command_trait",
+    "faction:fyreslayers"
+  ],
+  "effect": "If this unit is in combat with an enemy unit that has **^^Strike-first^^**, this unit has **^^Strike-first^^**. If this unit is in combat with an enemy unit that uses the ‘All-out Attack’ command, add 1 to hit rolls for this unit’s attacks for the rest of the turn",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

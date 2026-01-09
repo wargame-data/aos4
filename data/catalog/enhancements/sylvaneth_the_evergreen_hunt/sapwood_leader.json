@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sylvaneth_the_evergreen_hunt.sapwood_leader",
+  "bsdataId": "c06c-f08f-6b41-2be9",
+  "type": "enhancement",
+  "name": "Sapwood Leader",
+  "keywords": [
+    "command_trait",
+    "faction:sylvaneth_the_evergreen_hunt"
+  ],
+  "effect": "If you pick this unit to be a target of the ‘Abundant Growth’ ability, **Heal (3)** this unit instead of **Heal (1)**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

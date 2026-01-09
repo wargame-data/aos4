@@ -9,10 +9,12 @@ import { join, dirname } from "path";
 import {
   WARSCROLLS_DIR,
   CATALOG_LORES_DIR,
+  ENHANCEMENTS_DIR,
   POINTS_DIR,
 } from "../config.js";
 import type { Warscroll } from "../../schemas/schemas/warscroll.schema.js";
 import type { Spell, Prayer } from "../../schemas/schemas/spell.schema.js";
+import type { Enhancement } from "../../schemas/schemas/enhancement.schema.js";
 import type { PointsPack } from "../../schemas/schemas/points-pack.schema.js";
 
 /**
@@ -79,6 +81,7 @@ function writeJson(
 export function ensureCatalogStructure(): void {
   ensureDir(WARSCROLLS_DIR);
   ensureDir(CATALOG_LORES_DIR);
+  ensureDir(ENHANCEMENTS_DIR);
   ensureDir(POINTS_DIR);
 }
 
@@ -210,4 +213,56 @@ export function writePointsPack(
 ): WriteResult {
   const path = getPointsPackOutputPath(pack, baseDir);
   return writeJson(path, pack, options);
+}
+
+/**
+ * Extract faction from enhancement keywords
+ */
+function getEnhancementFaction(enhancement: Enhancement): string {
+  const factionKeyword = enhancement.keywords.find((k) => k.startsWith("faction:"));
+  if (factionKeyword) {
+    return factionKeyword.substring(8);
+  }
+
+  // Fallback: extract from ID
+  const parts = enhancement.id.split(".");
+  if (parts.length >= 2) {
+    return parts[1];
+  }
+
+  return "shared";
+}
+
+/**
+ * Determine output path for an enhancement
+ * data/catalog/enhancements/{faction}/{name}.json
+ */
+export function getEnhancementOutputPath(enhancement: Enhancement, baseDir?: string): string {
+  const dir = baseDir || ENHANCEMENTS_DIR;
+  const name = extractNameFromQualifiedId(enhancement.id);
+  const faction = getEnhancementFaction(enhancement);
+  return join(dir, faction, `${name}.json`);
+}
+
+/**
+ * Write an enhancement to the catalog
+ */
+export function writeEnhancement(
+  enhancement: Enhancement,
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult {
+  const path = getEnhancementOutputPath(enhancement, baseDir);
+  return writeJson(path, enhancement, options);
+}
+
+/**
+ * Write multiple enhancements
+ */
+export function writeEnhancements(
+  enhancements: Enhancement[],
+  options: WriteOptions = {},
+  baseDir?: string
+): WriteResult[] {
+  return enhancements.map((enhancement) => writeEnhancement(enhancement, options, baseDir));
 }

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.blades_of_khorne.magical_scorn",
+  "bsdataId": "7c75-846e-f3f9-a551",
+  "type": "enhancement",
+  "name": "Magical Scorn",
+  "keywords": [
+    "command_trait",
+    "faction:blades_of_khorne"
+  ],
+  "effect": "Subtract 1 from casting rolls for **^^Wizards^^** while they are within 12\" of this unit.\nSubtract 1 from chanting rolls for enemy **^^Priests^^** while they are within 12\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.flesh_eater_courts.stronger_in_madness",
+  "bsdataId": "fc56-d61d-3c54-e2fb",
+  "type": "enhancement",
+  "name": "Stronger in Madness",
+  "keywords": [
+    "command_trait",
+    "faction:flesh_eater_courts"
+  ],
+  "effect": "Ignore the first damage point that would be allocated to this unit each phase.\nIn addition, other than the **Companion** weapon ability, weapon abilities for combat attacks that target this unit have no effect.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "monsters"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.flesh_eater_courts_new_summercourt.feted_coronet",
+  "bsdataId": "9f83-7b7d-ffd5-24a1",
+  "type": "enhancement",
+  "name": "Feted Coronet",
+  "keywords": [
+    "artefact",
+    "faction:flesh_eater_courts_new_summercourt"
+  ],
+  "effect": "This unit has **^^Ward (4+)^^** until a friendly **^^New Summercourt^^** unit is destroyed.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

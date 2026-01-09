@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords.blazebeard_and_sons_ejector_pod",
+  "bsdataId": "a395-091d-6d72-b2d2",
+  "type": "enhancement",
+  "name": "Blazebeard and Sons Ejector Pod",
+  "keywords": [
+    "command_trait",
+    "faction:kharadron_overlords"
+  ],
+  "effect": "Remove the target from the battlefield, then set it up again wholly within 18\" of this unit and more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "skyvessels",
+      "skyvessel"
+    ]
+  },
+  "timing": "Once Per Battle, Any Combat Phase",
+  "declare": "If this unit is in combat, pick a visible friendlt **^^Kharadron Overlords Hero^^** wholly within 6\" of this unit to be the target.",
+  "color": "Red",
+  "abilityCategory": "Movement"
+}

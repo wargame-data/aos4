@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.disciples_of_tzeentch.cult_demagogue",
+  "bsdataId": "d409-de41-d21f-7630",
+  "type": "enhancement",
+  "name": "Cult Demagogue",
+  "keywords": [
+    "command_trait",
+    "faction:disciples_of_tzeentch"
+  ],
+  "effect": "If each dice in a casting roll for this unit has the same value and the spell is not miscast, add 3 to the casting roll.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.helsmiths_of_hashut_ziggurat_stampede.visage_of_the_great_bull",
+  "bsdataId": "d9eb-882d-21db-0bc7",
+  "type": "enhancement",
+  "name": "Visage of the Great Bull",
+  "keywords": [
+    "artefact",
+    "faction:helsmiths_of_hashut_ziggurat_stampede"
+  ],
+  "effect": "In your charge phase, add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Orange",
+  "abilityCategory": "Movement"
+}

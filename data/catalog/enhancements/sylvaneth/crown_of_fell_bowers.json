@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sylvaneth.crown_of_fell_bowers",
+  "bsdataId": "e4e4-838a-a42b-98d7",
+  "type": "enhancement",
+  "name": "Crown of Fell Bowers",
+  "keywords": [
+    "artefact",
+    "faction:sylvaneth"
+  ],
+  "effect": "Roll a dice. On 3+, add 1 to wound rolls for combat attacks made by friendly **^^Sylvaneth^^** units that target that enemy unit this phase.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Combat Phase",
+  "declare": "Pick an enemy unit in combat with this unit to be the target.",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

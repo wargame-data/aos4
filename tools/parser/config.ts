@@ -9,25 +9,11 @@ import { join } from "path";
 // Project paths
 export const ROOT_DIR = process.cwd();
 export const DATA_DIR = join(ROOT_DIR, "data");
-export const FACTIONS_DIR = join(DATA_DIR, "factions"); // Legacy
-export const SCHEMA_DIR = join(ROOT_DIR, "schema");
-export const CACHE_DIR = join(ROOT_DIR, ".cache");
-export const PATCHES_DIR = join(CACHE_DIR, "patches");
-
-// New catalog structure paths
 export const CATALOG_DIR = join(DATA_DIR, "catalog");
 export const WARSCROLLS_DIR = join(CATALOG_DIR, "warscrolls");
-export const CATALOG_ENHANCEMENTS_DIR = join(CATALOG_DIR, "enhancements");
-export const CATALOG_TERRAIN_DIR = join(CATALOG_DIR, "terrain");
 export const CATALOG_LORES_DIR = join(CATALOG_DIR, "lores");
-export const MANIFESTS_DIR = join(CATALOG_DIR, "manifests");
+export const ENHANCEMENTS_DIR = join(CATALOG_DIR, "enhancements");
 export const POINTS_DIR = join(DATA_DIR, "points");
-export const NEW_FACTIONS_DIR = join(DATA_DIR, "factions");
-
-// BSData repository
-export const BSDATA_REPO_URL =
-  "https://github.com/BSData/age-of-sigmar-4th.git";
-export const BSDATA_REPO_NAME = "age-of-sigmar-4th";
 
 // Grand Alliance mappings by faction name (underscore format)
 export const FACTION_GRAND_ALLIANCE: Record<string, string> = {
@@ -50,6 +36,7 @@ export const FACTION_GRAND_ALLIANCE: Record<string, string> = {
   beasts_of_chaos: "chaos",
   skaven: "chaos",
   slaves_to_darkness: "chaos",
+  helsmiths_of_hashut: "chaos",
 
   // Death
   flesh_eater_courts: "death",
@@ -65,9 +52,6 @@ export const FACTION_GRAND_ALLIANCE: Record<string, string> = {
   ironjawz: "destruction",
   kruleboyz: "destruction",
   bonesplitterz: "destruction",
-
-  // Additional Chaos
-  helsmiths_of_hashut: "chaos",
 };
 
 // Keyword to faction ID mapping (for cross-catalogue units)
@@ -119,52 +103,15 @@ export function detectFactionFromKeywords(
   return catalogueFactionId;
 }
 
-// File patterns for BSData
-export const BSDATA_CAT_PATTERN = "*.cat";
-export const BSDATA_GST_PATTERN = "*.gst";
-
-// Files to skip in BSData
-export const BSDATA_SKIP_FILES = [
-  "Regiments of Renown.cat",
-  "Path to Glory",
-];
-
-// Only parse library catalogues (they contain the actual unit definitions)
-export const BSDATA_PARSE_LIBRARIES_ONLY = true;
-
-// Default cache expiry (hours)
-export const DEFAULT_CACHE_EXPIRY_HOURS = 24;
-
-// Schema URLs (legacy)
+// Schema URLs
 export const SCHEMA_URLS = {
-  unit: "https://wargamedata.com/aos4/schema/unit.schema.json",
-  hero: "https://wargamedata.com/aos4/schema/hero.schema.json",
-  weapon: "https://wargamedata.com/aos4/schema/weapon.schema.json",
-  ability: "https://wargamedata.com/aos4/schema/ability.schema.json",
-  faction: "https://wargamedata.com/aos4/schema/faction.schema.json",
-  battleFormation: "https://wargamedata.com/aos4/schema/battle-formation.schema.json",
-  lore: "https://wargamedata.com/aos4/schema/lore.schema.json",
-};
-
-// New schema URLs
-export const NEW_SCHEMA_URLS = {
   warscroll: "https://wargamedata.com/aos4/schema/warscroll.schema.json",
   spell: "https://wargamedata.com/aos4/schema/spell.schema.json",
   prayer: "https://wargamedata.com/aos4/schema/prayer.schema.json",
+  enhancement: "https://wargamedata.com/aos4/schema/enhancement.schema.json",
   pointsPack: "https://wargamedata.com/aos4/schema/points-pack.schema.json",
   faction: "https://wargamedata.com/aos4/schema/faction.schema.json",
 };
-
-// Universal manifestation lores (available to all factions)
-// These are endless spells and incarnates that any army can use
-export const UNIVERSAL_MANIFESTATION_LORES = [
-  { id: "aetherwrought_machineries", name: "Aetherwrought Machineries" },
-  { id: "forbidden_power", name: "Forbidden Power" },
-  { id: "krondspine_incarnate", name: "Krondspine Incarnate" },
-  { id: "morbid_conjuration", name: "Morbid Conjuration" },
-  { id: "twilit_sorceries", name: "Twilit Sorceries" },
-  { id: "primal_energy", name: "Primal Energy" },
-];
 
 /**
  * Get faction ID from catalogue name or filename
@@ -185,28 +132,4 @@ export function catalogueNameToFactionId(name: string): string {
  */
 export function getGrandAlliance(factionId: string): string | undefined {
   return FACTION_GRAND_ALLIANCE[factionId];
-}
-
-/**
- * Check if a catalogue should be skipped
- */
-export function shouldSkipCatalogue(filename: string): boolean {
-  // Skip specific files
-  if (BSDATA_SKIP_FILES.some((skip) => filename.includes(skip))) {
-    return true;
-  }
-
-  // Skip legends files
-  if (filename.toLowerCase().includes("legends")) {
-    return true;
-  }
-
-  // If configured to only parse libraries, skip non-library files
-  if (BSDATA_PARSE_LIBRARIES_ONLY) {
-    if (!filename.toLowerCase().includes("library")) {
-      return true;
-    }
-  }
-
-  return false;
 }

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.maggotkin_of_nurgle.living_plague",
+  "bsdataId": "114b-1c79-37a8-107f",
+  "type": "enhancement",
+  "name": "Living Plague",
+  "keywords": [
+    "artefact",
+    "faction:maggotkin_of_nurgle"
+  ],
+  "effect": "The target has the **^^Diseased^^** keyword.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Combat Phase",
+  "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
+  "color": "Red",
+  "abilityCategory": "Special"
+}

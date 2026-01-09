@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.gloomspite_gitz_da_king_s_gitz.moonhoned_shiv",
+  "bsdataId": "5db8-151d-1f04-0df5",
+  "type": "enhancement",
+  "name": "Moonhoned Shiv",
+  "keywords": [
+    "artefact",
+    "faction:gloomspite_gitz_da_king_s_gitz"
+  ],
+  "effect": "Pick 1 of this unit's non-**Companion** melee weapons. Add 1 to the Attacks characteristic of that weapon for the rest of the battle. In addition, each time this unit uses a **^^Retreat^^** ability, add 1 to the Attacks characteristic of that weapon for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Deployment Phase",
+  "color": "Black",
+  "abilityCategory": "Offensive"
+}

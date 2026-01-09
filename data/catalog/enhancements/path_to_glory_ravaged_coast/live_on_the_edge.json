@@ -1,0 +1,18 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_ravaged_coast.live_on_the_edge",
+  "bsdataId": "3a2d-ad29-8d74-60a7",
+  "type": "enhancement",
+  "name": "Live on the Edge",
+  "keywords": [
+    "command_trait",
+    "faction:path_to_glory_ravaged_coast"
+  ],
+  "effect": "This unit has **^^Ward (4+)^^** against damage points inflicted by **^^Shoot^^** abilities.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

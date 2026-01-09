@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.idoneth_deepkin_wardens_of_the_chorrileum.serve_the_enclave",
+  "bsdataId": "b49b-44b7-2668-03a3",
+  "type": "enhancement",
+  "name": "Serve the Enclave",
+  "keywords": [
+    "command_trait",
+    "faction:idoneth_deepkin_wardens_of_the_chorrileum"
+  ],
+  "effect": "While this unit and a friendly **^^Chorrileum Namarti^^** unit are contesting the same objective, this unit has a control score of 10 that cannot be modified.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Purple",
+  "abilityCategory": "Control"
+}

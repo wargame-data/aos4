@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ossiarch_bonereapers.helm_of_tyranny",
+  "bsdataId": "3753-e848-a8c2-1ae3",
+  "type": "enhancement",
+  "name": "Helm of Tyranny",
+  "keywords": [
+    "artefact",
+    "faction:ossiarch_bonereapers"
+  ],
+  "effect": "Subtract 2 from the control scores of enemy units while they are within 12\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Purple",
+  "abilityCategory": "Control"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sylvaneth.ranus_lamentiri",
+  "bsdataId": "2735-ee04-eec1-84d5",
+  "type": "enhancement",
+  "name": "Ranu's Lamentiri",
+  "keywords": [
+    "artefact",
+    "faction:sylvaneth"
+  ],
+  "effect": "Make an unbinding roll of 2D6. If the roll exceeds the casting roll for the spell, the spell is unbound and its effect is not resolved. Then, inflict an amount of mortal damage on the caster equal to the difference between the casting roll and the unbinding roll, to a maximum of 6.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Turn (Army), Reaction: Opponent declared a **^^Spell^^** ability for a unit within 30\" of this unit",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords_barrow_legion.lord_of_the_arcane_aegis",
+  "bsdataId": "6246-5709-3bcc-af58",
+  "type": "enhancement",
+  "name": "Lord of the Arcane Aegis",
+  "keywords": [
+    "command_trait",
+    "faction:soulblight_gravelords_barrow_legion"
+  ],
+  "effect": "Pick 1 of the following keywords:\n• **^^Infantry^^**\n• **^^Cavalry^^**\n• **^^Monster^^**\n• **^^Beast^^**\nFor the rest of the battle, each time an attack targets this unit, if the attacking unit has the keyword you picked, an unmodified save roll of 4+ for that attack is always successful.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Deployment Phase",
+  "color": "Black",
+  "abilityCategory": "Defensive"
+}

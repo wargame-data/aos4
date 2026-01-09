@@ -1,0 +1,23 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ironjawz.big_un",
+  "bsdataId": "08f0-9cff-c0d5-67ef",
+  "type": "enhancement",
+  "name": "Big 'Un",
+  "keywords": [
+    "mount_trait",
+    "faction:ironjawz"
+  ],
+  "effect": "Add 1 to the Rend characteristic of this unit's **Companion** weapons.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "monsters"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

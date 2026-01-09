@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.skaven_the_great_grand_gnawhorde.harbinger_of_the_great_ascendancy",
+  "bsdataId": "4faa-ab80-e219-4326",
+  "type": "enhancement",
+  "name": "Harbinger of the Great Ascendancy",
+  "keywords": [
+    "command_trait",
+    "faction:skaven_the_great_grand_gnawhorde"
+  ],
+  "effect": "If this unit is not in combat, you can use 2 different **^^Warpshatter Throes^^** abilities this turn instead of 1.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Start of Any Turn",
+  "color": "Black",
+  "abilityCategory": "Special"
+}

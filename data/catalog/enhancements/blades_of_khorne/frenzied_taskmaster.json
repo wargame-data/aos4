@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.blades_of_khorne.frenzied_taskmaster",
+  "bsdataId": "4c69-c9fd-b060-aff8",
+  "type": "enhancement",
+  "name": "Frenzied Taskmaster",
+  "keywords": [
+    "command_trait",
+    "faction:blades_of_khorne"
+  ],
+  "effect": "The target can move D6\" but cannot end that move in combat. If the target ends that move within this unit's combat range, inflict an amount of mortal damage on the target equal to the roll.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Movement Phase",
+  "declare": "Pick a friendly **^^Blades of Khorne Infantry^^** or **^^Cavalry^^** unit within this unit's combat range that is not in combat to be the target.",
+  "color": "Gray",
+  "abilityCategory": "Special"
+}

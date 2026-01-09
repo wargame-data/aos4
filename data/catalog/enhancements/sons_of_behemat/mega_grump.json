@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sons_of_behemat.mega_grump",
+  "bsdataId": "1fda-2416-d4d3-ce0e",
+  "type": "enhancement",
+  "name": "Mega-Grump",
+  "keywords": [
+    "command_trait",
+    "faction:sons_of_behemat"
+  ],
+  "effect": "This unit has Ward (5+) while it has 25 or more damage points.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

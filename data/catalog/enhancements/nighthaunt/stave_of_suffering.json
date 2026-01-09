@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.nighthaunt.stave_of_suffering",
+  "bsdataId": "0677-1a6c-75ca-9e7a",
+  "type": "enhancement",
+  "name": "Stave of Suffering",
+  "keywords": [
+    "artefact",
+    "faction:nighthaunt"
+  ],
+  "effect": "While this unit is within 12\" of any damaged enemy units or enemy units that have had any models slain, add 1 to casting rolls for friendly **^^Nighthaunt^^** units while they are wholly within 12\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords_the_magnate_s_crew.aerodynamism",
+  "bsdataId": "3eae-e50a-a65b-9118",
+  "type": "enhancement",
+  "name": "Aerodynamism",
+  "keywords": [
+    "artefact",
+    "faction:kharadron_overlords_the_magnate_s_crew"
+  ],
+  "effect": "If the unit moved this turn, subtract 1 from hit rolls for attacks that target this unit for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

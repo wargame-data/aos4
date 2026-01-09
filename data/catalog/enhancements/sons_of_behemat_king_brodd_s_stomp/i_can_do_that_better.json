@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sons_of_behemat_king_brodd_s_stomp.i_can_do_that_better",
+  "bsdataId": "dcb5-ee99-b15c-5f2f",
+  "type": "enhancement",
+  "name": "I Can Do That Better",
+  "keywords": [
+    "command_trait",
+    "faction:sons_of_behemat_king_brodd_s_stomp"
+  ],
+  "effect": "This unit can use the ‘Wrath of Brodd’ ability immediately after the ‘Wrath of Brodd’ ability used by the other friendly unit has been resolved. This unit can do so even if it has used another **^^Rampage^^** ability this turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle (Army), Reaction: You declared the ‘Wrath of Brodd’ ability for a friendly unit",
+  "color": "Red",
+  "abilityCategory": "Special"
+}

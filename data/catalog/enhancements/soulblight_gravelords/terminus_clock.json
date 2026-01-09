@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords.terminus_clock",
+  "bsdataId": "19f7-f0af-681d-a848",
+  "type": "enhancement",
+  "name": "Terminus Clock",
+  "keywords": [
+    "artefact",
+    "faction:soulblight_gravelords"
+  ],
+  "effect": "Roll a dice. On a 3+, until the start of your next turn, subtract 1 from casting rolls for enemy **^^Wizards^^** while they are within 18\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Hero Phase",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

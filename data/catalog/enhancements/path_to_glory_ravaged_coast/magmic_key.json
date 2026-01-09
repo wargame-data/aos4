@@ -1,0 +1,17 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_ravaged_coast.magmic_key",
+  "bsdataId": "2386-92c4-2a90-b248",
+  "type": "enhancement",
+  "name": "Magmic Key",
+  "keywords": [
+    "artefact",
+    "faction:path_to_glory_ravaged_coast"
+  ],
+  "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "timing": "Once Per Battle, Your Movement Phase"
+}

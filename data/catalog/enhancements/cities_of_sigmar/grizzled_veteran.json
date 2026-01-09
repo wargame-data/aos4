@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.cities_of_sigmar.grizzled_veteran",
+  "bsdataId": "b922-2043-5ced-e0b1",
+  "type": "enhancement",
+  "name": "Grizzled Veteran",
+  "keywords": [
+    "command_trait",
+    "faction:cities_of_sigmar"
+  ],
+  "effect": "If the unmodified wound roll for an attack that targets this unit is a 1-3, the attack fails and the attack sequence ends.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

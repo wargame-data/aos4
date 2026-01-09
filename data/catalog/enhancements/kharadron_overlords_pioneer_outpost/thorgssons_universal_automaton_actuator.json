@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords_pioneer_outpost.thorgssons_universal_automaton_actuator",
+  "bsdataId": "fbbd-c1da-d33d-a841",
+  "type": "enhancement",
+  "name": "Thorgsson's Universal Automaton Actuator",
+  "keywords": [
+    "artefact",
+    "faction:kharadron_overlords_pioneer_outpost"
+  ],
+  "effect": "Add 6\" to the Move characteristic of friendly **^^Auto-Endrins^^** while they are wholly within 6\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Gray",
+  "abilityCategory": "Movement"
+}

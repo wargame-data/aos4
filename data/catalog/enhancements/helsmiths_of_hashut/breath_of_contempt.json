@@ -1,0 +1,25 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.helsmiths_of_hashut.breath_of_contempt",
+  "bsdataId": "7d87-2cd5-3b26-8ff6",
+  "type": "enhancement",
+  "name": "Breath of Contempt",
+  "keywords": [
+    "artefact",
+    "faction:helsmiths_of_hashut"
+  ],
+  "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "war_machine"
+    ]
+  },
+  "timing": "End of Any Turn",
+  "declare": "Pick up to 3 enemy units in combat with this unit to be the targets.",
+  "color": "Purple",
+  "abilityCategory": "Offensive"
+}

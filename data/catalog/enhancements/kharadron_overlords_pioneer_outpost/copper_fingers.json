@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords_pioneer_outpost.copper_fingers",
+  "bsdataId": "851f-dd80-3cc2-dffb",
+  "type": "enhancement",
+  "name": "Copper Fingers",
+  "keywords": [
+    "command_trait",
+    "faction:kharadron_overlords_pioneer_outpost"
+  ],
+  "effect": "If this unit is wholly within 9\" of that **Zontari Endrin Dock**, instead of resolving the effect of that 'Endrinworks Outpost' ability, set up a replacement **^^Auto-Endrin^^** on the battlefield, wholly within 6\" of that **Zontari Endrin Dock** and more than 3\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Reaction: You declared the 'Endrinworks Outpost' ability for a Zontari Endrin Dock",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

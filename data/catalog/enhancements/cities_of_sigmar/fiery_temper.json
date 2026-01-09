@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.cities_of_sigmar.fiery_temper",
+  "bsdataId": "75b5-4219-e6f3-e89b",
+  "type": "enhancement",
+  "name": "Fiery Temper",
+  "keywords": [
+    "command_trait",
+    "faction:cities_of_sigmar"
+  ],
+  "effect": "If this unit charged this turn, you can re-roll charge rolls for friendly **^^Cities of Sigmar^^** units while they are wholly within 18\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Orange",
+  "abilityCategory": "Movement"
+}

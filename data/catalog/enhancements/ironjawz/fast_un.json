@@ -1,0 +1,24 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ironjawz.fast_un",
+  "bsdataId": "3412-05b4-5ea4-251b",
+  "type": "enhancement",
+  "name": "Fast 'Un",
+  "keywords": [
+    "mount_trait",
+    "faction:ironjawz"
+  ],
+  "effect": "If this unit was not set up this turn, it can use the 'Normal Move' ability as if it were your movement phase",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "monsters"
+    ]
+  },
+  "timing": "Once Per Battle, Your Hero Phase",
+  "color": "Yellow",
+  "abilityCategory": "Movement"
+}

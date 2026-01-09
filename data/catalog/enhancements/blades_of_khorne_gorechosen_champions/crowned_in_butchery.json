@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.blades_of_khorne_gorechosen_champions.crowned_in_butchery",
+  "bsdataId": "c0e4-941a-5e1f-d22b",
+  "type": "enhancement",
+  "name": "Crowned in Butchery",
+  "keywords": [
+    "command_trait",
+    "faction:blades_of_khorne_gorechosen_champions"
+  ],
+  "effect": "Add 20 to this unit's control score while it is in combat.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Purple",
+  "abilityCategory": "Control"
+}

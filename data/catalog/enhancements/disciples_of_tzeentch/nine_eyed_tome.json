@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.disciples_of_tzeentch.nine_eyed_tome",
+  "bsdataId": "cd8a-3f1e-f25f-5a53",
+  "type": "enhancement",
+  "name": "Nine-eyed Tome",
+  "keywords": [
+    "artefact",
+    "faction:disciples_of_tzeentch"
+  ],
+  "effect": "Add 1 to casting rolls and banishment rolls for this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

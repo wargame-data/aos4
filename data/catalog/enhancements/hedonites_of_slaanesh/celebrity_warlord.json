@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.hedonites_of_slaanesh.celebrity_warlord",
+  "bsdataId": "a759-a125-4840-f353",
+  "type": "enhancement",
+  "name": "Celebrity Warlord",
+  "keywords": [
+    "command_trait",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Movement Phase",
+  "declare": "Pick a friendly non-**^^Hero Sybarite^^** unit that has been destroyed to be the target.",
+  "color": "Gray",
+  "abilityCategory": "Rallying"
+}

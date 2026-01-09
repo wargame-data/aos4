@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.bonesplitterz.killa_instinkt",
+  "bsdataId": "c563-5bf3-4631-7d93",
+  "type": "enhancement",
+  "name": "Killa Instinkt",
+  "keywords": [
+    "command_trait",
+    "faction:bonesplitterz"
+  ],
+  "effect": "This unit’s melee weapons have **Crit (Mortal)**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

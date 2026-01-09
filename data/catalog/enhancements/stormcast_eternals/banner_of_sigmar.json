@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.stormcast_eternals.banner_of_sigmar",
+  "bsdataId": "71d5-c7f2-10ff-c6b4",
+  "type": "enhancement",
+  "name": "Banner of Sigmar",
+  "keywords": [
+    "artefact",
+    "faction:stormcast_eternals"
+  ],
+  "effect": "Until the start of your next turn, your opponent cannot control the target objective while they have no units contesting it.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Hero Phase",
+  "declare": "Pick an objective within 18\" of this unit to be the target.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

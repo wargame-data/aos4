@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sons_of_behemat.furious_temper",
+  "bsdataId": "4e0c-3e85-b131-a3f8",
+  "type": "enhancement",
+  "name": "Furious Temper",
+  "keywords": [
+    "command_trait",
+    "faction:sons_of_behemat"
+  ],
+  "effect": "For the rest of the turn:\n• Add 2 to the Attacks characteristic of this unit’s melee weapons.\n• Subtract 1 from save rolls for this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Combat Phase",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.bonesplitterz.glowin_tattooz",
+  "bsdataId": "9d8a-bac8-0c62-f963",
+  "type": "enhancement",
+  "name": "Glowin' Tattooz",
+  "keywords": [
+    "artefact",
+    "faction:bonesplitterz"
+  ],
+  "effect": "This unit has **Ward (4+)**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

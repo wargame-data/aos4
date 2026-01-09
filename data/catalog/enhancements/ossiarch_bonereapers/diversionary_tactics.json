@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ossiarch_bonereapers.diversionary_tactics",
+  "bsdataId": "f36c-2546-c3cb-b23a",
+  "type": "enhancement",
+  "name": "Diversionary Tactics",
+  "keywords": [
+    "command_trait",
+    "faction:ossiarch_bonereapers"
+  ],
+  "effect": "Subtract 2 from charge rolls for enemy units while they are within 12\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Orange",
+  "abilityCategory": "Movement"
+}

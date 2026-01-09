@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords_barrow_legion.crown_of_cold_command",
+  "bsdataId": "8e1e-1cbb-177b-2031",
+  "type": "enhancement",
+  "name": "Crown of Cold Command",
+  "keywords": [
+    "artefact",
+    "faction:soulblight_gravelords_barrow_legion"
+  ],
+  "effect": "Roll a dice. On a 3+:\n• If the target is damaged, **Heal (3)** the target.\n• If the target is not damaged, return a number of slain models to it with a combined Health characteristic of up to 3.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Turn, Any Hero Phase",
+  "declare": "Pick a friendly **^^Barrow Legion^^** unit wholly within 12\" of this unit to be the target.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

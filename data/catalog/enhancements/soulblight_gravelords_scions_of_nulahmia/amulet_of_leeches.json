@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords_scions_of_nulahmia.amulet_of_leeches",
+  "bsdataId": "2cf1-187d-f040-7dd4",
+  "type": "enhancement",
+  "name": "Amulet of Leeches",
+  "keywords": [
+    "artefact",
+    "faction:soulblight_gravelords_scions_of_nulahmia"
+  ],
+  "effect": "While this unit is within the combat range of a friendly **Dire Wolves** or **Fell Bats** unit:\n• This unit has **^^Ward (5+)^^**.\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly **Dire Wolves** or **Fell Bats** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

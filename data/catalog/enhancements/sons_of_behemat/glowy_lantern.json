@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sons_of_behemat.glowy_lantern",
+  "bsdataId": "4875-da08-bbf-8b40",
+  "type": "enhancement",
+  "name": "Glowy Lantern",
+  "keywords": [
+    "artefact",
+    "faction:sons_of_behemat"
+  ],
+  "effect": "This unit can use **^^Summon^^** abilities from the manifestation lore you picked during army composition as if it had **^^Wizard (1).^^**",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

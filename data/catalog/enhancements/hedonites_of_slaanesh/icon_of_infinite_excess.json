@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.hedonites_of_slaanesh.icon_of_infinite_excess",
+  "bsdataId": "4d93-cffa-3772-3bc",
+  "type": "enhancement",
+  "name": "Icon of Infinite Excess",
+  "keywords": [
+    "artefact",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "effect": "Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Combat Phase",
+  "declare": "Pick a non-**^^Hero Hedonites of Slaanesh^^** unit wholly within 12\" of this unit to be the target.",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

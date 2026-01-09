@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.bonesplitterz.one_wiv_da_beast",
+  "bsdataId": "9159-d643-1ad0-fe2d",
+  "type": "enhancement",
+  "name": "One Wiv Da Beast",
+  "keywords": [
+    "command_trait",
+    "faction:bonesplitterz"
+  ],
+  "effect": "The next time this phase that this unit uses a **^^Spell^^** ability, instead of making a casting roll for this unit, you can use a value of 6 for the roll that cannot be modified.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle (Army), Any Hero Phase",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

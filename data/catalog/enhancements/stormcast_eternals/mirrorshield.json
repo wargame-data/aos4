@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.stormcast_eternals.mirrorshield",
+  "bsdataId": "74fd-bd4e-1851-4384",
+  "type": "enhancement",
+  "name": "Mirrorshield",
+  "keywords": [
+    "artefact",
+    "faction:stormcast_eternals"
+  ],
+  "effect": "This unit cannot be targeted by shooting attacks unless the attacking model is within 9\" of it.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

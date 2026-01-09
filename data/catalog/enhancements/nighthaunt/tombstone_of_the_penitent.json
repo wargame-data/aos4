@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.nighthaunt.tombstone_of_the_penitent",
+  "bsdataId": "5f0c-f63a-af69-2697",
+  "type": "enhancement",
+  "name": "Tombstone of the Penitent",
+  "keywords": [
+    "artefact",
+    "faction:nighthaunt"
+  ],
+  "effect": "Add 1 to the Attacks characteristic of this unit’s melee weapons for each non-**^^Faction Terrain^^** terrain feature that is being contested by friendly units, to a maximum of 8.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

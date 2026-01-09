@@ -1,0 +1,23 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.idoneth_deepkin_the_first_phalanx_of_ionrach.voidchill_darkness",
+  "bsdataId": "362b-8fba-5cd5-d44b",
+  "type": "enhancement",
+  "name": "Voidchill Darkness",
+  "keywords": [
+    "mount_trait",
+    "faction:idoneth_deepkin_the_first_phalanx_of_ionrach"
+  ],
+  "effect": "Subtract 1 from hit rolls for attacks that target this unit if this unit charged this turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "first_phalanx_cavalry"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

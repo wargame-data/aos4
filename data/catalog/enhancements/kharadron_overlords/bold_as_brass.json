@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords.bold_as_brass",
+  "bsdataId": "2953-5570-65e-7636",
+  "type": "enhancement",
+  "name": "Bold as Brass",
+  "keywords": [
+    "command_trait",
+    "faction:kharadron_overlords"
+  ],
+  "effect": "Add 5 to this unit's control score.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Purple",
+  "abilityCategory": "Control"
+}

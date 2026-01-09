@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.stormcast_eternals.sigil_of_morrda",
+  "bsdataId": "1568-cb58-12b7-4315",
+  "type": "enhancement",
+  "name": "Sigil of Morrda",
+  "keywords": [
+    "artefact",
+    "faction:stormcast_eternals"
+  ],
+  "effect": "Roll a dice. On a 3+, that command or **^^Rampage^^** ability has no effect, it still counts as having been used and any command points spent to use that ability are still lost.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Turn, Reaction: Opponent declared a command or a **^^Rampage^^** ability for a unit in combat with this unit",
+  "color": "Gray",
+  "abilityCategory": "Special"
+}

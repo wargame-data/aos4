@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ossiarch_bonereapers.marrowpact",
+  "bsdataId": "1698-888e-9153-407",
+  "type": "enhancement",
+  "name": "Marrowpact",
+  "keywords": [
+    "artefact",
+    "faction:ossiarch_bonereapers"
+  ],
+  "effect": "For the rest of the turn, if the unmodified hit roll for a combat attack that targets this unit is 1-2, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Combat Phase",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

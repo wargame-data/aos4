@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.fyreslayers.droth_helm",
+  "bsdataId": "9e14-87d3-79be-2fd3",
+  "type": "enhancement",
+  "name": "Droth-helm",
+  "keywords": [
+    "artefact",
+    "faction:fyreslayers"
+  ],
+  "effect": "Add 1 to hit rolls for **Companion** weapons used by friendly **^^Fyreslayers^^** units while they are wholly within 12\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

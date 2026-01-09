@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords.zonbarcorp_dealbreaker_battle_ram",
+  "bsdataId": "4694-853c-aac5-c4f8",
+  "type": "enhancement",
+  "name": "Zonbarcorp 'Dealbreaker' Battle Ram",
+  "keywords": [
+    "command_trait",
+    "faction:kharadron_overlords"
+  ],
+  "effect": "Roll a number of dice equal to the unmodified charge roll. For each 4+, inflict 1 mortal damage on the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "skyvessels",
+      "skyvessel"
+    ]
+  },
+  "timing": "Any Charge Phase",
+  "declare": "If this unit charged this phase, pick an enemy unit in combat with it to be the target.",
+  "color": "Orange",
+  "abilityCategory": "Offensive"
+}

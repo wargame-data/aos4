@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords.unhinged_rampager",
+  "bsdataId": "a22a-43bf-51f2-b940",
+  "type": "enhancement",
+  "name": "Unhinged Rampager",
+  "keywords": [
+    "command_trait",
+    "faction:soulblight_gravelords"
+  ],
+  "effect": "You can re-roll charge rolls for this unit in your charge phase.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Orange",
+  "abilityCategory": "Movement"
+}

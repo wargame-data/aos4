@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.disciples_of_tzeentch_pyrofane_cult.wyrdflame_aegis",
+  "bsdataId": "e6c8-67a0-06d1-56da",
+  "type": "enhancement",
+  "name": "Wyrdflame Aegis",
+  "keywords": [
+    "command_trait",
+    "faction:disciples_of_tzeentch_pyrofane_cult"
+  ],
+  "effect": "You can ignore mortal damage inflicted on this unit by the 'Immolation of the Realms' ability, and if damage would have been inflicted upon it by that ability, the persisting effects from that ability apply to it as though it had been allocated damage by the ability.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

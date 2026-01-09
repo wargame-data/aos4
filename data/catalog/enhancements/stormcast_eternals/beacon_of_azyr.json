@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.stormcast_eternals.beacon_of_azyr",
+  "bsdataId": "2ecc-792f-566e-3670",
+  "type": "enhancement",
+  "name": "Beacon of Azyr",
+  "keywords": [
+    "artefact",
+    "faction:stormcast_eternals"
+  ],
+  "effect": "The next time this turn that the target uses a **^^Prayer^^** or **^^Spell^^** ability, instead of making a casting roll or chanting roll for them, you can use a value of 7 for the roll that cannot be modified. After that ability is resolved, if the target has any ritual points, reset their ritual points total to 0.\n**Designer’s Note:** *Ritual points apply modifiers so cannot be used with this ability to increase the chanting roll to more than 7.*",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Hero Phase",
+  "declare": "Pick a visible friendly **^^Stormcast Eternals Wizard^^** or **^^Priest^^** wholly within 12\" of this unit to be the target.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

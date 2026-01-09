@@ -1,0 +1,25 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness.the_blasted_standard",
+  "bsdataId": "a97e-616a-fe67-c134",
+  "type": "enhancement",
+  "name": "The Blasted Standard",
+  "keywords": [
+    "ensorcelled_banner",
+    "faction:slaves_to_darkness"
+  ],
+  "effect": "This unit has the **^^Pledged to Tzeentch^^** keyword.\nIn addition, while this unit includes any standard bearers, this unit has **^^Ward (4+)^^** against damage inflicted by shooting attacks.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "slaves_to_darkness_infantry",
+      "cavalry",
+      "standard_bearer"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

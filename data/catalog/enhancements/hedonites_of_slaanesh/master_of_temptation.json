@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.hedonites_of_slaanesh.master_of_temptation",
+  "bsdataId": "406b-c168-21e5-f447",
+  "type": "enhancement",
+  "name": "Master of Temptation",
+  "keywords": [
+    "command_trait",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "effect": "For the rest of the turn, while your opponent has not used any of their temptation dice to replace a roll for the target this turn, the target can only use **^^Core^^** abilities.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Enemy Hero Phase",
+  "declare": "You can only use this ability if your opponent has any temptation dice. Pick a visible enemy unit within 18\" of this unit to be the target.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords_grundstok_expeditionary_force.aetheric_nullifier",
+  "bsdataId": "9d53-798e-ace2-814f",
+  "type": "enhancement",
+  "name": "Aetheric Nullifier",
+  "keywords": [
+    "artefact",
+    "faction:kharadron_overlords_grundstok_expeditionary_force"
+  ],
+  "effect": "Roll 2D6. If the roll equals or exceeds the banishment value listed on the **^^Manifestation^^**’s warscroll, it is banished and removed from play. You cannot pick the same **^^Manifestation^^** to be the target of this ability more than once per phase.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Opponent declared a **^^Shoot^^** or **^^Fight^^** ability for a **^^Manifestation^^** within 9\" of the bearer",
+  "color": "Black",
+  "abilityCategory": "Special"
+}

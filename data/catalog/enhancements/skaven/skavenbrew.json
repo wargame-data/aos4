@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.skaven.skavenbrew",
+  "bsdataId": "63e2-3c50-7ec7-4371",
+  "type": "enhancement",
+  "name": "Skavenbrew",
+  "keywords": [
+    "artefact",
+    "faction:skaven"
+  ],
+  "effect": "Inflict D3 mortal damage on the target. Then, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Combat Phase",
+  "declare": "Pick a friendly non-**^^Hero Skaven Infantry^^** unit wholly within 13\" of this unit to be the target.",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

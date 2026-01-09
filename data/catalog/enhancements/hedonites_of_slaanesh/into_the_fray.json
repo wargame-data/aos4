@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.hedonites_of_slaanesh.into_the_fray",
+  "bsdataId": "6332-3846-cea0-858",
+  "type": "enhancement",
+  "name": "Into the Fray",
+  "keywords": [
+    "command_trait",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "effect": "If this unit charged this turn and the unmodified charge roll was 8+, this unit has Strike-first for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.beasts_of_chaos.gnarlstaff_of_morghur",
+  "bsdataId": "932e-0e06-a74b-9abf",
+  "type": "enhancement",
+  "name": "Gnarlstaff of Morghur",
+  "keywords": [
+    "artefact",
+    "faction:beasts_of_chaos"
+  ],
+  "effect": "Roll a dice. On a 2+, ward rolls cannot be made for the target for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Hero Phase",
+  "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

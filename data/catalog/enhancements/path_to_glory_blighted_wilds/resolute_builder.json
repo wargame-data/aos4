@@ -1,0 +1,18 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_blighted_wilds.resolute_builder",
+  "bsdataId": "541c-ade3-b940-8bcb",
+  "type": "enhancement",
+  "name": "Resolute Builder",
+  "keywords": [
+    "command_trait",
+    "faction:path_to_glory_blighted_wilds"
+  ],
+  "effect": "While this unit is within 3\" of a friendly faction terrain feature or a terrain feature wholly within friendly territory, this unit has **^^Ward (5+)^^**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "color": "Black",
+  "abilityCategory": "Defensive"
+}

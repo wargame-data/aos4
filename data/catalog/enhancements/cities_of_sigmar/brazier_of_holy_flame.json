@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.cities_of_sigmar.brazier_of_holy_flame",
+  "bsdataId": "c244-fb99-a193-4a8d",
+  "type": "enhancement",
+  "name": "Brazier of Holy Flame",
+  "keywords": [
+    "artefact",
+    "faction:cities_of_sigmar"
+  ],
+  "effect": "You can return up to D3 slain models to that unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "End of Any Turn",
+  "declare": "Pick a friendly non-**^^Hero Cities of Sigmar Infantry^^** unit that is not in combat and wholly within 12\" of this unit.",
+  "color": "Purple",
+  "abilityCategory": "Rallying"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.flesh_eater_courts_the_equinox_feast.lord_of_revelries",
+  "bsdataId": "8bfe-e962-7e1b-eabb",
+  "type": "enhancement",
+  "name": "Lord of Revelries",
+  "keywords": [
+    "command_trait",
+    "faction:flesh_eater_courts_the_equinox_feast"
+  ],
+  "effect": "Ignore the first damage point that would be allocated to this unit in each phase.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

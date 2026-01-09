@@ -1,0 +1,24 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.fyreslayers.incandescent_blaze",
+  "bsdataId": "53ec-07b1-c356-4ad0",
+  "type": "enhancement",
+  "name": "Incandescent Blaze",
+  "keywords": [
+    "artefact",
+    "faction:fyreslayers"
+  ],
+  "effect": "For the rest of the turn:\n• Double the Attacks characteristic of this unit's **Roaring Fyrestream**.\n• This unit's **Roaring Fyrestream** has a Damage characteristic of 3.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "magmadroths"
+    ]
+  },
+  "timing": "Once Per Battle, Your Shooting Phase",
+  "color": "Blue",
+  "abilityCategory": "Shooting"
+}

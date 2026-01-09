@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.helsmiths_of_hashut_taar_s_grand_forgehost.ruthless_overseer",
+  "bsdataId": "9c18-f4d2-8c14-0b7e",
+  "type": "enhancement",
+  "name": "Ruthless Overseer",
+  "keywords": [
+    "command_trait",
+    "faction:helsmiths_of_hashut_taar_s_grand_forgehost"
+  ],
+  "effect": "Each time a friendly **^^Grand Forgehost^^** unit wholly within 12\" of this unit uses the 'Rally' command, you can make 3 additional rally rolls of D6.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Rallying"
+}

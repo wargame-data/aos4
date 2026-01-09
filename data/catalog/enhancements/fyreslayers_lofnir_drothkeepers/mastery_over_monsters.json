@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.fyreslayers_lofnir_drothkeepers.mastery_over_monsters",
+  "bsdataId": "36fb-0b0f-dfc3-bb9f",
+  "type": "enhancement",
+  "name": "Mastery Over Monsters",
+  "keywords": [
+    "artefact",
+    "faction:fyreslayers_lofnir_drothkeepers"
+  ],
+  "effect": "While this unit is contesting an objective, enemy **^^Monsters^^** contesting that objective each have a maximum control score of 2.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Purple",
+  "abilityCategory": "Control"
+}

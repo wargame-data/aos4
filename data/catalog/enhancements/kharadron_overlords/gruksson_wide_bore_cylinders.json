@@ -1,0 +1,24 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords.gruksson_wide_bore_cylinders",
+  "bsdataId": "8df7-49b2-6fae-4dea",
+  "type": "enhancement",
+  "name": "Gruksson Wide-Bore Cylinders",
+  "keywords": [
+    "command_trait",
+    "faction:kharadron_overlords"
+  ],
+  "effect": "Add 2\" to this unit's Move characteristic.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "skyvessels",
+      "skyvessel"
+    ]
+  },
+  "color": "Gray",
+  "abilityCategory": "Movement"
+}

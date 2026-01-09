@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.flesh_eater_courts.charnel_vestments",
+  "bsdataId": "f6cf-5f0e-94d4-de67",
+  "type": "enhancement",
+  "name": "Charnel Vestments",
+  "keywords": [
+    "artefact",
+    "faction:flesh_eater_courts"
+  ],
+  "effect": "If this unit is not a **^^Priest^^**, it has **^^Priest (1)^^**. If this unit is already a **^^Priest^^**, add 1 to chanting rolls for this unit. If this unit is a Wizard, it cannot use **^^Spell^^** abilities and **^^Prayer^^** abilities in the same phase.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

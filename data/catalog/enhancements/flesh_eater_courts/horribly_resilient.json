@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.flesh_eater_courts.horribly_resilient",
+  "bsdataId": "b9a5-f570-eca8-072b",
+  "type": "enhancement",
+  "name": "Horribly Resilient",
+  "keywords": [
+    "mount_trait",
+    "faction:flesh_eater_courts"
+  ],
+  "effect": "Heal (D3) this unit. If this unit is not a **^^Hero^^**, **Heal (2D3)** this unit instead.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "End of Any Turn",
+  "color": "Purple",
+  "abilityCategory": "Defensive"
+}

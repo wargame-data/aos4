@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.helsmiths_of_hashut.servile_automaton",
+  "bsdataId": "1d1c-f666-821b-b306",
+  "type": "enhancement",
+  "name": "Servile Automaton",
+  "keywords": [
+    "command_trait",
+    "faction:helsmiths_of_hashut"
+  ],
+  "effect": "For the rest of the battle, the target is this unit's bodyguard and the following effects apply:\n• While this unit is in combat and its bodyguard is within its combat range, its bodyguard has **^^Strike-first^^**.\n• If this unit is **^^Infantry^^**, it has **^^Ward (5+)^^** while its bodyguard is within its combat range.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Deployment Phase",
+  "declare": "Pick a friendly **^^Helsmiths of Hashut Automaton^^** unit within this unit's combat range to be the target.",
+  "color": "Black",
+  "abilityCategory": "Special"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords.spell_in_a_bottle",
+  "bsdataId": "9140-e0ab-c4ed-b8d5",
+  "type": "enhancement",
+  "name": "Spell in a Bottle",
+  "keywords": [
+    "artefact",
+    "faction:kharadron_overlords"
+  ],
+  "effect": "This unit can use a **^^Summon^^** ability from the manifestation lore you picked during army composition as if it had **^^Wizard (1)^^**. Instead of making a casting roll for that **^^Summon^^** ability, the casting roll is 7 and cannot be modified. That **^^Summon^^** ability cannot be unbound.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Hero Phase",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

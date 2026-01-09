@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.big_waaagh.get_krumpin",
+  "bsdataId": "5882-3f1f-5e5b-0e26",
+  "type": "enhancement",
+  "name": "Get Krumpin'!",
+  "keywords": [
+    "command_trait",
+    "faction:big_waaagh"
+  ],
+  "effect": "For the rest of the battle round, add 1 to wound roll for combat attacks made by friendly **^^Big Waaagh!^^** units while they are wholly within 12\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Hero Phase",
+  "declare": "You can use this ability if this unit has the **^^Power of the Waaagh!^^** keyword and a friendly unit has not used a **^^Brutal Kunnin'^^** ability this turn.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

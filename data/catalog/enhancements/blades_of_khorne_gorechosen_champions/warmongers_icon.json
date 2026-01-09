@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.blades_of_khorne_gorechosen_champions.warmongers_icon",
+  "bsdataId": "99fa-feb6-1226-3a8a",
+  "type": "enhancement",
+  "name": "Warmonger's Icon",
+  "keywords": [
+    "artefact",
+    "faction:blades_of_khorne_gorechosen_champions"
+  ],
+  "effect": "The targets have **^^Strike-first^^** for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Combat Phase",
+  "declare": "Pick this unit and up to D3 friendly **^^Gorechosen Champions^^** units within this unit's combat range to be the targets.",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

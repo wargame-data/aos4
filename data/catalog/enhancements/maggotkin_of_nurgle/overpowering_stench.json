@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.maggotkin_of_nurgle.overpowering_stench",
+  "bsdataId": "48ba-8415-d9e5-61af",
+  "type": "enhancement",
+  "name": "Overpowering Stench",
+  "keywords": [
+    "command_trait",
+    "faction:maggotkin_of_nurgle"
+  ],
+  "effect": "Roll a dice. On a 5+, that command has no effect. The command still counts as having been used and the command points spent to use the command are still lost.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Reaction: Opponent declared a command for a unit in combat with this unit",
+  "color": "Black",
+  "abilityCategory": "Special"
+}

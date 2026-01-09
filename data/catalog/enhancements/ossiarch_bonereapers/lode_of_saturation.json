@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ossiarch_bonereapers.lode_of_saturation",
+  "bsdataId": "6f1-2042-1baa-9d85",
+  "type": "enhancement",
+  "name": "Lode of Saturation",
+  "keywords": [
+    "artefact",
+    "faction:ossiarch_bonereapers"
+  ],
+  "effect": "This unit has **^^Ward (5+)^^**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.hedonites_of_slaanesh.the_need_for_perfection",
+  "bsdataId": "5a58-c300-cb07-d02f",
+  "type": "enhancement",
+  "name": "The Need For Perfection",
+  "keywords": [
+    "command_trait",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "effect": "The first time each turn that an unmodified charge roll, casting roll, unbinding roll or banishment roll for a friendly non-**^^Euphoric^^** unit wholly within 12\" of this unit is 5 or less, that unit has the **^^Euphoric^^** keyword for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Black",
+  "abilityCategory": "Special"
+}

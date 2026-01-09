@@ -1,0 +1,24 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.stormcast_eternals_astral_templars.godbeast_plate",
+  "bsdataId": "cf17-be85-09c2-8560",
+  "type": "enhancement",
+  "name": "Godbeast Plate",
+  "keywords": [
+    "artefact",
+    "faction:stormcast_eternals_astral_templars"
+  ],
+  "effect": "If the unmodified wound roll for an attack made with a **Companion** weapon that targets this unit is 1-3, the attack fails and the attack sequence ends.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  }
+}

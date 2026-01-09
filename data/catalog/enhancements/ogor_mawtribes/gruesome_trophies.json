@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ogor_mawtribes.gruesome_trophies",
+  "bsdataId": "4088-f0d0-86fd-c5e0",
+  "type": "enhancement",
+  "name": "Gruesome Trophies",
+  "keywords": [
+    "artefact",
+    "faction:ogor_mawtribes"
+  ],
+  "effect": "Add 1 to hit rolls for combat attacks that target **^^Heroes^^** or **^^Monsters^^** made by friendly **^^Ogor Mawtribes^^** units while they are wholly within 12\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

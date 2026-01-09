@@ -1,0 +1,25 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness.the_banner_of_screaming_flesh",
+  "bsdataId": "7ed4-b657-d63b-63b0",
+  "type": "enhancement",
+  "name": "The Banner of Screaming Flesh",
+  "keywords": [
+    "ensorcelled_banner",
+    "faction:slaves_to_darkness"
+  ],
+  "effect": "This unit has the **^^Pledged to Slaanesh^^** keyword.\nIn addition, while this unit includes any standard bearesrs, if this unit charged this turn, for the rest of the turn, add 1 to the Attacks characteristic of this unit's melee weapons.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "slaves_to_darkness_infantry",
+      "cavalry",
+      "standard_bearer"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_ravaged_coast.carved_magmadroth_horn",
+  "bsdataId": "e819-3420-495a-f9ab",
+  "type": "enhancement",
+  "name": "Carved Magmadroth Horn",
+  "keywords": [
+    "artefact",
+    "faction:path_to_glory_ravaged_coast"
+  ],
+  "effect": "If a friendly unit wholly within 12\" of this unit uses the 'Rally' command, you can make 3 additional rally rolls of D6.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "color": "Yellow",
+  "abilityCategory": "Rallying"
+}

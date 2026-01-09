@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ironjawz.trophy_skulls",
+  "bsdataId": "bfe4-ee9c-3d28-7a61",
+  "type": "enhancement",
+  "name": "Trophy Skulls",
+  "keywords": [
+    "artefact",
+    "faction:ironjawz"
+  ],
+  "effect": "Add 10 to this unit’s control score.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Purple",
+  "abilityCategory": "Control"
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_blighted_wilds.arcane_seedpod",
+  "bsdataId": "d463-8c03-5cdb-c240",
+  "type": "enhancement",
+  "name": "Arcane Seedpod",
+  "keywords": [
+    "artefact",
+    "faction:path_to_glory_blighted_wilds"
+  ],
+  "effect": "The following effects apply until the start of your next turn:\n• Subtract 1 from casting rolls and chanting rolls for each target.\n• Halve each target's Move characteristic.\n• The effects of the 'Fly' ability do not apply to the targets.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "timing": "Deployment Phase",
+  "declare": "Pick a visible terrain feature within 9\" of this unit, then pick each enemy unit within 3\" of it to be the targets.",
+  "color": "Gray",
+  "abilityCategory": "Special"
+}

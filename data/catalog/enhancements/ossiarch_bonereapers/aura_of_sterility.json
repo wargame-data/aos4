@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ossiarch_bonereapers.aura_of_sterility",
+  "bsdataId": "64ae-5389-561-9414",
+  "type": "enhancement",
+  "name": "Aura of Sterility",
+  "keywords": [
+    "command_trait",
+    "faction:ossiarch_bonereapers"
+  ],
+  "effect": "Subtract 1 from wound rolls for shooting attacks that target friendly **^^Ossiarch Bonereapers^^** units while they are wholly within 12\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords_grundstok_expeditionary_force.entrenchment_expert",
+  "bsdataId": "3417-a5c9-399e-89f7",
+  "type": "enhancement",
+  "name": "Entrenchment Expert",
+  "keywords": [
+    "command_trait",
+    "faction:kharadron_overlords_grundstok_expeditionary_force"
+  ],
+  "effect": "That friendly unit has **^^Ward (5+)^^** for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Reaction: You declared the ‘All-Out Defence’ command for a friendly unit wholly within 12\" of this **^^Hero^^**",
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

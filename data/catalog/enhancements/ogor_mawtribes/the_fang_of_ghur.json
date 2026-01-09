@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ogor_mawtribes.the_fang_of_ghur",
+  "bsdataId": "105b-b006-1a87-a738",
+  "type": "enhancement",
+  "name": "The Fang of Ghur",
+  "keywords": [
+    "artefact",
+    "faction:ogor_mawtribes"
+  ],
+  "effect": "Ward rolls cannot be made for the target for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Combat Phase",
+  "declare": "Pick an enemy unit in combat with this unit to be the target.",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

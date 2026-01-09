@@ -21,11 +21,13 @@ import { findUnits, getFactionId } from "./xml/traverser.js";
 import { PublicationResolver } from "./xml/publications.js";
 import { WarscrollMapper } from "./mappers/warscroll.mapper.js";
 import { mapIndividualSpells, mapIndividualPrayers } from "./mappers/spell.mapper.js";
+import { mapEnhancements } from "./mappers/enhancement.mapper.js";
 import {
   ensureCatalogStructure,
   writeWarscrolls,
   writeIndividualSpells,
   writeIndividualPrayers,
+  writeEnhancements,
 } from "./output/writer.js";
 import {
   getGrandAlliance,
@@ -34,6 +36,7 @@ import {
 import type { MapperOptions } from "./mappers/base.js";
 import type { Warscroll } from "../schemas/schemas/warscroll.schema.js";
 import type { Spell, Prayer } from "../schemas/schemas/spell.schema.js";
+import type { Enhancement } from "../schemas/schemas/enhancement.schema.js";
 
 // Default BSData cache path
 const DEFAULT_BSDATA_PATH = ".cache/bsdata/age-of-sigmar-4th";
@@ -48,6 +51,7 @@ interface CatalogResult {
   warscrolls: Warscroll[];
   spells: Spell[];
   prayers: Prayer[];
+  enhancements: Enhancement[];
   factionCounts: Map<string, number>;
   errors: string[];
 }
@@ -168,6 +172,77 @@ async function parseSpellsAndPrayers(
 }
 
 /**
+ * Find all faction catalogue files (non-Library, non-Legends)
+ * These contain enhancements
+ */
+async function findFactionCatalogueFiles(bsdataPath: string): Promise<string[]> {
+  const pattern = join(bsdataPath, "*.cat");
+  const allFiles = await glob(pattern);
+
+  // Filter to only include main faction files
+  return allFiles.filter((f) => {
+    const name = basename(f).toLowerCase();
+    // Exclude Library files, Legends, Lores, and other non-faction files
+    return (
+      !name.includes("library") &&
+      !name.includes("legends") &&
+      !name.includes("lores") &&
+      !name.includes("game system") &&
+      !name.includes("regiment") &&
+      !name.endsWith(".gst")
+    );
+  });
+}
+
+/**
+ * Parse all faction catalogues for enhancements
+ */
+async function parseEnhancements(
+  bsdataPath: string,
+  options: ParseOptions
+): Promise<{ enhancements: Enhancement[]; errors: string[] }> {
+  const factionFiles = await findFactionCatalogueFiles(bsdataPath);
+  const allEnhancements: Enhancement[] = [];
+  const errors: string[] = [];
+
+  console.log(`\nParsing ${factionFiles.length} faction files for enhancements...`);
+
+  for (const file of factionFiles) {
+    try {
+      const catalogue = await parseCat(file);
+      const factionId = catalogueNameToFactionId(catalogue.$.name);
+      const grandAlliance = getGrandAlliance(factionId);
+
+      if (options.verbose) {
+        console.log(`  Parsing ${basename(file)} for enhancements...`);
+      }
+
+      const mapperOptions: MapperOptions = {
+        strict: false,
+        factionId,
+        grandAlliance,
+        catalogueName: catalogue.$.name,
+      };
+
+      const enhancements = mapEnhancements(catalogue, mapperOptions);
+
+      if (enhancements.length > 0) {
+        allEnhancements.push(...enhancements);
+        console.log(`  ${factionId}: ${enhancements.length} enhancements`);
+      }
+    } catch (error) {
+      const msg = `Failed to parse enhancements from ${file}: ${error}`;
+      errors.push(msg);
+      if (options.verbose) {
+        console.error(`  Error: ${msg}`);
+      }
+    }
+  }
+
+  return { enhancements: allEnhancements, errors };
+}
+
+/**
  * Write catalog results to disk
  */
 function writeCatalogResults(result: CatalogResult, options: ParseOptions): void {
@@ -196,6 +271,12 @@ function writeCatalogResults(result: CatalogResult, options: ParseOptions): void
     const prayerResults = writeIndividualPrayers(result.prayers);
     console.log(`  Prayers: ${prayerResults.length} files`);
   }
+
+  // Write enhancements
+  if (result.enhancements.length > 0) {
+    const enhancementResults = writeEnhancements(result.enhancements);
+    console.log(`  Enhancements: ${enhancementResults.length} files`);
+  }
 }
 
 /**
@@ -216,6 +297,7 @@ function printSummary(result: CatalogResult): void {
 
   console.log(`Spells: ${result.spells.length}`);
   console.log(`Prayers: ${result.prayers.length}`);
+  console.log(`Enhancements: ${result.enhancements.length}`);
   console.log(`Errors: ${result.errors.length}`);
 
   if (result.errors.length > 0) {
@@ -268,13 +350,20 @@ async function main(): Promise<void> {
     options
   );
 
+  // Parse enhancements from faction catalogues
+  const { enhancements, errors: enhancementErrors } = await parseEnhancements(
+    options.bsdataPath,
+    options
+  );
+
   // Combine results
   const result: CatalogResult = {
     warscrolls,
     spells,
     prayers,
+    enhancements,
     factionCounts,
-    errors: [...warscrollErrors, ...loreErrors],
+    errors: [...warscrollErrors, ...loreErrors, ...enhancementErrors],
   };
 
   // Write results

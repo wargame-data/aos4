@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.blades_of_khorne.argath_the_king_of_blades",
+  "bsdataId": "4e60-c59e-a6eb-2766",
+  "type": "enhancement",
+  "name": "Ar'gath, the King of Blades",
+  "keywords": [
+    "artefact",
+    "faction:blades_of_khorne"
+  ],
+  "effect": "Ward rolls cannot be made for enemy **^^Heroes^^** while they are in combat with this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.maggotkin_of_nurgle.grandfathers_blessing",
+  "bsdataId": "f340-a6ba-b99c-da5f",
+  "type": "enhancement",
+  "name": "Grandfather's Blessing",
+  "keywords": [
+    "command_trait",
+    "faction:maggotkin_of_nurgle"
+  ],
+  "effect": "If this unit is in combat with a **^^Diseased^^** enemy unit, **Heal (D6)** this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "End of Any Turn",
+  "color": "Purple",
+  "abilityCategory": "Defensive"
+}

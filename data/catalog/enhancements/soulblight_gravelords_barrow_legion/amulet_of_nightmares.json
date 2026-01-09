@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords_barrow_legion.amulet_of_nightmares",
+  "bsdataId": "6e3e-7ea2-43b1-d2ea",
+  "type": "enhancement",
+  "name": "Amulet of Nightmares",
+  "keywords": [
+    "artefact",
+    "faction:soulblight_gravelords_barrow_legion"
+  ],
+  "effect": "Roll a dice. On a 2+, the target has **^^Strike-last^^** this phase.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Combat Phase",
+  "declare": "Pick an enemy unit within 9\" of this unit to be the target.",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

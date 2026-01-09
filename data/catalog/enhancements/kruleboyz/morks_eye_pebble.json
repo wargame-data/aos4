@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kruleboyz.morks_eye_pebble",
+  "bsdataId": "cb2d-475-47e8-83ba",
+  "type": "enhancement",
+  "name": "Mork's Eye Pebble",
+  "keywords": [
+    "artefact",
+    "faction:kruleboyz"
+  ],
+  "effect": "For the rest of the turn, friendly **^^Kruleboyz^^** units have **^^Ward (5+)^^** while they are wholly within 12\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Reaction: Opponent declared an **^^Attack^^** ability",
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

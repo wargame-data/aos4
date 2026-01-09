@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.daughters_of_khaine.zealous_orator",
+  "bsdataId": "1767-a16f-2268-e3de",
+  "type": "enhancement",
+  "name": "Zealous Orator",
+  "keywords": [
+    "command_trait",
+    "faction:daughters_of_khaine"
+  ],
+  "effect": "If a friendly unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Rallying"
+}

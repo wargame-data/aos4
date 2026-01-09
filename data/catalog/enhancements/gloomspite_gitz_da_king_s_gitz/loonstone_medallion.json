@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.gloomspite_gitz_da_king_s_gitz.loonstone_medallion",
+  "bsdataId": "c598-3813-5960-85c3",
+  "type": "enhancement",
+  "name": "Loonstone Medallion",
+  "keywords": [
+    "artefact",
+    "faction:gloomspite_gitz_da_king_s_gitz"
+  ],
+  "effect": "This unit has **^^Ward (6+)^^**. While this unit is contesting an objective that is not being coned by any other friendly units, it has **^^Ward (5+)^^**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

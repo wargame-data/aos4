@@ -1,0 +1,18 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_blighted_wilds.barkflesh_shield",
+  "bsdataId": "b717-f374-503d-4721",
+  "type": "enhancement",
+  "name": "Barkflesh Shield",
+  "keywords": [
+    "artefact",
+    "faction:path_to_glory_blighted_wilds"
+  ],
+  "effect": "Ignore the first damage point that would be allocated to this unit in each phase.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

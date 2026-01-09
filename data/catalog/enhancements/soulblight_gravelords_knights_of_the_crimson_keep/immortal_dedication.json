@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords_knights_of_the_crimson_keep.immortal_dedication",
+  "bsdataId": "72bb-dbae-8d4b-c975",
+  "type": "enhancement",
+  "name": "Immortal Dedication",
+  "keywords": [
+    "command_trait",
+    "faction:soulblight_gravelords_knights_of_the_crimson_keep"
+  ],
+  "effect": "This unit receives D3 **martial prowess tokens**. Each **martial prowess token** can be spent to do 1 of the following:\n• Re-roll a hit roll for this unit.\n• Re-roll a wound roll for this unit.\n• Re-roll a save roll for this unit.\nAt the start of the next turn, remove all this unit's **martial prowess tokens**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Combat Phase",
+  "color": "Red",
+  "abilityCategory": "Special"
+}

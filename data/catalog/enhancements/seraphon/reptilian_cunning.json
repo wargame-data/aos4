@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.seraphon.reptilian_cunning",
+  "bsdataId": "6b3b-52d3-4b70-71a8",
+  "type": "enhancement",
+  "name": "Reptilian Cunning",
+  "keywords": [
+    "command_trait",
+    "faction:seraphon"
+  ],
+  "effect": "If this unit charged this turn, if a friendly unit wholly within 12\" of this unit uses the ‘All-out Attack’ command in the combat phase, no command points are spent.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

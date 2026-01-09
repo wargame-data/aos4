@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.disciples_of_tzeentch.arcane_siphon",
+  "bsdataId": "481f-b237-5be4-c520",
+  "type": "enhancement",
+  "name": "Arcane Siphon",
+  "keywords": [
+    "artefact",
+    "faction:disciples_of_tzeentch"
+  ],
+  "effect": "Roll a dice. On a 3+:\n• The target is banished.\n• **Heal (X)** this unit, where X is the target’s Health characteristic.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Turn (Army), Your Hero Phase",
+  "declare": "Pick a visible **^^Manifestation^^** (friendly or enemy) that was not set up this turn and is within 12\" of this unit to be the target.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

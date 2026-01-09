@@ -1,0 +1,18 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_ravaged_coast.cremated_pendant",
+  "bsdataId": "0a2d-f96f-69af-b225",
+  "type": "enhancement",
+  "name": "Cremated Pendant",
+  "keywords": [
+    "artefact",
+    "faction:path_to_glory_ravaged_coast"
+  ],
+  "effect": "Add double the current battle round number to this unit's control score.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "color": "Purple",
+  "abilityCategory": "Control"
+}

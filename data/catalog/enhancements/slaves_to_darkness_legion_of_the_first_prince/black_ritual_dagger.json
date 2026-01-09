@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness_legion_of_the_first_prince.black_ritual_dagger",
+  "bsdataId": "8d68-e421-fb0f-675f",
+  "type": "enhancement",
+  "name": "Black Ritual Dagger",
+  "keywords": [
+    "artefact",
+    "faction:slaves_to_darkness_legion_of_the_first_prince"
+  ],
+  "effect": "Allocate 1 damage point to this unit. Then, you can re-roll the casting roll.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Turn, Reaction: You declared a **^^Spell^^*** ability for a friendly unit wholly within 12\" of this unit.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.daughters_of_khaine_the_croneseer_s_pariahs.proselyte_of_morai_heg",
+  "bsdataId": "9a1-6318-3823-82d7",
+  "type": "enhancement",
+  "name": "Proselyte of Morai-Heg",
+  "keywords": [
+    "command_trait",
+    "faction:daughters_of_khaine_the_croneseer_s_pariahs"
+  ],
+  "effect": "Enemy units cannot use commands while they are in combat with this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Black",
+  "abilityCategory": "Special"
+}

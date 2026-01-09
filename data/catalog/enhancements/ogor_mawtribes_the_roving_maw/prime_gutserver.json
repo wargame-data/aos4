@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ogor_mawtribes_the_roving_maw.prime_gutserver",
+  "bsdataId": "fea6-464d-76d9-2b10",
+  "type": "enhancement",
+  "name": "Prime Gutserver",
+  "keywords": [
+    "command_trait",
+    "faction:ogor_mawtribes_the_roving_maw"
+  ],
+  "effect": "If this unit is a Head Butcher, gain 1 **tasty morsel**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle Round (Army), Start of Battle Round",
+  "color": "Black",
+  "abilityCategory": "Special"
+}

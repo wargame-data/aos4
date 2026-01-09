@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords_the_magnate_s_crew.master_of_discipline",
+  "bsdataId": "615d-7576-c09a-18d0",
+  "type": "enhancement",
+  "name": "Master of Discipline",
+  "keywords": [
+    "command_trait",
+    "faction:kharadron_overlords_the_magnate_s_crew"
+  ],
+  "effect": "Each time a friendly **^^Magnate's Crew Infantry^^** unit wholly within 12\" of this unit uses the 'Redeploy' command, you can re-roll the dice.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Gray",
+  "abilityCategory": "Movement"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.nighthaunt.brazier_of_nagashizzar",
+  "bsdataId": "8e03-ae4e-54e7-ec49",
+  "type": "enhancement",
+  "name": "Brazier of Nagashizzar",
+  "keywords": [
+    "artefact",
+    "faction:nighthaunt"
+  ],
+  "effect": "If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Reaction: You declared the 'Redeploy' command for a friendly **^^Nighthaunt Infantry^^** unit wholly within 12\" of this unit.",
+  "color": "Gray",
+  "abilityCategory": "Movement"
+}

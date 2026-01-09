@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords_barrow_legion.crypt_dagger",
+  "bsdataId": "a6b7-2ef3-b392-0b95",
+  "type": "enhancement",
+  "name": "Crypt Dagger",
+  "keywords": [
+    "artefact",
+    "faction:soulblight_gravelords_barrow_legion"
+  ],
+  "effect": "Inflict D6 mortal damage on the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, End of Any Turn",
+  "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target.",
+  "color": "Purple",
+  "abilityCategory": "Offensive"
+}

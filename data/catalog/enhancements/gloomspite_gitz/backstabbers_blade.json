@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.gloomspite_gitz.backstabbers_blade",
+  "bsdataId": "7409-57e5-b2ee-7080",
+  "type": "enhancement",
+  "name": "Backstabber's Blade",
+  "keywords": [
+    "artefact",
+    "faction:gloomspite_gitz"
+  ],
+  "effect": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, End of Any Turn",
+  "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target.",
+  "color": "Purple",
+  "abilityCategory": "Offensive"
+}

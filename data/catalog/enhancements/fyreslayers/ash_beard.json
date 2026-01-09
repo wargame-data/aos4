@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.fyreslayers.ash_beard",
+  "bsdataId": "5a32-71bf-d54c-96e0",
+  "type": "enhancement",
+  "name": "Ash-beard",
+  "keywords": [
+    "command_trait",
+    "faction:fyreslayers"
+  ],
+  "effect": "If this unit is not a **^^Priest^^**, they have **^^Priest (1)^^**. If this unit was already a **^^Priest^^**, add 1 to this unit’s chanting rolls.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

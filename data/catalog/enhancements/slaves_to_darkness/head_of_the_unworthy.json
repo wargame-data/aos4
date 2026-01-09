@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness.head_of_the_unworthy",
+  "bsdataId": "07d3-c4ca-40bc-41e6",
+  "type": "enhancement",
+  "name": "Head of the Unworthy",
+  "keywords": [
+    "artefact",
+    "faction:slaves_to_darkness"
+  ],
+  "effect": "If a friendly **^^Slaves to Darkness Hero^^** with any **Dark Apotheosis** points is destroyed, give this unit 8 **Dark Apotheosis** points.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Black",
+  "abilityCategory": "Special"
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.nighthaunt.amulet_of_waking_nightmares",
+  "bsdataId": "c125-df8e-27c2-3b13",
+  "type": "enhancement",
+  "name": "Amulet of Waking Nightmares",
+  "keywords": [
+    "artefact",
+    "faction:nighthaunt"
+  ],
+  "effect": "Roll a dice. On a 3+, for the rest of the turn, the target cannot be affected by the ‘Guarded Hero’ ability or the ‘Obscuring’ terrain ability.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Hero Phase",
+  "declare": "Pick an enemy **^^Hero^^** within 18\" of this unit to be the target.",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

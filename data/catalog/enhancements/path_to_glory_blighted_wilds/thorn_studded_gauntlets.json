@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_blighted_wilds.thorn_studded_gauntlets",
+  "bsdataId": "8115-c46b-0770-f2c9",
+  "type": "enhancement",
+  "name": "Thorn-studded Gauntlets",
+  "keywords": [
+    "artefact",
+    "faction:path_to_glory_blighted_wilds"
+  ],
+  "effect": "Inflict 1 mortal damage on each visible enemy unit within 6\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "timing": "End of Any Turn",
+  "color": "Purple",
+  "abilityCategory": "Offensive"
+}

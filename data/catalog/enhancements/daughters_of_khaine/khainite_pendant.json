@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.daughters_of_khaine.khainite_pendant",
+  "bsdataId": "fd97-a346-29a0-abb",
+  "type": "enhancement",
+  "name": "Khainite Pendant",
+  "keywords": [
+    "artefact",
+    "faction:daughters_of_khaine"
+  ],
+  "effect": "Give that unit D6 ritual points.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Hero Phase",
+  "declare": "Pick a friendly **^^Daughters of Khaine Priest^^** wholly within 12\" of this unit.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

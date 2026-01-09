@@ -1,0 +1,18 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness_the_swords_of_chaos.tamers_of_haradhs_torment",
+  "bsdataId": "9083-d23e-6f87-b2d7",
+  "type": "enhancement",
+  "name": "Tamers of Haradh's Torment",
+  "keywords": [
+    "command_trait",
+    "faction:slaves_to_darkness_the_swords_of_chaos"
+  ],
+  "effect": "Add 1 to the Damage characteristic of this unit’s **Companion** weapons.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

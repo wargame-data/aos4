@@ -1,0 +1,18 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness_the_swords_of_chaos.the_hounds_apocalyptus",
+  "bsdataId": "6966-1c6c-1324-ab72",
+  "type": "enhancement",
+  "name": "The Hounds Apocalyptus",
+  "keywords": [
+    "command_trait",
+    "faction:slaves_to_darkness_the_swords_of_chaos"
+  ],
+  "effect": "While this unit is wholly within enemy territory, add 1 to the Attacks characteristic of this unit’s melee weapons.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

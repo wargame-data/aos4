@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ironjawz.mega_bossy",
+  "bsdataId": "1497-d7a7-91c8-4985",
+  "type": "enhancement",
+  "name": "Mega Bossy",
+  "keywords": [
+    "command_trait",
+    "faction:ironjawz"
+  ],
+  "effect": "If this unit charged this turn, for the rest of the turn, add 1 to charge rolls for friendly **^^Ironjawz^^** units while they are wholly within 18\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Orange",
+  "abilityCategory": "Movement"
+}

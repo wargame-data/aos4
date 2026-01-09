@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness_tribes_of_the_snow_peaks.grand_offering",
+  "bsdataId": "8582-af09-ef12-2d7",
+  "type": "enhancement",
+  "name": "Grand Offering",
+  "keywords": [
+    "artefact",
+    "faction:slaves_to_darkness_tribes_of_the_snow_peaks"
+  ],
+  "effect": "Give the target D6 **sacrifice points**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle (Army), Any Movement Phase",
+  "declare": "Pick a friendly **^^Snow Peaks^^** **Wilderfiend** within 9\" of this unit to be the target",
+  "color": "Gray",
+  "abilityCategory": "Special"
+}

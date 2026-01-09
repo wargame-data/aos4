@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.disciples_of_tzeentch.spell_catcher_amulet",
+  "bsdataId": "2271-6db9-4b98-1bcf",
+  "type": "enhancement",
+  "name": "Spell-Catcher Amulet",
+  "keywords": [
+    "artefact",
+    "faction:disciples_of_tzeentch"
+  ],
+  "effect": "This unit can use a **^^Summon^^** ability from the manifestation lore you picked during army composition. That **^^Summon^^** ability does not count towards the total number of **^^Spell^^** or **^^Banish^^** abilities this unit can use this phase.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Turn (Army), Your Hero Phase",
+  "declare": "This unit can use this ability if any enemy **^^Manifestations^^** were banished this phase.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

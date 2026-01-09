@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.blades_of_khorne.collar_of_contempt",
+  "bsdataId": "b53d-220d-dc3a-13ac",
+  "type": "enhancement",
+  "name": "Collar of Contempt",
+  "keywords": [
+    "artefact",
+    "faction:blades_of_khorne"
+  ],
+  "effect": "This unit can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**. Each time this unit successfully unbinds a spell, inflict D3 mortal damage on the caster.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

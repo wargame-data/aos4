@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.hedonites_of_slaanesh.threnody_voicebox",
+  "bsdataId": "8b0b-791a-7873-1a61",
+  "type": "enhancement",
+  "name": "Threnody Voicebox",
+  "keywords": [
+    "artefact",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "effect": "For the rest of the turn, subtract 1 from the Attacks characteristic of melee weapons used by enemy units while they are in combat with this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Combat Phase",
+  "color": "Red",
+  "abilityCategory": "Defensive"
+}

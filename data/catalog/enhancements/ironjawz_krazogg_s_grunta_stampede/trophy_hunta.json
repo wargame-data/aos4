@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ironjawz_krazogg_s_grunta_stampede.trophy_hunta",
+  "bsdataId": "64e9-e2ac-953b-3524",
+  "type": "enhancement",
+  "name": "Trophy Hunta",
+  "keywords": [
+    "command_trait",
+    "faction:ironjawz_krazogg_s_grunta_stampede"
+  ],
+  "effect": "This unit’s **Pig-hakka** has Anti-**^^Monster^^** (+1 Rend) and Anti-**^^War Machine^^** (+1 Rend).",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

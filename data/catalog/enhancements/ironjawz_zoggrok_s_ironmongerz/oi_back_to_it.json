@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ironjawz_zoggrok_s_ironmongerz.oi_back_to_it",
+  "bsdataId": "513c-d218-7dd5-939b",
+  "type": "enhancement",
+  "name": "Oi! Back To It!",
+  "keywords": [
+    "command_trait",
+    "faction:ironjawz_zoggrok_s_ironmongerz"
+  ],
+  "effect": "If a friendly **^^Zoggrok's Ironmongers^^ Ardboyz** or **^^Brutes^^** unit wholly within 12\" of this unit uses the 'Rally' command, you can make 3 additional rally rolls of D6.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Rallying"
+}

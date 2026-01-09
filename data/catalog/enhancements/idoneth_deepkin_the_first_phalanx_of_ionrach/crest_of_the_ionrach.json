@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.idoneth_deepkin_the_first_phalanx_of_ionrach.crest_of_the_ionrach",
+  "bsdataId": "3ff7-66f5-695b-b554",
+  "type": "enhancement",
+  "name": "Crest of the Ionrach",
+  "keywords": [
+    "artefact",
+    "faction:idoneth_deepkin_the_first_phalanx_of_ionrach"
+  ],
+  "effect": "This unit has **^^Ward (6+)^^**",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

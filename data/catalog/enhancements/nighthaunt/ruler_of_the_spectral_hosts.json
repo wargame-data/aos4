@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.nighthaunt.ruler_of_the_spectral_hosts",
+  "bsdataId": "eabf-168d-e0bf-bd61",
+  "type": "enhancement",
+  "name": "Ruler of the Spectral Hosts",
+  "keywords": [
+    "command_trait",
+    "faction:nighthaunt"
+  ],
+  "effect": "Roll a D3 for each target. On a 2+:\n• If the target is damaged, **Heal (X)** the target, where **X** is an amount equal to the roll.\n• If the target is not damaged, return a number of slain models to it with a combined Health characteristic of up to X, where X is an amount equal to the roll.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Turn (Army), Your Hero Phase",
+  "declare": "Pick up to 3 friendly non-**^^Hero Nighthaunt^^** units wholly within 12\" of this unit to be the targets.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.flesh_eater_courts.savage_beyond_reason",
+  "bsdataId": "71b-ae31-9725-b6a0",
+  "type": "enhancement",
+  "name": "Savage Beyond Reason",
+  "keywords": [
+    "command_trait",
+    "faction:flesh_eater_courts"
+  ],
+  "effect": "Add 1 to the Attacks characteristic of this unit's melee weapons, including **Companion** weapons, if it did not use a **^^Fight^^** ability in the previous turn. Add 2 to the Attacks characteristic of those weapons instead while this unit has not used a **^^Fight^^** ability this battle.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "monsters"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

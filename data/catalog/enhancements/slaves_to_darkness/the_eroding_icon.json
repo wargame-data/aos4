@@ -1,0 +1,25 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness.the_eroding_icon",
+  "bsdataId": "1e1e-2f3b-dd4f-e415",
+  "type": "enhancement",
+  "name": "The Eroding Icon",
+  "keywords": [
+    "ensorcelled_banner",
+    "faction:slaves_to_darkness"
+  ],
+  "effect": "This unit has the **^^Pledged to Nurgle^^** keyword.\nIn addition, while this unit includes any standard bearers, attacks that target this unit cannot score critical hits (treat them as regular hits instead).",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "slaves_to_darkness_infantry",
+      "cavalry",
+      "standard_bearer"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.seraphon.coatl_familiar",
+  "bsdataId": "58bf-a607-bb0e-2d8f",
+  "type": "enhancement",
+  "name": "Coatl Familiar",
+  "keywords": [
+    "artefact",
+    "faction:seraphon"
+  ],
+  "effect": "Add D6 to the casting roll for that spell.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Reaction: You declared a **^^Spell^^** ability for a friendly **^^Seraphon Wizard^^** within this unit’s combat range",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

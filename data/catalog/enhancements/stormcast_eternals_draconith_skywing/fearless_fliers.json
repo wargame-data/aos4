@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.stormcast_eternals_draconith_skywing.fearless_fliers",
+  "bsdataId": "f1b5-8ba1-aad5-a22a",
+  "type": "enhancement",
+  "name": "Fearless Fliers",
+  "keywords": [
+    "command_trait",
+    "faction:stormcast_eternals_draconith_skywing"
+  ],
+  "effect": "If this unit is not in combat, it can immediately make a D6\" move and can end that move in combat",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "End of Any Turn",
+  "color": "Purple",
+  "abilityCategory": "Movement"
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sylvaneth.warsinger",
+  "bsdataId": "3619-e710-c6e5-490",
+  "type": "enhancement",
+  "name": "Warsinger",
+  "keywords": [
+    "command_trait",
+    "faction:sylvaneth"
+  ],
+  "effect": "Add 2\" to the Move characteristic of the target for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Movement Phase",
+  "declare": "Pick a friendly **^^Sylvaneth^^** unit wholly within 12\" of this unit to be the target.",
+  "color": "Gray",
+  "abilityCategory": "Movement"
+}

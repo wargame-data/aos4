@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.stormcast_eternals.hour_of_glory",
+  "bsdataId": "4122-1d96-38ef-1989",
+  "type": "enhancement",
+  "name": "Hour of Glory",
+  "keywords": [
+    "command_trait",
+    "faction:stormcast_eternals"
+  ],
+  "effect": "This unit can be picked to use the ‘Their Finest Hour’ ability even if it has already used it this battle. In addition, when this unit is picked to use the ‘Their Finest Hour’ ability, add 5 to its control score for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

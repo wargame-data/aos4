@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.helsmiths_of_hashut_ziggurat_stampede.raging_animus",
+  "bsdataId": "fbd4-9e6d-d56d-5fdc",
+  "type": "enhancement",
+  "name": "Raging Animus",
+  "keywords": [
+    "command_trait",
+    "faction:helsmiths_of_hashut_ziggurat_stampede"
+  ],
+  "effect": "Each time you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict D3 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

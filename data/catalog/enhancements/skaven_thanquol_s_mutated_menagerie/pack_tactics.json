@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.skaven_thanquol_s_mutated_menagerie.pack_tactics",
+  "bsdataId": "251d-8214-8cab-7f81",
+  "type": "enhancement",
+  "name": "Pack Tactics",
+  "keywords": [
+    "command_trait",
+    "faction:skaven_thanquol_s_mutated_menagerie"
+  ],
+  "effect": "The targets can each use the 'All-out Attack' or 'All-out Defence' command this phase even if that command has been used by a friendly unit this phase.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Combat Phase",
+  "declare": "Pick up to 2 friendly non-**^^Hero Mutated Menagerie Monster^^** units wholly within 13\" of this unit to be the targets.",
+  "color": "Red",
+  "abilityCategory": "Special"
+}

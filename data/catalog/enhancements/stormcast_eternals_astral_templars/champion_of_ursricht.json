@@ -1,0 +1,24 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.stormcast_eternals_astral_templars.champion_of_ursricht",
+  "bsdataId": "757d-d495-e4e9-739d",
+  "type": "enhancement",
+  "name": "Champion of Ursricht",
+  "keywords": [
+    "command_trait",
+    "faction:stormcast_eternals_astral_templars"
+  ],
+  "effect": "Add 1 to the Damage characteristic of this unit's melee weapons for attacks that target an enemy **^^Hero^^** or **^^Monster^^**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords.nullstone_galvanisation",
+  "bsdataId": "8a14-547a-211a-3c15",
+  "type": "enhancement",
+  "name": "Nullstone Galvanisation",
+  "keywords": [
+    "command_trait",
+    "faction:kharadron_overlords"
+  ],
+  "effect": "Inflict D6 mortal damage on each enemy **^^Manifestation^^** within this unit's combat range.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "skyvessels",
+      "skyvessel"
+    ]
+  },
+  "timing": "End of Any Turn",
+  "color": "Purple",
+  "abilityCategory": "Offensive"
+}

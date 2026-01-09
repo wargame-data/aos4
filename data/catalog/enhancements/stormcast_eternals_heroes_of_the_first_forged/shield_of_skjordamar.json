@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.stormcast_eternals_heroes_of_the_first_forged.shield_of_skjordamar",
+  "bsdataId": "ca4f-9e5b-3879-7fe6",
+  "type": "enhancement",
+  "name": "Shield of Skjordamar",
+  "keywords": [
+    "artefact",
+    "faction:stormcast_eternals_heroes_of_the_first_forged"
+  ],
+  "effect": "Roll a dice. On a 4+, ward rolls cannot be made for the target for the rest of the battle.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Combat Phase",
+  "declare": "Pick an enemy unit in combat with this unit to be the target.",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ogor_mawtribes_the_roving_maw.flasks_of_congealed_maw_juices",
+  "bsdataId": "0e6f-4158-4618-bf47",
+  "type": "enhancement",
+  "name": "Flasks of Congealed Maw-juices",
+  "keywords": [
+    "artefact",
+    "faction:ogor_mawtribes_the_roving_maw"
+  ],
+  "effect": "Friendly **Mawpits** within this unit’s combat range have **^^Ward (5+)^^**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

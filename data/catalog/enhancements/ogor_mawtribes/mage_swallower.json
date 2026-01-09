@@ -1,0 +1,23 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ogor_mawtribes.mage_swallower",
+  "bsdataId": "7f03-729f-7292-eaae",
+  "type": "enhancement",
+  "name": "Mage-Swallower",
+  "keywords": [
+    "command_trait",
+    "faction:ogor_mawtribes"
+  ],
+  "effect": "Subtract 1 from ward rolls for enemy units while they are within 6\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "ogor_mawtribes_heroes"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

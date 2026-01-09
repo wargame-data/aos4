@@ -1,0 +1,25 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness.the_banner_of_rage",
+  "bsdataId": "7f7e-9500-4b32-ff64",
+  "type": "enhancement",
+  "name": "The Banner of Rage",
+  "keywords": [
+    "ensorcelled_banner",
+    "faction:slaves_to_darkness"
+  ],
+  "effect": "This unit has the **^^Pledged to Khorne^^** keyword.\nIn addition, while this unit includes any standard bearers, add 1 to wound rolls for this unit's combat attacks.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "slaves_to_darkness_infantry",
+      "cavalry",
+      "standard_bearer"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

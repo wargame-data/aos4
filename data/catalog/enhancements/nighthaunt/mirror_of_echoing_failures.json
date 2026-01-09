@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.nighthaunt.mirror_of_echoing_failures",
+  "bsdataId": "2fbe-f99e-c102-ecb7",
+  "type": "enhancement",
+  "name": "Mirror of Echoing Failures",
+  "keywords": [
+    "artefact",
+    "faction:nighthaunt"
+  ],
+  "effect": "Roll a D3. On a 2+, for the rest of the phase:\n• Subtract 1 from casting rolls and chanting rolls for the targets.\n• Each time any of the targets fails to cast a spell or chant a prayer, inflict 1 mortal damage on the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Reaction: Opponent declared a **^^Spell^^** or **^^Prayer^^** ability for a **^^Wizard^^** or **^^Priest^^** within 12\" of this unit.",
+  "declare": "Pick each enemy **^^Wizard^^** and ^^**Priest^^** within 12\" of this unit to be the targets.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

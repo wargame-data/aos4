@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_ravaged_coast.spiteful_spark",
+  "bsdataId": "22bd-0d54-c7f4-64f4",
+  "type": "enhancement",
+  "name": "Spiteful Spark",
+  "keywords": [
+    "command_trait",
+    "faction:path_to_glory_ravaged_coast"
+  ],
+  "effect": "Roll a dice for each target. On a 2+, inflict 1 mortal damage on the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "timing": "Any Combat Phase",
+  "declare": "Pick each enemy unit in combat with this unit to be the targets.",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

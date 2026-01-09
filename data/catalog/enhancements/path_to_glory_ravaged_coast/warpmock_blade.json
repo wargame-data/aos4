@@ -1,0 +1,20 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_ravaged_coast.warpmock_blade",
+  "bsdataId": "3b13-dc09-5e36-ec73",
+  "type": "enhancement",
+  "name": "Warpmock Blade",
+  "keywords": [
+    "artefact",
+    "faction:path_to_glory_ravaged_coast"
+  ],
+  "effect": "For the rest of the battle, while this unit is in combat, in addition to its own weapon abilities, the target weapon has all of the weapon abilities that the melee weapons used by enemy units in combat with it have, except for the **Companion** weapon ability.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "timing": "Deployment Phase",
+  "declare": "Pick 1 of this unit's non-**Companion** melee weapons to be the target weapon.",
+  "color": "Black",
+  "abilityCategory": "Offensive"
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.daughters_of_khaine_the_croneseer_s_pariahs.blade_of_prophetic_doom",
+  "bsdataId": "66e0-1a98-4ac4-e33",
+  "type": "enhancement",
+  "name": "Blade of Prophetic Doom",
+  "keywords": [
+    "artefact",
+    "faction:daughters_of_khaine_the_croneseer_s_pariahs"
+  ],
+  "effect": "Roll a dice. On a 2+:\n• If the target is not damaged, inflict 1 mortal damage on it.\n• If the target is damaged, inflict an amount of mortal damage on it equal to the roll.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Turn, End of Any Turn",
+  "declare": "Pick an enemy unit in combat with this unit to be the target.",
+  "color": "Purple",
+  "abilityCategory": "Offensive"
+}

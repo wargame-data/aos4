@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.idoneth_deepkin.lifekelp_pod",
+  "bsdataId": "ab37-4dcd-55a2-6832",
+  "type": "enhancement",
+  "name": "Lifekelp Pod",
+  "keywords": [
+    "artefact",
+    "faction:idoneth_deepkin"
+  ],
+  "effect": "**Heal (D3)** each friendly **^^Idoneth Deepkin Cavalry^^** unit within this unit’s combat range.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Movement Phase",
+  "color": "Gray",
+  "abilityCategory": "Defensive"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords.frightening_vitality",
+  "bsdataId": "317f-fa5f-3651-a9ed",
+  "type": "enhancement",
+  "name": "Frightening Vitality",
+  "keywords": [
+    "command_trait",
+    "faction:soulblight_gravelords"
+  ],
+  "effect": "Each time an ability would heal exactly 1 or 2 of this unit’s damage points, heal 3 damage points instead.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

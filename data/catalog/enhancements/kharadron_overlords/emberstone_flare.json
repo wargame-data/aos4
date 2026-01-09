@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords.emberstone_flare",
+  "bsdataId": "b13c-f49d-c684-5fb2",
+  "type": "enhancement",
+  "name": "Emberstone Flare",
+  "keywords": [
+    "artefact",
+    "faction:kharadron_overlords"
+  ],
+  "effect": "Remove the target from the battlefield and set it up again wholly within 9\" of this unit and more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Movement Phase",
+  "declare": "Pick a friendly **^^Kharadron Overlords^^** unit that has **^^Fly^^** and is not in combat to be the target.",
+  "color": "Gray",
+  "abilityCategory": "Movement"
+}

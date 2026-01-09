@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ogor_mawtribes.great_gutlord",
+  "bsdataId": "8b5f-1d82-5f61-8ba0",
+  "type": "enhancement",
+  "name": "Great Gutlord",
+  "keywords": [
+    "mount_trait",
+    "faction:ogor_mawtribes"
+  ],
+  "effect": "Ignore negative modifiers to this unit’s control score and to hit rolls and wound rolls for this unit’s attacks.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Black",
+  "abilityCategory": "Special"
+}

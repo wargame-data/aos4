@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.helsmiths_of_hashut.gauntlets_of_punishment",
+  "bsdataId": "6a68-70cd-6ed7-66b6",
+  "type": "enhancement",
+  "name": "Gauntlets of Punishment",
+  "keywords": [
+    "artefact",
+    "faction:helsmiths_of_hashut"
+  ],
+  "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Shooting Phase",
+  "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
+  "color": "Blue",
+  "abilityCategory": "Shooting"
+}

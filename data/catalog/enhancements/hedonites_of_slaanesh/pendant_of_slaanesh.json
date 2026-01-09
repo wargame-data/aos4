@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.hedonites_of_slaanesh.pendant_of_slaanesh",
+  "bsdataId": "f321-ad71-d2c6-457e",
+  "type": "enhancement",
+  "name": "Pendant of Slaanesh",
+  "keywords": [
+    "artefact",
+    "faction:hedonites_of_slaanesh"
+  ],
+  "effect": "If any damage points were allocated to this unit this turn, **Heal (3)** this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "End of Any Turn",
+  "color": "Purple",
+  "abilityCategory": "Defensive"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ironjawz.armour_of_gork",
+  "bsdataId": "9e11-9291-83d3-4c4",
+  "type": "enhancement",
+  "name": "Armour of Gork",
+  "keywords": [
+    "artefact",
+    "faction:ironjawz"
+  ],
+  "effect": "This unit has **^^Ward (6+)^^**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Special"
+}

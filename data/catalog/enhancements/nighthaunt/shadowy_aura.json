@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.nighthaunt.shadowy_aura",
+  "bsdataId": "e525-1726-65ce-607f",
+  "type": "enhancement",
+  "name": "Shadowy Aura",
+  "keywords": [
+    "command_trait",
+    "faction:nighthaunt"
+  ],
+  "effect": "For the rest of the turn, subtract 1 from hit rolls for attacks that target this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Reaction: You declared the 'Redeploy' command for a friendly **^^Nighthaunt^^** unit wholly within 12\" of this unit",
+  "color": "Gray",
+  "abilityCategory": "Movement"
+}

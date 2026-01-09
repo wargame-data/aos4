@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.maggotkin_of_nurgle.rustfang",
+  "bsdataId": "4007-d401-2f91-14f3",
+  "type": "enhancement",
+  "name": "Rustfang",
+  "keywords": [
+    "artefact",
+    "faction:maggotkin_of_nurgle"
+  ],
+  "effect": "Subtract 1 from save rolls for the target for the rest of the battle.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Combat Phase",
+  "declare": "Pick an enemy **^^Hero^^** in combat with this unit to be the target.",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

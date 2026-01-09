@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.cities_of_sigmar.master_of_ballistics",
+  "bsdataId": "5469-10c8-8b60-dfc6",
+  "type": "enhancement",
+  "name": "Master of Ballistics",
+  "keywords": [
+    "command_trait",
+    "faction:cities_of_sigmar"
+  ],
+  "effect": "If a friendly **^^Cities of Sigmar^^** unit uses the ‘All-out Attack’ command in the shooting phase while it is within this unit’s combat range, add 1 to wound rolls for that unit’s shooting attacks in that phase. This effect is in addition to the effect of ‘All-out Attack’.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Blue",
+  "abilityCategory": "Shooting"
+}

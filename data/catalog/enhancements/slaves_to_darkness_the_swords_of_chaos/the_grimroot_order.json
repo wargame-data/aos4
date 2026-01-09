@@ -1,0 +1,18 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness_the_swords_of_chaos.the_grimroot_order",
+  "bsdataId": "c3ee-d6b9-ba7c-adc",
+  "type": "enhancement",
+  "name": "The Grimroot Order",
+  "keywords": [
+    "command_trait",
+    "faction:slaves_to_darkness_the_swords_of_chaos"
+  ],
+  "effect": "Add 1 to this unit’s Health characteristic.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.idoneth_deepkin_wardens_of_the_chorrileum.ammonite_carnyx",
+  "bsdataId": "088e-cb7e-ab68-19d9",
+  "type": "enhancement",
+  "name": "Ammonite Carnyx",
+  "keywords": [
+    "artefact",
+    "faction:idoneth_deepkin_wardens_of_the_chorrileum"
+  ],
+  "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Hero Phase",
+  "declare": "Pick a friendly **^^Chorrileum Namarti^^**** unit that has been destroyed to be the target.",
+  "color": "Yellow",
+  "abilityCategory": "Rallying"
+}

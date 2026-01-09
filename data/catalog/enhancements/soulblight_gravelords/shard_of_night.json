@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords.shard_of_night",
+  "bsdataId": "e458-a2b9-9888-6bbe",
+  "type": "enhancement",
+  "name": "Shard of Night",
+  "keywords": [
+    "artefact",
+    "faction:soulblight_gravelords"
+  ],
+  "effect": "Ignore modifiers to save rolls for shooting attacks that target this unit (positive and negative).",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Blue",
+  "abilityCategory": "Defensive"
+}

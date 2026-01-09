@@ -1,0 +1,24 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.idoneth_deepkin_the_first_phalanx_of_ionrach.swift_finned_skirmisher",
+  "bsdataId": "9254-590f-734f-9248",
+  "type": "enhancement",
+  "name": "Swift-finned Skirmisher",
+  "keywords": [
+    "mount_trait",
+    "faction:idoneth_deepkin_the_first_phalanx_of_ionrach"
+  ],
+  "effect": "If you roll a 1-3 when determining the distance that this unit can move, you can use a value of 4 instead.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "first_phalanx_cavalry"
+    ]
+  },
+  "timing": "Reaction: You declared the 'Redeploy' command for this unit",
+  "color": "Gray",
+  "abilityCategory": "Movement"
+}

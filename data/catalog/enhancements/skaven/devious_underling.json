@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.skaven.devious_underling",
+  "bsdataId": "5270-9f80-e9b3-7de6",
+  "type": "enhancement",
+  "name": "Devious Underling",
+  "keywords": [
+    "command_trait",
+    "faction:skaven"
+  ],
+  "effect": "For the rest of the battle:\n• While the target has not been slain, friendly **^^Skaven Infantry^^** units have **^^Ward (6+)^^** while they are wholly within 13\" of this unit.\n• Once the target has been slain, add 2 to charge rolls for friendly **^^Skaven Infantry^^** units while they are wholly within 13\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Deployment Phase",
+  "declare": "Pick another friendly **^^Skaven Hero^^** on the battlefield with a Health characteristic that equals or exceeds this unit’s Health characteristic to be the target.",
+  "color": "Black",
+  "abilityCategory": "Special"
+}

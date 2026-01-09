@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sons_of_behemat.grabby",
+  "bsdataId": "51a7-21ac-c1c3-5291",
+  "type": "enhancement",
+  "name": "Grabby",
+  "keywords": [
+    "command_trait",
+    "faction:sons_of_behemat"
+  ],
+  "effect": "Add 1 to hit rolls for this unit’s combat attacks that target an enemy unit contesting an objective you do not control.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

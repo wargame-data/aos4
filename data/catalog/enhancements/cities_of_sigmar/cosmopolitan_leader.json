@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.cities_of_sigmar.cosmopolitan_leader",
+  "bsdataId": "360e-5416-0f5a-4757",
+  "type": "enhancement",
+  "name": "Cosmopolitan Leader",
+  "keywords": [
+    "command_trait",
+    "faction:cities_of_sigmar"
+  ],
+  "effect": "Roll a dice. On a 3+, until the start of your next turn:\n• If the target is **^^Human^^**, add 1 to wound rolls for the target’s combat attacks.\n• If the target is **^^Duardin^^**, add 1 to charge rolls for the target.\n• If the target is **^^Aelf^^**, add 3 to the target’s control score.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Hero Phase",
+  "declare": "Pick a friendly **^^Cities of Sigmar Infantry^^** or **^^Cavalry^^** unit wholly within 12\" of this unit to be the target. If this unit is **^^Human^^**, pick up to 3 eligible units to be the targets instead.",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.fyreslayers.blood_of_the_berzerker",
+  "bsdataId": "fa21-f6e9-3a56-77",
+  "type": "enhancement",
+  "name": "Blood of the Berzerker",
+  "keywords": [
+    "command_trait",
+    "faction:fyreslayers"
+  ],
+  "effect": "Add 1 to charge rolls for friendly **^^Fyreslayers^^** units while they are wholly within 12\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Orange",
+  "abilityCategory": "Movement"
+}

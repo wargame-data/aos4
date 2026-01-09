@@ -1,0 +1,24 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords.grandiose_fuselage",
+  "bsdataId": "6c36-83a1-8114-c780",
+  "type": "enhancement",
+  "name": "Grandiose Fuselage",
+  "keywords": [
+    "command_trait",
+    "faction:kharadron_overlords"
+  ],
+  "effect": "Add 5 to this unit's Control characteristic.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "skyvessels",
+      "skyvessel"
+    ]
+  },
+  "color": "Purple",
+  "abilityCategory": "Control"
+}

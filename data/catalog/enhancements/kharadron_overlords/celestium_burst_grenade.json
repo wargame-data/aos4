@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords.celestium_burst_grenade",
+  "bsdataId": "a69a-d768-bc61-a1bc",
+  "type": "enhancement",
+  "name": "Celestium Burst Grenade",
+  "keywords": [
+    "artefact",
+    "faction:kharadron_overlords"
+  ],
+  "effect": "Ward rolls cannot be made for the target for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Shooting Phase",
+  "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
+  "color": "Blue",
+  "abilityCategory": "Offensive"
+}

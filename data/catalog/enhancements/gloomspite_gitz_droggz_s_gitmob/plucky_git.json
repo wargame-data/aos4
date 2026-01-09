@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.gloomspite_gitz_droggz_s_gitmob.plucky_git",
+  "bsdataId": "60bd-f304-b61a-5eb5",
+  "type": "enhancement",
+  "name": "Plucky Git",
+  "keywords": [
+    "command_trait",
+    "faction:gloomspite_gitz_droggz_s_gitmob"
+  ],
+  "effect": "While this unit has no damage points, friendly **^^Droggz's Gitmob^^** units have **^^WArd (6+)^^** while they are wholly within 9\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

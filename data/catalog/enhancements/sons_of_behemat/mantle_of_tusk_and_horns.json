@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sons_of_behemat.mantle_of_tusk_and_horns",
+  "bsdataId": "b848-e898-1112-5358",
+  "type": "enhancement",
+  "name": "Mantle of Tusk and Horns",
+  "keywords": [
+    "artefact",
+    "faction:sons_of_behemat"
+  ],
+  "effect": "For the rest of the turn, add 1 to hit rolls for combat attacks made by friendly **^^Sons of Behemat^^** units while they are wholly within 12\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Combat Phase",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

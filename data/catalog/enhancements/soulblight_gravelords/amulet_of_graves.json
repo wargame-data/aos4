@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords.amulet_of_graves",
+  "bsdataId": "3b86-b6df-742c-b938",
+  "type": "enhancement",
+  "name": "Amulet of Graves",
+  "keywords": [
+    "artefact",
+    "faction:soulblight_gravelords"
+  ],
+  "effect": "If there are fewer than 3 friendly **Cursed Sepulchres** on the battlefield, set up a **Cursed Sepulchre** on the battlefield more than 9\" away from all enemy units, more than 1\" from all friendly units and more than 3\" from all objectives and other terrain features.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Hero Phase",
+  "color": "Yellow",
+  "abilityCategory": "Offensive"
+}

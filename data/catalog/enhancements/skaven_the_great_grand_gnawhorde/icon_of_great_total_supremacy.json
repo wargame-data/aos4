@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.skaven_the_great_grand_gnawhorde.icon_of_great_total_supremacy",
+  "bsdataId": "0008-8c08-e043-7c09",
+  "type": "enhancement",
+  "name": "Icon of Great-total Supremacy",
+  "keywords": [
+    "artefact",
+    "faction:skaven_the_great_grand_gnawhorde"
+  ],
+  "effect": "You can return up to D3 slain models to each friendly **^^Gnawhore Infantry^^** unit with a Health characteristic of up to 3.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Hero Phase",
+  "color": "Yellow",
+  "abilityCategory": "Rallying"
+}

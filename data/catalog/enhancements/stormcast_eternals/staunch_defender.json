@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.stormcast_eternals.staunch_defender",
+  "bsdataId": "310-200b-43d8-8bca",
+  "type": "enhancement",
+  "name": "Staunch Defender",
+  "keywords": [
+    "command_trait",
+    "faction:stormcast_eternals"
+  ],
+  "effect": "While this unit is contesting an objective in friendly territory, add 3 to the control scores of friendly **^^Stormcast Eternals^^** units contesting that objective.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Purple",
+  "abilityCategory": "Control"
+}

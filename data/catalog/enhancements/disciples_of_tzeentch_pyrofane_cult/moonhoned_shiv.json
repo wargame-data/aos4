@@ -1,0 +1,25 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.disciples_of_tzeentch_pyrofane_cult.moonhoned_shiv",
+  "bsdataId": "fa09-4d45-17a3-6801",
+  "type": "enhancement",
+  "name": "Moonhoned Shiv",
+  "keywords": [
+    "artefact",
+    "faction:disciples_of_tzeentch_pyrofane_cult"
+  ],
+  "effect": "Pick 1 of this unit's non-**Companion** melee weapons. Add 1 to the Attacks characteristic of that weapon for the rest of the battle. In addition, each time this unit uses a **^^Retreat^^** ability, add 1 to the Attacks characteristic of that weapon for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Deployment Phase"
+}

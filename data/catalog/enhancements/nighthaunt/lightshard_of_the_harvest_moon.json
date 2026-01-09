@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.nighthaunt.lightshard_of_the_harvest_moon",
+  "bsdataId": "5d90-2d26-d267-287b",
+  "type": "enhancement",
+  "name": "Lightshard of the Harvest Moon",
+  "keywords": [
+    "artefact",
+    "faction:nighthaunt"
+  ],
+  "effect": "If this unit is in combat, add 1 to the Attacks characteristic of melee weapons used by friendly **^^Nighthaunt^^** units while they are wholly within 12\" of this unit for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Combat Phase",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

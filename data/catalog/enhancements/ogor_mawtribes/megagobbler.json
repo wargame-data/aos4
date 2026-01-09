@@ -1,0 +1,24 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ogor_mawtribes.megagobbler",
+  "bsdataId": "bb4d-b531-0cf7-42cc",
+  "type": "enhancement",
+  "name": "Megagobbler",
+  "keywords": [
+    "command_trait",
+    "faction:ogor_mawtribes"
+  ],
+  "effect": "Pick 1 of the following keywords:\n• **^^Infantry^^**\n• **^^Cavalry^^**\n• **^^Monster^^**\n• **^^War Machine^^**\n• **^^Beast^^**\nFor the rest of the battle, each time any damage points are allocated to an enemy unit with that keyword by this unit’s combat attacks and that enemy unit is destroyed in the same turn, add 1 to the Attacks characteristic of this unit’s melee weapons. This effect is cumulative.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "ogor_mawtribes_heroes"
+    ]
+  },
+  "timing": "Once Per Battle, Deployment Phase",
+  "color": "Black",
+  "abilityCategory": "Offensive"
+}

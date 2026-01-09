@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness.radiance_of_dark_glory",
+  "bsdataId": "619b-6451-c3d5-42d1",
+  "type": "enhancement",
+  "name": "Radiance of Dark Glory",
+  "keywords": [
+    "command_trait",
+    "faction:slaves_to_darkness"
+  ],
+  "effect": "Roll a dice for each target. On a 3+, **Heal (1)** the target. **Heal (3)** the target instead if it is a Monster.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Hero Phase",
+  "declare": "Pick each damaged friendly unit wholly within 12\" of this unit to be the targets.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

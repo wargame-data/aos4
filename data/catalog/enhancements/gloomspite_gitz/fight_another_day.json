@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.gloomspite_gitz.fight_another_day",
+  "bsdataId": "5676-cc14-badf-9fa2",
+  "type": "enhancement",
+  "name": "Fight Another Day",
+  "keywords": [
+    "command_trait",
+    "faction:gloomspite_gitz"
+  ],
+  "effect": "If this unit is in combat, roll a dice. On a 3+, this unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Combat Phase",
+  "color": "Red",
+  "abilityCategory": "Movement"
+}

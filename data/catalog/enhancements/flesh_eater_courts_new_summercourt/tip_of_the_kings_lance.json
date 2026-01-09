@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.flesh_eater_courts_new_summercourt.tip_of_the_kings_lance",
+  "bsdataId": "fa8d-5354-3688-83a2",
+  "type": "enhancement",
+  "name": "Tip of the King's Lance",
+  "keywords": [
+    "command_trait",
+    "faction:flesh_eater_courts_new_summercourt"
+  ],
+  "effect": "If this unit charged this turn, it can move 2D6\". It can pass through models in enemy units, but it must end that move in combat.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Combat Phase",
+  "color": "Red",
+  "abilityCategory": "Movement"
+}

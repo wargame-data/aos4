@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.maggotkin_of_nurgle.corpulent_avalanche",
+  "bsdataId": "0749-8d30-7f61-df29",
+  "type": "enhancement",
+  "name": "Corpulent Avalanche",
+  "keywords": [
+    "artefact",
+    "faction:maggotkin_of_nurgle"
+  ],
+  "effect": "Roll a number of dice equal to this unit’s Move characteristic. For each 3+, inflict 1 mortal damage on the target.\nIf any damage points were allocated to the target by this ability, this unit can move 2D3\". It can move through the combat ranges of enemy units but must end that move in combat with the unit it was already in combat with at the start of\nthe move.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Charge Phase",
+  "declare": "If this unit charged this turn, pick a visible enemy unit within 1\" of it to be the target.",
+  "color": "Orange",
+  "abilityCategory": "Special"
+}

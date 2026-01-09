@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness.favoured_of_the_pantheon",
+  "bsdataId": "5255-a844-c9a0-5607",
+  "type": "enhancement",
+  "name": "Favoured of the Pantheon",
+  "keywords": [
+    "command_trait",
+    "faction:slaves_to_darkness"
+  ],
+  "effect": "If this unit is picked as the target of the 'Eye of the Gods' ability, it gains 3 **Dark Apotheosis** points.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Black",
+  "abilityCategory": "Special"
+}

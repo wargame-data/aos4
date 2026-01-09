@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords_barrow_legion.ring_of_stricken_souls",
+  "bsdataId": "77f1-0743-fd53-09e8",
+  "type": "enhancement",
+  "name": "Ring of Stricken Souls",
+  "keywords": [
+    "artefact",
+    "faction:soulblight_gravelords_barrow_legion"
+  ],
+  "effect": "This unit has **^^Ward (5+)^^**",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

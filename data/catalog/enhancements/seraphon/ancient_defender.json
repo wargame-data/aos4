@@ -1,0 +1,23 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.seraphon.ancient_defender",
+  "bsdataId": "8a16-6139-0eec-ceb1",
+  "type": "enhancement",
+  "name": "Ancient Defender",
+  "keywords": [
+    "mount_trait",
+    "faction:seraphon"
+  ],
+  "effect": "Add 1 to hit rolls for attacks made by this unit’s **Companion** weapons.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "monsters"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

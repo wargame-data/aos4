@@ -1,0 +1,25 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.seraphon.armour_cruncher",
+  "bsdataId": "f9c3-b052-704b-318e",
+  "type": "enhancement",
+  "name": "Armour Cruncher",
+  "keywords": [
+    "mount_trait",
+    "faction:seraphon"
+  ],
+  "effect": "Roll a dice. If the roll equals or exceeds the target’s Save characteristic, subtract 1 from save rolls for the target for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "monsters"
+    ]
+  },
+  "timing": "Any Combat Phase",
+  "declare": "Pick an enemy unit in combat with this unit to be the target.",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

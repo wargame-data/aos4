@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.helsmiths_of_hashut_taar_s_grand_forgehost.talisman_of_obsidian",
+  "bsdataId": "a72b-e1ba-a51b-dd11",
+  "type": "enhancement",
+  "name": "Talisman of Obsidian",
+  "keywords": [
+    "artefact",
+    "faction:helsmiths_of_hashut_taar_s_grand_forgehost"
+  ],
+  "effect": "Subtract 1 from hit rolls for attacks that target this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

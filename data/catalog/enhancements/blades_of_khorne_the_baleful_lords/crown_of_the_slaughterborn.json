@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.blades_of_khorne_the_baleful_lords.crown_of_the_slaughterborn",
+  "bsdataId": "f6c0-e72e-df0b-c14f",
+  "type": "enhancement",
+  "name": "Crown of the Slaughterborn",
+  "keywords": [
+    "artefact",
+    "faction:blades_of_khorne_the_baleful_lords"
+  ],
+  "effect": "Enemy units within 12\" of this unit cannot be healed and cannot have slain models returned to them.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Special"
+}

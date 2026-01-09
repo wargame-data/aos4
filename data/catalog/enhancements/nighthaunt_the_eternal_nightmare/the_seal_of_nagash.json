@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.nighthaunt_the_eternal_nightmare.the_seal_of_nagash",
+  "bsdataId": "1d1c-0a50-a590-cd15",
+  "type": "enhancement",
+  "name": "The Seal of Nagash",
+  "keywords": [
+    "artefact",
+    "faction:nighthaunt_the_eternal_nightmare"
+  ],
+  "effect": "Allocate 3 damage points to this unit (ward rolls cannot be made for those damage points). Then, **Heal (3)** the friendly **Nagash**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Hero Phase",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

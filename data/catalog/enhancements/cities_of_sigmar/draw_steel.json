@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.cities_of_sigmar.draw_steel",
+  "bsdataId": "c2f7-e525-d69d-2403",
+  "type": "enhancement",
+  "name": "Draw Steel!",
+  "keywords": [
+    "command_trait",
+    "faction:cities_of_sigmar"
+  ],
+  "effect": "Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Combat Phase",
+  "declare": "If this unit charged this turn, pick a friendly **^^Cities of Sigmar Human^^** unit that charged this turn and is wholly within 12\" of this unit to be the target.",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

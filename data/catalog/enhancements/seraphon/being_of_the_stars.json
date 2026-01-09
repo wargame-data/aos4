@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.seraphon.being_of_the_stars",
+  "bsdataId": "249e-88d9-32cd-8e77",
+  "type": "enhancement",
+  "name": "Being of the Stars",
+  "keywords": [
+    "command_trait",
+    "faction:seraphon"
+  ],
+  "effect": "Ignore modifiers to save rolls for this unit (positive and negative).",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

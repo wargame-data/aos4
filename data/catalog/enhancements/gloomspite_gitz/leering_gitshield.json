@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.gloomspite_gitz.leering_gitshield",
+  "bsdataId": "dfe1-783c-784b-887c",
+  "type": "enhancement",
+  "name": "Leering Gitshield",
+  "keywords": [
+    "artefact",
+    "faction:gloomspite_gitz"
+  ],
+  "effect": "Each time an unmodified hit roll for an attack that targets this unit is 1, inflict 1 mortal damage on the attacking unit after the **^^Attack^^** ability has been resolved.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

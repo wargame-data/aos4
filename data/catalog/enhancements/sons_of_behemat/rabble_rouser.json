@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sons_of_behemat.rabble_rouser",
+  "bsdataId": "af81-d78-3e5b-5f9c",
+  "type": "enhancement",
+  "name": "Rabble Rouser",
+  "keywords": [
+    "command_trait",
+    "faction:sons_of_behemat"
+  ],
+  "effect": "Add 1 to charge rolls for friendly **^^Sons of Behemat^^** units while they are wholly within 12\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Orange",
+  "abilityCategory": "Movement"
+}

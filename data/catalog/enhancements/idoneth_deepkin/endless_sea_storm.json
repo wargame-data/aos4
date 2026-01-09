@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.idoneth_deepkin.endless_sea_storm",
+  "bsdataId": "1356-963c-1229-9b9d",
+  "type": "enhancement",
+  "name": "Endless Sea-Storm",
+  "keywords": [
+    "command_trait",
+    "faction:idoneth_deepkin"
+  ],
+  "effect": "If this unit is a **^^Wizard^^**, add 1 to its power level for the rest of the turn. If this unit is not a **^^Wizard^^**, it gains **^^Wizard (1)^^** for the rest of the turn.\nIn addition, add 2 to the next casting roll or banishment roll for this unit this turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Hero Phase",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

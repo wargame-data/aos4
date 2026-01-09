@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kruleboyz.egomaniak",
+  "bsdataId": "862c-abb9-b793-9c2d",
+  "type": "enhancement",
+  "name": "Egomaniak",
+  "keywords": [
+    "command_trait",
+    "faction:kruleboyz"
+  ],
+  "effect": "While this unit is within the combat range of a friendly non-**^^Hero Kruleboyz^^** Infantry unit:\n• This unit has **^^Ward (4+)^^**.\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly non-**^^Hero Kruleboyz Infantry^^** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ogor_mawtribes.elixir_of_the_frostwyrm",
+  "bsdataId": "1401-e49e-ff27-5b7b",
+  "type": "enhancement",
+  "name": "Elixir of the Frostwyrm",
+  "keywords": [
+    "artefact",
+    "faction:ogor_mawtribes"
+  ],
+  "effect": "Roll a dice. Inflict an amount of mortal damage on the target equal to the roll. Then, **Heal (X)** this unit, where **X** is an amount equal to the roll.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Any Shooting Phase",
+  "declare": "Pick an enemy unit in combat with this unit to be the target.",
+  "color": "Blue",
+  "abilityCategory": "Special"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.skaven.foulhide",
+  "bsdataId": "4bd9-bbdb-f47f-7e6",
+  "type": "enhancement",
+  "name": "Foulhide",
+  "keywords": [
+    "artefact",
+    "faction:skaven"
+  ],
+  "effect": "**Heal (D3)** this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "End of Any Turn",
+  "color": "Purple",
+  "abilityCategory": "Defensive"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_blighted_wilds.grizzled_survivalist",
+  "bsdataId": "099e-2439-e19c-f438",
+  "type": "enhancement",
+  "name": "Grizzled Survivalist",
+  "keywords": [
+    "command_trait",
+    "faction:path_to_glory_blighted_wilds"
+  ],
+  "effect": "Ignore positive modifiers to hit rolls and wound rolls for shooting attacks that target this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

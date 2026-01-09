@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords_the_magnate_s_crew.guns_for_all_occasions",
+  "bsdataId": "327f-47c1-93e2-af53",
+  "type": "enhancement",
+  "name": "Guns for All Occasions",
+  "keywords": [
+    "artefact",
+    "faction:kharadron_overlords_the_magnate_s_crew"
+  ],
+  "effect": "Inflict D3 mortal damage on the target.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "End of Your Turn",
+  "declare": "Pick an enemy unit in combat with this unit to be the target.",
+  "color": "Purple",
+  "abilityCategory": "Offensive"
+}

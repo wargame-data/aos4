@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.blades_of_khorne_gorechosen_champions.the_scarring_blade",
+  "bsdataId": "98e5-4428-7612-fbd7",
+  "type": "enhancement",
+  "name": "The Scarring Blade",
+  "keywords": [
+    "artefact",
+    "faction:blades_of_khorne_gorechosen_champions"
+  ],
+  "effect": "Allocate D3 damage points to this unit (ward rolls cannot be made for those damage points). For the rest of the turn, add **X** to the Attacks characteristic of melee weapons used by friendly **^^Gorechosen Champions^^** units, where **X** is equal to the amount of mortal damage allocated to this unit this turn by this ability.\nFor the rest of the battle, this unit cannot use the 'Hate-fuelled Killers' ability and cannot be healed.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Combat Phase",
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

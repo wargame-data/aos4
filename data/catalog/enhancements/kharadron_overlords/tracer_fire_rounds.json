@@ -1,0 +1,25 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords.tracer_fire_rounds",
+  "bsdataId": "8032-8c1d-0560-a6cc",
+  "type": "enhancement",
+  "name": "Tracer-Fire Rounds",
+  "keywords": [
+    "command_trait",
+    "faction:kharadron_overlords"
+  ],
+  "effect": "If all of the attacks target the same enemy unit, ignore negative modifiers to hit rolls for those attacks.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "skyvessels",
+      "skyvessel"
+    ]
+  },
+  "timing": "Your Shooting Phase, Reaction: You declared a **^^Shoot^^** ability for this unit.",
+  "color": "Blue",
+  "abilityCategory": "Shooting"
+}

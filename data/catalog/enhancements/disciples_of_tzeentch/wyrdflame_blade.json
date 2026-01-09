@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.disciples_of_tzeentch.wyrdflame_blade",
+  "bsdataId": "1cad-e215-a646-a9ea",
+  "type": "enhancement",
+  "name": "Wyrdflame Blade",
+  "keywords": [
+    "artefact",
+    "faction:disciples_of_tzeentch"
+  ],
+  "effect": "If any damage points are allocated to an enemy unit by this unit’s combat attacks, that enemy unit has the **^^Burning^^** keyword.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Special"
+}

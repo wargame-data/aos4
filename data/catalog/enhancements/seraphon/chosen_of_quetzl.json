@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.seraphon.chosen_of_quetzl",
+  "bsdataId": "a455-fecd-67f1-38cb",
+  "type": "enhancement",
+  "name": "Chosen of Quetzl",
+  "keywords": [
+    "command_trait",
+    "faction:seraphon"
+  ],
+  "effect": "Roll a dice. On a 3+, the target can move up to 8\". It can move through the combat ranges of enemy units but cannot end that move in combat.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Combat Phase",
+  "declare": "Pick a visible friendly non-**^^Monster Skink^^** unit that is in combat and is wholly within 12\" of this unit to be the target.",
+  "color": "Red",
+  "abilityCategory": "Movement"
+}

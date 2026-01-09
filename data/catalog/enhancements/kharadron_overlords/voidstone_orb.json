@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kharadron_overlords.voidstone_orb",
+  "bsdataId": "f9b7-eac8-5758-2baa",
+  "type": "enhancement",
+  "name": "Voidstone Orb",
+  "keywords": [
+    "artefact",
+    "faction:kharadron_overlords"
+  ],
+  "effect": "That spell is unbound.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Reaction: Opponent declared a **^^Spell^^** ability for a **^^Wizard^^** within 30\" of this unit",
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

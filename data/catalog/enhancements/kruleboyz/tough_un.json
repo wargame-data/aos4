@@ -1,0 +1,23 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.kruleboyz.tough_un",
+  "bsdataId": "13f4-552c-ed77-a8e8",
+  "type": "enhancement",
+  "name": "Tough 'Un",
+  "keywords": [
+    "mount_trait",
+    "faction:kruleboyz"
+  ],
+  "effect": "Subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "monsters"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

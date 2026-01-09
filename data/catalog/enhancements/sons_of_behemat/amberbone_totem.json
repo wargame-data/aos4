@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.sons_of_behemat.amberbone_totem",
+  "bsdataId": "d487-2419-8794-52aa",
+  "type": "enhancement",
+  "name": "Amberbone Totem",
+  "keywords": [
+    "artefact",
+    "faction:sons_of_behemat"
+  ],
+  "effect": "For the rest of the turn, this unit can use **^^Charge^^** abilities even if it used a **^^Run^^** ability in the same turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Charge Phase",
+  "color": "Orange",
+  "abilityCategory": "Movement"
+}

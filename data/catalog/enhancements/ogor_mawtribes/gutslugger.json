@@ -1,0 +1,23 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.ogor_mawtribes.gutslugger",
+  "bsdataId": "6a94-009a-eb0d-9843",
+  "type": "enhancement",
+  "name": "Gutslugger",
+  "keywords": [
+    "command_trait",
+    "faction:ogor_mawtribes"
+  ],
+  "effect": "Add 1 to hit rolls for this unit’s combat attacks if it did not charge in the same turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "ogor_mawtribes_heroes"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

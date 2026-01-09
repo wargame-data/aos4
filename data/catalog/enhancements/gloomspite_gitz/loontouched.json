@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.gloomspite_gitz.loontouched",
+  "bsdataId": "b87d-3da3-b16d-b0c0",
+  "type": "enhancement",
+  "name": "Loontouched",
+  "keywords": [
+    "command_trait",
+    "faction:gloomspite_gitz"
+  ],
+  "effect": "If this unit is not a **^^Wizard^^**, it has **^^Wizard (1)^^**. Otherwise, add 1 to casting rolls for this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Yellow",
+  "abilityCategory": "Special"
+}

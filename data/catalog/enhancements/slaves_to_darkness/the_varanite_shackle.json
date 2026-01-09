@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness.the_varanite_shackle",
+  "bsdataId": "fa3a-e2f8-5de5-bed3",
+  "type": "enhancement",
+  "name": "The Varanite Shackle",
+  "keywords": [
+    "artefact",
+    "faction:slaves_to_darkness"
+  ],
+  "effect": "Friendly non-**^^Warriors of Chaos Slaves to Darkness^^** units have **^^Ward (6+)^^** while they are wholly within 12\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

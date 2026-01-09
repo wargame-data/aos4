@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.big_waaagh.da_sneaky_stab_slab",
+  "bsdataId": "dcb2-c7b6-b90a-3510",
+  "type": "enhancement",
+  "name": "Da Sneaky Stab-slab",
+  "keywords": [
+    "artefact",
+    "faction:big_waaagh"
+  ],
+  "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Offensive"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness_the_swords_of_chaos.the_blackstorm_apostates",
+  "bsdataId": "3aac-f035-ee8c-d8d2",
+  "type": "enhancement",
+  "name": "The Blackstorm Apostates",
+  "keywords": [
+    "command_trait",
+    "faction:slaves_to_darkness_the_swords_of_chaos"
+  ],
+  "effect": "Add 3\" to this unit’s Move characteristic.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "color": "Gray",
+  "abilityCategory": "Movement"
+}

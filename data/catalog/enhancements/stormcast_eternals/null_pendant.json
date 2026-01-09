@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.stormcast_eternals.null_pendant",
+  "bsdataId": "b4e3-928c-45d2-b224",
+  "type": "enhancement",
+  "name": "Null Pendant",
+  "keywords": [
+    "artefact",
+    "faction:stormcast_eternals"
+  ],
+  "effect": "Subtract 5 from the target’s control score for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, End of Any Turn",
+  "declare": "Pick an enemy unit in combat with this unit to be the target.",
+  "color": "Purple",
+  "abilityCategory": "Control"
+}

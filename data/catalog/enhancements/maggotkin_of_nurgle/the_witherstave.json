@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.maggotkin_of_nurgle.the_witherstave",
+  "bsdataId": "ac7c-9253-681f-dd8d",
+  "type": "enhancement",
+  "name": "The Witherstave",
+  "keywords": [
+    "artefact",
+    "faction:maggotkin_of_nurgle"
+  ],
+  "effect": "Roll a dice. On a 4+, the target has **^^Strike-last^^** for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Any Combat Phase",
+  "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
+  "color": "Red",
+  "abilityCategory": "Defensive"
+}

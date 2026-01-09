@@ -1,0 +1,25 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.slaves_to_darkness.the_dread_banner",
+  "bsdataId": "0bc8-9645-b70f-3e53",
+  "type": "enhancement",
+  "name": "The Dread Banner",
+  "keywords": [
+    "ensorcelled_banner",
+    "faction:slaves_to_darkness"
+  ],
+  "effect": "While this unit includes any standard bearers, enemy units cannot use commands while they are in combat with this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "slaves_to_darkness_infantry",
+      "cavalry",
+      "standard_bearer"
+    ]
+  },
+  "color": "Black",
+  "abilityCategory": "Special"
+}

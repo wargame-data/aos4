@@ -1,0 +1,23 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.idoneth_deepkin_the_first_phalanx_of_ionrach.deep_connection",
+  "bsdataId": "8372-6d60-c4ca-3081",
+  "type": "enhancement",
+  "name": "Deep Connection",
+  "keywords": [
+    "mount_trait",
+    "faction:idoneth_deepkin_the_first_phalanx_of_ionrach"
+  ],
+  "effect": "Ignore the effect of the **Companion** weapon ability on this unit's weapons.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "first_phalanx_cavalry"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}

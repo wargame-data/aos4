@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.gloomspite_gitz_da_king_s_gitz.glarejester",
+  "bsdataId": "faa0-9d4f-8ed4-d169",
+  "type": "enhancement",
+  "name": "Glarejester",
+  "keywords": [
+    "command_trait",
+    "faction:gloomspite_gitz_da_king_s_gitz"
+  ],
+  "effect": "Roll a D3. Add the roll to the distance the target can move when using **^^Move^^** abilities this phase. If the target ends a move in this phase within 3\" of this **^^Hero^^**, inflict an amount of mortal damage on this **^^Hero^^** equal to the roll.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Movement Phase",
+  "declare": "Pick a friendly **^^Infantry^^** unit within 3\" of this unit and that is not in combat to be the target.",
+  "color": "Gray",
+  "abilityCategory": "Movement"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.idoneth_deepkin.armour_of_the_cythai",
+  "bsdataId": "17b0-dde1-dbca-8235",
+  "type": "enhancement",
+  "name": "Armour of the Cythai",
+  "keywords": [
+    "artefact",
+    "faction:idoneth_deepkin"
+  ],
+  "effect": "If this unit has not charged this turn, subtract 1 from hit rolls for combat attacks made by enemy units while they are in combat with this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Green",
+  "abilityCategory": "Defensive"
+}

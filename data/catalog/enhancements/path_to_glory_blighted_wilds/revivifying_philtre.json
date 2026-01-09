@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.path_to_glory_blighted_wilds.revivifying_philtre",
+  "bsdataId": "86f9-ccd6-7538-957d",
+  "type": "enhancement",
+  "name": "Revivifying Philtre",
+  "keywords": [
+    "artefact",
+    "faction:path_to_glory_blighted_wilds"
+  ],
+  "effect": "**Heal (D3+3)** this unit. For the rest of the turn, this unit has **^^Ward (5+)^^**.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "timing": "Once Per Battle, Your Hero Phase",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

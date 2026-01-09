@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords.unbending_will",
+  "bsdataId": "6f74-3ca7-deb9-89e3",
+  "type": "enhancement",
+  "name": "Unbending Will",
+  "keywords": [
+    "command_trait",
+    "faction:soulblight_gravelords"
+  ],
+  "effect": "Add D6 to the target’s control score for the rest of the turn.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Your Hero Phase",
+  "declare": "Pick a friendly **^^Deathrattle^^** or **^^Deadwalkers^^** unit that has 2 or more models and is wholly within 12\" of this unit to be the target.",
+  "color": "Yellow",
+  "abilityCategory": "Control"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.soulblight_gravelords_barrow_legion.spirit_eater",
+  "bsdataId": "4e7d-9ed9-475e-3b11",
+  "type": "enhancement",
+  "name": "Spirit-eater",
+  "keywords": [
+    "command_trait",
+    "faction:soulblight_gravelords_barrow_legion"
+  ],
+  "effect": "If any models were slain by your general this turn, **Heal (D6)** your general.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "End of Any Turn",
+  "color": "Purple",
+  "abilityCategory": "Defensive"
+}

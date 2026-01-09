@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.big_waaagh.takin_names",
+  "bsdataId": "5ef4-544b-472c-a033",
+  "type": "enhancement",
+  "name": "Takin' Names",
+  "keywords": [
+    "command_trait",
+    "faction:big_waaagh"
+  ],
+  "effect": "If an enemy **^^Hero^^** is destroyed by this unit, this unit has the **^^Power of the Waaagh!^^** keyword for the rest of the battle.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Black",
+  "abilityCategory": "Special"
+}

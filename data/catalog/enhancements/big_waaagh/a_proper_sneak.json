@@ -1,0 +1,28 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.big_waaagh.a_proper_sneak",
+  "bsdataId": "d950-517f-83d4-7a23",
+  "type": "enhancement",
+  "name": "A Proper Sneak",
+  "keywords": [
+    "command_trait",
+    "faction:big_waaagh"
+  ],
+  "effect": "For the rest of the battle round, friendly **^^Big Waaagh!^^** units have **^^Ward (5+) while they are wholly within 12\" of this unit.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "timing": "Once Per Battle, Your Hero Phase",
+  "declare": "You can use this ability if this unit has the **^^Power of the Waaagh!^^** keyword and a friendly unit has not used a **^^Brutal Kunnin'^^** ability this turn.",
+  "color": "Yellow",
+  "abilityCategory": "Defensive"
+}

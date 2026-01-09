@@ -1,0 +1,26 @@
+{
+  "$schema": "https://wargamedata.com/aos4/schema/enhancement.schema.json",
+  "id": "enhancement.flesh_eater_courts.savage_abomination",
+  "bsdataId": "1042-e4ca-b676-b611",
+  "type": "enhancement",
+  "name": "Savage Abomination",
+  "keywords": [
+    "mount_trait",
+    "faction:flesh_eater_courts"
+  ],
+  "effect": "Add 1 to the Attacks characteristic of this unit’s **Companion** melee weapons.",
+  "_meta": {
+    "lastUpdated": "2026-01-09",
+    "source": "BSData import"
+  },
+  "requirements": {
+    "targetRequiresKeywords": [
+      "hero"
+    ],
+    "targetForbidsKeywords": [
+      "unique"
+    ]
+  },
+  "color": "Red",
+  "abilityCategory": "Offensive"
+}
